@@ -1,0 +1,1709 @@
+original,OriginalSign,OriginalPhraseImageCount,AIcurated,AIcuratedSign,AIcuratedPhraseImageCount,HumanCurated,HumanCuratedSign,HumanCuratedPhraseImageCount
+2 data sets,(-),1,2D,(-),2.0,-,(+) (-),3.0
+2 dimensions,(-),1,3D,(+),6.0,2D/3D,(+) (-),11.0
+2 lines to describe differences,(+),1,3D visualization,(+),2.0,a specific domain,(+) (-),5.0
+2D,(-),1,a little busier,(+),1.0,a specific technique,(+) (-),27.0
+2d geometric shapes,(-),1,a lot of text,(+),4.0,"a specific technique, e.g., bar, pie, circle",(+) (-),11.0
+3 Dimensional elements,(+),1,a lot of words,(+),3.0,abstract shapes or colors,(+),5.0
+3 aspects,(+),1,a lot of writing,(+),2.0,almost no explanation,(+),1.0
+3 axes,(-),1,abstract,(+),2.0,ambiguous numbers,(+),1.0
+3D,(+),2,abstract painting,(+),2.0,ambiguous/confusing colors,(+) (-),6.0
+3D visualization (4 dimension matrix),(+),1,additional key,(+),1.0,amount of / too many colors,(+),9.0
+4 axes,(+),1,alignment,(-),2.0,amount of words/context/numbers,(+) (-),25.0
+4 different center points,(+),1,all the text,(+),1.0,appealing colors,(+) (-),3.0
+4 or 5 axes,(+),1,almost no explanation,(+),1.0,arbitrary imaging,(+),1.0
+A few squares,(-),1,ambiguous colors,(+) (-),6.0,attention/squinting to understand,(+),4.0
+A lot more parameters,(+),1,ambiguous numbers,(+),1.0,axis meaning,(-),1.0
+A lot of colors,(+),2,amount of colors,(+),3.0,axis numbers,(-),1.0
+A lot of data,(+),2,amount of subjects,(+),1.0,axis scales,(-),1.0
+A lot of lines,(+),1,amount of text,(+),1.0,bars as individual lines,(+) (-),2.0
+A lot of shapes,(+),1,animal shapes,(+),1.0,black color,(+) (-),2.0
+A lot of text,(+),1,appealing colors,(+) (-),4.0,black-to-white/color gradient,(+) (-),7.0
+A map is easier to read than a chart,(-),1,arbitrary imaging,(+),1.0,blended colors,(+),1.0
+A plethora of datapoints,(+),1,arrow directions,(+),1.0,blue color,(+) (-),2.0
+Able to imagine a meaning,(-),2,arrows,(+),1.0,blurry colors/images,(+),3.0
+Abundance of individual objects,(+),1,axes titles,(+),1.0,bold colors,(+),1.0
+All points converges to each other so that it makes more sense,(-),1,axis,(+) (-),9.0,bright colors,(+) (-),3.0
+Almost no explanation,(+),1,axis data,(+),1.0,captions,(-),1.0
+Ammount of information,(+),1,axis labeling,(+),1.0,categorized shapes,(+),1.0
+Amount of data,(+),1,axis meaning,(-),1.0,change over time,(+),1.0
+Amount of details,(+),2,axis numbers,(-),1.0,clear and concise,(-),1.0
+Amount of information,(+),2,axis of parameters,(+),1.0,clear color uses,(+),2.0
+Amount of subjects,(+),1,axis scales,(-),1.0,clear colored bars/charts,(+),1.0
+Axes titles,(+),1,background color,(+),1.0,clear colors/shapes,(-),5.0
+Background color,(+),1,bad color contrast,(+),1.0,clear connection,(-),2.0
+Bad color choice in regard to contrasts,(+),2,bad colors/contrast,(+),1.0,clear delineation,(-),1.0
+Bar graph,(-),1,bad design,(+),1.0,clear indication,(-),4.0
+Bigger key,(+),1,bar graph,(+) (-),5.0,clear text arrangement/density,(+),3.0
+Black is discordant here.,(+),1,bars as individual lines,(+) (-),2.0,clear text/scale/information,(+) (-),4.0
+Brighter colors,(+),1,biology-related,(+),1.0,clear title/axis/label,(+) (-),11.0
+Busier layout,(+),1,black,(+) (-),2.0,clearer coloring,(-),1.0
+Can see line movement,(+),1,black and white,(-),3.0,clustered data/info,(+) (-),2.0
+Can't tell what the graph is trying to say,(+),1,black background,(+),1.0,cluttered labels/annotations,(+),2.0
+Cluttered,(+),1,black colored,(+),1.0,code/text,(+) (-),3.0
+Cluttered Labels and Annotations,(+),2,black hole images,(+),1.0,color details,(+),4.0
+Color Variability and Saturation,(+),2,black-to-white gradient,(+),1.0,color differentiation,(+),1.0
+Color coded for separating facts,(+),1,blue box,(-),1.0,color dimension,(+),3.0
+Color difference,(+),1,blue colored,(-),1.0,color hues,(-),1.0
+Color saturation,(+),1,blue shades,(+),1.0,color intensity,(+),1.0
+Color to take into account,(+),1,blue square,(+),1.0,color keys,(+),3.0
+Color variability,(+),1,blurred colors,(+),2.0,color represents groups,(-),2.0
+Colors,(+),2,blurry image,(+),1.0,color represents sounds,(+),1.0
+Colors are in the same shade,(+),1,blurry to eyes,(+),1.0,color saturation,(+),2.0
+Colors involved,(+),2,bold color variety,(+),1.0,color scale/scheme,(+) (-),5.0
+Colors make easier to read.,(+),1,bold colors,(+),1.0,color shading,(+) (-),9.0
+Colors more appealing,(-),1,boring color choice,(+),1.0,color superposition/layer,(+),2.0
+Colour variation,(+),1,box symbols,(+),1.0,color variety/arrangement/distribution,(+) (-),108.0
+Comparing different values,(+),1,bright color variety,(+),1.0,colored bars/charts,(+),1.0
+Complexity,(+),2,brighter colors,(+) (-),2.0,colored shape,(+),2.0
+Comprehensibility,(-),2,busier layout,(+),6.0,colored surface,(+),1.0
+Concept.,(+),1,cannot identify,(+),1.0,complex design,(+),2.0
+Confusing,(+),1,cannot make sense,(+),2.0,complicated to process,(+),8.0
+Confusing to understand data points,(+),1,cannot process information,(+),1.0,concentrated,(+) (-),2.0
+Context.,(+),1,cannot see content,(+),1.0,confusing connection,(+),3.0
+Contrasting patterns,(+),1,cannot understand pattern,(+),1.0,context,(-),2.0
+Curve lines,(-),1,captions,(-),1.0,context/text/description,(+),1.0
+Data correlation.,(+),1,categorized shapes,(+),1.0,convoluted composition,(+),2.0
+Data interpretation,(+),2,change over time,(+),1.0,crop production shown,(+),1.0
+Data is overlapping,(+),1,chaotic,(+),1.0,curved lines,(+) (-),3.0
+Densely packed information,(+),1,chart,(-),3.0,curves and shapes,(+) (-),7.0
+Depth and Dimensionality,(+),4,chemicals,(+) (-),2.0,data intersection,(+),1.0
+Description easy to read,(+),2,circle,(+) (-),2.0,data trend,(+),2.0
+Design.,(+),1,circle graphs,(-),2.0,dates,(+),1.0
+Details,(+),1,circle intersections,(+),1.0,dense points/lines/shapes/elements,(+) (-),8.0
+Difference of clarity,(+),2,circle size,(+),2.0,dense/cluttered data/info,(+) (-),16.0
+Different colors,(+),3,circles,(+),4.0,dense/cluttered layout,(+),11.0
+Different font sizes,(+),1,circles and colors mixed,(+),1.0,dense/cluttered shape,(+),2.0
+Different shades of colors,(+),1,circles and lines,(+),1.0,description,(-),1.0
+Different size of circles,(+),1,city,(+),1.0,description easy to read,(+),2.0
+Differing font size,(+),1,clean lines,(-),1.0,design-data relationship,(+) (-),5.0
+Dots in more or less a line,(-),1,clear,(-),2.0,detailed inscription,(+),1.0
+Ease of understanding,(+),2,clear and concise,(-),1.0,different clarity,(+) (-),2.0
+Easy to understand,(-),1,clear connection,(-),2.0,different font/word sizes/structure,(+) (-),9.0
+"Error bars, up and down",(+),1,clear labels,(+) (-),5.0,different labels,(+),1.0
+Excessive Data Points,(+),1,clear path,(-),2.0,different movement,(+),1.0
+Expected time and cognitive load to understand the key takeaway of/ key patterns suggested by the image (separating information from noise),(+),6,clear shape,(-),1.0,different word meaning,(+),1.0
+Expected time and cognitive load to understand the logic of presentation,(+),4,clear text,(-),4.0,disposition,(+),1.0
+Expected time and cognitive load to understand the majority of information in the image (separating information from noise),(+),6,clearer,(-),4.0,distinguishable color variety/arrangement/distribution,(+) (-),5.0
+Extra detail on the edge,(+),1,clearer colors,(-),1.0,distinguishable/full color uses,(+),1.0
+Few colors,(-),1,clearer title,(-),2.0,distinguishable/full/highly contrast color uses,(+),5.0
+Few details,(-),1,clearly delineated,(-),1.0,distracting/confusing/unclear,(+),25.0
+Football,(-),1,clearly see,(-),3.0,diverse information,(+),1.0
+Forbes companies,(-),1,close items,(-),2.0,"domain-specific concepts (e.g., chemical, biology, map)",(+) (-),63.0
+Geographical maps,(-),1,clustered circles,(+),2.0,drawing style,(+),2.0
+Graphs,(-),1,clustered information,(+) (-),2.0,easier to compare/discern/distinguish,(-),1.0
+Graphs take some time to understand,(+),1,cluttered,(+),8.0,easier to interpret/read/understand,(-),20.0
+Great detail,(+),1,cluttered labels/annotations,(+),2.0,easier to process/visualize,(+) (-),9.0
+Hard measure,(+),1,code meaning,(+) (-),2.0,easier to read,(-),3.0
+Hard to find exact feature,(+),1,code/text,(-),1.0,easier to see/tell/visualize,(-),4.0
+Hard to understand,(+),3,codes,(+),2.0,easy to derive meaning,(-),2.0
+Harder to understand,(+),2,color,(+),3.0,easy to focus/follow,(-),3.0
+Harder to understand hierarchy,(+),1,color arrangement,(+),1.0,easy to identify/extract/find features,(-),2.0
+Heatmap,(+),1,color bar,(+),1.0,easy to interpret/read/understand,(+) (-),63.0
+Higher contrast,(+),3,color choice,(+),1.0,easy to read,(-),1.0
+How easily I could understand the information presented.,(-),2,color codes,(+),1.0,easy to understand,(-),3.0
+How fast I can comprehend the content,(-),1,color coding,(+),3.0,element sizes,(+) (-),6.0
+How much I had to read.,(+),4,color consideration,(+),1.0,error bars,(+),1.0
+How quickly I realised what the information was showing.,(-),2,color contrast,(-),3.0,exact feature,(+),1.0
+Human interpretability,(-),2,color contrast / contrast level,(+) (-),5.0,exact value,(+),1.0
+I can easily follow,(-),1,color details,(+),2.0,explanation text,(+) (-),2.0
+I can't describe what I can't see,(+),1,color difference,(+) (-),2.0,explanatory legend,(-),1.0
+I didn't understand,(+),1,color differences,(+),2.0,eye-catching description,(+),1.0
+I didn't understand what was going on in this image,(+),1,color differentiation,(+),1.0,factual information,(+),1.0
+I do not understand the picture,(+),1,color dimension,(+),3.0,familiar representation,(+) (-),28.0
+I don't even know,(+),1,color distribution,(+),3.0,fast readability,(-),2.0
+I don't know what is being represented,(+),1,color encodes data,(+),1.0,feeling strange,(+),1.0
+I don't know what red and green indicate,(+),1,color formats,(+),1.0,few lines,(-),1.0
+I don't register what is supposed to be,(+),1,color gradient,(+),2.0,few points/lines/shapes/elements,(-),3.0
+I don't understand the chart,(+),1,color hues,(-),1.0,fewer axes,(-),1.0
+I have no idea what any of it means,(+),1,color intensity,(+),1.0,field information,(+),1.0
+I struggled to read it,(+),1,color key,(+),2.0,fine/layered details,(+),10.0
+I was more confused,(+),1,color keys,(+),1.0,font,(+),1.0
+Image of Earth with lines,(+),1,color layering,(+),1.0,frame with values,(-),1.0
+Image size,(+),1,color of dots,(+),1.0,good color contrast/separation/segmentation,(+) (-),5.0
+Imaging seemed arbitrary,(+),1,color saturation,(+),2.0,graph,(+),1.0
+Immense amount of detail,(+),1,color scale,(+),2.0,graphical information,(+),1.0
+Ineligible,(+),1,color scheme,(+) (-),4.0,grid layout,(+),1.0
+Information about what the visualisation is showing,(-),2,color segmentation,(+),1.0,hard to compare/discern/distinguish,(+),7.0
+Information density,(+),1,color separation,(-),1.0,hard to describe,(+),2.0
+Initial (intuitive) attractiveness to actually delve into the image and analyze it,(-),2,color shade changes,(+),2.0,hard to distinguish colors,(+),1.0
+Intense colors,(+),1,color shade variation,(+) (-),2.0,hard to focus/follow,(+),5.0
+Interconnectedness of Elements,(+),3,color similarity,(+),1.0,hard to identify/extract/find features,(+),6.0
+Involves colors,(+),1,color superposition,(+),1.0,hard to interpret/read/understand,(+),38.0
+Involves words/sentences,(+),1,color variation,(+),10.0,hard to interpret/read/understand/differentiate,(+),18.0
+Irregularity of the spots,(+),1,color variety,(+),4.0,hard to measure/model,(+),2.0
+It can be quite complex to work out the different category meanings.,(+),1,colored chart,(+),1.0,hard to read,(+),2.0
+It contains more information.,(+),2,colored dots,(+),1.0,hard to read shape,(+),1.0
+It has a key colour,(+),1,colored segments,(-),1.0,hard to see/tell/visualize,(+),7.0
+It has more visual aids.,(+),2,colored shape,(+),2.0,harder to view data point,(+),1.0
+It has more visual data,(+),1,colored surface,(+),1.0,hierarchical text,(+),1.0
+It is harder to read,(+),1,colorful,(-),1.0,highlighted words,(-),1.0
+It looks more visually complex.,(+),1,colors,(+),16.0,horizontal bars,(+),1.0
+It was more confusing,(+),1,colors close together,(+),1.0,icons,(+),1.0
+It's more difficult to read the words because they are small;,(+),2,colors clustered together,(+),1.0,image layout,(+),1.0
+Jerusalem,(+),1,colors have meaning,(+) (-),2.0,image location,(+),1.0
+Key is easy to understand,(+),2,colors improve readability,(+),1.0,image portrayal,(+),1.0
+Labeled axis,(+),1,colors lack meaning,(+),2.0,image size,(+),1.0
+Labels are clear,(+),2,colors represent groups,(-),1.0,inadequate/few coloring,(+) (-),8.0
+Lack of label or explanation,(+),1,colors represent sounds,(+),1.0,inconsistent,(+),1.0
+Lack of legend,(+),1,colors used,(-),1.0,indicating symbols,(+),3.0
+Large numbers,(+),2,companies,(-),1.0,indication,(-),1.0
+Larger dataset,(+),1,complex curve/shape,(+),6.0,indistinguishable/unintuitive lines,(+),5.0
+Legend too close to visualization,(+),1,complex design,(+),2.0,infomration representation,(+),1.0
+Legend too close to visualizations,(-),1,complex orange shades,(+),1.0,information nuance expressed,(+) (-),3.0
+Less attractive,(+),1,complex to process,(+),3.0,information overload,(+),2.0
+Less clear writing,(+),1,complicated,(+),5.0,intense/too many colors,(+),3.0
+Less linear,(+),1,complicated formula,(+),1.0,intersecting lines,(+),2.0
+Less organic shapes,(+),1,concentrated information,(+) (-),2.0,intuitive,(-),7.0
+Less structured,(+),1,confusing,(+),19.0,involves numbers,(+),3.0
+Less symetrical,(+),1,confusing connection,(+),3.0,irregular,(+),2.0
+Less visually familiar,(+),1,confusing numbers/letters,(+),1.0,label meaning,(+) (-),2.0
+Less words,(-),1,confusing to read,(+),1.0,labeled axis,(+),1.0
+Letter size variation,(+),1,context,(-),2.0,lack of color contrast / hard to distinguish colors,(+) (-),13.0
+Level of Detail,(+),4,contrasting colors,(-),1.0,lack of legend,(+),2.0
+Lines,(+),1,contrasting patterns,(+),2.0,lack of meaning,(+),2.0
+Looks complicated,(+),1,convoluted composition,(+),2.0,lack of/not enough axis labels/legend/annotations/context,(+) (-),36.0
+Lots of boxes,(+),1,could be difficult,(+),1.0,large dataset,(+),2.0
+Lots of colors,(+),1,countries,(+) (-),5.0,legend easy to understand,(+) (-),3.0
+Lots of information,(+),1,country,(-),2.0,legend on the top,(+),1.0
+Lots of inscription with details,(+),1,crop production shown,(+),1.0,length,(+),1.0
+Lots of lines out of other lines,(+),1,cryptic labels,(+),1.0,length variation,(+),1.0
+Lots of points,(+),1,curved lines,(+) (-),3.0,less attractive,(+),3.0
+Lots of variables,(+),2,curves and points,(-),1.0,less clear,(+),1.0
+Lots of writing,(+),1,dark and black,(+),1.0,less detailed/things,(-),1.0
+Magnification effects,(+),1,dark green,(-),2.0,less empty space,(+),1.0
+Many results in chart,(+),1,darker colors,(+),3.0,less intuitive,(+),3.0
+Meaning of titles,(-),1,dashed box,(+),1.0,less negative space,(+),1.0
+Mix of images and words,(+),1,dashed line,(+),1.0,less organic shapes,(+),1.0
+More colors,(+),10,data intersection,(+),1.0,less organized elements,(+),3.0
+More complex colour scheme,(+),1,data trend,(+),2.0,less simple,(+),1.0
+More complex designs,(+),1,data visualization,(-),1.0,less understandable,(+),1.0
+More connections and information,(+),1,dates,(+),1.0,less uniform shapes,(+),1.0
+More data,(+),2,dense dataset,(+),1.0,line movement,(+),1.0
+More data points,(+),1,densely packed,(+),4.0,line quantity representation,(+),1.0
+More details,(+),3,densely packed shapes,(+),1.0,line thickness variation,(+),1.0
+More different labels.,(+),1,denser points,(+),1.0,lines,(+),12.0
+More different shapes,(+),1,description,(-),1.0,lines and scales,(+),1.0
+More elements,(+),3,description easy to read,(+),2.0,little data/info,(+) (-),20.0
+More elements.,(+),2,design-data relationship,(+) (-),5.0,little/less text/numbers/context,(+) (-),4.0
+More individual elements,(+),1,detailed inscription,(+),1.0,looks random/messy/lack structure,(+),13.0
+More information,(+),1,difference in clarity,(+),1.0,low color contrast/separation/segmentation,(+) (-),10.0
+More informations in this image.,(+),1,different axes,(+),2.0,low readability,(+),1.0
+More items,(+),1,different clarity,(+) (-),2.0,many legend categories,(+),1.0
+More letters,(+),1,different color,(+),1.0,many measurements,(+),1.0
+More line crossing each others,(+),1,different color reduces complexity,(+),1.0,many numbers,(+),3.0
+More nuances,(+),1,different colors,(+) (-),15.0,many points/lines/shapes/elements,(+) (-),10.0
+More numbers,(+),1,different data format,(+),1.0,many/more data/info,(+) (-),6.0
+More overlapping colors,(+),1,different font sizes,(+) (-),6.0,messy/mixed up/noisy/intermingled elements,(+),11.0
+More text,(+),2,different labels,(+),1.0,metric representation,(+),1.0
+More unrelated data elements,(+),1,different shapes and sizes,(+),5.0,misaligned,(+),1.0
+More variety in shapes,(+),1,different sizes,(+),3.0,mismatched number-circle proportion,(+),1.0
+More visually stimulating,(+),1,different word meanings,(+),1.0,mixed size,(+),1.0
+More words,(+),2,different word sizes,(+),1.0,mixed timeline,(+),1.0
+Much more data,(+),1,difficult to understand,(+),23.0,monochrome,(+) (-),3.0
+Multiple color schemes,(+),1,discordant color,(+),1.0,more axes,(+),1.0
+Multiple colors and lines,(+),1,disposition,(+),1.0,more charts/points/lines/shapes/elements,(+) (-),91.0
+Multiple data points,(+),1,distinct colors,(+) (-),3.0,more colors,(+),2.0
+Multiple elements,(+),1,distinct shapes,(-),1.0,more complicated,(+),9.0
+Multiple facts,(+),1,distracting design,(+),1.0,more contrast,(+),3.0
+Multiple images,(+),1,diverse information,(+),1.0,more detailed/things,(+) (-),39.0
+Multiple shapes,(+),1,dofficult to understand,(+),1.0,more difficult,(+) (-),3.0
+NASA graph,(+),1,don't know,(+),3.0,more difficult to compare/discern/distinguish,(+),4.0
+No axis,(+),1,don't know how to interpret,(+),1.0,more difficult to focus/follow,(+),3.0
+No clear pattern,(+),1,don't know how to read,(+),1.0,more difficult to interpret/read/understand/differentiate,(+) (-),31.0
+No clear visual cut off points,(+),1,don't know meaning,(+) (-),11.0,more effort/reading/detailed analysis,(+),9.0
+No colors,(+),1,don't know where to look,(+),1.0,more forms,(+) (-),3.0
+No data entry,(+),1,don't register what it is,(+),1.0,more interpretable/readable/understandable,(-),2.0
+No explanation of data,(+),1,don't understand,(+),19.0,more intricate,(+),5.0
+No graph metrics given,(-),2,dots,(+) (-),10.0,more labels/context,(+) (-),4.0
+No graphic legend,(+),1,dots and lines,(-),1.0,more legible,(+),1.0
+No labels on axes,(+),1,dots are related,(+),1.0,more nuance information,(+),2.0
+No legends,(+),1,dots scattered,(+),1.0,more numbers,(+),2.0
+No measurements,(+),2,drawing style,(+),2.0,more parameters/variables,(+),10.0
+No numbers to identify anything,(+),1,dull blended colors,(+),1.0,more pixels,(+),1.0
+No regularity in design,(+),1,earthquake-related,(-),2.0,more reading/interpretation/understanding,(+) (-),11.0
+No regularity in design. (empty spaces for example).,(+),1,easier to compare,(-),1.0,more regions/space,(+),3.0
+Not understandable at all,(+),1,easier to decipher,(-),1.0,more squares than shapes,(+),1.0
+Num of objects/words,(-),2,easier to follow,(-),1.0,more text boxes,(+),1.0
+Number of colours,(+),1,easier to interpret,(-),5.0,more texts/words,(+),22.0
+Number of elements,(+),1,easier to process,(+) (-),7.0,more thinking,(+),1.0
+Number of individual squares,(+),1,easier to read,(-),4.0,more title/axis/label,(+) (-),8.0
+Number of letters,(+),1,easier to read and discern,(-),1.0,more to read/analyze/understand,(+),17.0
+Number of parameters,(+),1,easier to see,(-),3.0,more uniform design,(-),2.0
+Number of square,(+),1,easier to see the differences,(-),1.0,much/more data/info/info spread,(+) (-),77.0
+Number of unique shapes,(+),1,easier to understand,(-),14.0,multi-year information,(+),1.0
+Number of vertical lines,(+),1,easier to visualize,(-),2.0,multiple aspects,(+),2.0
+Numbers of colors,(+),1,easy to decipher,(-),2.0,multiple features/elements/graphs,(+) (-),16.0
+Numbers of entities,(+),1,easy to follow,(-),3.0,multiple interacting elements,(+),2.0
+Odd shapes,(+),1,easy to identify,(-),2.0,multiple interpretation,(+),1.0
+Only for trained eyes,(+),1,easy to interpret,(-),3.0,multiple points/lines/shapes/elements,(+),1.0
+Order of words,(+),1,easy to read,(-),7.0,multiple shapes,(+),2.0
+Overlapping,(+),1,easy to understand,(+) (-),27.0,multivariate,(+),1.0
+Overlapping circles,(+),1,element size,(+) (-),4.0,negative space,(+),1.0
+Pictures are more scattered,(+),1,error bars,(+),1.0,network representation,(+),1.0
+Pixeled picture,(+),1,exact feature,(+),1.0,no clear indication,(+),5.0
+Plotted points,(+),1,exact value,(+),1.0,no color,(+),1.0
+Poor Color Choices,(+),1,explanation text,(+) (-),2.0,no color difference,(+),1.0
+Processing information is not possible,(+),1,explanatory legend,(-),1.0,no context or reference,(+),6.0
+Prominent colors,(+),1,eye-catching descriptions,(+),1.0,no data,(+),1.0
+Proportions of the numbers don't match size of the circles,(+),1,factual information,(+),1.0,no detail,(+),2.0
+Proximity of items,(-),2,familiar domain,(+) (-),2.0,no interaction,(-),1.0
+Quantity of items,(+),1,familiar geographic shape,(+) (-),2.0,no measurement/metric,(+),1.0
+Random letters,(+),1,familiar representation,(-),17.0,no measurement/metric/axis,(+) (-),7.0
+"Range of colours, presumably conveying meaning.",(-),2,familiar symbols,(-),1.0,no more information,(+),1.0
+Readability,(+),3,fast readability,(-),2.0,no square information,(+),1.0
+Reading the values,(+),1,few colors,(-),1.0,nodes,(-),1.0
+Seems more mathematical,(+),1,few data points,(-),3.0,nonlinear measurement/metric/axis,(+),1.0
+Significantly more information,(+),1,few items,(-),1.0,nonlinearity,(+),2.0
+Simple colored,(-),1,few lines,(-),3.0,not easily understood,(+),2.0
+Simplistic symbol,(-),1,fewer axes,(-),1.0,not enough knowledge to tell,(+) (-),3.0
+Size,(+),1,fewer elements,(-),2.0,not interpretable/readable/understandable,(+),33.0
+Small arrows,(+),1,field information,(+),1.0,not intuitive/simple data,(+) (-),6.0
+Small details,(+),2,fine detail,(+),2.0,not simple color-wise,(+),2.0
+Small font sizes,(+),1,fine details,(+),8.0,nothing clear,(+),2.0
+Small numbers,(-),1,font,(+),1.0,nothing visible,(+),1.0
+Small table,(+),1,four axes,(+),1.0,number distribution,(+),1.0
+Small text,(+),1,four labeled axes,(+),1.0,number of legend items,(-),2.0
+Smooth lines,(-),1,frame with values,(-),1.0,number of levels,(+) (-),3.0
+So many details,(+),1,frightening,(+),1.0,number of vertical lines,(+),1.0
+Soft colors more applealing,(+),1,full color image,(+),1.0,numbers and shapes,(+),1.0
+Spread of information,(-),2,geo map,(+),1.0,order of words,(+),1.0
+Spread of information on the image,(+),3,good color choice,(-),1.0,ordered,(-),3.0
+Table,(-),1,graph,(+) (-),7.0,organized/structured,(+) (-),8.0
+Text and imagery,(+),1,graphic,(-),1.0,overall shape,(+),1.0
+Text is small,(+),1,graphical information,(+),1.0,overlapping shapes/colors/lines,(+),25.0
+Text is to small,(+),1,graphs,(+) (-),2.0,pixeled picture,(+),1.0
+Text not easily readable.,(+),1,green,(+),1.0,plots,(+),1.0
+Text on top of pictures,(+),1,grid,(+) (-),2.0,precision of aspect,(+),1.0
+Text to read,(+),1,grid layout,(+),1.0,precision of lines,(+),1.0
+The additional layer of words adds complexity.,(+),1,hard to ascertain,(+),2.0,provokes thought and understanding,(+) (-),3.0
+"The bigger the word, the most often the use.",(-),1,hard to describe,(+),2.0,random-like movement,(+) (-),2.0
+The colors are harder to look at for me,(+),1,hard to differentiate,(+),2.0,random-like shapes,(+) (-),3.0
+The colors blends,(+),1,hard to discern,(+),3.0,read/analyze many figures/items,(+),4.0
+The data covers a large number of years.,(+),2,hard to distinguish,(+),1.0,readability,(+) (-),10.0
+The ease of reading the image,(-),1,hard to distinguish colors,(+),2.0,readable/distinguishable colors,(+),1.0
+The font,(+),1,hard to extract,(+),1.0,recognizable objects,(-),1.0
+The image contains a greater variety of colours.,(+),2,hard to find feature,(+),1.0,regions,(+),1.0
+The imagery is more intense in the first.,(+),1,hard to focus,(+),3.0,representation,(+),2.0
+The inclusion of connections between different points in the image,(+),1,hard to follow,(+),2.0,require specialized knowledge,(+),2.0
+The info doesn't seem to follow a specific pattern.,(+),2,hard to identify,(+),3.0,salient colors,(+),1.0
+The info is more varied.,(+),2,hard to identify differences,(+),1.0,same colors,(+),1.0
+The level of attention it requires to read the image,(+),1,hard to interpret,(+),12.0,scale difference,(+) (-),4.0
+The level of information,(+),1,hard to measure,(+),1.0,"scattered shapes (e.g., dots, squares, pictures)",(+),6.0
+The line allows for processing,(+),1,hard to model,(+),1.0,separate color scales,(+),1.0
+The number of graphic elements in each image,(+),1,hard to parse,(+),1.0,separate values by color to show differences,(+),1.0
+The size,(+),1,hard to read,(+),10.0,several elements,(+) (-),5.0
+The time it takes to read the image,(+),1,hard to read shape,(+),1.0,shape,(-),1.0
+The use of words rather than dots makes it more complex.,(+),1,hard to see,(+),3.0,shape arrangement,(+),2.0
+Thick and thinness,(+),1,hard to solve,(+),1.0,shape increase/decrease point,(+) (-),3.0
+Time to evaluate context,(+),1,hard to tell,(+),1.0,shape indicators,(+),1.0
+Tiny writing,(+),1,hard to visualize,(+),2.0,shape misunderstanding,(+),1.0
+To many colors,(+),1,harder to view data points,(+),1.0,shape point of interest,(+),3.0
+Too dark,(+),1,harsh color,(+),1.0,shape position,(+) (-),3.0
+Too many circles,(+),1,heat map,(+) (-),3.0,shape size,(+),3.0
+Too many colors,(+),2,hierarchical text,(+),1.0,shape size variation,(+),9.0
+Too many lines,(+),1,high information volume,(-),3.0,shape subset representation,(+),1.0
+Too many moving parts,(+),1,high number of entries,(+),1.0,shape variation,(+),4.0
+Too many sections,(+),1,higher contrast,(+),3.0,shape variety,(+) (-),8.0
+Too many shapes,(+),1,highlighted words,(-),1.0,shape-color mix,(+),1.0
+Too many similar colors,(+),1,histogram,(-),1.0,shapes,(+) (-),16.0
+Too many variables,(+),1,horizontal bars,(+),1.0,shapes and contrasts,(+),3.0
+Too much information,(+),2,hurts eyes,(+),2.0,shapes and lines,(+) (-),28.0
+Totally arbitrary color application.,(+),1,icons,(+),1.0,shapes varied,(+),1.0
+Two different axes,(+),1,identical colors,(+),1.0,similar box sizes,(+),1.0
+Ugly calligraphy,(+),1,image coloring,(+),1.0,similar colors,(+),1.0
+Unclear of relations between words,(+),1,image layout,(+),1.0,similar shapes,(+),1.0
+Unclear on color values,(+),1,image location,(+),1.0,simple information,(-),2.0
+Unclear.,(+),1,image of Earth,(+) (-),2.0,simple to interpret/read/understand,(-),6.0
+Understanding different value rankings,(+),1,image portrayal,(+),1.0,simple visual elements,(+) (-),6.0
+Understanding of what I am looking at,(+),1,image size,(+),1.0,single font,(-),1.0
+Understanding the information,(+),1,inadequate coloring,(+),1.0,single variable,(-),1.0
+Understanding the shapes,(+),1,inconsistent,(+),1.0,size,(+),1.0
+Understanding what the visualization is about,(+),2,indications,(-),1.0,size decreasing,(-),2.0
+Uneven shape,(+),1,indistinguishable/unintuitive lines,(+),5.0,size variation,(+) (-),2.0
+Unfamiliar design,(+),1,infomration representation,(+),1.0,small,(+),1.0
+Unlabeled legend/data,(+),2,information density,(+) (-),6.0,small and simple,(+) (-),2.0
+Use of alpha and beta,(+),1,information nature,(+),2.0,smooth lines,(-),1.0
+Use of ambiguous colors,(+),1,information nuance expressed,(+) (-),3.0,soft/layered/overlapping colors,(+) (-),7.0
+Use of color,(-),1,information overload,(+),2.0,spatial organization,(+) (-),3.0
+Values - Graphic and vales have logic,(+),1,information packed,(+),1.0,squares,(+),1.0
+Values - Graphic and values have logic,(+),1,inseparable colors,(+),1.0,stimulus less visible,(+),1.0
+Variation in Colors,(+),1,intense colors,(+),2.0,straight lines,(-),4.0
+Variety and Density of Elements,(+),4,intermingled elements,(+),2.0,striped texture,(-),1.0
+Variety of Shapes and Patterns,(+),2,interpretation challenging,(+),1.0,struggled to read,(+),1.0
+Variety of data in square,(+),1,involves colors,(+),3.0,symbols,(+) (-),3.0
+Various geometrical shapes,(+),1,involves numbers,(+),1.0,symbols and shading,(+),1.0
+Various lines representing different quantities,(+),1,involves text,(+),1.0,take longer to interpret,(+),27.0
+Vast use of colorization,(+),1,irregular pattern,(+),1.0,technical encoding,(+),2.0
+Very busy,(+),1,jumbled graphs,(+),2.0,text,(+),1.0
+Virtually impossible to decipher to layman,(+),1,key,(+) (-),2.0,text and imagery,(+),3.0
+Visual clarity,(+),1,key easy to understand,(+) (-),3.0,text hard to read,(+),2.0
+Volume of information,(+) (-),5,key on top,(+),1.0,text on picture,(+),1.0
+Wavelet Coefficients,(+),1,kid drawing,(+),1.0,text ratio,(+),1.0
+Way more information,(+),1,label meaning,(+) (-),2.0,texture details,(+),3.0
+What the colors represent,(+),1,labeled axis,(+),1.0,title/axis/label/descriptions,(+) (-),46.0
+Why is it moving like that.,(+),1,labels,(+) (-),8.0,too many colors,(+),5.0
+Word amount,(+),1,lack of color diversity,(+),1.0,too many details/divisions,(+),5.0
+Word meaning difference,(+),1,lack of legends,(+),1.0,too many numbers,(+),1.0
+Words,(+),2,lack of text,(+),2.0,too many points/lines/shapes/elements,(+),3.0
+Words are easier to understand,(-),1,lacks blue contrast,(+),1.0,too many sections,(+),1.0
+Words are not oriented the same,(+),1,lacks clarity,(+),1.0,too many subjects,(+),1.0
+World maps are well known for everybody,(-),1,lacks context,(+),1.0,too many subplots,(+),1.0
+X and Y axis,(-),1,large key,(+),1.0,too more points/lines/shapes/elements,(+),1.0
+a bit harder to understand,(+),1,large numbers,(+),2.0,too much data/info,(+),7.0
+a bit more complicated,(+),1,larger dataset,(+),2.0,too much legend,(+) (-),15.0
+a cluster of information,(+),1,layered color,(+),1.0,two colors,(+) (-),4.0
+a continent with countries,(-),1,layers of details,(+),1.0,unable to remember,(+),1.0
+a different color would make the image less complex,(+),1,legend,(+) (-),10.0,unable to sort,(+),1.0
+a few lines,(-),1,legend adds complexity,(+) (-),3.0,unclear color meaning,(+) (-),11.0
+a few lines joined,(-),1,length,(+),1.0,unclear coloring,(+) (-),10.0
+a few of the words,(-),1,length variation,(+),1.0,unclear colormaps,(+) (-),38.0
+a gradient,(+),1,less attractive,(+),1.0,unclear colors/contrast,(+),8.0
+a key,(-),1,less clear,(+),2.0,unclear filled bars,(+),1.0
+a key with color coding,(+),1,less color,(+),2.0,unclear meaning,(+) (-),10.0
+a large number of variables (countries),(+),2,less complex,(-),2.0,unclear meaning/confusing,(+) (-),34.0
+a legend,(+),1,less details,(-),1.0,unclear movement,(+),2.0
+a limited color range,(-),1,less information,(-),2.0,unclear relation between words,(+),6.0
+a line of points,(-),1,less intuitive,(+),1.0,unclear shape,(+),1.0
+a little bit busier,(+),1,less organic shapes,(+),1.0,unclear shape meaning,(+),4.0
+a little confusing,(+),1,less organization,(+),3.0,unclear structure,(+),3.0
+a lot going on,(+),3,less simple,(+),1.0,unclear what data conveys,(+) (-),9.0
+a lot more aspects,(+),1,less straightforward,(+),2.0,unclear where to look/what to see,(+),1.0
+a lot more images to look at,(+),1,less structured,(+),3.0,understand/read shapes,(+),5.0
+a lot more involved,(+),1,less text,(+) (-),3.0,uneven shape,(+),1.0
+a lot more to understand,(+),1,less understandable,(+),1.0,unfamiliar concepts/patterns,(+),38.0
+a lot of charts,(+),1,less uniform shapes,(+),1.0,uninterpretable ranking,(+),1.0
+a lot of color and text,(+),1,less visually appealing,(+),1.0,unique,(+),1.0
+a lot of colors,(+),3,less white,(+),1.0,unique data point,(+),1.0
+a lot of data points,(+),2,letter size variation,(+),1.0,unknown hidden content,(+),1.0
+a lot of details,(+),1,letter structure,(+),1.0,unreadable,(+),2.0
+a lot of details and figures,(+),1,limited color range,(-),2.0,value and graphic alignment,(+) (-),2.0
+a lot of different bits of data interacting,(+),1,line intersections,(+),3.0,value representation,(+),1.0
+a lot of different colors,(+),1,lineages,(+),1.0,values in the middle,(+),1.0
+a lot of different species,(+),1,lines,(+),17.0,very different colors,(+),1.0
+a lot of fine detail,(+),1,lines and scales,(+),1.0,visual clarity/appealing,(+) (-),6.0
+a lot of info,(+),1,lines and shapes,(+),1.0,visual cues,(+),1.0
+a lot of information,(+),3,lines of text,(-),1.0,visualization meaning,(+),1.0
+a lot of information to take in,(+),2,lines represent different quantities,(+),1.0,visually overwhelming,(+),1.0
+a lot of lines,(+),2,link,(-),1.0,visually stimulating  texture/colors,(+),2.0
+a lot of little boxes,(+),1,little information,(+) (-),3.0,visually striking,(+),1.0
+a lot of numbers,(+),1,little to no numbers,(+),1.0,waterfall-like,(+),1.0
+a lot of pictures and words,(+),1,looking for pattern,(+),1.0,white color on black background,(+),1.0
+a lot of shapes,(+),2,looks like waterfall,(+),1.0,white/black background / other background,(+),4.0
+a lot of similar instances,(-),1,lot of words,(+),2.0,with legend,(+),1.0
+a lot of stuff writting,(+),1,lots of colors,(+),6.0,word frequency,(-),2.0
+a lot of terms,(+),1,lots of numbers,(+),2.0,word misoriented,(+),1.0
+a lot of text,(+),1,lots of text,(+),1.0,word rotation/small font size,(+) (-),22.0
+a lot of useful information,(+),1,lots of words,(+),1.0,word source,(-),1.0
+a lot of word,(+),1,lots of writing,(+),1.0,word/text/sentence,(+) (-),21.0
+a lot of words,(+),1,low contrast,(+),1.0,words and numbers,(-),1.0
+a lot of writing,(+),1,low readability,(+),1.0,x-axis unlabeled,(+),1.0
+a map,(-),1,many circles,(+),1.0,y-axis meaning unclear,(+),1.0
+a mess,(+),1,many colors,(+),1.0,,,
+a multitude of observations,(+),1,many cubes,(+),1.0,,,
+a process,(+),1,many data points,(+),2.0,,,
+about earthquake,(-),1,many different colors,(+),1.0,,,
+abstract,(+),1,many dots,(+),2.0,,,
+abstract painting,(+),2,many elements,(+),9.0,,,
+abstract shapes,(+),1,many intersections,(+),2.0,,,
+abstraction,(+),1,many legend categories,(+),1.0,,,
+adds extra challenge to read it,(+),1,many lines,(+),2.0,,,
+alignment,,1,many numbers,(+),4.0,,,
+all dots were related,(+),1,many points,(+),1.0,,,
+all it's detail,(-),1,many shapes,(+),5.0,,,
+all new to me,(+),1,many small details,(+),1.0,,,
+all the text,(+),1,many small writings,(+),1.0,,,
+all very different,(+),1,many text boxes,(+),1.0,,,
+allow to analyze the data,(-),1,many things in one area,(+),1.0,,,
+alphabetical ordered,(-),1,many writings,(+),1.0,,,
+ambiguous colors,(+),1,many/more colors,(+),24.0,,,
+ambiguous numbers,(+),1,map,(+) (-),25.0,,,
+amount of colors,(+),2,map colors,(-),1.0,,,
+amount of colour used,(+),1,matrix pattern,(-),1.0,,,
+amount of elements higher,(+),1,messy,(+),7.0,,,
+amount of information,(+),1,messy graph,(+),1.0,,,
+amount of informations,(+),1,metric representation,(+),1.0,,,
+amount of items,(+),1,misaligned,(+),1.0,,,
+amount of shapes,(+),1,mismatched number-circle proportions,(+),1.0,,,
+amount of text,(+) (-),2,mixed colors,(+),4.0,,,
+amount of words describing data,(+),1,mixed text sizes,(+),1.0,,,
+amount of words in columns,(+),1,mixed up,(+),1.0,,,
+an additional key,(+),1,mixed with timeline,(+),1.0,,,
+and layering of the colors,(+),1,mixed words,(+),1.0,,,
+animal shapes,(+),1,monochrome,(+) (-),3.0,,,
+apparent flow,(-),1,more areas,(+),1.0,,,
+arrangement of colors,(+),1,more axes,(+),1.0,,,
+arrangement of shapes,(+),1,more boxes,(+),2.0,,,
+arrows pointing in different directions,(+),1,more charts,(+),3.0,,,
+assortment of bigger red boxes,(+),1,more cluttered,(+),1.0,,,
+at a glance,(-),1,more color,(+),4.0,,,
+at first glance the dots were hard to visualise,(+),1,more colors,(+),11.0,,,
+axes,(+),1,more complicated,(+),8.0,,,
+axis,(-),3,more confusing,(+),1.0,,,
+axis data,(+),1,more content,(+),2.0,,,
+axis labeling,(+),1,more context,(-),1.0,,,
+axis of parameters,(+),1,more contrast,(+),3.0,,,
+background white,(+),1,more data,(+),13.0,,,
+bad choice of colors,(+),1,more data lines,(+),1.0,,,
+bad design of the graph,(+),1,more data points,(+),7.0,,,
+bar chart,(+),1,more data to comprehend,(+),7.0,,,
+bar graph,(-),1,more detail,(+),4.0,,,
+bar graphs,(+),1,more detailed,(+),2.0,,,
+bars being individual lines.,(+),1,more details,(+) (-),23.0,,,
+bars extending horizontally,(+),1,more different labels,(+),1.0,,,
+basic graph,(-),1,more difficult,(+) (-),3.0,,,
+big text and smaller text,(+),1,more difficult to compare,(+),1.0,,,
+bit easier to understand,(-),1,more difficult to decipher,(+),1.0,,,
+black,(+),1,more difficult to discern,(+),2.0,,,
+black and white,(-),3,more difficult to distinguish,(+),1.0,,,
+black background,(+),1,more difficult to focus,(+),1.0,,,
+black changes into white,(+),1,more difficult to follow,(+),2.0,,,
+black color grabbed attention,(+),1,more difficult to interpret,(+),3.0,,,
+blue box,(-),1,more difficult to read,(+),8.0,,,
+blue colored,(-),1,more difficult to read and differentiate,(+),1.0,,,
+blue squares,(+),1,more difficult to read and discern,(+),1.0,,,
+blurred purple and green boxes,(+),1,more difficult to see,(+),1.0,,,
+blurring and color overlay,(+),1,more difficult to understand,(+) (-),16.0,,,
+boxes,(+),2,more dots,(+),3.0,,,
+brands don't recognize,(+),1,more elements,(+) (-),17.0,,,
+break down what it means,(-),1,more everything,(+),1.0,,,
+brighter,(-),1,more factors to consider,(+),6.0,,,
+bunch of words mixed,(+),1,more forms,(+) (-),3.0,,,
+can be confusing,(+),1,more going on,(+),7.0,,,
+can clearly see the data,(-),1,more graphic elements,(+),1.0,,,
+can easily be read,(-),1,more groups,(+),1.0,,,
+can easily be remembered,(-),1,more images,(+),2.0,,,
+can easily deduce,(-),1,more information,(+) (-),46.0,,,
+can not read them,(+),1,more information spread,(+) (-),3.0,,,
+can see at a glance,(-),1,more information to process,(+),2.0,,,
+can see words,(-),2,more information to think about,(+),1.0,,,
+can understand more quickly,(-),1,more information types,(+),2.0,,,
+can't identify,(+),1,more intricate,(+),5.0,,,
+can't tell what the image is about,(+),1,more involved,(+),1.0,,,
+can't understand them,(+),1,more items,(+),6.0,,,
+cannot make sense of it,(+),1,more labeled information,(+),1.0,,,
+cannot understand,(+),1,more labels,(-),1.0,,,
+cannot understand the pattern,(+),1,more legible,(+),1.0,,,
+captions,(-),1,more letters,(+),1.0,,,
+challenging to distinguish,(+),1,more lines,(+),6.0,,,
+challenging to identify,(+),1,more nuance information,(+),2.0,,,
+changing fonts,(-),1,more numbers,(+),2.0,,,
+chaotic,(+),1,more objects,(+) (-),4.0,,,
+chart,(-),1,more parameters,(+),1.0,,,
+chart showing frequency of words,(-),1,more pixels,(+),1.0,,,
+chart with labels,(-),1,more points,(+),3.0,,,
+charted map,(+),1,more points/shapes,(+),1.0,,,
+chemical compounds,(-),1,more regions,(+),1.0,,,
+chemicals,(+),1,more shape variation,(+),4.0,,,
+choice of colors,(+),1,more shapes,(+) (-),8.0,,,
+circle,(+),1,more shapes of different sizes,(+),1.0,,,
+circle graphs,(-),2,more shapes/details,(+),1.0,,,
+circles,(+),4,more space taken,(+),3.0,,,
+circles and colors mixed together,(+),1,more squares,(+),1.0,,,
+circles and lines,(+),1,more squares than dots,(+),1.0,,,
+circles of various sizes,(+),1,more text,(+),6.0,,,
+circles of varying size,(+),1,more things,(+),1.0,,,
+clarity,(-),1,more to analyze,(+),1.0,,,
+clean lines,(-),1,more to understand,(+),5.0,,,
+cleaner,(-),1,more understandable,(-),2.0,,,
+clear,(-),2,more uniform design,(-),2.0,,,
+clear and clean,(-),1,more variables,(+),7.0,,,
+clear and concise,(-),1,more words,(+),10.0,,,
+clear and concise key,(-),1,more words in columns,(+),1.0,,,
+clear color difference,(-),1,more writing,(+),4.0,,,
+clear connection,(-),1,much easier,(-),1.0,,,
+clear image,(-),1,multi-year information,(+),1.0,,,
+clear path to follow,(-),1,multiple areas,(+),1.0,,,
+clear shape,(-),1,multiple aspects,(+),2.0,,,
+clear text,(-),2,multiple axes,(+) (-),6.0,,,
+clearer,(-),4,multiple colors,(+),4.0,,,
+clearer colors,(-),1,multiple components,(+),3.0,,,
+clearer what I can learn,(-),1,multiple copies,(-),1.0,,,
+clearly delineated,(-),1,multiple elements,(+),1.0,,,
+clearly link to legend,(-),1,multiple features,(+),4.0,,,
+clearly see,(-),1,multiple graphic elements,(+),1.0,,,
+clearly visible at a glance,(-),1,multiple graphics,(+),4.0,,,
+clueless,(+),1,multiple graphs,(+),1.0,,,
+clustering of circles,(+),1,multiple interacting elements,(+),2.0,,,
+clustering of the circles,(+),1,multiple interpretations,(+),1.0,,,
+cluter on screen,(+),1,multiple shapes,(+),2.0,,,
+cluttered,(+),1,multivariate,(+),1.0,,,
+code/text,(-),1,muted colors,(+),1.0,,,
+codes,(+),1,names,(+),1.0,,,
+cohesive whole,(-),1,nasa graph,(+),1.0,,,
+collection of 3 dots,(-),1,need detailed analysis,(+),3.0,,,
+color,(+),3,need focus,(+),1.0,,,
+color bar,(+),1,need to read many figures,(+),1.0,,,
+color code,(+),1,needs a lot of reading,(+),3.0,,,
+color coding,(+),1,needs more effort,(+),1.0,,,
+color contrast,(-),2,needs more study,(+),1.0,,,
+color contrast really weird,(+),1,needs understanding,(+) (-),2.0,,,
+color differences,(+),2,negative space illusion,(+),1.0,,,
+color dimension (one versus two),(+),1,network,(+),2.0,,,
+color distribution,(+),1,network representation,(+),1.0,,,
+color formats,(+),1,never seen,(+),1.0,,,
+color gradient,(+),1,no axis,(+),2.0,,,
+color hard to identify,(+),1,no axis labels,(+),1.0,,,
+color hues,(-),1,no clear indication,(+),5.0,,,
+color intensity.,(+),1,no clue,(+),2.0,,,
+color keys,(+),1,no color difference,(+) (-),2.0,,,
+color more layered,(+),1,no colors,(+),1.0,,,
+color of dots,(+),1,no context,(+) (-),5.0,,,
+color of the images,(+),1,no data,(+),1.0,,,
+color scale,(+),2,no description,(+),1.0,,,
+color scheme,(-),1,no detail,(+),2.0,,,
+color scheme hard on eyes,(+),1,no explanation of data,(+),2.0,,,
+color scheme of wording,(+),1,no font,(+),1.0,,,
+color separation,(-),1,no graphic legend,(+),1.0,,,
+color superposition,(+),1,no grid,(+),1.0,,,
+color variation,(+),2,no idea,(+) (-),5.0,,,
+color variety,(+),1,no idea what image is,(+),1.0,,,
+colored dots,(+),1,no idea what it represents,(+) (-),3.0,,,
+colored graphic chart,(+),1,no interaction,(-),1.0,,,
+colored in a certain shape,(+),1,no key for data,(+),1.0,,,
+colored segments,(-),1,no legend,(+),4.0,,,
+colored surface,(+),1,no legends,(+),3.0,,,
+colorful,(-),1,no measurements,(+),2.0,,,
+colors,(+),14,no metrics,(+) (-),3.0,,,
+colors are bold,(+),1,no more information,(+),1.0,,,
+colors are difficult to tell apart,(+),1,no numbers,(+),2.0,,,
+colors are easy on the eyes,,1,no pattern,(+),4.0,,,
+colors are similar,(+),1,no regularity,(+),1.0,,,
+colors are too similar,(+),1,no square information,(+),1.0,,,
+colors distribution,(+),2,no text,(+),2.0,,,
+colors dont carry any meaning,(+),1,no titles,(+),2.0,,,
+colors drew me in,(+),1,no written information,(+),1.0,,,
+colors dull and blended,(+),1,nodes,(-),1.0,,,
+colors have no meaning,(+),1,noisy,(+),2.0,,,
+colors in the map,(-),1,non-familiar layout,(+),1.0,,,
+colors in the same area,(+),1,nonlinear y-axis,(+),1.0,,,
+colors on both side left are identical,(+),1,nonlinearity,(+),2.0,,,
+colors representing groups,(-),1,not clear,(+),3.0,,,
+colors strongly contrasting,(+),1,not easily decipherable,(+),3.0,,,
+colors to represent sounds,(+),1,not easily understood,(+),1.0,,,
+colors used,(-),1,not intuitive,(+) (-),5.0,,,
+columns and rows,(-),1,not much color,(+),1.0,,,
+comfortable for the eyes,(-),1,not simple color-wise,(+),2.0,,,
+common knowledge,(-),1,not simple data,(+),1.0,,,
+compare images and determine which one is the closest representation of the concept they are trying to convey.,(+),1,not sure,(+),4.0,,,
+completely in color (no white),(+),1,not to the point,(+) (-),2.0,,,
+complex graph design,(+),1,not understandable,(+),1.0,,,
+complex shapes,(+),1,nothing clear,(+),2.0,,,
+complexity in shapes,(+),2,nothing understood,(+),1.0,,,
+complicated at first glance,(+),1,nothing visible,(+),1.0,,,
+complicated formulas and symbols,(+),1,novel pattern,(+),1.0,,,
+complicated to look at,(+),1,number distribution,(+),1.0,,,
+composition is more convoluted,(+),1,number of colors,(+) (-),7.0,,,
+comprehend the context and process the provided information.,(+),1,number of legend items,(-),2.0,,,
+computer screen,(-),1,number of levels,(+) (-),3.0,,,
+condensate,(+),1,number of vertical lines,(+),1.0,,,
+confusing,(+),2,numbers,(+) (-),5.0,,,
+confusing and complex to understand,(+),1,numbers and annoations,(+),2.0,,,
+"confusing numbers, letters",(+),1,numbers and legend,(+),1.0,,,
+confusing overall understandability,(+),1,numbers and shapes,(+),1.0,,,
+confusing to read,(+),2,numbers lack meaning,(+),4.0,,,
+confusion,(+),2,numerical details,(-),1.0,,,
+connection to surroundingsfeels confusing,(+),1,numerical values,(+),3.0,,,
+"connections feel arbitrary, irregular",(+),1,one font,(-),1.0,,,
+contains more information,(+),1,one variable,(-),1.0,,,
+context,(-),1,only for trained eyes,(+),1.0,,,
+contrast,(-),1,orange shades,(+),1.0,,,
+contrast of colors,(+),1,order of words,(+),1.0,,,
+contrast of the colors,(+),1,ordered,(-),3.0,,,
+contrasting colors,(-),1,organized,(+) (-),7.0,,,
+conveying more data,(+),1,overall shape,(+),1.0,,,
+could be difficult,(+),1,overlapping,(+),5.0,,,
+could gather what it meant,(-),1,overlapping circle areas,(+),1.0,,,
+couldnt`see the content,(+),1,overlapping circles,(+),1.0,,,
+countries,(+),3,overlapping colors,(+),3.0,,,
+country,(-),2,overlapping data points,(+),1.0,,,
+country related,(-),1,overlapping features,(+),1.0,,,
+country shapes,(-),2,overlapping lines,(+),7.0,,,
+cross at the bottom,(+),1,overly colorful,(+),2.0,,,
+crossing and overlapping of the lines,(+),1,packed with information,(+),2.0,,,
+crossing each other,(+),1,pattern,(+) (-),8.0,,,
+curve seems complex,(+),1,pellet looking things,(+),1.0,,,
+curved lines,(+),1,phylogenetic tree,(+),2.0,,,
+curves and different points,(-),1,physical dimension,(+),1.0,,,
+dark and black,(+),1,picture,(+),1.0,,,
+dark green,(-),2,pie chart,(+) (-),2.0,,,
+darker,(+),2,pixeled picture,(+),1.0,,,
+darker/denser area,(+),1,plots,(+),1.0,,,
+dashed box,(+),1,point position,(+) (-),3.0,,,
+dashed line,(+),1,points of increase/decrease,(+) (-),3.0,,,
+data are easier to see,(-),1,points of interest,(+),3.0,,,
+data in  different format,(+),1,poor color choice,(+),3.0,,,
+data points are closer,(+),1,precise naming,(-),1.0,,,
+data visualizations,(-),1,precision of aspects,(+),1.0,,,
+dates,(+),1,precision of lines,(+),1.0,,,
+decipher while reading,(+),1,process,(+),2.0,,,
+deductions can be taken,(-),1,programming,(+),1.0,,,
+dense clutter of elements,(+),1,prominent colors,(+),1.0,,,
+dense data set,(+),1,provokes thought,(+) (-),3.0,,,
+densely packed shapes,(+),1,random meaningless names,(+),3.0,,,
+density of information,(-),2,random-like data movement,(+),1.0,,,
+density of text,(+),1,random-like movement,(-),1.0,,,
+depth,(+),1,random-like shapes,(+) (-),3.0,,,
+description,(-),1,range of colors,(+),1.0,,,
+descriptions are eye catching,(+),1,ranking,(-),1.0,,,
+"design, data and concept",(+),1,readability,(+),6.0,,,
+details,(+),3,readable text,(-),1.0,,,
+details are finer and more intricate,(+),1,recognizable objects/map,(-),1.0,,,
+did not know the countries highlighted,(+),1,recognizable words,(-),1.0,,,
+did not know what data to convey,(+),1,red colors,(+),1.0,,,
+didn't think it imply anything too complicated,(-),1,reduces the effort to comprehend,(-),5.0,,,
+didn't understand,(+),2,regions,(+),1.0,,,
+didn't understand what the colors represent,(+),1,repeated text,(+),1.0,,,
+didn't understand what was going on,(+),1,representation,(+),2.0,,,
+different axes,(+),1,require careful examination,(+),1.0,,,
+different axis,(+),1,require hard thinking,(+),2.0,,,
+different bars,(+),1,require reading each item,(+),1.0,,,
+different color,(+),1,require specialized knowledge,(+),2.0,,,
+different color codes,(+),1,require squinting to understand,(+),1.0,,,
+different colors,(-),12,requires concentration,(+),2.0,,,
+different colors are confusing,(+),1,requires more interpretation,(+),3.0,,,
+different fonts,(+),1,requires more understanding,(+),1.0,,,
+different labels,(+),1,requires reading,(+),1.0,,,
+different shades,(-),1,same color,(+),1.0,,,
+different shades of orange,(+),1,scale,(-),1.0,,,
+different shapes,(+),1,scale difference,(+) (-),4.0,,,
+different shapes and sizes,(+),1,scatter plot,(+),1.0,,,
+different shapes of data points,(+),1,scattered,(+),2.0,,,
+different sizes,(+),1,scientific method,(+),2.0,,,
+different sizes of font,(+),1,see line movement,(+),1.0,,,
+different visual elements,(-),1,seismic graph,(-),2.0,,,
+different volume,(+),1,selected words,(+),1.0,,,
+different word sizes,(+),1,self explanatory,(-),2.0,,,
+differnent sizes/figures,(+),1,separate color scale,(+),1.0,,,
+difficult for me to describe,(+),1,several elements,(+) (-),5.0,,,
+difficult to analyze,(+),1,several measurements,(+),1.0,,,
+difficult to ascertain,(+),1,several more colors,(+),1.0,,,
+difficult to comprehend,(+),2,shape,(+) (-),3.0,,,
+difficult to comprehend at first glance,(+),1,shape arrangement,(+),1.0,,,
+difficult to discern,(+),2,shape hard to read,(+),2.0,,,
+difficult to focus on,(+),1,shape indicators,(+),1.0,,,
+difficult to focus on the image for long,(+),1,shape misunderstanding,(+),2.0,,,
+difficult to follow,(+),2,shape size,(+),1.0,,,
+difficult to identify differences in information,(+),1,shape varation,(+),1.0,,,
+difficult to keep my eyes on,(+),1,shape-related,(+),1.0,,,
+difficult to model,(+),1,shapes,(+) (-),15.0,,,
+difficult to parse,(+),1,shapes and contrasts,(+),3.0,,,
+difficult to read,(+),4,shapes and lines,(+),1.0,,,
+difficult to see,(+),1,shapes represent subsets,(+),1.0,,,
+difficult to understand,(+),7,shapes varied,(+),1.0,,,
+difficult to understand diagram,(+),1,similar box sizes,(+),1.0,,,
+difficult to visualize,(+),1,similar colors,(+),5.0,,,
+dificult to see whats about,(+),1,similar shapes,(+),1.0,,,
+disposition,(+),1,simple coloring,(-),1.0,,,
+distinct colors,(+),2,simple information,(-),2.0,,,
+distinct shapes,(-),1,simple structure,(-),1.0,,,
+distinguished/distinctive colors,(-),1,simple symbol,(-),1.0,,,
+distract me from the information conveyed,(+),1,simple to digest,(+) (-),4.0,,,
+do not know the context,(+),1,simple to understand,(-),6.0,,,
+do not know the point,(+),1,simple visual elements,(+) (-),6.0,,,
+do not know what,(+),1,size,(+),1.0,,,
+do not make sense,(+),1,size decreasing,(-),2.0,,,
+does not sound familiar,(+),1,size variations,(+) (-),2.0,,,
+doesn't need to do as much visually,(-),1,small font,(+),5.0,,,
+don't know how to interpretate,(+),1,small numbers,(-),1.0,,,
+don't know how to read this,(+),1,small table,(+),1.0,,,
+don't know what it presents.,(+),1,small text,(+),10.0,,,
+don't know what looking at,(+),1,small writing,(+),2.0,,,
+don't know what they mean,(+),1,smaller,(+),1.0,,,
+don't know what to say,(+),1,smaller icons,(+),1.0,,,
+don't need much attention to recognize it,(-),1,smooth lines,(-),1.0,,,
+don't understand,(+),6,soft colors,(+) (-),2.0,,,
+don't understand the design or interest,(+),1,some text,(+) (-),2.0,,,
+don't understand well,(+),1,spatial organization,(+) (-),3.0,,,
+don't understand what its talking about in 5 sec,(+),1,sports-related,(-),2.0,,,
+don't understand where to look.,(+),1,spread around,(+) (-),4.0,,,
+dont understand,(+),1,squares,(+),1.0,,,
+dont understand at all,(+),1,squares scattered,(+),3.0,,,
+dont understand what the shapes represent.,(+),1,stacked lines,(+),1.0,,,
+dots,(-),7,stimulating colors,(+),1.0,,,
+dots and lines on a grid,(-),1,stimulating texture,(+),1.0,,,
+dots are everywhere,(+),1,stimulus less visible,(+),1.0,,,
+dots are scattered,(+),1,straight line,(-),1.0,,,
+dotted lines,(+),1,straight lines,(-),3.0,,,
+draw style,(+),2,straight to the point,(-),1.0,,,
+each box is significantly different,(+),1,straightforward,(-),4.0,,,
+earth,(-),1,strange,(+),1.0,,,
+ease of reading,(-),1,striped texture,(-),1.0,,,
+easier to compare,(-),1,strong color contrast,(+),1.0,,,
+easier to decipher,(-),1,structured,(+),1.0,,,
+easier to figure out,(-),1,structured and labeled,(-),1.0,,,
+easier to follow,(-),1,struggled to read,(+),1.0,,,
+easier to interpret,(-),1,stuff everywhere,(+),1.0,,,
+easier to process,(-),2,symbols,(+) (-),2.0,,,
+easier to process/compare/interpret,(-),1,symbols and shading,(+),1.0,,,
+easier to read,(-),3,table,(-),3.0,,,
+easier to read and comprehend,(-),1,take longer to decode,(+),1.0,,,
+easier to read and discern,(-),1,take longer to interpret,(+),2.0,,,
+easier to read and understand,(-),1,take longer to process,(+),8.0,,,
+easier to see,(-),1,take longer to understand,(+),21.0,,,
+easier to see the differences,(-),1,technical information encoding,(+),2.0,,,
+easier to take in information,(-),1,text,(+) (-),12.0,,,
+easier to understand,(-),5,text and imagery,(+),2.0,,,
+easier to visualize,(-),2,text and information,(+) (-),3.0,,,
+easily interpretable,(-),1,text arrangement,(+),1.0,,,
+easily recognizable,(-),3,text at bottom,(+),1.0,,,
+easily understandable,(-),1,text density,(+),1.0,,,
+easy lines to follow,(-),1,text hard to read,(+),1.0,,,
+easy to decipher,(-),1,text labels,(+),1.0,,,
+easy to evaluate,(-),1,text on pictures,(+),1.0,,,
+easy to follow,(-),1,text ratio,(+),1.0,,,
+easy to identificate,(-),1,text to read,(+),1.0,,,
+easy to read,(-),1,texture details,(+),2.0,,,
+easy to read and decipher.,(-),1,the colors,(+),1.0,,,
+easy to read at a glance,(-),1,the shading,(+),2.0,,,
+easy to read map,(-),1,thick and thin differences,(+),1.0,,,
+easy to understand,(-),8,title,(-),5.0,,,
+element size,(-),2,titles,(+),1.0,,,
+elements less ordered,(+),1,titles and descriptions,(+),1.0,,,
+equally difficult,(-),1,too cramped,(+),3.0,,,
+every pixel and color represents a collection of data,(+),1,too dark,(+),2.0,,,
+"everyone line is ""stacked"" on another",(+),1,too many circles,(+),1.0,,,
+everything is quite diffuse,(+),1,too many colors,(+),6.0,,,
+evne though didn't understand the purpose,(-),1,too many data points,(+),2.0,,,
+evolutionary tree,(+),1,too many details,(+),3.0,,,
+exact feature,(+),1,too many divisions,(+),1.0,,,
+exact value,(+),1,too many dots,(+),1.0,,,
+excessively crowded or overlapping,(+),1,too many elements,(+),2.0,,,
+explanation text,(+),1,too many letters,(+),1.0,,,
+explanations,(-),1,too many lines,(+),3.0,,,
+explanatory legend,(-),1,too many points,(+),1.0,,,
+extension and randomness,(+),1,too many sections,(+),1.0,,,
+extra arrows and information,(+),1,too many shapes,(+),2.0,,,
+eyes felt blurry,(+),1,too many similar colors,(+),1.0,,,
+factual information,(+),1,too many spirals,(+),1.0,,,
+fairly easy to read,(-),1,too many subplots,(+),1.0,,,
+familiar geographic shape,(-),1,too many things,(+),1.0,,,
+familiar representation,(-),1,too many variables,(+),1.0,,,
+familiar to me,(-),1,too much color,(+),1.0,,,
+familiar with,(-),4,too much data,(+),3.0,,,
+familiarity,(-),1,too much information,(+),4.0,,,
+familiarized with this type of charts,(-),1,too much to remember,(+),1.0,,,
+far more noise,(+),1,too much variables,(+),1.0,,,
+fast readability,(-),2,too similar colors,(+),1.0,,,
+feels confusing,(+),1,two axes,(+) (-),3.0,,,
+few data,(-),1,two colors,(+) (-),4.0,,,
+few items,(-),1,two datasets,(-),1.0,,,
+few more moments to process,(+),1,two elements,(-),1.0,,,
+fewer axes,(-),1,two graphs,(+),1.0,,,
+fewer data points,(-),1,two lines,(-),1.0,,,
+field information,(+),1,ugly calligraphy,(+),1.0,,,
+fine detail,(+),1,unable to sort,(+),1.0,,,
+follows a discernible pattern,(-),1,uncertain,(+),4.0,,,
+"font sizes, italicization, bold",(+),1,unclear,(+),3.0,,,
+four axes,(+),1,unclear circle meaning,(+),1.0,,,
+four highlighted words,(-),1,unclear color meaning,(+) (-),9.0,,,
+four labeled axes,(+),1,unclear color values,(+),1.0,,,
+four separate visual items,(+),1,unclear coloring,(+),2.0,,,
+frame with values,(-),1,unclear differences,(+),3.0,,,
+frequency each word is used,(-),1,unclear filled bars,(+),1.0,,,
+frequency of words,(-),1,unclear meaning,(+) (-),8.0,,,
+frightening at first glance,(+),1,unclear movement,(+),2.0,,,
+from circular to rectangular,(+),1,unclear pattern,(+),1.0,,,
+full map,(+),1,unclear relations between words,(+),1.0,,,
+gauge some info graphically,(+),1,unclear shape meaning,(+),4.0,,,
+gave no further information,(+),1,unclear structure,(+),3.0,,,
+generated in a 3D program by mistake,(+),1,unclear what data conveys,(+) (-),9.0,,,
+geo-map,(+),1,unclear what is happening,(+),1.0,,,
+geography,(-),1,unclear writing,(+),2.0,,,
+get the message of the visualization in 1-2 seconds,(-),1,undefined color,(+),1.0,,,
+glean information instantly,(+),1,undefined shape,(+),1.0,,,
+good color choices,(-),1,understand at a glance,(+) (-),10.0,,,
+graph,(+),1,uneven shape,(+),1.0,,,
+graphs,(+),1,unfamiliar design/domain uses,(+) (-),23.0,,,
+graphs are simple,(-),1,uninterpretable ranking,(+),1.0,,,
+graphs jumbled up,(+),1,unique,(+),1.0,,,
+green,(+),1,unique data point,(+),1.0,,,
+grid,(+),1,unique/varied colors,(+),3.0,,,
+grid of squares,(-),1,unknown details,(+),1.0,,,
+growth pattern,(+),1,unknown hidden content,(+),1.0,,,
+half-shading,(+),1,unknown highlighted countries,(+),1.0,,,
+hard time gleaning what it convey,(+),1,unknown patterns,(+),1.0,,,
+hard to ascertain,(+),1,unreadable,(+),3.0,,,
+hard to differentiate,(+),2,unrecognized brands,(+),1.0,,,
+hard to discern,(+),1,unseen numbers,(+),1.0,,,
+hard to discern individual items.,(+),1,unsure pattern,(+),1.0,,,
+hard to distinguish the colors,(+),1,unsure where to start,(+),1.0,,,
+hard to extract info,(+),1,use of color,(+) (-),3.0,,,
+hard to intuitively ascertain,(+),1,vague legend,(+),1.0,,,
+hard to make out what it means,(+),1,value representation,(+),1.0,,,
+hard to make sense,(+),1,values and graphics aligned,(+),1.0,,,
+hard to read,(+),2,values encoded by color,(+),1.0,,,
+hard to see story,(+),1,values in the middle,(+),1.0,,,
+hard to solve,(+),1,variety of data,(+),1.0,,,
+hard to tell,(+),1,variety of shapes,(+),2.0,,,
+hard to understand,(+),5,various circle sizes,(+),3.0,,,
+harder for my eyes to focus,(+),1,various colors,(+),1.0,,,
+harder to compare,(+),1,various data points,(+),1.0,,,
+harder to decipher,(+),1,various shapes,(+) (-),5.0,,,
+harder to discern,(+),1,very detailed,(+),1.0,,,
+harder to discern information,(+),1,very different colors,(+),1.0,,,
+harder to distinguish,(+),1,very little data,(+) (-),8.0,,,
+harder to follow the sense of the graphic,(+),1,very little detail,(+),1.0,,,
+harder to read,(+),3,visual clarity,(+),1.0,,,
+harder to read and differentiate,(+),1,visual cues,(+),1.0,,,
+harder to read and discern,(+),1,visualization meaning,(+),1.0,,,
+harder to read and understand,(+),1,visually appealing,(-),3.0,,,
+harder to see,(+),1,visually clean,(-),1.0,,,
+harder to understand,(-),4,visually overwhelming,(+),1.0,,,
+has text,(+),1,visually striking,(+),1.0,,,
+has text.,(+),1,weather map,(-),1.0,,,
+have more data,(+),1,weird coloring,(+),1.0,,,
+heat graph,(+),1,what it resembles,(+),1.0,,,
+heat map,(-),1,white background,(+),2.0,,,
+heatmap,(-),1,white color,(+),1.0,,,
+hierarchical text,(+),1,wind map,(-),1.0,,,
+high amount of data,(+),1,word,(+),2.0,,,
+high information density,(+),1,word frequency,(-),2.0,,,
+high school education,(-),1,word rotation,(+),1.0,,,
+histogram like figure,(-),1,word size,(+) (-),2.0,,,
+holisitic understanding or comprehension more available,(-),1,word sizes,(-),1.0,,,
+horizontal lines,(+),1,word source,(-),1.0,,,
+how busy the charts were,(+),1,words,(+) (-),7.0,,,
+how hard it was to quickly understand,(+),1,words and numbers,(-),1.0,,,
+how many type of entities they were,(+),1,words and sentences,(+),1.0,,,
+how objects spread,(-),2,words difficult to see,(+),1.0,,,
+how organised/disorganised was the picture,(+),1,words misoriented,(+),1.0,,,
+how that changed over one year,(+),1,written information,(+),1.0,,,
+hurt my eyes,(+),1,x-axis unlabeled,(+),1.0,,,
+hurts my vision,(+),1,x-position,(+),1.0,,,
+i am not sure I would have selected same image,(+),1,y-axis meaning unclear,(+),1.0,,,
+i couldnt say what is complexer,(+),2,y-position,(+),1.0,,,
+icons,(+),1,yellow,(+),1.0,,,
+illogical,(-),1,,,,,,
+illusion of a negative space,(+),1,,,,,,
+illusion of depth or 3d,(+),1,,,,,,
+image is simple,(-),1,,,,,,
+image is too tiny,(+),1,,,,,,
+image layout,(+),1,,,,,,
+image legend,(-),1,,,,,,
+images about black holes,(+),1,,,,,,
+images difficult to make sense of,(+),1,,,,,,
+immediately recognizable,(-),2,,,,,,
+impossible to interpret,(+),1,,,,,,
+in terms of shapes,(+),1,,,,,,
+incredibly simple,(-),1,,,,,,
+indications,(-),1,,,,,,
+ineligible,(+),1,,,,,,
+information and nuance transported,(+),1,,,,,,
+information depicted more granularly,(+),1,,,,,,
+information in a small space,(+),1,,,,,,
+information in technical way,(+),1,,,,,,
+information over a number of years,(+),1,,,,,,
+information points,(+),1,,,,,,
+information presenting,(+),1,,,,,,
+inscription with details,(+),1,,,,,,
+"integration of text, numbers, and visuals all being used to convey information",(+),2,,,,,,
+interconnecting lines,(+),1,,,,,,
+interpreted in less than a second,(-),1,,,,,,
+intersecting lines,(+),2,,,,,,
+intersection of lines,(+),1,,,,,,
+intersections in the Circle,(+),1,,,,,,
+intuitive understanding of graph,(-),1,,,,,,
+involves numbers,(+),1,,,,,,
+is blank,(-),1,,,,,,
+is not clear,(+),1,,,,,,
+isn't any numbers,(+),1,,,,,,
+isolated squares,(+),1,,,,,,
+it is clearer what I can learn,(-),1,,,,,,
+it took longer to understand,(+),1,,,,,,
+it would be hard to connect this,(+),1,,,,,,
+its easier,(-),1,,,,,,
+jumble of dots and colors,(+),1,,,,,,
+jumped out to me as instantly making it more complex.,(+),1,,,,,,
+just a few lines,(-),1,,,,,,
+just a glance everything is summarized,(-),1,,,,,,
+just patterns,(-),1,,,,,,
+just text,(-),1,,,,,,
+key in the image,(+),1,,,,,,
+key on the top,(+),1,,,,,,
+kid drawing,(+),1,,,,,,
+labels,(-),6,,,,,,
+labels are clear,(-),2,,,,,,
+labels are clear and easy to read,(-),1,,,,,,
+"labels, titles, and annotations",(+),1,,,,,,
+"labels, titles, and annotations are excessively crowded or overlapping",(+),1,,,,,,
+lack of a grid,(+),1,,,,,,
+lack of color diversity,(+),1,,,,,,
+lack of describing information,(+),1,,,,,,
+lack of legends,(+),1,,,,,,
+lack of text,(+),1,,,,,,
+lacks a clear form or structure,(+),1,,,,,,
+lacks clarity,(+),1,,,,,,
+lacks context,(+),1,,,,,,
+lacks contrast between blue colors,(+),1,,,,,,
+large amount of textual data,(+),2,,,,,,
+large key,(+),1,,,,,,
+layered,(-),1,,,,,,
+layers of shapes/details,(+),1,,,,,,
+layout of the grid,(+),1,,,,,,
+layout of the image,(+),2,,,,,,
+left one is a mess,(+),1,,,,,,
+legend,(+),7,,,,,,
+legend adds complexity,(+),1,,,,,,
+legend far more vague,(+),1,,,,,,
+less accessible and comprehensible,(+),1,,,,,,
+less blank space,(+),1,,,,,,
+less clear at a glance,(+),1,,,,,,
+less clear information,(+),1,,,,,,
+less color,(+),1,,,,,,
+less colors,(+),1,,,,,,
+less complex to me,(-),1,,,,,,
+less details,(-),1,,,,,,
+less elements,(-),1,,,,,,
+less information,(-),1,,,,,,
+less information (elements),(-),1,,,,,,
+less information to process,(-),1,,,,,,
+less intuitive,(+),1,,,,,,
+less organization of elements,(+),1,,,,,,
+less simple,(+),1,,,,,,
+less straightforward,(+),1,,,,,,
+less structure,(+),1,,,,,,
+less text,(+),1,,,,,,
+less time consuming,(-),1,,,,,,
+less uniform shapes,(+),1,,,,,,
+less visual items,(-),1,,,,,,
+less visually appealing,(+),1,,,,,,
+less white,(+),1,,,,,,
+less white space,(+),1,,,,,,
+less writing,(+),1,,,,,,
+level of contrast.,(+),1,,,,,,
+light and dark,(+),1,,,,,,
+like a water fall,(+),1,,,,,,
+like the colors,(-),1,,,,,,
+limited number of data,(-),1,,,,,,
+line and scale,(+),1,,,,,,
+line and shape,(+),1,,,,,,
+line graph,(+),2,,,,,,
+lineages,(+),1,,,,,,
+lines,(+),11,,,,,,
+lines cannot be distinguished,(+),1,,,,,,
+lines crossing,(+),1,,,,,,
+lines do not make sense,(+),1,,,,,,
+lines going in different directiopns and amounts,(+),1,,,,,,
+lines not straightforward,(+),1,,,,,,
+lines of scale,(+),1,,,,,,
+lines of text,(-),1,,,,,,
+link,(-),1,,,,,,
+little information,(+),1,,,,,,
+little more time to understand,(+),1,,,,,,
+little to no numbers,(+),1,,,,,,
+little to no shade variation,(-),1,,,,,,
+location within the image,(+),1,,,,,,
+logical to read,(-),1,,,,,,
+"longer time to read, process and understand",(+),1,,,,,,
+longer to interpret,(+),1,,,,,,
+longer to process,(+),1,,,,,,
+longer to understand and go through,(+),1,,,,,,
+longitudinal graph,(+),1,,,,,,
+look cool,(-),1,,,,,,
+look easier to understand,(-),1,,,,,,
+look less important,(-),1,,,,,,
+looked confusing,(+),1,,,,,,
+looks messy and confusing,(+),1,,,,,,
+looks random,(+),1,,,,,,
+lot of details,(+),1,,,,,,
+lot of words,(+),1,,,,,,
+lot of words and letters,(+),1,,,,,,
+lotd of words,(+),1,,,,,,
+lots of colors,(+),3,,,,,,
+lots of colors close together,(+),1,,,,,,
+lots of details,(+),1,,,,,,
+lots of information,(+),2,,,,,,
+lots of meeting points,(+),1,,,,,,
+lots of numbers,(+),1,,,,,,
+lots of overlapping lines,(+),1,,,,,,
+lots of regions,(+),1,,,,,,
+lots of separate charts,(+),1,,,,,,
+lots of text,(+),1,,,,,,
+lots of words,(+),1,,,,,,
+low readability,(+),1,,,,,,
+made less sense,(+),1,,,,,,
+made me confused,(+),1,,,,,,
+make it more complex than a 2d projection,(+),1,,,,,,
+make sense.,,1,,,,,,
+makes it harder to evaluate,(+),1,,,,,,
+makes it harder to look at the data points,(+),1,,,,,,
+makes me confused,(+),1,,,,,,
+making accurate interpretation challenging,(+),1,,,,,,
+many categories in the legend,(+),1,,,,,,
+many circles,(+),1,,,,,,
+many colors,(+),1,,,,,,
+many data points,(+),2,,,,,,
+many different colors,(+),1,,,,,,
+many different elements,(+),1,,,,,,
+many elements,(+),3,,,,,,
+many elements intermingled,(+),1,,,,,,
+many graphs side by side,(+),1,,,,,,
+many individual dots,(+),1,,,,,,
+many lines,(+),2,,,,,,
+many more different visual components,(+),1,,,,,,
+many numbers,(+),1,,,,,,
+many points,(+),1,,,,,,
+many shapes,(+),1,,,,,,
+many small details,(+),1,,,,,,
+many small writings,(+),1,,,,,,
+many text boxes,(+),1,,,,,,
+many writings,(+),1,,,,,,
+map,(-),7,,,,,,
+map graph,(+),1,,,,,,
+map is familiar,(-),1,,,,,,
+map of Africa,(-),1,,,,,,
+map of continents,(+),1,,,,,,
+maps,(-),1,,,,,,
+matrix patterns,(-),1,,,,,,
+meaning of the code,(+),1,,,,,,
+meaningless,(+),2,,,,,,
+meanings of color not well defined.,(+),1,,,,,,
+measure,(+),1,,,,,,
+measuring an earthquake,(-),1,,,,,,
+mentally taxing,(+),1,,,,,,
+messiness of the graph,(+),1,,,,,,
+messy,(+),2,,,,,,
+metric it represents,(+),1,,,,,,
+misunderstanding of shapes,(+),2,,,,,,
+mix of color,(+),1,,,,,,
+mix several colors,(+),2,,,,,,
+mixed the bar on the top is imposing,(+),2,,,,,,
+mixed up,(+),1,,,,,,
+mixed with a timeline,(+),1,,,,,,
+monochrome,(-),1,,,,,,
+monochrome color,(+),1,,,,,,
+more areas,(+),1,,,,,,
+more axes,(+),1,,,,,,
+more bars,(+),1,,,,,,
+more busy,(+),1,,,,,,
+more capable of being understood,(-),1,,,,,,
+more cluttered,(+),1,,,,,,
+more color,(+),4,,,,,,
+more colors,(+),20,,,,,,
+more colours,(+),1,,,,,,
+more complex shape,(+),1,,,,,,
+more complex to interpret,(+),1,,,,,,
+more complex to understand,(+),1,,,,,,
+more complicated,(+),1,,,,,,
+more confusing colors,(+),1,,,,,,
+more context,(-),1,,,,,,
+more contrast,(+),2,,,,,,
+more data,(+),4,,,,,,
+more data points,(+),2,,,,,,
+more data to comprehend,(+),1,,,,,,
+more detail,(+),2,,,,,,
+more detailed,(-),1,,,,,,
+more detailed graphics,(+),1,,,,,,
+more details,(+),6,,,,,,
+more difficult,(+),2,,,,,,
+more difficult to capture,(+),1,,,,,,
+more difficult to follow the lines,(+),1,,,,,,
+more difficult to interpret,(+),1,,,,,,
+more difficult to read,(+),1,,,,,,
+more difficult to understand,(+),3,,,,,,
+more difficulty reading,(+),1,,,,,,
+more dificult to understand,(+),1,,,,,,
+more dots,(+),1,,,,,,
+more easily understood,(-),1,,,,,,
+more elements,(+),2,,,,,,
+more elements of information,(+),1,,,,,,
+more evenly distributed,(-),1,,,,,,
+more everything,(+),1,,,,,,
+more factors to consider,(+),2,,,,,,
+more fine detail,(+),1,,,,,,
+more forms,(+),1,,,,,,
+more full of stuff,(+),1,,,,,,
+more going on,(+),3,,,,,,
+more graphic,(+),1,,,,,,
+more groups,(+),1,,,,,,
+more images,(+),1,,,,,,
+more impact,(-),1,,,,,,
+more in order,(-),1,,,,,,
+more info,(+),1,,,,,,
+more information,(+),11,,,,,,
+more information about data,(-),1,,,,,,
+more information labeled,(+),1,,,,,,
+more information shown,(+),1,,,,,,
+more information to process,(+),2,,,,,,
+more information to think about,(+),1,,,,,,
+more informations,(+),1,,,,,,
+more ink on the page,(+),1,,,,,,
+more intricate,(+),1,,,,,,
+more items,(+),2,,,,,,
+more labels,(-),1,,,,,,
+more legible,(+),1,,,,,,
+more like a graphic,(-),1,,,,,,
+more like a picture,(+),1,,,,,,
+more lines,(+),3,,,,,,
+more links,(+),1,,,,,,
+more messy,(+),1,,,,,,
+more numbers,(+),1,,,,,,
+more objects,(+),1,,,,,,
+more organized,(+),1,,,,,,
+more packed with information,(+),1,,,,,,
+more physical content,(+),1,,,,,,
+more pixels,(+),1,,,,,,
+more pleasant,(-),1,,,,,,
+more pleasing,(-),1,,,,,,
+more points,(+),1,,,,,,
+more scattered,(+),1,,,,,,
+more shapes,(+),1,,,,,,
+more shapes of different size,(+),1,,,,,,
+more squares than dots,(+),1,,,,,,
+more statistics,(+),2,,,,,,
+more text,(+),3,,,,,,
+more time to understand,(+),4,,,,,,
+more to look at and analyse,(+),1,,,,,,
+more to understand,(+),1,,,,,,
+more types of info,(+),1,,,,,,
+more types of information,(+),1,,,,,,
+more uniform design,(-),1,,,,,,
+more unique colors,(+),1,,,,,,
+more unique contrasts,(+),1,,,,,,
+more variability,(+),1,,,,,,
+more variables,(+),4,,,,,,
+more variation,(+),1,,,,,,
+more variation in shapes,(+),1,,,,,,
+more variety of colors,(+),1,,,,,,
+more words,(+),4,,,,,,
+more writing,(+),2,,,,,,
+mostly focused on about 1/3 of the image,(-),1,,,,,,
+much easier,(-),1,,,,,,
+much easier to figure out,(-),1,,,,,,
+much less clear,(+),1,,,,,,
+much more detailed,(+),1,,,,,,
+much more information,(+),1,,,,,,
+multicolored,(+),1,,,,,,
+multipe areas of interests,(+),1,,,,,,
+multiple axes,(+),1,,,,,,
+multiple colors,(+),1,,,,,,
+multiple components,(+),1,,,,,,
+multiple copies,(-),1,,,,,,
+multiple data points,(+),1,,,,,,
+multiple elements interacting with each other,(+),1,,,,,,
+multiple features,(+),1,,,,,,
+multiple figures,(+),2,,,,,,
+multiple graphics,(+),1,,,,,,
+multiple shades of blue,(+),1,,,,,,
+multiple shapes,(+),1,,,,,,
+multiple trends to compare to each other,(+),1,,,,,,
+multitude of differing information,(+),1,,,,,,
+multitude of paths or routes between different points,(+),1,,,,,,
+multivariate,(+),1,,,,,,
+muted colors,(+),1,,,,,,
+names,(+),1,,,,,,
+names of the countriesr,(-),1,,,,,,
+names too small to read,(+),1,,,,,,
+nature of this info,(+),1,,,,,,
+necessary context,(-),1,,,,,,
+need detailed analysis,(+),1,,,,,,
+need focus to understand,(+),1,,,,,,
+need more time to realize,(+),1,,,,,,
+need more time to understand,(+),1,,,,,,
+need of focus,(+),1,,,,,,
+need to read 15 figures separately,(+),1,,,,,,
+needed interpretation,(+),1,,,,,,
+needs a lot of reading,(+),1,,,,,,
+needs more efffort,(+),1,,,,,,
+needs to be studied more intently to make sense of,(+),1,,,,,,
+needs to be understood,(+),1,,,,,,
+network,(+),2,,,,,,
+never seen visualization,(+),1,,,,,,
+nice and readable,(-),1,,,,,,
+no apparent directional flow for the arrows,(+),1,,,,,,
+no axes,(+),1,,,,,,
+no clear indication about what is going on,(+),1,,,,,,
+no clear scheme,(+),1,,,,,,
+no clue on what it is about,(+),1,,,,,,
+no clue what it meant,(+),1,,,,,,
+no color difference,(+),1,,,,,,
+no color guide,(+),1,,,,,,
+no context,(+) (-),3,,,,,,
+no data,(+),1,,,,,,
+no description,(+),1,,,,,,
+no detail,(+),2,,,,,,
+no details,(+),1,,,,,,
+no difference between scales,(+),1,,,,,,
+no discernible patterns,(+),1,,,,,,
+no easy distinction between colors,(+),1,,,,,,
+no font,(+),1,,,,,,
+no idea the subjetc,(+),1,,,,,,
+no idea what Image is,(+),1,,,,,,
+no idea what it represents,(+),1,,,,,,
+no idea what it's supposed to mean,(+),1,,,,,,
+no idea what the colors represent,(-),1,,,,,,
+no idea what this is,(+),1,,,,,,
+no information about the squares,(+),1,,,,,,
+no key for the data,(+),1,,,,,,
+no legend,(+),1,,,,,,
+no legends,(+),2,,,,,,
+no metrics,(+),1,,,,,,
+no more than three colors,(-),1,,,,,,
+no one knows whats hidden,(+),1,,,,,,
+no or few data,(+),2,,,,,,
+no order,(+),1,,,,,,
+no pattern,(+),1,,,,,,
+no text,(+),1,,,,,,
+no title,(+),1,,,,,,
+no titles,(+),1,,,,,,
+no way of knowing what it is showing me,(-),1,,,,,,
+no way to tell exact points for the numbers,(+),1,,,,,,
+no written information,(+),1,,,,,,
+nodes,(-),1,,,,,,
+noisy,(+),1,,,,,,
+non familiar layout,(+),1,,,,,,
+none,(-),1,,,,,,
+nonlinearity,(+),1,,,,,,
+not a linear pattern.,(+),1,,,,,,
+not a lot of color,(+),1,,,,,,
+not a lot of contrast,(+),1,,,,,,
+not as clear,(+),1,,,,,,
+not as cluttered,(-),1,,,,,,
+not as simple color wise,(+),1,,,,,,
+not as sure on this one,(+),1,,,,,,
+not as understandable,(+),1,,,,,,
+not clear,(+),1,,,,,,
+not clear what they mean,(+),1,,,,,,
+not clearly stated,(+),1,,,,,,
+not common sense,(+),1,,,,,,
+not consistent,(+),1,,,,,,
+not difficult to see at all,(-),1,,,,,,
+not easily decipherable,(+),1,,,,,,
+not easily understood,(+),1,,,,,,
+not enough color.,(+),1,,,,,,
+not familiar,(+),2,,,,,,
+not familiar with,(+),2,,,,,,
+not familiar with the world map,(+),1,,,,,,
+not familiar with this graphic design,(+),1,,,,,,
+not familiarized with,(+),1,,,,,,
+not intuitive,(+),1,,,,,,
+not much interaction,(-),1,,,,,,
+not much is going in there,(-),1,,,,,,
+not recognizable,(+),1,,,,,,
+not simple color wise,(+),1,,,,,,
+not simple data,(+),1,,,,,,
+not something similar.,(+),1,,,,,,
+not straight to the point,(+),1,,,,,,
+not sure,(+),1,,,,,,
+not sure what color stands for,(+),1,,,,,,
+not sure what it is used for,(-),1,,,,,,
+not sure what it means,(-),1,,,,,,
+not sure what it's talking about,(+),1,,,,,,
+not sure what the circles are representing,(+),1,,,,,,
+not tidy,(+),1,,,,,,
+nothing is clear,(+),3,,,,,,
+nothing is understood.,(+),1,,,,,,
+nothing visible,(+),1,,,,,,
+novel pattern,(+),1,,,,,,
+number of colors,(-),4,,,,,,
+number of details,(-),2,,,,,,
+number of different graphic elements,(+),1,,,,,,
+number of dots,(+),1,,,,,,
+number of entries very high.,(+),1,,,,,,
+number of information,(+),2,,,,,,
+number of items on the legend,(-),2,,,,,,
+number of levels,(+),1,,,,,,
+number of points / shapes,(+),1,,,,,,
+number of points/shapes,(-),1,,,,,,
+number of shapes,(+) (-),4,,,,,,
+number of shapes/details presented,(+),1,,,,,,
+number of things in the same area,(+),1,,,,,,
+numbers,(+),4,,,,,,
+numbers and legend,(+),1,,,,,,
+numbers do not make sense,(+),3,,,,,,
+numbers have no meaning,(+),1,,,,,,
+numbers in the axis,(-),1,,,,,,
+numbers more complex than dot,(+),1,,,,,,
+numbers never seen before,(+),1,,,,,,
+numbers of unique shapes/colors,(+),1,,,,,,
+numbers on entities,(+),1,,,,,,
+"numbers, sticks and boxes",(+),1,,,,,,
+numerical details,(-),1,,,,,,
+numerical values,(+),1,,,,,,
+numerous intersections,(+),1,,,,,,
+objects spread over,(+),1,,,,,,
+on the same axis,(-),1,,,,,,
+one font only,(-),1,,,,,,
+one more bit of info,(-),1,,,,,,
+one shape,(-),1,,,,,,
+one variable,(-),1,,,,,,
+only has 2,(-),1,,,,,,
+only has 4 data points,(-),1,,,,,,
+only has black,(-),1,,,,,,
+only has dots,(-),1,,,,,,
+only has two colors,(-),1,,,,,,
+only one color,(+),1,,,,,,
+only one thing to visually process,(-),1,,,,,,
+only two main colors,(-),1,,,,,,
+orange complex,(+),1,,,,,,
+orange shapes,(+),1,,,,,,
+ordered,(-),1,,,,,,
+organized,(+),1,,,,,,
+organized in a table,(-),1,,,,,,
+oval-shaped,(-),1,,,,,,
+overall pleasing pattern,(-),1,,,,,,
+overall shape,(+),1,,,,,,
+overlap of circle areas,(+),1,,,,,,
+overlap of different colors,(+),1,,,,,,
+overlapping colors,(+),1,,,,,,
+overlapping data points,(+),1,,,,,,
+overlapping features,(+),1,,,,,,
+overlapping lines,(+),2,,,,,,
+overlapping volume graphs,(+),1,,,,,,
+overly colorful,(+),1,,,,,,
+"paths overlap, intersect, diverge, creating a visually intricate network",(+),1,,,,,,
+pattern,(+),3,,,,,,
+pellet looking things look like money,(+),1,,,,,,
+phylogenetic tree,(+),1,,,,,,
+physical dimension,(+),1,,,,,,
+picture of numbers,(-),1,,,,,,
+picture of pacific ocean,(-),1,,,,,,
+picture of world,(+),1,,,,,,
+pie chart,(-),1,,,,,,
+pie chart.,(+),1,,,,,,
+plots,(+),1,,,,,,
+point position,(+),1,,,,,,
+points of increase and decrease,(+),1,,,,,,
+points of interest,(+),1,,,,,,
+poorly contrasting colors,(+),1,,,,,,
+position,(+),1,,,,,,
+precise naming,(-),1,,,,,,
+"preciseness of the lines (thickness, intensity)",(+),1,,,,,,
+preciseness of various aspects,(+),1,,,,,,
+pretty self-explanatory,(-),1,,,,,,
+programming,(+),1,,,,,,
+provokes thought and understanding,(+),1,,,,,,
+quantitative relation,(+),1,,,,,,
+quantity,(+),1,,,,,,
+quicker/easier to process,(-),1,,,,,,
+quite difficult for me,(+),1,,,,,,
+random collection of circles,(+),1,,,,,,
+random colors,(-),1,,,,,,
+random like movement of datapoints,(+),1,,,,,,
+random like shapes,(+),1,,,,,,
+random names that don't make sense,(+),1,,,,,,
+random places,(-),1,,,,,,
+random shape,(-),1,,,,,,
+range and contrast of colors,(-),1,,,,,,
+range of colors,(+),1,,,,,,
+ranking system beyond understanding,(+),1,,,,,,
+ranking things,(-),1,,,,,,
+read every item to understand,(+),1,,,,,,
+readability,(+),4,,,,,,
+reading data more difficult,(+),1,,,,,,
+really complex for me,(+),1,,,,,,
+receeding horizon point,(+),1,,,,,,
+recognized the map,(-),1,,,,,,
+red colors,(+),1,,,,,,
+red is a harsh color,(+),1,,,,,,
+reduces the effort to comprehend,(-),1,,,,,,
+regions,(+),1,,,,,,
+relationships,(-),1,,,,,,
+require careful examination and interpretation,(+),1,,,,,,
+require specialized education to understand.,(+),1,,,,,,
+requires concentration,(+),1,,,,,,
+requires more interpretation,(+),1,,,,,,
+requires more understanding,(+),1,,,,,,
+requires reading,(+),1,,,,,,
+rotation of words,(+),1,,,,,,
+round tables,(-),1,,,,,,
+same color,(+),1,,,,,,
+saw it multiple times,(-),1,,,,,,
+scale,(-),1,,,,,,
+scatter plots,(+),1,,,,,,
+scientific method,(+),1,,,,,,
+search for any correlation and significance in the available data.,(+),1,,,,,,
+seemed more complicated,(+),1,,,,,,
+seems cluttered,(+),1,,,,,,
+segmentation of colors,(+),1,,,,,,
+seismic graph,(-),2,,,,,,
+self explanatory,(-),1,,,,,,
+separate color scale,(+),1,,,,,,
+separating value by colors,(+),1,,,,,,
+set of geometry,,1,,,,,,
+several aspects of the information can be interrelated,(+),1,,,,,,
+several elements,(+),1,,,,,,
+several measurements,(+),1,,,,,,
+several more colors,(+),1,,,,,,
+shades of color change,(+),1,,,,,,
+shape,(+),3,,,,,,
+shape hard to read,(+),1,,,,,,
+shape is hard to read,(+),1,,,,,,
+shape varation,(+),1,,,,,,
+shapes,(+),6,,,,,,
+shapes and contrasts,(+),2,,,,,,
+shapes and lines,(+),1,,,,,,
+shapes categorized in a certain way,(+),1,,,,,,
+shapes more complex,(+),1,,,,,,
+shapes quite similar,(+),1,,,,,,
+shapes representing data subsets,(+),1,,,,,,
+shapes were varied,(+),1,,,,,,
+short cryptic labels,(+),1,,,,,,
+showing information in text,(+),1,,,,,,
+shows crop each country/region produces,(+),1,,,,,,
+significant difference in scale,(+),1,,,,,,
+signs,(+),1,,,,,,
+similar colors,(+),2,,,,,,
+similar looking colors,(+),1,,,,,,
+similar size of the boxes,(+),1,,,,,,
+similarity of the colors,(+),1,,,,,,
+simple,(-),2,,,,,,
+simple bar graph,(-),1,,,,,,
+simple bar to indicate measurement,(-),1,,,,,,
+simple information,(-),1,,,,,,
+simple map,(-),1,,,,,,
+simple structure,(-),1,,,,,,
+simple to digest,(-),1,,,,,,
+simple to grasp the ideas,(-),1,,,,,,
+simple to understand,(-),2,,,,,,
+simplicity,(-),3,,,,,,
+simplistic,(-),1,,,,,,
+single-color scheme,(+),1,,,,,,
+size,(+),1,,,,,,
+size growing small,(-),2,,,,,,
+size of circles,(+),1,,,,,,
+size of shapes,(+),1,,,,,,
+size of the graphics,(+),1,,,,,,
+size variations,(+),1,,,,,,
+"size, length, points",(+),1,,,,,,
+sizes of the shape (circle),(+),1,,,,,,
+sizes of words,(-),1,,,,,,
+small and sparse dots,(+),1,,,,,,
+small box indicators,(+),2,,,,,,
+small details,(+),1,,,,,,
+small font,(+),1,,,,,,
+small font in the description,(+),1,,,,,,
+small fonts,(+),1,,,,,,
+small text,(+),1,,,,,,
+small writing,(+),1,,,,,,
+small writing and labels,(+),1,,,,,,
+smaller,(+),1,,,,,,
+smaller details,(+),1,,,,,,
+smaller icons,(+),1,,,,,,
+so many cube,(+),1,,,,,,
+so more things,(+),1,,,,,,
+softer,(-),1,,,,,,
+some kind of pattern,(-),1,,,,,,
+some text,(+),1,,,,,,
+some values in the middle,(+),2,,,,,,
+something in biology,(+),1,,,,,,
+something to process,(+),1,,,,,,
+spatial organization,(+),1,,,,,,
+sports team,(-),1,,,,,,
+spots of different shapes,(+),1,,,,,,
+spread around,(+),1,,,,,,
+squares,(+),1,,,,,,
+squares scattered all over,(+),1,,,,,,
+squares scattered all over.,(+),1,,,,,,
+squeezed writings,(+),1,,,,,,
+squint my eyes to understand,(+),1,,,,,,
+stages of a process,(+),1,,,,,,
+stared to understand,(-),1,,,,,,
+state graph,(-),1,,,,,,
+stimulus less visible/discernible,(+),1,,,,,,
+straight line,(-),1,,,,,,
+straight lines,(-),2,,,,,,
+straight to the point,(-),1,,,,,,
+straightforward,(-),1,,,,,,
+straightforward at showing where things are.,(-),1,,,,,,
+straightforward lines,(-),1,,,,,,
+strange,(+),1,,,,,,
+stretched out differently,(-),1,,,,,,
+striped,(-),1,,,,,,
+structure of the letters,(+),1,,,,,,
+structured,(+),1,,,,,,
+structured and labeled,(-),1,,,,,,
+stuff all over the place,(+),1,,,,,,
+symbol and shading,(+),1,,,,,,
+symbols,(-),1,,,,,,
+symbols more easily recognizable,(-),1,,,,,,
+take a lot more time to understand,(+),1,,,,,,
+take longer to assimulate,(+),1,,,,,,
+take longer to decode,(+),1,,,,,,
+take longer to understand,(+),1,,,,,,
+take more time to understand,(+),1,,,,,,
+takes longer to understand,(+),1,,,,,,
+takes more time to look at,(+),1,,,,,,
+takes up more space,(+),1,,,,,,
+tell the story,(-),1,,,,,,
+text,(+),7,,,,,,
+text and information,(-),1,,,,,,
+text at the bottom,(+),1,,,,,,
+text hard to read,(+),1,,,,,,
+text is too small,(+),1,,,,,,
+text labels,(+),1,,,,,,
+text repeating multiple times,(+),1,,,,,,
+text shapes and geography,(+),1,,,,,,
+"text, numbers, mathematical formulae",(+),1,,,,,,
+texts,(+),1,,,,,,
+texture is stimulating,(+),1,,,,,,
+the 2 point of each element,(-),1,,,,,,
+the amount of information,(+),1,,,,,,
+the arrangement of the text,(+),1,,,,,,
+the choice of color is boring,(+),1,,,,,,
+the circle,(-),1,,,,,,
+the color are varied,(+),2,,,,,,
+the colors,(+),1,,,,,,
+the colors seem to have meaning,(+),1,,,,,,
+the distribution of numbers,(+),1,,,,,,
+the graphic is vertical.,(+),1,,,,,,
+the image is pretty blurry,(+),1,,,,,,
+the level of details that it has provide way to much information,(+),2,,,,,,
+the meaning of the colors is unclear;,(+),1,,,,,,
+the ratio between them,(+),1,,,,,,
+the shading,(+),1,,,,,,
+the shapes,(-),1,,,,,,
+the size of those words,(+),1,,,,,,
+the word source,(-),1,,,,,,
+the world map,(-),1,,,,,,
+there is little,(-),1,,,,,,
+there was not any text,(+),1,,,,,,
+think harder to get useful information,(+),1,,,,,,
+tidier,(-),1,,,,,,
+time scale,(-),1,,,,,,
+tiny layout of images,(+),1,,,,,,
+title,(-),4,,,,,,
+title and purpose is clearer,(-),1,,,,,,
+title and purpose of the visualization is clearer,(-),1,,,,,,
+titles,(+),1,,,,,,
+titles and descriptions,(+),1,,,,,,
+too cramped,(+),1,,,,,,
+too dark,(+),1,,,,,,
+too detailed,(+),1,,,,,,
+too detailed to make out information,(+),1,,,,,,
+too many colors,(+),2,,,,,,
+too many data points,(+),2,,,,,,
+too many divisions,(+),1,,,,,,
+too many dots,(+),1,,,,,,
+too many elements,(+),1,,,,,,
+too many letters,(+),1,,,,,,
+too many lines,(+),2,,,,,,
+too many numbers,(+),1,,,,,,
+too many points,(+),1,,,,,,
+too many shapes,(+),1,,,,,,
+too many spirals,(+),1,,,,,,
+too many subplots,(+),1,,,,,,
+too many things,(+),1,,,,,,
+too much color,(+),1,,,,,,
+too much data,(+),3,,,,,,
+too much details,(+),1,,,,,,
+too much info,(+),1,,,,,,
+too much to remember,(+),1,,,,,,
+too much variables,(+),1,,,,,,
+took a long time to understand,(+),1,,,,,,
+tough job to identify,(+),1,,,,,,
+tough to see where one point ends and another begins.,(+),1,,,,,,
+traditional ways of reporting statistics,(-),1,,,,,,
+two axes,(-),2,,,,,,
+two axes scaled by numbers,(+),1,,,,,,
+two colors,(-),1,,,,,,
+two different colors,(+),1,,,,,,
+two graph,(+),1,,,,,,
+two letters and numbers,(+),1,,,,,,
+two or three data points,(-),1,,,,,,
+two separate lines,(-),1,,,,,,
+unable to sort,(+),1,,,,,,
+uncertainty,(+),1,,,,,,
+unclear filled bars,(+),1,,,,,,
+unclear what the differences are,(+),1,,,,,,
+undefinable criteria,(+),1,,,,,,
+undefined color,(+),1,,,,,,
+undefined shape,(+),1,,,,,,
+undersant easly what is about,(-),1,,,,,,
+understand at a glance,(-),1,,,,,,
+understandable,(-),2,,,,,,
+understandable visual,(-),1,,,,,,
+unfamiliar,(+),1,,,,,,
+unfamiliar charts,(+),1,,,,,,
+unfamiliar terms,(+),2,,,,,,
+unfamiliar with,(+),1,,,,,,
+unfamiliar with terms,(+),1,,,,,,
+unfamiliar with the image,(+),1,,,,,,
+unique,(+),1,,,,,,
+unique data point,(+),1,,,,,,
+unknow,(+),1,,,,,,
+unknown details,(+),1,,,,,,
+unlikely be able to interpret,(+),1,,,,,,
+unreadable,(+),1,,,,,,
+unsure pattern,(+),1,,,,,,
+unsure what the image is about,(-),1,,,,,,
+unsure where to start looking,(+),1,,,,,,
+upwards trend,(+),1,,,,,,
+use of color,(+),2,,,,,,
+used to work with,(-),1,,,,,,
+variation in colors / shades,(+),1,,,,,,
+variations of shade,(+),1,,,,,,
+varied and vibrant color,(+),1,,,,,,
+varied colors,(+),1,,,,,,
+variety and boldness of colors,(+),1,,,,,,
+variety of bright colors,(+),1,,,,,,
+variety of colors,(+),1,,,,,,
+variety of shapes,(+),1,,,,,,
+various colors and graphics,(+),1,,,,,,
+various points of data,(+),1,,,,,,
+various shades of color,(+),1,,,,,,
+various shapes,(+),1,,,,,,
+vary in length,(+),1,,,,,,
+vast interpretations,(+),1,,,,,,
+very complex to process,(+),1,,,,,,
+very confusing,(+),1,,,,,,
+very detailed,(+),1,,,,,,
+very simple to digest,(+),1,,,,,,
+very straight forward,(-),1,,,,,,
+very weird color,(+),1,,,,,,
+visual cues,(+),1,,,,,,
+visual elements relatively simple,(+),1,,,,,,
+visually clean,(-),1,,,,,,
+visually complex,(+),1,,,,,,
+visually more details,(+),1,,,,,,
+visually more striking,(+),1,,,,,,
+visually overwhelming,(+),1,,,,,,
+wanted to find a pattern,(+),1,,,,,,
+wasn't clear what is going on,(+),1,,,,,,
+wasn't intuitive,(+),1,,,,,,
+wasn't lined up nicely,(+),1,,,,,,
+wavy,(+),1,,,,,,
+way more information,(+),1,,,,,,
+weather map,(-),1,,,,,,
+weight graph,(-),1,,,,,,
+weird color palette,(+),1,,,,,,
+what each axis is measuring,(-),1,,,,,,
+what it resembles,(+),1,,,,,,
+what the colors differentiate,(+),1,,,,,,
+what the image portrayed,(+),1,,,,,,
+what the labels mean,(+),1,,,,,,
+what values or words define,(-),1,,,,,,
+what visualization is showing,(+),1,,,,,,
+where data intersects,(+),1,,,,,,
+where every line goes,(+),1,,,,,,
+white color,(+),1,,,,,,
+white space,(+),1,,,,,,
+wide variety of colors and gradients,(+),1,,,,,,
+wind map,(-),1,,,,,,
+without analysis,(+),1,,,,,,
+word,(+),2,,,,,,
+wording on chart,(+),1,,,,,,
+wording too small,(+),1,,,,,,
+words,(-),5,,,,,,
+words and number,(-),1,,,,,,
+words are difficult to see,(+),1,,,,,,
+words selected,(+),1,,,,,,
+words that I recognize,(-),1,,,,,,
+words/sentences,(+),1,,,,,,
+worked with before,(-),1,,,,,,
+world map,(-),2,,,,,,
+writing very small,(+),1,,,,,,
+written information,(+),1,,,,,,
+x,(-),2,,,,,,
+x and y axes,(+),1,,,,,,
+x and y scales,(-),1,,,,,,
+x-axis is not labeled,(+),1,,,,,,
+x-position,(+),1,,,,,,
+y,(+),2,,,,,,
+y axis,(-),1,,,,,,
+y-axis is non-linear,(+),1,,,,,,
+y-axis variable hard to make sense of,(+),1,,,,,,
+y-position,(+),1,,,,,,
+yellow,(+),1,,,,,,
+you can easily understand it,(-),1,,,,,,

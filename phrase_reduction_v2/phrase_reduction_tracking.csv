@@ -1,0 +1,400 @@
+keyword,count,n_vistypes,topics_involved,step1_merge,step1b_criteria,step3_subtopic,removed_at,final_status,merged_into
+more charts/points/lines/shapes/elements,79,9,Data Density / Image Clutter,kept (rep),kept,Element Quantity,,ASSIGNED,
+"domain-specific concepts (e.g., chemical, biology, map)",41,8,Schema,kept (rep),kept,Domain Familiarity,,ASSIGNED,
+unclear meaning/confusing,31,9,"Color, Symbol, and Texture Details | Immediacy / Cognitive Load",kept (rep),kept,Semantic Clarity,,ASSIGNED,
+take longer to interpret,25,8,Immediacy / Cognitive Load,kept (rep),kept,Processing Time & Effort,,ASSIGNED,
+shapes and lines,24,8,Visual Encoding Clarity,kept (rep),kept,Graphical Forms & Primitives,,ASSIGNED,
+distracting/confusing/unclear,23,9,Aesthetics Uncertainty,kept (rep),kept,Visual Disorganization,,ASSIGNED,
+amount of words/context/numbers,22,8,Semantics / Text Legibility,kept (rep),kept,Text Volume & Content,,ASSIGNED,
+overlapping shapes/colors/lines,18,6,Data Density / Image Clutter,kept (rep),kept,Visual Clutter & Overlap,,ASSIGNED,
+word rotation/small font size,18,5,Semantics / Text Legibility,kept (rep),kept,Typography & Readability,,ASSIGNED,
+2D/3D,11,6,Schema | Visual Encoding Clarity,kept (rep),kept,Dimensionality & Structure,,ASSIGNED,
+more parameters/variables,9,4,Data Density / Image Clutter,kept (rep),kept,Information Volume,,ASSIGNED,
+unclear colors/contrast,8,6,Aesthetics Uncertainty,kept (rep),kept,Perceptual Ambiguity,,ASSIGNED,
+inadequate/few coloring,8,4,"Color, Symbol, and Texture Details",kept (rep),kept,Color Palette & Contrast,,ASSIGNED,
+soft/layered/overlapping colors,7,4,"Color, Symbol, and Texture Details",kept (rep),kept,Color Palette & Contrast,,ASSIGNED,
+simple visual elements,6,4,Visual Encoding Clarity,kept (rep),kept,Graphical Forms & Primitives,,ASSIGNED,
+clear colors/shapes,5,5,Visual Encoding Clarity,kept (rep),kept,Encoding Interpretability,,ASSIGNED,
+understand/read shapes,5,5,Visual Encoding Clarity,kept (rep),kept,Encoding Interpretability,,ASSIGNED,
+abstract shapes or colors,5,5,Schema | Visual Encoding Clarity,kept (rep),kept,Abstraction Level,,ASSIGNED,
+design-data relationship,5,4,Visual Encoding Clarity,kept (rep),kept,Encoding Interpretability,,ASSIGNED,
+several elements,5,4,Visual Encoding Clarity,kept (rep),kept,Graphical Forms & Primitives,,ASSIGNED,
+distinguishable/full/highly contrast color uses,5,3,"Color, Symbol, and Texture Details",kept (rep),kept,Color Palette & Contrast,,ASSIGNED,
+read/analyze many figures/items,4,1,Immediacy / Cognitive Load,kept (rep),kept,Processing Time & Effort,,ASSIGNED,
+clear text/scale/information,4,3,Semantics / Text Legibility,kept (rep),kept,Annotations & Labels,,ASSIGNED,
+white/black background / other background,4,3,"Color, Symbol, and Texture Details",kept (rep),kept,Color Palette & Contrast,,ASSIGNED,
+scale difference,4,4,Visual Encoding Clarity,kept (rep),kept,"Position, Scale & Organization",,ASSIGNED,
+shape variation,4,3,Visual Encoding Clarity,kept (rep),kept,Graphical Forms & Primitives,,ASSIGNED,
+distinguishable color variety/arrangement/distribution,4,2,"Color, Symbol, and Texture Details",kept (rep),kept,Color Palette & Contrast,,ASSIGNED,
+two colors,4,2,"Color, Symbol, and Texture Details",kept (rep),kept,Color Palette & Contrast,,ASSIGNED,
+little/less text/numbers/context,4,3,Semantics / Text Legibility,kept (rep),kept,Text Volume & Content,,ASSIGNED,
+"scattered shapes (e.g., dots, squares, pictures)",4,3,Data Density / Image Clutter | Visual Encoding Clarity,kept (rep),kept,Element Quantity,,ASSIGNED,
+more labels/context,4,3,Semantics / Text Legibility,kept (rep),kept,Annotations & Labels,,ASSIGNED,
+bright colors,3,2,"Color, Symbol, and Texture Details",kept (rep),kept,Color Palette & Contrast,,ASSIGNED,
+clear text arrangement/density,3,3,Semantics / Text Legibility,kept (rep),kept,Typography & Readability,,ASSIGNED,
+ordered,3,3,Visual Encoding Clarity,kept (rep),kept,"Position, Scale & Organization",,ASSIGNED,
+random-like shapes,3,1,Visual Encoding Clarity,kept (rep),kept,Graphical Forms & Primitives,,ASSIGNED,
+shape size,3,2,Visual Encoding Clarity,kept (rep),kept,Graphical Forms & Primitives,,ASSIGNED,
+shape position,3,3,Visual Encoding Clarity,kept (rep),kept,"Position, Scale & Organization",,ASSIGNED,
+shape point of interest,3,2,Visual Encoding Clarity,kept (rep),kept,Encoding Interpretability,,ASSIGNED,
+shape increase/decrease point,3,2,Visual Encoding Clarity,kept (rep),kept,Graphical Forms & Primitives,,ASSIGNED,
+monochrome,3,2,"Color, Symbol, and Texture Details",kept (rep),kept,Color Palette & Contrast,,ASSIGNED,
+more difficult to focus/follow,3,3,Immediacy / Cognitive Load,kept (rep),kept,Interpretive Difficulty,,ASSIGNED,
+more regions/space,3,3,Data Density / Image Clutter,kept (rep),kept,Visual Clutter & Overlap,,ASSIGNED,
+less organized elements,3,3,Visual Encoding Clarity,kept (rep),kept,"Position, Scale & Organization",,ASSIGNED,
+blurry colors/images,3,2,"Color, Symbol, and Texture Details",kept (rep),kept,Color Palette & Contrast,,ASSIGNED,
+symbols,2,1,"Color, Symbol, and Texture Details",kept (rep),kept,Symbols & Texture,,ASSIGNED,
+color variety/arrangement/distribution,87,9,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+much/more data/info/info spread,65,9,Data Density / Image Clutter,MERGED (manual group),-,Information Volume,"Step 1: merged into ""much/little data/info""",merged,much/little data/info
+easy to interpret/read/understand,55,9,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+more detailed/things,37,8,Data Density / Image Clutter,MERGED (manual group),-,Information Volume,"Step 1: merged into ""much/little data/info""",merged,much/little data/info
+title/axis/label/descriptions,37,9,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+unclear colormaps,34,9,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color contrast/clarity""",merged,color contrast/clarity
+lack of/not enough axis labels/legend/annotations/context,34,8,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+hard to interpret/read/understand,33,9,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+unfamiliar concepts/patterns,32,8,Schema,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+more difficult to interpret/read/understand/differentiate,28,9,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+familiar representation,27,8,Schema,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+a specific technique,27,8,Schema,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+not interpretable/readable/understandable,27,7,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+more texts/words,20,7,Semantics / Text Legibility,MERGED (manual group),-,Text Volume & Content,"Step 1: merged into ""amount of words/context/numbers""",merged,amount of words/context/numbers
+easier to interpret/read/understand,20,8,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+word/text/sentence,19,7,Semantics / Text Legibility,MERGED (manual group),-,Text Volume & Content,"Step 1: merged into ""amount of words/context/numbers""",merged,amount of words/context/numbers
+little data/info,19,8,Data Density / Image Clutter,MERGED (manual group),-,Information Volume,"Step 1: merged into ""much/little data/info""",merged,much/little data/info
+shapes,17,7,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+hard to interpret/read/understand/differentiate,17,8,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+dense/cluttered data/info,14,6,Data Density / Image Clutter,MERGED (manual group),-,Visual Clutter & Overlap,"Step 1: merged into ""overlapping shapes/colors/lines""",merged,overlapping shapes/colors/lines
+multiple features/elements/graphs,14,7,Data Density / Image Clutter,MERGED (manual group),-,Element Quantity,"Step 1: merged into ""more charts/points/lines/shapes/elements""",merged,more charts/points/lines/shapes/elements
+too much legend,13,6,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+looks random/messy/lack structure,12,8,Aesthetics Uncertainty,MERGED (manual group),-,Visual Disorganization,"Step 1: merged into ""distracting/confusing/unclear""",merged,distracting/confusing/unclear
+lines,12,4,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+more reading/interpretation/understanding,11,6,Immediacy / Cognitive Load,MERGED (manual group),-,Processing Time & Effort,"Step 1: merged into ""take longer to interpret""",merged,take longer to interpret
+unclear color meaning,11,7,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color contrast/clarity""",merged,color contrast/clarity
+lack of color contrast / hard to distinguish colors,11,6,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color contrast/clarity""",merged,color contrast/clarity
+messy/mixed up/noisy/intermingled elements,10,5,Data Density / Image Clutter,MERGED (manual group),-,Visual Clutter & Overlap,"Step 1: merged into ""overlapping shapes/colors/lines""",merged,overlapping shapes/colors/lines
+dense/cluttered layout,10,6,Data Density / Image Clutter,MERGED (manual group),-,Visual Clutter & Overlap,"Step 1: merged into ""overlapping shapes/colors/lines""",merged,overlapping shapes/colors/lines
+readability,10,5,Semantics / Text Legibility,MERGED (manual group),-,Typography & Readability,"Step 1: merged into ""word rotation/small font size""",merged,word rotation/small font size
+more to read/analyze/understand,10,4,Data Density / Image Clutter | Immediacy / Cognitive Load,MERGED (manual group),-,Processing Time & Effort,"Step 1: merged into ""take longer to interpret""",merged,take longer to interpret
+"a specific technique, e.g., bar, pie, circle",10,6,Schema,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+low color contrast/separation/segmentation,10,6,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color contrast/clarity""",merged,color contrast/clarity
+unclear coloring,10,6,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color contrast/clarity""",merged,color contrast/clarity
+amount of / too many colors,9,5,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+many points/lines/shapes/elements,9,6,Data Density / Image Clutter,MERGED (manual group),-,Element Quantity,"Step 1: merged into ""more charts/points/lines/shapes/elements""",merged,more charts/points/lines/shapes/elements
+fine/layered details,9,7,Data Density / Image Clutter,MERGED (manual group),-,Information Volume,"Step 1: merged into ""much/little data/info""",merged,much/little data/info
+clear title/axis/label,9,5,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+color shading,9,6,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+different font/word sizes/structure,9,3,Semantics / Text Legibility,MERGED (manual group),-,Typography & Readability,"Step 1: merged into ""word rotation/small font size""",merged,word rotation/small font size
+easier to process/visualize,9,4,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+more complicated,9,5,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+unclear meaning,8,5,Visual Encoding Clarity,MERGED (manual group),-,Semantic Clarity,"Step 1: merged into ""unclear meaning/confusing""",merged,unclear meaning/confusing
+shape size variation,8,5,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+more title/axis/label,8,5,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+no measurement/metric/axis,7,6,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+black-to-white/color gradient,7,5,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+shape variety,7,5,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+curves and shapes,7,6,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+complicated to process,7,5,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+intuitive,7,5,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+hard to see/tell/visualize,7,6,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+hard to compare/discern/distinguish,7,5,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+dense points/lines/shapes/elements,7,7,Data Density / Image Clutter,MERGED (manual group),-,Element Quantity,"Step 1: merged into ""more charts/points/lines/shapes/elements""",merged,more charts/points/lines/shapes/elements
+too much data/info,7,6,Data Density / Image Clutter,MERGED (manual group),-,Information Volume,"Step 1: merged into ""much/little data/info""",merged,much/little data/info
+not intuitive/simple data,6,4,Immediacy / Cognitive Load,MERGED (manual group),-,Visual Disorganization,"Step 1: merged into ""distracting/confusing/unclear""",merged,distracting/confusing/unclear
+many/more data/info,6,4,Data Density / Image Clutter,MERGED (manual group),-,Element Quantity,"Step 1: merged into ""more charts/points/lines/shapes/elements""",merged,more charts/points/lines/shapes/elements
+no context or reference,6,5,Schema,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+element sizes,6,3,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+simple to interpret/read/understand,6,3,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+organized/structured,6,5,Data Density / Image Clutter,MERGED (manual group),-,Dimensionality & Structure,"Step 1: merged into ""2D/3D""",merged,2D/3D
+unclear relation between words,6,5,Semantics / Text Legibility,MERGED (manual group),-,Semantic Clarity,"Step 1: merged into ""unclear meaning/confusing""",merged,unclear meaning/confusing
+unclear what data conveys,6,5,Visual Encoding Clarity,MERGED (manual group),-,Semantic Clarity,"Step 1: merged into ""unclear meaning/confusing""",merged,unclear meaning/confusing
+hard to identify/extract/find features,6,3,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+a specific domain,5,3,Schema,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+good color contrast/separation/segmentation,5,4,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color contrast/clarity""",merged,color contrast/clarity
+no clear indication,5,2,Visual Encoding Clarity,MERGED (manual group),-,Semantic Clarity,"Step 1: merged into ""unclear meaning/confusing""",merged,unclear meaning/confusing
+ambiguous/confusing colors,5,4,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color contrast/clarity""",merged,color contrast/clarity
+color scale/scheme,5,4,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+hard to focus/follow,5,4,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+visual clarity/appealing,5,4,Aesthetics Uncertainty,MERGED (manual group),-,Visual Disorganization,"Step 1: merged into ""distracting/confusing/unclear""",merged,distracting/confusing/unclear
+indistinguishable/unintuitive lines,5,5,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+more effort/reading/detailed analysis,5,3,Immediacy / Cognitive Load,MERGED (manual group),-,Processing Time & Effort,"Step 1: merged into ""take longer to interpret""",merged,take longer to interpret
+too many details/divisions,5,4,Data Density / Image Clutter,MERGED (manual group),-,Element Quantity,"Step 1: merged into ""more charts/points/lines/shapes/elements""",merged,more charts/points/lines/shapes/elements
+too many colors,5,3,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+unclear shape meaning,4,3,Visual Encoding Clarity,MERGED (manual group),-,Semantic Clarity,"Step 1: merged into ""unclear meaning/confusing""",merged,unclear meaning/confusing
+clear indication,4,4,Visual Encoding Clarity,MERGED (manual group),-,Semantic Clarity,"Step 1: merged into ""unclear meaning/confusing""",merged,unclear meaning/confusing
+attention/squinting to understand,4,3,Immediacy / Cognitive Load,MERGED (manual group),-,Processing Time & Effort,"Step 1: merged into ""take longer to interpret""",merged,take longer to interpret
+easier to see/tell/visualize,4,3,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+straight lines,4,4,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+more difficult to compare/discern/distinguish,4,4,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+code/text,3,3,Semantics / Text Legibility,MERGED (manual group),-,Text Volume & Content,"Step 1: merged into ""amount of words/context/numbers""",merged,amount of words/context/numbers
+color dimension,3,3,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+easy to focus/follow,3,3,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+easier to read,3,3,Semantics / Text Legibility,MERGED (manual group),-,Typography & Readability,"Step 1: merged into ""word rotation/small font size""",merged,word rotation/small font size
+easy to understand,3,3,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+provokes thought and understanding,3,3,Immediacy / Cognitive Load,MERGED (manual group),-,Processing Time & Effort,"Step 1: merged into ""take longer to interpret""",merged,take longer to interpret
+color keys,3,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+too many points/lines/shapes/elements,3,1,Data Density / Image Clutter,MERGED (manual group),-,Element Quantity,"Step 1: merged into ""more charts/points/lines/shapes/elements""",merged,more charts/points/lines/shapes/elements
+confusing connection,3,1,Visual Encoding Clarity,MERGED (manual group),-,Semantic Clarity,"Step 1: merged into ""unclear meaning/confusing""",merged,unclear meaning/confusing
+curved lines,3,2,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+text and imagery,3,3,Semantics / Text Legibility,MERGED (manual group),-,Text Volume & Content,"Step 1: merged into ""amount of words/context/numbers""",merged,amount of words/context/numbers
+spatial organization,3,2,Visual Encoding Clarity,MERGED (manual group),-,Dimensionality & Structure,"Step 1: merged into ""2D/3D""",merged,2D/3D
+more contrast,3,2,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color contrast/clarity""",merged,color contrast/clarity
+more difficult,3,3,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+more forms,3,1,Visual Encoding Clarity,MERGED (manual group),-,Element Quantity,"Step 1: merged into ""more charts/points/lines/shapes/elements""",merged,more charts/points/lines/shapes/elements
+few points/lines/shapes/elements,3,3,Data Density / Image Clutter,MERGED (manual group),-,Element Quantity,"Step 1: merged into ""more charts/points/lines/shapes/elements""",merged,more charts/points/lines/shapes/elements
+many numbers,3,3,Data Density / Image Clutter,MERGED (manual group),-,Text Volume & Content,"Step 1: merged into ""amount of words/context/numbers""",merged,amount of words/context/numbers
+information nuance expressed,3,3,Visual Encoding Clarity,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+less attractive,3,3,Aesthetics Uncertainty,MERGED (manual group),-,Visual Disorganization,"Step 1: merged into ""distracting/confusing/unclear""",merged,distracting/confusing/unclear
+legend easy to understand,3,3,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+intense/too many colors,3,2,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+less intuitive,3,3,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+appealing colors,3,3,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+unreadable,2,2,Semantics / Text Legibility,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+black color,2,2,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+bars as individual lines,2,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+blue color,2,2,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+involves numbers,2,2,Semantics / Text Legibility,MERGED (manual group),-,Text Volume & Content,"Step 1: merged into ""amount of words/context/numbers""",merged,amount of words/context/numbers
+intersecting lines,2,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+information overload,2,1,Immediacy / Cognitive Load,MERGED (manual group),-,Visual Clutter & Overlap,"Step 1: merged into ""overlapping shapes/colors/lines""",merged,overlapping shapes/colors/lines
+irregular,2,2,Aesthetics Uncertainty,MERGED (manual group),-,Visual Disorganization,"Step 1: merged into ""distracting/confusing/unclear""",merged,distracting/confusing/unclear
+value and graphic alignment,2,2,Visual Encoding Clarity,MERGED (manual group),-,Dimensionality & Structure,"Step 1: merged into ""2D/3D""",merged,2D/3D
+visually stimulating  texture/colors,2,2,"Color, Symbol, and Texture Details",MERGED (manual group),-,Symbols & Texture,"Step 1: merged into ""symbols""",merged,symbols
+label meaning,2,2,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+large dataset,2,2,Data Density / Image Clutter,MERGED (manual group),-,Information Volume,"Step 1: merged into ""much/little data/info""",merged,much/little data/info
+lack of meaning,2,2,Semantics / Text Legibility,MERGED (manual group),-,Semantic Clarity,"Step 1: merged into ""unclear meaning/confusing""",merged,unclear meaning/confusing
+lack of legend,2,2,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+indicating symbols,2,2,"Color, Symbol, and Texture Details",MERGED (manual group),-,Symbols & Texture,"Step 1: merged into ""symbols""",merged,symbols
+nonlinearity,2,1,Visual Encoding Clarity,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+not easily understood,2,2,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+multiple aspects,2,2,Visual Encoding Clarity,MERGED (manual group),-,Element Quantity,"Step 1: merged into ""more charts/points/lines/shapes/elements""",merged,more charts/points/lines/shapes/elements
+more numbers,2,2,Semantics / Text Legibility,MERGED (manual group),-,Text Volume & Content,"Step 1: merged into ""amount of words/context/numbers""",merged,amount of words/context/numbers
+more colors,2,2,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+more nuance information,2,2,Visual Encoding Clarity,MERGED (manual group),-,Information Volume,"Step 1: merged into ""much/little data/info""",merged,much/little data/info
+more intricate,2,2,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+more interpretable/readable/understandable,2,2,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+more uniform design,2,2,Visual Encoding Clarity,MERGED (manual group),-,Dimensionality & Structure,"Step 1: merged into ""2D/3D""",merged,2D/3D
+hard to measure/model,2,1,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+hard to describe,2,2,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+hard to read,2,1,Semantics / Text Legibility,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+explanation text,2,2,Semantics / Text Legibility,MERGED (manual group),-,Typography & Readability,"Step 1: merged into ""word rotation/small font size""",merged,word rotation/small font size
+fast readability,2,2,Semantics / Text Legibility,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+no detail,2,2,Visual Encoding Clarity,MERGED (manual group),-,Information Volume,"Step 1: merged into ""much/little data/info""",merged,much/little data/info
+convoluted composition,2,2,Aesthetics Uncertainty,MERGED (manual group),-,Visual Clutter & Overlap,"Step 1: merged into ""overlapping shapes/colors/lines""",merged,overlapping shapes/colors/lines
+data trend,2,2,Visual Encoding Clarity,MERGED (manual group),-,Dimensionality & Structure,"Step 1: merged into ""2D/3D""",merged,2D/3D
+technical encoding,2,2,Visual Encoding Clarity,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+text hard to read,2,2,Semantics / Text Legibility,MERGED (manual group),-,Typography & Readability,"Step 1: merged into ""word rotation/small font size""",merged,word rotation/small font size
+cluttered labels/annotations,2,2,Semantics / Text Legibility,MERGED (manual group),-,Visual Clutter & Overlap,"Step 1: merged into ""overlapping shapes/colors/lines""",merged,overlapping shapes/colors/lines
+color details,2,2,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+texture details,2,2,"Color, Symbol, and Texture Details",MERGED (manual group),-,Symbols & Texture,"Step 1: merged into ""symbols""",merged,symbols
+color represents groups,2,2,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+unclear movement,2,1,Visual Encoding Clarity,MERGED (manual group),-,Semantic Clarity,"Step 1: merged into ""unclear meaning/confusing""",merged,unclear meaning/confusing
+clear color uses,2,2,"Color, Symbol, and Texture Details",MERGED (TF-IDF) (sim=0.295),-,Color Palette & Contrast,"Step 1: merged into ""distinguishable/full/highly contrast color uses""",merged,distinguishable/full/highly contrast color uses
+small and simple,2,2,Semantics / Text Legibility,MERGED (manual group),-,Typography & Readability,"Step 1: merged into ""word rotation/small font size""",merged,word rotation/small font size
+simple information,2,2,Data Density / Image Clutter,MERGED (manual group),-,Information Volume,"Step 1: merged into ""much/little data/info""",merged,much/little data/info
+shape arrangement,2,2,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+description easy to read,2,2,Semantics / Text Legibility,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+different clarity,2,2,Visual Encoding Clarity,MERGED (manual group),-,Semantic Clarity,"Step 1: merged into ""unclear meaning/confusing""",merged,unclear meaning/confusing
+shapes and contrasts,2,1,Visual Encoding Clarity,MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color contrast/clarity""",merged,color contrast/clarity
+size decreasing,2,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+size variation,2,2,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+require specialized knowledge,2,2,Immediacy / Cognitive Load,MERGED (manual group),-,Processing Time & Effort,"Step 1: merged into ""take longer to interpret""",merged,take longer to interpret
+representation,2,2,Visual Encoding Clarity,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+random-like movement,2,2,Visual Encoding Clarity,MERGED (manual group),-,Visual Disorganization,"Step 1: merged into ""distracting/confusing/unclear""",merged,distracting/confusing/unclear
+easy to identify/extract/find features,2,2,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+number of legend items,2,2,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+number of levels,2,2,Visual Encoding Clarity,MERGED (manual group),-,Dimensionality & Structure,"Step 1: merged into ""2D/3D""",merged,2D/3D
+easy to derive meaning,2,2,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+drawing style,2,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+nothing clear,2,2,Visual Encoding Clarity,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+not enough knowledge to tell,2,2,Schema,MERGED (manual group),-,Processing Time & Effort,"Step 1: merged into ""take longer to interpret""",merged,take longer to interpret
+complex design,2,2,Visual Encoding Clarity,MERGED (manual group),-,Visual Clutter & Overlap,"Step 1: merged into ""overlapping shapes/colors/lines""",merged,overlapping shapes/colors/lines
+concentrated,2,2,Data Density / Image Clutter,MERGED (manual group),-,Visual Clutter & Overlap,"Step 1: merged into ""overlapping shapes/colors/lines""",merged,overlapping shapes/colors/lines
+context,2,2,Semantics / Text Legibility,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+clear connection,2,2,Visual Encoding Clarity,MERGED (manual group),-,Visual Disorganization,"Step 1: merged into ""distracting/confusing/unclear""",merged,distracting/confusing/unclear
+word frequency,2,1,Semantics / Text Legibility,MERGED (manual group),-,Text Volume & Content,"Step 1: merged into ""amount of words/context/numbers""",merged,amount of words/context/numbers
+unclear structure,2,2,Visual Encoding Clarity,MERGED (manual group),-,Semantic Clarity,"Step 1: merged into ""unclear meaning/confusing""",merged,unclear meaning/confusing
+clustered data/info,2,2,Data Density / Image Clutter,MERGED (TF-IDF) (sim=0.384),-,Information Volume,"Step 1: merged into ""much/little data/info""",merged,much/little data/info
+image size,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+harder to view data point,1,1,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+horizontal bars,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+highlighted words,1,1,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+hierarchical text,1,1,Semantics / Text Legibility,MERGED (manual group),-,Typography & Readability,"Step 1: merged into ""word rotation/small font size""",merged,word rotation/small font size
+image location,1,1,Visual Encoding Clarity,MERGED (manual group),-,Dimensionality & Structure,"Step 1: merged into ""2D/3D""",merged,2D/3D
+image portrayal,1,1,Visual Encoding Clarity,MERGED (manual group),-,Dimensionality & Structure,"Step 1: merged into ""2D/3D""",merged,2D/3D
+image layout,1,1,Visual Encoding Clarity,MERGED (manual group),-,Dimensionality & Structure,"Step 1: merged into ""2D/3D""",merged,2D/3D
+icons,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Symbols & Texture,"Step 1: merged into ""symbols""",merged,symbols
+hard to distinguish colors,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+graph,1,1,Visual Encoding Clarity,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+graphical information,1,1,Visual Encoding Clarity,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+grid layout,1,1,Visual Encoding Clarity,MERGED (manual group),-,Dimensionality & Structure,"Step 1: merged into ""2D/3D""",merged,2D/3D
+frame with values,1,1,Semantics / Text Legibility,MERGED (manual group),-,Dimensionality & Structure,"Step 1: merged into ""2D/3D""",merged,2D/3D
+misaligned,1,0,Visual Encoding Clarity,MERGED (manual group),-,Dimensionality & Structure,"Step 1: merged into ""2D/3D""",merged,2D/3D
+more axes,1,1,Semantics / Text Legibility,MERGED (manual group),-,Dimensionality & Structure,"Step 1: merged into ""2D/3D""",merged,2D/3D
+mixed timeline,1,1,Visual Encoding Clarity,MERGED (manual group),-,Information Volume,"Step 1: merged into ""much/little data/info""",merged,much/little data/info
+more legible,1,1,Semantics / Text Legibility,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+hard to read shape,1,1,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+mixed size,1,1,Semantics / Text Legibility,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+lines and scales,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+line quantity representation,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+line thickness variation,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+line movement,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+mismatched number-circle proportion,1,1,Visual Encoding Clarity,MERGED (TF-IDF) (sim=0.000),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+infomration representation,1,1,Visual Encoding Clarity,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+indication,1,1,Semantics / Text Legibility,MERGED (manual group),-,Semantic Clarity,"Step 1: merged into ""unclear meaning/confusing""",merged,unclear meaning/confusing
+inconsistent,1,1,Aesthetics Uncertainty,MERGED (manual group),-,Visual Disorganization,"Step 1: merged into ""distracting/confusing/unclear""",merged,distracting/confusing/unclear
+visually striking,1,1,Aesthetics Uncertainty,MERGED (manual group),-,Visual Disorganization,"Step 1: merged into ""distracting/confusing/unclear""",merged,distracting/confusing/unclear
+very different colors,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+labeled axis,1,1,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+length,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+legend on the top,1,1,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+less clear,1,1,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+less detailed/things,1,1,Data Density / Image Clutter,MERGED (manual group),-,Information Volume,"Step 1: merged into ""much/little data/info""",merged,much/little data/info
+less empty space,1,1,Data Density / Image Clutter,MERGED (manual group),-,Visual Clutter & Overlap,"Step 1: merged into ""overlapping shapes/colors/lines""",merged,overlapping shapes/colors/lines
+less negative space,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Visual Clutter & Overlap,"Step 1: merged into ""overlapping shapes/colors/lines""",merged,overlapping shapes/colors/lines
+less organic shapes,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+less simple,1,1,Aesthetics Uncertainty,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+less understandable,1,1,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+length variation,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+less uniform shapes,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+waterfall-like,1,1,Schema,MERGED (TF-IDF) (sim=0.000),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+white color on black background,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+with legend,1,1,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+unknown hidden content,1,1,Visual Encoding Clarity,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+bold colors,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+axis scales,1,1,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+value representation,1,1,Visual Encoding Clarity,MERGED (manual group),-,Dimensionality & Structure,"Step 1: merged into ""2D/3D""",merged,2D/3D
+visually overwhelming,1,1,Aesthetics Uncertainty,MERGED (manual group),-,Visual Disorganization,"Step 1: merged into ""distracting/confusing/unclear""",merged,distracting/confusing/unclear
+visualization meaning,1,1,Semantics / Text Legibility,MERGED (manual group),-,Semantic Clarity,"Step 1: merged into ""unclear meaning/confusing""",merged,unclear meaning/confusing
+visual cues,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Semantic Clarity,"Step 1: merged into ""unclear meaning/confusing""",merged,unclear meaning/confusing
+blended colors,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+axis meaning,1,1,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+arbitrary imaging,1,1,Aesthetics Uncertainty,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+values in the middle,1,1,Visual Encoding Clarity,MERGED (manual group),-,Dimensionality & Structure,"Step 1: merged into ""2D/3D""",merged,2D/3D
+axis numbers,1,1,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+nodes,1,1,Visual Encoding Clarity,MERGED (manual group),-,Symbols & Texture,"Step 1: merged into ""symbols""",merged,symbols
+nonlinear measurement/metric/axis,1,1,Semantics / Text Legibility,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+no more information,1,1,Visual Encoding Clarity,MERGED (manual group),-,Information Volume,"Step 1: merged into ""much/little data/info""",merged,much/little data/info
+no square information,1,1,Visual Encoding Clarity,MERGED (TF-IDF) (sim=0.186),-,Semantic Clarity,"Step 1: merged into ""unclear meaning/confusing""",merged,unclear meaning/confusing
+no measurement/metric,1,1,Semantics / Text Legibility,MERGED (TF-IDF) (sim=0.857),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+no interaction,1,1,Visual Encoding Clarity,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+no color difference,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color contrast/clarity""",merged,color contrast/clarity
+no data,1,1,Visual Encoding Clarity,MERGED (manual group),-,Information Volume,"Step 1: merged into ""much/little data/info""",merged,much/little data/info
+multivariate,1,1,Visual Encoding Clarity,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+negative space,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Visual Clutter & Overlap,"Step 1: merged into ""overlapping shapes/colors/lines""",merged,overlapping shapes/colors/lines
+no color,1,1,"Color, Symbol, and Texture Details",MERGED (TF-IDF) (sim=0.095),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+network representation,1,1,Visual Encoding Clarity,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+multiple shapes,1,1,Visual Encoding Clarity,MERGED (manual group),-,Element Quantity,"Step 1: merged into ""more charts/points/lines/shapes/elements""",merged,more charts/points/lines/shapes/elements
+multiple interacting elements,1,1,Data Density / Image Clutter,MERGED (manual group),-,Element Quantity,"Step 1: merged into ""more charts/points/lines/shapes/elements""",merged,more charts/points/lines/shapes/elements
+multiple interpretation,1,1,Immediacy / Cognitive Load,MERGED (manual group),-,Processing Time & Effort,"Step 1: merged into ""take longer to interpret""",merged,take longer to interpret
+multiple points/lines/shapes/elements,1,1,Data Density / Image Clutter,MERGED (manual group),-,Element Quantity,"Step 1: merged into ""more charts/points/lines/shapes/elements""",merged,more charts/points/lines/shapes/elements
+exact value,1,1,Visual Encoding Clarity,MERGED (TF-IDF) (sim=0.000),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+feeling strange,1,1,Aesthetics Uncertainty,MERGED (manual group),-,Visual Disorganization,"Step 1: merged into ""distracting/confusing/unclear""",merged,distracting/confusing/unclear
+factual information,1,1,Semantics / Text Legibility,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+multi-year information,1,1,Visual Encoding Clarity,MERGED (manual group),-,Information Volume,"Step 1: merged into ""much/little data/info""",merged,much/little data/info
+field information,1,1,Visual Encoding Clarity,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+font,1,1,Semantics / Text Legibility,MERGED (manual group),-,Typography & Readability,"Step 1: merged into ""word rotation/small font size""",merged,word rotation/small font size
+fewer axes,1,1,Semantics / Text Legibility,MERGED (manual group),-,Dimensionality & Structure,"Step 1: merged into ""2D/3D""",merged,2D/3D
+few lines,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+explanatory legend,1,1,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+eye-catching description,1,1,Semantics / Text Legibility,MERGED (TF-IDF) (sim=0.000),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+more squares than shapes,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+more pixels,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Element Quantity,"Step 1: merged into ""more charts/points/lines/shapes/elements""",merged,more charts/points/lines/shapes/elements
+more text boxes,1,1,Semantics / Text Legibility,MERGED (manual group),-,Text Volume & Content,"Step 1: merged into ""amount of words/context/numbers""",merged,amount of words/context/numbers
+more thinking,1,1,Immediacy / Cognitive Load,MERGED (manual group),-,Processing Time & Effort,"Step 1: merged into ""take longer to interpret""",merged,take longer to interpret
+error bars,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+exact feature,1,1,Visual Encoding Clarity,MERGED (TF-IDF) (sim=0.000),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+many measurements,1,1,Data Density / Image Clutter,MERGED (manual group),-,Information Volume,"Step 1: merged into ""much/little data/info""",merged,much/little data/info
+many legend categories,1,1,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+low readability,1,1,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+metric representation,1,1,Visual Encoding Clarity,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+salient colors,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+regions,1,1,Visual Encoding Clarity,MERGED (TF-IDF) (sim=0.000),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+separate color scales,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+same colors,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+different movement,1,1,Visual Encoding Clarity,MERGED (manual group),-,Visual Disorganization,"Step 1: merged into ""distracting/confusing/unclear""",merged,distracting/confusing/unclear
+different word meaning,1,1,Semantics / Text Legibility,MERGED (manual group),-,Semantic Clarity,"Step 1: merged into ""unclear meaning/confusing""",merged,unclear meaning/confusing
+distinguishable/full color uses,1,1,"Color, Symbol, and Texture Details",MERGED (TF-IDF) (sim=0.597),-,Color Palette & Contrast,"Step 1: merged into ""distinguishable/full/highly contrast color uses""",merged,distinguishable/full/highly contrast color uses
+disposition,1,1,Data Density / Image Clutter,MERGED (manual group),-,Dimensionality & Structure,"Step 1: merged into ""2D/3D""",merged,2D/3D
+description,1,1,Semantics / Text Legibility,MERGED (manual group),-,Typography & Readability,"Step 1: merged into ""word rotation/small font size""",merged,word rotation/small font size
+detailed inscription,1,1,Semantics / Text Legibility,MERGED (manual group),-,Typography & Readability,"Step 1: merged into ""word rotation/small font size""",merged,word rotation/small font size
+readable/distinguishable colors,1,1,"Color, Symbol, and Texture Details",MERGED (TF-IDF) (sim=0.115),-,Color Palette & Contrast,"Step 1: merged into ""distinguishable color variety/arrangement/distribution""",merged,distinguishable color variety/arrangement/distribution
+recognizable objects,1,1,Semantics / Text Legibility,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+shape,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+separate values by color to show differences,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color contrast/clarity""",merged,color contrast/clarity
+number of vertical lines,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+overall shape,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+precision of aspect,1,1,Visual Encoding Clarity,MERGED (TF-IDF) (sim=0.151),-,Encoding Interpretability,"Step 1: merged into ""shape point of interest""",merged,shape point of interest
+precision of lines,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+plots,1,1,Visual Encoding Clarity,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+pixeled picture,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Visual Disorganization,"Step 1: merged into ""distracting/confusing/unclear""",merged,distracting/confusing/unclear
+order of words,1,1,Semantics / Text Legibility,MERGED (manual group),-,Typography & Readability,"Step 1: merged into ""word rotation/small font size""",merged,word rotation/small font size
+numbers and shapes,1,1,Visual Encoding Clarity,MERGED (manual group),-,Text Volume & Content,"Step 1: merged into ""amount of words/context/numbers""",merged,amount of words/context/numbers
+easier to compare/discern/distinguish,1,1,Immediacy / Cognitive Load,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+nothing visible,1,1,Visual Encoding Clarity,MERGED (manual group),-,Visual Disorganization,"Step 1: merged into ""distracting/confusing/unclear""",merged,distracting/confusing/unclear
+easy to read,1,1,Semantics / Text Legibility,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+diverse information,1,1,Data Density / Image Clutter,MERGED (manual group),-,Information Volume,"Step 1: merged into ""much/little data/info""",merged,much/little data/info
+number distribution,1,1,Semantics / Text Legibility,MERGED (manual group),-,Dimensionality & Structure,"Step 1: merged into ""2D/3D""",merged,2D/3D
+not simple color-wise,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+colored surface,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+colored shape,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+squares,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+smooth lines,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+small,1,1,Visual Encoding Clarity,MERGED (manual group),-,Typography & Readability,"Step 1: merged into ""word rotation/small font size""",merged,word rotation/small font size
+single font,1,1,Semantics / Text Legibility,MERGED (manual group),-,Typography & Readability,"Step 1: merged into ""word rotation/small font size""",merged,word rotation/small font size
+single variable,1,1,Visual Encoding Clarity,MERGED (manual group),-,Information Volume,"Step 1: merged into ""much/little data/info""",merged,much/little data/info
+size,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+similar box sizes,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+similar colors,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+shapes varied,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+similar shapes,1,0,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+shape indicators,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+shape misunderstanding,1,1,Immediacy / Cognitive Load,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+shape subset representation,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+shape-color mix,1,1,Data Density / Image Clutter,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+dense/cluttered shape,1,1,Data Density / Image Clutter,MERGED (manual group),-,Visual Clutter & Overlap,"Step 1: merged into ""overlapping shapes/colors/lines""",merged,overlapping shapes/colors/lines
+different labels,1,1,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+text,1,1,Semantics / Text Legibility,MERGED (manual group),-,Text Volume & Content,"Step 1: merged into ""amount of words/context/numbers""",merged,amount of words/context/numbers
+symbols and shading,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Symbols & Texture,"Step 1: merged into ""symbols""",merged,symbols
+stimulus less visible,1,1,Visual Encoding Clarity,MERGED (manual group),-,Visual Disorganization,"Step 1: merged into ""distracting/confusing/unclear""",merged,distracting/confusing/unclear
+text ratio,1,1,Semantics / Text Legibility,MERGED (manual group),-,Text Volume & Content,"Step 1: merged into ""amount of words/context/numbers""",merged,amount of words/context/numbers
+color differentiation,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color contrast/clarity""",merged,color contrast/clarity
+text on picture,1,1,Semantics / Text Legibility,MERGED (manual group),-,Text Volume & Content,"Step 1: merged into ""amount of words/context/numbers""",merged,amount of words/context/numbers
+color hues,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+color intensity,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+striped texture,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Symbols & Texture,"Step 1: merged into ""symbols""",merged,symbols
+struggled to read,1,1,Aesthetics Uncertainty,MERGED (manual group),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+data intersection,1,1,Data Density / Image Clutter,MERGED (manual group),-,Dimensionality & Structure,"Step 1: merged into ""2D/3D""",merged,2D/3D
+crop production shown,1,1,Visual Encoding Clarity,MERGED (TF-IDF) (sim=0.000),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+dates,1,1,Semantics / Text Legibility,MERGED (TF-IDF) (sim=0.000),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+context/text/description,1,1,Semantics / Text Legibility,MERGED (manual group),-,Text Volume & Content,"Step 1: merged into ""amount of words/context/numbers""",merged,amount of words/context/numbers
+too many sections,1,1,Data Density / Image Clutter,MERGED (manual group),-,Element Quantity,"Step 1: merged into ""more charts/points/lines/shapes/elements""",merged,more charts/points/lines/shapes/elements
+too many numbers,1,1,Data Density / Image Clutter,MERGED (manual group),-,Text Volume & Content,"Step 1: merged into ""amount of words/context/numbers""",merged,amount of words/context/numbers
+colored bars/charts,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+color superposition/layer,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+color saturation,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+color represents sounds,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+unable to sort,1,1,Visual Encoding Clarity,MERGED (manual group),-,Visual Disorganization,"Step 1: merged into ""distracting/confusing/unclear""",merged,distracting/confusing/unclear
+too many subjects,1,1,Semantics / Text Legibility,MERGED (manual group),-,Element Quantity,"Step 1: merged into ""more charts/points/lines/shapes/elements""",merged,more charts/points/lines/shapes/elements
+change over time,1,1,Visual Encoding Clarity,MERGED (TF-IDF) (sim=0.000),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+categorized shapes,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+captions,1,1,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+clear and concise,1,1,Semantics / Text Legibility,MERGED (manual group),-,Visual Disorganization,"Step 1: merged into ""distracting/confusing/unclear""",merged,distracting/confusing/unclear
+clear colored bars/charts,1,1,"Color, Symbol, and Texture Details",MERGED (TF-IDF) (sim=0.000),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+too many subplots,1,1,Data Density / Image Clutter,MERGED (manual group),-,Element Quantity,"Step 1: merged into ""more charts/points/lines/shapes/elements""",merged,more charts/points/lines/shapes/elements
+too more points/lines/shapes/elements,1,1,Data Density / Image Clutter,MERGED (manual group),-,Element Quantity,"Step 1: merged into ""more charts/points/lines/shapes/elements""",merged,more charts/points/lines/shapes/elements
+unable to remember,1,1,Immediacy / Cognitive Load,MERGED (TF-IDF) (sim=0.042),-,Interpretive Difficulty,"Step 1: merged into ""easy/hard to interpret""",merged,easy/hard to interpret
+unclear filled bars,1,1,Visual Encoding Clarity,MERGED (manual group),-,Semantic Clarity,"Step 1: merged into ""unclear meaning/confusing""",merged,unclear meaning/confusing
+clearer coloring,1,1,"Color, Symbol, and Texture Details",MERGED (manual group),-,Color Palette & Contrast,"Step 1: merged into ""color variety/shading""",merged,color variety/shading
+clear delineation,1,1,Visual Encoding Clarity,MERGED (manual group),-,Visual Disorganization,"Step 1: merged into ""distracting/confusing/unclear""",merged,distracting/confusing/unclear
+unclear shape,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+uneven shape,1,1,Visual Encoding Clarity,MERGED (manual group),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+uninterpretable ranking,1,1,Visual Encoding Clarity,MERGED (TF-IDF) (sim=0.000),-,Graphical Forms & Primitives,"Step 1: merged into ""shapes and lines""",merged,shapes and lines
+unique,1,1,Schema,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+unclear where to look/what to see,1,1,Immediacy / Cognitive Load,MERGED (manual group),-,Semantic Clarity,"Step 1: merged into ""unclear meaning/confusing""",merged,unclear meaning/confusing
+unique data point,1,1,Visual Encoding Clarity,MERGED (manual group),-,Domain Familiarity,"Step 1: merged into ""domain-specific concepts (e.g., chemical, biology, map)""",merged,"domain-specific concepts (e.g., chemical, biology, map)"
+word misoriented,1,1,Semantics / Text Legibility,MERGED (manual group),-,Typography & Readability,"Step 1: merged into ""word rotation/small font size""",merged,word rotation/small font size
+ambiguous numbers,1,1,Semantics / Text Legibility,MERGED (manual group),-,Text Volume & Content,"Step 1: merged into ""amount of words/context/numbers""",merged,amount of words/context/numbers
+word source,1,0,Semantics / Text Legibility,MERGED (manual group),-,Text Volume & Content,"Step 1: merged into ""amount of words/context/numbers""",merged,amount of words/context/numbers
+almost no explanation,1,1,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+words and numbers,1,1,Semantics / Text Legibility,MERGED (manual group),-,Text Volume & Content,"Step 1: merged into ""amount of words/context/numbers""",merged,amount of words/context/numbers
+x-axis unlabeled,1,1,Semantics / Text Legibility,MERGED (manual group),-,Annotations & Labels,"Step 1: merged into ""labels/axes/legends""",merged,labels/axes/legends
+y-axis meaning unclear,1,1,Semantics / Text Legibility,MERGED (TF-IDF) (sim=0.151),-,Semantic Clarity,"Step 1: merged into ""unclear meaning/confusing""",merged,unclear meaning/confusing

@@ -1,0 +1,198 @@
+% IEEE VIS / TVCG Paper — Section: From Participant Comments to Topic Subtopics
+% Compile on Overleaf with pdfLaTeX.
+% Template base: IEEEtran (journal mode), compatible with IEEE VIS / TVCG submission.
+
+\documentclass[journal]{IEEEtran}
+
+% ---------- Packages ----------
+\usepackage{cite}
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+\usepackage{booktabs}
+
+% ---------- Begin Document ----------
+\begin{document}
+
+% ============================================================
+%  SECTION
+% ============================================================
+\section{From Participant Comments to Topic Subtopics}
+\label{sec:pipeline}
+
+To analyze free-text comments collected in the paired-image complexity comparison study, we developed a multi-stage human-in-the-loop pipeline that transforms unstructured participant language into a compact, interpretable vocabulary of complexity subtopics. The pipeline proceeds in three phases: (1)~constructing a topic framework and extracting topic-linked phrases, (2)~reducing those phrases through a BeauVis-inspired consolidation procedure~\cite{he2022beauvis}, and (3)~organizing the surviving phrases into a named subtopic taxonomy with expert-assigned conceptual labels and descriptions.
+
+A recurring theme throughout the pipeline is the complementary interplay between LLM assistance and human expert curation. While LLMs excel at rapidly processing large volumes of unstructured text and proposing initial groupings, we found that LLM-generated phrase labels, groupings, and subtopic names frequently lacked the semantic precision required for visualization research. AI-curated outputs tended toward generic or overlapping labels, inconsistent granularity, and occasional misassignment of domain-specific terms. These limitations necessitated systematic human steering at every stage---from topic definition and phrase extraction to synonym grouping, criterion filtering, and final subtopic naming---ensuring that the resulting taxonomy reflects visualization semantics rather than statistical artifacts of language model behavior.
+
+% ============================================================
+%  SUBSECTION 1
+% ============================================================
+\subsection{Topic Framework and Phrase Extraction}
+\label{sec:extraction}
+
+\noindent\textbf{Stage 1 — Topic Framework Construction.}
+We first prompted an LLM to identify recurring high-level themes in the raw participant comments.
+Visualization experts reviewed the LLM-suggested themes and revised them to produce seven final analysis topics:
+\textit{Data Density / Image Clutter} (DDIC),
+\textit{Visual Encoding Clarity} (VEC),
+\textit{Semantics / Text Legibility} (STL),
+\textit{Schema} (SCH),
+\textit{Color, Symbol, and Texture Details} (CSTD),
+\textit{Aesthetics Uncertainty} (AU), and
+\textit{Immediacy / Cognitive Load} (ICL).
+This expert revision step grounded the topic taxonomy in visualization semantics and reduced ambiguity in downstream phrase assignment.
+
+\noindent\textbf{Stage 2 — Phrase Extraction, Sentiment Labeling, and Topic Assignment.}
+We prompted an LLM to extract short, salient phrases from each participant comment and simultaneously assign each phrase to one of the seven topics and attach a \emph{complexity sentiment label}: \texttt{(+)}~indicates increased perceived complexity and \texttt{(-)}~indicates decreased perceived complexity.
+For example, from the comment \textit{``Curves and graphs are always hard to understand for me,''} the LLM extracted \texttt{(+) hard to understand} and mapped it to the ICL topic.
+
+Because LLM outputs often produced overlapping or overly long expressions, experts manually post-processed the results by (i)~resolving multi-topic assignments to the single most relevant topic and (ii)~shortening verbose expressions to compact, discriminative units.
+This curation produced over 1,700 original phrases across the seven topics, each carrying a topic assignment and a complexity polarity label.
+
+\noindent\textbf{Stage 3 — Progressive Consolidation.}
+To reduce this initial set to a manageable scale, we applied two rounds of consolidation.
+First, we prompted the LLM to group semantically similar original phrases into a smaller AI-curated set (${\sim}800$ phrases).
+Visualization experts then manually reviewed the AI-curated phrases, merging and revising them to produce ${\sim}400$ human-curated phrases.
+Although substantially reduced, this set still contained lexical redundancy and cross-topic overlap, motivating the algorithmic reduction described next.
+
+% ============================================================
+%  SUBSECTION 2
+% ============================================================
+\subsection{BeauVis-Inspired Phrase Reduction}
+\label{sec:reduction}
+
+Starting from the $400$ human-curated phrases, we implemented a computational reduction procedure adapted from BeauVis~\cite{he2022beauvis} to systematically consolidate and filter phrases before organizing them into subtopics.
+
+\noindent\textbf{Step~0 — Aggregate Phrase Statistics.}
+We first computed usage statistics for each phrase across 520 images annotated in the study, including phrase frequency (\textit{count}) and the number of distinct visualization types in which it appeared (\textit{n\_vistypes}).
+These statistics drive consolidation and selection in subsequent steps.
+
+\noindent\textbf{Step~1 — Merge-First Consolidation (Per-Topic TF-IDF).}
+Rather than discarding rare phrases outright, we first merged them into semantically close representatives through two mechanisms:
+\begin{itemize}
+  \item \textit{Manual synonym-group merging.}
+    Experts defined synonym groups of near-synonyms, organized per topic;
+    within each group, the highest-frequency phrase became the canonical representative.
+  \item \textit{Per-topic TF-IDF similarity matching.}
+    Remaining low-frequency phrases (below a minimum count threshold) were compared to higher-frequency survivors via TF-IDF cosine similarity \emph{within the same primary topic only}, avoiding cross-topic mismerges that occurred in earlier pipeline iterations. Phrases with no adequate same-topic match were force-merged into the closest same-topic survivor.
+\end{itemize}
+This merge-first strategy preserves low-frequency but semantically meaningful concepts by absorbing them into stable representatives rather than pruning them prematurely.
+
+\noindent\textbf{Step~1b — Criterion-Based Semantic Filtering.}
+After consolidation, we applied criterion-based filtering adapted from BeauVis~\cite{he2022beauvis}.
+Our key methodological revision was to \emph{retain} domain-specific or single-visualization-type phrases that clearly describe visual properties, removing only non-informative artifacts and lower-frequency members of explicit antonym pairs.
+This revision was essential to preserve Schema-related language that would otherwise have been disproportionately eliminated.
+
+\noindent\textbf{Step~2 — Universality Scoring.}
+Each retained phrase received a universality score:
+\begin{equation}
+  \label{eq:uscore}
+  s = \mathrm{count} \times \mathrm{n\_vistypes},
+\end{equation}
+which jointly rewards high occurrence frequency and breadth of coverage across visualization types.
+Both primary and secondary topic assignments were retained to capture cross-topic semantics while preserving each phrase's canonical topic origin.
+
+% ============================================================
+%  SUBSECTION 3
+% ============================================================
+\subsection{Subtopic Taxonomy Construction}
+\label{sec:taxonomy}
+
+The original pipeline selected a flat shortlist of top-scoring phrases as subtopic labels. However, because those labels were drawn directly from participant language (e.g., \textit{``shapes and lines,''} \textit{``easy/hard to interpret''}), they lacked the conceptual clarity needed for systematic analysis. Phrase-based labels were often too narrow to represent the broader concepts they encompassed, and multiple phrases within a topic could describe overlapping aspects of the same underlying dimension.
+
+To address this, we replaced the flat phrase selection with a \emph{named subtopic taxonomy} constructed through expert-driven conceptual grouping. For each of the seven topics, visualization experts assigned every surviving phrase to a semantically coherent subtopic defined by:
+\begin{itemize}
+  \item a \textbf{conceptual name} (e.g., \textit{Information Volume}, \textit{Color Contrast \& Distinguishability}) that describes the aspect of visual complexity the subtopic captures, rather than echoing a single participant phrase;
+  \item a \textbf{description} stating what dimension of visual complexity the subtopic represents; and
+  \item the set of \textbf{member phrases} from the consolidation steps that belong to this subtopic.
+\end{itemize}
+
+This process yielded 21 named subtopics distributed across all seven topics (three per topic, except Aesthetics Uncertainty which has two). Each subtopic provides complete coverage of its member phrases and, through the merge maps established in Step~1, traces back to all original participant keywords---ensuring no participant language is discarded while reducing the vocabulary to an interpretable taxonomy.
+
+\noindent\textbf{Diagnostic Validation.}
+The pipeline exports a full lineage tracking table recording the disposition of every candidate phrase---merged, filtered, assigned to a subtopic, or left unmapped---to support auditability and iterative refinement. Topic-level diagnostics (score-ranked plots, VisType heatmaps, coverage summaries) verify that each topic has sufficient subtopic representation and that selected phrases are not dominated by a narrow subset of visualization types.
+
+% ============================================================
+%  SUBSECTION 4
+% ============================================================
+\subsection{Lexical Dictionary Construction}
+\label{sec:lexicon}
+
+In parallel with the phrase-level reduction, we constructed a lexical dictionary from the original participant-comment phrases to characterize participant language at the token level.
+Using spaCy~\cite{spacy2} for tokenization and part-of-speech (POS) tagging and the Snowball stemmer~\cite{porter2001snowball} for morphological normalization, we extracted the following features for each topic-linked phrase:
+keyword stems, POS tags, and phrase-level action/object word decompositions.
+Lexical variants were unified through stem-based deduplication, preferring the shorter surface form as the canonical representative.
+
+The resulting dictionary contains approximately 670~unique words distributed across the seven topics.
+It serves as a complementary representation of participant language alongside the 21~named subtopics, enabling token-level quantitative analyses of complexity-related vocabulary.
+
+% ============================================================
+%  SUBSECTION 5
+% ============================================================
+\subsection{From Subtopics to a Visual Complexity Attribute Checklist}
+\label{sec:checklist}
+
+To bridge the gap between the descriptive subtopic taxonomy and a usable evaluation instrument, we conducted a series of psychometric-style analyses inspired by the PREVis scale development methodology~\cite{cabouat2024previs}. These analyses assess how well the 19~subtopics function as candidate measurement attributes and culminate in a hierarchical checklist of visual complexity dimensions (Fig.~\ref{fig:topSubtopics}).
+
+\textbf{Cross-Topic Consistency.}
+PREVis sourced terms from three independent pools and retained only those appearing in at least two, ensuring robustness of the selected vocabulary.
+We adapted this idea by treating each of our seven topics as a separate pool and examining phrase overlap.
+Of the ${\sim}400$ phrases, 98.7\% appeared under a single topic, with only five phrases spanning two topics and none spanning three or more.
+This near-complete separation confirms that the expert-driven topic assignment produced well-discriminated categories, a desirable property for subscale construction.
+
+\textbf{Proto-Factor Loading Analysis.}
+To evaluate how cleanly each subtopic associates with its assigned topic, we constructed a subtopic\,$\times$\,topic co-occurrence matrix by aggregating phrase-level image counts.
+Row-normalizing this matrix yields values analogous to factor loadings: a value near~1.0 in a single column indicates that a subtopic loads exclusively on one topic.
+The resulting matrix is strongly diagonal.
+The only cross-topic signals emerged between \textit{Visual Encoding Clarity} and \textit{Schema} (through the subtopics \textit{Dimensionality \& Structure} and \textit{Abstraction Level}) and between \textit{Color, Symbol, and Texture Details} and \textit{Immediacy / Cognitive Load} (through \textit{Semantic Clarity}).
+These overlaps suggest related facets of structural and interpretive complexity, respectively, but all remaining subtopics load at or above 0.90 on their primary topic.
+
+\textbf{Visualization-Type Generalizability.}
+We further examined each subtopic's distribution across all nine visualization types (Area, Bar, Contour/Color-Pattern, Glyph, Grid, Line, Node-link, Point, Text).
+Subtopics with high counts across many types---such as \textit{Element Quantity}, \textit{Domain Familiarity}, and \textit{Graphical Forms \& Primitives}---are strong candidates for a general-purpose instrument, while those concentrated in a single type (e.g., \textit{Symbols \& Texture}, which appears almost exclusively in Glyph visualizations) may serve as type-specific diagnostic items.
+
+\textbf{Topic Independence.}
+We computed pairwise Jaccard similarity between topics based on shared phrases and performed hierarchical clustering.
+All topic pairs exhibited Jaccard coefficients below~0.02, and the dendrogram placed every merge above a distance of~0.98.
+This confirms that the seven topics are effectively independent at the phrase level and can each serve as a distinct dimension in the resulting instrument.
+
+\textbf{Attribute Checklist Construction.}
+Based on these analyses, we converted each subtopic into a candidate evaluation attribute.
+For every subtopic, we formulated:
+\begin{itemize}
+  \item a \textbf{diagnostic question} that an evaluator can ask when inspecting a visualization (e.g., \textit{``Is the number of discrete graphical elements too few or too many?''} for \textit{Element Quantity}); and
+  \item a \textbf{bipolar response anchor} reflecting the continuum from low to high complexity along that attribute (e.g., \textit{Too few}~$\leftrightarrow$~\textit{Too many}).
+\end{itemize}
+The resulting 19~attributes are organized hierarchically under their parent topics, forming the \textbf{VC-Attribute} checklist shown in Fig.~\ref{fig:topSubtopics}.
+Each topic card provides a high-level description of the complexity dimension it captures (e.g., \textit{``Amount and organization of visual elements''} for DDIC), and the attributes within each card present a diagnostic question paired with its bipolar anchor.
+As described in Section~\ref{sec:procedure}, every phrase in our pipeline carries a complexity sentiment label---\texttt{(+)} for increased complexity or \texttt{(-)} for decreased complexity. We used these labels to orient the bipolar anchors: most attributes are grounded in predominantly \texttt{(+)} phrases and therefore received anchors directed toward increasing complexity (e.g., \textit{Too few}~$\leftrightarrow$~\textit{Too many}), while a small number of attributes whose descriptions emphasize clarity or ease of interpretation received anchors directed toward decreasing complexity (e.g., \textit{Easy}~$\leftrightarrow$~\textit{Hard}).
+
+\textbf{Intended Use.}
+The VC-Attribute checklist is designed to serve two complementary purposes.
+First, it functions as a \emph{qualitative evaluation protocol}: researchers or practitioners can walk through the 19~attributes when assessing the complexity of a visualization, using the diagnostic questions and bipolar anchors to structure their judgment.
+Second, it provides the foundation for a future \emph{quantitative Likert-scale instrument} following the PREVis validation pathway---pre-testing via cognitive interviews, exploratory factor analysis to confirm whether the seven topics collapse into fewer subscales, and confirmatory factor analysis on a held-out sample.
+The strong topic independence observed in our data (Jaccard~$< 0.02$) suggests that the seven-topic structure may persist as distinct factors, though conceptual overlap between VEC and SCH leaves open the possibility of consolidation during factor analysis.
+
+% ============================================================
+%  BIBLIOGRAPHY (placeholder — replace with your .bib file)
+% ============================================================
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+% --- Manual entries for standalone compilation ---
+% \begin{thebibliography}{9}
+% \bibitem{he2022beauvis}
+%   H.~He et al., ``BeauVis: A Validated Scale for Measuring the Aesthetic Pleasure of Visual Representations,''
+%   \emph{IEEE Trans.\ Vis.\ Comput.\ Graph.}, vol.~29, no.~1, pp.~363--373, 2023.
+% \bibitem{spacy2}
+%   M.~Honnibal and I.~Montani, ``spaCy 2: Natural Language Understanding with Bloom Embeddings,
+%   Convolutional Neural Networks and Incremental Parsing,'' 2017.
+% \bibitem{porter2001snowball}
+%   M.~F.~Porter, ``Snowball: A language for stemming algorithms,'' 2001. [Online].
+%   Available: \url{https://snowballstem.org/}
+% \bibitem{cabouat2024previs}
+%   A.-F.~Cabouat, T.~He, P.~Isenberg, and T.~Isenberg,
+%   ``PREVis: Perceived Readability Evaluation for Visualizations,''
+%   \emph{IEEE Trans.\ Vis.\ Comput.\ Graph.}, 2024.
+% \end{thebibliography}
+
+\end{document}

@@ -1,0 +1,8 @@
+Topic,Area (+),Area (-),Area (+/-),Bar (+),Bar (-),Bar (+/-),Cont.-ColorPatn (+),Cont.-ColorPatn (-),Cont.-ColorPatn (+/-),Glyph (+),Glyph (-),Glyph (+/-),Grid (+),Grid (-),Grid (+/-),Line (+),Line (-),Line (+/-),Node-link (+),Node-link (-),Node-link (+/-),Point (+),Point (-),Point (+/-),Text (+),Text (-),Text (+/-),Total (+),Total (-),Total (+/-)
+Immediacy / Cognitive Load,4,3,28,5,3,27,2,0,18,5,1,28,4,1,24,3,1,23,8,3,30,4,0,25,3,0,24,38,12,227
+"Color, Symbol, and Texture Details",1,0,33,1,0,17,2,0,25,0,0,26,3,0,37,0,0,15,0,0,29,2,0,20,0,0,17,9,0,219
+Data Density / Image Clutter,1,0,23,0,0,17,0,0,16,1,0,21,6,0,33,0,0,14,2,0,30,2,0,27,1,0,16,13,0,197
+Semantics / Text Legibility,0,0,25,1,0,14,0,0,9,0,0,15,1,0,20,0,0,17,1,0,21,1,1,24,1,0,29,5,1,174
+Schema,1,0,27,1,0,8,0,0,14,4,0,21,1,0,12,0,0,16,3,0,20,3,0,18,0,1,13,13,1,149
+Visual Encoding Clarity,0,0,12,1,0,11,0,0,10,0,0,21,2,0,7,1,1,19,2,0,20,3,0,14,0,0,11,9,1,125
+Aesthetics Uncertainty,0,0,8,0,0,3,2,0,6,0,0,11,1,0,8,1,0,4,0,0,6,2,1,4,1,0,5,7,1,55

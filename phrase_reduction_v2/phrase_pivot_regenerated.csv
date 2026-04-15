@@ -1,0 +1,406 @@
+topic,phrase,sentiment,num_images,Area,Bar,Cont.-ColorPatn,Glyph,Grid,Line,Node-link,Point,Text
+Aesthetics Uncertainty,arbitrary imaging,(+),1,0,0,0,0,0,0,1,0,0
+Aesthetics Uncertainty,convoluted composition,(+),2,0,0,0,0,1,0,0,1,0
+Aesthetics Uncertainty,distracting/confusing/unclear,(+),23,3,1,3,4,2,4,1,2,1
+Aesthetics Uncertainty,feeling strange,(+),1,0,0,0,0,0,0,1,0,0
+Aesthetics Uncertainty,inconsistent,(+),1,0,0,0,0,0,0,0,0,1
+Aesthetics Uncertainty,irregular,(+),2,0,0,0,1,0,0,0,0,1
+Aesthetics Uncertainty,less attractive,(+),3,0,0,0,0,1,0,0,1,1
+Aesthetics Uncertainty,less simple,(+),1,0,0,0,0,0,0,0,1,0
+Aesthetics Uncertainty,looks random/messy/lack structure,(+),12,3,1,0,2,1,1,1,2,1
+Aesthetics Uncertainty,struggled to read,(+),1,0,0,0,0,0,1,0,0,0
+Aesthetics Uncertainty,unclear colors/contrast,(+),8,1,1,3,0,1,1,0,1,0
+Aesthetics Uncertainty,visual clarity/appealing,(+) (-),5,1,0,0,1,2,0,1,0,0
+Aesthetics Uncertainty,visually overwhelming,(+),1,0,0,0,0,1,0,0,0,0
+Aesthetics Uncertainty,visually striking,(+),1,0,0,1,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",ambiguous/confusing colors,(+) (-),5,2,1,0,1,0,0,0,0,1
+"Color, Symbol, and Texture Details",amount of / too many colors,(+),9,1,0,2,0,1,0,0,4,1
+"Color, Symbol, and Texture Details",appealing colors,(+) (-),3,0,0,0,1,1,0,1,0,0
+"Color, Symbol, and Texture Details",black color,(+) (-),2,0,0,0,0,1,0,1,0,0
+"Color, Symbol, and Texture Details",black-to-white/color gradient,(+) (-),7,0,1,2,2,1,0,1,0,0
+"Color, Symbol, and Texture Details",blended colors,(+),1,0,0,1,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",blue color,(+) (-),2,0,0,0,1,1,0,0,0,0
+"Color, Symbol, and Texture Details",blurry colors/images,(+),3,0,0,2,0,1,0,0,0,0
+"Color, Symbol, and Texture Details",bold colors,(+),1,1,0,0,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",bright colors,(+) (-),3,2,0,0,0,0,0,1,0,0
+"Color, Symbol, and Texture Details",clear color uses,(+),2,0,0,0,0,1,0,1,0,0
+"Color, Symbol, and Texture Details",clear colored bars/charts,(+),1,0,0,0,0,0,1,0,0,0
+"Color, Symbol, and Texture Details",clearer coloring,(-),1,0,1,0,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",color details,(+),2,1,0,0,0,1,0,0,0,0
+"Color, Symbol, and Texture Details",color differentiation,(+),1,0,0,0,1,0,0,0,0,0
+"Color, Symbol, and Texture Details",color dimension,(+),3,0,1,0,0,1,0,1,0,0
+"Color, Symbol, and Texture Details",color hues,(-),1,0,0,1,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",color intensity,(+),1,0,0,0,1,0,0,0,0,0
+"Color, Symbol, and Texture Details",color keys,(+),3,3,0,0,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",color represents groups,(-),2,0,1,0,1,0,0,0,0,0
+"Color, Symbol, and Texture Details",color represents sounds,(+),1,1,0,0,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",color saturation,(+),1,0,0,0,0,1,0,0,0,0
+"Color, Symbol, and Texture Details",color scale/scheme,(+) (-),5,0,0,2,0,1,1,1,0,0
+"Color, Symbol, and Texture Details",color shading,(+) (-),9,3,1,1,1,2,0,1,0,0
+"Color, Symbol, and Texture Details",color superposition/layer,(+),1,1,0,0,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",color variety/arrangement/distribution,(+) (-),87,16,7,11,7,11,11,7,10,6
+"Color, Symbol, and Texture Details",colored bars/charts,(+),1,0,1,0,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",colored shape,(+),1,0,0,0,1,0,0,0,0,0
+"Color, Symbol, and Texture Details",colored surface,(+),1,0,0,1,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",distinguishable color variety/arrangement/distribution,(+) (-),4,2,0,0,0,2,0,0,0,0
+"Color, Symbol, and Texture Details",distinguishable/full color uses,(+),1,0,1,0,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",distinguishable/full/highly contrast color uses,(+),5,0,0,1,0,3,0,1,0,0
+"Color, Symbol, and Texture Details",drawing style,(+),2,2,0,0,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",good color contrast/separation/segmentation,(+) (-),5,2,1,0,1,0,0,0,1,0
+"Color, Symbol, and Texture Details",hard to distinguish colors,(+),1,0,0,1,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",icons,(+),1,0,0,0,0,0,1,0,0,0
+"Color, Symbol, and Texture Details",inadequate/few coloring,(+) (-),8,1,0,0,3,3,0,0,1,0
+"Color, Symbol, and Texture Details",indicating symbols,(+),2,1,0,1,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",intense/too many colors,(+),3,2,0,0,0,0,0,1,0,0
+"Color, Symbol, and Texture Details",lack of color contrast / hard to distinguish colors,(+) (-),11,3,1,2,1,2,0,2,0,0
+"Color, Symbol, and Texture Details",less negative space,(+),1,0,0,1,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",low color contrast/separation/segmentation,(+) (-),10,0,0,2,1,3,0,1,2,1
+"Color, Symbol, and Texture Details",monochrome,(+) (-),3,0,0,0,0,0,0,2,0,1
+"Color, Symbol, and Texture Details",more colors,(+),2,1,1,0,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",more contrast,(+),3,0,0,0,0,2,0,0,1,0
+"Color, Symbol, and Texture Details",more pixels,(+),1,0,0,1,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",negative space,(+),1,0,0,0,0,1,0,0,0,0
+"Color, Symbol, and Texture Details",no color,(+),1,0,0,0,0,1,0,0,0,0
+"Color, Symbol, and Texture Details",no color difference,(+),1,0,0,0,0,0,0,0,0,1
+"Color, Symbol, and Texture Details",not simple color-wise,(+),1,0,0,0,0,0,0,0,1,0
+"Color, Symbol, and Texture Details",pixeled picture,(+),1,0,0,0,0,0,1,0,0,0
+"Color, Symbol, and Texture Details",readable/distinguishable colors,(+),1,0,0,0,0,0,0,0,1,0
+"Color, Symbol, and Texture Details",salient colors,(+),1,0,1,0,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",same colors,(+),1,0,0,0,1,0,0,0,0,0
+"Color, Symbol, and Texture Details",separate color scales,(+),1,0,0,1,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",separate values by color to show differences,(+),1,0,0,1,0,0,0,0,0,0
+"Color, Symbol, and Texture Details",similar colors,(+),1,0,0,0,0,0,0,1,0,0
+"Color, Symbol, and Texture Details",soft/layered/overlapping colors,(+) (-),7,4,1,0,0,1,0,0,0,1
+"Color, Symbol, and Texture Details",striped texture,(-),1,0,0,0,0,0,1,0,0,0
+"Color, Symbol, and Texture Details",symbols,(+) (-),2,0,0,0,1,0,0,0,0,0
+"Color, Symbol, and Texture Details",symbols and shading,(+),1,0,0,0,0,1,0,0,0,0
+"Color, Symbol, and Texture Details",texture details,(+),2,0,0,0,0,0,0,1,1,0
+"Color, Symbol, and Texture Details",too many colors,(+),5,2,0,0,0,0,0,2,1,0
+"Color, Symbol, and Texture Details",two colors,(+) (-),4,0,1,0,0,0,0,0,0,3
+"Color, Symbol, and Texture Details",unclear color meaning,(+) (-),11,2,0,1,2,2,0,2,1,1
+"Color, Symbol, and Texture Details",unclear coloring,(+) (-),10,3,0,1,3,1,0,1,0,1
+"Color, Symbol, and Texture Details",unclear colormaps,(+) (-),34,7,2,5,4,4,2,4,5,1
+"Color, Symbol, and Texture Details",unclear meaning/confusing,(+),3,0,1,0,0,1,1,0,0,0
+"Color, Symbol, and Texture Details",very different colors,(+),1,0,0,0,0,0,0,1,0,0
+"Color, Symbol, and Texture Details",visual cues,(+),1,0,0,0,1,0,0,0,0,0
+"Color, Symbol, and Texture Details",visually stimulating  texture/colors,(+),2,0,0,1,1,0,0,0,0,0
+"Color, Symbol, and Texture Details",white color on black background,(+),1,0,0,0,0,1,0,0,0,0
+"Color, Symbol, and Texture Details",white/black background / other background,(+),4,1,0,0,2,1,0,0,0,0
+Data Density / Image Clutter,clustered data/info,(+) (-),2,0,0,0,0,0,0,1,0,1
+Data Density / Image Clutter,concentrated,(+) (-),2,1,0,0,0,0,0,0,1,0
+Data Density / Image Clutter,data intersection,(+),1,0,0,0,1,0,0,0,0,0
+Data Density / Image Clutter,dense points/lines/shapes/elements,(+) (-),7,0,1,1,1,1,1,1,1,0
+Data Density / Image Clutter,dense/cluttered data/info,(+) (-),14,2,1,0,0,3,0,2,5,1
+Data Density / Image Clutter,dense/cluttered layout,(+),10,2,2,0,0,3,0,1,1,1
+Data Density / Image Clutter,dense/cluttered shape,(+),1,0,0,0,1,0,0,0,0,0
+Data Density / Image Clutter,disposition,(+),1,1,0,0,0,0,0,0,0,0
+Data Density / Image Clutter,diverse information,(+),1,1,0,0,0,0,0,0,0,0
+Data Density / Image Clutter,few points/lines/shapes/elements,(-),3,0,0,0,1,0,0,1,1,0
+Data Density / Image Clutter,fine/layered details,(+),9,0,0,1,1,2,1,1,2,1
+Data Density / Image Clutter,large dataset,(+),2,1,0,0,0,0,0,0,1,0
+Data Density / Image Clutter,less detailed/things,(-),1,0,0,1,0,0,0,0,0,0
+Data Density / Image Clutter,less empty space,(+),1,0,0,0,0,0,0,1,0,0
+Data Density / Image Clutter,little data/info,(+) (-),19,2,2,0,2,2,2,3,4,2
+Data Density / Image Clutter,many measurements,(+),1,0,0,0,0,0,0,0,1,0
+Data Density / Image Clutter,many numbers,(+),3,0,0,0,0,1,1,0,1,0
+Data Density / Image Clutter,many points/lines/shapes/elements,(+) (-),9,2,0,0,0,2,1,1,2,1
+Data Density / Image Clutter,many/more data/info,(+) (-),6,2,0,0,0,2,0,0,1,1
+Data Density / Image Clutter,messy/mixed up/noisy/intermingled elements,(+),10,0,0,1,2,3,0,3,0,1
+Data Density / Image Clutter,more charts/points/lines/shapes/elements,(+) (-),79,7,9,9,9,10,7,12,13,3
+Data Density / Image Clutter,more detailed/things,(+) (-),37,6,3,4,5,5,0,5,7,2
+Data Density / Image Clutter,more parameters/variables,(+),9,3,0,0,0,3,1,0,2,0
+Data Density / Image Clutter,more regions/space,(+),3,1,0,1,0,1,0,0,0,0
+Data Density / Image Clutter,more to read/analyze/understand,(+),3,1,0,0,0,1,0,0,1,0
+Data Density / Image Clutter,much/more data/info/info spread,(+) (-),65,9,8,4,2,12,4,8,10,7
+Data Density / Image Clutter,multiple features/elements/graphs,(+) (-),14,2,1,2,1,5,0,1,2,0
+Data Density / Image Clutter,multiple interacting elements,(+),1,0,0,0,0,0,0,1,0,0
+Data Density / Image Clutter,multiple points/lines/shapes/elements,(+),1,0,0,0,0,1,0,0,0,0
+Data Density / Image Clutter,organized/structured,(+) (-),6,1,0,1,0,1,0,1,1,0
+Data Density / Image Clutter,overlapping shapes/colors/lines,(+),18,3,0,1,1,0,3,8,2,0
+Data Density / Image Clutter,"scattered shapes (e.g., dots, squares, pictures)",(+),2,0,0,0,0,0,0,1,1,0
+Data Density / Image Clutter,shape-color mix,(+),1,1,0,0,0,0,0,0,0,0
+Data Density / Image Clutter,simple information,(-),2,1,0,0,0,0,1,0,0,0
+Data Density / Image Clutter,too many details/divisions,(+),5,1,0,0,0,2,0,1,0,1
+Data Density / Image Clutter,too many numbers,(+),1,0,0,0,0,1,0,0,0,0
+Data Density / Image Clutter,too many points/lines/shapes/elements,(+),3,0,0,0,0,0,0,0,3,0
+Data Density / Image Clutter,too many sections,(+),1,0,0,0,0,0,0,1,0,0
+Data Density / Image Clutter,too many subplots,(+),1,0,0,0,0,0,0,0,1,0
+Data Density / Image Clutter,too more points/lines/shapes/elements,(+),1,0,0,0,1,0,0,0,0,0
+Data Density / Image Clutter,too much data/info,(+),7,1,0,0,0,1,1,1,2,1
+Immediacy / Cognitive Load,attention/squinting to understand,(+),4,0,1,1,0,2,0,0,0,0
+Immediacy / Cognitive Load,complicated to process,(+),7,1,1,0,2,1,0,1,0,0
+Immediacy / Cognitive Load,easier to compare/discern/distinguish,(-),1,0,0,0,0,0,0,0,1,0
+Immediacy / Cognitive Load,easier to interpret/read/understand,(-),20,8,2,0,1,1,2,1,3,1
+Immediacy / Cognitive Load,easier to process/visualize,(+) (-),9,5,0,0,0,1,0,0,2,1
+Immediacy / Cognitive Load,easier to see/tell/visualize,(-),4,0,1,0,1,0,0,1,0,0
+Immediacy / Cognitive Load,easy to derive meaning,(-),2,1,0,0,1,0,0,0,0,0
+Immediacy / Cognitive Load,easy to focus/follow,(-),3,1,0,0,0,0,1,1,0,0
+Immediacy / Cognitive Load,easy to identify/extract/find features,(-),2,0,0,0,1,0,1,0,0,0
+Immediacy / Cognitive Load,easy to interpret/read/understand,(+) (-),55,14,9,3,3,6,5,5,3,6
+Immediacy / Cognitive Load,easy to understand,(-),3,1,1,0,0,0,0,0,0,1
+Immediacy / Cognitive Load,hard to compare/discern/distinguish,(+),7,2,0,1,1,0,0,2,1,0
+Immediacy / Cognitive Load,hard to describe,(+),2,0,1,0,0,1,0,0,0,0
+Immediacy / Cognitive Load,hard to focus/follow,(+),5,0,0,1,0,0,1,2,1,0
+Immediacy / Cognitive Load,hard to identify/extract/find features,(+),6,3,0,2,0,0,0,0,1,0
+Immediacy / Cognitive Load,hard to interpret/read/understand,(+),33,2,4,1,2,2,4,11,2,5
+Immediacy / Cognitive Load,hard to interpret/read/understand/differentiate,(+),17,2,0,1,1,2,1,5,4,1
+Immediacy / Cognitive Load,hard to measure/model,(+),2,0,0,2,0,0,0,0,0,0
+Immediacy / Cognitive Load,hard to read shape,(+),1,0,0,0,0,0,0,0,0,1
+Immediacy / Cognitive Load,hard to see/tell/visualize,(+),7,1,0,0,2,1,0,1,1,1
+Immediacy / Cognitive Load,harder to view data point,(+),1,0,0,0,0,1,0,0,0,0
+Immediacy / Cognitive Load,information overload,(+),2,0,0,0,0,2,0,0,0,0
+Immediacy / Cognitive Load,intuitive,(-),7,2,0,0,1,0,1,2,1,0
+Immediacy / Cognitive Load,less clear,(+),1,1,0,0,0,0,0,0,0,0
+Immediacy / Cognitive Load,less intuitive,(+),3,0,0,0,0,0,0,1,1,1
+Immediacy / Cognitive Load,less understandable,(+),1,0,0,1,0,0,0,0,0,0
+Immediacy / Cognitive Load,low readability,(+),1,1,0,0,0,0,0,0,0,0
+Immediacy / Cognitive Load,more complicated,(+),9,2,1,0,0,0,0,4,1,1
+Immediacy / Cognitive Load,more difficult,(+) (-),3,1,0,0,0,0,0,0,1,1
+Immediacy / Cognitive Load,more difficult to compare/discern/distinguish,(+),4,0,1,1,0,1,0,0,1,0
+Immediacy / Cognitive Load,more difficult to focus/follow,(+),3,0,0,1,0,0,0,1,1,0
+Immediacy / Cognitive Load,more difficult to interpret/read/understand/differentiate,(+) (-),28,4,2,2,5,2,3,2,3,2
+Immediacy / Cognitive Load,more effort/reading/detailed analysis,(+),5,0,1,0,0,2,0,0,1,0
+Immediacy / Cognitive Load,more interpretable/readable/understandable,(-),2,0,0,0,0,0,1,0,1,0
+Immediacy / Cognitive Load,more intricate,(+),2,0,0,0,0,0,0,0,1,1
+Immediacy / Cognitive Load,more reading/interpretation/understanding,(+) (-),11,0,4,0,1,2,0,1,1,2
+Immediacy / Cognitive Load,more thinking,(+),1,0,0,0,0,0,1,0,0,0
+Immediacy / Cognitive Load,more to read/analyze/understand,(+),7,3,2,0,0,0,0,0,2,0
+Immediacy / Cognitive Load,multiple interpretation,(+),1,0,0,0,0,0,0,1,0,0
+Immediacy / Cognitive Load,not easily understood,(+),2,0,0,1,0,1,0,0,0,0
+Immediacy / Cognitive Load,not interpretable/readable/understandable,(+),27,2,3,4,7,4,0,5,1,0
+Immediacy / Cognitive Load,not intuitive/simple data,(+) (-),6,2,0,0,0,1,0,0,2,1
+Immediacy / Cognitive Load,provokes thought and understanding,(+) (-),3,1,1,0,0,0,0,0,0,1
+Immediacy / Cognitive Load,read/analyze many figures/items,(+),4,0,0,0,0,4,0,0,0,0
+Immediacy / Cognitive Load,require specialized knowledge,(+),2,0,0,1,1,0,0,0,0,0
+Immediacy / Cognitive Load,shape misunderstanding,(+),1,0,0,0,0,0,1,0,0,0
+Immediacy / Cognitive Load,simple to interpret/read/understand,(-),6,2,2,0,0,1,0,0,0,0
+Immediacy / Cognitive Load,take longer to interpret,(+),25,5,1,1,2,5,4,3,4,0
+Immediacy / Cognitive Load,unable to remember,(+),1,0,0,0,0,0,0,0,1,0
+Immediacy / Cognitive Load,unclear meaning/confusing,(+) (-),28,4,2,3,4,2,4,5,1,2
+Immediacy / Cognitive Load,unclear where to look/what to see,(+),1,1,0,0,0,0,0,0,0,0
+Schema,2D/3D,(+),3,1,0,1,1,0,0,0,0,0
+Schema,a specific domain,(+) (-),5,0,0,0,1,0,0,1,2,0
+Schema,a specific technique,(+) (-),27,3,0,2,4,3,3,4,2,5
+Schema,"a specific technique, e.g., bar, pie, circle",(+) (-),10,0,5,1,0,1,0,1,1,1
+Schema,abstract shapes or colors,(+),4,1,0,1,1,0,0,1,0,0
+Schema,"domain-specific concepts (e.g., chemical, biology, map)",(+) (-),41,12,0,3,1,4,5,6,6,4
+Schema,familiar representation,(+) (-),27,7,1,2,6,0,2,4,1,3
+Schema,no context or reference,(+),6,1,0,1,1,2,0,1,0,0
+Schema,not enough knowledge to tell,(+) (-),2,0,0,1,1,0,0,0,0,0
+Schema,unfamiliar concepts/patterns,(+),32,7,0,5,6,3,3,2,5,1
+Schema,unique,(+),1,0,1,0,0,0,0,0,0,0
+Schema,waterfall-like,(+),1,0,0,0,0,0,0,1,0,0
+Semantics / Text Legibility,-,(+) (-),3,1,0,0,0,0,1,0,0,1
+Semantics / Text Legibility,almost no explanation,(+),1,1,0,0,0,0,0,0,0,0
+Semantics / Text Legibility,ambiguous numbers,(+),1,0,0,0,0,0,0,0,1,0
+Semantics / Text Legibility,amount of words/context/numbers,(+) (-),22,4,3,0,1,4,1,3,3,3
+Semantics / Text Legibility,axis meaning,(-),1,0,0,0,0,0,0,0,1,0
+Semantics / Text Legibility,axis numbers,(-),1,1,0,0,0,0,0,0,0,0
+Semantics / Text Legibility,axis scales,(-),1,0,0,0,0,0,1,0,0,0
+Semantics / Text Legibility,captions,(-),1,0,0,0,0,0,1,0,0,0
+Semantics / Text Legibility,clear and concise,(-),1,0,0,0,0,0,0,0,1,0
+Semantics / Text Legibility,clear text arrangement/density,(+),3,1,0,0,0,1,0,0,0,1
+Semantics / Text Legibility,clear text/scale/information,(+) (-),4,2,0,0,0,0,0,1,1,0
+Semantics / Text Legibility,clear title/axis/label,(+) (-),9,3,2,0,1,1,0,0,0,2
+Semantics / Text Legibility,cluttered labels/annotations,(+),2,0,0,0,0,0,0,0,1,1
+Semantics / Text Legibility,code/text,(+) (-),3,0,0,0,1,0,0,0,1,1
+Semantics / Text Legibility,context,(-),2,0,0,1,0,0,1,0,0,0
+Semantics / Text Legibility,context/text/description,(+),1,0,0,0,0,0,0,1,0,0
+Semantics / Text Legibility,dates,(+),1,0,0,0,0,0,0,0,0,1
+Semantics / Text Legibility,description,(-),1,0,1,0,0,0,0,0,0,0
+Semantics / Text Legibility,description easy to read,(+),2,1,1,0,0,0,0,0,0,0
+Semantics / Text Legibility,detailed inscription,(+),1,0,0,0,0,0,0,0,1,0
+Semantics / Text Legibility,different font/word sizes/structure,(+) (-),9,1,0,0,0,0,0,0,2,6
+Semantics / Text Legibility,different labels,(+),1,0,0,0,0,1,0,0,0,0
+Semantics / Text Legibility,different word meaning,(+),1,0,0,0,0,0,0,0,0,1
+Semantics / Text Legibility,easier to read,(-),3,1,0,0,0,0,1,0,1,0
+Semantics / Text Legibility,easy to read,(-),1,0,1,0,0,0,0,0,0,0
+Semantics / Text Legibility,explanation text,(+) (-),2,1,0,0,0,1,0,0,0,0
+Semantics / Text Legibility,explanatory legend,(-),1,1,0,0,0,0,0,0,0,0
+Semantics / Text Legibility,eye-catching description,(+),1,0,0,0,0,0,1,0,0,0
+Semantics / Text Legibility,factual information,(+),1,0,0,0,0,0,0,0,1,0
+Semantics / Text Legibility,fast readability,(-),2,0,0,0,0,0,0,1,1,0
+Semantics / Text Legibility,fewer axes,(-),1,0,0,0,0,0,1,0,0,0
+Semantics / Text Legibility,font,(+),1,0,0,0,0,1,0,0,0,0
+Semantics / Text Legibility,frame with values,(-),1,1,0,0,0,0,0,0,0,0
+Semantics / Text Legibility,hard to read,(+),2,0,0,0,0,0,0,0,0,2
+Semantics / Text Legibility,hierarchical text,(+),1,0,0,0,0,1,0,0,0,0
+Semantics / Text Legibility,highlighted words,(-),1,0,0,0,0,0,0,0,0,1
+Semantics / Text Legibility,indication,(-),1,0,0,0,0,0,0,0,0,1
+Semantics / Text Legibility,involves numbers,(+),2,0,0,0,0,0,1,1,0,0
+Semantics / Text Legibility,label meaning,(+) (-),2,0,0,0,0,0,0,1,0,1
+Semantics / Text Legibility,labeled axis,(+),1,0,0,0,0,0,0,0,1,0
+Semantics / Text Legibility,lack of legend,(+),2,0,0,0,1,0,0,0,1,0
+Semantics / Text Legibility,lack of meaning,(+),2,0,0,0,1,0,0,0,0,1
+Semantics / Text Legibility,lack of/not enough axis labels/legend/annotations/context,(+) (-),34,5,3,4,7,0,4,5,5,1
+Semantics / Text Legibility,legend easy to understand,(+) (-),3,1,1,0,0,1,0,0,0,0
+Semantics / Text Legibility,legend on the top,(+),1,1,0,0,0,0,0,0,0,0
+Semantics / Text Legibility,little/less text/numbers/context,(+) (-),4,1,0,0,0,0,0,1,1,0
+Semantics / Text Legibility,many legend categories,(+),1,1,0,0,0,0,0,0,0,0
+Semantics / Text Legibility,mixed size,(+),1,0,0,0,0,0,0,1,0,0
+Semantics / Text Legibility,more axes,(+),1,0,0,1,0,0,0,0,0,0
+Semantics / Text Legibility,more labels/context,(+) (-),4,0,1,0,0,0,0,0,2,1
+Semantics / Text Legibility,more legible,(+),1,0,0,0,0,0,0,0,1,0
+Semantics / Text Legibility,more numbers,(+),2,0,0,1,0,1,0,0,0,0
+Semantics / Text Legibility,more text boxes,(+),1,0,0,0,0,0,0,1,0,0
+Semantics / Text Legibility,more texts/words,(+),20,3,1,0,1,5,0,1,3,6
+Semantics / Text Legibility,more title/axis/label,(+) (-),8,2,1,0,1,1,0,0,3,0
+Semantics / Text Legibility,no measurement/metric,(+),1,1,0,0,0,0,0,0,0,0
+Semantics / Text Legibility,no measurement/metric/axis,(+) (-),7,1,0,1,1,0,2,1,1,0
+Semantics / Text Legibility,nonlinear measurement/metric/axis,(+),1,0,0,0,0,0,0,0,1,0
+Semantics / Text Legibility,number distribution,(+),1,0,0,0,0,0,0,1,0,0
+Semantics / Text Legibility,number of legend items,(-),2,1,0,0,0,1,0,0,0,0
+Semantics / Text Legibility,order of words,(+),1,0,0,0,0,0,0,0,0,1
+Semantics / Text Legibility,readability,(+) (-),10,3,0,0,1,1,4,0,0,1
+Semantics / Text Legibility,recognizable objects,(-),1,0,0,0,0,0,0,0,0,1
+Semantics / Text Legibility,single font,(-),1,0,0,0,0,0,0,0,0,1
+Semantics / Text Legibility,small and simple,(+) (-),2,1,0,0,0,0,0,1,0,0
+Semantics / Text Legibility,text,(+),1,0,0,0,0,0,0,1,0,0
+Semantics / Text Legibility,text and imagery,(+),3,0,0,0,0,1,0,1,1,0
+Semantics / Text Legibility,text hard to read,(+),2,0,0,0,0,1,0,1,0,0
+Semantics / Text Legibility,text on picture,(+),1,0,0,0,0,0,0,0,1,0
+Semantics / Text Legibility,text ratio,(+),1,0,0,0,0,0,0,1,0,0
+Semantics / Text Legibility,title/axis/label/descriptions,(+) (-),37,3,5,3,1,11,5,2,4,3
+Semantics / Text Legibility,too many subjects,(+),1,0,0,0,0,1,0,0,0,0
+Semantics / Text Legibility,too much legend,(+) (-),13,3,1,1,1,3,0,0,4,0
+Semantics / Text Legibility,unclear relation between words,(+),6,0,1,0,0,1,1,0,2,1
+Semantics / Text Legibility,unreadable,(+),2,0,0,0,0,1,0,0,0,1
+Semantics / Text Legibility,visualization meaning,(+),1,0,0,0,1,0,0,0,0,0
+Semantics / Text Legibility,with legend,(+),1,0,0,0,0,0,1,0,0,0
+Semantics / Text Legibility,word frequency,(-),2,0,0,0,0,0,0,0,0,2
+Semantics / Text Legibility,word misoriented,(+),1,0,1,0,0,0,0,0,0,0
+Semantics / Text Legibility,word rotation/small font size,(+) (-),18,5,0,0,0,2,0,1,4,6
+Semantics / Text Legibility,word source,(-),1,0,0,0,0,0,0,0,0,0
+Semantics / Text Legibility,word/text/sentence,(+) (-),19,1,0,1,0,4,2,3,3,5
+Semantics / Text Legibility,words and numbers,(-),1,0,0,0,0,0,0,0,0,1
+Semantics / Text Legibility,x-axis unlabeled,(+),1,0,0,1,0,0,0,0,0,0
+Semantics / Text Legibility,y-axis meaning unclear,(+),1,0,0,0,0,0,0,0,1,0
+Visual Encoding Clarity,2D/3D,(+) (-),8,0,1,1,1,0,0,3,2,0
+Visual Encoding Clarity,abstract shapes or colors,(+),1,0,0,0,0,0,0,0,1,0
+Visual Encoding Clarity,bars as individual lines,(+) (-),2,0,1,0,0,0,0,0,0,0
+Visual Encoding Clarity,categorized shapes,(+),1,0,0,0,1,0,0,0,0,0
+Visual Encoding Clarity,change over time,(+),1,0,1,0,0,0,0,0,0,0
+Visual Encoding Clarity,clear colors/shapes,(-),5,1,1,0,0,0,1,1,1,0
+Visual Encoding Clarity,clear connection,(-),2,1,0,0,0,0,0,1,0,0
+Visual Encoding Clarity,clear delineation,(-),1,0,0,0,1,0,0,0,0,0
+Visual Encoding Clarity,clear indication,(-),4,1,0,0,0,0,1,1,1,0
+Visual Encoding Clarity,complex design,(+),2,1,0,1,0,0,0,0,0,0
+Visual Encoding Clarity,confusing connection,(+),3,0,0,0,0,0,0,3,0,0
+Visual Encoding Clarity,crop production shown,(+),1,0,1,0,0,0,0,0,0,0
+Visual Encoding Clarity,curved lines,(+) (-),3,0,0,2,0,0,1,0,0,0
+Visual Encoding Clarity,curves and shapes,(+) (-),7,2,1,1,0,0,1,1,0,1
+Visual Encoding Clarity,data trend,(+),2,1,0,1,0,0,0,0,0,0
+Visual Encoding Clarity,design-data relationship,(+) (-),5,0,1,0,0,0,1,1,0,1
+Visual Encoding Clarity,different clarity,(+) (-),2,0,0,0,0,0,1,0,1,0
+Visual Encoding Clarity,different movement,(+),1,0,0,0,1,0,0,0,0,0
+Visual Encoding Clarity,element sizes,(+) (-),6,0,0,0,1,0,0,3,0,2
+Visual Encoding Clarity,error bars,(+),1,0,0,0,0,0,1,0,0,0
+Visual Encoding Clarity,exact feature,(+),1,0,0,1,0,0,0,0,0,0
+Visual Encoding Clarity,exact value,(+),1,0,0,0,0,0,1,0,0,0
+Visual Encoding Clarity,few lines,(-),1,0,0,0,0,0,1,0,0,0
+Visual Encoding Clarity,field information,(+),1,0,0,1,0,0,0,0,0,0
+Visual Encoding Clarity,graph,(+),1,0,0,0,0,0,1,0,0,0
+Visual Encoding Clarity,graphical information,(+),1,1,0,0,0,0,0,0,0,0
+Visual Encoding Clarity,grid layout,(+),1,0,0,0,0,0,0,0,1,0
+Visual Encoding Clarity,horizontal bars,(+),1,0,1,0,0,0,0,0,0,0
+Visual Encoding Clarity,image layout,(+),1,0,0,0,0,0,0,1,0,0
+Visual Encoding Clarity,image location,(+),1,0,0,0,1,0,0,0,0,0
+Visual Encoding Clarity,image portrayal,(+),1,0,0,1,0,0,0,0,0,0
+Visual Encoding Clarity,image size,(+),1,0,0,1,0,0,0,0,0,0
+Visual Encoding Clarity,indistinguishable/unintuitive lines,(+),5,0,0,1,0,0,1,1,1,1
+Visual Encoding Clarity,infomration representation,(+),1,0,1,0,0,0,0,0,0,0
+Visual Encoding Clarity,information nuance expressed,(+) (-),3,0,0,0,0,1,0,1,1,0
+Visual Encoding Clarity,intersecting lines,(+),2,0,0,0,0,0,0,2,0,0
+Visual Encoding Clarity,length,(+),1,1,0,0,0,0,0,0,0,0
+Visual Encoding Clarity,length variation,(+),1,0,1,0,0,0,0,0,0,0
+Visual Encoding Clarity,less organic shapes,(+),1,0,0,0,0,1,0,0,0,0
+Visual Encoding Clarity,less organized elements,(+),3,0,0,0,1,0,0,1,0,1
+Visual Encoding Clarity,less uniform shapes,(+),1,0,0,1,0,0,0,0,0,0
+Visual Encoding Clarity,line movement,(+),1,0,0,0,0,0,1,0,0,0
+Visual Encoding Clarity,line quantity representation,(+),1,0,0,0,0,0,1,0,0,0
+Visual Encoding Clarity,line thickness variation,(+),1,0,0,0,0,1,0,0,0,0
+Visual Encoding Clarity,lines,(+),12,0,0,0,0,0,3,5,2,2
+Visual Encoding Clarity,lines and scales,(+),1,0,0,0,0,0,0,1,0,0
+Visual Encoding Clarity,metric representation,(+),1,0,0,0,0,0,1,0,0,0
+Visual Encoding Clarity,misaligned,(+),1,0,0,0,0,0,0,0,0,0
+Visual Encoding Clarity,mismatched number-circle proportion,(+),1,1,0,0,0,0,0,0,0,0
+Visual Encoding Clarity,mixed timeline,(+),1,0,1,0,0,0,0,0,0,0
+Visual Encoding Clarity,more forms,(+) (-),3,3,0,0,0,0,0,0,0,0
+Visual Encoding Clarity,more nuance information,(+),2,0,0,0,0,1,0,1,0,0
+Visual Encoding Clarity,more squares than shapes,(+),1,0,0,0,0,1,0,0,0,0
+Visual Encoding Clarity,more uniform design,(-),2,0,0,0,1,0,0,0,0,1
+Visual Encoding Clarity,multi-year information,(+),1,1,0,0,0,0,0,0,0,0
+Visual Encoding Clarity,multiple aspects,(+),2,0,0,0,0,1,0,0,1,0
+Visual Encoding Clarity,multiple shapes,(+),1,0,0,0,1,0,0,0,0,0
+Visual Encoding Clarity,multivariate,(+),1,1,0,0,0,0,0,0,0,0
+Visual Encoding Clarity,network representation,(+),1,0,0,0,0,0,0,1,0,0
+Visual Encoding Clarity,no clear indication,(+),5,0,0,3,0,0,0,0,0,1
+Visual Encoding Clarity,no data,(+),1,0,0,0,0,1,0,0,0,0
+Visual Encoding Clarity,no detail,(+),2,0,0,0,0,1,1,0,0,0
+Visual Encoding Clarity,no interaction,(-),1,0,0,0,1,0,0,0,0,0
+Visual Encoding Clarity,no more information,(+),1,0,0,1,0,0,0,0,0,0
+Visual Encoding Clarity,no square information,(+),1,0,0,0,1,0,0,0,0,0
+Visual Encoding Clarity,nodes,(-),1,0,0,0,0,0,0,1,0,0
+Visual Encoding Clarity,nonlinearity,(+),2,2,0,0,0,0,0,0,0,0
+Visual Encoding Clarity,nothing clear,(+),2,0,0,1,0,0,0,1,0,0
+Visual Encoding Clarity,nothing visible,(+),1,0,0,0,0,1,0,0,0,0
+Visual Encoding Clarity,number of levels,(+) (-),2,0,0,0,1,0,1,0,0,0
+Visual Encoding Clarity,number of vertical lines,(+),1,0,0,0,0,0,0,1,0,0
+Visual Encoding Clarity,numbers and shapes,(+),1,0,0,0,0,0,0,1,0,0
+Visual Encoding Clarity,ordered,(-),3,0,0,1,1,0,0,0,1,0
+Visual Encoding Clarity,overall shape,(+),1,0,0,0,1,0,0,0,0,0
+Visual Encoding Clarity,plots,(+),1,0,0,0,0,0,1,0,0,0
+Visual Encoding Clarity,precision of aspect,(+),1,0,0,0,0,0,0,0,1,0
+Visual Encoding Clarity,precision of lines,(+),1,0,0,0,1,0,0,0,0,0
+Visual Encoding Clarity,random-like movement,(+) (-),2,0,0,0,1,0,0,1,0,0
+Visual Encoding Clarity,random-like shapes,(+) (-),3,0,0,0,0,0,0,2,0,0
+Visual Encoding Clarity,regions,(+),1,1,0,0,0,0,0,0,0,0
+Visual Encoding Clarity,representation,(+),2,0,0,1,0,1,0,0,0,0
+Visual Encoding Clarity,scale difference,(+) (-),4,1,1,0,0,0,1,0,0,1
+Visual Encoding Clarity,"scattered shapes (e.g., dots, squares, pictures)",(+),2,0,0,0,0,1,0,0,1,0
+Visual Encoding Clarity,several elements,(+) (-),5,1,0,1,0,2,0,0,1,0
+Visual Encoding Clarity,shape,(-),1,0,0,0,0,1,0,0,0,0
+Visual Encoding Clarity,shape arrangement,(+),2,0,1,0,1,0,0,0,0,0
+Visual Encoding Clarity,shape increase/decrease point,(+) (-),3,0,0,0,0,0,2,0,1,0
+Visual Encoding Clarity,shape indicators,(+),1,0,0,1,0,0,0,0,0,0
+Visual Encoding Clarity,shape point of interest,(+),3,1,0,0,0,0,0,2,0,0
+Visual Encoding Clarity,shape position,(+) (-),3,0,0,0,0,0,0,1,1,1
+Visual Encoding Clarity,shape size,(+),3,1,0,0,2,0,0,0,0,0
+Visual Encoding Clarity,shape size variation,(+),8,2,0,0,0,2,1,1,2,0
+Visual Encoding Clarity,shape subset representation,(+),1,0,0,0,0,0,0,0,1,0
+Visual Encoding Clarity,shape variation,(+),4,1,0,0,0,0,1,0,1,0
+Visual Encoding Clarity,shape variety,(+) (-),7,1,0,2,2,0,0,1,0,1
+Visual Encoding Clarity,shapes,(+) (-),17,1,1,0,6,2,0,2,4,1
+Visual Encoding Clarity,shapes and contrasts,(+),2,0,0,0,0,0,0,2,0,0
+Visual Encoding Clarity,shapes and lines,(+) (-),24,2,2,1,4,0,3,7,3,1
+Visual Encoding Clarity,shapes varied,(+),1,1,0,0,0,0,0,0,0,0
+Visual Encoding Clarity,similar box sizes,(+),1,0,0,0,0,1,0,0,0,0
+Visual Encoding Clarity,similar shapes,(+),1,0,0,0,0,0,0,0,0,0
+Visual Encoding Clarity,simple visual elements,(+) (-),6,1,0,0,0,1,2,0,0,1
+Visual Encoding Clarity,single variable,(-),1,0,0,1,0,0,0,0,0,0
+Visual Encoding Clarity,size,(+),1,0,1,0,0,0,0,0,0,0
+Visual Encoding Clarity,size decreasing,(-),2,2,0,0,0,0,0,0,0,0
+Visual Encoding Clarity,size variation,(+) (-),2,0,0,0,1,0,1,0,0,0
+Visual Encoding Clarity,small,(+),1,0,0,0,0,0,0,0,1,0
+Visual Encoding Clarity,smooth lines,(-),1,0,0,0,0,0,1,0,0,0
+Visual Encoding Clarity,spatial organization,(+) (-),3,2,0,0,0,0,0,0,1,0
+Visual Encoding Clarity,squares,(+),1,0,0,0,1,0,0,0,0,0
+Visual Encoding Clarity,stimulus less visible,(+),1,0,0,1,0,0,0,0,0,0
+Visual Encoding Clarity,straight lines,(-),4,0,1,0,0,0,1,1,1,0
+Visual Encoding Clarity,technical encoding,(+),2,0,0,0,0,1,0,0,1,0
+Visual Encoding Clarity,unable to sort,(+),1,0,0,0,1,0,0,0,0,0
+Visual Encoding Clarity,unclear filled bars,(+),1,0,0,0,0,1,0,0,0,0
+Visual Encoding Clarity,unclear meaning,(+) (-),8,1,0,0,2,2,0,2,1,0
+Visual Encoding Clarity,unclear movement,(+),2,0,0,0,2,0,0,0,0,0
+Visual Encoding Clarity,unclear shape,(+),1,0,0,0,1,0,0,0,0,0
+Visual Encoding Clarity,unclear shape meaning,(+),4,0,1,0,2,0,0,0,1,0
+Visual Encoding Clarity,unclear structure,(+),2,0,0,1,0,0,0,0,1,0
+Visual Encoding Clarity,unclear what data conveys,(+) (-),6,1,1,1,0,0,0,1,2,0
+Visual Encoding Clarity,understand/read shapes,(+),5,1,0,1,0,0,1,1,0,1
+Visual Encoding Clarity,uneven shape,(+),1,0,0,0,0,1,0,0,0,0
+Visual Encoding Clarity,uninterpretable ranking,(+),1,0,0,0,1,0,0,0,0,0
+Visual Encoding Clarity,unique data point,(+),1,0,0,0,0,0,0,0,1,0
+Visual Encoding Clarity,unknown hidden content,(+),1,0,0,0,1,0,0,0,0,0
+Visual Encoding Clarity,value and graphic alignment,(+) (-),2,1,0,0,0,1,0,0,0,0
+Visual Encoding Clarity,value representation,(+),1,1,0,0,0,0,0,0,0,0
+Visual Encoding Clarity,values in the middle,(+),1,0,0,0,0,1,0,0,0,0

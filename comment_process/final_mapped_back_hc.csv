@@ -1,0 +1,7199 @@
+index,(Final.MappedBack)HumanCuratedFinalKeywordsMoreComplex,(Final.MappedBack)HumanCuratedFinalKeywordsLessComplex
+407,"{
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear"",
+    ""convoluted composition""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""different clarity""
+  ]
+}",
+67,"{
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ]
+}",
+59,"{
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easier to interpret/read/understand""
+  ]
+}"
+157,"{
+  ""Aesthetics Uncertainty"": [
+    ""looks random/messy/lack structure""
+  ]
+}",
+697,"{
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+671,"{
+  ""Aesthetics Uncertainty"": [
+    ""feeling strange""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+345,"{
+  ""Aesthetics Uncertainty"": [
+    ""unclear colors/contrast""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to focus/follow""
+  ]
+}",
+286,"{
+  ""Aesthetics Uncertainty"": [
+    ""visually striking""
+  ],
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}",
+506,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""distinguishable/full color uses"",
+    ""lack of color contrast / hard to distinguish colors""
+  ]
+}",
+545,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution"",
+    ""texture details""
+  ],
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ]
+}",
+498,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""amount of / too many colors""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""lines"",
+    ""design-data relationship""
+  ]
+}"
+427,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""distinguishable color variety/arrangement/distribution"",
+    ""unclear colormaps""
+  ]
+}",
+7,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""white/black background / other background""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ]
+}",
+152,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""colored bars/charts""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines"",
+    ""clear connection""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""too much legend""
+  ]
+}"
+451,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""little data/info""
+  ],
+  ""Schema"": [
+    ""familiar representation""
+  ]
+}",
+247,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""design-data relationship""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to describe""
+  ]
+}",
+81,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color dimension""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines""
+  ]
+}",
+567,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""black-to-white/color gradient""
+  ]
+}",
+568,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""word rotation/small font size""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""little data/info""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""simple visual elements""
+  ]
+}"
+186,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color saturation"",
+    ""color variety/arrangement/distribution""
+  ]
+}",
+640,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color scale/scheme"",
+    ""indicating symbols""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shape indicators"",
+    ""data trend""
+  ]
+}",
+264,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""colored surface""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to compare/discern/distinguish""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""little data/info""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""lines""
+  ]
+}"
+190,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""bold colors""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""straight lines""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easier to interpret/read/understand"",
+    ""easy to interpret/read/understand""
+  ]
+}"
+366,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""similar colors""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand/differentiate"",
+    ""unclear meaning/confusing""
+  ]
+}",
+442,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""lack of color contrast / hard to distinguish colors""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+528,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""lack of color contrast / hard to distinguish colors""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""concentrated""
+  ],
+  ""Schema"": [
+    ""familiar representation"",
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+394,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""appealing colors""
+  ],
+  ""Schema"": [
+    ""familiar representation""
+  ]
+}",
+519,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""readable/distinguishable colors""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ]
+}","{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""easier to read""
+  ]
+}"
+499,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things"",
+    ""more charts/points/lines/shapes/elements""
+  ]
+}",
+215,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to focus/follow""
+  ]
+}",
+318,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""code/text"",
+    ""amount of words/context/numbers""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more complicated""
+  ]
+}","{
+  ""Schema"": [
+    ""a specific technique""
+  ]
+}"
+488,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""distinguishable/full/highly contrast color uses""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""good color contrast/separation/segmentation""
+  ]
+}"
+239,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""low color contrast/separation/segmentation""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""unclear colors/contrast""
+  ]
+}",
+282,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""black-to-white/color gradient""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""unknown hidden content""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""complicated to process""
+  ]
+}",
+659,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear coloring""
+  ],
+  ""Schema"": [
+    ""familiar representation""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""2D/3D""
+  ]
+}",
+495,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear color meaning""
+  ]
+}",
+491,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color shading"",
+    ""visually stimulating  texture/colors""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""complex design""
+  ]
+}",
+198,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ]
+}",
+636,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color details""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""small and simple"",
+    ""word rotation/small font size""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}",
+631,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color shading""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+214,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""lack of color contrast / hard to distinguish colors""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ]
+}",
+517,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear"",
+    ""looks random/messy/lack structure""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand/differentiate"",
+    ""more thinking""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""legend easy to understand""
+  ]
+}"
+662,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""low color contrast/separation/segmentation""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""unclear colors/contrast""
+  ]
+}",
+175,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""unclear shape meaning""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines"",
+    ""lines""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to focus/follow""
+  ]
+}"
+505,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""word rotation/small font size""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""black color""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easier to interpret/read/understand""
+  ]
+}"
+141,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""word rotation/small font size""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not intuitive/simple data""
+  ]
+}",
+317,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""looks random/messy/lack structure""
+  ]
+}",
+672,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""image layout""
+  ]
+}",
+577,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ]
+}",
+72,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shape increase/decrease point""
+  ]
+}","{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easier to interpret/read/understand""
+  ]
+}"
+369,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+368,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+174,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""more to read/analyze/understand""
+  ]
+}",
+492,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""more parameters/variables""
+  ]
+}",
+461,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easier to process/visualize""
+  ]
+}"
+467,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""read/analyze many figures/items""
+  ]
+}",
+582,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""nonlinearity""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+381,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""word/text/sentence""
+  ]
+}",
+162,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""more contrast""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ]
+}",
+596,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""looks random/messy/lack structure""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""unclear shape meaning""
+  ]
+}",
+104,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear color meaning""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""word rotation/small font size""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""lines"",
+    ""less organized elements""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to focus/follow""
+  ]
+}",
+622,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""no color""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""read/analyze many figures/items""
+  ]
+}",
+216,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""hard to distinguish colors""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to identify/extract/find features""
+  ]
+}",
+478,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""inadequate/few coloring""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+66,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""inadequate/few coloring""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ]
+}",
+425,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""distinguishable color variety/arrangement/distribution""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ]
+}"
+170,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""pixeled picture""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""unclear colors/contrast""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+76,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution"",
+    ""bright colors""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""clear text arrangement/density""
+  ]
+}",
+52,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""separate values by color to show differences""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easier to see/tell/visualize""
+  ]
+}"
+14,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""lack of color contrast / hard to distinguish colors""
+  ],
+  ""Schema"": [
+    ""no context or reference""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""harder to view data point""
+  ]
+}","{
+  ""Schema"": [
+    ""a specific technique, e.g., bar, pie, circle""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""simple to interpret/read/understand""
+  ]
+}"
+597,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""symbols and shading""
+  ]
+}",
+140,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""too many colors""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""word rotation/small font size""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not intuitive/simple data""
+  ]
+}",
+433,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""too many colors""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""unclear meaning""
+  ]
+}",
+271,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""lack of color contrast / hard to distinguish colors""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ]
+}",
+55,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Schema"": [
+    ""a specific technique""
+  ]
+}",
+489,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines""
+  ]
+}"
+19,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""no clear indication""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ]
+}"
+371,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""visual cues""
+  ]
+}",
+342,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""texture details""
+  ]
+}",
+219,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}",
+83,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""soft/layered/overlapping colors""
+  ]
+}"
+27,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""inadequate/few coloring""
+  ],
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""information overload""
+  ]
+}",
+474,"{
+  ""Data Density / Image Clutter"": [
+    ""more parameters/variables""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""clear color uses""
+  ]
+}",
+579,"{
+  ""Data Density / Image Clutter"": [
+    ""more to read/analyze/understand"",
+    ""multiple features/elements/graphs""
+  ]
+}",
+222,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""mixed timeline""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ]
+}",
+92,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""black-to-white/color gradient"",
+    ""unclear coloring"",
+    ""inadequate/few coloring"",
+    ""unclear color meaning""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""looks random/messy/lack structure""
+  ]
+}",
+93,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+302,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""more numbers""
+  ]
+}",
+303,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+681,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easier to see/tell/visualize""
+  ]
+}"
+680,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""attention/squinting to understand""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""word source""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easier to interpret/read/understand"",
+    ""easier to see/tell/visualize""
+  ]
+}"
+314,"{
+  ""Data Density / Image Clutter"": [
+    ""multiple interacting elements""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""small and simple""
+  ]
+}"
+95,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""bars as individual lines""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""organized/structured""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+644,"{
+  ""Data Density / Image Clutter"": [
+    ""fine/layered details"",
+    ""more parameters/variables""
+  ]
+}",
+677,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Schema"": [
+    ""not enough knowledge to tell""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+206,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""word/text/sentence""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shapes""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""few points/lines/shapes/elements""
+  ]
+}"
+688,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""element sizes""
+  ]
+}",
+647,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread"",
+    ""more detailed/things"",
+    ""multiple features/elements/graphs""
+  ]
+}",
+112,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""monochrome""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""nothing clear"",
+    ""lines""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+8,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers"",
+    ""no measurement/metric/axis""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""several elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""inadequate/few coloring""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easier to interpret/read/understand""
+  ]
+}"
+420,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers""
+  ]
+}",
+156,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""ambiguous/confusing colors""
+  ]
+}",
+421,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""word/text/sentence""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}",
+26,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""black-to-white/color gradient""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""intuitive""
+  ]
+}"
+207,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""little data/info"",
+    ""few points/lines/shapes/elements""
+  ]
+}"
+470,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread"",
+    ""multiple features/elements/graphs""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shapes""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""too much legend"",
+    ""title/axis/label/descriptions"",
+    ""word/text/sentence""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable"",
+    ""not intuitive/simple data""
+  ]
+}",
+559,"{
+  ""Data Density / Image Clutter"": [
+    ""messy/mixed up/noisy/intermingled elements"",
+    ""much/more data/info/info spread""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""word/text/sentence""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""looks random/messy/lack structure""
+  ]
+}","{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}"
+3,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shape size variation""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+311,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}",
+653,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""number of vertical lines""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""low color contrast/separation/segmentation"",
+    ""color variety/arrangement/distribution""
+  ]
+}",
+54,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps"",
+    ""drawing style""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps"",
+    ""drawing style""
+  ]
+}"
+560,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand/differentiate""
+  ]
+}","{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to derive meaning""
+  ]
+}"
+526,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""visual clarity/appealing""
+  ]
+}",
+445,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""lack of color contrast / hard to distinguish colors""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand/differentiate""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""simple to interpret/read/understand""
+  ]
+}"
+444,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""lack of color contrast / hard to distinguish colors""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""low readability""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""simple visual elements""
+  ]
+}"
+134,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread"",
+    ""disposition""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color superposition/layer""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}",
+406,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""element sizes""
+  ]
+}",
+42,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements"",
+    ""dense/cluttered layout"",
+    ""much/more data/info/info spread""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}",
+289,,
+10,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""no square information"",
+    ""shape size""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""same colors""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""shapes""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""axis meaning""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ]
+}"
+457,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""intersecting lines""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""more text boxes""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+388,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered layout"",
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""text on picture""
+  ]
+}",
+372,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered shape""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shape size""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""good color contrast/separation/segmentation""
+  ]
+}",
+373,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered shape""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines"",
+    ""squares""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""blue color""
+  ]
+}",
+331,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered data/info""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""fast readability""
+  ]
+}"
+359,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered data/info"",
+    ""dense points/lines/shapes/elements"",
+    ""too many points/lines/shapes/elements"",
+    ""too much data/info""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""cluttered labels/annotations"",
+    ""title/axis/label/descriptions""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution"",
+    ""too many colors""
+  ]
+}",
+130,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered data/info""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""complicated to process"",
+    ""easy to interpret/read/understand""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""organized/structured""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easier to process/visualize""
+  ]
+}"
+448,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered data/info""
+  ],
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ]
+}",
+673,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+297,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand/differentiate""
+  ]
+}",
+234,"{
+  ""Data Density / Image Clutter"": [
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""network representation""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to compare/discern/distinguish"",
+    ""hard to focus/follow"",
+    ""more reading/interpretation/understanding""
+  ]
+}",
+643,"{
+  ""Data Density / Image Clutter"": [
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+376,"{
+  ""Data Density / Image Clutter"": [
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""more uniform design"",
+    ""no interaction""
+  ]
+}"
+603,"{
+  ""Data Density / Image Clutter"": [
+    ""dense points/lines/shapes/elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""straight lines""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""easier to read""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easier to interpret/read/understand""
+  ]
+}"
+251,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered data/info""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}",
+250,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered data/info""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}",
+181,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered data/info"",
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shape subset representation""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""too much legend"",
+    ""nonlinear measurement/metric/axis""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}",
+334,"{
+  ""Data Density / Image Clutter"": [
+    ""dense points/lines/shapes/elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""unclear relation between words"",
+    ""word misoriented""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""unclear colors/contrast""
+  ]
+}",
+393,"{
+  ""Data Density / Image Clutter"": [
+    ""dense points/lines/shapes/elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""low color contrast/separation/segmentation""
+  ]
+}",
+108,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered data/info"",
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""number of legend items""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""distinguishable color variety/arrangement/distribution""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered data/info""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""distinguishable color variety/arrangement/distribution""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""number of legend items""
+  ]
+}"
+426,"{
+  ""Data Density / Image Clutter"": [
+    ""fine/layered details""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""arbitrary imaging""
+  ]
+}","{
+  ""Schema"": [
+    ""familiar representation""
+  ]
+}"
+283,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements"",
+    ""dense/cluttered data/info"",
+    ""much/more data/info/info spread""
+  ]
+}",
+455,"{
+  ""Data Density / Image Clutter"": [
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""two colors""
+  ]
+}"
+602,"{
+  ""Data Density / Image Clutter"": [
+    ""dense points/lines/shapes/elements"",
+    ""multiple features/elements/graphs""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not easily understood""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""spatial organization""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+310,"{
+  ""Data Density / Image Clutter"": [
+    ""messy/mixed up/noisy/intermingled elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""image portrayal""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}",
+21,"{
+  ""Data Density / Image Clutter"": [
+    ""fine/layered details""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""precision of aspect""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more to read/analyze/understand"",
+    ""more intricate""
+  ]
+}",
+61,"{
+  ""Data Density / Image Clutter"": [
+    ""messy/mixed up/noisy/intermingled elements"",
+    ""too many details/divisions""
+  ]
+}",
+180,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements"",
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color scale/scheme""
+  ]
+}",
+23,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ]
+}",
+583,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread"",
+    ""overlapping shapes/colors/lines""
+  ]
+}",
+235,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered data/info"",
+    ""much/more data/info/info spread""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""different labels"",
+    ""hierarchical text"",
+    ""more texts/words"",
+    ""title/axis/label/descriptions""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""visually overwhelming""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more reading/interpretation/understanding""
+  ]
+}",
+86,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered layout"",
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to describe""
+  ]
+}",
+194,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered layout""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult""
+  ]
+}",
+637,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things"",
+    ""dense/cluttered layout""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""amount of / too many colors""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand/differentiate""
+  ]
+}",
+477,"{
+  ""Data Density / Image Clutter"": [
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""little/less text/numbers/context""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""multiple interpretation""
+  ]
+}",
+456,"{
+  ""Data Density / Image Clutter"": [
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""line quantity representation"",
+    ""shape size variation""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+607,"{
+  ""Data Density / Image Clutter"": [
+    ""messy/mixed up/noisy/intermingled elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shape point of interest"",
+    ""shapes and lines""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ]
+}",
+554,"{
+  ""Data Density / Image Clutter"": [
+    ""large dataset"",
+    ""more detailed/things""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""too much legend""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+689,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered layout"",
+    ""much/more data/info/info spread""
+  ]
+}",
+530,"{
+  ""Data Density / Image Clutter"": [
+    ""more regions/space"",
+    ""dense/cluttered layout""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""font"",
+    ""more texts/words"",
+    ""clear text arrangement/density""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}",
+312,"{
+  ""Data Density / Image Clutter"": [
+    ""less empty space"",
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines"",
+    ""shapes"",
+    ""straight lines""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""word/text/sentence""
+  ]
+}"
+266,"{
+  ""Data Density / Image Clutter"": [
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""information nuance expressed""
+  ]
+}",
+441,"{
+  ""Data Density / Image Clutter"": [
+    ""little data/info""
+  ]
+}",
+670,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Schema"": [
+    ""2D/3D""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to measure/model""
+  ]
+}",
+77,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+660,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shape position""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ]
+}",
+617,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread"",
+    ""overlapping shapes/colors/lines""
+  ]
+}",
+230,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things"",
+    ""many measurements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""detailed inscription"",
+    ""amount of words/context/numbers""
+  ]
+}",
+172,"{
+  ""Data Density / Image Clutter"": [
+    ""overlapping shapes/colors/lines"",
+    ""dense/cluttered data/info""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution"",
+    ""very different colors""
+  ]
+}",
+124,"{
+  ""Data Density / Image Clutter"": [
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to compare/discern/distinguish""
+  ]
+}","{
+  ""Schema"": [
+    ""familiar representation""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+585,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ]
+}",
+100,"{
+  ""Data Density / Image Clutter"": [
+    ""more regions/space""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""more texts/words""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color keys""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""ordered"",
+    ""shapes""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color shading""
+  ]
+}"
+352,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unable to remember""
+  ]
+}",
+490,"{
+  ""Data Density / Image Clutter"": [
+    ""more parameters/variables""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+543,"{
+  ""Data Density / Image Clutter"": [
+    ""more parameters/variables""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+402,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""black-to-white/color gradient""
+  ]
+}",
+403,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread"",
+    ""little data/info""
+  ]
+}"
+276,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shape size variation""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""ambiguous numbers"",
+    ""more texts/words""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""ordered""
+  ]
+}"
+267,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""less organized elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+561,"{
+  ""Data Density / Image Clutter"": [
+    ""messy/mixed up/noisy/intermingled elements""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+188,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ],
+  ""Schema"": [
+    ""abstract shapes or colors""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""not intuitive/simple data""
+  ]
+}"
+189,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""size""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""more title/axis/label""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ]
+}",
+357,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements"",
+    ""much/more data/info/info spread""
+  ]
+}",
+73,"{
+  ""Data Density / Image Clutter"": [
+    ""multiple features/elements/graphs""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""length variation""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""looks random/messy/lack structure""
+  ]
+}","{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""too much legend""
+  ]
+}"
+541,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to identify/extract/find features""
+  ]
+}",
+309,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ]
+}",
+168,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements"",
+    ""many numbers""
+  ]
+}",
+327,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements"",
+    ""fine/layered details""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""image size""
+  ]
+}",
+481,"{
+  ""Data Density / Image Clutter"": [
+    ""fine/layered details"",
+    ""much/more data/info/info spread""
+  ]
+}",
+594,"{
+  ""Data Density / Image Clutter"": [
+    ""messy/mixed up/noisy/intermingled elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""distinguishable/full/highly contrast color uses"",
+    ""color variety/arrangement/distribution""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""less attractive""
+  ]
+}",
+58,"{
+  ""Data Density / Image Clutter"": [
+    ""messy/mixed up/noisy/intermingled elements"",
+    ""more detailed/things""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""soft/layered/overlapping colors""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""visual clarity/appealing""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easier to interpret/read/understand""
+  ]
+}"
+68,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines"",
+    ""shapes""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""too much legend"",
+    ""lack of/not enough axis labels/legend/annotations/context"",
+    ""more title/axis/label""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""shapes""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}"
+663,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""horizontal bars""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}",
+75,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered layout"",
+    ""multiple features/elements/graphs""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""more numbers""
+  ],
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution"",
+    ""unclear color meaning""
+  ]
+}","{
+  ""Schema"": [
+    ""familiar representation""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""clear indication""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""inadequate/few coloring""
+  ]
+}"
+94,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered layout""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""too much legend"",
+    ""amount of words/context/numbers""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""less clear""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""clear connection"",
+    ""lines"",
+    ""nodes""
+  ]
+}"
+173,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""mixed size"",
+    ""title/axis/label/descriptions""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""distinguishable/full/highly contrast color uses""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}",
+683,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""labeled axis""
+  ]
+}",
+284,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""more axes""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""require specialized knowledge""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""little data/info""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""fewer axes""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easier to interpret/read/understand""
+  ]
+}"
+51,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shape variety""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""amount of / too many colors""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""code/text"",
+    ""word/text/sentence""
+  ]
+}"
+22,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ]
+}",
+158,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""looks random/messy/lack structure""
+  ]
+}",
+256,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+588,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""word/text/sentence""
+  ],
+  ""Schema"": [
+    ""a specific technique""
+  ]
+}"
+383,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread"",
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""distinguishable/full/highly contrast color uses""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""looks random/messy/lack structure""
+  ]
+}",
+598,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread"",
+    ""more parameters/variables""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""design-data relationship""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+487,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""scattered shapes (e.g., dots, squares, pictures)""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+364,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ]
+}",
+693,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+325,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""less intuitive""
+  ]
+}",
+655,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}",
+263,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Schema"": [
+    ""a specific technique, e.g., bar, pie, circle""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}",
+96,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""more nuance information""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand/differentiate""
+  ]
+}",
+268,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""uninterpretable ranking""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand/differentiate""
+  ]
+}",
+9,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""little data/info""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shape increase/decrease point""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easier to interpret/read/understand""
+  ]
+}"
+604,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""clear colored bars/charts""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""shapes""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""inadequate/few coloring""
+  ]
+}"
+382,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color intensity"",
+    ""low color contrast/separation/segmentation""
+  ]
+}",
+419,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""bars as individual lines""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""more labels/context""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""intuitive""
+  ]
+}"
+657,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color shading"",
+    ""soft/layered/overlapping colors""
+  ]
+}",
+404,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear meaning/confusing""
+  ]
+}",
+154,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""less organized elements""
+  ]
+}",
+356,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements"",
+    ""clustered data/info""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""clear text/scale/information""
+  ],
+  ""Schema"": [
+    ""a specific technique"",
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""different font/word sizes/structure"",
+    ""word/text/sentence""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""lines""
+  ]
+}"
+20,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""precision of lines""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easier to process/visualize""
+  ]
+}"
+564,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""less attractive""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to compare/discern/distinguish""
+  ]
+}",
+638,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear coloring""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}","{
+  ""Schema"": [
+    ""familiar representation""
+  ]
+}"
+431,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines"",
+    ""shape size variation""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand/differentiate""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easier to interpret/read/understand""
+  ]
+}"
+601,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements"",
+    ""little data/info""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""white/black background / other background""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""2D/3D""
+  ]
+}",
+569,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ]
+}",
+418,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""more texts/words""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shape variation""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}",
+321,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}",
+380,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ]
+}",
+78,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ]
+}"
+160,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""less simple""
+  ]
+}",
+460,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+320,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}",
+686,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Schema"": [
+    ""a specific technique""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}",
+260,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""indistinguishable/unintuitive lines""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+507,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""more forms""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+469,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""curves and shapes""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+163,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread"",
+    ""more parameters/variables""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""more contrast""
+  ]
+}",
+576,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread"",
+    ""more regions/space""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution"",
+    ""more pixels""
+  ]
+}",
+316,"{
+  ""Data Density / Image Clutter"": [
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""lines and scales""
+  ]
+}",
+255,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to compare/discern/distinguish""
+  ]
+}",
+56,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements"",
+    ""fine/layered details""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""more texts/words""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""more contrast""
+  ]
+}",
+565,"{
+  ""Data Density / Image Clutter"": [
+    ""messy/mixed up/noisy/intermingled elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""unclear meaning""
+  ]
+}",
+262,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+634,"{
+  ""Data Density / Image Clutter"": [
+    ""organized/structured""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""more texts/words""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""inadequate/few coloring""
+  ]
+}",
+135,"{
+  ""Data Density / Image Clutter"": [
+    ""many/more data/info""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color superposition/layer""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ]
+}",
+313,"{
+  ""Data Density / Image Clutter"": [
+    ""many/more data/info""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear coloring"",
+    ""good color contrast/separation/segmentation"",
+    ""color variety/arrangement/distribution""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear coloring""
+  ]
+}"
+480,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+471,"{
+  ""Data Density / Image Clutter"": [
+    ""scattered shapes (e.g., dots, squares, pictures)""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shape size variation"",
+    ""scattered shapes (e.g., dots, squares, pictures)""
+  ],
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand/differentiate"",
+    ""hard to see/tell/visualize""
+  ]
+}","{
+  ""Schema"": [
+    ""a specific technique, e.g., bar, pie, circle"",
+    ""a specific technique""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color scale/scheme""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines"",
+    ""lines""
+  ]
+}"
+635,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""more texts/words""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+199,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""more texts/words"",
+    ""context/text/description""
+  ]
+}",
+279,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""word/text/sentence""
+  ]
+}",
+544,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""looks random/messy/lack structure""
+  ]
+}",
+285,"{
+  ""Data Density / Image Clutter"": [
+    ""multiple features/elements/graphs""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable"",
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}"
+165,"{
+  ""Data Density / Image Clutter"": [
+    ""messy/mixed up/noisy/intermingled elements""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""little data/info""
+  ]
+}"
+605,"{
+  ""Data Density / Image Clutter"": [
+    ""multiple features/elements/graphs"",
+    ""much/more data/info/info spread""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""element sizes""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""word/text/sentence""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+254,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ]
+}",
+133,"{
+  ""Data Density / Image Clutter"": [
+    ""multiple features/elements/graphs"",
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""-""
+  ]
+}",
+132,"{
+  ""Data Density / Image Clutter"": [
+    ""multiple features/elements/graphs"",
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""-""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""more colors""
+  ]
+}",
+106,"{
+  ""Data Density / Image Clutter"": [
+    ""multiple features/elements/graphs""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""intense/too many colors"",
+    ""indicating symbols""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+107,"{
+  ""Data Density / Image Clutter"": [
+    ""multiple features/elements/graphs""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""element sizes""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+341,"{
+  ""Data Density / Image Clutter"": [
+    ""multiple features/elements/graphs""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""word/text/sentence""
+  ]
+}",
+278,"{
+  ""Data Density / Image Clutter"": [
+    ""multiple features/elements/graphs"",
+    ""multiple points/lines/shapes/elements""
+  ]
+}",
+684,"{
+  ""Data Density / Image Clutter"": [
+    ""diverse information""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color keys""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to compare/discern/distinguish""
+  ]
+}",
+408,"{
+  ""Data Density / Image Clutter"": [
+    ""little data/info""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+600,"{
+  ""Data Density / Image Clutter"": [
+    ""little data/info""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""lack of color contrast / hard to distinguish colors""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""low color contrast/separation/segmentation""
+  ]
+}"
+459,"{
+  ""Data Density / Image Clutter"": [
+    ""messy/mixed up/noisy/intermingled elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""negative space"",
+    ""white color on black background""
+  ]
+}",
+625,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements"",
+    ""much/more data/info/info spread""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""word/text/sentence""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements"",
+    ""much/more data/info/info spread""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""word/text/sentence""
+  ]
+}"
+350,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""element sizes"",
+    ""shapes and contrasts""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""element sizes"",
+    ""shapes and contrasts""
+  ]
+}"
+472,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+424,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""clear color uses""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""readability"",
+    ""word rotation/small font size""
+  ]
+}"
+155,"{
+  ""Data Density / Image Clutter"": [
+    ""many points/lines/shapes/elements""
+  ]
+}",
+211,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""low color contrast/separation/segmentation""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""low color contrast/separation/segmentation""
+  ]
+}"
+669,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""curves and shapes""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+392,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shapes varied"",
+    ""scale difference""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""readability""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+296,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements"",
+    ""many/more data/info""
+  ]
+}",
+344,"{
+  ""Data Density / Image Clutter"": [
+    ""many points/lines/shapes/elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to see/tell/visualize""
+  ]
+}",
+192,"{
+  ""Data Density / Image Clutter"": [
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""text hard to read""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""low color contrast/separation/segmentation""
+  ]
+}"
+624,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ]
+}",
+288,"{
+  ""Data Density / Image Clutter"": [
+    ""organized/structured""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""lack of color contrast / hard to distinguish colors""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""frame with values"",
+    ""clear text/scale/information""
+  ]
+}"
+109,"{
+  ""Data Density / Image Clutter"": [
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""number of legend items""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+136,"{
+  ""Data Density / Image Clutter"": [
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shape size""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""explanation text"",
+    ""too much legend""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+121,"{
+  ""Data Density / Image Clutter"": [
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""more texts/words""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""white/black background / other background"",
+    ""soft/layered/overlapping colors""
+  ]
+}",
+182,"{
+  ""Data Density / Image Clutter"": [
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""unique data point""
+  ]
+}",
+336,"{
+  ""Data Density / Image Clutter"": [
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Schema"": [
+    ""a specific technique""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+137,"{
+  ""Data Density / Image Clutter"": [
+    ""overlapping shapes/colors/lines""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shape size variation""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""explanation text"",
+    ""too much legend""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+337,,
+36,"{
+  ""Data Density / Image Clutter"": [
+    ""scattered shapes (e.g., dots, squares, pictures)""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}",
+38,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements"",
+    ""too much data/info""
+  ]
+}",
+208,"{
+  ""Data Density / Image Clutter"": [
+    ""dense points/lines/shapes/elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""dense points/lines/shapes/elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ]
+}"
+436,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements"",
+    ""fine/layered details""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shapes""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""visually stimulating  texture/colors""
+  ]
+}",
+248,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}",
+326,"{
+  ""Data Density / Image Clutter"": [
+    ""fine/layered details"",
+    ""more charts/points/lines/shapes/elements""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""fine/layered details"",
+    ""more charts/points/lines/shapes/elements""
+  ]
+}"
+413,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to see/tell/visualize""
+  ]
+}",
+84,"{
+  ""Data Density / Image Clutter"": [
+    ""too many details/divisions""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+349,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread"",
+    ""many/more data/info""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread"",
+    ""many/more data/info""
+  ]
+}"
+82,"{
+  ""Data Density / Image Clutter"": [
+    ""too many details/divisions""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+129,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements"",
+    ""shape-color mix""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""ambiguous/confusing colors""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to compare/discern/distinguish""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""visual clarity/appealing""
+  ]
+}"
+128,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements"",
+    ""shape-color mix""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""ambiguous/confusing colors""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to compare/discern/distinguish""
+  ]
+}","{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""clear indication"",
+    ""simple visual elements""
+  ]
+}"
+358,"{
+  ""Data Density / Image Clutter"": [
+    ""too many points/lines/shapes/elements"",
+    ""too much data/info""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""unclear relation between words""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to identify/extract/find features"",
+    ""hard to compare/discern/distinguish"",
+    ""hard to focus/follow""
+  ]
+}",
+169,"{
+  ""Data Density / Image Clutter"": [
+    ""too many details/divisions""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""different font/word sizes/structure"",
+    ""more texts/words""
+  ]
+}",
+539,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear coloring"",
+    ""color variety/arrangement/distribution""
+  ]
+}",
+217,"{
+  ""Data Density / Image Clutter"": [
+    ""too many points/lines/shapes/elements"",
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""word rotation/small font size""
+  ]
+}",
+89,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""lack of color contrast / hard to distinguish colors""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand/differentiate""
+  ]
+}",
+265,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""word/text/sentence""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""indistinguishable/unintuitive lines""
+  ]
+}","{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easier to process/visualize""
+  ]
+}"
+328,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements"",
+    ""too many sections""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""text""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color shading""
+  ]
+}",
+329,"{
+  ""Data Density / Image Clutter"": [
+    ""too more points/lines/shapes/elements"",
+    ""messy/mixed up/noisy/intermingled elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""unclear movement""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ]
+}",
+606,"{
+  ""Data Density / Image Clutter"": [
+    ""too many numbers""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""text hard to read"",
+    ""title/axis/label/descriptions""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to see/tell/visualize""
+  ]
+}",
+6,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""white/black background / other background""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""too much legend"",
+    ""amount of words/context/numbers""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""organized/structured""
+  ]
+}"
+270,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements"",
+    ""more parameters/variables""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""amount of / too many colors""
+  ]
+}",
+675,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""less detailed/things""
+  ]
+}"
+405,"{
+  ""Data Density / Image Clutter"": [
+    ""too many subplots""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""lack of legend"",
+    ""word rotation/small font size""
+  ]
+}",
+611,"{
+  ""Data Density / Image Clutter"": [
+    ""many points/lines/shapes/elements""
+  ]
+}",
+44,"{
+  ""Data Density / Image Clutter"": [
+    ""too much data/info""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""unclear filled bars""
+  ]
+}",
+99,"{
+  ""Data Density / Image Clutter"": [
+    ""too many details/divisions""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""too many colors""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""description"",
+    ""word rotation/small font size""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easier to interpret/read/understand"",
+    ""easy to interpret/read/understand""
+  ]
+}"
+98,"{
+  ""Data Density / Image Clutter"": [
+    ""too many details/divisions""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""too many colors""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""word rotation/small font size""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}","{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easier to interpret/read/understand"",
+    ""easy to interpret/read/understand""
+  ]
+}"
+438,"{
+  ""Data Density / Image Clutter"": [
+    ""too much data/info""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""curves and shapes""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""unclear colors/contrast""
+  ]
+}",
+39,"{
+  ""Data Density / Image Clutter"": [
+    ""too much data/info""
+  ]
+}",
+166,"{
+  ""Data Density / Image Clutter"": [
+    ""multiple features/elements/graphs""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""more title/axis/label"",
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ]
+}",
+201,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ]
+}",
+236,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered layout"",
+    ""much/more data/info/info spread""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""simple to interpret/read/understand""
+  ]
+}"
+534,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""stimulus less visible""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ]
+}"
+346,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread"",
+    ""more detailed/things""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}",
+261,"{
+  ""Immediacy / Cognitive Load"": [
+    ""information overload""
+  ]
+}",
+48,"{
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand/differentiate""
+  ]
+}",
+159,"{
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+218,"{
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""too much legend"",
+    ""title/axis/label/descriptions""
+  ]
+}"
+412,"{
+  ""Immediacy / Cognitive Load"": [
+    ""hard to identify/extract/find features"",
+    ""hard to interpret/read/understand""
+  ]
+}",
+432,"{
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand/differentiate""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+237,"{
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""intuitive""
+  ]
+}"
+690,"{
+  ""Immediacy / Cognitive Load"": [
+    ""hard to compare/discern/distinguish""
+  ]
+}",
+131,"{
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easier to interpret/read/understand""
+  ]
+}"
+184,"{
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+205,"{
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+191,"{
+  ""Immediacy / Cognitive Load"": [
+    ""hard to focus/follow""
+  ]
+}",
+102,"{
+  ""Immediacy / Cognitive Load"": [
+    ""hard to identify/extract/find features""
+  ]
+}","{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+138,"{
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand/differentiate""
+  ]
+}",
+674,"{
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+1,"{
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}","{
+  ""Schema"": [
+    ""a specific technique, e.g., bar, pie, circle""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color represents groups""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+228,"{
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+212,"{
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+176,"{
+  ""Immediacy / Cognitive Load"": [
+    ""unclear where to look/what to see""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""little data/info""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+553,"{
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers""
+  ]
+}"
+233,"{
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+213,"{
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+115,"{
+  ""Immediacy / Cognitive Load"": [
+    ""easier to process/visualize""
+  ]
+}",
+367,"{
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand/differentiate""
+  ]
+}",
+430,"{
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand/differentiate""
+  ]
+}",
+632,"{
+  ""Immediacy / Cognitive Load"": [
+    ""hard to see/tell/visualize""
+  ]
+}",
+315,"{
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to compare/discern/distinguish""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easier to compare/discern/distinguish""
+  ]
+}"
+343,"{
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}"
+555,"{
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}",
+466,"{
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}",
+15,"{
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""readability""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}"
+203,"{
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand/differentiate""
+  ]
+}",
+398,"{
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}",
+229,"{
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}",
+590,"{
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""clearer coloring""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""simple to interpret/read/understand""
+  ]
+}"
+599,"{
+  ""Immediacy / Cognitive Load"": [
+    ""more effort/reading/detailed analysis""
+  ]
+}",
+613,"{
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}","{
+  ""Schema"": [
+    ""a specific technique""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""symbols""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to identify/extract/find features""
+  ]
+}"
+589,"{
+  ""Immediacy / Cognitive Load"": [
+    ""attention/squinting to understand""
+  ]
+}","{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}"
+538,"{
+  ""Immediacy / Cognitive Load"": [
+    ""read/analyze many figures/items""
+  ]
+}",
+509,"{
+  ""Immediacy / Cognitive Load"": [
+    ""more reading/interpretation/understanding""
+  ]
+}","{
+  ""Schema"": [
+    ""a specific technique""
+  ]
+}"
+532,"{
+  ""Immediacy / Cognitive Load"": [
+    ""read/analyze many figures/items""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""clear colors/shapes"",
+    ""lines""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""too much legend""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+679,"{
+  ""Immediacy / Cognitive Load"": [
+    ""more effort/reading/detailed analysis""
+  ]
+}",
+292,"{
+  ""Immediacy / Cognitive Load"": [
+    ""more effort/reading/detailed analysis""
+  ]
+}",
+578,"{
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}","{
+  ""Schema"": [
+    ""a specific technique, e.g., bar, pie, circle""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+126,"{
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""little data/info""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}"
+422,"{
+  ""Immediacy / Cognitive Load"": [
+    ""not intuitive/simple data""
+  ]
+}","{
+  ""Schema"": [
+    ""familiar representation""
+  ]
+}"
+33,"{
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+249,"{
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+153,"{
+  ""Immediacy / Cognitive Load"": [
+    ""more reading/interpretation/understanding""
+  ]
+}",
+531,"{
+  ""Immediacy / Cognitive Load"": [
+    ""more reading/interpretation/understanding""
+  ]
+}",
+664,"{
+  ""Immediacy / Cognitive Load"": [
+    ""more reading/interpretation/understanding""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""little data/info""
+  ]
+}"
+520,"{
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}",
+511,"{
+  ""Immediacy / Cognitive Load"": [
+    ""easier to process/visualize""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""visual clarity/appealing""
+  ]
+}"
+574,"{
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""ordered""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more interpretable/readable/understandable""
+  ]
+}"
+335,"{
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+572,"{
+  ""Immediacy / Cognitive Load"": [
+    ""complicated to process""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}"
+253,"{
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+195,"{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}",
+179,"{
+  ""Schema"": [
+    ""a specific technique""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+146,"{
+  ""Schema"": [
+    ""abstract shapes or colors""
+  ]
+}","{
+  ""Schema"": [
+    ""familiar representation""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""clear title/axis/label""
+  ]
+}"
+147,"{
+  ""Schema"": [
+    ""abstract shapes or colors""
+  ]
+}","{
+  ""Schema"": [
+    ""familiar representation""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""clear title/axis/label""
+  ]
+}"
+347,"{
+  ""Schema"": [
+    ""abstract shapes or colors""
+  ]
+}",
+238,"{
+  ""Schema"": [
+    ""abstract shapes or colors""
+  ]
+}",
+630,"{
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+556,"{
+  ""Schema"": [
+    ""a specific technique, e.g., bar, pie, circle""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}","{
+  ""Schema"": [
+    ""a specific technique, e.g., bar, pie, circle""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not intuitive/simple data""
+  ]
+}"
+493,"{
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ]
+}",
+90,"{
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color shading""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}",
+649,"{
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ]
+}","{
+  ""Schema"": [
+    ""familiar representation"",
+    ""a specific technique""
+  ]
+}"
+552,"{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}","{
+  ""Schema"": [
+    ""a specific technique""
+  ]
+}"
+558,"{
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+111,"{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+593,"{
+  ""Schema"": [
+    ""a specific domain""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""organized/structured""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""appealing colors""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}"
+614,"{
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ]
+}",
+685,"{
+  ""Schema"": [
+    ""a specific technique""
+  ]
+}","{
+  ""Schema"": [
+    ""a specific technique""
+  ]
+}"
+308,"{
+  ""Schema"": [
+    ""a specific technique""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""colored shape""
+  ]
+}",
+110,"{
+  ""Schema"": [
+    ""a specific domain""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""complicated to process""
+  ]
+}",
+428,"{
+  ""Schema"": [
+    ""no context or reference""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""color hues""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""context""
+  ]
+}"
+295,"{
+  ""Schema"": [
+    ""no context or reference""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear meaning/confusing""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""recognizable objects""
+  ]
+}"
+34,"{
+  ""Schema"": [
+    ""no context or reference""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""blended colors"",
+    ""blurry colors/images""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""attention/squinting to understand""
+  ]
+}",
+114,"{
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""too many colors""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to focus/follow""
+  ]
+}",
+231,"{
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+627,"{
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ],
+  ""Schema"": [
+    ""a specific technique""
+  ]
+}"
+626,"{
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ],
+  ""Schema"": [
+    ""familiar representation"",
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}"
+504,"{
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color scale/scheme""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easier to interpret/read/understand""
+  ]
+}"
+91,"{
+  ""Schema"": [
+    ""unfamiliar concepts/patterns"",
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more complicated""
+  ]
+}",
+45,"{
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ]
+}",
+306,"{
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easier to see/tell/visualize""
+  ]
+}"
+113,"{
+  ""Schema"": [
+    ""unfamiliar concepts/patterns"",
+    ""2D/3D""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear color meaning""
+  ]
+}",
+658,"{
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""words and numbers""
+  ],
+  ""Schema"": [
+    ""familiar representation""
+  ]
+}"
+127,"{
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+620,"{
+  ""Schema"": [
+    ""a specific technique""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult""
+  ]
+}",
+323,"{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""captions"",
+    ""context"",
+    ""title/axis/label/descriptions""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+443,"{
+  ""Schema"": [
+    ""a specific technique""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+462,"{
+  ""Schema"": [
+    ""unique""
+  ]
+}",
+692,,
+423,"{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easier to interpret/read/understand""
+  ]
+}"
+479,"{
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers""
+  ]
+}",
+224,"{
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color shading""
+  ]
+}",
+500,"{
+  ""Semantics / Text Legibility"": [
+    ""almost no explanation"",
+    ""no measurement/metric"",
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ]
+}","{
+  ""Aesthetics Uncertainty"": [
+    ""visual clarity/appealing""
+  ]
+}"
+13,"{
+  ""Semantics / Text Legibility"": [
+    ""too many subjects"",
+    ""word/text/sentence""
+  ]
+}",
+524,"{
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers""
+  ]
+}",
+537,"{
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""distinguishable color variety/arrangement/distribution""
+  ]
+}",
+70,"{
+  ""Semantics / Text Legibility"": [
+    ""more texts/words""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""spatial organization""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+11,"{
+  ""Semantics / Text Legibility"": [
+    ""more texts/words"",
+    ""word rotation/small font size""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""highlighted words""
+  ]
+}"
+46,"{
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ]
+}",
+687,"{
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions"",
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""infomration representation""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""provokes thought and understanding""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}"
+2,"{
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Schema"": [
+    ""a specific technique""
+  ]
+}",
+105,"{
+  ""Semantics / Text Legibility"": [
+    ""more labels/context"",
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""no color difference""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand/differentiate""
+  ]
+}",
+35,"{
+  ""Semantics / Text Legibility"": [
+    ""clear title/axis/label""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""clear title/axis/label""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}"
+16,"{
+  ""Semantics / Text Legibility"": [
+    ""clear text arrangement/density""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+148,"{
+  ""Semantics / Text Legibility"": [
+    ""description easy to read"",
+    ""legend easy to understand"",
+    ""clear title/axis/label""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""description easy to read"",
+    ""legend easy to understand"",
+    ""clear title/axis/label""
+  ]
+}"
+378,"{
+  ""Semantics / Text Legibility"": [
+    ""different font/word sizes/structure"",
+    ""word rotation/small font size""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""unclear colors/contrast""
+  ]
+}",
+183,"{
+  ""Semantics / Text Legibility"": [
+    ""different font/word sizes/structure"",
+    ""word rotation/small font size""
+  ]
+}",
+185,"{
+  ""Semantics / Text Legibility"": [
+    ""factual information""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""word rotation/small font size"",
+    ""word frequency""
+  ],
+  ""Schema"": [
+    ""a specific technique, e.g., bar, pie, circle""
+  ]
+}"
+272,"{
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""separate color scales""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""little data/info""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ]
+}"
+694,"{
+  ""Semantics / Text Legibility"": [
+    ""hard to read""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+37,"{
+  ""Semantics / Text Legibility"": [
+    ""word/text/sentence""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""black color""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""unclear colors/contrast""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}"
+355,"{
+  ""Semantics / Text Legibility"": [
+    ""word/text/sentence""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines""
+  ]
+}"
+340,"{
+  ""Semantics / Text Legibility"": [
+    ""-"",
+    ""involves numbers""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ]
+}",
+518,"{
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+0,"{
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+294,"{
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more reading/interpretation/understanding""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Schema"": [
+    ""familiar representation""
+  ]
+}"
+648,"{
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ]
+}","{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}"
+389,"{
+  ""Semantics / Text Legibility"": [
+    ""too much legend"",
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""too much legend"",
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ]
+}"
+387,"{
+  ""Semantics / Text Legibility"": [
+    ""unclear relation between words""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not intuitive/simple data""
+  ]
+}",
+232,"{
+  ""Semantics / Text Legibility"": [
+    ""little/less text/numbers/context""
+  ]
+}",
+414,"{
+  ""Semantics / Text Legibility"": [
+    ""different font/word sizes/structure"",
+    ""different word meaning""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""less attractive""
+  ]
+}",
+88,"{
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers"",
+    ""many legend categories""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+549,"{
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}"
+584,"{
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""salient colors""
+  ]
+}",
+573,"{
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions"",
+    ""cluttered labels/annotations""
+  ]
+}",
+616,"{
+  ""Semantics / Text Legibility"": [
+    ""more labels/context"",
+    ""more legible""
+  ]
+}",
+566,"{
+  ""Semantics / Text Legibility"": [
+    ""more texts/words""
+  ]
+}",
+397,"{
+  ""Semantics / Text Legibility"": [
+    ""more texts/words""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""not simple color-wise""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""less intuitive""
+  ]
+}",
+396,"{
+  ""Semantics / Text Legibility"": [
+    ""more texts/words""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""not simple color-wise""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""less intuitive""
+  ]
+}",
+79,"{
+  ""Semantics / Text Legibility"": [
+    ""more texts/words""
+  ]
+}","{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)"",
+    ""familiar representation""
+  ]
+}"
+615,"{
+  ""Semantics / Text Legibility"": [
+    ""more texts/words""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""bright colors""
+  ]
+}",
+259,"{
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear coloring""
+  ]
+}",
+521,"{
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""explanation text"",
+    ""too much legend""
+  ]
+}"
+307,"{
+  ""Semantics / Text Legibility"": [
+    ""lack of legend""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}",
+434,"{
+  ""Semantics / Text Legibility"": [
+    ""no measurement/metric/axis"",
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""no measurement/metric/axis"",
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ]
+}"
+386,"{
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution"",
+    ""ambiguous/confusing colors"",
+    ""color shading""
+  ]
+}",
+41,"{
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+40,"{
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+305,"{
+  ""Semantics / Text Legibility"": [
+    ""no measurement/metric/axis""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear color meaning""
+  ],
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ]
+}",
+304,"{
+  ""Semantics / Text Legibility"": [
+    ""no measurement/metric/axis""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color differentiation""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}",
+435,"{
+  ""Semantics / Text Legibility"": [
+    ""no measurement/metric/axis""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}",
+226,"{
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+49,"{
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ]
+}",
+586,"{
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""too much legend"",
+    ""title/axis/label/descriptions""
+  ],
+  ""Schema"": [
+    ""a specific technique, e.g., bar, pie, circle""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+415,"{
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear meaning/confusing""
+  ]
+}",
+122,"{
+  ""Semantics / Text Legibility"": [
+    ""order of words""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+177,"{
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear color meaning""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""indication""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""two colors""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easier to process/visualize""
+  ]
+}"
+496,"{
+  ""Semantics / Text Legibility"": [
+    ""readability""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""lack of color contrast / hard to distinguish colors""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}","{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+508,"{
+  ""Semantics / Text Legibility"": [
+    ""unclear relation between words""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""smooth lines""
+  ]
+}"
+416,"{
+  ""Semantics / Text Legibility"": [
+    ""word rotation/small font size""
+  ],
+  ""Schema"": [
+    ""a specific domain""
+  ]
+}",
+641,"{
+  ""Semantics / Text Legibility"": [
+    ""different font/word sizes/structure"",
+    ""lack of meaning""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ],
+  ""Schema"": [
+    ""a specific technique"",
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}","{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}"
+628,"{
+  ""Semantics / Text Legibility"": [
+    ""readability""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ]
+}",
+125,"{
+  ""Semantics / Text Legibility"": [
+    ""word rotation/small font size""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}","{
+  ""Schema"": [
+    ""familiar representation"",
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}"
+25,"{
+  ""Semantics / Text Legibility"": [
+    ""hard to read""
+  ],
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""ambiguous/confusing colors""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""irregular""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""no clear indication""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}",
+322,"{
+  ""Semantics / Text Legibility"": [
+    ""clear text/scale/information""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}"
+571,"{
+  ""Semantics / Text Legibility"": [
+    ""word/text/sentence""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""icons"",
+    ""color variety/arrangement/distribution""
+  ]
+}",
+510,"{
+  ""Semantics / Text Legibility"": [
+    ""word/text/sentence""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}",
+353,"{
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to see/tell/visualize"",
+    ""unclear meaning/confusing"",
+    ""hard to interpret/read/understand""
+  ]
+}",
+691,"{
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions"",
+    ""with legend""
+  ]
+}",
+225,"{
+  ""Semantics / Text Legibility"": [
+    ""unreadable"",
+    ""word rotation/small font size""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""random-like movement""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""ambiguous/confusing colors""
+  ]
+}"
+563,"{
+  ""Semantics / Text Legibility"": [
+    ""label meaning""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear color meaning""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}","{
+  ""Schema"": [
+    ""a specific technique"",
+    ""familiar representation""
+  ]
+}"
+360,"{
+  ""Semantics / Text Legibility"": [
+    ""visualization meaning""
+  ]
+}",
+654,"{
+  ""Semantics / Text Legibility"": [
+    ""unclear relation between words""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""two colors""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to see/tell/visualize""
+  ]
+}",
+30,"{
+  ""Semantics / Text Legibility"": [
+    ""x-axis unlabeled""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""simple to interpret/read/understand""
+  ]
+}"
+324,"{
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines"",
+    ""shape variation""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}",
+167,"{
+  ""Visual Encoding Clarity"": [
+    ""multiple aspects""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""more parameters/variables""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ]
+}",
+475,"{
+  ""Visual Encoding Clarity"": [
+    ""2D/3D"",
+    ""abstract shapes or colors"",
+    ""shapes and lines"",
+    ""lines""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}",
+661,"{
+  ""Visual Encoding Clarity"": [
+    ""2D/3D""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""2D/3D""
+  ]
+}"
+494,"{
+  ""Visual Encoding Clarity"": [
+    ""understand/read shapes""
+  ],
+  ""Schema"": [
+    ""waterfall-like""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+257,"{
+  ""Visual Encoding Clarity"": [
+    ""shape arrangement""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+60,"{
+  ""Visual Encoding Clarity"": [
+    ""different movement""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}",
+53,"{
+  ""Visual Encoding Clarity"": [
+    ""line movement""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""eye-catching description""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ]
+}",
+69,"{
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines"",
+    ""shapes""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""more title/axis/label"",
+    ""title/axis/label/descriptions""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""more title/axis/label"",
+    ""title/axis/label/descriptions""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ]
+}"
+143,"{
+  ""Visual Encoding Clarity"": [
+    ""shape size variation"",
+    ""simple visual elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color represents sounds""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}",
+400,"{
+  ""Visual Encoding Clarity"": [
+    ""curves and shapes""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+668,"{
+  ""Visual Encoding Clarity"": [
+    ""curves and shapes"",
+    ""field information""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""number of levels""
+  ]
+}"
+452,"{
+  ""Visual Encoding Clarity"": [
+    ""confusing connection""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}",
+453,"{
+  ""Visual Encoding Clarity"": [
+    ""confusing connection""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}","{
+  ""Schema"": [
+    ""a specific technique""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""more title/axis/label""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to focus/follow""
+  ]
+}"
+645,"{
+  ""Visual Encoding Clarity"": [
+    ""shapes"",
+    ""unclear meaning""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""data intersection""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}",
+512,"{
+  ""Visual Encoding Clarity"": [
+    ""curved lines"",
+    ""no detail""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}",
+651,"{
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines"",
+    ""shapes""
+  ],
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}","{
+  ""Schema"": [
+    ""familiar representation""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear coloring""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to derive meaning""
+  ]
+}"
+665,"{
+  ""Visual Encoding Clarity"": [
+    ""2D/3D"",
+    ""intersecting lines""
+  ]
+}",
+497,"{
+  ""Visual Encoding Clarity"": [
+    ""unclear what data conveys""
+  ]
+}",
+642,"{
+  ""Visual Encoding Clarity"": [
+    ""several elements"",
+    ""values in the middle""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""word rotation/small font size""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""complicated to process""
+  ]
+}",
+277,"{
+  ""Visual Encoding Clarity"": [
+    ""shape size variation""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""blurry colors/images""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ]
+}",
+417,"{
+  ""Visual Encoding Clarity"": [
+    ""error bars""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""readability""
+  ]
+}",
+240,"{
+  ""Visual Encoding Clarity"": [
+    ""exact feature"",
+    ""representation""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to measure/model"",
+    ""hard to identify/extract/find features""
+  ]
+}",
+646,"{
+  ""Visual Encoding Clarity"": [
+    ""exact value"",
+    ""graph"",
+    ""plots""
+  ]
+}",
+609,"{
+  ""Visual Encoding Clarity"": [
+    ""random-like shapes""
+  ]
+}",
+57,"{
+  ""Visual Encoding Clarity"": [
+    ""shape variety"",
+    ""less uniform shapes""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""less negative space"",
+    ""color variety/arrangement/distribution""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""shapes"",
+    ""size variation""
+  ]
+}"
+542,"{
+  ""Visual Encoding Clarity"": [
+    ""graphical information""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""little/less text/numbers/context""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}",
+220,"{
+  ""Visual Encoding Clarity"": [
+    ""no more information""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""bright colors""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""clear colors/shapes""
+  ]
+}"
+171,"{
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""black-to-white/color gradient""
+  ]
+}",
+31,"{
+  ""Visual Encoding Clarity"": [
+    ""change over time"",
+    ""crop production shown""
+  ]
+}",
+202,"{
+  ""Visual Encoding Clarity"": [
+    ""2D/3D"",
+    ""unclear structure""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""blurry colors/images"",
+    ""color variety/arrangement/distribution""
+  ],
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""shape variety"",
+    ""curves and shapes"",
+    ""shapes and lines""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ],
+  ""Schema"": [
+    ""familiar representation""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""lack of color contrast / hard to distinguish colors""
+  ]
+}"
+245,"{
+  ""Visual Encoding Clarity"": [
+    ""understand/read shapes""
+  ],
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""less understandable""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+242,"{
+  ""Visual Encoding Clarity"": [
+    ""information nuance expressed""
+  ]
+}",
+463,"{
+  ""Visual Encoding Clarity"": [
+    ""technical encoding""
+  ]
+}",
+411,"{
+  ""Visual Encoding Clarity"": [
+    ""multi-year information""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color shading""
+  ]
+}",
+527,"{
+  ""Visual Encoding Clarity"": [
+    ""shape point of interest""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+535,"{
+  ""Visual Encoding Clarity"": [
+    ""grid layout"",
+    ""shape position""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""y-axis meaning unclear""
+  ]
+}",
+595,"{
+  ""Visual Encoding Clarity"": [
+    ""less organic shapes"",
+    ""uneven shape""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""text and imagery""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""distinguishable/full/highly contrast color uses""
+  ]
+}",
+280,"{
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines""
+  ]
+}",
+592,"{
+  ""Visual Encoding Clarity"": [
+    ""indistinguishable/unintuitive lines""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""struggled to read""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult""
+  ]
+}"
+319,"{
+  ""Visual Encoding Clarity"": [
+    ""indistinguishable/unintuitive lines""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Schema"": [
+    ""no context or reference""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more complicated"",
+    ""not interpretable/readable/understandable""
+  ]
+}",
+18,"{
+  ""Visual Encoding Clarity"": [
+    ""indistinguishable/unintuitive lines""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to focus/follow""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""shapes"",
+    ""straight lines""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ]
+}"
+209,"{
+  ""Visual Encoding Clarity"": [
+    ""lines""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""clear indication""
+  ]
+}"
+65,"{
+  ""Visual Encoding Clarity"": [
+    ""lines""
+  ],
+  ""Schema"": [
+    ""a specific technique""
+  ]
+}","{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}"
+12,"{
+  ""Visual Encoding Clarity"": [
+    ""lines""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""more texts/words""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ]
+}",
+196,"{
+  ""Visual Encoding Clarity"": [
+    ""image location"",
+    ""overall shape""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+24,"{
+  ""Visual Encoding Clarity"": [
+    ""scale difference"",
+    ""shape variety"",
+    ""shapes and lines"",
+    ""design-data relationship""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""dates"",
+    ""different font/word sizes/structure""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""amount of / too many colors""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ],
+  ""Schema"": [
+    ""a specific technique""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""two colors""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""single font""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""more uniform design""
+  ]
+}"
+299,"{
+  ""Visual Encoding Clarity"": [
+    ""unclear meaning""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+523,"{
+  ""Visual Encoding Clarity"": [
+    ""metric representation""
+  ]
+}",
+275,"{
+  ""Visual Encoding Clarity"": [
+    ""understand/read shapes"",
+    ""number of levels""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""shape misunderstanding""
+  ]
+}",
+656,"{
+  ""Visual Encoding Clarity"": [
+    ""curves and shapes""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""more texts/words""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+465,"{
+  ""Visual Encoding Clarity"": [
+    ""more squares than shapes""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""more texts/words"",
+    ""more title/axis/label""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ]
+}"
+293,"{
+  ""Visual Encoding Clarity"": [
+    ""shape variation""
+  ]
+}",
+591,"{
+  ""Visual Encoding Clarity"": [
+    ""multiple shapes""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}",
+300,"{
+  ""Visual Encoding Clarity"": [
+    ""multivariate""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""curved lines"",
+    ""single variable""
+  ],
+  ""Schema"": [
+    ""a specific technique""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+409,"{
+  ""Visual Encoding Clarity"": [
+    ""no data"",
+    ""nothing visible""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear coloring""
+  ]
+}",
+62,"{
+  ""Visual Encoding Clarity"": [
+    ""no detail""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""more forms""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+258,"{
+  ""Visual Encoding Clarity"": [
+    ""no clear indication""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ]
+}",
+74,"{
+  ""Visual Encoding Clarity"": [
+    ""no clear indication"",
+    ""curved lines""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}","{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear color meaning""
+  ]
+}"
+80,"{
+  ""Visual Encoding Clarity"": [
+    ""nonlinearity""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}",
+650,"{
+  ""Visual Encoding Clarity"": [
+    ""unclear meaning""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not easily understood""
+  ]
+}","{
+  ""Schema"": [
+    ""familiar representation""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""simple information""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+696,"{
+  ""Visual Encoding Clarity"": [
+    ""nothing clear""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to understand""
+  ]
+}"
+354,"{
+  ""Visual Encoding Clarity"": [
+    ""numbers and shapes""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""number distribution"",
+    ""text ratio""
+  ]
+}",
+287,"{
+  ""Visual Encoding Clarity"": [
+    ""unclear shape meaning""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+370,"{
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""several elements""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easier to process/visualize"",
+    ""easier to interpret/read/understand""
+  ]
+}"
+101,"{
+  ""Visual Encoding Clarity"": [
+    ""shape point of interest"",
+    ""regions""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""legend on the top""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""shape increase/decrease point""
+  ]
+}"
+501,"{
+  ""Visual Encoding Clarity"": [
+    ""mismatched number-circle proportion""
+  ],
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""soft/layered/overlapping colors""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""word rotation/small font size""
+  ]
+}"
+204,"{
+  ""Visual Encoding Clarity"": [
+    ""random-like movement"",
+    ""random-like shapes""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""monochrome""
+  ]
+}","{
+  ""Color, Symbol, and Texture Details"": [
+    ""blue color""
+  ]
+}"
+43,"{
+  ""Visual Encoding Clarity"": [
+    ""several elements""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""little data/info""
+  ]
+}"
+513,"{
+  ""Visual Encoding Clarity"": [
+    ""understand/read shapes""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""inconsistent""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to read shape""
+  ]
+}",
+363,"{
+  ""Visual Encoding Clarity"": [
+    ""shape variety""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""different font/word sizes/structure""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret""
+  ]
+}",
+468,"{
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+540,"{
+  ""Visual Encoding Clarity"": [
+    ""categorized shapes"",
+    ""unable to sort""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+529,"{
+  ""Visual Encoding Clarity"": [
+    ""similar shapes""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""clear colors/shapes""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to identify/extract/find features""
+  ]
+}"
+570,"{
+  ""Visual Encoding Clarity"": [
+    ""shapes""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+246,"{
+  ""Visual Encoding Clarity"": [
+    ""shapes""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers"",
+    ""word/text/sentence""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+608,"{
+  ""Visual Encoding Clarity"": [
+    ""similar box sizes""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""soft/layered/overlapping colors""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to compare/discern/distinguish""
+  ]
+}",
+633,"{
+  ""Visual Encoding Clarity"": [
+    ""size decreasing""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""size decreasing""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}"
+351,"{
+  ""Visual Encoding Clarity"": [
+    ""size variation""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+581,"{
+  ""Visual Encoding Clarity"": [
+    ""shapes and lines""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand/differentiate""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""shape position""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+223,"{
+  ""Visual Encoding Clarity"": [
+    ""small""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ],
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ]
+}",
+301,"{
+  ""Visual Encoding Clarity"": [
+    ""shape variety""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""irregular""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more difficult to interpret/read/understand/differentiate""
+  ]
+}","{
+  ""Visual Encoding Clarity"": [
+    ""shape arrangement"",
+    ""scale difference""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+482,"{
+  ""Visual Encoding Clarity"": [
+    ""scattered shapes (e.g., dots, squares, pictures)""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""unreadable"",
+    ""title/axis/label/descriptions"",
+    ""word rotation/small font size""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+483,"{
+  ""Visual Encoding Clarity"": [
+    ""scattered shapes (e.g., dots, squares, pictures)""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""unclear relation between words"",
+    ""word rotation/small font size""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+464,"{
+  ""Visual Encoding Clarity"": [
+    ""line thickness variation"",
+    ""shape size variation""
+  ]
+}",
+197,"{
+  ""Visual Encoding Clarity"": [
+    ""scale difference""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""readability""
+  ]
+}",
+178,"{
+  ""Visual Encoding Clarity"": [
+    ""unclear shape""
+  ],
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear color meaning""
+  ]
+}",
+375,"{
+  ""Visual Encoding Clarity"": [
+    ""value representation""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""clear title/axis/label""
+  ]
+}","{
+  ""Semantics / Text Legibility"": [
+    ""label meaning""
+  ]
+}"
+374,"{
+  ""Visual Encoding Clarity"": [
+    ""value and graphic alignment"",
+    ""length""
+  ]
+}",
+695,"{
+  ""Visual Encoding Clarity"": [
+    ""shape variety""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ]
+}","{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+252,"{
+  ""Visual Encoding Clarity"": [
+    ""misaligned""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""not interpretable/readable/understandable""
+  ]
+}",
+562,"{
+  ""Visual Encoding Clarity"": [
+    ""unclear movement"",
+    ""unclear shape meaning""
+  ]
+}","{
+  ""Schema"": [
+    ""familiar representation"",
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}"
+629,,"{
+  ""Aesthetics Uncertainty"": [
+    ""visual clarity/appealing""
+  ]
+}"
+440,,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color scale/scheme""
+  ]
+}"
+71,,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""good color contrast/separation/segmentation""
+  ]
+}"
+362,,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""lack of color contrast / hard to distinguish colors""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""intuitive""
+  ]
+}"
+449,,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""symbols""
+  ]
+}"
+610,,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ]
+}"
+550,,"{
+  ""Data Density / Image Clutter"": [
+    ""few points/lines/shapes/elements""
+  ]
+}"
+621,,"{
+  ""Data Density / Image Clutter"": [
+    ""little data/info""
+  ]
+}"
+85,,"{
+  ""Data Density / Image Clutter"": [
+    ""little data/info""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to understand"",
+    ""easier to interpret/read/understand""
+  ]
+}"
+516,,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things"",
+    ""little data/info""
+  ],
+  ""Schema"": [
+    ""a specific technique"",
+    ""a specific domain"",
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}"
+447,,"{
+  ""Data Density / Image Clutter"": [
+    ""many points/lines/shapes/elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""-"",
+    ""title/axis/label/descriptions""
+  ]
+}"
+533,,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""axis numbers""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear coloring""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand"",
+    ""easier to process/visualize""
+  ]
+}"
+486,,"{
+  ""Data Density / Image Clutter"": [
+    ""multiple features/elements/graphs""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""value and graphic alignment"",
+    ""shape""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""black-to-white/color gradient""
+  ]
+}"
+290,,"{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+619,,"{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+119,,"{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+618,,"{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+536,,"{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+575,,"{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand"",
+    ""more interpretable/readable/understandable""
+  ]
+}"
+291,,"{
+  ""Immediacy / Cognitive Load"": [
+    ""intuitive""
+  ]
+}"
+227,,"{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}"
+551,,"{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear colormaps""
+  ]
+}"
+525,,"{
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""simple to interpret/read/understand""
+  ]
+}"
+118,,"{
+  ""Schema"": [
+    ""familiar representation""
+  ]
+}"
+580,,"{
+  ""Schema"": [
+    ""familiar representation""
+  ]
+}"
+193,,"{
+  ""Schema"": [
+    ""familiar representation""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to focus/follow""
+  ]
+}"
+365,,"{
+  ""Semantics / Text Legibility"": [
+    ""clear and concise"",
+    ""easier to read""
+  ]
+}"
+429,,"{
+  ""Semantics / Text Legibility"": [
+    ""more labels/context"",
+    ""clear text/scale/information""
+  ]
+}"
+5,,"{
+  ""Semantics / Text Legibility"": [
+    ""clear title/axis/label""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to understand""
+  ]
+}"
+587,,"{
+  ""Semantics / Text Legibility"": [
+    ""description"",
+    ""title/axis/label/descriptions""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""good color contrast/separation/segmentation""
+  ],
+  ""Schema"": [
+    ""a specific technique, e.g., bar, pie, circle""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+63,,"{
+  ""Semantics / Text Legibility"": [
+    ""easy to read""
+  ]
+}"
+384,,"{
+  ""Semantics / Text Legibility"": [
+    ""explanatory legend""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}"
+330,,"{
+  ""Semantics / Text Legibility"": [
+    ""fast readability""
+  ]
+}"
+454,,"{
+  ""Schema"": [
+    ""a specific technique""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ]
+}"
+377,,"{
+  ""Semantics / Text Legibility"": [
+    ""word frequency""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""monochrome""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+385,,"{
+  ""Semantics / Text Legibility"": [
+    ""word/text/sentence""
+  ],
+  ""Schema"": [
+    ""domain-specific concepts (e.g., chemical, biology, map)"",
+    ""familiar representation""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+446,,"{
+  ""Visual Encoding Clarity"": [
+    ""2D/3D""
+  ]
+}"
+32,,"{
+  ""Visual Encoding Clarity"": [
+    ""clear colors/shapes""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}"
+221,,"{
+  ""Visual Encoding Clarity"": [
+    ""clear colors/shapes""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing""
+  ]
+}"
+612,,"{
+  ""Semantics / Text Legibility"": [
+    ""more title/axis/label""
+  ],
+  ""Schema"": [
+    ""familiar representation""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""clear delineation""
+  ]
+}"
+164,,"{
+  ""Visual Encoding Clarity"": [
+    ""clear indication""
+  ]
+}"
+200,,"{
+  ""Visual Encoding Clarity"": [
+    ""few lines""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""lack of/not enough axis labels/legend/annotations/context"",
+    ""no measurement/metric/axis"",
+    ""axis scales""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""striped texture""
+  ]
+}"
+64,,"{
+  ""Visual Encoding Clarity"": [
+    ""lines""
+  ]
+}"
+639,,"{
+  ""Visual Encoding Clarity"": [
+    ""random-like shapes""
+  ]
+}"
+476,"{
+  ""Data Density / Image Clutter"": [
+    ""overlapping shapes/colors/lines"",
+    ""multiple features/elements/graphs""
+  ]
+}",
+401,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things"",
+    ""much/more data/info/info spread""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""more colors""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more to read/analyze/understand""
+  ]
+}",
+149,,
+120,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""little/less text/numbers/context""
+  ],
+  ""Schema"": [
+    ""a specific domain""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""shape variation""
+  ]
+}",
+144,"{
+  ""Immediacy / Cognitive Load"": [
+    ""complicated to process"",
+    ""more effort/reading/detailed analysis""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""design-data relationship""
+  ]
+}",
+391,,
+47,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""representation""
+  ]
+}",
+273,,
+485,"{
+  ""Semantics / Text Legibility"": [
+    ""readability""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}",
+28,"{
+  ""Immediacy / Cognitive Load"": [
+    ""easier to interpret/read/understand"",
+    ""easy to interpret/read/understand"",
+    ""more reading/interpretation/understanding""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers""
+  ]
+}",
+548,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+87,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ]
+}",
+97,"{
+  ""Schema"": [
+    ""unfamiliar concepts/patterns""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more to read/analyze/understand"",
+    ""unclear meaning/confusing""
+  ]
+}",
+546,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements"",
+    ""much/more data/info/info spread""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""more forms""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""intense/too many colors"",
+    ""color keys""
+  ]
+}",
+139,"{
+  ""Visual Encoding Clarity"": [
+    ""no clear indication""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ]
+}",
+338,,
+117,,
+145,"{
+  ""Visual Encoding Clarity"": [
+    ""data trend"",
+    ""complex design""
+  ],
+  ""Schema"": [
+    ""no context or reference"",
+    ""domain-specific concepts (e.g., chemical, biology, map)""
+  ]
+}",
+399,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more to read/analyze/understand"",
+    ""provokes thought and understanding""
+  ]
+}",
+547,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread"",
+    ""more detailed/things""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""unclear meaning""
+  ]
+}",
+666,"{
+  ""Data Density / Image Clutter"": [
+    ""many points/lines/shapes/elements"",
+    ""many numbers""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""amount of / too many colors""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""looks random/messy/lack structure""
+  ]
+}",
+332,,"{
+  ""Visual Encoding Clarity"": [
+    ""different clarity"",
+    ""simple visual elements""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""readability""
+  ]
+}"
+339,,
+676,"{
+  ""Data Density / Image Clutter"": [
+    ""many points/lines/shapes/elements""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""multiple aspects""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""amount of / too many colors""
+  ]
+}",
+502,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered data/info""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color details"",
+    ""color dimension""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""convoluted composition""
+  ]
+}",
+473,"{
+  ""Data Density / Image Clutter"": [
+    ""many points/lines/shapes/elements""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand"",
+    ""take longer to interpret"",
+    ""attention/squinting to understand""
+  ]
+}",
+281,,"{
+  ""Immediacy / Cognitive Load"": [
+    ""easier to interpret/read/understand""
+  ]
+}"
+458,"{
+  ""Schema"": [
+    ""2D/3D""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""looks random/messy/lack structure""
+  ]
+}",
+623,"{
+  ""Semantics / Text Legibility"": [
+    ""code/text"",
+    ""lack of meaning""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""require specialized knowledge""
+  ]
+}",
+50,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""amount of / too many colors""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""text and imagery"",
+    ""different font/word sizes/structure""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""technical encoding""
+  ]
+}",
+557,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""soft/layered/overlapping colors""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread"",
+    ""clustered data/info""
+  ]
+}",
+243,"{
+  ""Immediacy / Cognitive Load"": [
+    ""provokes thought and understanding""
+  ]
+}",
+678,"{
+  ""Immediacy / Cognitive Load"": [
+    ""more complicated"",
+    ""more intricate""
+  ]
+}",
+437,"{
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers"",
+    ""more texts/words""
+  ]
+}",
+298,"{
+  ""Semantics / Text Legibility"": [
+    ""word rotation/small font size""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""unclear color meaning""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand"",
+    ""less intuitive""
+  ]
+}",
+142,"{
+  ""Data Density / Image Clutter"": [
+    ""too much data/info""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more complicated""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""intense/too many colors""
+  ]
+}",
+667,"{
+  ""Data Density / Image Clutter"": [
+    ""many points/lines/shapes/elements"",
+    ""dense/cluttered data/info""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""amount of / too many colors""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""readability""
+  ]
+}",
+390,"{
+  ""Visual Encoding Clarity"": [
+    ""unclear what data conveys""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""involves numbers""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""hard to interpret/read/understand""
+  ]
+}",
+161,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""title/axis/label/descriptions""
+  ]
+}",
+439,"{
+  ""Immediacy / Cognitive Load"": [
+    ""more complicated""
+  ]
+}",
+123,"{
+  ""Semantics / Text Legibility"": [
+    ""text and imagery""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""more nuance information""
+  ]
+}",
+410,"{
+  ""Data Density / Image Clutter"": [
+    ""more parameters/variables"",
+    ""large dataset""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more to read/analyze/understand"",
+    ""more complicated""
+  ]
+}",
+269,"{
+  ""Data Density / Image Clutter"": [
+    ""much/more data/info/info spread"",
+    ""dense/cluttered layout""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more to read/analyze/understand"",
+    ""unclear meaning/confusing"",
+    ""more complicated""
+  ]
+}",
+379,"{
+  ""Semantics / Text Legibility"": [
+    ""word rotation/small font size"",
+    ""different font/word sizes/structure""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution"",
+    ""low color contrast/separation/segmentation""
+  ]
+}",
+241,"{
+  ""Data Density / Image Clutter"": [
+    ""more detailed/things""
+  ]
+}",
+652,"{
+  ""Data Density / Image Clutter"": [
+    ""many points/lines/shapes/elements"",
+    ""many numbers""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution""
+  ]
+}",
+361,"{
+  ""Visual Encoding Clarity"": [
+    ""unclear what data conveys""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more reading/interpretation/understanding""
+  ]
+}",
+484,"{
+  ""Immediacy / Cognitive Load"": [
+    ""easy to interpret/read/understand""
+  ]
+}",
+17,,
+522,,
+4,"{
+  ""Immediacy / Cognitive Load"": [
+    ""complicated to process"",
+    ""not interpretable/readable/understandable""
+  ],
+  ""Aesthetics Uncertainty"": [
+    ""distracting/confusing/unclear""
+  ]
+}",
+210,,
+244,"{
+  ""Visual Encoding Clarity"": [
+    ""unclear meaning"",
+    ""understand/read shapes"",
+    ""unclear what data conveys""
+  ]
+}",
+395,,
+333,"{
+  ""Data Density / Image Clutter"": [
+    ""concentrated"",
+    ""dense/cluttered data/info""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""unclear meaning/confusing"",
+    ""hard to interpret/read/understand""
+  ]
+}","{
+  ""Data Density / Image Clutter"": [
+    ""simple information""
+  ]
+}"
+682,"{
+  ""Schema"": [
+    ""not enough knowledge to tell""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color represents groups""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""unclear meaning""
+  ]
+}",
+151,"{
+  ""Immediacy / Cognitive Load"": [
+    ""intuitive"",
+    ""take longer to interpret"",
+    ""more effort/reading/detailed analysis""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""more to read/analyze/understand""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""unclear structure"",
+    ""unclear what data conveys""
+  ]
+}",
+348,"{
+  ""Data Density / Image Clutter"": [
+    ""many/more data/info"",
+    ""much/more data/info/info spread""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""unclear what data conveys"",
+    ""spatial organization"",
+    ""several elements""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""take longer to interpret"",
+    ""more to read/analyze/understand"",
+    ""more reading/interpretation/understanding""
+  ]
+}",
+29,"{
+  ""Immediacy / Cognitive Load"": [
+    ""easier to interpret/read/understand"",
+    ""easy to interpret/read/understand"",
+    ""more reading/interpretation/understanding""
+  ],
+  ""Semantics / Text Legibility"": [
+    ""amount of words/context/numbers""
+  ]
+}",
+116,,
+450,"{
+  ""Visual Encoding Clarity"": [
+    ""shape variation"",
+    ""shapes and contrasts"",
+    ""shapes"",
+    ""fine/layered details""
+  ]
+}",
+187,"{
+  ""Color, Symbol, and Texture Details"": [
+    ""color variety/arrangement/distribution"",
+    ""color saturation""
+  ],
+  ""Data Density / Image Clutter"": [
+    ""many points/lines/shapes/elements""
+  ]
+}",
+274,"{
+  ""Data Density / Image Clutter"": [
+    ""more charts/points/lines/shapes/elements""
+  ]
+}",
+103,"{
+  ""Data Density / Image Clutter"": [
+    ""multiple interacting elements""
+  ],
+  ""Immediacy / Cognitive Load"": [
+    ""more complicated""
+  ]
+}",
+503,"{
+  ""Data Density / Image Clutter"": [
+    ""dense/cluttered data/info"",
+    ""more detailed/things""
+  ],
+  ""Color, Symbol, and Texture Details"": [
+    ""color dimension""
+  ],
+  ""Visual Encoding Clarity"": [
+    ""confusing connection""
+  ]
+}",
+150,"{
+  ""Immediacy / Cognitive Load"": [
+    ""intuitive"",
+    ""take longer to interpret"",
+    ""more effort/reading/detailed analysis""
+  ]
+}",
+515,,
+514,,

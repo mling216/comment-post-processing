@@ -1,0 +1,47 @@
+Category,Factor,factorKeywords,matchedStems,unmatchedKeywords,matchCount,totalKeywords
+Information-theoretic,Entropy,entropy,,entropy,0,1
+Information-theoretic,Compression ratio,compression; ratio,ratio (1),compression,1,2
+Information-theoretic,Noise,noise,noise (3),,1,1
+Information-theoretic,Quantity of information,quantity; information,quantity (3); information (79),,2,2
+Information-theoretic,Meaningfulness,meaningfulness,,meaningfulness,0,1
+Information-theoretic,Understandability,understand,understand (106),,1,1
+Information-theoretic,Prototypicality,prototypicality,,prototypicality,0,1
+Information-theoretic,Cognitive load,cognitive; load,,cognitive; load,0,2
+Information-theoretic,Perceivability of detail,perceivability; detail,detail (48),perceivability,1,2
+Clutter,Clutter,clutter,clutter (7),,1,1
+Clutter,Feature congestion,feature; congestion,feature (2),congestion,1,2
+Clutter,Visual clutter,visual; clutter,visual (29); clutter (7),,2,2
+Color,Colorfulness,color,color (193),,1,1
+Color,Color variability,color; variable,color (193); variable (12),,2,2
+Color,Colors,color,color (193),,1,1
+Color,Color regions,color; region,color (193); region (3),,2,2
+Color,Color harmony,color; harmony,color (193),harmony,1,2
+Color,Color coherence,color; coherence,color (193),coherence,1,2
+Color,Luminance variations,luminance; variation,variation (9),luminance,1,2
+Color,Gradient strength,gradient; strength,gradient (3),strength,1,2
+Color,Saturation complexity,saturation; complex,saturation (1); complex (21),,2,2
+Color,Hue complexity,hue; complex,hue (1); complex (21),,2,2
+Color,Value complexity,value; complex,value (9); complex (21),,2,2
+Color,Lighting complexity,light; complex,light (1); complex (21),,2,2
+Shape and Structure,Symmetry,symmetry,,symmetry,0,1
+Shape and Structure,Organization,organic,organic (6),,1,1
+Shape and Structure,Spatial Frequency,spatial; frequency,spatial (1); frequency (2),,2,2
+Shape and Structure,Variety of visual form,variety; visual; form,variety (9); visual (29); form (2),,3,3
+Shape and Structure,Spatial organization,spatial; organic,spatial (1); organic (6),,2,2
+Shape and Structure,Ease of grouping,ease; group,ease (3); group (2),,2,2
+Shape and Structure,Grid,grid,grid (5),,1,1
+Shape and Structure,Edges,edge,edge (1),,1,1
+Shape and Structure,Edge density,edge; density,edge (1); density (5),,2,2
+Shape and Structure,Edge congestion,edge; congestion,edge (1),congestion,1,2
+Shape and Structure,Structure,structure,structure (7),,1,1
+Shape and Structure,Compactness,compactness,,compactness,0,1
+Shape and Structure,Turns,turn,,turn,0,1
+Shape and Structure,Skeletons,skeleton,,skeleton,0,1
+Shape and Structure,Texture variation,texture; variation,texture (1); variation (9),,2,2
+Shape and Structure,Material complexity,material; complex,complex (21),material,1,2
+Shape and Structure,Co-occurrence matrix,co; occurrence; matrix,matrix (2),co; occurrence,1,3
+Object-based,Number of objects,number; object,number (47); object (5),,2,2
+Object-based,Object categories,object; category,object (5); category (1),,2,2
+Object-based,Element relationships,element; relationship,element (30); relationship (1),,2,2
+Object-based,Element heterogeneity,element; heterogeneity,element (30),heterogeneity,1,2
+Object-based,Element diversity,element; diversity,element (30),diversity,1,2

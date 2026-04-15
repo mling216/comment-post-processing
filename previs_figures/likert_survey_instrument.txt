@@ -1,0 +1,108 @@
+PERCEIVED VISUAL COMPLEXITY SCALE � CANDIDATE ITEMS
+============================================================
+Instructions: For each statement below, rate how strongly you
+agree or disagree on a scale from 1 (Strongly Disagree) to
+7 (Strongly Agree). You may select "N/A" if the statement
+does not apply to this visualization.
+
+Scale: 1=Strongly Disagree, 2=Disagree, 3=Somewhat Disagree,
+       4=Neither Agree nor Disagree, 5=Somewhat Agree,
+       6=Agree, 7=Strongly Agree, N/A=Not Applicable
+============================================================
+
+
+--- Data Density / Image Clutter (DDIC) ---
+  [Information Volume]
+  This visualization the perceived amount, richness, or depth of data content in the image — ranging from sparse/simple to dense/layered information..  (R)
+  [1] [2] [3] [4] [5] [6] [7] [N/A]
+
+  [Element Quantity]
+  This visualization the number of discrete graphical elements (points, lines, bars, shapes, subplots) present in the image..  
+  [1] [2] [3] [4] [5] [6] [7] [N/A]
+
+  [Visual Clutter & Overlap]
+  This visualization spatial density, overlapping elements, layout congestion, and use (or lack) of whitespace..  
+  [1] [2] [3] [4] [5] [6] [7] [N/A]
+
+
+--- Visual Encoding Clarity (VEC) ---
+  [Graphical Forms & Primitives]
+  This visualization the variety, type, and physical attributes of shapes, lines, and mark types used to encode data — including size, thickness, curvature, and regularity of forms..  
+  [1] [2] [3] [4] [5] [6] [7] [N/A]
+
+  [Position, Scale & Organization]
+  This visualization spatial layout, alignment, ordering, scale consistency, and structural organization of visual encodings..  
+  [1] [2] [3] [4] [5] [6] [7] [N/A]
+
+  [Encoding Interpretability]
+  This visualization whether visual encodings convey clear, decodable meaning — including recognizability of marks, design-data correspondence, and ease of identifying data features..  (R)
+  [1] [2] [3] [4] [5] [6] [7] [N/A]
+
+
+--- Semantics / Text Legibility (STL) ---
+  [Annotations & Labels]
+  This visualization presence, clarity, and sufficiency of titles, axis labels, legends, captions, and measurement references..  
+  [1] [2] [3] [4] [5] [6] [7] [N/A]
+
+  [Text Volume & Content]
+  This visualization the quantity of text, numbers, or contextual descriptions present in the image..  
+  [1] [2] [3] [4] [5] [6] [7] [N/A]
+
+  [Typography & Readability]
+  This visualization font size, rotation, structure, spatial arrangement, and visual clarity of text elements..  
+  [1] [2] [3] [4] [5] [6] [7] [N/A]
+
+
+--- Schema (SCH) ---
+  [Domain Familiarity]
+  This visualization whether the image requires specialized domain knowledge (e.g., chemistry, biology, geography) or uses unfamiliar or specialized representational conventions..  
+  [1] [2] [3] [4] [5] [6] [7] [N/A]
+
+  [Dimensionality & Structure]
+  This visualization spatial dimensionality (2D vs 3D), layout organization, and the structural framework of the visualization..  
+  [1] [2] [3] [4] [5] [6] [7] [N/A]
+
+  [Abstraction Level]
+  This visualization use of non-representational, abstract visual forms that lack familiar real-world referents..  
+  [1] [2] [3] [4] [5] [6] [7] [N/A]
+
+
+--- Color, Symbol, and Texture Details (CSTD) ---
+  [Color Palette & Contrast]
+  This visualization the range, variety, and arrangement of colors used — including gradients, hues, saturation, color schemes — and whether colors are visually distinguishable and provide clear separation, contrast, and background effects..  (R)
+  [1] [2] [3] [4] [5] [6] [7] [N/A]
+
+  [Symbols & Texture]
+  This visualization non-color graphical markers, textures, icons, and patterned visual elements used alongside or instead of color..  
+  [1] [2] [3] [4] [5] [6] [7] [N/A]
+
+
+--- Aesthetics Uncertainty (AU) ---
+  [Visual Disorganization]
+  This visualization whether the image feels random, messy, distracting, inconsistent, overwhelming, or lacking coherent structure..  
+  [1] [2] [3] [4] [5] [6] [7] [N/A]
+
+  [Perceptual Ambiguity]
+  This visualization uncertainty in perceiving specific visual attributes like color and contrast, leading to aesthetic confusion..  
+  [1] [2] [3] [4] [5] [6] [7] [N/A]
+
+
+--- Immediacy / Cognitive Load (ICL) ---
+  [Interpretive Difficulty]
+  This visualization overall subjective ease or difficulty of interpreting, reading, understanding, or differentiating the visualization..  
+  [1] [2] [3] [4] [5] [6] [7] [N/A]
+
+  [Semantic Clarity]
+  This visualization whether the visualization conveys an unambiguous, understandable message about what the data represents..  
+  [1] [2] [3] [4] [5] [6] [7] [N/A]
+
+  [Processing Time & Effort]
+  This visualization the time, cognitive effort, or specialized knowledge needed to process and analyze the visualization..  
+  [1] [2] [3] [4] [5] [6] [7] [N/A]
+
+
+Note: (R) = Reverse-scored item. Higher scores on reverse-scored
+items indicate LOWER perceived complexity after reversal.
+
+Note: Likert statements are auto-generated from subtopic descriptions.
+Final wording should be reviewed by domain experts.

@@ -1,0 +1,51 @@
+Topic,SubTopic,Description,Phrases,Count,Score,Orig KWs
+Data Density / Image Clutter,Information Volume,"The perceived amount, richness, or depth of data content in the image — ranging from sparse/simple to dense/layered information.","much/little data/info
+more parameters/variables",164,1431,20
+Data Density / Image Clutter,Element Quantity,"The number of discrete graphical elements (points, lines, bars, shapes, subplots) present in the image.","more charts/points/lines/shapes/elements
+scattered shapes (e.g., dots, squares, pictures)",143,1263,19
+Data Density / Image Clutter,Visual Clutter & Overlap,"Spatial density, overlapping elements, layout congestion, and use (or lack) of whitespace.","overlapping shapes/colors/lines
+more regions/space",69,603,14
+Visual Encoding Clarity,Graphical Forms & Primitives,"The variety, type, and physical attributes of shapes, lines, and mark types used to encode data — including size, thickness, curvature, and regularity of forms.","shapes and lines
+shape variation
+shape size
+shape increase/decrease point
+random-like shapes
+simple visual elements
+several elements",166,1349,60
+Visual Encoding Clarity,"Position, Scale & Organization","Spatial layout, alignment, ordering, scale consistency, and structural organization of visual encodings.","scale difference
+shape position
+ordered
+less organized elements",13,43,4
+Visual Encoding Clarity,Encoding Interpretability,"Whether visual encodings convey clear, decodable meaning — including recognizability of marks, design-data correspondence, and ease of identifying data features.","clear colors/shapes
+understand/read shapes
+shape point of interest
+design-data relationship",19,82,5
+Semantics / Text Legibility,Annotations & Labels,"Presence, clarity, and sufficiency of titles, axis labels, legends, captions, and measurement references.","labels/axes/legends
+more labels/context
+clear text/scale/information",142,1230,31
+Semantics / Text Legibility,Text Volume & Content,"The quantity of text, numbers, or contextual descriptions present in the image.","amount of words/context/numbers
+little/less text/numbers/context",90,786,20
+Semantics / Text Legibility,Typography & Readability,"Font size, rotation, structure, spatial arrangement, and visual clarity of text elements.","word rotation/small font size
+clear text arrangement/density",57,441,16
+Schema,Domain Familiarity,"Whether the image requires specialized domain knowledge (e.g., chemistry, biology, geography) or uses unfamiliar or specialized representational conventions.","domain-specific concepts (e.g., chemical, biology, map)",177,1593,29
+Schema,Dimensionality & Structure,"Spatial dimensionality (2D vs 3D), layout organization, and the structural framework of the visualization.",2D/3D,41,369,20
+Schema,Abstraction Level,"Use of non-representational, abstract visual forms that lack familiar real-world referents.",abstract shapes or colors,5,25,1
+"Color, Symbol, and Texture Details",Color Palette & Contrast,"The range, variety, and arrangement of colors used — including gradients, hues, saturation, color schemes — and whether colors are visually distinguishable and provide clear separation, contrast, and background effects.","color variety/shading
+two colors
+monochrome
+bright colors
+inadequate/few coloring
+color contrast/clarity
+distinguishable/full/highly contrast color uses
+distinguishable color variety/arrangement/distribution
+soft/layered/overlapping colors
+blurry colors/images
+white/black background / other background",302,2458,60
+"Color, Symbol, and Texture Details",Symbols & Texture,"Non-color graphical markers, textures, icons, and patterned visual elements used alongside or instead of color.",symbols,12,84,8
+Aesthetics Uncertainty,Visual Disorganization,"Whether the image feels random, messy, distracting, inconsistent, overwhelming, or lacking coherent structure.",distracting/confusing/unclear,66,594,19
+Aesthetics Uncertainty,Perceptual Ambiguity,"Uncertainty in perceiving specific visual attributes like color and contrast, leading to aesthetic confusion.",unclear colors/contrast,8,48,1
+Immediacy / Cognitive Load,Interpretive Difficulty,"Overall subjective ease or difficulty of interpreting, reading, understanding, or differentiating the visualization.","easy/hard to interpret
+more difficult to focus/follow",302,2700,47
+Immediacy / Cognitive Load,Semantic Clarity,"Whether the visualization conveys an unambiguous, understandable message about what the data represents.",unclear meaning/confusing,83,747,20
+Immediacy / Cognitive Load,Processing Time & Effort,"The time, cognitive effort, or specialized knowledge needed to process and analyze the visualization.","take longer to interpret
+read/analyze many figures/items",68,580,11

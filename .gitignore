@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Large reference PDFs in paper/
+paper/*.pdf
+
+# Raw source images (binary, large)
+Claude_image_pair_comparison/images/
+
+# Environment / secrets
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db

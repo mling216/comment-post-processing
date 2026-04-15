@@ -1,0 +1,1006 @@
+VisType,topic,original_phrase,image_count,humanCurated_phrase,final_subtopic_phrase
+Area,Aesthetics Uncertainty,unclear colors/contrast,1,unclear colors/contrast,unclear colors/contrast
+Area,Aesthetics Uncertainty,distracting/confusing/unclear,3,distracting/confusing/unclear,distracting/confusing/unclear
+Area,Aesthetics Uncertainty,looks random/messy/lack structure,3,distracting/confusing/unclear,distracting/confusing/unclear
+Area,Aesthetics Uncertainty,visual clarity/appealing,1,distracting/confusing/unclear,distracting/confusing/unclear
+Area,"Color, Symbol, and Texture Details",indicating symbols,1,symbols,symbols
+Area,"Color, Symbol, and Texture Details",drawing style,2,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Area,"Color, Symbol, and Texture Details",amount of / too many colors,1,color variety/shading,color variety/shading
+Area,"Color, Symbol, and Texture Details",bold colors,1,color variety/shading,color variety/shading
+Area,"Color, Symbol, and Texture Details",color details,1,color variety/shading,color variety/shading
+Area,"Color, Symbol, and Texture Details",color keys,3,color variety/shading,color variety/shading
+Area,"Color, Symbol, and Texture Details",color represents sounds,1,color variety/shading,color variety/shading
+Area,"Color, Symbol, and Texture Details",color shading,3,color variety/shading,color variety/shading
+Area,"Color, Symbol, and Texture Details",color superposition/layer,1,color variety/shading,color variety/shading
+Area,"Color, Symbol, and Texture Details",color variety/arrangement/distribution,16,color variety/shading,color variety/shading
+Area,"Color, Symbol, and Texture Details",intense/too many colors,2,color variety/shading,color variety/shading
+Area,"Color, Symbol, and Texture Details",more colors,1,color variety/shading,color variety/shading
+Area,"Color, Symbol, and Texture Details",too many colors,2,color variety/shading,color variety/shading
+Area,"Color, Symbol, and Texture Details",ambiguous/confusing colors,2,color contrast/clarity,color contrast/clarity
+Area,"Color, Symbol, and Texture Details",good color contrast/separation/segmentation,2,color contrast/clarity,color contrast/clarity
+Area,"Color, Symbol, and Texture Details",lack of color contrast / hard to distinguish colors,3,color contrast/clarity,color contrast/clarity
+Area,"Color, Symbol, and Texture Details",unclear color meaning,2,color contrast/clarity,color contrast/clarity
+Area,"Color, Symbol, and Texture Details",unclear coloring,3,color contrast/clarity,color contrast/clarity
+Area,"Color, Symbol, and Texture Details",unclear colormaps,7,color contrast/clarity,color contrast/clarity
+Area,"Color, Symbol, and Texture Details",bright colors,2,bright colors,
+Area,"Color, Symbol, and Texture Details",distinguishable color variety/arrangement/distribution,2,distinguishable color variety/arrangement/distribution,
+Area,"Color, Symbol, and Texture Details",inadequate/few coloring,1,inadequate/few coloring,
+Area,"Color, Symbol, and Texture Details",soft/layered/overlapping colors,4,soft/layered/overlapping colors,
+Area,"Color, Symbol, and Texture Details",white/black background / other background,1,white/black background / other background,
+Area,Data Density / Image Clutter,more to read/analyze/understand,1,take longer to interpret,take longer to interpret
+Area,Data Density / Image Clutter,shape-color mix,1,shapes and lines,shapes and lines
+Area,Data Density / Image Clutter,concentrated,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Area,Data Density / Image Clutter,dense/cluttered data/info,2,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Area,Data Density / Image Clutter,dense/cluttered layout,2,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Area,Data Density / Image Clutter,overlapping shapes/colors/lines,3,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Area,Data Density / Image Clutter,diverse information,1,much/little data/info,much/little data/info
+Area,Data Density / Image Clutter,large dataset,1,much/little data/info,much/little data/info
+Area,Data Density / Image Clutter,little data/info,2,much/little data/info,much/little data/info
+Area,Data Density / Image Clutter,more detailed/things,6,much/little data/info,much/little data/info
+Area,Data Density / Image Clutter,much/more data/info/info spread,9,much/little data/info,much/little data/info
+Area,Data Density / Image Clutter,simple information,1,much/little data/info,much/little data/info
+Area,Data Density / Image Clutter,too much data/info,1,much/little data/info,much/little data/info
+Area,Data Density / Image Clutter,many points/lines/shapes/elements,2,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Area,Data Density / Image Clutter,many/more data/info,2,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Area,Data Density / Image Clutter,more charts/points/lines/shapes/elements,7,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Area,Data Density / Image Clutter,multiple features/elements/graphs,2,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Area,Data Density / Image Clutter,too many details/divisions,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Area,Data Density / Image Clutter,disposition,1,2D/3D,2D/3D
+Area,Data Density / Image Clutter,organized/structured,1,2D/3D,2D/3D
+Area,Data Density / Image Clutter,more parameters/variables,3,more parameters/variables,
+Area,Data Density / Image Clutter,more regions/space,1,more regions/space,
+Area,Immediacy / Cognitive Load,unclear meaning/confusing,4,unclear meaning/confusing,unclear meaning/confusing
+Area,Immediacy / Cognitive Load,unclear where to look/what to see,1,unclear meaning/confusing,unclear meaning/confusing
+Area,Immediacy / Cognitive Load,more to read/analyze/understand,3,take longer to interpret,take longer to interpret
+Area,Immediacy / Cognitive Load,provokes thought and understanding,1,take longer to interpret,take longer to interpret
+Area,Immediacy / Cognitive Load,take longer to interpret,5,take longer to interpret,take longer to interpret
+Area,Immediacy / Cognitive Load,complicated to process,1,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,easier to interpret/read/understand,8,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,easier to process/visualize,5,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,easy to derive meaning,1,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,easy to focus/follow,1,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,easy to interpret/read/understand,14,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,easy to understand,1,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,hard to compare/discern/distinguish,2,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,hard to identify/extract/find features,3,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,hard to interpret/read/understand,2,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,hard to interpret/read/understand/differentiate,2,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,hard to see/tell/visualize,1,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,intuitive,2,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,less clear,1,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,low readability,1,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,more complicated,2,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,more difficult,1,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,more difficult to interpret/read/understand/differentiate,4,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,not interpretable/readable/understandable,2,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,simple to interpret/read/understand,2,easy/hard to interpret,easy/hard to interpret
+Area,Immediacy / Cognitive Load,not intuitive/simple data,2,distracting/confusing/unclear,distracting/confusing/unclear
+Area,Schema,a specific technique,3,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Area,Schema,"domain-specific concepts (e.g., chemical, biology, map)",12,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Area,Schema,familiar representation,7,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Area,Schema,no context or reference,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Area,Schema,unfamiliar concepts/patterns,7,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Area,Schema,abstract shapes or colors,1,abstract shapes or colors,abstract shapes or colors
+Area,Schema,2D/3D,1,2D/3D,2D/3D
+Area,Semantics / Text Legibility,different font/word sizes/structure,1,word rotation/small font size,word rotation/small font size
+Area,Semantics / Text Legibility,easier to read,1,word rotation/small font size,word rotation/small font size
+Area,Semantics / Text Legibility,explanation text,1,word rotation/small font size,word rotation/small font size
+Area,Semantics / Text Legibility,readability,3,word rotation/small font size,word rotation/small font size
+Area,Semantics / Text Legibility,small and simple,1,word rotation/small font size,word rotation/small font size
+Area,Semantics / Text Legibility,word rotation/small font size,5,word rotation/small font size,word rotation/small font size
+Area,Semantics / Text Legibility,almost no explanation,1,labels/axes/legends,labels/axes/legends
+Area,Semantics / Text Legibility,axis numbers,1,labels/axes/legends,labels/axes/legends
+Area,Semantics / Text Legibility,clear title/axis/label,3,labels/axes/legends,labels/axes/legends
+Area,Semantics / Text Legibility,explanatory legend,1,labels/axes/legends,labels/axes/legends
+Area,Semantics / Text Legibility,lack of/not enough axis labels/legend/annotations/context,5,labels/axes/legends,labels/axes/legends
+Area,Semantics / Text Legibility,legend easy to understand,1,labels/axes/legends,labels/axes/legends
+Area,Semantics / Text Legibility,legend on the top,1,labels/axes/legends,labels/axes/legends
+Area,Semantics / Text Legibility,many legend categories,1,labels/axes/legends,labels/axes/legends
+Area,Semantics / Text Legibility,more title/axis/label,2,labels/axes/legends,labels/axes/legends
+Area,Semantics / Text Legibility,no measurement/metric,1,labels/axes/legends,labels/axes/legends
+Area,Semantics / Text Legibility,no measurement/metric/axis,1,labels/axes/legends,labels/axes/legends
+Area,Semantics / Text Legibility,number of legend items,1,labels/axes/legends,labels/axes/legends
+Area,Semantics / Text Legibility,title/axis/label/descriptions,3,labels/axes/legends,labels/axes/legends
+Area,Semantics / Text Legibility,too much legend,3,labels/axes/legends,labels/axes/legends
+Area,Semantics / Text Legibility,description easy to read,1,easy/hard to interpret,easy/hard to interpret
+Area,Semantics / Text Legibility,amount of words/context/numbers,4,amount of words/context/numbers,amount of words/context/numbers
+Area,Semantics / Text Legibility,more texts/words,3,amount of words/context/numbers,amount of words/context/numbers
+Area,Semantics / Text Legibility,word/text/sentence,1,amount of words/context/numbers,amount of words/context/numbers
+Area,Semantics / Text Legibility,frame with values,1,2D/3D,2D/3D
+Area,Semantics / Text Legibility,-,1,-,
+Area,Semantics / Text Legibility,clear text arrangement/density,1,clear text arrangement/density,
+Area,Semantics / Text Legibility,clear text/scale/information,2,clear text/scale/information,
+Area,Semantics / Text Legibility,little/less text/numbers/context,1,little/less text/numbers/context,
+Area,Visual Encoding Clarity,understand/read shapes,1,understand/read shapes,understand/read shapes
+Area,Visual Encoding Clarity,clear indication,1,unclear meaning/confusing,unclear meaning/confusing
+Area,Visual Encoding Clarity,unclear meaning,1,unclear meaning/confusing,unclear meaning/confusing
+Area,Visual Encoding Clarity,unclear what data conveys,1,unclear meaning/confusing,unclear meaning/confusing
+Area,Visual Encoding Clarity,curves and shapes,2,shapes and lines,shapes and lines
+Area,Visual Encoding Clarity,length,1,shapes and lines,shapes and lines
+Area,Visual Encoding Clarity,shape size variation,2,shapes and lines,shapes and lines
+Area,Visual Encoding Clarity,shape variety,1,shapes and lines,shapes and lines
+Area,Visual Encoding Clarity,shapes,1,shapes and lines,shapes and lines
+Area,Visual Encoding Clarity,shapes and lines,2,shapes and lines,shapes and lines
+Area,Visual Encoding Clarity,shapes varied,1,shapes and lines,shapes and lines
+Area,Visual Encoding Clarity,size decreasing,2,shapes and lines,shapes and lines
+Area,Visual Encoding Clarity,complex design,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Area,Visual Encoding Clarity,multi-year information,1,much/little data/info,much/little data/info
+Area,Visual Encoding Clarity,more forms,3,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Area,Visual Encoding Clarity,graphical information,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Area,Visual Encoding Clarity,mismatched number-circle proportion,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Area,Visual Encoding Clarity,multivariate,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Area,Visual Encoding Clarity,nonlinearity,2,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Area,Visual Encoding Clarity,clear connection,1,distracting/confusing/unclear,distracting/confusing/unclear
+Area,Visual Encoding Clarity,clear colors/shapes,1,clear colors/shapes,clear colors/shapes
+Area,Visual Encoding Clarity,data trend,1,2D/3D,2D/3D
+Area,Visual Encoding Clarity,spatial organization,2,2D/3D,2D/3D
+Area,Visual Encoding Clarity,value and graphic alignment,1,2D/3D,2D/3D
+Area,Visual Encoding Clarity,value representation,1,2D/3D,2D/3D
+Area,Visual Encoding Clarity,regions,1,more regions/space,
+Area,Visual Encoding Clarity,scale difference,1,scale difference,
+Area,Visual Encoding Clarity,several elements,1,several elements,
+Area,Visual Encoding Clarity,shape point of interest,1,shape point of interest,
+Area,Visual Encoding Clarity,shape size,1,shape size,
+Area,Visual Encoding Clarity,shape variation,1,shape variation,
+Area,Visual Encoding Clarity,simple visual elements,1,simple visual elements,
+Bar,Aesthetics Uncertainty,unclear colors/contrast,1,unclear colors/contrast,unclear colors/contrast
+Bar,Aesthetics Uncertainty,distracting/confusing/unclear,1,distracting/confusing/unclear,distracting/confusing/unclear
+Bar,Aesthetics Uncertainty,looks random/messy/lack structure,1,distracting/confusing/unclear,distracting/confusing/unclear
+Bar,"Color, Symbol, and Texture Details",unclear meaning/confusing,1,unclear meaning/confusing,unclear meaning/confusing
+Bar,"Color, Symbol, and Texture Details",black-to-white/color gradient,1,color variety/shading,color variety/shading
+Bar,"Color, Symbol, and Texture Details",clearer coloring,1,color variety/shading,color variety/shading
+Bar,"Color, Symbol, and Texture Details",color dimension,1,color variety/shading,color variety/shading
+Bar,"Color, Symbol, and Texture Details",color represents groups,1,color variety/shading,color variety/shading
+Bar,"Color, Symbol, and Texture Details",color shading,1,color variety/shading,color variety/shading
+Bar,"Color, Symbol, and Texture Details",color variety/arrangement/distribution,7,color variety/shading,color variety/shading
+Bar,"Color, Symbol, and Texture Details",colored bars/charts,1,color variety/shading,color variety/shading
+Bar,"Color, Symbol, and Texture Details",more colors,1,color variety/shading,color variety/shading
+Bar,"Color, Symbol, and Texture Details",salient colors,1,color variety/shading,color variety/shading
+Bar,"Color, Symbol, and Texture Details",ambiguous/confusing colors,1,color contrast/clarity,color contrast/clarity
+Bar,"Color, Symbol, and Texture Details",good color contrast/separation/segmentation,1,color contrast/clarity,color contrast/clarity
+Bar,"Color, Symbol, and Texture Details",lack of color contrast / hard to distinguish colors,1,color contrast/clarity,color contrast/clarity
+Bar,"Color, Symbol, and Texture Details",unclear colormaps,2,color contrast/clarity,color contrast/clarity
+Bar,"Color, Symbol, and Texture Details",distinguishable/full color uses,1,distinguishable/full/highly contrast color uses,
+Bar,"Color, Symbol, and Texture Details",soft/layered/overlapping colors,1,soft/layered/overlapping colors,
+Bar,"Color, Symbol, and Texture Details",two colors,1,two colors,
+Bar,Data Density / Image Clutter,dense/cluttered data/info,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Bar,Data Density / Image Clutter,dense/cluttered layout,2,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Bar,Data Density / Image Clutter,little data/info,2,much/little data/info,much/little data/info
+Bar,Data Density / Image Clutter,more detailed/things,3,much/little data/info,much/little data/info
+Bar,Data Density / Image Clutter,much/more data/info/info spread,8,much/little data/info,much/little data/info
+Bar,Data Density / Image Clutter,dense points/lines/shapes/elements,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Bar,Data Density / Image Clutter,more charts/points/lines/shapes/elements,9,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Bar,Data Density / Image Clutter,multiple features/elements/graphs,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Bar,Immediacy / Cognitive Load,unclear meaning/confusing,2,unclear meaning/confusing,unclear meaning/confusing
+Bar,Immediacy / Cognitive Load,attention/squinting to understand,1,take longer to interpret,take longer to interpret
+Bar,Immediacy / Cognitive Load,more effort/reading/detailed analysis,1,take longer to interpret,take longer to interpret
+Bar,Immediacy / Cognitive Load,more reading/interpretation/understanding,4,take longer to interpret,take longer to interpret
+Bar,Immediacy / Cognitive Load,more to read/analyze/understand,2,take longer to interpret,take longer to interpret
+Bar,Immediacy / Cognitive Load,provokes thought and understanding,1,take longer to interpret,take longer to interpret
+Bar,Immediacy / Cognitive Load,take longer to interpret,1,take longer to interpret,take longer to interpret
+Bar,Immediacy / Cognitive Load,complicated to process,1,easy/hard to interpret,easy/hard to interpret
+Bar,Immediacy / Cognitive Load,easier to interpret/read/understand,2,easy/hard to interpret,easy/hard to interpret
+Bar,Immediacy / Cognitive Load,easier to see/tell/visualize,1,easy/hard to interpret,easy/hard to interpret
+Bar,Immediacy / Cognitive Load,easy to interpret/read/understand,9,easy/hard to interpret,easy/hard to interpret
+Bar,Immediacy / Cognitive Load,easy to understand,1,easy/hard to interpret,easy/hard to interpret
+Bar,Immediacy / Cognitive Load,hard to describe,1,easy/hard to interpret,easy/hard to interpret
+Bar,Immediacy / Cognitive Load,hard to interpret/read/understand,4,easy/hard to interpret,easy/hard to interpret
+Bar,Immediacy / Cognitive Load,more complicated,1,easy/hard to interpret,easy/hard to interpret
+Bar,Immediacy / Cognitive Load,more difficult to compare/discern/distinguish,1,easy/hard to interpret,easy/hard to interpret
+Bar,Immediacy / Cognitive Load,more difficult to interpret/read/understand/differentiate,2,easy/hard to interpret,easy/hard to interpret
+Bar,Immediacy / Cognitive Load,not interpretable/readable/understandable,3,easy/hard to interpret,easy/hard to interpret
+Bar,Immediacy / Cognitive Load,simple to interpret/read/understand,2,easy/hard to interpret,easy/hard to interpret
+Bar,Schema,"a specific technique, e.g., bar, pie, circle",5,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Bar,Schema,familiar representation,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Bar,Schema,unique,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Bar,Semantics / Text Legibility,description,1,word rotation/small font size,word rotation/small font size
+Bar,Semantics / Text Legibility,word misoriented,1,word rotation/small font size,word rotation/small font size
+Bar,Semantics / Text Legibility,unclear relation between words,1,unclear meaning/confusing,unclear meaning/confusing
+Bar,Semantics / Text Legibility,clear title/axis/label,2,labels/axes/legends,labels/axes/legends
+Bar,Semantics / Text Legibility,lack of/not enough axis labels/legend/annotations/context,3,labels/axes/legends,labels/axes/legends
+Bar,Semantics / Text Legibility,legend easy to understand,1,labels/axes/legends,labels/axes/legends
+Bar,Semantics / Text Legibility,more title/axis/label,1,labels/axes/legends,labels/axes/legends
+Bar,Semantics / Text Legibility,title/axis/label/descriptions,5,labels/axes/legends,labels/axes/legends
+Bar,Semantics / Text Legibility,too much legend,1,labels/axes/legends,labels/axes/legends
+Bar,Semantics / Text Legibility,description easy to read,1,easy/hard to interpret,easy/hard to interpret
+Bar,Semantics / Text Legibility,easy to read,1,easy/hard to interpret,easy/hard to interpret
+Bar,Semantics / Text Legibility,amount of words/context/numbers,3,amount of words/context/numbers,amount of words/context/numbers
+Bar,Semantics / Text Legibility,more texts/words,1,amount of words/context/numbers,amount of words/context/numbers
+Bar,Semantics / Text Legibility,more labels/context,1,more labels/context,
+Bar,Visual Encoding Clarity,unclear shape meaning,1,unclear meaning/confusing,unclear meaning/confusing
+Bar,Visual Encoding Clarity,unclear what data conveys,1,unclear meaning/confusing,unclear meaning/confusing
+Bar,Visual Encoding Clarity,bars as individual lines,1,shapes and lines,shapes and lines
+Bar,Visual Encoding Clarity,curves and shapes,1,shapes and lines,shapes and lines
+Bar,Visual Encoding Clarity,horizontal bars,1,shapes and lines,shapes and lines
+Bar,Visual Encoding Clarity,length variation,1,shapes and lines,shapes and lines
+Bar,Visual Encoding Clarity,shape arrangement,1,shapes and lines,shapes and lines
+Bar,Visual Encoding Clarity,shapes,1,shapes and lines,shapes and lines
+Bar,Visual Encoding Clarity,shapes and lines,2,shapes and lines,shapes and lines
+Bar,Visual Encoding Clarity,size,1,shapes and lines,shapes and lines
+Bar,Visual Encoding Clarity,straight lines,1,shapes and lines,shapes and lines
+Bar,Visual Encoding Clarity,mixed timeline,1,much/little data/info,much/little data/info
+Bar,Visual Encoding Clarity,infomration representation,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Bar,Visual Encoding Clarity,change over time,1,color variety/shading,color variety/shading
+Bar,Visual Encoding Clarity,crop production shown,1,color variety/shading,color variety/shading
+Bar,Visual Encoding Clarity,clear colors/shapes,1,clear colors/shapes,clear colors/shapes
+Bar,Visual Encoding Clarity,2D/3D,1,2D/3D,2D/3D
+Bar,Visual Encoding Clarity,design-data relationship,1,design-data relationship,
+Bar,Visual Encoding Clarity,scale difference,1,scale difference,
+Cont.-ColorPatn,Aesthetics Uncertainty,unclear colors/contrast,3,unclear colors/contrast,unclear colors/contrast
+Cont.-ColorPatn,Aesthetics Uncertainty,distracting/confusing/unclear,3,distracting/confusing/unclear,distracting/confusing/unclear
+Cont.-ColorPatn,Aesthetics Uncertainty,visually striking,1,distracting/confusing/unclear,distracting/confusing/unclear
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",indicating symbols,1,symbols,symbols
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",visually stimulating  texture/colors,1,symbols,symbols
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",less negative space,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",more pixels,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",hard to distinguish colors,1,easy/hard to interpret,easy/hard to interpret
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",amount of / too many colors,2,color variety/shading,color variety/shading
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",black-to-white/color gradient,2,color variety/shading,color variety/shading
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",blended colors,1,color variety/shading,color variety/shading
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",color hues,1,color variety/shading,color variety/shading
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",color scale/scheme,2,color variety/shading,color variety/shading
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",color shading,1,color variety/shading,color variety/shading
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",color variety/arrangement/distribution,11,color variety/shading,color variety/shading
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",colored surface,1,color variety/shading,color variety/shading
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",separate color scales,1,color variety/shading,color variety/shading
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",lack of color contrast / hard to distinguish colors,2,color contrast/clarity,color contrast/clarity
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",low color contrast/separation/segmentation,2,color contrast/clarity,color contrast/clarity
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",separate values by color to show differences,1,color contrast/clarity,color contrast/clarity
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",unclear color meaning,1,color contrast/clarity,color contrast/clarity
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",unclear coloring,1,color contrast/clarity,color contrast/clarity
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",unclear colormaps,5,color contrast/clarity,color contrast/clarity
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",blurry colors/images,2,blurry colors/images,
+Cont.-ColorPatn,"Color, Symbol, and Texture Details",distinguishable/full/highly contrast color uses,1,distinguishable/full/highly contrast color uses,
+Cont.-ColorPatn,Data Density / Image Clutter,messy/mixed up/noisy/intermingled elements,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Cont.-ColorPatn,Data Density / Image Clutter,overlapping shapes/colors/lines,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Cont.-ColorPatn,Data Density / Image Clutter,fine/layered details,1,much/little data/info,much/little data/info
+Cont.-ColorPatn,Data Density / Image Clutter,less detailed/things,1,much/little data/info,much/little data/info
+Cont.-ColorPatn,Data Density / Image Clutter,more detailed/things,4,much/little data/info,much/little data/info
+Cont.-ColorPatn,Data Density / Image Clutter,much/more data/info/info spread,4,much/little data/info,much/little data/info
+Cont.-ColorPatn,Data Density / Image Clutter,dense points/lines/shapes/elements,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Cont.-ColorPatn,Data Density / Image Clutter,more charts/points/lines/shapes/elements,9,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Cont.-ColorPatn,Data Density / Image Clutter,multiple features/elements/graphs,2,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Cont.-ColorPatn,Data Density / Image Clutter,organized/structured,1,2D/3D,2D/3D
+Cont.-ColorPatn,Data Density / Image Clutter,more regions/space,1,more regions/space,
+Cont.-ColorPatn,Immediacy / Cognitive Load,unclear meaning/confusing,3,unclear meaning/confusing,unclear meaning/confusing
+Cont.-ColorPatn,Immediacy / Cognitive Load,attention/squinting to understand,1,take longer to interpret,take longer to interpret
+Cont.-ColorPatn,Immediacy / Cognitive Load,require specialized knowledge,1,take longer to interpret,take longer to interpret
+Cont.-ColorPatn,Immediacy / Cognitive Load,take longer to interpret,1,take longer to interpret,take longer to interpret
+Cont.-ColorPatn,Immediacy / Cognitive Load,easy to interpret/read/understand,3,easy/hard to interpret,easy/hard to interpret
+Cont.-ColorPatn,Immediacy / Cognitive Load,hard to compare/discern/distinguish,1,easy/hard to interpret,easy/hard to interpret
+Cont.-ColorPatn,Immediacy / Cognitive Load,hard to focus/follow,1,easy/hard to interpret,easy/hard to interpret
+Cont.-ColorPatn,Immediacy / Cognitive Load,hard to identify/extract/find features,2,easy/hard to interpret,easy/hard to interpret
+Cont.-ColorPatn,Immediacy / Cognitive Load,hard to interpret/read/understand,1,easy/hard to interpret,easy/hard to interpret
+Cont.-ColorPatn,Immediacy / Cognitive Load,hard to interpret/read/understand/differentiate,1,easy/hard to interpret,easy/hard to interpret
+Cont.-ColorPatn,Immediacy / Cognitive Load,hard to measure/model,2,easy/hard to interpret,easy/hard to interpret
+Cont.-ColorPatn,Immediacy / Cognitive Load,less understandable,1,easy/hard to interpret,easy/hard to interpret
+Cont.-ColorPatn,Immediacy / Cognitive Load,more difficult to compare/discern/distinguish,1,easy/hard to interpret,easy/hard to interpret
+Cont.-ColorPatn,Immediacy / Cognitive Load,more difficult to interpret/read/understand/differentiate,2,easy/hard to interpret,easy/hard to interpret
+Cont.-ColorPatn,Immediacy / Cognitive Load,not easily understood,1,easy/hard to interpret,easy/hard to interpret
+Cont.-ColorPatn,Immediacy / Cognitive Load,not interpretable/readable/understandable,4,easy/hard to interpret,easy/hard to interpret
+Cont.-ColorPatn,Immediacy / Cognitive Load,more difficult to focus/follow,1,more difficult to focus/follow,
+Cont.-ColorPatn,Schema,not enough knowledge to tell,1,take longer to interpret,take longer to interpret
+Cont.-ColorPatn,Schema,a specific technique,2,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Cont.-ColorPatn,Schema,"a specific technique, e.g., bar, pie, circle",1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Cont.-ColorPatn,Schema,"domain-specific concepts (e.g., chemical, biology, map)",3,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Cont.-ColorPatn,Schema,familiar representation,2,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Cont.-ColorPatn,Schema,no context or reference,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Cont.-ColorPatn,Schema,unfamiliar concepts/patterns,5,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Cont.-ColorPatn,Schema,abstract shapes or colors,1,abstract shapes or colors,abstract shapes or colors
+Cont.-ColorPatn,Schema,2D/3D,1,2D/3D,2D/3D
+Cont.-ColorPatn,Semantics / Text Legibility,lack of/not enough axis labels/legend/annotations/context,4,labels/axes/legends,labels/axes/legends
+Cont.-ColorPatn,Semantics / Text Legibility,no measurement/metric/axis,1,labels/axes/legends,labels/axes/legends
+Cont.-ColorPatn,Semantics / Text Legibility,title/axis/label/descriptions,3,labels/axes/legends,labels/axes/legends
+Cont.-ColorPatn,Semantics / Text Legibility,too much legend,1,labels/axes/legends,labels/axes/legends
+Cont.-ColorPatn,Semantics / Text Legibility,x-axis unlabeled,1,labels/axes/legends,labels/axes/legends
+Cont.-ColorPatn,Semantics / Text Legibility,context,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Cont.-ColorPatn,Semantics / Text Legibility,more numbers,1,amount of words/context/numbers,amount of words/context/numbers
+Cont.-ColorPatn,Semantics / Text Legibility,word/text/sentence,1,amount of words/context/numbers,amount of words/context/numbers
+Cont.-ColorPatn,Semantics / Text Legibility,more axes,1,2D/3D,2D/3D
+Cont.-ColorPatn,Visual Encoding Clarity,understand/read shapes,1,understand/read shapes,understand/read shapes
+Cont.-ColorPatn,Visual Encoding Clarity,no clear indication,3,unclear meaning/confusing,unclear meaning/confusing
+Cont.-ColorPatn,Visual Encoding Clarity,unclear structure,1,unclear meaning/confusing,unclear meaning/confusing
+Cont.-ColorPatn,Visual Encoding Clarity,unclear what data conveys,1,unclear meaning/confusing,unclear meaning/confusing
+Cont.-ColorPatn,Visual Encoding Clarity,curved lines,2,shapes and lines,shapes and lines
+Cont.-ColorPatn,Visual Encoding Clarity,curves and shapes,1,shapes and lines,shapes and lines
+Cont.-ColorPatn,Visual Encoding Clarity,image size,1,shapes and lines,shapes and lines
+Cont.-ColorPatn,Visual Encoding Clarity,indistinguishable/unintuitive lines,1,shapes and lines,shapes and lines
+Cont.-ColorPatn,Visual Encoding Clarity,less uniform shapes,1,shapes and lines,shapes and lines
+Cont.-ColorPatn,Visual Encoding Clarity,shape indicators,1,shapes and lines,shapes and lines
+Cont.-ColorPatn,Visual Encoding Clarity,shape variety,2,shapes and lines,shapes and lines
+Cont.-ColorPatn,Visual Encoding Clarity,shapes and lines,1,shapes and lines,shapes and lines
+Cont.-ColorPatn,Visual Encoding Clarity,complex design,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Cont.-ColorPatn,Visual Encoding Clarity,no more information,1,much/little data/info,much/little data/info
+Cont.-ColorPatn,Visual Encoding Clarity,single variable,1,much/little data/info,much/little data/info
+Cont.-ColorPatn,Visual Encoding Clarity,nothing clear,1,easy/hard to interpret,easy/hard to interpret
+Cont.-ColorPatn,Visual Encoding Clarity,field information,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Cont.-ColorPatn,Visual Encoding Clarity,representation,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Cont.-ColorPatn,Visual Encoding Clarity,stimulus less visible,1,distracting/confusing/unclear,distracting/confusing/unclear
+Cont.-ColorPatn,Visual Encoding Clarity,exact feature,1,color variety/shading,color variety/shading
+Cont.-ColorPatn,Visual Encoding Clarity,2D/3D,1,2D/3D,2D/3D
+Cont.-ColorPatn,Visual Encoding Clarity,data trend,1,2D/3D,2D/3D
+Cont.-ColorPatn,Visual Encoding Clarity,image portrayal,1,2D/3D,2D/3D
+Cont.-ColorPatn,Visual Encoding Clarity,ordered,1,ordered,
+Cont.-ColorPatn,Visual Encoding Clarity,several elements,1,several elements,
+Glyph,Aesthetics Uncertainty,distracting/confusing/unclear,4,distracting/confusing/unclear,distracting/confusing/unclear
+Glyph,Aesthetics Uncertainty,irregular,1,distracting/confusing/unclear,distracting/confusing/unclear
+Glyph,Aesthetics Uncertainty,looks random/messy/lack structure,2,distracting/confusing/unclear,distracting/confusing/unclear
+Glyph,Aesthetics Uncertainty,visual clarity/appealing,1,distracting/confusing/unclear,distracting/confusing/unclear
+Glyph,"Color, Symbol, and Texture Details",visual cues,1,unclear meaning/confusing,unclear meaning/confusing
+Glyph,"Color, Symbol, and Texture Details",symbols,1,symbols,symbols
+Glyph,"Color, Symbol, and Texture Details",visually stimulating  texture/colors,1,symbols,symbols
+Glyph,"Color, Symbol, and Texture Details",colored shape,1,shapes and lines,shapes and lines
+Glyph,"Color, Symbol, and Texture Details",appealing colors,1,color variety/shading,color variety/shading
+Glyph,"Color, Symbol, and Texture Details",black-to-white/color gradient,2,color variety/shading,color variety/shading
+Glyph,"Color, Symbol, and Texture Details",blue color,1,color variety/shading,color variety/shading
+Glyph,"Color, Symbol, and Texture Details",color intensity,1,color variety/shading,color variety/shading
+Glyph,"Color, Symbol, and Texture Details",color represents groups,1,color variety/shading,color variety/shading
+Glyph,"Color, Symbol, and Texture Details",color shading,1,color variety/shading,color variety/shading
+Glyph,"Color, Symbol, and Texture Details",color variety/arrangement/distribution,7,color variety/shading,color variety/shading
+Glyph,"Color, Symbol, and Texture Details",same colors,1,color variety/shading,color variety/shading
+Glyph,"Color, Symbol, and Texture Details",ambiguous/confusing colors,1,color contrast/clarity,color contrast/clarity
+Glyph,"Color, Symbol, and Texture Details",color differentiation,1,color contrast/clarity,color contrast/clarity
+Glyph,"Color, Symbol, and Texture Details",good color contrast/separation/segmentation,1,color contrast/clarity,color contrast/clarity
+Glyph,"Color, Symbol, and Texture Details",lack of color contrast / hard to distinguish colors,1,color contrast/clarity,color contrast/clarity
+Glyph,"Color, Symbol, and Texture Details",low color contrast/separation/segmentation,1,color contrast/clarity,color contrast/clarity
+Glyph,"Color, Symbol, and Texture Details",unclear color meaning,2,color contrast/clarity,color contrast/clarity
+Glyph,"Color, Symbol, and Texture Details",unclear coloring,3,color contrast/clarity,color contrast/clarity
+Glyph,"Color, Symbol, and Texture Details",unclear colormaps,4,color contrast/clarity,color contrast/clarity
+Glyph,"Color, Symbol, and Texture Details",inadequate/few coloring,3,inadequate/few coloring,
+Glyph,"Color, Symbol, and Texture Details",white/black background / other background,2,white/black background / other background,
+Glyph,Data Density / Image Clutter,dense/cluttered shape,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Glyph,Data Density / Image Clutter,messy/mixed up/noisy/intermingled elements,2,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Glyph,Data Density / Image Clutter,overlapping shapes/colors/lines,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Glyph,Data Density / Image Clutter,fine/layered details,1,much/little data/info,much/little data/info
+Glyph,Data Density / Image Clutter,little data/info,2,much/little data/info,much/little data/info
+Glyph,Data Density / Image Clutter,more detailed/things,5,much/little data/info,much/little data/info
+Glyph,Data Density / Image Clutter,much/more data/info/info spread,2,much/little data/info,much/little data/info
+Glyph,Data Density / Image Clutter,dense points/lines/shapes/elements,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Glyph,Data Density / Image Clutter,few points/lines/shapes/elements,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Glyph,Data Density / Image Clutter,more charts/points/lines/shapes/elements,9,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Glyph,Data Density / Image Clutter,multiple features/elements/graphs,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Glyph,Data Density / Image Clutter,too more points/lines/shapes/elements,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Glyph,Data Density / Image Clutter,data intersection,1,2D/3D,2D/3D
+Glyph,Immediacy / Cognitive Load,unclear meaning/confusing,4,unclear meaning/confusing,unclear meaning/confusing
+Glyph,Immediacy / Cognitive Load,more reading/interpretation/understanding,1,take longer to interpret,take longer to interpret
+Glyph,Immediacy / Cognitive Load,require specialized knowledge,1,take longer to interpret,take longer to interpret
+Glyph,Immediacy / Cognitive Load,take longer to interpret,2,take longer to interpret,take longer to interpret
+Glyph,Immediacy / Cognitive Load,complicated to process,2,easy/hard to interpret,easy/hard to interpret
+Glyph,Immediacy / Cognitive Load,easier to interpret/read/understand,1,easy/hard to interpret,easy/hard to interpret
+Glyph,Immediacy / Cognitive Load,easier to see/tell/visualize,1,easy/hard to interpret,easy/hard to interpret
+Glyph,Immediacy / Cognitive Load,easy to derive meaning,1,easy/hard to interpret,easy/hard to interpret
+Glyph,Immediacy / Cognitive Load,easy to identify/extract/find features,1,easy/hard to interpret,easy/hard to interpret
+Glyph,Immediacy / Cognitive Load,easy to interpret/read/understand,3,easy/hard to interpret,easy/hard to interpret
+Glyph,Immediacy / Cognitive Load,hard to compare/discern/distinguish,1,easy/hard to interpret,easy/hard to interpret
+Glyph,Immediacy / Cognitive Load,hard to interpret/read/understand,2,easy/hard to interpret,easy/hard to interpret
+Glyph,Immediacy / Cognitive Load,hard to interpret/read/understand/differentiate,1,easy/hard to interpret,easy/hard to interpret
+Glyph,Immediacy / Cognitive Load,hard to see/tell/visualize,2,easy/hard to interpret,easy/hard to interpret
+Glyph,Immediacy / Cognitive Load,intuitive,1,easy/hard to interpret,easy/hard to interpret
+Glyph,Immediacy / Cognitive Load,more difficult to interpret/read/understand/differentiate,5,easy/hard to interpret,easy/hard to interpret
+Glyph,Immediacy / Cognitive Load,not interpretable/readable/understandable,7,easy/hard to interpret,easy/hard to interpret
+Glyph,Schema,not enough knowledge to tell,1,take longer to interpret,take longer to interpret
+Glyph,Schema,a specific domain,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Glyph,Schema,a specific technique,4,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Glyph,Schema,"domain-specific concepts (e.g., chemical, biology, map)",1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Glyph,Schema,familiar representation,6,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Glyph,Schema,no context or reference,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Glyph,Schema,unfamiliar concepts/patterns,6,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Glyph,Schema,abstract shapes or colors,1,abstract shapes or colors,abstract shapes or colors
+Glyph,Schema,2D/3D,1,2D/3D,2D/3D
+Glyph,Semantics / Text Legibility,readability,1,word rotation/small font size,word rotation/small font size
+Glyph,Semantics / Text Legibility,lack of meaning,1,unclear meaning/confusing,unclear meaning/confusing
+Glyph,Semantics / Text Legibility,visualization meaning,1,unclear meaning/confusing,unclear meaning/confusing
+Glyph,Semantics / Text Legibility,clear title/axis/label,1,labels/axes/legends,labels/axes/legends
+Glyph,Semantics / Text Legibility,lack of legend,1,labels/axes/legends,labels/axes/legends
+Glyph,Semantics / Text Legibility,lack of/not enough axis labels/legend/annotations/context,7,labels/axes/legends,labels/axes/legends
+Glyph,Semantics / Text Legibility,more title/axis/label,1,labels/axes/legends,labels/axes/legends
+Glyph,Semantics / Text Legibility,no measurement/metric/axis,1,labels/axes/legends,labels/axes/legends
+Glyph,Semantics / Text Legibility,title/axis/label/descriptions,1,labels/axes/legends,labels/axes/legends
+Glyph,Semantics / Text Legibility,too much legend,1,labels/axes/legends,labels/axes/legends
+Glyph,Semantics / Text Legibility,amount of words/context/numbers,1,amount of words/context/numbers,amount of words/context/numbers
+Glyph,Semantics / Text Legibility,code/text,1,amount of words/context/numbers,amount of words/context/numbers
+Glyph,Semantics / Text Legibility,more texts/words,1,amount of words/context/numbers,amount of words/context/numbers
+Glyph,Visual Encoding Clarity,unclear meaning,2,unclear meaning/confusing,unclear meaning/confusing
+Glyph,Visual Encoding Clarity,unclear movement,2,unclear meaning/confusing,unclear meaning/confusing
+Glyph,Visual Encoding Clarity,unclear shape meaning,2,unclear meaning/confusing,unclear meaning/confusing
+Glyph,Visual Encoding Clarity,categorized shapes,1,shapes and lines,shapes and lines
+Glyph,Visual Encoding Clarity,element sizes,1,shapes and lines,shapes and lines
+Glyph,Visual Encoding Clarity,overall shape,1,shapes and lines,shapes and lines
+Glyph,Visual Encoding Clarity,precision of lines,1,shapes and lines,shapes and lines
+Glyph,Visual Encoding Clarity,shape arrangement,1,shapes and lines,shapes and lines
+Glyph,Visual Encoding Clarity,shape variety,2,shapes and lines,shapes and lines
+Glyph,Visual Encoding Clarity,shapes,6,shapes and lines,shapes and lines
+Glyph,Visual Encoding Clarity,shapes and lines,4,shapes and lines,shapes and lines
+Glyph,Visual Encoding Clarity,size variation,1,shapes and lines,shapes and lines
+Glyph,Visual Encoding Clarity,squares,1,shapes and lines,shapes and lines
+Glyph,Visual Encoding Clarity,unclear shape,1,shapes and lines,shapes and lines
+Glyph,Visual Encoding Clarity,multiple shapes,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Glyph,Visual Encoding Clarity,no interaction,1,labels/axes/legends,labels/axes/legends
+Glyph,Visual Encoding Clarity,no square information,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Glyph,Visual Encoding Clarity,unknown hidden content,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Glyph,Visual Encoding Clarity,clear delineation,1,distracting/confusing/unclear,distracting/confusing/unclear
+Glyph,Visual Encoding Clarity,different movement,1,distracting/confusing/unclear,distracting/confusing/unclear
+Glyph,Visual Encoding Clarity,random-like movement,1,distracting/confusing/unclear,distracting/confusing/unclear
+Glyph,Visual Encoding Clarity,unable to sort,1,distracting/confusing/unclear,distracting/confusing/unclear
+Glyph,Visual Encoding Clarity,uninterpretable ranking,1,color variety/shading,color variety/shading
+Glyph,Visual Encoding Clarity,2D/3D,1,2D/3D,2D/3D
+Glyph,Visual Encoding Clarity,image location,1,2D/3D,2D/3D
+Glyph,Visual Encoding Clarity,more uniform design,1,2D/3D,2D/3D
+Glyph,Visual Encoding Clarity,number of levels,1,2D/3D,2D/3D
+Glyph,Visual Encoding Clarity,less organized elements,1,less organized elements,
+Glyph,Visual Encoding Clarity,ordered,1,ordered,
+Glyph,Visual Encoding Clarity,shape size,2,shape size,
+Grid,Aesthetics Uncertainty,unclear colors/contrast,1,unclear colors/contrast,unclear colors/contrast
+Grid,Aesthetics Uncertainty,convoluted composition,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Grid,Aesthetics Uncertainty,distracting/confusing/unclear,2,distracting/confusing/unclear,distracting/confusing/unclear
+Grid,Aesthetics Uncertainty,less attractive,1,distracting/confusing/unclear,distracting/confusing/unclear
+Grid,Aesthetics Uncertainty,looks random/messy/lack structure,1,distracting/confusing/unclear,distracting/confusing/unclear
+Grid,Aesthetics Uncertainty,visual clarity/appealing,2,distracting/confusing/unclear,distracting/confusing/unclear
+Grid,Aesthetics Uncertainty,visually overwhelming,1,distracting/confusing/unclear,distracting/confusing/unclear
+Grid,"Color, Symbol, and Texture Details",no color,1,unclear meaning/confusing,unclear meaning/confusing
+Grid,"Color, Symbol, and Texture Details",unclear meaning/confusing,1,unclear meaning/confusing,unclear meaning/confusing
+Grid,"Color, Symbol, and Texture Details",symbols and shading,1,symbols,symbols
+Grid,"Color, Symbol, and Texture Details",negative space,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Grid,"Color, Symbol, and Texture Details",amount of / too many colors,1,color variety/shading,color variety/shading
+Grid,"Color, Symbol, and Texture Details",appealing colors,1,color variety/shading,color variety/shading
+Grid,"Color, Symbol, and Texture Details",black color,1,color variety/shading,color variety/shading
+Grid,"Color, Symbol, and Texture Details",black-to-white/color gradient,1,color variety/shading,color variety/shading
+Grid,"Color, Symbol, and Texture Details",blue color,1,color variety/shading,color variety/shading
+Grid,"Color, Symbol, and Texture Details",color details,1,color variety/shading,color variety/shading
+Grid,"Color, Symbol, and Texture Details",color dimension,1,color variety/shading,color variety/shading
+Grid,"Color, Symbol, and Texture Details",color saturation,1,color variety/shading,color variety/shading
+Grid,"Color, Symbol, and Texture Details",color scale/scheme,1,color variety/shading,color variety/shading
+Grid,"Color, Symbol, and Texture Details",color shading,2,color variety/shading,color variety/shading
+Grid,"Color, Symbol, and Texture Details",color variety/arrangement/distribution,11,color variety/shading,color variety/shading
+Grid,"Color, Symbol, and Texture Details",white color on black background,1,color variety/shading,color variety/shading
+Grid,"Color, Symbol, and Texture Details",lack of color contrast / hard to distinguish colors,2,color contrast/clarity,color contrast/clarity
+Grid,"Color, Symbol, and Texture Details",low color contrast/separation/segmentation,3,color contrast/clarity,color contrast/clarity
+Grid,"Color, Symbol, and Texture Details",more contrast,2,color contrast/clarity,color contrast/clarity
+Grid,"Color, Symbol, and Texture Details",unclear color meaning,2,color contrast/clarity,color contrast/clarity
+Grid,"Color, Symbol, and Texture Details",unclear coloring,1,color contrast/clarity,color contrast/clarity
+Grid,"Color, Symbol, and Texture Details",unclear colormaps,4,color contrast/clarity,color contrast/clarity
+Grid,"Color, Symbol, and Texture Details",blurry colors/images,1,blurry colors/images,
+Grid,"Color, Symbol, and Texture Details",distinguishable color variety/arrangement/distribution,2,distinguishable color variety/arrangement/distribution,
+Grid,"Color, Symbol, and Texture Details",clear color uses,1,distinguishable/full/highly contrast color uses,
+Grid,"Color, Symbol, and Texture Details",distinguishable/full/highly contrast color uses,3,distinguishable/full/highly contrast color uses,
+Grid,"Color, Symbol, and Texture Details",inadequate/few coloring,3,inadequate/few coloring,
+Grid,"Color, Symbol, and Texture Details",soft/layered/overlapping colors,1,soft/layered/overlapping colors,
+Grid,"Color, Symbol, and Texture Details",white/black background / other background,1,white/black background / other background,
+Grid,Data Density / Image Clutter,more to read/analyze/understand,1,take longer to interpret,take longer to interpret
+Grid,Data Density / Image Clutter,dense/cluttered data/info,3,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Grid,Data Density / Image Clutter,dense/cluttered layout,3,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Grid,Data Density / Image Clutter,messy/mixed up/noisy/intermingled elements,3,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Grid,Data Density / Image Clutter,fine/layered details,2,much/little data/info,much/little data/info
+Grid,Data Density / Image Clutter,little data/info,2,much/little data/info,much/little data/info
+Grid,Data Density / Image Clutter,more detailed/things,5,much/little data/info,much/little data/info
+Grid,Data Density / Image Clutter,much/more data/info/info spread,12,much/little data/info,much/little data/info
+Grid,Data Density / Image Clutter,too much data/info,1,much/little data/info,much/little data/info
+Grid,Data Density / Image Clutter,dense points/lines/shapes/elements,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Grid,Data Density / Image Clutter,many points/lines/shapes/elements,2,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Grid,Data Density / Image Clutter,many/more data/info,2,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Grid,Data Density / Image Clutter,more charts/points/lines/shapes/elements,10,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Grid,Data Density / Image Clutter,multiple features/elements/graphs,5,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Grid,Data Density / Image Clutter,multiple points/lines/shapes/elements,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Grid,Data Density / Image Clutter,too many details/divisions,2,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Grid,Data Density / Image Clutter,many numbers,1,amount of words/context/numbers,amount of words/context/numbers
+Grid,Data Density / Image Clutter,too many numbers,1,amount of words/context/numbers,amount of words/context/numbers
+Grid,Data Density / Image Clutter,organized/structured,1,2D/3D,2D/3D
+Grid,Data Density / Image Clutter,more parameters/variables,3,more parameters/variables,
+Grid,Data Density / Image Clutter,more regions/space,1,more regions/space,
+Grid,Immediacy / Cognitive Load,unclear meaning/confusing,2,unclear meaning/confusing,unclear meaning/confusing
+Grid,Immediacy / Cognitive Load,attention/squinting to understand,2,take longer to interpret,take longer to interpret
+Grid,Immediacy / Cognitive Load,more effort/reading/detailed analysis,2,take longer to interpret,take longer to interpret
+Grid,Immediacy / Cognitive Load,more reading/interpretation/understanding,2,take longer to interpret,take longer to interpret
+Grid,Immediacy / Cognitive Load,take longer to interpret,5,take longer to interpret,take longer to interpret
+Grid,Immediacy / Cognitive Load,information overload,2,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Grid,Immediacy / Cognitive Load,complicated to process,1,easy/hard to interpret,easy/hard to interpret
+Grid,Immediacy / Cognitive Load,easier to interpret/read/understand,1,easy/hard to interpret,easy/hard to interpret
+Grid,Immediacy / Cognitive Load,easier to process/visualize,1,easy/hard to interpret,easy/hard to interpret
+Grid,Immediacy / Cognitive Load,easy to interpret/read/understand,6,easy/hard to interpret,easy/hard to interpret
+Grid,Immediacy / Cognitive Load,hard to describe,1,easy/hard to interpret,easy/hard to interpret
+Grid,Immediacy / Cognitive Load,hard to interpret/read/understand,2,easy/hard to interpret,easy/hard to interpret
+Grid,Immediacy / Cognitive Load,hard to interpret/read/understand/differentiate,2,easy/hard to interpret,easy/hard to interpret
+Grid,Immediacy / Cognitive Load,hard to see/tell/visualize,1,easy/hard to interpret,easy/hard to interpret
+Grid,Immediacy / Cognitive Load,harder to view data point,1,easy/hard to interpret,easy/hard to interpret
+Grid,Immediacy / Cognitive Load,more difficult to compare/discern/distinguish,1,easy/hard to interpret,easy/hard to interpret
+Grid,Immediacy / Cognitive Load,more difficult to interpret/read/understand/differentiate,2,easy/hard to interpret,easy/hard to interpret
+Grid,Immediacy / Cognitive Load,not easily understood,1,easy/hard to interpret,easy/hard to interpret
+Grid,Immediacy / Cognitive Load,not interpretable/readable/understandable,4,easy/hard to interpret,easy/hard to interpret
+Grid,Immediacy / Cognitive Load,simple to interpret/read/understand,1,easy/hard to interpret,easy/hard to interpret
+Grid,Immediacy / Cognitive Load,not intuitive/simple data,1,distracting/confusing/unclear,distracting/confusing/unclear
+Grid,Immediacy / Cognitive Load,read/analyze many figures/items,4,read/analyze many figures/items,
+Grid,Schema,a specific technique,3,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Grid,Schema,"a specific technique, e.g., bar, pie, circle",1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Grid,Schema,"domain-specific concepts (e.g., chemical, biology, map)",4,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Grid,Schema,no context or reference,2,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Grid,Schema,unfamiliar concepts/patterns,3,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Grid,Semantics / Text Legibility,explanation text,1,word rotation/small font size,word rotation/small font size
+Grid,Semantics / Text Legibility,font,1,word rotation/small font size,word rotation/small font size
+Grid,Semantics / Text Legibility,hierarchical text,1,word rotation/small font size,word rotation/small font size
+Grid,Semantics / Text Legibility,readability,1,word rotation/small font size,word rotation/small font size
+Grid,Semantics / Text Legibility,text hard to read,1,word rotation/small font size,word rotation/small font size
+Grid,Semantics / Text Legibility,word rotation/small font size,2,word rotation/small font size,word rotation/small font size
+Grid,Semantics / Text Legibility,unclear relation between words,1,unclear meaning/confusing,unclear meaning/confusing
+Grid,Semantics / Text Legibility,too many subjects,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Grid,Semantics / Text Legibility,clear title/axis/label,1,labels/axes/legends,labels/axes/legends
+Grid,Semantics / Text Legibility,different labels,1,labels/axes/legends,labels/axes/legends
+Grid,Semantics / Text Legibility,legend easy to understand,1,labels/axes/legends,labels/axes/legends
+Grid,Semantics / Text Legibility,more title/axis/label,1,labels/axes/legends,labels/axes/legends
+Grid,Semantics / Text Legibility,number of legend items,1,labels/axes/legends,labels/axes/legends
+Grid,Semantics / Text Legibility,title/axis/label/descriptions,11,labels/axes/legends,labels/axes/legends
+Grid,Semantics / Text Legibility,too much legend,3,labels/axes/legends,labels/axes/legends
+Grid,Semantics / Text Legibility,unreadable,1,easy/hard to interpret,easy/hard to interpret
+Grid,Semantics / Text Legibility,amount of words/context/numbers,4,amount of words/context/numbers,amount of words/context/numbers
+Grid,Semantics / Text Legibility,more numbers,1,amount of words/context/numbers,amount of words/context/numbers
+Grid,Semantics / Text Legibility,more texts/words,5,amount of words/context/numbers,amount of words/context/numbers
+Grid,Semantics / Text Legibility,text and imagery,1,amount of words/context/numbers,amount of words/context/numbers
+Grid,Semantics / Text Legibility,word/text/sentence,4,amount of words/context/numbers,amount of words/context/numbers
+Grid,Semantics / Text Legibility,clear text arrangement/density,1,clear text arrangement/density,
+Grid,Visual Encoding Clarity,unclear filled bars,1,unclear meaning/confusing,unclear meaning/confusing
+Grid,Visual Encoding Clarity,unclear meaning,2,unclear meaning/confusing,unclear meaning/confusing
+Grid,Visual Encoding Clarity,less organic shapes,1,shapes and lines,shapes and lines
+Grid,Visual Encoding Clarity,line thickness variation,1,shapes and lines,shapes and lines
+Grid,Visual Encoding Clarity,more squares than shapes,1,shapes and lines,shapes and lines
+Grid,Visual Encoding Clarity,shape,1,shapes and lines,shapes and lines
+Grid,Visual Encoding Clarity,shape size variation,2,shapes and lines,shapes and lines
+Grid,Visual Encoding Clarity,shapes,2,shapes and lines,shapes and lines
+Grid,Visual Encoding Clarity,similar box sizes,1,shapes and lines,shapes and lines
+Grid,Visual Encoding Clarity,uneven shape,1,shapes and lines,shapes and lines
+Grid,Visual Encoding Clarity,more nuance information,1,much/little data/info,much/little data/info
+Grid,Visual Encoding Clarity,no data,1,much/little data/info,much/little data/info
+Grid,Visual Encoding Clarity,no detail,1,much/little data/info,much/little data/info
+Grid,Visual Encoding Clarity,multiple aspects,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Grid,Visual Encoding Clarity,information nuance expressed,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Grid,Visual Encoding Clarity,representation,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Grid,Visual Encoding Clarity,technical encoding,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Grid,Visual Encoding Clarity,nothing visible,1,distracting/confusing/unclear,distracting/confusing/unclear
+Grid,Visual Encoding Clarity,value and graphic alignment,1,2D/3D,2D/3D
+Grid,Visual Encoding Clarity,values in the middle,1,2D/3D,2D/3D
+Grid,Visual Encoding Clarity,"scattered shapes (e.g., dots, squares, pictures)",1,"scattered shapes (e.g., dots, squares, pictures)",
+Grid,Visual Encoding Clarity,several elements,2,several elements,
+Grid,Visual Encoding Clarity,simple visual elements,1,simple visual elements,
+Line,Aesthetics Uncertainty,unclear colors/contrast,1,unclear colors/contrast,unclear colors/contrast
+Line,Aesthetics Uncertainty,struggled to read,1,easy/hard to interpret,easy/hard to interpret
+Line,Aesthetics Uncertainty,distracting/confusing/unclear,4,distracting/confusing/unclear,distracting/confusing/unclear
+Line,Aesthetics Uncertainty,looks random/messy/lack structure,1,distracting/confusing/unclear,distracting/confusing/unclear
+Line,"Color, Symbol, and Texture Details",clear colored bars/charts,1,unclear meaning/confusing,unclear meaning/confusing
+Line,"Color, Symbol, and Texture Details",unclear meaning/confusing,1,unclear meaning/confusing,unclear meaning/confusing
+Line,"Color, Symbol, and Texture Details",icons,1,symbols,symbols
+Line,"Color, Symbol, and Texture Details",striped texture,1,symbols,symbols
+Line,"Color, Symbol, and Texture Details",pixeled picture,1,distracting/confusing/unclear,distracting/confusing/unclear
+Line,"Color, Symbol, and Texture Details",color scale/scheme,1,color variety/shading,color variety/shading
+Line,"Color, Symbol, and Texture Details",color variety/arrangement/distribution,11,color variety/shading,color variety/shading
+Line,"Color, Symbol, and Texture Details",unclear colormaps,2,color contrast/clarity,color contrast/clarity
+Line,Data Density / Image Clutter,overlapping shapes/colors/lines,3,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Line,Data Density / Image Clutter,fine/layered details,1,much/little data/info,much/little data/info
+Line,Data Density / Image Clutter,little data/info,2,much/little data/info,much/little data/info
+Line,Data Density / Image Clutter,much/more data/info/info spread,4,much/little data/info,much/little data/info
+Line,Data Density / Image Clutter,simple information,1,much/little data/info,much/little data/info
+Line,Data Density / Image Clutter,too much data/info,1,much/little data/info,much/little data/info
+Line,Data Density / Image Clutter,dense points/lines/shapes/elements,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Line,Data Density / Image Clutter,many points/lines/shapes/elements,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Line,Data Density / Image Clutter,more charts/points/lines/shapes/elements,7,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Line,Data Density / Image Clutter,many numbers,1,amount of words/context/numbers,amount of words/context/numbers
+Line,Data Density / Image Clutter,more parameters/variables,1,more parameters/variables,
+Line,Immediacy / Cognitive Load,unclear meaning/confusing,4,unclear meaning/confusing,unclear meaning/confusing
+Line,Immediacy / Cognitive Load,more thinking,1,take longer to interpret,take longer to interpret
+Line,Immediacy / Cognitive Load,take longer to interpret,4,take longer to interpret,take longer to interpret
+Line,Immediacy / Cognitive Load,shape misunderstanding,1,shapes and lines,shapes and lines
+Line,Immediacy / Cognitive Load,easier to interpret/read/understand,2,easy/hard to interpret,easy/hard to interpret
+Line,Immediacy / Cognitive Load,easy to focus/follow,1,easy/hard to interpret,easy/hard to interpret
+Line,Immediacy / Cognitive Load,easy to identify/extract/find features,1,easy/hard to interpret,easy/hard to interpret
+Line,Immediacy / Cognitive Load,easy to interpret/read/understand,5,easy/hard to interpret,easy/hard to interpret
+Line,Immediacy / Cognitive Load,hard to focus/follow,1,easy/hard to interpret,easy/hard to interpret
+Line,Immediacy / Cognitive Load,hard to interpret/read/understand,4,easy/hard to interpret,easy/hard to interpret
+Line,Immediacy / Cognitive Load,hard to interpret/read/understand/differentiate,1,easy/hard to interpret,easy/hard to interpret
+Line,Immediacy / Cognitive Load,intuitive,1,easy/hard to interpret,easy/hard to interpret
+Line,Immediacy / Cognitive Load,more difficult to interpret/read/understand/differentiate,3,easy/hard to interpret,easy/hard to interpret
+Line,Immediacy / Cognitive Load,more interpretable/readable/understandable,1,easy/hard to interpret,easy/hard to interpret
+Line,Schema,a specific technique,3,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Line,Schema,"domain-specific concepts (e.g., chemical, biology, map)",5,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Line,Schema,familiar representation,2,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Line,Schema,unfamiliar concepts/patterns,3,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Line,Semantics / Text Legibility,easier to read,1,word rotation/small font size,word rotation/small font size
+Line,Semantics / Text Legibility,readability,4,word rotation/small font size,word rotation/small font size
+Line,Semantics / Text Legibility,unclear relation between words,1,unclear meaning/confusing,unclear meaning/confusing
+Line,Semantics / Text Legibility,axis scales,1,labels/axes/legends,labels/axes/legends
+Line,Semantics / Text Legibility,captions,1,labels/axes/legends,labels/axes/legends
+Line,Semantics / Text Legibility,lack of/not enough axis labels/legend/annotations/context,4,labels/axes/legends,labels/axes/legends
+Line,Semantics / Text Legibility,no measurement/metric/axis,2,labels/axes/legends,labels/axes/legends
+Line,Semantics / Text Legibility,title/axis/label/descriptions,5,labels/axes/legends,labels/axes/legends
+Line,Semantics / Text Legibility,with legend,1,labels/axes/legends,labels/axes/legends
+Line,Semantics / Text Legibility,context,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Line,Semantics / Text Legibility,eye-catching description,1,color variety/shading,color variety/shading
+Line,Semantics / Text Legibility,amount of words/context/numbers,1,amount of words/context/numbers,amount of words/context/numbers
+Line,Semantics / Text Legibility,involves numbers,1,amount of words/context/numbers,amount of words/context/numbers
+Line,Semantics / Text Legibility,word/text/sentence,2,amount of words/context/numbers,amount of words/context/numbers
+Line,Semantics / Text Legibility,fewer axes,1,2D/3D,2D/3D
+Line,Semantics / Text Legibility,-,1,-,
+Line,Visual Encoding Clarity,understand/read shapes,1,understand/read shapes,understand/read shapes
+Line,Visual Encoding Clarity,clear indication,1,unclear meaning/confusing,unclear meaning/confusing
+Line,Visual Encoding Clarity,different clarity,1,unclear meaning/confusing,unclear meaning/confusing
+Line,Visual Encoding Clarity,curved lines,1,shapes and lines,shapes and lines
+Line,Visual Encoding Clarity,curves and shapes,1,shapes and lines,shapes and lines
+Line,Visual Encoding Clarity,error bars,1,shapes and lines,shapes and lines
+Line,Visual Encoding Clarity,few lines,1,shapes and lines,shapes and lines
+Line,Visual Encoding Clarity,indistinguishable/unintuitive lines,1,shapes and lines,shapes and lines
+Line,Visual Encoding Clarity,line movement,1,shapes and lines,shapes and lines
+Line,Visual Encoding Clarity,line quantity representation,1,shapes and lines,shapes and lines
+Line,Visual Encoding Clarity,lines,3,shapes and lines,shapes and lines
+Line,Visual Encoding Clarity,shape size variation,1,shapes and lines,shapes and lines
+Line,Visual Encoding Clarity,shapes and lines,3,shapes and lines,shapes and lines
+Line,Visual Encoding Clarity,size variation,1,shapes and lines,shapes and lines
+Line,Visual Encoding Clarity,smooth lines,1,shapes and lines,shapes and lines
+Line,Visual Encoding Clarity,straight lines,1,shapes and lines,shapes and lines
+Line,Visual Encoding Clarity,no detail,1,much/little data/info,much/little data/info
+Line,Visual Encoding Clarity,graph,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Line,Visual Encoding Clarity,metric representation,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Line,Visual Encoding Clarity,plots,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Line,Visual Encoding Clarity,exact value,1,color variety/shading,color variety/shading
+Line,Visual Encoding Clarity,clear colors/shapes,1,clear colors/shapes,clear colors/shapes
+Line,Visual Encoding Clarity,number of levels,1,2D/3D,2D/3D
+Line,Visual Encoding Clarity,design-data relationship,1,design-data relationship,
+Line,Visual Encoding Clarity,scale difference,1,scale difference,
+Line,Visual Encoding Clarity,shape increase/decrease point,2,shape increase/decrease point,
+Line,Visual Encoding Clarity,shape variation,1,shape variation,
+Line,Visual Encoding Clarity,simple visual elements,2,simple visual elements,
+Node-link,Aesthetics Uncertainty,arbitrary imaging,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Node-link,Aesthetics Uncertainty,distracting/confusing/unclear,1,distracting/confusing/unclear,distracting/confusing/unclear
+Node-link,Aesthetics Uncertainty,feeling strange,1,distracting/confusing/unclear,distracting/confusing/unclear
+Node-link,Aesthetics Uncertainty,looks random/messy/lack structure,1,distracting/confusing/unclear,distracting/confusing/unclear
+Node-link,Aesthetics Uncertainty,visual clarity/appealing,1,distracting/confusing/unclear,distracting/confusing/unclear
+Node-link,"Color, Symbol, and Texture Details",texture details,1,symbols,symbols
+Node-link,"Color, Symbol, and Texture Details",appealing colors,1,color variety/shading,color variety/shading
+Node-link,"Color, Symbol, and Texture Details",black color,1,color variety/shading,color variety/shading
+Node-link,"Color, Symbol, and Texture Details",black-to-white/color gradient,1,color variety/shading,color variety/shading
+Node-link,"Color, Symbol, and Texture Details",color dimension,1,color variety/shading,color variety/shading
+Node-link,"Color, Symbol, and Texture Details",color scale/scheme,1,color variety/shading,color variety/shading
+Node-link,"Color, Symbol, and Texture Details",color shading,1,color variety/shading,color variety/shading
+Node-link,"Color, Symbol, and Texture Details",color variety/arrangement/distribution,7,color variety/shading,color variety/shading
+Node-link,"Color, Symbol, and Texture Details",intense/too many colors,1,color variety/shading,color variety/shading
+Node-link,"Color, Symbol, and Texture Details",similar colors,1,color variety/shading,color variety/shading
+Node-link,"Color, Symbol, and Texture Details",too many colors,2,color variety/shading,color variety/shading
+Node-link,"Color, Symbol, and Texture Details",very different colors,1,color variety/shading,color variety/shading
+Node-link,"Color, Symbol, and Texture Details",lack of color contrast / hard to distinguish colors,2,color contrast/clarity,color contrast/clarity
+Node-link,"Color, Symbol, and Texture Details",low color contrast/separation/segmentation,1,color contrast/clarity,color contrast/clarity
+Node-link,"Color, Symbol, and Texture Details",unclear color meaning,2,color contrast/clarity,color contrast/clarity
+Node-link,"Color, Symbol, and Texture Details",unclear coloring,1,color contrast/clarity,color contrast/clarity
+Node-link,"Color, Symbol, and Texture Details",unclear colormaps,4,color contrast/clarity,color contrast/clarity
+Node-link,"Color, Symbol, and Texture Details",bright colors,1,bright colors,
+Node-link,"Color, Symbol, and Texture Details",clear color uses,1,distinguishable/full/highly contrast color uses,
+Node-link,"Color, Symbol, and Texture Details",distinguishable/full/highly contrast color uses,1,distinguishable/full/highly contrast color uses,
+Node-link,"Color, Symbol, and Texture Details",monochrome,2,monochrome,
+Node-link,Data Density / Image Clutter,dense/cluttered data/info,2,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Node-link,Data Density / Image Clutter,dense/cluttered layout,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Node-link,Data Density / Image Clutter,less empty space,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Node-link,Data Density / Image Clutter,messy/mixed up/noisy/intermingled elements,3,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Node-link,Data Density / Image Clutter,overlapping shapes/colors/lines,8,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Node-link,Data Density / Image Clutter,clustered data/info,1,much/little data/info,much/little data/info
+Node-link,Data Density / Image Clutter,fine/layered details,1,much/little data/info,much/little data/info
+Node-link,Data Density / Image Clutter,little data/info,3,much/little data/info,much/little data/info
+Node-link,Data Density / Image Clutter,more detailed/things,5,much/little data/info,much/little data/info
+Node-link,Data Density / Image Clutter,much/more data/info/info spread,8,much/little data/info,much/little data/info
+Node-link,Data Density / Image Clutter,too much data/info,1,much/little data/info,much/little data/info
+Node-link,Data Density / Image Clutter,dense points/lines/shapes/elements,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Node-link,Data Density / Image Clutter,few points/lines/shapes/elements,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Node-link,Data Density / Image Clutter,many points/lines/shapes/elements,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Node-link,Data Density / Image Clutter,more charts/points/lines/shapes/elements,12,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Node-link,Data Density / Image Clutter,multiple features/elements/graphs,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Node-link,Data Density / Image Clutter,multiple interacting elements,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Node-link,Data Density / Image Clutter,too many details/divisions,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Node-link,Data Density / Image Clutter,too many sections,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Node-link,Data Density / Image Clutter,organized/structured,1,2D/3D,2D/3D
+Node-link,Data Density / Image Clutter,"scattered shapes (e.g., dots, squares, pictures)",1,"scattered shapes (e.g., dots, squares, pictures)",
+Node-link,Immediacy / Cognitive Load,unclear meaning/confusing,5,unclear meaning/confusing,unclear meaning/confusing
+Node-link,Immediacy / Cognitive Load,more reading/interpretation/understanding,1,take longer to interpret,take longer to interpret
+Node-link,Immediacy / Cognitive Load,multiple interpretation,1,take longer to interpret,take longer to interpret
+Node-link,Immediacy / Cognitive Load,take longer to interpret,3,take longer to interpret,take longer to interpret
+Node-link,Immediacy / Cognitive Load,complicated to process,1,easy/hard to interpret,easy/hard to interpret
+Node-link,Immediacy / Cognitive Load,easier to interpret/read/understand,1,easy/hard to interpret,easy/hard to interpret
+Node-link,Immediacy / Cognitive Load,easier to see/tell/visualize,1,easy/hard to interpret,easy/hard to interpret
+Node-link,Immediacy / Cognitive Load,easy to focus/follow,1,easy/hard to interpret,easy/hard to interpret
+Node-link,Immediacy / Cognitive Load,easy to interpret/read/understand,5,easy/hard to interpret,easy/hard to interpret
+Node-link,Immediacy / Cognitive Load,hard to compare/discern/distinguish,2,easy/hard to interpret,easy/hard to interpret
+Node-link,Immediacy / Cognitive Load,hard to focus/follow,2,easy/hard to interpret,easy/hard to interpret
+Node-link,Immediacy / Cognitive Load,hard to interpret/read/understand,11,easy/hard to interpret,easy/hard to interpret
+Node-link,Immediacy / Cognitive Load,hard to interpret/read/understand/differentiate,5,easy/hard to interpret,easy/hard to interpret
+Node-link,Immediacy / Cognitive Load,hard to see/tell/visualize,1,easy/hard to interpret,easy/hard to interpret
+Node-link,Immediacy / Cognitive Load,intuitive,2,easy/hard to interpret,easy/hard to interpret
+Node-link,Immediacy / Cognitive Load,less intuitive,1,easy/hard to interpret,easy/hard to interpret
+Node-link,Immediacy / Cognitive Load,more complicated,4,easy/hard to interpret,easy/hard to interpret
+Node-link,Immediacy / Cognitive Load,more difficult to interpret/read/understand/differentiate,2,easy/hard to interpret,easy/hard to interpret
+Node-link,Immediacy / Cognitive Load,not interpretable/readable/understandable,5,easy/hard to interpret,easy/hard to interpret
+Node-link,Immediacy / Cognitive Load,more difficult to focus/follow,1,more difficult to focus/follow,
+Node-link,Schema,a specific domain,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Node-link,Schema,a specific technique,4,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Node-link,Schema,"a specific technique, e.g., bar, pie, circle",1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Node-link,Schema,"domain-specific concepts (e.g., chemical, biology, map)",6,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Node-link,Schema,familiar representation,4,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Node-link,Schema,no context or reference,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Node-link,Schema,unfamiliar concepts/patterns,2,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Node-link,Schema,abstract shapes or colors,1,abstract shapes or colors,abstract shapes or colors
+Node-link,Schema,waterfall-like,1,random-like shapes,
+Node-link,Semantics / Text Legibility,small and simple,1,word rotation/small font size,word rotation/small font size
+Node-link,Semantics / Text Legibility,text hard to read,1,word rotation/small font size,word rotation/small font size
+Node-link,Semantics / Text Legibility,word rotation/small font size,1,word rotation/small font size,word rotation/small font size
+Node-link,Semantics / Text Legibility,mixed size,1,shapes and lines,shapes and lines
+Node-link,Semantics / Text Legibility,label meaning,1,labels/axes/legends,labels/axes/legends
+Node-link,Semantics / Text Legibility,lack of/not enough axis labels/legend/annotations/context,5,labels/axes/legends,labels/axes/legends
+Node-link,Semantics / Text Legibility,no measurement/metric/axis,1,labels/axes/legends,labels/axes/legends
+Node-link,Semantics / Text Legibility,title/axis/label/descriptions,2,labels/axes/legends,labels/axes/legends
+Node-link,Semantics / Text Legibility,fast readability,1,easy/hard to interpret,easy/hard to interpret
+Node-link,Semantics / Text Legibility,amount of words/context/numbers,3,amount of words/context/numbers,amount of words/context/numbers
+Node-link,Semantics / Text Legibility,context/text/description,1,amount of words/context/numbers,amount of words/context/numbers
+Node-link,Semantics / Text Legibility,involves numbers,1,amount of words/context/numbers,amount of words/context/numbers
+Node-link,Semantics / Text Legibility,more text boxes,1,amount of words/context/numbers,amount of words/context/numbers
+Node-link,Semantics / Text Legibility,more texts/words,1,amount of words/context/numbers,amount of words/context/numbers
+Node-link,Semantics / Text Legibility,text,1,amount of words/context/numbers,amount of words/context/numbers
+Node-link,Semantics / Text Legibility,text and imagery,1,amount of words/context/numbers,amount of words/context/numbers
+Node-link,Semantics / Text Legibility,text ratio,1,amount of words/context/numbers,amount of words/context/numbers
+Node-link,Semantics / Text Legibility,word/text/sentence,3,amount of words/context/numbers,amount of words/context/numbers
+Node-link,Semantics / Text Legibility,number distribution,1,2D/3D,2D/3D
+Node-link,Semantics / Text Legibility,clear text/scale/information,1,clear text/scale/information,
+Node-link,Semantics / Text Legibility,little/less text/numbers/context,1,little/less text/numbers/context,
+Node-link,Visual Encoding Clarity,understand/read shapes,1,understand/read shapes,understand/read shapes
+Node-link,Visual Encoding Clarity,clear indication,1,unclear meaning/confusing,unclear meaning/confusing
+Node-link,Visual Encoding Clarity,confusing connection,3,unclear meaning/confusing,unclear meaning/confusing
+Node-link,Visual Encoding Clarity,unclear meaning,2,unclear meaning/confusing,unclear meaning/confusing
+Node-link,Visual Encoding Clarity,unclear what data conveys,1,unclear meaning/confusing,unclear meaning/confusing
+Node-link,Visual Encoding Clarity,nodes,1,symbols,symbols
+Node-link,Visual Encoding Clarity,curves and shapes,1,shapes and lines,shapes and lines
+Node-link,Visual Encoding Clarity,element sizes,3,shapes and lines,shapes and lines
+Node-link,Visual Encoding Clarity,indistinguishable/unintuitive lines,1,shapes and lines,shapes and lines
+Node-link,Visual Encoding Clarity,intersecting lines,2,shapes and lines,shapes and lines
+Node-link,Visual Encoding Clarity,lines,5,shapes and lines,shapes and lines
+Node-link,Visual Encoding Clarity,lines and scales,1,shapes and lines,shapes and lines
+Node-link,Visual Encoding Clarity,number of vertical lines,1,shapes and lines,shapes and lines
+Node-link,Visual Encoding Clarity,shape size variation,1,shapes and lines,shapes and lines
+Node-link,Visual Encoding Clarity,shape variety,1,shapes and lines,shapes and lines
+Node-link,Visual Encoding Clarity,shapes,2,shapes and lines,shapes and lines
+Node-link,Visual Encoding Clarity,shapes and lines,7,shapes and lines,shapes and lines
+Node-link,Visual Encoding Clarity,straight lines,1,shapes and lines,shapes and lines
+Node-link,Visual Encoding Clarity,more nuance information,1,much/little data/info,much/little data/info
+Node-link,Visual Encoding Clarity,nothing clear,1,easy/hard to interpret,easy/hard to interpret
+Node-link,Visual Encoding Clarity,information nuance expressed,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Node-link,Visual Encoding Clarity,network representation,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Node-link,Visual Encoding Clarity,clear connection,1,distracting/confusing/unclear,distracting/confusing/unclear
+Node-link,Visual Encoding Clarity,random-like movement,1,distracting/confusing/unclear,distracting/confusing/unclear
+Node-link,Visual Encoding Clarity,shapes and contrasts,2,color contrast/clarity,color contrast/clarity
+Node-link,Visual Encoding Clarity,clear colors/shapes,1,clear colors/shapes,clear colors/shapes
+Node-link,Visual Encoding Clarity,numbers and shapes,1,amount of words/context/numbers,amount of words/context/numbers
+Node-link,Visual Encoding Clarity,2D/3D,3,2D/3D,2D/3D
+Node-link,Visual Encoding Clarity,image layout,1,2D/3D,2D/3D
+Node-link,Visual Encoding Clarity,design-data relationship,1,design-data relationship,
+Node-link,Visual Encoding Clarity,less organized elements,1,less organized elements,
+Node-link,Visual Encoding Clarity,random-like shapes,2,random-like shapes,
+Node-link,Visual Encoding Clarity,shape point of interest,2,shape point of interest,
+Node-link,Visual Encoding Clarity,shape position,1,shape position,
+Point,Aesthetics Uncertainty,unclear colors/contrast,1,unclear colors/contrast,unclear colors/contrast
+Point,Aesthetics Uncertainty,convoluted composition,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Point,Aesthetics Uncertainty,less simple,1,easy/hard to interpret,easy/hard to interpret
+Point,Aesthetics Uncertainty,distracting/confusing/unclear,2,distracting/confusing/unclear,distracting/confusing/unclear
+Point,Aesthetics Uncertainty,less attractive,1,distracting/confusing/unclear,distracting/confusing/unclear
+Point,Aesthetics Uncertainty,looks random/messy/lack structure,2,distracting/confusing/unclear,distracting/confusing/unclear
+Point,"Color, Symbol, and Texture Details",texture details,1,symbols,symbols
+Point,"Color, Symbol, and Texture Details",readable/distinguishable colors,1,easy/hard to interpret,easy/hard to interpret
+Point,"Color, Symbol, and Texture Details",amount of / too many colors,4,color variety/shading,color variety/shading
+Point,"Color, Symbol, and Texture Details",color variety/arrangement/distribution,10,color variety/shading,color variety/shading
+Point,"Color, Symbol, and Texture Details",not simple color-wise,1,color variety/shading,color variety/shading
+Point,"Color, Symbol, and Texture Details",too many colors,1,color variety/shading,color variety/shading
+Point,"Color, Symbol, and Texture Details",good color contrast/separation/segmentation,1,color contrast/clarity,color contrast/clarity
+Point,"Color, Symbol, and Texture Details",low color contrast/separation/segmentation,2,color contrast/clarity,color contrast/clarity
+Point,"Color, Symbol, and Texture Details",more contrast,1,color contrast/clarity,color contrast/clarity
+Point,"Color, Symbol, and Texture Details",unclear color meaning,1,color contrast/clarity,color contrast/clarity
+Point,"Color, Symbol, and Texture Details",unclear colormaps,5,color contrast/clarity,color contrast/clarity
+Point,"Color, Symbol, and Texture Details",inadequate/few coloring,1,inadequate/few coloring,
+Point,Data Density / Image Clutter,more to read/analyze/understand,1,take longer to interpret,take longer to interpret
+Point,Data Density / Image Clutter,concentrated,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Point,Data Density / Image Clutter,dense/cluttered data/info,5,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Point,Data Density / Image Clutter,dense/cluttered layout,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Point,Data Density / Image Clutter,overlapping shapes/colors/lines,2,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Point,Data Density / Image Clutter,fine/layered details,2,much/little data/info,much/little data/info
+Point,Data Density / Image Clutter,large dataset,1,much/little data/info,much/little data/info
+Point,Data Density / Image Clutter,little data/info,4,much/little data/info,much/little data/info
+Point,Data Density / Image Clutter,many measurements,1,much/little data/info,much/little data/info
+Point,Data Density / Image Clutter,more detailed/things,7,much/little data/info,much/little data/info
+Point,Data Density / Image Clutter,much/more data/info/info spread,10,much/little data/info,much/little data/info
+Point,Data Density / Image Clutter,too much data/info,2,much/little data/info,much/little data/info
+Point,Data Density / Image Clutter,dense points/lines/shapes/elements,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Point,Data Density / Image Clutter,few points/lines/shapes/elements,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Point,Data Density / Image Clutter,many points/lines/shapes/elements,2,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Point,Data Density / Image Clutter,many/more data/info,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Point,Data Density / Image Clutter,more charts/points/lines/shapes/elements,13,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Point,Data Density / Image Clutter,multiple features/elements/graphs,2,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Point,Data Density / Image Clutter,too many points/lines/shapes/elements,3,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Point,Data Density / Image Clutter,too many subplots,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Point,Data Density / Image Clutter,many numbers,1,amount of words/context/numbers,amount of words/context/numbers
+Point,Data Density / Image Clutter,organized/structured,1,2D/3D,2D/3D
+Point,Data Density / Image Clutter,more parameters/variables,2,more parameters/variables,
+Point,Data Density / Image Clutter,"scattered shapes (e.g., dots, squares, pictures)",1,"scattered shapes (e.g., dots, squares, pictures)",
+Point,Immediacy / Cognitive Load,unclear meaning/confusing,1,unclear meaning/confusing,unclear meaning/confusing
+Point,Immediacy / Cognitive Load,more effort/reading/detailed analysis,1,take longer to interpret,take longer to interpret
+Point,Immediacy / Cognitive Load,more reading/interpretation/understanding,1,take longer to interpret,take longer to interpret
+Point,Immediacy / Cognitive Load,more to read/analyze/understand,2,take longer to interpret,take longer to interpret
+Point,Immediacy / Cognitive Load,take longer to interpret,4,take longer to interpret,take longer to interpret
+Point,Immediacy / Cognitive Load,easier to compare/discern/distinguish,1,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,easier to interpret/read/understand,3,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,easier to process/visualize,2,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,easy to interpret/read/understand,3,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,hard to compare/discern/distinguish,1,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,hard to focus/follow,1,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,hard to identify/extract/find features,1,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,hard to interpret/read/understand,2,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,hard to interpret/read/understand/differentiate,4,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,hard to see/tell/visualize,1,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,intuitive,1,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,less intuitive,1,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,more complicated,1,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,more difficult,1,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,more difficult to compare/discern/distinguish,1,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,more difficult to interpret/read/understand/differentiate,3,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,more interpretable/readable/understandable,1,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,more intricate,1,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,not interpretable/readable/understandable,1,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,unable to remember,1,easy/hard to interpret,easy/hard to interpret
+Point,Immediacy / Cognitive Load,not intuitive/simple data,2,distracting/confusing/unclear,distracting/confusing/unclear
+Point,Immediacy / Cognitive Load,more difficult to focus/follow,1,more difficult to focus/follow,
+Point,Schema,a specific domain,2,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Point,Schema,a specific technique,2,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Point,Schema,"a specific technique, e.g., bar, pie, circle",1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Point,Schema,"domain-specific concepts (e.g., chemical, biology, map)",6,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Point,Schema,familiar representation,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Point,Schema,unfamiliar concepts/patterns,5,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Point,Semantics / Text Legibility,detailed inscription,1,word rotation/small font size,word rotation/small font size
+Point,Semantics / Text Legibility,different font/word sizes/structure,2,word rotation/small font size,word rotation/small font size
+Point,Semantics / Text Legibility,easier to read,1,word rotation/small font size,word rotation/small font size
+Point,Semantics / Text Legibility,word rotation/small font size,4,word rotation/small font size,word rotation/small font size
+Point,Semantics / Text Legibility,unclear relation between words,2,unclear meaning/confusing,unclear meaning/confusing
+Point,Semantics / Text Legibility,y-axis meaning unclear,1,unclear meaning/confusing,unclear meaning/confusing
+Point,Semantics / Text Legibility,cluttered labels/annotations,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Point,Semantics / Text Legibility,axis meaning,1,labels/axes/legends,labels/axes/legends
+Point,Semantics / Text Legibility,labeled axis,1,labels/axes/legends,labels/axes/legends
+Point,Semantics / Text Legibility,lack of legend,1,labels/axes/legends,labels/axes/legends
+Point,Semantics / Text Legibility,lack of/not enough axis labels/legend/annotations/context,5,labels/axes/legends,labels/axes/legends
+Point,Semantics / Text Legibility,more title/axis/label,3,labels/axes/legends,labels/axes/legends
+Point,Semantics / Text Legibility,no measurement/metric/axis,1,labels/axes/legends,labels/axes/legends
+Point,Semantics / Text Legibility,title/axis/label/descriptions,4,labels/axes/legends,labels/axes/legends
+Point,Semantics / Text Legibility,too much legend,4,labels/axes/legends,labels/axes/legends
+Point,Semantics / Text Legibility,fast readability,1,easy/hard to interpret,easy/hard to interpret
+Point,Semantics / Text Legibility,more legible,1,easy/hard to interpret,easy/hard to interpret
+Point,Semantics / Text Legibility,factual information,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Point,Semantics / Text Legibility,nonlinear measurement/metric/axis,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Point,Semantics / Text Legibility,clear and concise,1,distracting/confusing/unclear,distracting/confusing/unclear
+Point,Semantics / Text Legibility,ambiguous numbers,1,amount of words/context/numbers,amount of words/context/numbers
+Point,Semantics / Text Legibility,amount of words/context/numbers,3,amount of words/context/numbers,amount of words/context/numbers
+Point,Semantics / Text Legibility,code/text,1,amount of words/context/numbers,amount of words/context/numbers
+Point,Semantics / Text Legibility,more texts/words,3,amount of words/context/numbers,amount of words/context/numbers
+Point,Semantics / Text Legibility,text and imagery,1,amount of words/context/numbers,amount of words/context/numbers
+Point,Semantics / Text Legibility,text on picture,1,amount of words/context/numbers,amount of words/context/numbers
+Point,Semantics / Text Legibility,word/text/sentence,3,amount of words/context/numbers,amount of words/context/numbers
+Point,Semantics / Text Legibility,clear text/scale/information,1,clear text/scale/information,
+Point,Semantics / Text Legibility,little/less text/numbers/context,1,little/less text/numbers/context,
+Point,Semantics / Text Legibility,more labels/context,2,more labels/context,
+Point,Visual Encoding Clarity,small,1,word rotation/small font size,word rotation/small font size
+Point,Visual Encoding Clarity,clear indication,1,unclear meaning/confusing,unclear meaning/confusing
+Point,Visual Encoding Clarity,different clarity,1,unclear meaning/confusing,unclear meaning/confusing
+Point,Visual Encoding Clarity,unclear meaning,1,unclear meaning/confusing,unclear meaning/confusing
+Point,Visual Encoding Clarity,unclear shape meaning,1,unclear meaning/confusing,unclear meaning/confusing
+Point,Visual Encoding Clarity,unclear structure,1,unclear meaning/confusing,unclear meaning/confusing
+Point,Visual Encoding Clarity,unclear what data conveys,2,unclear meaning/confusing,unclear meaning/confusing
+Point,Visual Encoding Clarity,indistinguishable/unintuitive lines,1,shapes and lines,shapes and lines
+Point,Visual Encoding Clarity,lines,2,shapes and lines,shapes and lines
+Point,Visual Encoding Clarity,shape size variation,2,shapes and lines,shapes and lines
+Point,Visual Encoding Clarity,shape subset representation,1,shapes and lines,shapes and lines
+Point,Visual Encoding Clarity,shapes,4,shapes and lines,shapes and lines
+Point,Visual Encoding Clarity,shapes and lines,3,shapes and lines,shapes and lines
+Point,Visual Encoding Clarity,straight lines,1,shapes and lines,shapes and lines
+Point,Visual Encoding Clarity,multiple aspects,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Point,Visual Encoding Clarity,information nuance expressed,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Point,Visual Encoding Clarity,technical encoding,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Point,Visual Encoding Clarity,unique data point,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Point,Visual Encoding Clarity,clear colors/shapes,1,clear colors/shapes,clear colors/shapes
+Point,Visual Encoding Clarity,abstract shapes or colors,1,abstract shapes or colors,abstract shapes or colors
+Point,Visual Encoding Clarity,2D/3D,2,2D/3D,2D/3D
+Point,Visual Encoding Clarity,grid layout,1,2D/3D,2D/3D
+Point,Visual Encoding Clarity,spatial organization,1,2D/3D,2D/3D
+Point,Visual Encoding Clarity,ordered,1,ordered,
+Point,Visual Encoding Clarity,"scattered shapes (e.g., dots, squares, pictures)",1,"scattered shapes (e.g., dots, squares, pictures)",
+Point,Visual Encoding Clarity,several elements,1,several elements,
+Point,Visual Encoding Clarity,shape increase/decrease point,1,shape increase/decrease point,
+Point,Visual Encoding Clarity,precision of aspect,1,shape point of interest,
+Point,Visual Encoding Clarity,shape position,1,shape position,
+Point,Visual Encoding Clarity,shape variation,1,shape variation,
+Text,Aesthetics Uncertainty,distracting/confusing/unclear,1,distracting/confusing/unclear,distracting/confusing/unclear
+Text,Aesthetics Uncertainty,inconsistent,1,distracting/confusing/unclear,distracting/confusing/unclear
+Text,Aesthetics Uncertainty,irregular,1,distracting/confusing/unclear,distracting/confusing/unclear
+Text,Aesthetics Uncertainty,less attractive,1,distracting/confusing/unclear,distracting/confusing/unclear
+Text,Aesthetics Uncertainty,looks random/messy/lack structure,1,distracting/confusing/unclear,distracting/confusing/unclear
+Text,"Color, Symbol, and Texture Details",amount of / too many colors,1,color variety/shading,color variety/shading
+Text,"Color, Symbol, and Texture Details",color variety/arrangement/distribution,6,color variety/shading,color variety/shading
+Text,"Color, Symbol, and Texture Details",ambiguous/confusing colors,1,color contrast/clarity,color contrast/clarity
+Text,"Color, Symbol, and Texture Details",low color contrast/separation/segmentation,1,color contrast/clarity,color contrast/clarity
+Text,"Color, Symbol, and Texture Details",no color difference,1,color contrast/clarity,color contrast/clarity
+Text,"Color, Symbol, and Texture Details",unclear color meaning,1,color contrast/clarity,color contrast/clarity
+Text,"Color, Symbol, and Texture Details",unclear coloring,1,color contrast/clarity,color contrast/clarity
+Text,"Color, Symbol, and Texture Details",unclear colormaps,1,color contrast/clarity,color contrast/clarity
+Text,"Color, Symbol, and Texture Details",monochrome,1,monochrome,
+Text,"Color, Symbol, and Texture Details",soft/layered/overlapping colors,1,soft/layered/overlapping colors,
+Text,"Color, Symbol, and Texture Details",two colors,3,two colors,
+Text,Data Density / Image Clutter,dense/cluttered data/info,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Text,Data Density / Image Clutter,dense/cluttered layout,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Text,Data Density / Image Clutter,messy/mixed up/noisy/intermingled elements,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Text,Data Density / Image Clutter,clustered data/info,1,much/little data/info,much/little data/info
+Text,Data Density / Image Clutter,fine/layered details,1,much/little data/info,much/little data/info
+Text,Data Density / Image Clutter,little data/info,2,much/little data/info,much/little data/info
+Text,Data Density / Image Clutter,more detailed/things,2,much/little data/info,much/little data/info
+Text,Data Density / Image Clutter,much/more data/info/info spread,7,much/little data/info,much/little data/info
+Text,Data Density / Image Clutter,too much data/info,1,much/little data/info,much/little data/info
+Text,Data Density / Image Clutter,many points/lines/shapes/elements,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Text,Data Density / Image Clutter,many/more data/info,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Text,Data Density / Image Clutter,more charts/points/lines/shapes/elements,3,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Text,Data Density / Image Clutter,too many details/divisions,1,more charts/points/lines/shapes/elements,more charts/points/lines/shapes/elements
+Text,Immediacy / Cognitive Load,unclear meaning/confusing,2,unclear meaning/confusing,unclear meaning/confusing
+Text,Immediacy / Cognitive Load,more reading/interpretation/understanding,2,take longer to interpret,take longer to interpret
+Text,Immediacy / Cognitive Load,provokes thought and understanding,1,take longer to interpret,take longer to interpret
+Text,Immediacy / Cognitive Load,easier to interpret/read/understand,1,easy/hard to interpret,easy/hard to interpret
+Text,Immediacy / Cognitive Load,easier to process/visualize,1,easy/hard to interpret,easy/hard to interpret
+Text,Immediacy / Cognitive Load,easy to interpret/read/understand,6,easy/hard to interpret,easy/hard to interpret
+Text,Immediacy / Cognitive Load,easy to understand,1,easy/hard to interpret,easy/hard to interpret
+Text,Immediacy / Cognitive Load,hard to interpret/read/understand,5,easy/hard to interpret,easy/hard to interpret
+Text,Immediacy / Cognitive Load,hard to interpret/read/understand/differentiate,1,easy/hard to interpret,easy/hard to interpret
+Text,Immediacy / Cognitive Load,hard to read shape,1,easy/hard to interpret,easy/hard to interpret
+Text,Immediacy / Cognitive Load,hard to see/tell/visualize,1,easy/hard to interpret,easy/hard to interpret
+Text,Immediacy / Cognitive Load,less intuitive,1,easy/hard to interpret,easy/hard to interpret
+Text,Immediacy / Cognitive Load,more complicated,1,easy/hard to interpret,easy/hard to interpret
+Text,Immediacy / Cognitive Load,more difficult,1,easy/hard to interpret,easy/hard to interpret
+Text,Immediacy / Cognitive Load,more difficult to interpret/read/understand/differentiate,2,easy/hard to interpret,easy/hard to interpret
+Text,Immediacy / Cognitive Load,more intricate,1,easy/hard to interpret,easy/hard to interpret
+Text,Immediacy / Cognitive Load,not intuitive/simple data,1,distracting/confusing/unclear,distracting/confusing/unclear
+Text,Schema,a specific technique,5,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Text,Schema,"a specific technique, e.g., bar, pie, circle",1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Text,Schema,"domain-specific concepts (e.g., chemical, biology, map)",4,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Text,Schema,familiar representation,3,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Text,Schema,unfamiliar concepts/patterns,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Text,Semantics / Text Legibility,different font/word sizes/structure,6,word rotation/small font size,word rotation/small font size
+Text,Semantics / Text Legibility,order of words,1,word rotation/small font size,word rotation/small font size
+Text,Semantics / Text Legibility,readability,1,word rotation/small font size,word rotation/small font size
+Text,Semantics / Text Legibility,single font,1,word rotation/small font size,word rotation/small font size
+Text,Semantics / Text Legibility,word rotation/small font size,6,word rotation/small font size,word rotation/small font size
+Text,Semantics / Text Legibility,different word meaning,1,unclear meaning/confusing,unclear meaning/confusing
+Text,Semantics / Text Legibility,indication,1,unclear meaning/confusing,unclear meaning/confusing
+Text,Semantics / Text Legibility,lack of meaning,1,unclear meaning/confusing,unclear meaning/confusing
+Text,Semantics / Text Legibility,unclear relation between words,1,unclear meaning/confusing,unclear meaning/confusing
+Text,Semantics / Text Legibility,cluttered labels/annotations,1,overlapping shapes/colors/lines,overlapping shapes/colors/lines
+Text,Semantics / Text Legibility,clear title/axis/label,2,labels/axes/legends,labels/axes/legends
+Text,Semantics / Text Legibility,highlighted words,1,labels/axes/legends,labels/axes/legends
+Text,Semantics / Text Legibility,label meaning,1,labels/axes/legends,labels/axes/legends
+Text,Semantics / Text Legibility,lack of/not enough axis labels/legend/annotations/context,1,labels/axes/legends,labels/axes/legends
+Text,Semantics / Text Legibility,title/axis/label/descriptions,3,labels/axes/legends,labels/axes/legends
+Text,Semantics / Text Legibility,hard to read,2,easy/hard to interpret,easy/hard to interpret
+Text,Semantics / Text Legibility,unreadable,1,easy/hard to interpret,easy/hard to interpret
+Text,Semantics / Text Legibility,recognizable objects,1,"domain-specific concepts (e.g., chemical, biology, map)","domain-specific concepts (e.g., chemical, biology, map)"
+Text,Semantics / Text Legibility,dates,1,color variety/shading,color variety/shading
+Text,Semantics / Text Legibility,amount of words/context/numbers,3,amount of words/context/numbers,amount of words/context/numbers
+Text,Semantics / Text Legibility,code/text,1,amount of words/context/numbers,amount of words/context/numbers
+Text,Semantics / Text Legibility,more texts/words,6,amount of words/context/numbers,amount of words/context/numbers
+Text,Semantics / Text Legibility,word frequency,2,amount of words/context/numbers,amount of words/context/numbers
+Text,Semantics / Text Legibility,word/text/sentence,5,amount of words/context/numbers,amount of words/context/numbers
+Text,Semantics / Text Legibility,words and numbers,1,amount of words/context/numbers,amount of words/context/numbers
+Text,Semantics / Text Legibility,-,1,-,
+Text,Semantics / Text Legibility,clear text arrangement/density,1,clear text arrangement/density,
+Text,Semantics / Text Legibility,more labels/context,1,more labels/context,
+Text,Visual Encoding Clarity,understand/read shapes,1,understand/read shapes,understand/read shapes
+Text,Visual Encoding Clarity,no clear indication,1,unclear meaning/confusing,unclear meaning/confusing
+Text,Visual Encoding Clarity,curves and shapes,1,shapes and lines,shapes and lines
+Text,Visual Encoding Clarity,element sizes,2,shapes and lines,shapes and lines
+Text,Visual Encoding Clarity,indistinguishable/unintuitive lines,1,shapes and lines,shapes and lines
+Text,Visual Encoding Clarity,lines,2,shapes and lines,shapes and lines
+Text,Visual Encoding Clarity,shape variety,1,shapes and lines,shapes and lines
+Text,Visual Encoding Clarity,shapes,1,shapes and lines,shapes and lines
+Text,Visual Encoding Clarity,shapes and lines,1,shapes and lines,shapes and lines
+Text,Visual Encoding Clarity,more uniform design,1,2D/3D,2D/3D
+Text,Visual Encoding Clarity,design-data relationship,1,design-data relationship,
+Text,Visual Encoding Clarity,less organized elements,1,less organized elements,
+Text,Visual Encoding Clarity,scale difference,1,scale difference,
+Text,Visual Encoding Clarity,shape position,1,shape position,
+Text,Visual Encoding Clarity,simple visual elements,1,simple visual elements,

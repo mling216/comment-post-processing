@@ -1,0 +1,21 @@
+Phrase,Topic,SubTopic,Total,Area,Bar,Cont.-ColorPatn,Glyph,Grid,Line,Node-link,Point,Text
+more charts/points/lines/shapes/elements,Data Density / Image Clutter,Element Quantity,78,10.8,17.6,21.4,14.1,15.4,14.6,16.7,22.4,5.9
+"domain-specific concepts (e.g., chemical, biology, map)",Schema,Domain Familiarity,41,18.5,0.0,7.1,1.6,6.2,10.4,9.1,10.3,7.8
+unclear meaning/confusing,Immediacy / Cognitive Load,Semantic Clarity,29,6.2,5.9,7.1,6.2,4.6,10.4,7.6,0.0,3.9
+take longer to interpret,Immediacy / Cognitive Load,Processing Time & Effort,25,7.7,2.0,2.4,3.1,7.7,8.3,4.5,6.9,0.0
+shapes and lines,Visual Encoding Clarity,Graphical Forms & Primitives,23,3.1,3.9,2.4,6.2,0.0,6.2,10.6,5.2,2.0
+amount of words/context/numbers,Semantics / Text Legibility,Text Volume & Content,22,6.2,5.9,0.0,1.6,6.2,2.1,4.5,5.2,5.9
+distracting/confusing/unclear,Aesthetics Uncertainty,Visual Disorganization,21,4.6,2.0,7.1,6.2,3.1,8.3,1.5,3.4,2.0
+overlapping shapes/colors/lines,Data Density / Image Clutter,Visual Clutter & Overlap,17,3.1,0.0,2.4,1.6,0.0,6.2,12.1,3.4,0.0
+word rotation/small font size,Semantics / Text Legibility,Typography & Readability,17,7.7,0.0,0.0,0.0,1.5,0.0,1.5,6.9,11.8
+2D/3D,Schema,Dimensionality & Structure,10,1.5,2.0,4.8,1.6,0.0,0.0,4.5,3.4,0.0
+inadequate/few coloring,"Color, Symbol, and Texture Details",Color Palette & Contrast,8,1.5,0.0,0.0,4.7,4.6,0.0,0.0,1.7,0.0
+more parameters/variables,Data Density / Image Clutter,Information Volume,8,3.1,0.0,0.0,0.0,4.6,2.1,0.0,3.4,0.0
+unclear colors/contrast,Aesthetics Uncertainty,Perceptual Ambiguity,8,1.5,2.0,7.1,0.0,1.5,2.1,0.0,1.7,0.0
+soft/layered/overlapping colors,"Color, Symbol, and Texture Details",Color Palette & Contrast,6,6.2,2.0,0.0,0.0,1.5,0.0,0.0,0.0,0.0
+clear colors/shapes,Visual Encoding Clarity,Encoding Interpretability,5,1.5,2.0,0.0,0.0,0.0,2.1,1.5,1.7,0.0
+distinguishable/full/highly contrast color uses,"Color, Symbol, and Texture Details",Color Palette & Contrast,5,0.0,0.0,2.4,0.0,4.6,0.0,1.5,0.0,0.0
+abstract shapes or colors,Schema,Abstraction Level,5,1.5,0.0,2.4,1.6,0.0,0.0,1.5,1.7,0.0
+scale difference,Visual Encoding Clarity,"Position, Scale & Organization",4,1.5,2.0,0.0,0.0,0.0,2.1,0.0,0.0,2.0
+two colors,"Color, Symbol, and Texture Details",Color Palette & Contrast,4,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,5.9
+design-data relationship,Visual Encoding Clarity,Encoding Interpretability,4,0.0,2.0,0.0,0.0,0.0,2.1,1.5,0.0,2.0

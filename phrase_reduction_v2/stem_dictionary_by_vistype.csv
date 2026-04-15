@@ -1,0 +1,668 @@
+stem,POS,totalImages,Area,Bar,Cont.-ColorPatn,Glyph,Grid,Line,Node-link,Point,Text
+color,"ADJ, NOUN, PROPN, VERB",193,31,18,28,19,28,14,22,18,15
+understand,"ADJ, NOUN, VERB",106,15,13,7,15,14,11,12,7,10
+information,NOUN,79,8,5,6,4,13,6,15,13,7
+shape,"NOUN, PROPN, VERB",66,6,1,6,18,8,3,5,14,5
+line,NOUN,63,2,4,2,6,2,16,18,9,3
+differ,"ADJ, ADV, NOUN, VERB",62,11,4,3,7,9,4,11,6,6
+lot,NOUN,55,9,7,3,3,11,1,9,8,4
+hard,"ADJ, ADV",51,4,4,6,3,4,7,8,7,6
+datum,NOUN,48,8,6,5,5,8,3,3,10,0
+detail,"ADJ, NOUN, PROPN",48,9,5,5,4,7,3,6,6,3
+easy,ADJ,48,13,6,2,1,4,6,4,8,3
+number,NOUN,47,9,2,2,3,6,10,7,6,2
+point,"NOUN, PROPN, VERB",45,4,2,4,3,6,6,8,10,1
+word,"NOUN, VERB",44,3,2,1,0,4,1,6,3,23
+read,"NOUN, VERB",44,10,6,1,3,3,6,6,2,6
+clear,"ADJ, ADV",43,5,5,3,4,2,3,8,9,3
+difficult,ADJ,41,6,2,5,6,1,3,9,2,6
+text,"NOUN, VERB",41,6,3,1,2,8,4,5,6,6
+image,"NOUN, PROPN, VERB",33,4,1,3,3,6,0,10,5,0
+element,NOUN,30,3,4,2,3,2,2,6,6,2
+axis,"ADJ, NOUN",30,5,2,4,0,4,5,2,8,0
+visual,"ADJ, ADV, NOUN, VERB",29,4,3,5,6,4,0,3,3,1
+graph,NOUN,27,1,5,1,1,2,7,1,4,4
+small,"ADJ, PROPN",26,7,0,2,0,3,1,4,6,3
+size,"NOUN, PROPN, VERB",26,5,1,1,2,3,2,3,1,7
+label,"NOUN, PROPN, VERB",25,2,3,2,1,6,1,4,5,1
+contrast,"NOUN, VERB",22,2,1,1,1,8,0,4,5,0
+complex,"ADJ, NOUN, PROPN",21,4,4,4,1,1,1,1,2,3
+legend,"NOUN, VERB",21,5,1,2,4,2,1,1,5,0
+dot,"ADJ, NOUN",21,2,1,0,3,1,0,7,7,0
+time,NOUN,20,5,1,0,1,3,3,3,4,0
+confuse,"ADJ, VERB",19,4,2,0,3,4,2,2,0,2
+process,"NOUN, VERB",18,5,1,2,0,2,1,4,2,1
+know,VERB,18,4,0,5,3,0,1,2,3,0
+pattern,NOUN,18,1,0,3,7,0,0,5,2,0
+familiar,"ADJ, NOUN, VERB",18,6,0,0,4,0,3,1,2,2
+chart,"NOUN, PROPN, VERB",18,4,2,1,0,2,3,2,1,2
+multiple,ADJ,17,3,0,1,4,6,1,1,1,0
+simple,ADJ,17,5,3,0,0,1,1,2,3,1
+mean,"NOUN, VERB",17,1,2,1,2,2,1,3,1,3
+map,"NOUN, PROPN",17,9,0,3,1,0,0,1,1,2
+interpret,"ADJ, NOUN, VERB",16,3,3,0,1,1,0,3,5,0
+easily,ADV,16,3,2,1,3,2,1,1,0,3
+look,VERB,16,3,0,1,2,5,0,1,2,1
+graphic,"ADJ, ADV, NOUN, PROPN",15,4,1,1,3,0,1,0,2,2
+data,"NOUN, PROPN",15,0,2,1,1,1,2,1,7,0
+item,NOUN,14,1,1,2,3,2,0,1,2,2
+circle,"NOUN, PROPN",14,2,2,1,1,0,3,0,4,1
+write,"NOUN, VERB",13,2,1,0,2,3,0,2,1,2
+shade,"NOUN, VERB",13,4,1,1,2,3,0,2,0,0
+represent,VERB,13,2,2,3,1,1,2,1,1,0
+sense,NOUN,13,1,0,1,1,1,2,3,4,0
+title,NOUN,13,1,2,0,1,1,2,1,3,2
+key,"NOUN, PROPN",13,5,1,0,0,3,1,1,2,0
+bar,NOUN,12,0,7,1,0,2,1,0,1,0
+variable,NOUN,12,2,0,1,0,4,2,0,3,0
+go,VERB,12,1,0,1,2,1,0,1,3,2
+need,"NOUN, VERB",12,1,3,1,0,7,0,0,0,0
+box,"NOUN, PROPN",11,1,1,1,2,3,0,3,0,0
+font,"ADJ, NOUN",11,2,0,0,0,2,0,0,2,5
+long,"ADJ, ADV",11,3,1,1,1,1,1,2,1,0
+scale,"NOUN, VERB",11,2,1,2,0,1,3,1,0,0
+discern,"ADJ, VERB",11,1,0,4,0,0,2,2,2,0
+show,VERB,11,1,2,0,2,0,1,2,1,2
+glance,NOUN,11,5,0,1,0,0,1,1,1,2
+context,NOUN,10,0,1,2,2,0,1,1,3,0
+black,ADJ,10,1,1,1,2,3,0,2,0,0
+similar,"ADJ, NOUN",10,2,0,1,1,4,0,1,0,0
+like,ADP,10,0,0,0,4,1,0,3,0,0
+white,ADJ,10,0,1,3,2,2,0,2,0,0
+lack,"NOUN, VERB",10,0,2,3,0,1,1,1,2,0
+follow,VERB,10,1,0,0,0,0,2,5,2,0
+separate,"ADJ, ADV, NOUN, VERB",10,0,0,4,0,1,1,1,2,1
+readable,"ADJ, NOUN",10,4,0,0,0,1,1,1,1,2
+picture,NOUN,9,0,0,0,1,1,1,2,4,0
+eye,NOUN,9,0,0,5,0,1,2,1,0,0
+variation,NOUN,9,2,0,1,1,0,3,1,0,1
+value,NOUN,9,2,2,1,0,1,1,0,0,1
+variety,NOUN,9,1,0,2,0,3,0,0,1,2
+high,ADJ,8,0,0,0,0,4,3,0,1,0
+idea,NOUN,8,2,1,2,1,1,1,0,0,0
+mix,"NOUN, VERB",8,2,2,0,1,0,0,2,0,1
+overlap,"ADJ, NOUN, VERB",8,1,0,0,1,0,0,3,3,0
+design,NOUN,8,0,1,1,1,0,1,0,1,3
+figure,"NOUN, VERB",8,4,0,0,1,2,0,0,1,0
+little,ADJ,8,1,1,0,2,1,0,1,1,0
+layout,NOUN,7,1,0,0,0,1,0,3,2,0
+intuitive,"ADJ, ADV",7,1,0,0,0,2,0,1,2,1
+space,NOUN,7,0,0,1,1,2,0,2,0,1
+structure,"ADJ, NOUN, VERB",7,2,0,2,0,0,0,2,0,1
+code,"NOUN, PROPN",7,2,0,0,0,2,0,1,1,1
+scheme,NOUN,7,1,0,1,0,0,1,1,1,2
+spread,VERB,7,0,0,0,1,1,0,2,2,1
+country,NOUN,7,3,1,0,0,0,2,0,1,0
+measure,"NOUN, VERB",7,0,0,2,1,0,1,0,3,0
+description,NOUN,7,3,2,0,0,0,1,1,0,0
+letter,NOUN,7,0,1,1,1,1,0,0,0,3
+complicated,ADJ,7,2,0,0,1,1,1,1,1,0
+comprehend,VERB,7,2,2,0,0,0,0,1,0,2
+recognizable,ADJ,7,2,0,1,2,1,0,0,0,1
+use,"ADJ, NOUN",7,2,1,0,0,2,1,0,0,1
+thing,NOUN,7,3,0,0,1,0,1,1,1,0
+clutter,"ADJ, NOUN, PROPN",7,2,1,0,0,0,0,0,4,0
+present,VERB,7,1,1,1,1,0,0,1,1,1
+way,NOUN,7,1,0,1,1,3,1,0,0,0
+info,NOUN,7,2,0,2,0,0,0,2,1,0
+make,VERB,7,0,0,0,1,1,1,2,1,0
+intersect,"NOUN, VERB",6,0,0,0,1,0,2,3,0,0
+identify,VERB,6,3,0,1,1,0,0,0,1,0
+dark,"ADJ, ADV, PROPN",6,1,0,2,1,1,0,0,0,1
+unfamiliar,ADJ,6,0,0,1,1,1,1,0,2,0
+area,NOUN,6,2,0,0,0,0,0,2,2,0
+straight,"ADJ, ADV",6,2,1,0,0,0,1,1,1,0
+connect,"NOUN, VERB",6,0,0,0,0,0,0,6,0,0
+choice,NOUN,6,1,0,0,0,0,3,0,2,0
+focus,"NOUN, VERB",6,1,1,1,0,1,0,1,1,0
+sure,ADJ,6,1,1,1,0,0,0,2,0,1
+square,NOUN,6,0,0,0,2,4,0,0,0,0
+organic,"ADJ, NOUN, VERB",6,1,0,1,0,3,0,0,0,1
+order,"NOUN, VERB",6,0,0,1,2,0,0,1,1,1
+messy,"ADJ, NOUN",5,0,0,0,1,1,1,1,0,1
+name,NOUN,5,0,1,0,0,0,1,1,1,1
+density,NOUN,5,2,0,0,0,2,0,0,0,1
+logic,"ADJ, NOUN",5,1,0,0,0,0,0,2,1,0
+convey,VERB,5,1,0,2,1,0,1,0,0,0
+individual,ADJ,5,1,1,1,0,0,0,1,1,0
+indicate,NOUN,5,0,0,2,0,0,0,0,2,1
+green,"ADJ, PROPN",5,1,0,0,1,1,0,0,1,1
+grid,"NOUN, PROPN",5,0,0,0,0,3,0,1,1,0
+large,ADJ,5,2,0,0,0,1,1,0,1,0
+explanation,NOUN,5,2,0,0,1,1,0,1,0,0
+describe,VERB,5,1,1,0,0,1,1,0,1,0
+distinct,"ADJ, NOUN",5,1,1,1,1,0,0,1,0,0
+distinguish,VERB,5,1,0,1,0,1,1,1,0,0
+distribute,"NOUN, VERB",5,2,0,0,2,0,0,1,0,0
+cross,VERB,5,0,0,0,1,0,1,3,0,0
+random,ADJ,5,0,0,0,2,0,0,1,2,0
+quick,"ADJ, ADV",5,2,0,0,1,0,0,0,0,2
+require,VERB,5,0,3,1,0,0,0,1,0,0
+relate,"ADV, NOUN, VERB",5,1,1,0,0,0,1,1,0,1
+bit,NOUN,5,0,0,0,0,0,0,3,1,1
+symbol,NOUN,5,0,0,0,2,1,1,0,0,0
+straightforward,"ADJ, ADV",5,1,0,1,1,0,1,1,0,0
+busy,ADJ,5,0,1,0,0,1,0,1,1,1
+take,VERB,5,2,0,1,0,1,0,1,0,0
+tell,VERB,5,1,0,1,1,1,0,1,0,0
+blue,"ADJ, PROPN",5,0,1,0,2,2,0,0,0,0
+vary,"ADJ, VERB",5,1,2,0,0,0,1,0,0,1
+world,NOUN,5,4,0,0,0,0,0,0,1,0
+abstract,"ADJ, NOUN",5,1,0,1,1,0,0,1,1,0
+unclear,"ADJ, PROPN",5,0,1,0,1,2,0,0,0,1
+unique,ADJ,5,0,1,0,0,2,0,0,2,0
+object,NOUN,5,0,1,0,1,0,0,3,0,0
+decipher,"ADV, NOUN, VERB",5,2,1,0,0,1,0,0,1,0
+3d,"ADJ, NOUN",4,0,0,2,1,0,0,1,0,0
+big,ADJ,4,0,0,0,0,0,0,2,1,1
+challenge,"NOUN, VERB",4,0,0,0,1,0,0,1,2,0
+type,NOUN,4,0,0,0,0,0,1,2,1,0
+dimension,NOUN,4,1,1,1,0,0,0,0,1,0
+curve,"NOUN, VERB",4,1,0,1,0,0,1,1,0,0
+not,PART,4,0,0,0,1,1,1,1,0,0
+change,"NOUN, VERB",4,1,1,1,0,0,0,0,0,1
+red,"ADJ, PROPN",4,1,0,0,0,0,0,2,1,0
+table,NOUN,4,2,0,0,0,1,1,0,0,0
+close,"ADJ, ADV, VERB",4,0,1,1,1,0,1,0,0,0
+scatter,"ADJ, PROPN, VERB",4,0,0,0,0,1,0,1,2,0
+recognize,VERB,4,3,0,0,0,0,0,0,0,1
+range,NOUN,4,2,0,0,2,0,0,0,0,0
+fine,ADJ,4,0,0,0,1,1,0,1,1,0
+involve,"ADJ, VERB",4,0,0,0,1,0,1,1,1,0
+differentiate,VERB,4,0,0,0,1,0,0,1,1,0
+analyze,VERB,4,1,0,0,0,0,0,2,1,0
+layer,"NOUN, VERB",4,3,0,0,1,0,0,0,0,0
+draw,"NOUN, VERB",4,2,0,0,2,0,0,0,0,0
+volume,NOUN,4,0,0,0,1,1,0,0,1,1
+metric,"ADJ, NOUN",4,1,0,0,0,0,2,0,1,0
+dense,"ADJ, ADV",4,0,2,0,0,1,0,0,1,0
+set,"NOUN, VERB",3,0,1,0,1,0,0,0,1,0
+comprehension,"ADJ, NOUN",3,1,0,0,1,1,0,0,0,0
+region,NOUN,3,2,1,0,0,0,0,0,0,0
+see,VERB,3,1,0,0,0,0,1,0,1,0
+collection,NOUN,3,0,0,1,0,0,0,0,2,0
+compare,"NOUN, VERB",3,1,1,0,0,0,0,0,1,0
+certain,ADJ,3,0,0,0,2,0,0,0,1,0
+arbitrary,ADJ,3,0,0,0,0,0,0,2,0,1
+unsure,"NOUN, VERB",3,0,0,1,0,0,0,1,1,0
+ascertain,VERB,3,1,0,0,1,0,0,0,0,1
+arrow,NOUN,3,0,0,1,1,0,0,1,0,0
+visible,ADJ,3,0,0,1,0,1,0,0,0,1
+able,ADJ,3,0,0,0,1,0,0,0,1,0
+attractive,ADJ,3,0,0,0,0,1,0,1,1,0
+aspect,NOUN,3,0,0,0,0,1,0,0,2,0
+bad,ADJ,3,0,0,0,0,0,2,0,1,0
+clarity,NOUN,3,0,0,1,0,1,0,0,1,0
+stuff,NOUN,3,0,0,0,0,3,0,0,0,0
+significant,"ADJ, ADV",3,1,0,0,0,0,0,2,0,0
+clean,ADJ,3,2,0,0,1,0,0,0,0,0
+background,NOUN,3,1,0,0,1,1,0,0,0,0
+think,VERB,3,0,0,0,2,0,1,0,0,0
+term,NOUN,3,0,0,1,1,1,0,0,0,0
+quantity,NOUN,3,0,0,1,1,0,1,0,0,0
+purpose,NOUN,3,1,1,0,0,0,0,0,0,1
+network,NOUN,3,0,0,0,0,0,0,3,0,0
+link,"NOUN, VERB",3,1,0,0,0,0,0,1,0,1
+darker,PROPN,3,1,0,0,1,0,0,1,0,0
+precise,"ADJ, NOUN",3,0,0,0,1,0,1,0,1,0
+content,NOUN,3,1,1,0,0,0,0,0,0,1
+multitude,NOUN,3,2,0,0,0,0,0,1,0,0
+overall,ADJ,3,0,0,0,2,1,0,0,0,0
+pack,"ADJ, VERB",3,1,1,0,0,1,0,0,0,0
+plot,"NOUN, VERB",3,0,0,0,0,0,2,0,1,0
+pixel,"ADJ, NOUN",3,0,0,2,0,0,1,0,0,0
+numerous,"ADJ, PROPN",3,0,1,0,0,0,1,1,0,0
+orange,"NOUN, PROPN",3,2,0,0,1,0,0,0,0,0
+noise,NOUN,3,0,0,1,0,0,0,1,1,0
+position,NOUN,3,0,0,0,0,1,0,0,1,1
+linear,ADJ,3,1,0,0,0,0,0,0,1,1
+fast,"ADJ, ADV",3,0,0,0,0,0,0,1,1,1
+intense,"ADJ, NOUN",3,1,0,0,2,0,0,0,0,0
+feel,VERB,3,0,0,1,0,0,0,2,0,0
+interest,NOUN,3,1,0,0,1,0,0,1,0,0
+intricate,ADJ,3,0,0,0,0,0,0,2,1,0
+exact,ADJ,3,0,0,2,0,0,1,0,0,0
+evaluate,VERB,3,0,0,0,1,0,1,0,1,0
+explanatory,"ADJ, VERB",3,1,0,0,0,0,2,0,0,0
+level,NOUN,3,0,0,0,1,0,1,1,0,0
+ease,NOUN,3,1,0,0,0,1,0,0,0,1
+interact,"NOUN, VERB",3,0,0,0,2,0,0,1,0,0
+extra,ADJ,3,0,0,1,1,0,0,0,0,1
+gradient,NOUN,3,0,0,2,1,0,0,0,0,0
+weird,ADJ,3,0,0,2,0,1,0,0,0,0
+give,VERB,3,1,0,1,0,0,1,0,0,0
+add,VERB,2,0,0,0,1,0,0,0,1,0
+vast,ADJ,2,0,0,0,0,1,0,1,0,0
+vertical,ADJ,2,0,0,0,0,0,0,1,0,1
+work,VERB,2,0,1,0,0,0,0,0,0,0
+2d,PROPN,2,0,1,0,0,0,0,1,0,0
+year,NOUN,2,1,1,0,0,0,0,0,0,0
+geographic,ADJ,2,2,0,0,0,0,0,0,0,0
+geography,NOUN,2,1,0,0,0,0,0,0,1,0
+geometric,ADJ,2,0,0,0,0,0,0,1,0,1
+glean,VERB,2,1,0,0,0,0,1,0,0,0
+uniform,ADJ,2,0,0,1,0,0,0,0,0,1
+blank,ADJ,2,0,0,0,0,2,0,0,0,0
+blur,VERB,2,0,0,1,0,1,0,0,0,0
+blurry,ADJ,2,0,0,2,0,0,0,0,0,0
+bold,"ADJ, NOUN",2,1,0,0,0,1,0,0,0,0
+undefined,ADJ,2,0,0,0,2,0,0,0,0,0
+thick,"ADJ, NOUN",2,0,0,0,1,1,0,0,0,0
+tiny,ADJ,2,1,0,0,0,1,0,0,0,0
+tough,ADJ,2,1,0,1,0,0,0,0,0,0
+find,VERB,2,0,0,1,1,0,0,0,0,0
+flow,NOUN,2,0,0,0,1,0,0,1,0,0
+form,NOUN,2,1,0,1,0,0,0,0,0,0
+format,NOUN,2,1,0,0,0,0,1,0,0,0
+formula,NOUN,2,0,0,0,0,0,2,0,0,0
+frequency,NOUN,2,0,0,0,0,0,0,0,0,2
+group,NOUN,2,0,1,0,0,0,0,1,0,0
+bright,ADJ,2,2,0,0,0,0,0,0,0,0
+talk,VERB,2,0,0,0,0,0,0,1,1,0
+style,NOUN,2,2,0,0,0,0,0,0,0,0
+suppose,VERB,2,0,0,2,0,0,0,0,0,0
+state,VERB,2,0,0,0,0,1,0,0,0,0
+statistic,NOUN,2,1,1,0,0,0,0,0,0,0
+stimulate,VERB,2,0,0,1,1,0,0,0,0,0
+clue,NOUN,2,0,0,0,0,0,1,0,0,0
+sentence,NOUN,2,0,0,0,0,0,1,0,1,0
+simplistic,ADJ,2,0,0,0,0,0,0,0,0,1
+soft,ADJ,2,2,0,0,0,0,0,0,0,0
+sound,"NOUN, VERB",2,1,0,0,1,0,0,0,0,0
+select,VERB,2,0,0,0,0,0,0,1,0,1
+self,NOUN,2,0,0,0,0,0,2,0,0,0
+heat,NOUN,2,0,0,1,0,0,0,0,0,1
+highlight,VERB,2,1,0,0,0,0,0,0,0,1
+horizontal,"ADJ, ADV",2,0,2,0,0,0,0,0,0,0
+cluster,"NOUN, VERB",2,0,0,0,1,0,0,1,0,0
+column,NOUN,2,0,0,0,0,1,0,0,0,1
+common,ADJ,2,1,0,0,0,0,0,1,0,0
+chemical,NOUN,2,0,0,0,0,0,0,1,1,0
+screen,NOUN,2,0,0,0,1,0,0,0,0,1
+second,"ADJ, NOUN",2,0,1,0,0,0,0,0,1,0
+segment,NOUN,2,1,1,0,0,0,0,0,0,0
+seismic,ADJ,2,0,0,1,0,0,1,0,0,0
+icon,NOUN,2,1,0,0,0,0,1,0,0,0
+illusion,NOUN,2,0,0,1,0,1,0,0,0,0
+immediately,ADV,2,1,0,0,0,0,0,0,0,1
+impossible,ADJ,2,0,0,0,0,1,0,1,0,0
+grow,VERB,2,2,0,0,0,0,0,0,0,0
+rank,VERB,2,0,0,0,1,0,1,0,0,0
+remember,VERB,2,1,0,0,0,0,0,0,1,0
+pretty,ADV,2,0,0,1,0,0,1,0,0,0
+proximity,NOUN,2,0,0,0,1,0,0,1,0,0
+component,NOUN,2,0,0,0,0,2,0,0,0,0
+concise,"ADJ, VERB",2,0,0,0,0,1,0,0,1,0
+consider,VERB,2,0,0,0,0,2,0,0,0,0
+place,NOUN,2,0,0,0,1,1,0,0,0,0
+pleasing,ADJ,2,0,0,0,1,0,0,1,0,0
+continent,NOUN,2,2,0,0,0,0,0,0,0,0
+crowded,ADJ,2,0,0,0,0,0,0,0,2,0
+fact,NOUN,2,0,0,1,0,0,1,0,0,0
+factor,NOUN,2,0,0,0,0,2,0,0,0,0
+far,ADV,2,0,0,1,1,0,0,0,0,0
+feature,NOUN,2,1,0,1,0,0,0,0,0,0
+few,ADJ,2,0,1,0,0,0,1,0,0,0
+instantly,ADV,2,1,0,0,0,0,0,1,0,0
+hurt,VERB,2,0,0,0,0,1,1,0,0,0
+painting,NOUN,2,1,0,0,0,0,0,1,0,0
+parameter,NOUN,2,0,0,0,0,1,0,0,1,0
+path,NOUN,2,0,0,0,0,0,0,2,0,0
+physical,ADJ,2,2,0,0,0,0,0,0,0,0
+pie,"NOUN, PROPN",2,2,0,0,0,0,0,0,0,0
+nuance,NOUN,2,0,0,0,0,1,0,0,1,0
+num,NOUN,2,0,0,0,0,0,0,2,0,0
+datapoint,NOUN,2,0,0,0,0,0,1,1,0,0
+irregular,"ADJ, NOUN",2,0,0,0,1,0,0,1,0,0
+entry,NOUN,2,0,0,0,0,0,1,1,0,0
+excessive,"ADV, PROPN",2,0,0,0,0,0,0,0,2,0
+define,VERB,2,1,0,0,0,0,0,0,0,1
+depth,NOUN,2,0,0,1,0,0,0,1,0,0
+nice,ADJ,2,0,0,0,0,0,1,0,0,0
+non,"ADJ, PROPN",2,0,0,0,0,0,0,1,1,0
+monochrome,NOUN,2,0,0,0,0,0,0,1,0,1
+move,VERB,2,0,0,0,2,0,0,0,0,0
+movement,NOUN,2,0,0,0,0,0,1,1,0,0
+matrix,NOUN,2,0,0,1,1,0,0,0,0,0
+dificult,NOUN,2,1,0,0,1,0,0,0,0,0
+digest,NOUN,2,1,0,0,0,0,0,0,1,0
+learn,VERB,2,0,1,0,1,0,0,0,0,0
+left,ADJ,2,0,0,1,0,0,0,0,1,0
+length,NOUN,2,0,1,0,0,0,0,0,0,0
+limited,ADJ,2,0,0,0,1,0,1,0,0,0
+jumble,"NOUN, VERB",2,0,0,0,0,1,0,1,0,0
+earth,"NOUN, PROPN",2,0,0,0,0,0,0,0,2,0
+earthquake,NOUN,2,0,0,0,0,1,1,0,0,0
+education,NOUN,2,0,0,1,0,0,1,0,0,0
+allow,VERB,2,1,0,0,0,0,0,0,1,0
+ambiguous,ADJ,2,1,0,0,0,0,0,0,1,0
+analysis,NOUN,2,0,1,1,0,0,0,0,0,0
+annotation,"NOUN, PROPN",2,0,0,0,0,0,0,0,2,0
+visualise,VERB,2,0,1,0,0,0,0,1,0,0
+unlabeled,PROPN,2,0,0,1,1,0,0,0,0,0
+apparent,ADJ,2,0,0,0,1,0,0,1,0,0
+arrangement,NOUN,2,0,0,0,1,1,0,0,0,0
+attention,NOUN,2,1,0,0,0,1,0,0,0,0
+yellow,ADJ,1,0,0,0,1,0,0,0,0,0
+accessible,ADJ,1,1,0,0,0,0,0,0,0,0
+account,NOUN,1,0,0,0,0,1,0,0,0,0
+wise,ADJ,1,0,0,0,0,0,0,0,1,0
+frightening,ADJ,1,1,0,0,0,0,0,0,0,0
+gather,VERB,1,0,1,0,0,0,0,0,0,0
+gauge,VERB,1,1,0,0,0,0,0,0,0,0
+geo,PROPN,1,1,0,0,0,0,0,0,0,0
+geometry,NOUN,1,0,0,0,1,0,0,0,0,0
+good,ADJ,1,0,0,0,0,0,1,0,0,0
+unknown,ADJ,1,0,1,0,0,0,0,0,0,0
+ugly,ADJ,1,0,0,0,0,0,0,0,0,1
+unable,ADJ,1,0,0,0,1,0,0,0,0,0
+basic,ADJ,1,0,0,0,0,0,0,0,1,0
+begin,VERB,1,0,0,1,0,0,0,0,0,0
+biology,NOUN,1,0,0,0,0,1,0,0,0,0
+blend,VERB,1,0,0,1,0,0,0,0,0,0
+uncertainty,NOUN,1,0,0,0,1,0,0,0,0,0
+undersant,ADJ,1,1,0,0,0,0,0,0,0,0
+kid,NOUN,1,0,0,0,1,0,0,0,0,0
+kind,NOUN,1,0,0,0,1,0,0,0,0,0
+knowledge,NOUN,1,1,0,0,0,0,0,0,0,0
+layman,NOUN,1,0,0,0,0,1,0,0,0,0
+diverge,VERB,1,0,0,0,0,0,0,1,0,0
+division,NOUN,1,0,0,0,0,0,0,0,0,1
+dull,ADJ,1,0,0,1,0,0,0,0,0,0
+easly,ADV,1,1,0,0,0,0,0,0,0,0
+edge,NOUN,1,0,0,0,0,0,0,0,0,1
+effect,NOUN,1,0,0,0,0,0,0,0,0,1
+interconnect,VERB,1,0,0,0,0,0,0,1,0,0
+intermingle,VERB,1,0,0,0,0,0,0,0,0,1
+africa,PROPN,1,1,0,0,0,0,0,0,0,0
+alphabetical,PROPN,1,0,0,0,1,0,0,0,0,0
+ammount,NOUN,1,0,0,0,0,0,0,0,1,0
+amount,VERB,1,0,0,0,0,0,0,0,1,0
+mentally,ADV,1,0,0,0,0,1,0,0,0,0
+mess,NOUN,1,0,0,0,0,0,0,1,0,0
+efffort,NOUN,1,0,0,0,0,1,0,0,0,0
+effort,NOUN,1,1,0,0,0,0,0,0,0,0
+leave,VERB,1,0,0,0,0,0,0,1,0,0
+legible,ADJ,1,0,0,0,0,0,0,0,1,0
+light,ADJ,1,0,0,1,0,0,0,0,0,0
+lineage,NOUN,1,0,0,0,0,0,0,1,0,0
+location,NOUN,1,0,0,0,1,0,0,0,0,0
+longitudinal,ADJ,1,0,0,0,0,0,0,0,0,1
+lotd,NOUN,1,1,0,0,0,0,0,0,0,0
+low,ADJ,1,1,0,0,0,0,0,0,0,0
+magnification,NOUN,1,0,0,0,0,0,0,0,0,1
+main,ADJ,1,0,0,0,0,0,0,0,0,1
+job,NOUN,1,1,0,0,0,0,0,0,0,0
+join,VERB,1,0,0,0,1,0,0,0,0,0
+multipe,NOUN,1,0,0,0,0,0,0,1,0,0
+multivariate,NOUN,1,1,0,0,0,0,0,0,0,0
+mute,VERB,1,0,0,0,0,1,0,0,0,0
+nasa,PROPN,1,0,0,0,0,0,1,0,0,0
+nature,NOUN,1,0,0,0,0,0,0,1,0,0
+match,VERB,1,1,0,0,0,0,0,0,0,0
+mathematical,ADJ,1,0,0,0,0,0,1,0,0,0
+difficulty,NOUN,1,0,0,0,0,1,0,0,0,0
+diffuse,ADJ,1,0,0,0,0,0,0,1,0,0
+dimensional,ADJ,1,0,0,0,0,0,0,0,1,0
+direction,NOUN,1,0,0,0,1,0,0,0,0,0
+directiopns,NOUN,1,0,0,0,0,0,0,0,1,0
+discordant,ADJ,1,0,0,0,0,1,0,0,0,0
+disposition,NOUN,1,1,0,0,0,0,0,0,0,0
+distract,VERB,1,1,0,0,0,0,0,0,0,0
+meeting,NOUN,1,0,0,0,0,0,0,1,0,0
+delineate,VERB,1,0,0,0,1,0,0,0,0,0
+denser,PROPN,1,0,0,0,0,0,0,1,0,0
+depict,VERB,1,0,0,0,0,0,0,1,0,0
+diagram,NOUN,1,0,0,0,0,0,1,0,0,0
+differnent,NOUN,1,1,0,0,0,0,0,0,0,0
+node,NOUN,1,0,0,0,0,0,0,1,0,0
+noisy,ADJ,1,0,0,0,0,1,0,0,0,0
+novel,ADJ,1,0,0,0,1,0,0,0,0,0
+message,NOUN,1,0,1,0,0,0,0,0,0,0
+method,NOUN,1,0,0,0,0,0,0,1,0,0
+middle,ADJ,1,0,0,0,0,1,0,0,0,0
+misunderstanding,NOUN,1,0,0,0,0,0,1,0,0,0
+model,VERB,1,0,0,1,0,0,0,0,0,0
+moment,NOUN,1,0,0,0,0,1,0,0,0,0
+money,NOUN,1,0,0,0,1,0,0,0,0,0
+multicolore,VERB,1,0,0,0,0,0,0,0,1,0
+negative,ADJ,1,0,0,0,0,1,0,0,0,0
+end,VERB,1,0,0,1,0,0,0,0,0,0
+equally,ADV,1,0,0,0,0,0,0,0,1,0
+error,NOUN,1,0,0,0,0,0,1,0,0,0
+evenly,ADV,1,0,0,0,1,0,0,0,0,0
+everybody,PRON,1,1,0,0,0,0,0,0,0,0
+evne,ADV,1,0,1,0,0,0,0,0,0,0
+evolutionary,ADJ,1,0,0,0,0,0,0,1,0,0
+examination,NOUN,1,0,0,0,0,0,0,1,0,0
+example,NOUN,1,0,0,0,0,0,0,0,0,1
+isolate,VERB,1,0,0,0,0,1,0,0,0,0
+jerusalem,PROPN,1,1,0,0,0,0,0,0,0,0
+extend,VERB,1,0,1,0,0,0,0,0,0,0
+extract,VERB,1,0,0,1,0,0,0,0,0,0
+new,ADJ,1,0,0,0,0,0,0,1,0,0
+deduce,VERB,1,0,0,0,0,0,0,1,0,0
+pellet,NOUN,1,0,0,0,1,0,0,0,0,0
+phylogenetic,ADJ,1,0,0,0,0,0,0,1,0,0
+observation,NOUN,1,1,0,0,0,0,0,0,0,0
+ocean,PROPN,1,0,0,0,0,0,0,0,1,0
+odd,ADJ,1,0,0,0,1,0,0,0,0,0
+cube,NOUN,1,0,0,0,1,0,0,0,0,0
+cue,NOUN,1,0,0,0,1,0,0,0,0,0
+cut,VERB,1,0,0,0,0,0,0,0,0,1
+dash,VERB,1,0,0,0,1,0,0,0,0,0
+dataset,NOUN,1,0,0,0,0,0,0,0,1,0
+date,NOUN,1,0,0,0,0,0,0,0,0,1
+decipherable,ADJ,1,0,0,0,0,1,0,0,0,0
+decode,VERB,1,0,0,0,0,0,0,0,1,0
+decrease,NOUN,1,0,0,0,0,0,1,0,0,0
+orient,VERB,1,0,1,0,0,0,0,0,0,0
+necessary,ADJ,1,0,0,0,0,0,1,0,0,0
+factual,ADJ,1,0,0,0,0,0,0,0,1,0
+fairly,ADV,1,0,0,0,0,0,1,0,0,0
+fall,NOUN,1,0,0,0,0,0,0,1,0,0
+field,NOUN,1,0,0,1,0,0,0,0,0,0
+ink,NOUN,1,0,0,0,0,1,0,0,0,0
+inscription,NOUN,1,0,0,0,0,0,0,0,1,0
+instance,NOUN,1,1,0,0,0,0,0,0,0,0
+intently,ADV,1,0,0,0,0,1,0,0,0,0
+hue,NOUN,1,0,0,1,0,0,0,0,0,0
+overly,ADV,1,0,0,0,0,0,0,1,0,0
+overwhelming,ADJ,1,0,0,0,0,1,0,0,0,0
+pacific,PROPN,1,0,0,0,0,0,0,0,1,0
+page,NOUN,1,0,0,0,0,1,0,0,0,0
+palette,PROPN,1,0,0,0,0,1,0,0,0,0
+parse,VERB,1,1,0,0,0,0,0,0,0,0
+part,NOUN,1,0,0,0,1,0,0,0,0,0
+computer,NOUN,1,0,0,0,1,0,0,0,0,0
+concept,NOUN,1,0,1,0,0,0,0,0,0,0
+pleasant,ADJ,1,1,0,0,0,0,0,0,0,0
+plethora,NOUN,1,0,0,0,0,0,1,0,0,0
+poor,ADJ,1,0,0,0,0,0,0,0,1,0
+cool,ADJ,1,0,0,0,0,1,0,0,0,0
+copy,NOUN,1,0,0,0,0,1,0,0,0,0
+countriesr,NOUN,1,0,0,0,0,0,0,0,0,1
+cramp,VERB,1,0,0,0,0,1,0,0,0,0
+create,VERB,1,0,0,0,0,0,0,1,0,0
+criterion,NOUN,1,0,0,0,1,0,0,0,0,0
+crop,VERB,1,0,1,0,0,0,0,0,0,0
+cryptic,ADJ,1,0,0,0,0,0,1,0,0,0
+portray,VERB,1,0,0,1,0,0,0,0,0,0
+oval,NOUN,1,0,0,0,1,0,0,0,0,0
+overlay,NOUN,1,0,0,1,0,0,0,0,0,0
+reduce,VERB,1,1,0,0,0,0,0,0,0,0
+regard,NOUN,1,0,0,0,0,0,0,0,1,0
+register,VERB,1,0,0,1,0,0,0,0,0,0
+regularity,NOUN,1,0,0,0,0,0,0,0,0,1
+relationship,NOUN,1,0,0,0,0,0,0,1,0,0
+repeat,VERB,1,1,0,0,0,0,0,0,0,0
+report,VERB,1,1,0,0,0,0,0,0,0,0
+possible,ADJ,1,0,0,1,0,0,0,0,0,0
+produce,VERB,1,0,1,0,0,0,0,0,0,0
+prominent,ADJ,1,0,1,0,0,0,0,0,0,0
+proportion,NOUN,1,1,0,0,0,0,0,0,0,0
+provoke,NOUN,1,0,1,0,0,0,0,0,0,0
+purple,ADJ,1,0,0,0,0,1,0,0,0,0
+quantitative,ADJ,1,0,0,0,0,0,0,0,0,1
+composition,NOUN,1,0,0,0,0,0,0,0,1,0
+compound,NOUN,1,0,0,0,0,0,0,0,1,0
+identical,ADJ,1,0,0,1,0,0,0,0,0,0
+identificate,VERB,1,0,0,0,0,0,1,0,0,0
+illogical,ADJ,1,0,0,0,0,0,0,0,0,1
+imagery,NOUN,1,0,0,0,0,1,0,0,0,0
+immense,ADJ,1,0,0,0,0,1,0,0,0,0
+imply,VERB,1,0,0,0,1,0,0,0,0,0
+important,ADJ,1,0,0,0,0,0,0,0,1,0
+increase,NOUN,1,0,0,0,0,0,1,0,0,0
+incredibly,ADV,1,0,1,0,0,0,0,0,0,0
+ineligible,ADJ,1,0,0,0,0,1,0,0,0,0
+growth,NOUN,1,0,0,0,0,0,0,1,0,0
+contain,VERB,1,0,1,0,0,0,0,0,0,0
+ratio,NOUN,1,0,0,0,0,0,0,1,0,0
+realize,VERB,1,0,0,0,0,1,0,0,0,0
+receede,VERB,1,0,0,0,0,0,0,1,0,0
+rectangular,ADJ,1,0,0,1,0,0,0,0,0,0
+center,NOUN,1,0,0,0,0,0,0,1,0,0
+chaotic,ADJ,1,1,0,0,0,0,0,0,0,0
+representation,NOUN,1,1,0,0,0,0,0,0,0,0
+resemble,VERB,1,0,0,1,0,0,0,0,0,0
+result,NOUN,1,0,0,0,0,0,1,0,0,0
+rotation,NOUN,1,0,0,0,0,0,0,0,0,1
+round,ADJ,1,1,0,0,0,0,0,0,0,0
+route,NOUN,1,0,0,0,0,0,0,1,0,0
+row,NOUN,1,0,0,0,0,1,0,0,0,0
+saturation,NOUN,1,0,0,0,0,1,0,0,0,0
+school,NOUN,1,0,0,0,0,0,1,0,0,0
+scientific,ADJ,1,0,0,0,0,0,0,1,0,0
+sec,PROPN,1,0,0,0,0,0,0,0,1,0
+section,NOUN,1,0,0,0,0,0,0,1,0,0
+consistent,ADJ,1,0,0,0,0,0,0,0,0,1
+consume,VERB,1,0,0,0,0,0,1,0,0,0
+hierarchical,ADJ,1,0,0,0,0,1,0,0,0,0
+hierarchy,NOUN,1,0,0,0,0,0,0,0,1,0
+histogram,PROPN,1,0,0,0,0,1,0,0,0,0
+hole,NOUN,1,1,0,0,0,0,0,0,0,0
+holisitic,ADJ,1,0,0,0,1,0,0,0,0,0
+horizon,NOUN,1,0,0,0,0,0,0,1,0,0
+grab,VERB,1,0,0,0,0,1,0,0,0,0
+granularly,ADJ,1,0,0,0,0,0,0,1,0,0
+clueless,ADJ,1,0,0,1,0,0,0,0,0,0
+cluter,NOUN,1,0,0,0,0,0,0,0,0,1
+cod,VERB,1,0,0,1,0,0,0,0,0,0
+coefficients,PROPN,1,0,0,0,0,0,0,1,0,0
+cohesive,ADJ,1,1,0,0,0,0,0,0,0,0
+comfortable,ADJ,1,0,0,0,0,0,0,1,0,0
+company,NOUN,1,0,0,0,0,0,0,1,0,0
+completely,ADV,1,0,0,1,0,0,0,0,0,0
+circular,ADJ,1,0,0,1,0,0,0,0,0,0
+cleaner,ADV,1,0,0,0,0,0,0,1,0,0
+short,ADJ,1,0,0,0,0,0,1,0,0,0
+single,ADJ,1,0,0,1,0,0,0,0,0,0
+smooth,ADJ,1,0,0,0,0,0,1,0,0,0
+solve,VERB,1,0,0,0,1,0,0,0,0,0
+sort,VERB,1,0,0,0,1,0,0,0,0,0
+sparse,ADJ,1,1,0,0,0,0,0,0,0,0
+spatial,ADJ,1,1,0,0,0,0,0,0,0,0
+specialized,ADJ,1,0,0,1,0,0,0,0,0,0
+specie,NOUN,1,0,0,0,0,0,0,1,0,0
+guide,NOUN,1,0,0,0,0,0,0,1,0,0
+half,ADV,1,0,0,0,0,1,0,0,0,0
+harsh,ADJ,1,1,0,0,0,0,0,0,0,0
+heatmap,VERB,1,0,0,1,0,0,0,0,0,0
+hide,VERB,1,0,0,0,1,0,0,0,0,0
+surface,NOUN,1,0,0,1,0,0,0,0,0,0
+surroundingsfeel,NOUN,1,0,0,0,0,0,0,1,0,0
+system,NOUN,1,0,0,0,1,0,0,0,0,0
+spiral,NOUN,1,0,0,0,1,0,0,0,0,0
+sport,NOUN,1,0,0,0,0,0,0,1,0,0
+spot,NOUN,1,0,0,0,1,0,0,0,0,0
+squeeze,VERB,1,0,0,0,0,0,0,0,0,1
+squint,VERB,1,0,0,1,0,0,0,0,0,0
+stack,VERB,1,1,0,0,0,0,0,0,0,0
+stage,NOUN,1,0,0,0,0,0,0,1,0,0
+stand,VERB,1,0,0,1,0,0,0,0,0,0
+star,VERB,1,1,0,0,0,0,0,0,0,0
+start,VERB,1,0,0,0,0,0,0,0,1,0
+stick,NOUN,1,0,0,0,0,0,0,1,0,0
+stimulus,NOUN,1,0,0,1,0,0,0,0,0,0
+story,NOUN,1,0,0,0,0,0,0,0,1,0
+carry,VERB,1,0,0,0,0,0,1,0,0,0
+catch,VERB,1,0,0,0,0,0,1,0,0,0
+categorize,VERB,1,0,0,0,1,0,0,0,0,0
+category,NOUN,1,1,0,0,0,0,0,0,0,0
+tax,VERB,1,0,0,0,0,1,0,0,0,0
+strange,ADJ,1,0,0,0,0,0,0,1,0,0
+stretch,VERB,1,0,0,0,1,0,0,0,0,0
+strip,VERB,1,0,0,0,0,0,1,0,0,0
+struggle,VERB,1,0,0,0,0,0,1,0,0,0
+study,VERB,1,0,0,0,0,1,0,0,0,0
+subject,NOUN,1,0,0,0,0,1,0,0,0,0
+subjetc,NOUN,1,0,0,0,0,0,1,0,0,0
+subplot,NOUN,1,0,0,0,0,0,0,0,1,0
+subset,NOUN,1,0,0,0,0,0,0,0,1,0
+summarize,VERB,1,1,0,0,0,0,0,0,0,0
+superposition,NOUN,1,1,0,0,0,0,0,0,0,0
+fill,VERB,1,0,0,0,0,1,0,0,0,0
+football,NOUN,1,0,0,0,0,0,0,0,0,1
+forbe,NOUN,1,0,0,0,0,0,0,1,0,0
+forward,ADV,1,0,0,0,0,0,1,0,0,0
+frame,NOUN,1,1,0,0,0,0,0,0,0,0
+grasp,VERB,1,0,1,0,0,0,0,0,0,0
+great,ADJ,1,1,0,0,0,0,0,0,0,0
+wavy,ADJ,1,0,0,1,0,0,0,0,0,0
+weather,NOUN,1,0,0,1,0,0,0,0,0,0
+break,VERB,1,0,0,0,0,1,0,0,0,0
+brighter,ADV,1,0,0,0,0,0,0,1,0,0
+bunch,NOUN,1,0,0,0,0,0,0,0,0,1
+calligraphy,NOUN,1,0,0,0,0,0,0,0,0,1
+capable,ADJ,1,0,0,0,0,0,0,0,1,0
+caption,NOUN,1,0,0,0,0,0,1,0,0,0
+careful,ADJ,1,0,0,0,0,0,0,1,0,0
+uneven,ADJ,1,0,0,0,0,1,0,0,0,0
+team,NOUN,1,0,0,0,0,0,0,1,0,0
+technical,ADJ,1,0,0,0,0,1,0,0,0,0
+textual,ADJ,1,0,0,0,0,1,0,0,0,0
+texture,NOUN,1,0,0,0,1,0,0,0,0,0
+thought,NOUN,1,0,1,0,0,0,0,0,0,0
+tidier,NOUN,1,0,0,0,0,0,0,1,0,0
+tidy,VERB,1,0,0,0,0,0,0,0,0,1
+timeline,NOUN,1,0,1,0,0,0,0,0,0,0
+totally,ADV,1,0,0,0,0,0,0,0,0,1
+traditional,ADJ,1,1,0,0,0,0,0,0,0,0
+train,VERB,1,0,0,1,0,0,0,0,0,0
+transport,VERB,1,0,0,0,0,0,0,0,1,0
+tree,NOUN,1,0,0,0,0,0,0,1,0,0
+bore,VERB,1,1,0,0,0,0,0,0,0,0
+brand,NOUN,1,1,0,0,0,0,0,0,0,0
+available,ADJ,1,0,0,0,1,0,0,0,0,0
+additional,ADJ,1,0,0,0,0,0,1,0,0,0
+vale,NOUN,1,1,0,0,0,0,0,0,0,0
+varation,PROPN,1,1,0,0,0,0,0,0,0,0
+versus,ADP,1,0,1,0,0,0,0,0,0,0
+vibrant,ADJ,1,0,1,0,0,0,0,0,0,0
+virtually,ADV,1,0,0,0,0,1,0,0,0,0
+vision,NOUN,1,0,0,0,0,0,1,0,0,0
+abundance,NOUN,1,0,0,0,0,0,0,1,0,0
+writting,NOUN,1,0,0,0,0,1,0,0,0,0
+accurate,ADJ,1,0,0,0,0,0,0,0,1,0
+trend,NOUN,1,0,0,1,0,0,0,0,0,0
+try,VERB,1,0,0,0,0,0,0,1,0,0
+weight,NOUN,1,0,0,0,0,0,0,0,0,1
+wide,ADJ,1,0,0,1,0,0,0,0,0,0
+wind,NOUN,1,0,0,0,1,0,0,0,0,0
+analyse,PROPN,1,1,0,0,0,0,0,0,0,0
+animal,NOUN,1,0,0,0,0,0,0,0,1,0
+want,VERB,1,0,0,0,1,0,0,0,0,0
+water,NOUN,1,0,0,0,0,0,0,1,0,0
+wavelet,PROPN,1,0,0,0,0,0,0,1,0,0
+axes,PROPN,1,0,0,0,0,0,1,0,0,0
+vague,ADJ,1,0,0,0,1,0,0,0,0,0
+unlikely,ADV,1,0,0,0,0,0,0,0,1,0
+unreadable,ADJ,1,0,0,0,0,0,0,0,0,1
+unrelated,ADJ,1,0,0,0,0,0,0,0,1,0
+upwards,ADJ,1,0,0,1,0,0,0,0,0,0
+apart,ADP,1,1,0,0,0,0,0,0,0,0
+appleale,VERB,1,1,0,0,0,0,0,0,0,0
+application,NOUN,1,0,0,0,0,0,0,0,0,1
+assimulate,VERB,1,0,0,0,1,0,0,0,0,0
+assortment,NOUN,1,0,0,0,0,0,0,1,0,0

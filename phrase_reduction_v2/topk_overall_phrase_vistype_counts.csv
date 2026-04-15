@@ -1,0 +1,21 @@
+Phrase,Topic,SubTopic,Total,Area (65),Bar (51),Cont.-ColorPatn (42),Glyph (64),Grid (65),Line (48),Node-link (66),Point (58),Text (51)
+more charts/points/lines/shapes/elements,Data Density / Image Clutter,Element Quantity,78,7,9,9,9,10,7,11,13,3
+"domain-specific concepts (e.g., chemical, biology, map)",Schema,Domain Familiarity,41,12,0,3,1,4,5,6,6,4
+unclear meaning/confusing,Immediacy / Cognitive Load,Semantic Clarity,29,4,3,3,4,3,5,5,0,2
+take longer to interpret,Immediacy / Cognitive Load,Processing Time & Effort,25,5,1,1,2,5,4,3,4,0
+shapes and lines,Visual Encoding Clarity,Graphical Forms & Primitives,23,2,2,1,4,0,3,7,3,1
+amount of words/context/numbers,Semantics / Text Legibility,Text Volume & Content,22,4,3,0,1,4,1,3,3,3
+distracting/confusing/unclear,Aesthetics Uncertainty,Visual Disorganization,21,3,1,3,4,2,4,1,2,1
+overlapping shapes/colors/lines,Data Density / Image Clutter,Visual Clutter & Overlap,17,2,0,1,1,0,3,8,2,0
+word rotation/small font size,Semantics / Text Legibility,Typography & Readability,17,5,0,0,0,1,0,1,4,6
+2D/3D,Schema,Dimensionality & Structure,10,1,1,2,1,0,0,3,2,0
+inadequate/few coloring,"Color, Symbol, and Texture Details",Color Palette & Contrast,8,1,0,0,3,3,0,0,1,0
+more parameters/variables,Data Density / Image Clutter,Information Volume,8,2,0,0,0,3,1,0,2,0
+unclear colors/contrast,Aesthetics Uncertainty,Perceptual Ambiguity,8,1,1,3,0,1,1,0,1,0
+soft/layered/overlapping colors,"Color, Symbol, and Texture Details",Color Palette & Contrast,6,4,1,0,0,1,0,0,0,0
+clear colors/shapes,Visual Encoding Clarity,Encoding Interpretability,5,1,1,0,0,0,1,1,1,0
+distinguishable/full/highly contrast color uses,"Color, Symbol, and Texture Details",Color Palette & Contrast,5,0,0,1,0,3,0,1,0,0
+abstract shapes or colors,Schema,Abstraction Level,5,1,0,1,1,0,0,1,1,0
+scale difference,Visual Encoding Clarity,"Position, Scale & Organization",4,1,1,0,0,0,1,0,0,1
+two colors,"Color, Symbol, and Texture Details",Color Palette & Contrast,4,0,1,0,0,0,0,0,0,3
+design-data relationship,Visual Encoding Clarity,Encoding Interpretability,4,0,1,0,0,0,1,1,0,1

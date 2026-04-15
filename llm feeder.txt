@@ -1,0 +1,23 @@
+need your help to draft a paper section for me. it is about analying participant comments on image complexity comparison of paired images. 
+
+First, we run LLM on user raw comments prompting to summarize high level topics regarding image complexity. it gave us several high level topics with dscriptions.  visualization experts in our team reviewed these suggestions and revised them to generate seven topics:
+Data Density / Image Clutter
+Visual Encoding Clarity
+Semantics / Text Legibility
+Schema
+Color, Symbol, and Texture Details
+Aesthetics Uncertainty
+Immediacy / Cognitive Load
+
+Second, we ask LLM to extract short phrases from user's raw comments and assign them to a topic.
+For example, "Curves and graphs are always hard to understand for me" is extracted and assigned to "Immediacy / Cognitive Load".
+Since these phrases were sometimes assigned to multiple topics, we manually curated them into the most relevant topic. sometimes for very long phrases, we also revised them short. for example this above phrase we revised it to "hard to understand". these are termed orignal phrases and have 1700+ items across 7 topics.
+
+Third, we use LLM to group and revise the original phrases into a smaller number of phrases with similar meanings, we call this AIcurated phrases. it has about 500 items. We then manually review these AIcurated phrases and merge/revise similar ones to form ~400 phrases. we call them HumanCurated phrases. 
+
+The number of phrases is still large and some appear in multiple topics. In order to better characterize the 7 topics, we want to develop a few subtopics within each topic by consolidating the phrases. We are inspired by the BeauVis work (\cite{he2022beauvis}) and developed the following steps to reduce the ~400 phrases to 20 subtopics. 
+
+Now please go over the key steps (text blocks) in the notebook and provide a summary of how we did it. 
+
+You can write this 
+
