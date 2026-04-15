@@ -7,6 +7,9 @@ __pycache__/
 # Large reference PDFs in paper/
 paper/*.pdf
 
+# Deprecated notebooks
+deprecated/
+
 # Raw source images (binary, large)
 Claude_image_pair_comparison/images/
 
