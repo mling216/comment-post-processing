@@ -13,6 +13,9 @@ deprecated/
 # Raw source images (binary, large)
 Claude_image_pair_comparison/images/
 
+# SVG graphs (regeneratable; PNGs in images/ are tracked instead)
+vc_genome_output_full/graphs/
+
 # Environment / secrets
 .env
 *.env
