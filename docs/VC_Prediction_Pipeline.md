@@ -56,7 +56,14 @@ The system prompt + 3 anchor turns are **identical across all 520 calls** and ca
 | RMSE        | 0.120 | 0.100 | **0.089** |
 | Bias        |−0.085 |−0.054 | **−0.025** |
 
-Key V3 changes: "push scores up" instruction, `text_annotation` scored on volume only, explicit dimension weighting for `vc_score` (high weight on `data_density`, `visual_encoding`, `domain_schema`, `cognitive_load`; low weight on `text_annotation`).
+**What changed between versions** (V1/V2 prompts were overwritten in-place and not preserved):
+
+| Aspect | V1 ("original") | V2 ("refined") | V3 ("de-weight text") |
+|--------|-----------------|----------------|-----------------------|
+| Calibration guidance | None — model free to choose any range | Added explicit score ranges (e.g., simple bar chart → 0.25–0.40) | Same ranges, plus "push scores up" and "choose the higher score if unsure" |
+| `text_annotation` | Scored on quality + quantity equally | Same as V1 | Changed to **volume only** (more text = higher, regardless of legibility) |
+| `vc_score` weighting | Equal weight across all 7 dimensions | Same as V1 | Explicit tiers: high weight (`data_density`, `visual_encoding`, `domain_schema`, `cognitive_load`), low weight (`text_annotation`) |
+| Range usage | Compressed toward center (bias = −0.085) | Better spread (bias = −0.054) | Full range utilized (bias = −0.025) |
 
 ### Production Run Configuration
 
@@ -72,22 +79,20 @@ Key V3 changes: "push scores up" instruction, `text_annotation` scored on volume
 
 ## 2. Ground Truth Validation
 
-The V3 prompt was developed using 3 anchor images + 46 calibration images = **49 "seen" images**. To report unbiased prediction quality, we split into:
+The V3 prompt was developed using 3 anchor images + 46 calibration images. Of these, **46 have ground-truth NormalizedVC** (the 3 anchors are not in the GT source). To report unbiased prediction quality, we split into:
 
-- **Seen** (49 images): anchors + calibration set used during prompt development.
-- **Unseen** (~461 images): purely predicted, never used for prompt tuning.
+- **Seen** (46 images): calibration set used during prompt development (includes anchors where GT is available).
+- **Unseen** (464 images): purely predicted, never used for prompt tuning.
 
 | Split                | Pearson r | Spearman ρ | R²    | MAE   | RMSE  | Bias   |
 |----------------------|-----------|------------|-------|-------|-------|--------|
-| All (n=510)          | 0.731     | 0.729      | 0.534 | 0.107 | 0.135 | −0.020 |
-| Seen (n=49)          | 0.912     | 0.907      | 0.832 | 0.074 | 0.089 | −0.025 |
-| Unseen (n=461)       | 0.718     | 0.716      | 0.516 | 0.111 | 0.138 | −0.019 |
-
-*(Exact values from notebook — re-run to confirm.)*
+| All (n=510)          | 0.856     | 0.852      | 0.733 | 0.093 | 0.114 | -0.063 |
+| Seen (n=46)          | 0.912     | 0.907      | 0.831 | 0.074 | 0.089 | -0.025 |
+| Unseen (n=464)       | 0.851     | 0.847      | 0.723 | 0.095 | 0.116 | -0.067 |
 
 ![Pred vs GT Scatter + Error Distribution](../Claude_image_pair_comparison/figures/gt_scatter_error.png)
 
-The unseen split shows Pearson r = 0.718 with minimal bias (−0.019), indicating the prompt generalizes beyond the calibration set. The error distribution is approximately symmetric and centered near zero.
+The unseen split shows Pearson r = 0.851 with a slight negative bias (-0.067), indicating the prompt generalizes well beyond the calibration set. The error distribution is approximately symmetric and centered near zero.
 
 ---
 

@@ -11,7 +11,7 @@ paper/*.pdf
 deprecated/
 
 # Raw source images (binary, large)
-Claude_image_pair_comparison/images/
+Claude_vc_prediction/images/
 
 # SVG graphs (regeneratable; PNGs in images/ are tracked instead)
 vc_genome_output_full/graphs/

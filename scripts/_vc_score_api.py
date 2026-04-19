@@ -30,7 +30,7 @@ MAX_TOKENS     = 1500
 SLEEP_BETWEEN  = 0.5        # seconds between API calls
 
 MAPPING_CSV    = Path(__file__).parent.parent / 'phrase_reduction_v2' / 'image_phrase_word_mapping.csv'
-LOCAL_IMG_DIR  = Path(__file__).parent.parent / 'Claude_image_pair_comparison' / 'images'
+LOCAL_IMG_DIR  = Path(__file__).parent.parent / 'Claude_vc_prediction' / 'images'
 DEFAULT_OUTDIR = Path(__file__).parent.parent / 'vc_api_scores'
 
 DIMENSIONS = [
