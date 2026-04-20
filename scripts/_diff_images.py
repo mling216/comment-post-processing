@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 1. Get all unique image names from pairs xlsx
-pairs = pd.read_excel(r'd:\Coding\Copilot\comment_post_processing\Claude_image_pair_comparison\image_pairs.xlsx')
+pairs = pd.read_excel(r'd:\Coding\Copilot\comment_post_processing\Claude_vc_prediction\image_pairs.xlsx')
 all_pair_images = set(pairs['image1'].tolist() + pairs['image2'].tolist())
 print(f'Total unique images in pairs: {len(all_pair_images)}')
 
@@ -28,6 +28,6 @@ if len(missing) > 0:
 print(result.to_string())
 
 # 5. Save
-out = r'd:\Coding\Copilot\comment_post_processing\Claude_image_pair_comparison\pair_images_not_in_random.csv'
+out = r'd:\Coding\Copilot\comment_post_processing\Claude_vc_prediction\pair_images_not_in_random.csv'
 result.to_csv(out, index=False)
 print(f'\nSaved to {out}')

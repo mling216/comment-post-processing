@@ -1,0 +1,3102 @@
+{
+  "VisC.375.9(2).png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "sparse_node_clusters",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "edge_connection_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "node_label_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "isolated_subgraph_layout",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "low_density_spread",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 1,
+        "attr": "spatially_separated_groups",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "few_simple_connections",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "clear_edge_visibility",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 3,
+        "attr": "readable_label_spacing",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 4,
+        "attr": "distinct_disconnected_components",
+        "sentiment": "-"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "supports_readability_of",
+        "obj": 2,
+        "sentiment": "-"
+      },
+      {
+        "subj": 3,
+        "pred": "clarifies",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 4,
+        "pred": "reduces_ambiguity_in",
+        "obj": 2,
+        "sentiment": "-"
+      }
+    ]
+  },
+  "InfoVisJ.1063.13.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "hierarchical_dendrogram_structure",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "dense_leaf_line_cluster",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "black_filled_block_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "branching_hierarchy_layers",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "label_text_pattern",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "multi_level_branching",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "clear_hierarchical_order",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "high_density_lines",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "tightly_packed_parallel",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "high_contrast_solid_blocks",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "monochromatic_encoding",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 4,
+        "attr": "sparse_left_dense_right",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "illegibly_small_text",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "overwhelms",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "competes_with",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "amplifies",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "fragments",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "simplifies_perception_of",
+        "obj": 5,
+        "sentiment": "-"
+      }
+    ]
+  },
+  "visMost97.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "multi_color_continent_encoding",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "size_proportional_shapes",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "leader_line_label_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "hierarchical_text_structure",
+        "region": "title"
+      },
+      {
+        "id": 5,
+        "name": "sparse_white_background",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "distinct_hue_separation",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 1,
+        "attr": "familiar_geographic_forms",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "intuitively_scaled_regions",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 3,
+        "attr": "low_density_annotations",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 3,
+        "attr": "clear_number_label_pairing",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 4,
+        "attr": "bold_clear_hierarchy",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 5,
+        "attr": "minimal_visual_noise",
+        "sentiment": "-"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "reinforces",
+        "obj": 2,
+        "sentiment": "-"
+      },
+      {
+        "subj": 3,
+        "pred": "clarifies",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 4,
+        "pred": "anchors",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 5,
+        "pred": "reduces_competition_with",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 2,
+        "pred": "supports_comprehension_of",
+        "obj": 3,
+        "sentiment": "-"
+      }
+    ]
+  },
+  "VASTJ.1.7.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "dense_network_cluster",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "scattered_node_chain",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "multi_color_encoding",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "zoomed_detail_inset",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "dashed_circle_annotation",
+        "region": "annotation"
+      },
+      {
+        "id": 6,
+        "name": "connecting_edge_web",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "spatial_dispersion_pattern",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "high_internal_density",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "multiple_instances_scattered",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "irregular_spatial_distribution",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "long_chain_traversal",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "competing_color_channels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "multi_scale_representation",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "focal_point_ambiguity",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "overlapping_crossing_edges",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "no_clear_focal_center",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 7,
+        "pred": "amplifies",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "fragments",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "competes_with",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "reinforces",
+        "obj": 7,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "overwhelms",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "adds_visual_noise_to",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "multiplies_complexity_of",
+        "obj": 6,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "economist_daily_chart_493.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "choropleth_color_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "repeated_data_badge_cluster",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "multi_channel_encoding",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "dense_region_label_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "dashed_boundary_overlay",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "multi_section_legend",
+        "region": "legend"
+      },
+      {
+        "id": 7,
+        "name": "geographic_context_layer",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "nested_numeric_pair_pattern",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "subtle_hue_differentiation",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "high_spatial_density",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "dual_color_coding",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "competing_visual_channels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "irregular_placement",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "overlaid_boundary_style",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "three_variable_encoding",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "surrounding_country_labels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 8,
+        "attr": "four_values_per_region",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "overwhelms",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "amplifies",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "competes_with",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "fragments",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "mirrors_complexity_of",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 8,
+        "pred": "densifies",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "adds_visual_noise_to",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "overloads",
+        "obj": 6,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "VASTJ.870.4.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "horizontal_band_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "orange_gradient_encoding",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "sparse_bar_cluster",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "dual_color_scale_legend",
+        "region": "legend"
+      },
+      {
+        "id": 5,
+        "name": "row_label_pattern",
+        "region": "axes"
+      },
+      {
+        "id": 6,
+        "name": "green_accent_column",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "mixed_color_channel_pattern",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "regular_repeated_rows",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "continuous_gradient_fill",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 3,
+        "attr": "irregular_sparse_marks",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "dual_scale_encoding",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "numeric_sequence_labels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "isolated_right_column",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "competing_color_channels",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "anchors",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 3,
+        "pred": "contrasts_with",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "fragments",
+        "obj": 7,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "competes_with",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "disrupts",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "amplifies",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "partially_clarifies",
+        "obj": 7,
+        "sentiment": "-"
+      }
+    ]
+  },
+  "InfoVisJ.522.15.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "multi_panel_grid_layout",
+        "region": "overall"
+      },
+      {
+        "id": 2,
+        "name": "dense_pixel_matrix_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "diagonal_structure_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "grayscale_color_encoding",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "red_color_encoding",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "annotation_overlay_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "cross_panel_variation",
+        "region": "overall"
+      },
+      {
+        "id": 8,
+        "name": "fine_grained_noise_texture",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "six_panel_composition",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "high_mark_density",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "repetitive_diagonal_structure",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "low_contrast_differentiation",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "competing_color_channel",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "overlaid_annotation_circles",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "ambiguous_panel_differences",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 8,
+        "attr": "irregular_pixel_noise",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "overwhelms",
+        "obj": 6,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "competes_with",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 8,
+        "pred": "obscures",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "amplifies",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "fragments",
+        "obj": 7,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "competes_with",
+        "obj": 2,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "VisJ.1949.11.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "curved_trajectory_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "multi_color_gradient_encoding",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "dark_background_field",
+        "region": "overall"
+      },
+      {
+        "id": 4,
+        "name": "isolated_point_marker",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "absent_axis_structure",
+        "region": "axes"
+      },
+      {
+        "id": 6,
+        "name": "absent_legend_structure",
+        "region": "legend"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "ambiguous_spatial_form",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "multiple_looping_paths",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "spectral_color_transition",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "undifferentiated_meaning",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "low_contrast_context",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "unexplained_isolated_mark",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "no_scale_reference",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "no_color_key_present",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "confounds_interpretation_of",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "obscures",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "amplifies_ambiguity_of",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "amplifies_ambiguity_of",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "fragments",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "competes_with",
+        "obj": 6,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "visMost573.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "overlapping_circle_cluster",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "multi_color_encoding",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "varied_size_circle_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "color_superposition_layer",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "dense_legend_block",
+        "region": "legend"
+      },
+      {
+        "id": 6,
+        "name": "small_text_label_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "road_network_overlay",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "explanatory_text_block",
+        "region": "title"
+      },
+      {
+        "id": 9,
+        "name": "background_map_layer",
+        "region": "data_area"
+      },
+      {
+        "id": 10,
+        "name": "geographic_boundary_outline",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "high_overlap_density",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "too_many_circles",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "irregular_spatial_distribution",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "many_ambiguous_colors",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "competing_visual_channels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "variable_scale_encoding",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "size_difference_prominent",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "layered_translucency",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "difficult_to_decipher",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "large_number_of_items",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "structured_readable_layout",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 6,
+        "attr": "small_font_size",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "sparse_placement",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 7,
+        "attr": "intersecting_lines",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 8,
+        "attr": "dense_prose_block",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 9,
+        "attr": "light_neutral_background",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 10,
+        "attr": "low_contrast_boundary",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "overwhelms",
+        "obj": 9,
+        "sentiment": "+"
+      },
+      {
+        "subj": 1,
+        "pred": "competes_with",
+        "obj": 6,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "amplifies",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "amplifies",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "compounds",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "partially_resolves",
+        "obj": 2,
+        "sentiment": "-"
+      },
+      {
+        "subj": 5,
+        "pred": "mirrors_complexity_of",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "fragments",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 8,
+        "pred": "competes_with",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 10,
+        "pred": "obscured_by",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "overwhelmed_by",
+        "obj": 1,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "VASTC.41.5.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "multi_color_encoding",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "irregular_shape_cluster",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "dense_vertical_stripe_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "high_contrast_block_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "multi_panel_layout",
+        "region": "overall"
+      },
+      {
+        "id": 6,
+        "name": "fragmented_horizontal_layering",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "glitch_noise_texture",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "high_color_variety",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "competing_hues",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "irregular_organic_forms",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "ambiguous_shape_meaning",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "high_density_marks",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "irregular_stripe_spacing",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "strong_black_dominance",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "abrupt_contrast_transitions",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "four_panel_repetition",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "varied_color_schemes",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "overlapping_horizontal_bands",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "noise_like_visual_texture",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 3,
+        "pred": "amplifies",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "overwhelms",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "competes_with",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "fragments",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "multiplies",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "obscures",
+        "obj": 6,
+        "sentiment": "+"
+      },
+      {
+        "subj": 1,
+        "pred": "competes_with",
+        "obj": 4,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "SciVisJ.980.7(2).png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "concentric_ring_structure",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "radial_color_gradient_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "outer_circle_node_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "inner_ellipse_cluster",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "central_starburst_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "angular_axis_labels",
+        "region": "axes"
+      },
+      {
+        "id": 7,
+        "name": "reference_line_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "multi_color_encoding",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "layered_circular_layout",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "smooth_hue_progression",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 3,
+        "attr": "regularly_spaced_nodes",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 4,
+        "attr": "varied_orientation_shapes",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "dense_overlapping_forms",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "sparse_clear_labels",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 7,
+        "attr": "multiple_line_types",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 8,
+        "attr": "high_color_variety",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "organizes",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 2,
+        "pred": "reinforces",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 5,
+        "pred": "competes_with",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "fragments",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 8,
+        "pred": "amplifies",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "anchors",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 4,
+        "pred": "mediates",
+        "obj": 5,
+        "sentiment": "-"
+      }
+    ]
+  },
+  "VisJ.1197.5(3).png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "dense_3d_block_cluster",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "varied_size_rect_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "overlapping_layers_structure",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "tonal_contrast_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "curved_spatial_distortion",
+        "region": "overall"
+      },
+      {
+        "id": 6,
+        "name": "irregular_orientation_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "density_gradient_zone",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "extremely_high_quantity",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "no_clear_grouping",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "irregular_size_variation",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "multiple_depth_levels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "high_contrast_grayscale",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "perspective_warped_layout",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "random_rotation_angles",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "dense_to_sparse_transition",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "overwhelms",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "amplifies",
+        "obj": 6,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "competes_with",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "fragments",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "obscures",
+        "obj": 7,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "disrupts",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 1,
+        "pred": "lacks",
+        "obj": 7,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "wsj124.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "dot_mark_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "binary_color_encoding",
+        "region": "legend"
+      },
+      {
+        "id": 3,
+        "name": "horizontal_row_structure",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "dashed_grid_lines",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "text_label_hierarchy",
+        "region": "title"
+      },
+      {
+        "id": 6,
+        "name": "year_category_labels",
+        "region": "axes"
+      },
+      {
+        "id": 7,
+        "name": "alternating_band_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "missing_data_annotation",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "sparse_clear_placement",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "filled_vs_outlined_contrast",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 3,
+        "attr": "clear_row_separation",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 4,
+        "attr": "regular_vertical_spacing",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 5,
+        "attr": "multi_level_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "red_accent_highlights",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 7,
+        "attr": "low_contrast_banding",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 8,
+        "attr": "interrupts_visual_pattern",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 3,
+        "pred": "organizes",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 4,
+        "pred": "reinforces",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 2,
+        "pred": "disambiguates",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 7,
+        "pred": "supports",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 8,
+        "pred": "disrupts",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "anchors",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 5,
+        "pred": "contextualizes",
+        "obj": 1,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "InfoVisJ.669.4.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "dense_mark_cluster",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "scattered_point_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "axis_label_structure",
+        "region": "axes"
+      },
+      {
+        "id": 4,
+        "name": "grid_line_pattern",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "high_point_density",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "overlapping_marks",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "concentrated_lower_right",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "irregular_spatial_distribution",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "wide_vertical_spread",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "multiple_tick_levels",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 3,
+        "attr": "clear_numeric_labeling",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 4,
+        "attr": "regular_grid_structure",
+        "sentiment": "-"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "overwhelms",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "amplifies",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "partially_organizes",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 4,
+        "pred": "competes_with",
+        "obj": 1,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "InfoVisC.157.1.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "triangular_subplot_matrix",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "repeated_scatter_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "diagonal_label_cells",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "dense_mark_clusters",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "minimal_axis_annotation",
+        "region": "axes"
+      },
+      {
+        "id": 6,
+        "name": "small_text_labels",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "uniform_cell_grid",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "high_subplot_count",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "triangular_layout_complexity",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "visually_repetitive_patterns",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "sparse_labeling",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "overplotted_dense_marks",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "absent_axis_scales",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "small_hard_to_read",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "undifferentiated_cell_appearance",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "overwhelms",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "amplifies",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "competes_with",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "obscures",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "fragments",
+        "obj": 7,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "reduces_distinguishability_of",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "compounds_confusion_with",
+        "obj": 6,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "VASTJ.1720.4.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "uniform_bar_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "color_contrast_highlight",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "axis_label_pattern",
+        "region": "axes"
+      },
+      {
+        "id": 4,
+        "name": "title_text",
+        "region": "title"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "regular_spacing_rhythm",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 1,
+        "attr": "low_mark_density",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "single_color_deviation",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 3,
+        "attr": "readable_numeric_labels",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 4,
+        "attr": "clear_categorical_label",
+        "sentiment": "-"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "simplifies_reading_of",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 4,
+        "pred": "clarifies",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 3,
+        "pred": "supports_interpretation_of",
+        "obj": 1,
+        "sentiment": "-"
+      }
+    ]
+  },
+  "InfoVisJ.2639.8.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "dense_color_stripe_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "multi_panel_layout",
+        "region": "overall"
+      },
+      {
+        "id": 3,
+        "name": "text_dense_table",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "categorical_color_encoding",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "horizontal_bar_chart",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "legend_label_pattern",
+        "region": "legend"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "high_color_variety",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "irregular_stripe_spacing",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "requires_cross_reference",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "multiple_competing_sections",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "high_text_density",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "many_distinct_colors",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "color_matched_to_stripe",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "requires_lookup_effort",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "requires_decoding_via",
+        "obj": 6,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "amplifies",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "fragments",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "competes_with",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 1,
+        "pred": "overwhelms",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "increases_interpretation_load_of",
+        "obj": 1,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "wsj28.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "horizontal_bar_segments",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "color_gradient_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "dense_label_text_block",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "annotation_bracket_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "title_description_block",
+        "region": "title"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "variable_width_segments",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "high_contrast_color_range",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "multi_level_dense_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "irregular_vertical_spacing",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "overlapping_hierarchical_layers",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "verbose_explanatory_text",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "competes_with",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "overwhelms",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "amplifies",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "fragments",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 1,
+        "pred": "anchors",
+        "obj": 3,
+        "sentiment": "-"
+      }
+    ]
+  },
+  "InfoVisJ.691.6(3).png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "word_cloud_layout",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "multi_size_text_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "multi_color_encoding",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "irregular_text_placement",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "cropped_edge_words",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "non_grid_arrangement",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "varied_font_sizes",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "dual_hue_encoding",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "overlapping_text_blocks",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "incomplete_boundary_clipping",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "amplifies",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "competes_with",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "fragments",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "amplifies",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "interacts_with",
+        "obj": 4,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "InfoVisJ.2556.8.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "dense_text_network",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "overlapping_text_lines",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "highlighted_route_path",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "repeated_street_label_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "multi_directional_text_orientation",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "dual_color_encoding",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "high_label_density",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "compressed_irregular_spacing",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "visually_distinct_red_path",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 4,
+        "attr": "repetitive_truncated_labels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "rotated_angled_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "red_black_contrast",
+        "sentiment": "-"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "overwhelms",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "amplifies",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "anchors",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 4,
+        "pred": "fragments",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "reduces_confusion_within",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 5,
+        "pred": "competes_with",
+        "obj": 4,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "whoJ44.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "dual_line_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "scale_disparity_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "inline_annotation_labels",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "legend_block",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "title_text_block",
+        "region": "title"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "low_line_count",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 1,
+        "attr": "distinct_color_separation",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "large_value_gap",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "sparse_annotation_placement",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 4,
+        "attr": "minimal_legend_entries",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 5,
+        "attr": "verbose_explanatory_text",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "amplifies",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "clarifies",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 4,
+        "pred": "reinforces",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 5,
+        "pred": "compensates_for",
+        "obj": 2,
+        "sentiment": "-"
+      }
+    ]
+  },
+  "v483_n7390_1_f2.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "multi_curve_stack",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "jagged_signal_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "reference_line_pair",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "annotation_arrow_cluster",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "overlapping_peak_structures",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "vertically_stacked_repetition",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "high_frequency_variation",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "dual_color_contrast",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "cross_region_visual_paths",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "similar_yet_distinct_shapes",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "multiplies",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "amplifies",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "intersects",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "competes_with",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 1,
+        "pred": "fragments",
+        "obj": 5,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "VASTC.51.10.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "dense_text_label_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "flowing_line_network",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "multi_scale_typography",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "temporal_axis_structure",
+        "region": "axes"
+      },
+      {
+        "id": 5,
+        "name": "annotated_cluster_boxes",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "background_waveform_layer",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "overlapping_text_blocks",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "high_label_density",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "tangled_crossing_paths",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "competing_size_hierarchy",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "irregular_tick_spacing",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "multiple_grouped_regions",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "low_contrast_background",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 7,
+        "attr": "foreground_background_conflict",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "overwhelms",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "competes_with",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "fragments",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "obscures",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "amplifies",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "clusters_within",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "overwhelms",
+        "obj": 6,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "InfoVisC.8.7.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "concentric_ring_structure",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "radial_grid_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "multi_color_curve_overlay",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "intersection_cluster",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "dense_label_cluster",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "peripheral_scale_ring",
+        "region": "axes"
+      },
+      {
+        "id": 7,
+        "name": "annotation_block",
+        "region": "annotation"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "multiple_nested_layers",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "high_density_lines",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "competing_color_channels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "irregular_crossing_pattern",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "overlapping_text_crowded",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "fine_grained_numeric_scale",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "multi_line_technical_text",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "amplifies",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "competes_with",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "generates",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "fragments",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "overwhelms",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "amplifies",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "competes_with",
+        "obj": 5,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "SciVisJ.796.18.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "continuous_color_gradient_field",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "high_contrast_focal_zone",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "dark_dominant_background",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "curved_boundary_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "compressed_legend_block",
+        "region": "legend"
+      },
+      {
+        "id": 6,
+        "name": "ambiguous_range_labels",
+        "region": "legend"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "gradual_tonal_transitions",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "extreme_luminance_contrast",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "low_detail_visibility",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "irregular_overlapping_arcs",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "spatially_crowded_proximity",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "unlabeled_context_missing",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 5,
+        "pred": "competes_with",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "overwhelms",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "fragments",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "amplifies",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "crowds",
+        "obj": 4,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "VisC.433.1.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "multi_color_gradient_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "diagonal_streak_structures",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "continuous_color_spectrum_legend",
+        "region": "legend"
+      },
+      {
+        "id": 4,
+        "name": "smooth_transition_zones",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "high_intensity_focal_clusters",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "categorical_axis_labels",
+        "region": "axes"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "full_spectrum_range",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "spatially_dense_encoding",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "irregular_angular_variation",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "crossing_overlapping_structures",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "continuous_gradient_mapping",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "ambiguous_boundary_regions",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "high_contrast_local_peaks",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "dual_axis_categorical_labels",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "overwhelms",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "competes_with",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "fragments",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 1,
+        "pred": "amplifies",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "amplifies",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "reinforces",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "adds_dimension_to",
+        "obj": 1,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "SciVisJ.259.7.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "dark_background_field",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "multi_color_gradient_encoding",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "irregular_contour_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "circular_annotation_overlays",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "zoom_inset_detail",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "color_scale_legend",
+        "region": "legend"
+      },
+      {
+        "id": 7,
+        "name": "annotation_label_arrow",
+        "region": "title"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "low_luminance_base",
+        "-": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "wide_hue_range",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "irregular_value_distribution",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "complex_winding_paths",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "high_spatial_density",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "multiple_overlapping_circles",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "competing_visual_channels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "added_detail_layer",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "dense_tick_labels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "external_annotation_element",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 3,
+        "pred": "overlays",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "fragments",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "amplifies",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "competes_with",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "adds_layer_to",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "supports_decoding_of",
+        "obj": 2,
+        "sentiment": "-"
+      },
+      {
+        "subj": 2,
+        "pred": "overwhelms",
+        "obj": 1,
+        "sentiment": "+"
+      }
+    ]
+  }
+}

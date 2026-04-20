@@ -1,11 +1,13 @@
 """
-Draw scene graph PNGs for ablation v3 extractions.
+Draw scene graph PNGs for ablation extractions.
 Uses graphviz to render each image's scene graph.
 
 Usage:
-    python scripts/draw_scene_graphs.py
+    python scripts/draw_scene_graphs.py          # default: v3
+    python scripts/draw_scene_graphs.py v4       # render v4
+    python scripts/draw_scene_graphs.py v3 v4    # render both
 """
-import json, os, sys
+import json, os, sys, argparse
 from pathlib import Path
 from collections import defaultdict
 
@@ -13,11 +15,6 @@ import graphviz
 
 # Graphviz setup for Windows
 os.environ['PATH'] = r'C:\Program Files (x86)\Graphviz\bin;' + os.environ.get('PATH', '')
-
-# ── Config ──
-V3_FILE = Path('vc_genome_output_full/ablation/llm_extractions_v3.json')
-OUT_DIR = Path('vc_genome_output_full/ablation/scene_graphs_v3')
-OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # ── Colors ──
 COLOR_OBJECT   = '#b8e6b8'
@@ -101,28 +98,44 @@ def build_scene_graph_dot(extraction, image_name):
 
 
 def main():
-    with open(V3_FILE, 'r', encoding='utf-8') as f:
-        extractions = json.load(f)
+    parser = argparse.ArgumentParser(description='Draw scene graph PNGs for ablation extractions')
+    parser.add_argument('versions', nargs='*', default=['v3'], help='Which version(s) to render (default: v3)')
+    args = parser.parse_args()
 
-    print(f'Loaded {len(extractions)} extractions from {V3_FILE}')
-    print(f'Output: {OUT_DIR}/')
+    os.chdir(Path(__file__).parent.parent)
 
-    # Suppress fontconfig stderr warnings
-    _stderr = sys.stderr
-    sys.stderr = open(os.devnull, 'w')
+    for version in args.versions:
+        src_file = Path(f'vc_genome_output_full/ablation/llm_extractions_{version}.json')
+        out_dir = Path(f'vc_genome_output_full/ablation/scene_graphs_{version}')
+        out_dir.mkdir(parents=True, exist_ok=True)
 
-    try:
-        for i, (img, ext) in enumerate(extractions.items(), 1):
-            dot = build_scene_graph_dot(ext, img)
-            safe_name = img.removesuffix('.png')
-            png_data = dot.pipe(format='png')
-            (OUT_DIR / f'{safe_name}.png').write_bytes(png_data)
-            print(f'  [{i}/{len(extractions)}] {img} ({len(png_data)//1024} KB)')
-    finally:
-        sys.stderr.close()
-        sys.stderr = _stderr
+        if not src_file.exists():
+            print(f'ERROR: {src_file} not found, skipping {version}')
+            continue
 
-    print(f'\nDone. Saved {len(extractions)} PNGs to {OUT_DIR}/')
+        with open(src_file, 'r', encoding='utf-8') as f:
+            extractions = json.load(f)
+
+        print(f'\n{"="*50}')
+        print(f'Version: {version.upper()} — {len(extractions)} extractions')
+        print(f'Output:  {out_dir}/')
+
+        # Suppress fontconfig stderr warnings
+        _stderr = sys.stderr
+        sys.stderr = open(os.devnull, 'w')
+
+        try:
+            for i, (img, ext) in enumerate(extractions.items(), 1):
+                dot = build_scene_graph_dot(ext, img)
+                safe_name = img.removesuffix('.png')
+                png_data = dot.pipe(format='png')
+                (out_dir / f'{safe_name}.png').write_bytes(png_data)
+                print(f'  [{i}/{len(extractions)}] {img} ({len(png_data)//1024} KB)')
+        finally:
+            sys.stderr.close()
+            sys.stderr = _stderr
+
+        print(f'Done. Saved {len(extractions)} PNGs to {out_dir}/')
 
 
 if __name__ == '__main__':

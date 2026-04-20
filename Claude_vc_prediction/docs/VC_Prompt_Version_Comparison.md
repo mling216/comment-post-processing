@@ -15,7 +15,26 @@ We evaluated four progressively enriched prompt designs for predicting visual co
 | **V2** | Anchor-calibrated | VC definition + 3 few-shot anchor images (vc_score only); no dimensions |
 | **V3** | Full pipeline | Dimensions + calibration guidance + weighting instructions + 3 anchors (full scores) |
 
-**Ground truth** comes from 46 human-rated images. Three anchor images (VisC.503.6.png at 0.22, InfoVisJ.619.17.png at 0.54, InfoVisJ.1149.6(1).png at 0.95) are excluded from evaluation, leaving **43 non-anchor images** for fair comparison.
+### Dataset: 46 Ground-Truth Images
+
+The evaluation set consists of **46 unique images** drawn from 23 manually curated pairs (`image_pairs.xlsx`). The pairs were selected from a larger ~700-pair human comparison study and **stratified by VC score difference** to span the full difficulty range:
+
+| Difficulty Bucket | |ΔVC| Range | # Pairs |
+|-------------------|------------|---------|
+| Tiny | 0.00–0.09 | 4 |
+| Small | 0.10–0.19 | 4 |
+| Medium | 0.20–0.39 | 9 |
+| Large | 0.40+ | 5 |
+
+The 46 images cover human-rated VC scores from 0.22 to 0.95 (mean = 0.601, std = 0.174). Three of these images serve as **few-shot anchors** in V2/V3:
+
+| Role | Image | GT VC Score |
+|------|-------|-------------|
+| Low anchor | `VisC.503.6.png` | 0.22 |
+| Mid anchor | `InfoVisJ.619.17.png` | 0.54 |
+| High anchor | `InfoVisJ.1149.6(1).png` | 0.95 |
+
+These 3 anchors are excluded from evaluation, leaving **43 non-anchor images** for fair comparison across all four prompt versions.
 
 ---
 

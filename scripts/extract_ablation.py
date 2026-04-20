@@ -1,20 +1,22 @@
 """
-Prompt Ablation Extraction — v0, v1, v2, v3
-============================================
+Prompt Ablation Extraction — v0, v1, v2, v3, v4
+=================================================
 Runs the 27-image subset through stripped-down prompt variants:
   v0: image only → topic selection
-  v1: image only → scene graph
-  v2: image + VisType label → scene graph
-  v3: image + original phrases → scene graph
+  v1: image only → scene graph (element-level)
+  v2: image + VisType label → scene graph (element-level)
+  v3: image + original phrases → scene graph (element-level)
+  v4: image + original phrases → scene graph (pattern-level)
 
 Usage:
     python scripts/extract_ablation.py v0          # image only (topics)
     python scripts/extract_ablation.py v1          # image only (scene graph)
     python scripts/extract_ablation.py v2          # image + vistype
-    python scripts/extract_ablation.py v3          # image + original phrases
-    python scripts/extract_ablation.py v1 v2 v3   # run multiple
-    python scripts/extract_ablation.py v1 --overwrite  # re-process
-    python scripts/extract_ablation.py v1 --concurrency 3
+    python scripts/extract_ablation.py v3          # image + phrases (elements)
+    python scripts/extract_ablation.py v4          # image + phrases (patterns)
+    python scripts/extract_ablation.py v3 v4      # run multiple
+    python scripts/extract_ablation.py v4 --overwrite  # re-process
+    python scripts/extract_ablation.py v4 --concurrency 3
 """
 
 import os, sys, json, asyncio, argparse, base64
@@ -144,7 +146,41 @@ Output ONLY valid JSON matching this schema (no markdown, no explanation):
   ]
 }"""
 
-SYSTEM_PROMPTS = {'v0': SYSTEM_V0, 'v1': SYSTEM_V1, 'v2': SYSTEM_V2, 'v3': SYSTEM_V3}
+SYSTEM_V4 = """You are a visual complexity annotation expert. You will receive:
+1. An image of a data visualization
+2. Original phrases extracted from participant comments describing their perception of its visual complexity
+
+Your task: Extract a **pattern-level** scene graph describing the overall visual patterns and compositional structures that drive complexity, grounded in what participants mentioned AND what is visible in the image.
+
+Focus on general patterns rather than individual elements:
+- Objects should represent visual patterns, groupings, or compositional structures (e.g., "dense_cluster", "overlapping_layers", "color_gradient_pattern", "repeated_grid") rather than individual marks or labels.
+- Attributes should describe pattern-level qualities (e.g., "high_density", "irregular_spacing", "competing_visual_channels") rather than properties of single elements.
+- Relationships should capture how patterns interact to create complexity (e.g., dense_cluster "competes_with" label_pattern) rather than element-to-element connections.
+
+Rules:
+- Use the phrases to identify which visual patterns participants perceived as contributing to complexity.
+- Use the image to verify and ground those patterns.
+- Do not list individual marks, labels, or data points as separate objects. Aggregate them into patterns.
+- Object names: snake_case pattern descriptors (e.g., dense_mark_cluster, overlapping_text_block, multi_color_encoding)
+- Regions: data_area, axes, legend, title, annotation, overall
+- Attribute text: snake_case, max 4 words
+- Predicates: snake_case verbs describing pattern interactions (e.g., competes_with, amplifies, fragments, overwhelms)
+- Sentiment: "+" if pattern increases perceived complexity, "-" if decreases
+
+Output ONLY valid JSON matching this schema (no markdown, no explanation):
+{
+  "objects": [
+    {"id": 1, "name": "pattern_name", "region": "region"}
+  ],
+  "attributes": [
+    {"object_id": 1, "attr": "pattern_quality", "sentiment": "+/-"}
+  ],
+  "relationships": [
+    {"subj": 1, "pred": "predicate", "obj": 2, "sentiment": "+/-"}
+  ]
+}"""
+
+SYSTEM_PROMPTS = {'v0': SYSTEM_V0, 'v1': SYSTEM_V1, 'v2': SYSTEM_V2, 'v3': SYSTEM_V3, 'v4': SYSTEM_V4}
 
 # ── User message builders per version ───────────────────────────────────────
 
@@ -165,7 +201,13 @@ def build_user_message_v3(row):
 
 Extract the scene graph elements grounded in these phrases and what you see in the image."""
 
-USER_BUILDERS = {'v0': build_user_message_v0, 'v1': build_user_message_v1, 'v2': build_user_message_v2, 'v3': build_user_message_v3}
+def build_user_message_v4(row):
+    return f"""Original phrases from participant comments:
+{row['originalPhrases']}
+
+Extract pattern-level scene graph elements — focus on visual patterns and compositional structures rather than individual elements."""
+
+USER_BUILDERS = {'v0': build_user_message_v0, 'v1': build_user_message_v1, 'v2': build_user_message_v2, 'v3': build_user_message_v3, 'v4': build_user_message_v4}
 
 # ── Shared infrastructure ──────────────────────────────────────────────────
 
@@ -310,7 +352,7 @@ async def async_main(args):
 
 def main():
     parser = argparse.ArgumentParser(description='Run prompt ablation extractions (v0/v1/v2)')
-    parser.add_argument('versions', nargs='+', choices=['v0', 'v1', 'v2', 'v3'], help='Which prompt version(s) to run')
+    parser.add_argument('versions', nargs='+', choices=['v0', 'v1', 'v2', 'v3', 'v4'], help='Which prompt version(s) to run')
     parser.add_argument('--overwrite', action='store_true', help='Re-process already extracted images')
     parser.add_argument('--images', nargs='+', help='Process only these specific image names')
     parser.add_argument('--concurrency', type=int, default=None, help=f'Max parallel API calls (default: {CONCURRENCY})')

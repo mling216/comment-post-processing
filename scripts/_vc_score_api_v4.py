@@ -1,19 +1,17 @@
 """
-Claude API Visual Complexity (VC) Scoring Script
-=================================================
-Sends each image to Claude with a few-shot anchored prompt and receives
-7-dimension VC scores (0–1) plus an overall vc_score.
-
-Images can be loaded from local files or fetched from URLs.
-Outputs are CSV-compatible with the existing vc_scores.csv / vc_explanations.csv format.
+Claude API Visual Complexity (VC) Scoring Script — V4
+=====================================================
+Based on V3 with two additions:
+  - Renames "dimensions" to "topics" using original full topic names
+  - Adds topic relevance selection: up to 3 most relevant topics per image
 
 Usage:
-    python _vc_score_api_v3.py                     # process all images from mapping CSV
-    python _vc_score_api_v3.py --limit 5           # process first N images
-    python _vc_score_api_v3.py --overwrite         # re-process already scored images
-    python _vc_score_api_v3.py --source local      # use local image files
-    python _vc_score_api_v3.py --source url        # fetch images from URLs (default)
-    python _vc_score_api_v3.py --outdir results    # custom output directory
+    python _vc_score_api_v4.py                     # process all images from mapping CSV
+    python _vc_score_api_v4.py --limit 5           # process first N images
+    python _vc_score_api_v4.py --overwrite         # re-process already scored images
+    python _vc_score_api_v4.py --source local      # use local image files
+    python _vc_score_api_v4.py --source url        # fetch images from URLs (default)
+    python _vc_score_api_v4.py --outdir results    # custom output directory
 """
 
 import os, sys, json, time, argparse, base64, re, csv, asyncio, threading
@@ -26,89 +24,120 @@ from dotenv import load_dotenv
 load_dotenv(dotenv_path=Path(__file__).parent.parent.parent / '.env')
 
 MODEL          = 'claude-opus-4-6'
-MAX_TOKENS     = 1500
+MAX_TOKENS     = 2000
 SLEEP_BETWEEN  = 0.5        # seconds between API calls
 
 MAPPING_CSV    = Path(__file__).parent.parent / 'phrase_reduction_v2' / 'image_phrase_word_mapping.csv'
 LOCAL_IMG_DIR  = Path(__file__).parent.parent / 'Claude_vc_prediction' / 'images'
-DEFAULT_OUTDIR = Path(__file__).parent.parent / 'vc_api_scores'
+DEFAULT_OUTDIR = Path(__file__).parent.parent / 'vc_api_scores_v4'
 
-DIMENSIONS = [
+# Topic names (original full names from subtopic_taxonomy.csv)
+TOPICS = [
+    'Data Density / Image Clutter',
+    'Visual Encoding Clarity',
+    'Semantics / Text Legibility',
+    'Schema',
+    'Color, Symbol, and Texture Details',
+    'Aesthetics Uncertainty',
+    'Immediacy / Cognitive Load',
+]
+
+# Short keys for CSV columns (matching V3 dimension keys)
+TOPIC_KEYS = [
     'data_density', 'visual_encoding', 'text_annotation',
     'domain_schema', 'color_symbol', 'aesthetic_order', 'cognitive_load'
 ]
 
+# Map full topic name → short key
+TOPIC_NAME_TO_KEY = dict(zip(TOPICS, TOPIC_KEYS))
+
 # ── Anchor images (few-shot examples) ──────────────────────────────────────
-# These are embedded as conversation examples so the model is calibrated.
 ANCHORS = [
     {
         'imageName': 'VisC.503.6.png',
         'vc_score': 0.22,
         'scores': {
-            'data_density': 0.15,
-            'visual_encoding': 0.10,
-            'text_annotation': 0.20,
-            'domain_schema': 0.15,
-            'color_symbol': 0.10,
-            'aesthetic_order': 0.10,
-            'cognitive_load': 0.20,
+            'Data Density / Image Clutter': 0.15,
+            'Visual Encoding Clarity': 0.10,
+            'Semantics / Text Legibility': 0.20,
+            'Schema': 0.15,
+            'Color, Symbol, and Texture Details': 0.10,
+            'Aesthetics Uncertainty': 0.10,
+            'Immediacy / Cognitive Load': 0.20,
         },
         'explanations': {
-            'data_density': 'Only 3 bars with error bars; very sparse data content.',
-            'visual_encoding': 'Standard vertical bars with simple hatching; minimal encoding variety.',
-            'text_annotation': 'Basic axis labels and a title present but minimal text overall.',
-            'domain_schema': 'Generic bar chart format; no specialized domain knowledge needed.',
-            'color_symbol': 'Monochrome black hatched bars on white; no color variety at all.',
-            'aesthetic_order': 'Clean, well-organized layout with ample whitespace.',
-            'cognitive_load': 'Immediately interpretable; very low effort to understand.',
+            'Data Density / Image Clutter': 'Only 3 bars with error bars; very sparse data content.',
+            'Visual Encoding Clarity': 'Standard vertical bars with simple hatching; minimal encoding variety.',
+            'Semantics / Text Legibility': 'Basic axis labels and a title present but minimal text overall.',
+            'Schema': 'Generic bar chart format; no specialized domain knowledge needed.',
+            'Color, Symbol, and Texture Details': 'Monochrome black hatched bars on white; no color variety at all.',
+            'Aesthetics Uncertainty': 'Clean, well-organized layout with ample whitespace.',
+            'Immediacy / Cognitive Load': 'Immediately interpretable; very low effort to understand.',
         },
-        'summary': 'A simple 3-bar chart with black hatching and error bars. Extremely low visual complexity across all dimensions.'
+        'summary': 'A simple 3-bar chart with black hatching and error bars. Extremely low visual complexity across all dimensions.',
+        'relevant_topics': [
+            {'topic': 'Semantics / Text Legibility'},
+            {'topic': 'Immediacy / Cognitive Load'},
+        ],
+        'topic_explanation': 'This minimal bar chart has almost no complexity drivers. The small amount of text and the trivially low cognitive demand are the only aspects worth noting.',
     },
     {
         'imageName': 'InfoVisJ.619.17.png',
         'vc_score': 0.54,
         'scores': {
-            'data_density': 0.55,
-            'visual_encoding': 0.50,
-            'text_annotation': 0.45,
-            'domain_schema': 0.60,
-            'color_symbol': 0.50,
-            'aesthetic_order': 0.45,
-            'cognitive_load': 0.55,
+            'Data Density / Image Clutter': 0.55,
+            'Visual Encoding Clarity': 0.50,
+            'Semantics / Text Legibility': 0.45,
+            'Schema': 0.60,
+            'Color, Symbol, and Texture Details': 0.50,
+            'Aesthetics Uncertainty': 0.45,
+            'Immediacy / Cognitive Load': 0.55,
         },
         'explanations': {
-            'data_density': 'Moderate number of data points in a 2D scatterplot with some grouping structure visible.',
-            'visual_encoding': 'Points plotted in a biplot layout with directional arrows; moderate encoding complexity.',
-            'text_annotation': 'Axis labels and some point labels present; moderate text volume.',
-            'domain_schema': 'Biplot/PCA projection requires some statistical familiarity.',
-            'color_symbol': 'A few colors distinguish groups; moderate palette diversity.',
-            'aesthetic_order': 'Reasonably organized but arrows and overlapping labels add mild clutter.',
-            'cognitive_load': 'Requires understanding of biplots and PCA; moderate interpretation effort.',
+            'Data Density / Image Clutter': 'Moderate number of data points in a 2D scatterplot with some grouping structure visible.',
+            'Visual Encoding Clarity': 'Points plotted in a biplot layout with directional arrows; moderate encoding complexity.',
+            'Semantics / Text Legibility': 'Axis labels and some point labels present; moderate text volume.',
+            'Schema': 'Biplot/PCA projection requires some statistical familiarity.',
+            'Color, Symbol, and Texture Details': 'A few colors distinguish groups; moderate palette diversity.',
+            'Aesthetics Uncertainty': 'Reasonably organized but arrows and overlapping labels add mild clutter.',
+            'Immediacy / Cognitive Load': 'Requires understanding of biplots and PCA; moderate interpretation effort.',
         },
-        'summary': 'A PCA biplot with directional arrows and grouped points. Moderate complexity requiring some statistical knowledge.'
+        'summary': 'A PCA biplot with directional arrows and grouped points. Moderate complexity requiring some statistical knowledge.',
+        'relevant_topics': [
+            {'topic': 'Schema'},
+            {'topic': 'Immediacy / Cognitive Load'},
+            {'topic': 'Data Density / Image Clutter'},
+        ],
+        'topic_explanation': 'The biplot/PCA schema drives most of the complexity, requiring statistical knowledge. The cognitive load of interpreting directional arrows and groupings is substantial, and the moderate data density adds to the visual demand.',
     },
     {
         'imageName': 'InfoVisJ.1149.6(1).png',
         'vc_score': 0.95,
         'scores': {
-            'data_density': 0.90,
-            'visual_encoding': 0.85,
-            'text_annotation': 0.80,
-            'domain_schema': 0.95,
-            'color_symbol': 0.70,
-            'aesthetic_order': 0.85,
-            'cognitive_load': 0.95,
+            'Data Density / Image Clutter': 0.90,
+            'Visual Encoding Clarity': 0.85,
+            'Semantics / Text Legibility': 0.80,
+            'Schema': 0.95,
+            'Color, Symbol, and Texture Details': 0.70,
+            'Aesthetics Uncertainty': 0.85,
+            'Immediacy / Cognitive Load': 0.95,
         },
         'explanations': {
-            'data_density': 'Multiple coordinated panels (7 views) each showing dense text and data; extremely high information volume.',
-            'visual_encoding': 'Mixed encoding types across panels: lists, highlighted text, bar-like indicators, tag clouds; high variety.',
-            'text_annotation': 'Extensive text content across all panels; the visualization IS largely text-based with highlights and annotations.',
-            'domain_schema': 'Specialized text analysis/collation tool; requires understanding of multi-view coordinated systems.',
-            'color_symbol': 'Multiple highlight colors for text segments; moderate color use with functional meaning.',
-            'aesthetic_order': 'Complex multi-panel layout with varied panel sizes; visually dense and somewhat overwhelming.',
-            'cognitive_load': 'Must track relationships across 7 coordinated views with dense text; very high cognitive demand.',
+            'Data Density / Image Clutter': 'Multiple coordinated panels (7 views) each showing dense text and data; extremely high information volume.',
+            'Visual Encoding Clarity': 'Mixed encoding types across panels: lists, highlighted text, bar-like indicators, tag clouds; high variety.',
+            'Semantics / Text Legibility': 'Extensive text content across all panels; the visualization IS largely text-based with highlights and annotations.',
+            'Schema': 'Specialized text analysis/collation tool; requires understanding of multi-view coordinated systems.',
+            'Color, Symbol, and Texture Details': 'Multiple highlight colors for text segments; moderate color use with functional meaning.',
+            'Aesthetics Uncertainty': 'Complex multi-panel layout with varied panel sizes; visually dense and somewhat overwhelming.',
+            'Immediacy / Cognitive Load': 'Must track relationships across 7 coordinated views with dense text; very high cognitive demand.',
         },
-        'summary': 'A multi-panel text collation tool with 7 coordinated views showing highlighted text passages, bar indicators, and tag clouds. Extremely high visual complexity requiring sustained multi-view comparison.'
+        'summary': 'A multi-panel text collation tool with 7 coordinated views showing highlighted text passages, bar indicators, and tag clouds. Extremely high visual complexity requiring sustained multi-view comparison.',
+        'relevant_topics': [
+            {'topic': 'Immediacy / Cognitive Load'},
+            {'topic': 'Schema'},
+            {'topic': 'Data Density / Image Clutter'},
+        ],
+        'topic_explanation': 'The extreme cognitive load of tracking 7 coordinated views is the primary complexity driver. The specialized multi-view schema demands domain expertise, and the sheer density of information across all panels compounds the difficulty.',
     },
 ]
 
@@ -127,42 +156,49 @@ Use the full 0–1 range. Do NOT cluster scores conservatively toward the center
 - An extremely dense multi-view system with many coordinated panels → vc_score ≈ 0.85–0.95
 IMPORTANT: If you are unsure between two scores, always choose the higher one. Most scorers underestimate — push scores up.
 
-## Scoring Dimensions (each 0–1)
+## Scoring Topics (each 0–1)
 
-1. **data_density** — The perceived amount, richness, or depth of data content. Considers information volume, element quantity, and visual clutter/overlap.
-2. **visual_encoding** — The variety, type, and complexity of graphical forms (shapes, lines, marks) and how spatial layout, scale, and encoding interpretability contribute to complexity.
-3. **text_annotation** — The sheer quantity and density of text elements (titles, axis labels, legends, captions, annotations, in-chart labels). Score based on volume only: more text = higher score, regardless of legibility.
-4. **domain_schema** — Whether specialized domain knowledge is needed, including dimensionality (2D/3D), structural complexity, and abstraction level.
-5. **color_symbol** — Range, variety, and arrangement of colors, plus use of symbols, textures, and non-color graphical markers.
-6. **aesthetic_order** — How visually cluttered, dense, or disordered the layout appears. Higher = more cluttered/overwhelming. A clean minimal layout scores low; a crowded layout with overlapping elements scores high.
-7. **cognitive_load** — Overall ease or difficulty of interpreting the visualization. Considers interpretive difficulty, semantic clarity, and processing time/effort.
+1. **Data Density / Image Clutter** — The perceived amount, richness, or depth of data content. Considers information volume, element quantity, and visual clutter/overlap.
+2. **Visual Encoding Clarity** — The variety, type, and complexity of graphical forms (shapes, lines, marks) and how spatial layout, scale, and encoding interpretability contribute to complexity.
+3. **Semantics / Text Legibility** — The sheer quantity and density of text elements (titles, axis labels, legends, captions, annotations, in-chart labels). Score based on volume only: more text = higher score, regardless of legibility.
+4. **Schema** — Whether specialized domain knowledge is needed, including dimensionality (2D/3D), structural complexity, and abstraction level.
+5. **Color, Symbol, and Texture Details** — Range, variety, and arrangement of colors, plus use of symbols, textures, and non-color graphical markers.
+6. **Aesthetics Uncertainty** — How visually cluttered, dense, or disordered the layout appears. Higher = more cluttered/overwhelming. A clean minimal layout scores low; a crowded layout with overlapping elements scores high.
+7. **Immediacy / Cognitive Load** — Overall ease or difficulty of interpreting the visualization. Considers interpretive difficulty, semantic clarity, and processing time/effort.
 
 ## Overall vc_score
-The overall vc_score is a weighted average reflecting the image's holistic visual complexity. Weight dimensions as follows:
-- **High weight**: data_density, visual_encoding, domain_schema, cognitive_load (these drive VC the most)
-- **Medium weight**: color_symbol, aesthetic_order
-- **Low weight**: text_annotation (text volume alone is a weak VC signal)
-The vc_score should be consistent with (but not necessarily the arithmetic mean of) the 7 dimension scores. A low text_annotation score should NOT substantially pull down the overall vc_score.
+The overall vc_score is a weighted average reflecting the image's holistic visual complexity. Weight topics as follows:
+- **High weight**: Data Density / Image Clutter, Visual Encoding Clarity, Schema, Immediacy / Cognitive Load (these drive VC the most)
+- **Medium weight**: Color, Symbol, and Texture Details; Aesthetics Uncertainty
+- **Low weight**: Semantics / Text Legibility (text volume alone is a weak VC signal)
+The vc_score should be consistent with (but not necessarily the arithmetic mean of) the 7 topic scores. A low Semantics / Text Legibility score should NOT substantially pull down the overall vc_score.
+
+## Topic Relevance
+After scoring, select up to **3 topics** (by name) that are **most relevant** to the visual complexity of this image. List them in order of relevance, most relevant first. Then write briefly why these topics are most relevant.
 
 ## Output Format
 Return ONLY valid JSON (no markdown fences, no explanation outside JSON):
 {
-  "data_density": <float 0-1>,
-  "visual_encoding": <float 0-1>,
-  "text_annotation": <float 0-1>,
-  "domain_schema": <float 0-1>,
-  "color_symbol": <float 0-1>,
-  "aesthetic_order": <float 0-1>,
-  "cognitive_load": <float 0-1>,
+  "Data Density / Image Clutter": <float 0-1>,
+  "Visual Encoding Clarity": <float 0-1>,
+  "Semantics / Text Legibility": <float 0-1>,
+  "Schema": <float 0-1>,
+  "Color, Symbol, and Texture Details": <float 0-1>,
+  "Aesthetics Uncertainty": <float 0-1>,
+  "Immediacy / Cognitive Load": <float 0-1>,
   "vc_score": <float 0-1>,
-  "data_density_explanation": "<1 sentence>",
-  "visual_encoding_explanation": "<1 sentence>",
-  "text_annotation_explanation": "<1 sentence>",
-  "domain_schema_explanation": "<1 sentence>",
-  "color_symbol_explanation": "<1 sentence>",
-  "aesthetic_order_explanation": "<1 sentence>",
-  "cognitive_load_explanation": "<1 sentence>",
-  "summary": "<2-3 sentence overall description>"
+  "Data Density / Image Clutter_explanation": "<1 sentence>",
+  "Visual Encoding Clarity_explanation": "<1 sentence>",
+  "Semantics / Text Legibility_explanation": "<1 sentence>",
+  "Schema_explanation": "<1 sentence>",
+  "Color, Symbol, and Texture Details_explanation": "<1 sentence>",
+  "Aesthetics Uncertainty_explanation": "<1 sentence>",
+  "Immediacy / Cognitive Load_explanation": "<1 sentence>",
+  "summary": "<2-3 sentence overall description>",
+  "topics": [
+    {"topic": "<topic_name>"}
+  ],
+  "topic_explanation": "<1-3 concise sentences (max 100 words total) explaining why these topics are relevant>"
 }"""
 
 
@@ -191,13 +227,12 @@ def build_anchor_messages(source: str) -> list:
     messages = []
     for anchor in ANCHORS:
         img_name = anchor['imageName']
-        # Load anchor image
         b64 = _load_image(img_name, source)
         if b64 is None:
             print(f'  WARNING: Could not load anchor image {img_name}, skipping from few-shot')
             continue
 
-        # User turn: just the image
+        # User turn
         messages.append({
             "role": "user",
             "content": [
@@ -207,31 +242,30 @@ def build_anchor_messages(source: str) -> list:
                 },
                 {
                     "type": "text",
-                    "text": f"Score the visual complexity of this visualization image."
+                    "text": "Score the visual complexity of this visualization image."
                 }
             ]
         })
 
-        # Assistant turn: the anchor scores as JSON
+        # Assistant turn: anchor scores as JSON using full topic names
         response_obj = {}
-        for dim in DIMENSIONS:
-            response_obj[dim] = anchor['scores'][dim]
+        for topic in TOPICS:
+            response_obj[topic] = anchor['scores'][topic]
         response_obj['vc_score'] = anchor['vc_score']
-        for dim in DIMENSIONS:
-            response_obj[f'{dim}_explanation'] = anchor['explanations'][dim]
+        for topic in TOPICS:
+            response_obj[f'{topic}_explanation'] = anchor['explanations'][topic]
         response_obj['summary'] = anchor['summary']
+        response_obj['topics'] = anchor['relevant_topics']
+        response_obj['topic_explanation'] = anchor['topic_explanation']
 
         messages.append({
             "role": "assistant",
             "content": json.dumps(response_obj, indent=2)
         })
 
-    # Mark the last anchor message for prompt caching — Anthropic caches
-    # everything up to and including the block with cache_control, so all
-    # 3 anchor image pairs are cached after the first API call.
+    # Mark the last anchor message for prompt caching
     if messages:
         last_msg = messages[-1]
-        # Convert string content to a content block so we can add cache_control
         if isinstance(last_msg['content'], str):
             last_msg['content'] = [
                 {
@@ -251,7 +285,7 @@ def _load_image(img_name: str, source: str, url: str = None) -> str | None:
         if path.exists():
             return image_to_base64(path)
         return None
-    else:  # url
+    else:
         if url:
             target = url
         else:
@@ -286,21 +320,39 @@ def load_existing_scores(scores_csv: Path) -> set:
     return done
 
 
+def _normalize_result(result: dict) -> dict:
+    """Map full topic names to short keys for CSV output and extract topic relevance."""
+    out = {}
+    for topic, key in TOPIC_NAME_TO_KEY.items():
+        out[key] = result.get(topic, '')
+        out[f'{key}_explanation'] = result.get(f'{topic}_explanation', '')
+    out['vc_score'] = result.get('vc_score', '')
+    out['summary'] = result.get('summary', '')
+
+    # Topic relevance
+    topics_list = result.get('topics', [])
+    topic_names = [t['topic'] for t in topics_list if isinstance(t, dict) and 'topic' in t]
+    out['relevant_topics'] = '; '.join(topic_names)
+    out['topic_explanation'] = result.get('topic_explanation', '')
+    return out
+
+
 def append_scores_row(scores_csv: Path, filename: str, result: dict):
     """Append one row to the scores CSV."""
     write_header = not scores_csv.exists()
     with open(scores_csv, 'a', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
         if write_header:
-            writer.writerow(['filename'] + DIMENSIONS + ['vc_score'])
-        row = [filename] + [result.get(d, '') for d in DIMENSIONS] + [result.get('vc_score', '')]
+            writer.writerow(['filename'] + TOPIC_KEYS + ['vc_score', 'relevant_topics'])
+        row = [filename] + [result.get(k, '') for k in TOPIC_KEYS] + [
+            result.get('vc_score', ''), result.get('relevant_topics', '')]
         writer.writerow(row)
 
 
 def append_explanations_row(expl_csv: Path, filename: str, result: dict):
     """Append one row to the explanations CSV."""
     write_header = not expl_csv.exists()
-    expl_cols = [f'{d}_explanation' for d in DIMENSIONS] + ['summary']
+    expl_cols = [f'{k}_explanation' for k in TOPIC_KEYS] + ['summary', 'topic_explanation']
     with open(expl_csv, 'a', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
         if write_header:
@@ -343,8 +395,9 @@ def _score_one(client, img_name, img_url, source, anchor_messages, scores_csv, e
 
     raw = response.content[0].text
     result = parse_response(raw)
+    result = _normalize_result(result)
 
-    missing = [d for d in DIMENSIONS + ['vc_score'] if d not in result]
+    missing = [k for k in TOPIC_KEYS + ['vc_score'] if k not in result or result[k] == '']
     if missing:
         print(f'  WARN [{img_name}]: missing keys {missing}; saving partial')
 
@@ -416,8 +469,9 @@ async def _score_one_async(aclient, sem, idx, total, img_name, img_url, source,
             )
             raw = response.content[0].text
             result = parse_response(raw)
+            result = _normalize_result(result)
 
-            missing = [d for d in DIMENSIONS + ['vc_score'] if d not in result]
+            missing = [k for k in TOPIC_KEYS + ['vc_score'] if k not in result or result[k] == '']
             if missing:
                 print(f'  WARN [{img_name}]: missing keys {missing}')
 
@@ -461,7 +515,7 @@ async def _run_concurrent(api_key, to_process, anchor_messages, source,
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
-    parser = argparse.ArgumentParser(description='Score visual complexity of images via Claude API')
+    parser = argparse.ArgumentParser(description='Score visual complexity of images via Claude API (V4)')
     parser.add_argument('--limit', type=int, default=None, help='Process only first N images')
     parser.add_argument('--overwrite', action='store_true', help='Re-process already scored images')
     parser.add_argument('--source', choices=['local', 'url'], default='url',
@@ -473,9 +527,37 @@ def main():
                         help='CSV with imageName column (and optional imageURL) to use instead of default mapping')
     parser.add_argument('--concurrency', type=int, default=1,
                         help='Number of concurrent API calls (default: 1 = sequential)')
+    parser.add_argument('--summary', action='store_true',
+                        help='Generate topic_relevance_summary.csv from existing results and exit')
     args = parser.parse_args()
 
     api_key = os.environ.get('ANTHROPIC_API_KEY')
+
+    # ── Summary mode ────────────────────────────────────────────────────
+    if args.summary:
+        import pandas as pd
+        outdir = Path(args.outdir) if args.outdir else DEFAULT_OUTDIR
+        scores_csv = outdir / 'vc_scores.csv'
+        expl_csv   = outdir / 'vc_explanations.csv'
+        if not scores_csv.exists() or not expl_csv.exists():
+            print(f'ERROR: Missing output files in {outdir.resolve()}')
+            sys.exit(1)
+        scores = pd.read_csv(scores_csv)[['filename', 'relevant_topics']]
+        expl   = pd.read_csv(expl_csv)[['filename', 'topic_explanation']]
+        merged = (scores.merge(expl, on='filename')
+                  .rename(columns={'filename': 'imageName'}))
+        # If --input-csv given, order rows to match its imageName column
+        if args.input_csv:
+            order = pd.read_csv(args.input_csv)[['imageName']]
+            merged = order.merge(merged, on='imageName', how='left')
+        else:
+            merged = merged.sort_values('imageName').reset_index(drop=True)
+        out_path = outdir / 'topic_relevance_summary.csv'
+        merged.to_csv(out_path, index=False)
+        print(f'Saved {len(merged)} rows to {out_path.resolve()}')
+        print(merged.to_string(index=False))
+        return
+
     if not api_key:
         print('ERROR: ANTHROPIC_API_KEY not set. Check your .env file.')
         sys.exit(1)
@@ -487,7 +569,6 @@ def main():
     if args.input_csv:
         input_df = pd.read_csv(args.input_csv)
         if 'imageURL' not in input_df.columns:
-            # Join URLs from the master mapping
             mapping_df = pd.read_csv(MAPPING_CSV)
             url_map = dict(zip(mapping_df['imageName'], mapping_df['imageURL']))
             input_df['imageURL'] = input_df['imageName'].map(url_map).fillna('')
@@ -497,7 +578,6 @@ def main():
         all_images = mapping_df[['imageName', 'imageURL']].drop_duplicates('imageName').to_dict('records')
 
     if args.images:
-        # Filter to specific images
         target_set = set(args.images)
         all_images = [r for r in all_images if r['imageName'] in target_set]
 
@@ -527,7 +607,7 @@ def main():
         print('Nothing to process.')
         return
 
-    # ── Build few-shot anchor messages (done once, cached in prompt) ────
+    # ── Build few-shot anchor messages ──────────────────────────────────
     print('Loading anchor images for few-shot examples...')
     anchor_messages = build_anchor_messages(args.source)
     print(f'  {len(anchor_messages) // 2} anchor examples loaded.\n')

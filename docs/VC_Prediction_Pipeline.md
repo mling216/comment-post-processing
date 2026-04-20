@@ -90,7 +90,7 @@ The V3 prompt was developed using 3 anchor images + 46 calibration images. Of th
 | Seen (n=46)          | 0.912     | 0.907      | 0.831 | 0.074 | 0.089 | -0.025 |
 | Unseen (n=464)       | 0.851     | 0.847      | 0.723 | 0.095 | 0.116 | -0.067 |
 
-![Pred vs GT Scatter + Error Distribution](../Claude_image_pair_comparison/figures/gt_scatter_error.png)
+![Pred vs GT Scatter + Error Distribution](../Claude_vc_prediction/figures/gt_scatter_error.png)
 
 The unseen split shows Pearson r = 0.851 with a slight negative bias (-0.067), indicating the prompt generalizes well beyond the calibration set. The error distribution is approximately symmetric and centered near zero.
 
@@ -100,13 +100,13 @@ The unseen split shows Pearson r = 0.851 with a slight negative bias (-0.067), i
 
 | File | Description |
 |------|-------------|
-| `scripts/_vc_score_api.py` | Main API scoring script (V3 prompt, async, caching) |
+| `scripts/_vc_score_api_v3.py` | Main API scoring script (V3 prompt, async, caching) |
 | `vc_api_scores/vc_scores.csv` | Production scores (520 rows, 7 dims + vc_score) |
 | `vc_api_scores/vc_explanations.csv` | Per-dimension explanations + summary |
-| `Claude_image_pair_comparison/gt_all_46.csv` | 46 calibration GT images |
-| `Claude_image_pair_comparison/VC_520_Analysis.ipynb` | Production analysis notebook |
-| `Claude_image_pair_comparison/VC_API_Calibration.ipynb` | V1/V2/V3 calibration diagnostics |
-| `vc_api_46gt/` | V1 calibration run output |
+| `Claude_vc_prediction/gt_all_46.csv` | 46 calibration GT images |
+| `Claude_vc_prediction/VC_520_Analysis.ipynb` | Production analysis notebook |
+| `Claude_vc_prediction/VC_API_Calibration.ipynb` | V1/V2/V3 calibration diagnostics |
+| `vc_api_46gt_v1/` | V1 calibration run output |
 | `vc_api_46gt_v2/` | V2 calibration run output |
 | `vc_api_46gt_v3/` | V3 calibration run output |
 
@@ -229,7 +229,7 @@ On the 2nd call onward, the API performs a **cache read** for the full prefix (~
 - **Mean ± std**: 0.531 ± 0.168
 - **Range**: [0.03, 0.93]
 
-![VC Score Distribution](../Claude_image_pair_comparison/figures/vc_distribution.png)
+![VC Score Distribution](../Claude_vc_prediction/figures/vc_distribution.png)
 
 ### VC by Visualization Type
 
@@ -249,7 +249,7 @@ On the 2nd call onward, the API performs a **cache read** for the full prefix (~
 
 Excluded (10 images): Schematic (7), Bar and point (1), Table (1), Area and Text (1).
 
-![VC by VisType](../Claude_image_pair_comparison/figures/vc_by_vistype.png)
+![VC by VisType](../Claude_vc_prediction/figures/vc_by_vistype.png)
 
 ### Dimension-Level Statistics
 
@@ -265,11 +265,11 @@ Excluded (10 images): Schematic (7), Bar and point (1), Table (1), Area and Text
 
 *(Approximate values — see notebook for exact stats.)*
 
-![Dimension Bar Chart](../Claude_image_pair_comparison/figures/dimension_bar_chart.png)
+![Dimension Bar Chart](../Claude_vc_prediction/figures/dimension_bar_chart.png)
 
-![Dimension Correlation Matrix](../Claude_image_pair_comparison/figures/dimension_correlation.png)
+![Dimension Correlation Matrix](../Claude_vc_prediction/figures/dimension_correlation.png)
 
-![Dimension Profiles by VisType](../Claude_image_pair_comparison/figures/dimension_profiles_heatmap.png)
+![Dimension Profiles by VisType](../Claude_vc_prediction/figures/dimension_profiles_heatmap.png)
 
 ---
 
