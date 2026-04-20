@@ -1,0 +1,380 @@
+{
+  "InfoVisJ.1063.13.png": {
+    "topics": [
+      {
+        "topic": "Data Density / Image Clutter"
+      },
+      {
+        "topic": "Schema"
+      },
+      {
+        "topic": "Semantics / Text Legibility"
+      }
+    ],
+    "explanation": "The dendrogram contains hundreds of densely packed hierarchical branches and leaf labels, creating extreme visual clutter. Understanding a dendrogram requires domain knowledge of hierarchical clustering structures. The leaf-level text labels are completely illegible due to extreme compression, making semantic interpretation nearly impossible."
+  },
+  "visMost97.png": {
+    "topics": [
+      {
+        "topic": "Color, Symbol, and Texture Details"
+      },
+      {
+        "topic": "Semantics / Text Legibility"
+      },
+      {
+        "topic": "Visual Encoding Clarity"
+      }
+    ],
+    "explanation": "Each continent is distinctly color-coded, making color the primary encoding mechanism. Text labels with numbers and region names are scattered around the map, requiring attention to legibility. The visual encoding uses geographic silhouettes scaled loosely to population proportions, which requires some interpretation to understand the relationship between map size and the annotated statistics."
+  },
+  "VisC.375.9(2).png": {
+    "topics": [
+      {
+        "topic": "Schema"
+      },
+      {
+        "topic": "Semantics / Text Legibility"
+      },
+      {
+        "topic": "Visual Encoding Clarity"
+      }
+    ],
+    "explanation": "This is a graph/network diagram requiring domain knowledge to interpret node-edge relationships and cluster groupings. Text labels (a1, a5, b1, b9, b10, c1, c3, c9, d1, d2) are prominent and essential for reading the structure. The sparse spatial layout and use of dots connected by blue lines demands understanding of graph encoding conventions."
+  },
+  "economist_daily_chart_493.png": {
+    "topics": [
+      {
+        "topic": "Data Density / Image Clutter"
+      },
+      {
+        "topic": "Color, Symbol, and Texture Details"
+      },
+      {
+        "topic": "Semantics / Text Legibility"
+      }
+    ],
+    "explanation": "The map is densely packed with numeric labels, colored data boxes, and regional annotations across every German state, creating high clutter. Multiple color schemes encode unemployment rates via choropleth shading while colored boxes (brown/blue) represent GDP and population for two time periods. The volume of text labels, legend entries, region names, and annotated values demands significant reading effort to parse."
+  },
+  "visMost573.png": {
+    "topics": [
+      {
+        "topic": "Data Density / Image Clutter"
+      },
+      {
+        "topic": "Color, Symbol, and Texture Details"
+      },
+      {
+        "topic": "Immediacy / Cognitive Load"
+      }
+    ],
+    "explanation": "The map is densely packed with dozens of overlapping concentric circle glyphs representing sound sources, creating significant visual clutter. Multiple colors (blue, red, orange, green, gray) encode different sound types, with complex overlap patterns requiring careful legend interpretation. Decoding the layered color combinations and spatial distributions demands high cognitive effort, especially given the specialized thematic content."
+  },
+  "VASTJ.1.7.png": {
+    "topics": [
+      {
+        "topic": "Data Density / Image Clutter"
+      },
+      {
+        "topic": "Schema"
+      },
+      {
+        "topic": "Color, Symbol, and Texture Details"
+      }
+    ],
+    "explanation": "The visualization contains densely packed network graphs with heavily overlapping edges and nodes, creating significant visual clutter. It requires specialized knowledge of graph/network topology and multi-scale clustering to interpret the hierarchical structure. Multiple distinct color groups (red, orange, yellow, dark blue) encode different node categories, adding another layer of complexity to decode."
+  },
+  "InfoVisJ.522.15.png": {
+    "topics": [
+      {
+        "topic": "Schema"
+      },
+      {
+        "topic": "Color, Symbol, and Texture Details"
+      },
+      {
+        "topic": "Data Density / Image Clutter"
+      }
+    ],
+    "explanation": "These are genomic contact matrices requiring specialized domain knowledge (Hi-C data) to interpret, making schema critical. Multiple color schemes (grayscale, red heatmaps, blue-tinted panels) plus annotated symbols (circles, arrows) add encoding complexity. The dense pixel-level data across eight panels creates substantial visual clutter and information load."
+  },
+  "VASTC.41.5.png": {
+    "topics": [
+      {
+        "topic": "Color, Symbol, and Texture Details"
+      },
+      {
+        "topic": "Data Density / Image Clutter"
+      },
+      {
+        "topic": "Immediacy / Cognitive Load"
+      }
+    ],
+    "explanation": "The four panels display highly varied, glitch-like color patterns with dense overlapping stripes and blocks, making color and texture the dominant complexity driver. The visual clutter and data density across panels (a–d) create extreme noise. Together, these factors impose high cognitive load, as interpreting the progression or meaning across panels requires significant effort without clear labels or standard chart conventions."
+  },
+  "VisJ.1949.11.png": {
+    "topics": [
+      {
+        "topic": "Color, Symbol, and Texture Details"
+      },
+      {
+        "topic": "Schema"
+      },
+      {
+        "topic": "Immediacy / Cognitive Load"
+      }
+    ],
+    "explanation": "Color is the primary encoding mechanism, mapping a variable (likely time or velocity) along orbital/trajectory paths using a spectral gradient from red through yellow to cyan. The visualization appears to represent orbital mechanics or particle trajectories, requiring domain knowledge to interpret. The minimal context, lack of labels, and abstract representation increase cognitive load as viewers must infer meaning from shape and color alone."
+  },
+  "VASTJ.870.4.png": {
+    "topics": [
+      {
+        "topic": "Color, Symbol, and Texture Details"
+      },
+      {
+        "topic": "Visual Encoding Clarity"
+      },
+      {
+        "topic": "Immediacy / Cognitive Load"
+      }
+    ],
+    "explanation": "The visualization uses two color gradients (orange and green) with varying intensities to encode student numbers, making color the primary complexity driver. The encoding combines large background bars with small vertical markers in a non-standard layout that requires effort to interpret. Understanding what the bars, markers, and gradient scales represent demands significant cognitive effort, especially without clear axis labels."
+  },
+  "SciVisJ.980.7(2).png": {
+    "topics": [
+      {
+        "topic": "Schema"
+      },
+      {
+        "topic": "Color, Symbol, and Texture Details"
+      },
+      {
+        "topic": "Immediacy / Cognitive Load"
+      }
+    ],
+    "explanation": "This visualization requires specialized domain knowledge (likely quantum mechanics or wave optics) to interpret its polar coordinate structure, ellipses, and star-shaped glyphs. A rich variety of colors encodes angular position (γ values) while symbol shapes (circles, ellipses, multi-lobed forms) encode additional dimensions. The combination of abstract encoding and domain-specific notation creates high cognitive load for interpretation."
+  },
+  "VisJ.1197.5(3).png": {
+    "topics": [
+      {
+        "topic": "Data Density / Image Clutter"
+      },
+      {
+        "topic": "Schema"
+      },
+      {
+        "topic": "Aesthetics Uncertainty"
+      }
+    ],
+    "explanation": "The image is densely packed with hundreds of 3D building-like rectangular forms, creating extreme visual clutter. Interpreting this requires domain knowledge of 3D urban mapping or spatial data visualization, adding schema complexity. The chaotic, overlapping arrangement of elements with varying shadows creates a disordered, visually dense layout that is difficult to parse."
+  },
+  "InfoVisJ.669.4.png": {
+    "topics": [
+      {
+        "topic": "Data Density / Image Clutter"
+      },
+      {
+        "topic": "Aesthetics Uncertainty"
+      },
+      {
+        "topic": "Visual Encoding Clarity"
+      }
+    ],
+    "explanation": "The scatter plot contains hundreds of overlapping data points, creating significant clutter and occlusion especially in the lower-right region. This dense overplotting makes the layout appear disordered and visually cluttered, increasing aesthetic uncertainty. The x-axis lacks labels entirely, reducing encoding clarity and making it difficult to interpret the full meaning of the spatial distribution."
+  },
+  "wsj124.png": {
+    "topics": [
+      {
+        "topic": "Semantics / Text Legibility"
+      },
+      {
+        "topic": "Color, Symbol, and Texture Details"
+      },
+      {
+        "topic": "Immediacy / Cognitive Load"
+      }
+    ],
+    "explanation": "The chart relies heavily on text labels (study names, years, annotations, axis labels) to convey meaning, making text legibility central. Black-filled vs. white-filled circles encode a key categorical distinction, requiring attention to symbol details. Overall, interpreting the dot positions alongside the racial and temporal context demands moderate cognitive effort, especially with the missing data annotation."
+  },
+  "InfoVisC.157.1.png": {
+    "topics": [
+      {
+        "topic": "Data Density / Image Clutter"
+      },
+      {
+        "topic": "Schema"
+      },
+      {
+        "topic": "Semantics / Text Legibility"
+      }
+    ],
+    "explanation": "The SPLOM contains many dense scatterplot panels with heavily overlapping points, creating significant visual clutter. Understanding a scatter plot matrix requires domain familiarity with pairwise relationships and multivariate data structures. Variable labels (sex, length, diameter, etc.) serve as the primary navigational text, making their legibility critical to interpreting the matrix layout."
+  },
+  "VASTJ.1720.4.png": {
+    "topics": [
+      {
+        "topic": "Color, Symbol, and Texture Details"
+      },
+      {
+        "topic": "Visual Encoding Clarity"
+      },
+      {
+        "topic": "Semantics / Text Legibility"
+      }
+    ],
+    "explanation": "The use of a single red bar among blue bars is the most salient complexity feature, drawing attention to a specific data point. The bar chart encoding is straightforward but the x-axis uses non-uniform numeric intervals, adding interpretive complexity. Text labels on both axes are minimal but the irregular scale values require careful reading."
+  },
+  "wsj28.png": {
+    "topics": [
+      {
+        "topic": "Semantics / Text Legibility"
+      },
+      {
+        "topic": "Data Density / Image Clutter"
+      },
+      {
+        "topic": "Immediacy / Cognitive Load"
+      }
+    ],
+    "explanation": "The visualization is dense with numerous text labels, annotations, and dollar values crowded above and below bars, making legibility challenging. Multiple overlapping callouts and small font sizes contribute to clutter. Integrating proportional bar widths with categorical tax provisions and bracketed groupings increases cognitive load for the viewer."
+  },
+  "InfoVisJ.2556.8.png": {
+    "topics": [
+      {
+        "topic": "Semantics / Text Legibility"
+      },
+      {
+        "topic": "Data Density / Image Clutter"
+      },
+      {
+        "topic": "Aesthetics Uncertainty"
+      }
+    ],
+    "explanation": "This map encodes all geographic features entirely as repeated street name text, making legibility extremely challenging. The sheer density of overlapping, rotated text labels creates significant clutter and visual noise. The unconventional typography-as-geometry approach produces a disordered, cluttered layout that is difficult to parse at a glance."
+  },
+  "InfoVisJ.691.6(3).png": {
+    "topics": [
+      {
+        "topic": "Semantics / Text Legibility"
+      },
+      {
+        "topic": "Color, Symbol, and Texture Details"
+      },
+      {
+        "topic": "Data Density / Image Clutter"
+      }
+    ],
+    "explanation": "This word cloud is entirely text-based, making text legibility and density the primary complexity factor. Multiple colors (dark navy, teal, sage green) encode different word frequencies or categories, adding color complexity. The dense, overlapping arrangement of numerous terms at varying font sizes creates visual clutter and high data density."
+  },
+  "InfoVisJ.2639.8.png": {
+    "topics": [
+      {
+        "topic": "Semantics / Text Legibility"
+      },
+      {
+        "topic": "Color, Symbol, and Texture Details"
+      },
+      {
+        "topic": "Schema"
+      }
+    ],
+    "explanation": "The visualization contains dense textual content in the table (panel b) with small, detailed descriptions requiring careful reading. The color-coded strip (panel a) and bar chart (panel c) use multiple distinct colors to encode categorical data, demanding color interpretation. Understanding the overall layout—combining a color timeline, a lookup table, and a horizontal bar chart—requires domain familiarity with interaction taxonomies, adding schema complexity."
+  },
+  "VASTC.51.10.png": {
+    "topics": [
+      {
+        "topic": "Immediacy / Cognitive Load"
+      },
+      {
+        "topic": "Semantics / Text Legibility"
+      },
+      {
+        "topic": "Schema"
+      }
+    ],
+    "explanation": "This complex narrative flow visualization requires significant cognitive effort to decode the relationships between timeline, entities, and branching paths. Numerous text labels scattered throughout at varying sizes and orientations challenge legibility. The chart uses a specialized stream/storyline graph format that requires domain knowledge to interpret how topics like 'America,' 'Africa,' and 'Australia' evolve over time."
+  },
+  "whoJ44.png": {
+    "topics": [
+      {
+        "topic": "Semantics / Text Legibility"
+      },
+      {
+        "topic": "Visual Encoding Clarity"
+      },
+      {
+        "topic": "Immediacy / Cognitive Load"
+      }
+    ],
+    "explanation": "The chart includes a bold title, figure caption, axis labels, inline data annotations, legend, and source note, making text density notable. Two lines with distinct colors and scales require careful encoding interpretation, especially given the large gap between series. Overall, the chart is relatively easy to read, but the combination of text elements and dual-series comparison adds moderate cognitive load."
+  },
+  "v483_n7390_1_f2.png": {
+    "topics": [
+      {
+        "topic": "Schema"
+      },
+      {
+        "topic": "Visual Encoding Clarity"
+      },
+      {
+        "topic": "Semantics / Text Legibility"
+      }
+    ],
+    "explanation": "This spectroscopy plot requires domain knowledge to interpret surface vs. bulk resonance peaks and arbitrary unit axes. Three overlapping spectral curves with dashed reference lines create encoding complexity. Annotations with arrows and labeled series (i–iii) add textual elements critical for understanding the scientific context."
+  },
+  "InfoVisC.8.7.png": {
+    "topics": [
+      {
+        "topic": "Schema"
+      },
+      {
+        "topic": "Data Density / Image Clutter"
+      },
+      {
+        "topic": "Semantics / Text Legibility"
+      }
+    ],
+    "explanation": "This polar stellar altitude chart requires specialized astronomical knowledge to interpret, making schema complexity paramount. The visualization is extremely dense with concentric rings, radial lines, and multiple overlapping colored curves creating significant clutter. Numerous small text labels for star names, azimuth values, cardinal directions, and technical annotations further challenge legibility."
+  },
+  "VisC.433.1.png": {
+    "topics": [
+      {
+        "topic": "Color, Symbol, and Texture Details"
+      },
+      {
+        "topic": "Schema"
+      },
+      {
+        "topic": "Immediacy / Cognitive Load"
+      }
+    ],
+    "explanation": "The heatmap relies entirely on a continuous rainbow color scale (logarithmic power) to encode data values, making color the primary complexity driver. Interpreting frequency-state relationships on a logarithmic scale requires domain knowledge of spectral analysis. Together, the dense color gradients and specialized encoding demand significant cognitive effort to extract meaningful patterns."
+  },
+  "SciVisJ.796.18.png": {
+    "topics": [
+      {
+        "topic": "Color, Symbol, and Texture Details"
+      },
+      {
+        "topic": "Schema"
+      },
+      {
+        "topic": "Immediacy / Cognitive Load"
+      }
+    ],
+    "explanation": "The visualization uses a continuous color gradient (dark blue to yellow-green) to encode scalar field values, making color the primary complexity driver. Interpreting a computational fluid dynamics or stress/heat map requires specialized domain knowledge, raising schema complexity. Together, these factors increase cognitive load, as viewers must decode both the spatial distribution and the quantitative legend to extract meaningful insight."
+  },
+  "SciVisJ.259.7.png": {
+    "topics": [
+      {
+        "topic": "Color, Symbol, and Texture Details"
+      },
+      {
+        "topic": "Schema"
+      },
+      {
+        "topic": "Data Density / Image Clutter"
+      }
+    ],
+    "explanation": "The visualization uses a dark background with a sequential color scale (black to yellow-green) encoding distance values, plus overlaid contour lines and annotated circular insets, making color encoding central to interpretation. It requires domain knowledge (likely meteorological or geophysical data) to understand the 'primary banners' and spatial patterns. The dense overlapping contours, inset zoom regions, and richly textured underlying data field contribute significant visual clutter."
+  }
+}

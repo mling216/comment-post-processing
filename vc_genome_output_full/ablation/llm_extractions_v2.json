@@ -1,0 +1,7860 @@
+{
+  "InfoVisJ.1063.13.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "root_node",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "dendrogram_tree",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "internal_branches",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "leaf_nodes",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "leaf_labels",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "heatmap_blocks",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "hierarchical_levels",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "branch_lines",
+        "region": "data_area"
+      },
+      {
+        "id": 9,
+        "name": "cluster_groups",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "single_root_origin",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "deeply_nested_hierarchy",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "many_branching_levels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "high_leaf_count",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "dense_tiny_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "illegible_at_scale",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "high_contrast_black_white",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "densely_packed_blocks",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "five_or_more_levels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 8,
+        "attr": "numerous_overlapping_lines",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 9,
+        "attr": "multiple_major_clusters",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "anchors",
+        "obj": 2,
+        "sentiment": "-"
+      },
+      {
+        "subj": 3,
+        "pred": "connects_to",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "aligned_with",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "clutters",
+        "obj": 6,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "obscures",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 8,
+        "pred": "encodes_via",
+        "obj": 7,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "contains",
+        "obj": 9,
+        "sentiment": "+"
+      },
+      {
+        "subj": 9,
+        "pred": "subdivides",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "clutters",
+        "obj": 2,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "VisJ.1949.11.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "background",
+        "region": "overall"
+      },
+      {
+        "id": 2,
+        "name": "orbital_path_upper",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "orbital_path_lower",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "point_marker",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "color_gradient_warm",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "color_gradient_cool",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "solid_black_fill",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "curved_elliptical_shape",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "multicolor_encoded_path",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "red_orange_yellow_gradient",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "elongated_curved_path",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "white_to_cyan_gradient",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "small_isolated_dot",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 4,
+        "attr": "white_colored_point",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 5,
+        "attr": "encodes_data_dimension",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "encodes_data_dimension",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "partially_closed_loop",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "open_arc_shape",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "spatially_overlaps",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "colors",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "colors",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "isolated_from",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "isolated_from",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "contrasts_against",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 3,
+        "pred": "contrasts_against",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 2,
+        "pred": "visually_distinct_from",
+        "obj": 3,
+        "sentiment": "-"
+      }
+    ]
+  },
+  "InfoVisJ.669.4.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "title",
+        "region": "title"
+      },
+      {
+        "id": 2,
+        "name": "y_axis_label",
+        "region": "axes"
+      },
+      {
+        "id": 3,
+        "name": "y_axis_ticks",
+        "region": "axes"
+      },
+      {
+        "id": 4,
+        "name": "y_axis_tick_labels",
+        "region": "axes"
+      },
+      {
+        "id": 5,
+        "name": "gridlines_horizontal",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "gridlines_vertical",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "data_points",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "plot_border",
+        "region": "data_area"
+      },
+      {
+        "id": 9,
+        "name": "dense_cluster",
+        "region": "data_area"
+      },
+      {
+        "id": 10,
+        "name": "sparse_points",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "short_single_word",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "rotated_vertical_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "five_tick_marks",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 4,
+        "attr": "numeric_labels_clear",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 5,
+        "attr": "multiple_horizontal_lines",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "multiple_vertical_lines",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "high_point_density",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "open_circle_markers",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 7,
+        "attr": "overlapping_points_many",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "no_color_encoding",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 8,
+        "attr": "simple_bounding_box",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 9,
+        "attr": "heavily_overplotted_region",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 10,
+        "attr": "scattered_isolated_points",
+        "sentiment": "-"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 7,
+        "pred": "clutters",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "clutters",
+        "obj": 6,
+        "sentiment": "+"
+      },
+      {
+        "subj": 9,
+        "pred": "obscures",
+        "obj": 7,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "overlaps_with",
+        "obj": 6,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "encodes_via",
+        "obj": 2,
+        "sentiment": "-"
+      },
+      {
+        "subj": 9,
+        "pred": "dominates",
+        "obj": 10,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "VisJ.1197.5(3).png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "glyph_collection",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "rectangular_glyph",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "dark_shadow_region",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "light_surface_region",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "background",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "curved_arc_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "dense_cluster_top_left",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "sparse_cluster_bottom",
+        "region": "data_area"
+      },
+      {
+        "id": 9,
+        "name": "border_frame",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "hundreds_of_glyphs",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "varied_orientations",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "overlapping_elements",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "no_labels_present",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "three_dimensional_box_shape",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "varied_sizes",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "grayscale_encoding",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "high_contrast_black",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "creates_visual_depth",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "light_gray_surface",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 5,
+        "attr": "white_background",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 6,
+        "attr": "arc_radial_arrangement",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "non_linear_layout",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "densely_packed_glyphs",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "high_visual_clutter",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 8,
+        "attr": "loosely_spaced_glyphs",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 9,
+        "attr": "simple_border",
+        "sentiment": "-"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "forms",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "obscures",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 1,
+        "pred": "arranged_in",
+        "obj": 6,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "contrasts_with",
+        "obj": 8,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "overlaps",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 1,
+        "pred": "clutters",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "encodes_via",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "increases_complexity_of",
+        "obj": 1,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "VASTJ.1720.4.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "bar_500",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "bar_750",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "bar_1125",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "bar_1687",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "bar_2531",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "bar_3796",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "bar_5695",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "y_axis",
+        "region": "axes"
+      },
+      {
+        "id": 9,
+        "name": "x_axis",
+        "region": "axes"
+      },
+      {
+        "id": 10,
+        "name": "y_axis_labels",
+        "region": "axes"
+      },
+      {
+        "id": 11,
+        "name": "x_axis_labels",
+        "region": "axes"
+      },
+      {
+        "id": 12,
+        "name": "title",
+        "region": "title"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "dark_blue_fill",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "dark_blue_fill",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 3,
+        "attr": "dark_blue_fill",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 4,
+        "attr": "dark_blue_fill",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 5,
+        "attr": "dark_blue_fill",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 6,
+        "attr": "red_fill_distinct",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "dark_blue_fill",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 6,
+        "attr": "visually_highlighted_bar",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 11,
+        "attr": "comma_formatted_numbers",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 11,
+        "attr": "seven_tick_labels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 10,
+        "attr": "six_tick_labels",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 12,
+        "attr": "short_single_word",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 5,
+        "attr": "tallest_blue_bar",
+        "sentiment": "-"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 6,
+        "pred": "contrasts_with",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "contrasts_with",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 11,
+        "pred": "labels",
+        "obj": 9,
+        "sentiment": "-"
+      },
+      {
+        "subj": 10,
+        "pred": "labels",
+        "obj": 8,
+        "sentiment": "-"
+      },
+      {
+        "subj": 12,
+        "pred": "describes",
+        "obj": 5,
+        "sentiment": "-"
+      },
+      {
+        "subj": 5,
+        "pred": "adjacent_to",
+        "obj": 6,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "InfoVisJ.2556.8.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "street_label_black",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "street_label_red",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "street_network_lines",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "highlighted_route",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "background",
+        "region": "overall"
+      },
+      {
+        "id": 6,
+        "name": "intersection_dots",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "rotated_text_labels",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "repeated_street_names",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "high_density_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "varying_font_sizes",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "multiple_orientations",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "color_contrast_red",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "diagonal_orientation",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "text_forms_lines",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "overlapping_labels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "visually_distinct_path",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 5,
+        "attr": "plain_white_background",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 6,
+        "attr": "bullet_separators_dense",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "multiple_rotation_angles",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 8,
+        "attr": "repetitive_name_encoding",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "overlaps",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "traverses",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 8,
+        "pred": "forms",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "clutters",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "increases_complexity_of",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "highlights",
+        "obj": 4,
+        "sentiment": "-"
+      },
+      {
+        "subj": 1,
+        "pred": "obscures",
+        "obj": 6,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "encodes_via",
+        "obj": 8,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "whoJ44.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "title",
+        "region": "title"
+      },
+      {
+        "id": 2,
+        "name": "line_total_oda",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "line_budget_support",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "x_axis",
+        "region": "axes"
+      },
+      {
+        "id": 5,
+        "name": "y_axis",
+        "region": "axes"
+      },
+      {
+        "id": 6,
+        "name": "x_axis_label",
+        "region": "axes"
+      },
+      {
+        "id": 7,
+        "name": "y_axis_label",
+        "region": "axes"
+      },
+      {
+        "id": 8,
+        "name": "legend",
+        "region": "legend"
+      },
+      {
+        "id": 9,
+        "name": "annotation_oda_value",
+        "region": "annotation"
+      },
+      {
+        "id": 10,
+        "name": "annotation_budget_value",
+        "region": "annotation"
+      },
+      {
+        "id": 11,
+        "name": "figure_caption",
+        "region": "title"
+      },
+      {
+        "id": 12,
+        "name": "source_label",
+        "region": "title"
+      },
+      {
+        "id": 13,
+        "name": "x_axis_tick_labels",
+        "region": "axes"
+      },
+      {
+        "id": 14,
+        "name": "y_axis_tick_labels",
+        "region": "axes"
+      },
+      {
+        "id": 15,
+        "name": "data_area",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "long_multi_line_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "bold_colored_font",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "dark_navy_color",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "rising_trend_visible",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "thick_line_weight",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 3,
+        "attr": "light_blue_color",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 3,
+        "attr": "flat_trend_visible",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 3,
+        "attr": "thin_line_weight",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 4,
+        "attr": "eleven_year_ticks",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "rotated_label_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 8,
+        "attr": "two_item_legend",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 9,
+        "attr": "inline_data_annotation",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 10,
+        "attr": "inline_data_annotation",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 13,
+        "attr": "yearly_interval_labels",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 15,
+        "attr": "clean_white_background",
+        "sentiment": "-"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "contrasts_with",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 9,
+        "pred": "labels_endpoint_of",
+        "obj": 2,
+        "sentiment": "-"
+      },
+      {
+        "subj": 10,
+        "pred": "labels_endpoint_of",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 8,
+        "pred": "differentiates",
+        "obj": 2,
+        "sentiment": "-"
+      },
+      {
+        "subj": 8,
+        "pred": "differentiates",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 1,
+        "pred": "summarizes",
+        "obj": 15,
+        "sentiment": "-"
+      },
+      {
+        "subj": 2,
+        "pred": "dominates",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 7,
+        "pred": "describes",
+        "obj": 5,
+        "sentiment": "-"
+      },
+      {
+        "subj": 11,
+        "pred": "references",
+        "obj": 1,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "SciVisJ.796.18.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "color_field",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "circular_void",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "gradient_contour_bands",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "high_value_hotspot",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "curved_boundary_lines",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "color_legend",
+        "region": "legend"
+      },
+      {
+        "id": 7,
+        "name": "legend_labels",
+        "region": "legend"
+      },
+      {
+        "id": 8,
+        "name": "legend_color_swatches",
+        "region": "legend"
+      },
+      {
+        "id": 9,
+        "name": "background_field",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "continuous_color_gradient",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "dark_blue_dominant_field",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "large_white_circular_cutout",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "multiple_nested_contours",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "irregular_asymmetric_shapes",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "yellow_green_peak_intensity",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "localized_upper_arc_region",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "multiple_overlapping_curves",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "ten_discrete_color_bins",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "numeric_range_labels",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 8,
+        "attr": "yellow_to_dark_blue_scale",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 9,
+        "attr": "spatially_complex_pattern",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 3,
+        "pred": "surrounds",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "anchors_to",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "defines_boundaries_in",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "encodes_via",
+        "obj": 8,
+        "sentiment": "-"
+      },
+      {
+        "subj": 7,
+        "pred": "annotates",
+        "obj": 8,
+        "sentiment": "-"
+      },
+      {
+        "subj": 3,
+        "pred": "clutters",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "contrasts_with",
+        "obj": 9,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "interrupts",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "clarifies",
+        "obj": 1,
+        "sentiment": "-"
+      }
+    ]
+  },
+  "visMost97.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "main_title",
+        "region": "title"
+      },
+      {
+        "id": 2,
+        "name": "subtitle",
+        "region": "title"
+      },
+      {
+        "id": 3,
+        "name": "asia_shape",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "americas_shape",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "africa_shape",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "europe_shape",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "oceania_shape",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "asia_label",
+        "region": "annotation"
+      },
+      {
+        "id": 9,
+        "name": "americas_label",
+        "region": "annotation"
+      },
+      {
+        "id": 10,
+        "name": "africa_label",
+        "region": "annotation"
+      },
+      {
+        "id": 11,
+        "name": "europe_label",
+        "region": "annotation"
+      },
+      {
+        "id": 12,
+        "name": "oceania_label",
+        "region": "annotation"
+      },
+      {
+        "id": 13,
+        "name": "asia_value",
+        "region": "annotation"
+      },
+      {
+        "id": 14,
+        "name": "americas_value",
+        "region": "annotation"
+      },
+      {
+        "id": 15,
+        "name": "africa_value",
+        "region": "annotation"
+      },
+      {
+        "id": 16,
+        "name": "europe_value",
+        "region": "annotation"
+      },
+      {
+        "id": 17,
+        "name": "oceania_value",
+        "region": "annotation"
+      },
+      {
+        "id": 18,
+        "name": "connector_lines",
+        "region": "annotation"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "bold_large_text",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "descriptive_subtitle",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 3,
+        "attr": "green_fill_large",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 4,
+        "attr": "red_fill_medium",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 5,
+        "attr": "yellow_fill_medium",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 6,
+        "attr": "dark_blue_fill_small",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 7,
+        "attr": "cyan_fill_tiny",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 13,
+        "attr": "large_bold_number",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 14,
+        "attr": "large_bold_number",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 15,
+        "attr": "large_bold_number",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 16,
+        "attr": "large_bold_number",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 17,
+        "attr": "large_bold_number",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 18,
+        "attr": "multiple_connector_lines",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "proportional_size_encoding",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "distinct_color_encoding",
+        "sentiment": "-"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 13,
+        "pred": "annotates",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 14,
+        "pred": "annotates",
+        "obj": 4,
+        "sentiment": "-"
+      },
+      {
+        "subj": 15,
+        "pred": "annotates",
+        "obj": 5,
+        "sentiment": "-"
+      },
+      {
+        "subj": 16,
+        "pred": "annotates",
+        "obj": 6,
+        "sentiment": "-"
+      },
+      {
+        "subj": 17,
+        "pred": "annotates",
+        "obj": 7,
+        "sentiment": "-"
+      },
+      {
+        "subj": 18,
+        "pred": "connects_label_to",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 18,
+        "pred": "connects_label_to",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 18,
+        "pred": "connects_label_to",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "dominates_size",
+        "obj": 7,
+        "sentiment": "+"
+      },
+      {
+        "subj": 8,
+        "pred": "labels",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 9,
+        "pred": "labels",
+        "obj": 4,
+        "sentiment": "-"
+      },
+      {
+        "subj": 10,
+        "pred": "labels",
+        "obj": 5,
+        "sentiment": "-"
+      },
+      {
+        "subj": 11,
+        "pred": "labels",
+        "obj": 6,
+        "sentiment": "-"
+      },
+      {
+        "subj": 12,
+        "pred": "labels",
+        "obj": 7,
+        "sentiment": "-"
+      },
+      {
+        "subj": 6,
+        "pred": "overlaps",
+        "obj": 3,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "VisC.375.9(2).png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "node_a1",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "node_a5",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "node_b1",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "node_b10",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "node_b9",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "node_c1",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "node_c3",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "node_c9",
+        "region": "data_area"
+      },
+      {
+        "id": 9,
+        "name": "node_d1",
+        "region": "data_area"
+      },
+      {
+        "id": 10,
+        "name": "node_d2",
+        "region": "data_area"
+      },
+      {
+        "id": 11,
+        "name": "edge_a1_a5",
+        "region": "data_area"
+      },
+      {
+        "id": 12,
+        "name": "edge_b1_b10",
+        "region": "data_area"
+      },
+      {
+        "id": 13,
+        "name": "edge_b1_b9",
+        "region": "data_area"
+      },
+      {
+        "id": 14,
+        "name": "edge_c1_c3",
+        "region": "data_area"
+      },
+      {
+        "id": 15,
+        "name": "edge_c3_c9",
+        "region": "data_area"
+      },
+      {
+        "id": 16,
+        "name": "edge_d1_d2",
+        "region": "data_area"
+      },
+      {
+        "id": 17,
+        "name": "node_label_a1",
+        "region": "data_area"
+      },
+      {
+        "id": 18,
+        "name": "node_label_a5",
+        "region": "data_area"
+      },
+      {
+        "id": 19,
+        "name": "node_label_b1",
+        "region": "data_area"
+      },
+      {
+        "id": 20,
+        "name": "node_label_b10",
+        "region": "data_area"
+      },
+      {
+        "id": 21,
+        "name": "node_label_b9",
+        "region": "data_area"
+      },
+      {
+        "id": 22,
+        "name": "node_label_c1",
+        "region": "data_area"
+      },
+      {
+        "id": 23,
+        "name": "node_label_c3",
+        "region": "data_area"
+      },
+      {
+        "id": 24,
+        "name": "node_label_c9",
+        "region": "data_area"
+      },
+      {
+        "id": 25,
+        "name": "node_label_d1",
+        "region": "data_area"
+      },
+      {
+        "id": 26,
+        "name": "node_label_d2",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "filled_circle_marker",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "filled_circle_marker",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 3,
+        "attr": "filled_circle_marker",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 4,
+        "attr": "filled_circle_marker",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 5,
+        "attr": "filled_circle_marker",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 6,
+        "attr": "filled_circle_marker",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 7,
+        "attr": "filled_circle_marker",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 8,
+        "attr": "filled_circle_marker",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 9,
+        "attr": "filled_circle_marker",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 10,
+        "attr": "filled_circle_marker",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 11,
+        "attr": "blue_diagonal_edge",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 12,
+        "attr": "blue_diagonal_edge",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 13,
+        "attr": "blue_vertical_edge",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 14,
+        "attr": "blue_diagonal_edge",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 15,
+        "attr": "blue_diagonal_edge",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 16,
+        "attr": "blue_horizontal_edge",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 7,
+        "attr": "high_node_degree",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "high_node_degree",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 17,
+        "attr": "large_text_label",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 19,
+        "attr": "large_text_label",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 20,
+        "attr": "large_text_label",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 11,
+        "pred": "connects",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 11,
+        "pred": "connects",
+        "obj": 2,
+        "sentiment": "-"
+      },
+      {
+        "subj": 12,
+        "pred": "connects",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 12,
+        "pred": "connects",
+        "obj": 4,
+        "sentiment": "-"
+      },
+      {
+        "subj": 13,
+        "pred": "connects",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 13,
+        "pred": "connects",
+        "obj": 5,
+        "sentiment": "-"
+      },
+      {
+        "subj": 14,
+        "pred": "connects",
+        "obj": 6,
+        "sentiment": "-"
+      },
+      {
+        "subj": 14,
+        "pred": "connects",
+        "obj": 7,
+        "sentiment": "-"
+      },
+      {
+        "subj": 15,
+        "pred": "connects",
+        "obj": 7,
+        "sentiment": "-"
+      },
+      {
+        "subj": 15,
+        "pred": "connects",
+        "obj": 8,
+        "sentiment": "-"
+      },
+      {
+        "subj": 16,
+        "pred": "connects",
+        "obj": 9,
+        "sentiment": "-"
+      },
+      {
+        "subj": 16,
+        "pred": "connects",
+        "obj": 10,
+        "sentiment": "-"
+      },
+      {
+        "subj": 17,
+        "pred": "labels",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 18,
+        "pred": "labels",
+        "obj": 2,
+        "sentiment": "-"
+      },
+      {
+        "subj": 19,
+        "pred": "labels",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 20,
+        "pred": "labels",
+        "obj": 4,
+        "sentiment": "-"
+      },
+      {
+        "subj": 21,
+        "pred": "labels",
+        "obj": 5,
+        "sentiment": "-"
+      },
+      {
+        "subj": 22,
+        "pred": "labels",
+        "obj": 6,
+        "sentiment": "-"
+      },
+      {
+        "subj": 23,
+        "pred": "labels",
+        "obj": 7,
+        "sentiment": "-"
+      },
+      {
+        "subj": 24,
+        "pred": "labels",
+        "obj": 8,
+        "sentiment": "-"
+      },
+      {
+        "subj": 25,
+        "pred": "labels",
+        "obj": 9,
+        "sentiment": "-"
+      },
+      {
+        "subj": 26,
+        "pred": "labels",
+        "obj": 10,
+        "sentiment": "-"
+      },
+      {
+        "subj": 20,
+        "pred": "overlaps_near",
+        "obj": 18,
+        "sentiment": "+"
+      },
+      {
+        "subj": 13,
+        "pred": "overlaps_near",
+        "obj": 12,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "economist_daily_chart_493.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "map_area",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "choropleth_regions",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "region_label",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "data_badge_brown",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "data_badge_blue",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "dashed_boundary_line",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "boundary_annotation",
+        "region": "annotation"
+      },
+      {
+        "id": 8,
+        "name": "legend",
+        "region": "legend"
+      },
+      {
+        "id": 9,
+        "name": "color_swatch",
+        "region": "legend"
+      },
+      {
+        "id": 10,
+        "name": "legend_title",
+        "region": "legend"
+      },
+      {
+        "id": 11,
+        "name": "gdp_legend_section",
+        "region": "legend"
+      },
+      {
+        "id": 12,
+        "name": "population_legend_section",
+        "region": "legend"
+      },
+      {
+        "id": 13,
+        "name": "scale_bar",
+        "region": "title"
+      },
+      {
+        "id": 14,
+        "name": "inset_map",
+        "region": "data_area"
+      },
+      {
+        "id": 15,
+        "name": "neighboring_country_label",
+        "region": "data_area"
+      },
+      {
+        "id": 16,
+        "name": "river_label",
+        "region": "data_area"
+      },
+      {
+        "id": 17,
+        "name": "city_marker",
+        "region": "data_area"
+      },
+      {
+        "id": 18,
+        "name": "sea_label",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "complex_geographic_boundaries",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "five_color_fill_scheme",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "multiple_overlapping_regions",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "many_region_labels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "bold_italic_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "paired_numeric_values",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "distributed_across_map",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "paired_numeric_values",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "distributed_across_map",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "red_dashed_border",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "traverses_multiple_regions",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "italic_red_annotation",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 8,
+        "attr": "multi_section_legend",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 9,
+        "attr": "five_distinct_swatches",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 10,
+        "attr": "small_font_size",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 11,
+        "attr": "dual_year_comparison",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 12,
+        "attr": "dual_year_comparison",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 13,
+        "attr": "small_scale_bar",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 14,
+        "attr": "small_reference_inset",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 15,
+        "attr": "peripheral_text_labels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 16,
+        "attr": "light_colored_labels",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 17,
+        "attr": "minimal_city_dots",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 18,
+        "attr": "decorative_sea_labels",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 4,
+        "pred": "overlays",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "overlays",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "paired_with",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "divides",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "annotates",
+        "obj": 6,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "clutters",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 8,
+        "pred": "decodes",
+        "obj": 2,
+        "sentiment": "-"
+      },
+      {
+        "subj": 9,
+        "pred": "encodes_via",
+        "obj": 2,
+        "sentiment": "-"
+      },
+      {
+        "subj": 11,
+        "pred": "encodes_via",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 12,
+        "pred": "encodes_via",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 14,
+        "pred": "provides_context_for",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 4,
+        "pred": "clutters",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "clutters",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 15,
+        "pred": "surrounds",
+        "obj": 1,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "VASTJ.1.7.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "cluster_node_dark_large",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "cluster_node_dark_medium",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "cluster_node_white_small_left",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "cluster_node_yellow_large",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "cluster_node_red_large",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "cluster_node_orange_large",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "cluster_node_white_right_top",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "cluster_node_white_right_mid",
+        "region": "data_area"
+      },
+      {
+        "id": 9,
+        "name": "cluster_node_white_bottom_left",
+        "region": "data_area"
+      },
+      {
+        "id": 10,
+        "name": "cluster_node_white_bottom_right",
+        "region": "data_area"
+      },
+      {
+        "id": 11,
+        "name": "dashed_circle_red_top",
+        "region": "data_area"
+      },
+      {
+        "id": 12,
+        "name": "dashed_circle_orange_mid",
+        "region": "data_area"
+      },
+      {
+        "id": 13,
+        "name": "dashed_circle_yellow_left",
+        "region": "data_area"
+      },
+      {
+        "id": 14,
+        "name": "dashed_circle_orange_bottom",
+        "region": "data_area"
+      },
+      {
+        "id": 15,
+        "name": "chain_red_nodes",
+        "region": "data_area"
+      },
+      {
+        "id": 16,
+        "name": "chain_yellow_nodes",
+        "region": "data_area"
+      },
+      {
+        "id": 17,
+        "name": "chain_orange_nodes",
+        "region": "data_area"
+      },
+      {
+        "id": 18,
+        "name": "edge_links_black",
+        "region": "data_area"
+      },
+      {
+        "id": 19,
+        "name": "edge_links_white_thick",
+        "region": "data_area"
+      },
+      {
+        "id": 20,
+        "name": "zoom_connector_shaded",
+        "region": "data_area"
+      },
+      {
+        "id": 21,
+        "name": "zoom_connector_shaded_yellow",
+        "region": "data_area"
+      },
+      {
+        "id": 22,
+        "name": "zoom_connector_shaded_red",
+        "region": "data_area"
+      },
+      {
+        "id": 23,
+        "name": "zoom_connector_shaded_orange",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "densely_interconnected_nodes",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "dark_black_edges",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "large_circular_cluster",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "large_circular_cluster",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "densely_interconnected_nodes",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "red_colored_nodes",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "large_circular_cluster",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "orange_colored_nodes",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "large_circular_cluster",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 11,
+        "attr": "dashed_blue_border",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 12,
+        "attr": "dashed_blue_border",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 13,
+        "attr": "dashed_blue_border",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 14,
+        "attr": "dashed_blue_border",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 15,
+        "attr": "sequential_chain_layout",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 16,
+        "attr": "sequential_chain_layout",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 17,
+        "attr": "sequential_chain_layout",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 18,
+        "attr": "high_edge_density",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 19,
+        "attr": "thick_white_edges",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 20,
+        "attr": "semi_transparent_fill",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 21,
+        "attr": "semi_transparent_fill",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "multiple_cluster_sizes",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "small_sparse_cluster",
+        "sentiment": "-"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 20,
+        "pred": "connects_to",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 21,
+        "pred": "connects_to",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 22,
+        "pred": "connects_to",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 23,
+        "pred": "connects_to",
+        "obj": 6,
+        "sentiment": "+"
+      },
+      {
+        "subj": 11,
+        "pred": "highlights",
+        "obj": 15,
+        "sentiment": "+"
+      },
+      {
+        "subj": 12,
+        "pred": "highlights",
+        "obj": 17,
+        "sentiment": "+"
+      },
+      {
+        "subj": 13,
+        "pred": "highlights",
+        "obj": 16,
+        "sentiment": "+"
+      },
+      {
+        "subj": 14,
+        "pred": "highlights",
+        "obj": 17,
+        "sentiment": "+"
+      },
+      {
+        "subj": 15,
+        "pred": "links_to",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 16,
+        "pred": "links_to",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 17,
+        "pred": "links_to",
+        "obj": 6,
+        "sentiment": "+"
+      },
+      {
+        "subj": 19,
+        "pred": "connects",
+        "obj": 9,
+        "sentiment": "+"
+      },
+      {
+        "subj": 19,
+        "pred": "connects",
+        "obj": 10,
+        "sentiment": "+"
+      },
+      {
+        "subj": 18,
+        "pred": "clutters",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 18,
+        "pred": "clutters",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 1,
+        "pred": "linked_to",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "linked_to",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "linked_to",
+        "obj": 8,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "linked_to",
+        "obj": 7,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "linked_to",
+        "obj": 9,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "VASTJ.870.4.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "title",
+        "region": "title"
+      },
+      {
+        "id": 2,
+        "name": "legend",
+        "region": "legend"
+      },
+      {
+        "id": 3,
+        "name": "legend_orange_gradient",
+        "region": "legend"
+      },
+      {
+        "id": 4,
+        "name": "legend_green_gradient",
+        "region": "legend"
+      },
+      {
+        "id": 5,
+        "name": "row_1",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "row_2",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "row_3",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "row_4",
+        "region": "data_area"
+      },
+      {
+        "id": 9,
+        "name": "row_5",
+        "region": "data_area"
+      },
+      {
+        "id": 10,
+        "name": "row_6",
+        "region": "data_area"
+      },
+      {
+        "id": 11,
+        "name": "orange_bar_fill",
+        "region": "data_area"
+      },
+      {
+        "id": 12,
+        "name": "small_orange_bars",
+        "region": "data_area"
+      },
+      {
+        "id": 13,
+        "name": "small_green_bars",
+        "region": "data_area"
+      },
+      {
+        "id": 14,
+        "name": "green_squares",
+        "region": "data_area"
+      },
+      {
+        "id": 15,
+        "name": "row_label",
+        "region": "axes"
+      },
+      {
+        "id": 16,
+        "name": "gridlines",
+        "region": "data_area"
+      },
+      {
+        "id": 17,
+        "name": "dashed_border",
+        "region": "overall"
+      },
+      {
+        "id": 18,
+        "name": "color_scale_arrow",
+        "region": "legend"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "multiline_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "dual_color_scales",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "orange_gradient_scale",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "green_gradient_scale",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 11,
+        "attr": "varying_gradient_intensity",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 12,
+        "attr": "small_variable_height",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 13,
+        "attr": "small_variable_height",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 14,
+        "attr": "distinct_endpoint_encoding",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 15,
+        "attr": "comma_sequence_labels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 16,
+        "attr": "separates_row_bands",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 17,
+        "attr": "dashed_boundary_visible",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 18,
+        "attr": "arrow_encodes_direction",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "dual_encoding_color_bar",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 10,
+        "attr": "sparse_marks_visible",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 11,
+        "pred": "fills_left_half",
+        "obj": 5,
+        "sentiment": "-"
+      },
+      {
+        "subj": 12,
+        "pred": "clutters",
+        "obj": 16,
+        "sentiment": "+"
+      },
+      {
+        "subj": 13,
+        "pred": "overlaps_with",
+        "obj": 12,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "corresponds_to",
+        "obj": 11,
+        "sentiment": "-"
+      },
+      {
+        "subj": 4,
+        "pred": "corresponds_to",
+        "obj": 14,
+        "sentiment": "-"
+      },
+      {
+        "subj": 14,
+        "pred": "anchors_right_edge",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 15,
+        "pred": "labels",
+        "obj": 5,
+        "sentiment": "-"
+      },
+      {
+        "subj": 2,
+        "pred": "explains_encoding",
+        "obj": 11,
+        "sentiment": "-"
+      },
+      {
+        "subj": 17,
+        "pred": "frames",
+        "obj": 10,
+        "sentiment": "+"
+      },
+      {
+        "subj": 12,
+        "pred": "encodes_via",
+        "obj": 13,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "visMost573.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "title",
+        "region": "title"
+      },
+      {
+        "id": 2,
+        "name": "subtitle",
+        "region": "title"
+      },
+      {
+        "id": 3,
+        "name": "body_text",
+        "region": "annotation"
+      },
+      {
+        "id": 4,
+        "name": "legend",
+        "region": "legend"
+      },
+      {
+        "id": 5,
+        "name": "legend_sound_entries",
+        "region": "legend"
+      },
+      {
+        "id": 6,
+        "name": "legend_combination_entries",
+        "region": "legend"
+      },
+      {
+        "id": 7,
+        "name": "map_background",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "road_network",
+        "region": "data_area"
+      },
+      {
+        "id": 9,
+        "name": "concentric_circle_blue",
+        "region": "data_area"
+      },
+      {
+        "id": 10,
+        "name": "concentric_circle_red",
+        "region": "data_area"
+      },
+      {
+        "id": 11,
+        "name": "concentric_circle_orange",
+        "region": "data_area"
+      },
+      {
+        "id": 12,
+        "name": "concentric_circle_green",
+        "region": "data_area"
+      },
+      {
+        "id": 13,
+        "name": "concentric_circle_gray",
+        "region": "data_area"
+      },
+      {
+        "id": 14,
+        "name": "overlapping_circles_cluster",
+        "region": "data_area"
+      },
+      {
+        "id": 15,
+        "name": "old_city_boundary",
+        "region": "data_area"
+      },
+      {
+        "id": 16,
+        "name": "landmark_label_supreme_court",
+        "region": "annotation"
+      },
+      {
+        "id": 17,
+        "name": "landmark_label_knesset",
+        "region": "annotation"
+      },
+      {
+        "id": 18,
+        "name": "landmark_label_presidential_residence",
+        "region": "annotation"
+      },
+      {
+        "id": 19,
+        "name": "landmark_label_old_city",
+        "region": "annotation"
+      },
+      {
+        "id": 20,
+        "name": "landmark_label_hebrew_university",
+        "region": "annotation"
+      },
+      {
+        "id": 21,
+        "name": "road_labels",
+        "region": "annotation"
+      },
+      {
+        "id": 22,
+        "name": "page_number",
+        "region": "overall"
+      },
+      {
+        "id": 23,
+        "name": "header_reference",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "bold_large_font",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "descriptive_subtitle_text",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 3,
+        "attr": "dense_paragraph_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "dual_section_legend",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "five_color_categories",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "eleven_combination_entries",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "light_blue_background",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 8,
+        "attr": "white_curved_roads",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 9,
+        "attr": "multiple_instances_scattered",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 10,
+        "attr": "multiple_instances_scattered",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 11,
+        "attr": "multiple_instances_scattered",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 12,
+        "attr": "multiple_instances_scattered",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 13,
+        "attr": "multiple_instances_scattered",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 14,
+        "attr": "high_visual_density",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 14,
+        "attr": "multi_color_overlap",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 14,
+        "attr": "semi_transparent_fills",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 15,
+        "attr": "outlined_polygon_boundary",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 21,
+        "attr": "angled_road_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "mixed_color_swatches",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 9,
+        "pred": "overlaps_with",
+        "obj": 10,
+        "sentiment": "+"
+      },
+      {
+        "subj": 9,
+        "pred": "overlaps_with",
+        "obj": 11,
+        "sentiment": "+"
+      },
+      {
+        "subj": 10,
+        "pred": "overlaps_with",
+        "obj": 12,
+        "sentiment": "+"
+      },
+      {
+        "subj": 11,
+        "pred": "overlaps_with",
+        "obj": 13,
+        "sentiment": "+"
+      },
+      {
+        "subj": 12,
+        "pred": "overlaps_with",
+        "obj": 13,
+        "sentiment": "+"
+      },
+      {
+        "subj": 14,
+        "pred": "clutters",
+        "obj": "data_area",
+        "sentiment": "+"
+      },
+      {
+        "subj": 8,
+        "pred": "intersects",
+        "obj": 14,
+        "sentiment": "+"
+      },
+      {
+        "subj": 15,
+        "pred": "embedded_within",
+        "obj": 14,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "explains",
+        "obj": 9,
+        "sentiment": "-"
+      },
+      {
+        "subj": 4,
+        "pred": "explains",
+        "obj": 10,
+        "sentiment": "-"
+      },
+      {
+        "subj": 4,
+        "pred": "explains",
+        "obj": 11,
+        "sentiment": "-"
+      },
+      {
+        "subj": 4,
+        "pred": "explains",
+        "obj": 12,
+        "sentiment": "-"
+      },
+      {
+        "subj": 4,
+        "pred": "explains",
+        "obj": 13,
+        "sentiment": "-"
+      },
+      {
+        "subj": 6,
+        "pred": "encodes_via",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 21,
+        "pred": "clutters",
+        "obj": 8,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "supports_context_for",
+        "obj": 14,
+        "sentiment": "-"
+      },
+      {
+        "subj": 16,
+        "pred": "anchors_to",
+        "obj": 14,
+        "sentiment": "-"
+      },
+      {
+        "subj": 17,
+        "pred": "anchors_to",
+        "obj": 14,
+        "sentiment": "-"
+      },
+      {
+        "subj": 18,
+        "pred": "anchors_to",
+        "obj": 14,
+        "sentiment": "-"
+      }
+    ]
+  },
+  "VASTC.41.5.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "panel_a",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "panel_b",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "panel_c",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "panel_d",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "label_a",
+        "region": "annotation"
+      },
+      {
+        "id": 6,
+        "name": "label_b",
+        "region": "annotation"
+      },
+      {
+        "id": 7,
+        "name": "label_c",
+        "region": "annotation"
+      },
+      {
+        "id": 8,
+        "name": "label_d",
+        "region": "annotation"
+      },
+      {
+        "id": 9,
+        "name": "black_region_a",
+        "region": "data_area"
+      },
+      {
+        "id": 10,
+        "name": "colored_stripes_a",
+        "region": "data_area"
+      },
+      {
+        "id": 11,
+        "name": "black_region_b",
+        "region": "data_area"
+      },
+      {
+        "id": 12,
+        "name": "light_stripes_b",
+        "region": "data_area"
+      },
+      {
+        "id": 13,
+        "name": "black_region_c",
+        "region": "data_area"
+      },
+      {
+        "id": 14,
+        "name": "gray_region_c",
+        "region": "data_area"
+      },
+      {
+        "id": 15,
+        "name": "green_region_d",
+        "region": "data_area"
+      },
+      {
+        "id": 16,
+        "name": "red_region_d",
+        "region": "data_area"
+      },
+      {
+        "id": 17,
+        "name": "dark_green_region_d",
+        "region": "data_area"
+      },
+      {
+        "id": 18,
+        "name": "horizontal_stripe_noise_a",
+        "region": "data_area"
+      },
+      {
+        "id": 19,
+        "name": "horizontal_stripe_noise_b",
+        "region": "data_area"
+      },
+      {
+        "id": 20,
+        "name": "horizontal_stripe_noise_c",
+        "region": "data_area"
+      },
+      {
+        "id": 21,
+        "name": "grid_border",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "high_color_density",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "multicolor_chaotic_pattern",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "black_white_dominant",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "high_stripe_density",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "gray_muted_palette",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 3,
+        "attr": "moderate_complexity",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "sparse_clean_layout",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 4,
+        "attr": "distinct_color_blocks",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 5,
+        "attr": "circled_letter_label",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 6,
+        "attr": "circled_letter_label",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 7,
+        "attr": "circled_letter_label",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 8,
+        "attr": "circled_letter_label",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 9,
+        "attr": "large_irregular_shape",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 10,
+        "attr": "dense_multicolor_stripes",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 11,
+        "attr": "large_irregular_shape",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 12,
+        "attr": "fine_horizontal_lines",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 13,
+        "attr": "large_irregular_shape",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 14,
+        "attr": "uniform_gray_fill",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 15,
+        "attr": "light_green_vertical_band",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 16,
+        "attr": "fragmented_red_blocks",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 17,
+        "attr": "solid_dark_green_block",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 18,
+        "attr": "noisy_horizontal_artifacts",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 19,
+        "attr": "noisy_horizontal_artifacts",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 20,
+        "attr": "noisy_horizontal_artifacts",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 21,
+        "attr": "four_panel_grid_layout",
+        "sentiment": "-"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "more_complex_than",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 1,
+        "pred": "more_complex_than",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "similar_complexity_to",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 10,
+        "pred": "clutters",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 18,
+        "pred": "clutters",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 19,
+        "pred": "clutters",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 20,
+        "pred": "clutters",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 9,
+        "pred": "overlaps",
+        "obj": 10,
+        "sentiment": "+"
+      },
+      {
+        "subj": 16,
+        "pred": "overlaps",
+        "obj": 15,
+        "sentiment": "+"
+      },
+      {
+        "subj": 17,
+        "pred": "overlaps",
+        "obj": 15,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "labels",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 6,
+        "pred": "labels",
+        "obj": 2,
+        "sentiment": "-"
+      },
+      {
+        "subj": 7,
+        "pred": "labels",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 8,
+        "pred": "labels",
+        "obj": 4,
+        "sentiment": "-"
+      },
+      {
+        "subj": 4,
+        "pred": "contrasts_with",
+        "obj": 1,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "SciVisJ.980.7(2).png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "outer_circle",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "inner_circle",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "innermost_ellipse",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "horizontal_axis",
+        "region": "axes"
+      },
+      {
+        "id": 5,
+        "name": "vertical_axis",
+        "region": "axes"
+      },
+      {
+        "id": 6,
+        "name": "dashed_line_diagonal",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "dotted_line_diagonal",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "large_circle_glyph_red",
+        "region": "data_area"
+      },
+      {
+        "id": 9,
+        "name": "large_circle_glyph_blue",
+        "region": "data_area"
+      },
+      {
+        "id": 10,
+        "name": "large_circle_glyph_green",
+        "region": "data_area"
+      },
+      {
+        "id": 11,
+        "name": "large_circle_glyph_teal",
+        "region": "data_area"
+      },
+      {
+        "id": 12,
+        "name": "large_circle_glyph_purple",
+        "region": "data_area"
+      },
+      {
+        "id": 13,
+        "name": "medium_circle_glyphs",
+        "region": "data_area"
+      },
+      {
+        "id": 14,
+        "name": "small_ellipse_glyphs_outer",
+        "region": "data_area"
+      },
+      {
+        "id": 15,
+        "name": "small_ellipse_glyphs_inner",
+        "region": "data_area"
+      },
+      {
+        "id": 16,
+        "name": "central_star_glyph",
+        "region": "data_area"
+      },
+      {
+        "id": 17,
+        "name": "gamma_zero_label",
+        "region": "annotation"
+      },
+      {
+        "id": 18,
+        "name": "gamma_pi_label",
+        "region": "annotation"
+      },
+      {
+        "id": 19,
+        "name": "gamma_halfpi_label",
+        "region": "title"
+      },
+      {
+        "id": 20,
+        "name": "gamma_threehalfpi_label",
+        "region": "annotation"
+      },
+      {
+        "id": 21,
+        "name": "r_half_label",
+        "region": "annotation"
+      },
+      {
+        "id": 22,
+        "name": "color_encoding_circles",
+        "region": "data_area"
+      },
+      {
+        "id": 23,
+        "name": "red_blue_star_shapes",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "circular_boundary_frame",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "nested_circular_layer",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "elliptical_inner_boundary",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "crosses_full_diagram",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 5,
+        "attr": "crosses_full_diagram",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 6,
+        "attr": "dashed_style_diagonal",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "dotted_style_diagonal",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 8,
+        "attr": "large_solid_colored",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 9,
+        "attr": "large_solid_colored",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 10,
+        "attr": "large_solid_colored",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 13,
+        "attr": "multiple_varied_colors",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 14,
+        "attr": "rotated_ellipse_shapes",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 15,
+        "attr": "small_dense_ellipses",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 16,
+        "attr": "complex_star_pattern",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 22,
+        "attr": "many_discrete_colors",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 23,
+        "attr": "bicolor_red_blue_glyphs",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 14,
+        "attr": "varied_orientation_angles",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 16,
+        "attr": "dense_central_overlap",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 13,
+        "attr": "radially_distributed_nodes",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "nested_inside",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "nested_inside",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 16,
+        "pred": "located_at_center_of",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 14,
+        "pred": "distributed_along",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 15,
+        "pred": "distributed_along",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 22,
+        "pred": "surrounds",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "intersects",
+        "obj": 5,
+        "sentiment": "-"
+      },
+      {
+        "subj": 6,
+        "pred": "overlaps",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "overlaps",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 23,
+        "pred": "clutters",
+        "obj": 16,
+        "sentiment": "+"
+      },
+      {
+        "subj": 17,
+        "pred": "labels",
+        "obj": 4,
+        "sentiment": "-"
+      },
+      {
+        "subj": 18,
+        "pred": "labels",
+        "obj": 4,
+        "sentiment": "-"
+      },
+      {
+        "subj": 19,
+        "pred": "labels",
+        "obj": 5,
+        "sentiment": "-"
+      },
+      {
+        "subj": 20,
+        "pred": "labels",
+        "obj": 5,
+        "sentiment": "-"
+      },
+      {
+        "subj": 21,
+        "pred": "annotates",
+        "obj": 2,
+        "sentiment": "-"
+      },
+      {
+        "subj": 14,
+        "pred": "encodes_via",
+        "obj": 22,
+        "sentiment": "+"
+      },
+      {
+        "subj": 15,
+        "pred": "encodes_via",
+        "obj": 22,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "InfoVisJ.522.15.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "section_title_matrices",
+        "region": "title"
+      },
+      {
+        "id": 2,
+        "name": "section_title_snippet",
+        "region": "title"
+      },
+      {
+        "id": 3,
+        "name": "matrix_panel_top_left",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "matrix_panel_top_right",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "matrix_panel_bottom_left",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "matrix_panel_bottom_right",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "snippet_panel_A",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "snippet_panel_B",
+        "region": "data_area"
+      },
+      {
+        "id": 9,
+        "name": "snippet_panel_C",
+        "region": "data_area"
+      },
+      {
+        "id": 10,
+        "name": "snippet_panel_D",
+        "region": "data_area"
+      },
+      {
+        "id": 11,
+        "name": "label_A_matrices",
+        "region": "annotation"
+      },
+      {
+        "id": 12,
+        "name": "label_B_matrices",
+        "region": "annotation"
+      },
+      {
+        "id": 13,
+        "name": "label_A_snippet",
+        "region": "annotation"
+      },
+      {
+        "id": 14,
+        "name": "label_B_snippet",
+        "region": "annotation"
+      },
+      {
+        "id": 15,
+        "name": "label_C_snippet",
+        "region": "annotation"
+      },
+      {
+        "id": 16,
+        "name": "label_D_snippet",
+        "region": "annotation"
+      },
+      {
+        "id": 17,
+        "name": "red_circle_bottom_left_matrix",
+        "region": "annotation"
+      },
+      {
+        "id": 18,
+        "name": "red_circle_bottom_right_matrix",
+        "region": "annotation"
+      },
+      {
+        "id": 19,
+        "name": "red_circle_snippet_C",
+        "region": "annotation"
+      },
+      {
+        "id": 20,
+        "name": "red_circle_snippet_D",
+        "region": "annotation"
+      },
+      {
+        "id": 21,
+        "name": "red_dot_bottom_left_matrix",
+        "region": "data_area"
+      },
+      {
+        "id": 22,
+        "name": "red_dot_bottom_right_matrix",
+        "region": "data_area"
+      },
+      {
+        "id": 23,
+        "name": "red_highlight_top_matrices",
+        "region": "annotation"
+      },
+      {
+        "id": 24,
+        "name": "red_bar_snippet_C",
+        "region": "annotation"
+      },
+      {
+        "id": 25,
+        "name": "red_bar_snippet_D",
+        "region": "annotation"
+      },
+      {
+        "id": 26,
+        "name": "arrow_snippet_B",
+        "region": "annotation"
+      },
+      {
+        "id": 27,
+        "name": "arrow_snippet_C",
+        "region": "annotation"
+      },
+      {
+        "id": 28,
+        "name": "arrow_snippet_D",
+        "region": "annotation"
+      },
+      {
+        "id": 29,
+        "name": "diagonal_pattern_matrix",
+        "region": "data_area"
+      },
+      {
+        "id": 30,
+        "name": "heatmap_colormap_grayscale",
+        "region": "data_area"
+      },
+      {
+        "id": 31,
+        "name": "heatmap_colormap_red",
+        "region": "data_area"
+      },
+      {
+        "id": 32,
+        "name": "data_label_bottom_left",
+        "region": "annotation"
+      },
+      {
+        "id": 33,
+        "name": "data_label_bottom_right",
+        "region": "annotation"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "large_bold_text",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "large_bold_text",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 3,
+        "attr": "grayscale_dense_texture",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "grayscale_dense_texture",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "grayscale_dense_texture",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "high_noise_sparse_pattern",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "grayscale_pixelated",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 8,
+        "attr": "red_heatmap_colormap",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 9,
+        "attr": "mixed_color_noisy",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 10,
+        "attr": "dark_grayscale_pixelated",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 17,
+        "attr": "prominent_annotation_marker",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 18,
+        "attr": "prominent_annotation_marker",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 19,
+        "attr": "prominent_annotation_marker",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 20,
+        "attr": "prominent_annotation_marker",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 26,
+        "attr": "directional_annotation",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 27,
+        "attr": "directional_annotation",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 28,
+        "attr": "directional_annotation",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 29,
+        "attr": "diagonal_structure_visible",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 6,
+        "attr": "multiple_white_gridlines",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 9,
+        "attr": "blue_gray_mixed_pixels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 24,
+        "attr": "red_color_salient",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 25,
+        "attr": "red_color_salient",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 3,
+        "pred": "part_of_grid",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "part_of_grid",
+        "obj": 6,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "part_of_grid",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 17,
+        "pred": "annotates",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 18,
+        "pred": "annotates",
+        "obj": 6,
+        "sentiment": "+"
+      },
+      {
+        "subj": 19,
+        "pred": "annotates",
+        "obj": 9,
+        "sentiment": "+"
+      },
+      {
+        "subj": 20,
+        "pred": "annotates",
+        "obj": 10,
+        "sentiment": "+"
+      },
+      {
+        "subj": 26,
+        "pred": "annotates",
+        "obj": 8,
+        "sentiment": "+"
+      },
+      {
+        "subj": 27,
+        "pred": "annotates",
+        "obj": 9,
+        "sentiment": "+"
+      },
+      {
+        "subj": 28,
+        "pred": "annotates",
+        "obj": 10,
+        "sentiment": "+"
+      },
+      {
+        "subj": 29,
+        "pred": "clutters",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 29,
+        "pred": "clutters",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 31,
+        "pred": "encodes_via",
+        "obj": 8,
+        "sentiment": "-"
+      },
+      {
+        "subj": 30,
+        "pred": "encodes_via",
+        "obj": 7,
+        "sentiment": "-"
+      },
+      {
+        "subj": 11,
+        "pred": "labels",
+        "obj": 5,
+        "sentiment": "-"
+      },
+      {
+        "subj": 12,
+        "pred": "labels",
+        "obj": 6,
+        "sentiment": "-"
+      },
+      {
+        "subj": 13,
+        "pred": "labels",
+        "obj": 7,
+        "sentiment": "-"
+      },
+      {
+        "subj": 14,
+        "pred": "labels",
+        "obj": 8,
+        "sentiment": "-"
+      },
+      {
+        "subj": 15,
+        "pred": "labels",
+        "obj": 9,
+        "sentiment": "-"
+      },
+      {
+        "subj": 16,
+        "pred": "labels",
+        "obj": 10,
+        "sentiment": "-"
+      },
+      {
+        "subj": 24,
+        "pred": "overlaps",
+        "obj": 9,
+        "sentiment": "+"
+      },
+      {
+        "subj": 25,
+        "pred": "overlaps",
+        "obj": 10,
+        "sentiment": "+"
+      },
+      {
+        "subj": 23,
+        "pred": "overlaps",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 32,
+        "pred": "annotates",
+        "obj": 5,
+        "sentiment": "-"
+      },
+      {
+        "subj": 33,
+        "pred": "annotates",
+        "obj": 6,
+        "sentiment": "-"
+      }
+    ]
+  },
+  "wsj124.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "title",
+        "region": "title"
+      },
+      {
+        "id": 2,
+        "name": "subtitle",
+        "region": "title"
+      },
+      {
+        "id": 3,
+        "name": "legend",
+        "region": "legend"
+      },
+      {
+        "id": 4,
+        "name": "x_axis",
+        "region": "axes"
+      },
+      {
+        "id": 5,
+        "name": "x_axis_label",
+        "region": "axes"
+      },
+      {
+        "id": 6,
+        "name": "row_label_1970",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "row_label_1977",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "row_label_2010",
+        "region": "data_area"
+      },
+      {
+        "id": 9,
+        "name": "row_label_2012",
+        "region": "data_area"
+      },
+      {
+        "id": 10,
+        "name": "study_label_marshall",
+        "region": "data_area"
+      },
+      {
+        "id": 11,
+        "name": "study_label_foster",
+        "region": "data_area"
+      },
+      {
+        "id": 12,
+        "name": "study_label_susman",
+        "region": "data_area"
+      },
+      {
+        "id": 13,
+        "name": "study_label_herman",
+        "region": "data_area"
+      },
+      {
+        "id": 14,
+        "name": "data_point_white_1970",
+        "region": "data_area"
+      },
+      {
+        "id": 15,
+        "name": "data_point_black_1977",
+        "region": "data_area"
+      },
+      {
+        "id": 16,
+        "name": "data_point_white_1977",
+        "region": "data_area"
+      },
+      {
+        "id": 17,
+        "name": "data_point_black_2010",
+        "region": "data_area"
+      },
+      {
+        "id": 18,
+        "name": "data_point_white_2010",
+        "region": "data_area"
+      },
+      {
+        "id": 19,
+        "name": "data_point_black_2012",
+        "region": "data_area"
+      },
+      {
+        "id": 20,
+        "name": "data_point_white_2012",
+        "region": "data_area"
+      },
+      {
+        "id": 21,
+        "name": "no_data_annotation",
+        "region": "annotation"
+      },
+      {
+        "id": 22,
+        "name": "gridline",
+        "region": "data_area"
+      },
+      {
+        "id": 23,
+        "name": "row_band",
+        "region": "data_area"
+      },
+      {
+        "id": 24,
+        "name": "source_label",
+        "region": "annotation"
+      },
+      {
+        "id": 25,
+        "name": "publisher_label",
+        "region": "annotation"
+      },
+      {
+        "id": 26,
+        "name": "legend_filled_circle",
+        "region": "legend"
+      },
+      {
+        "id": 27,
+        "name": "legend_open_circle",
+        "region": "legend"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "bold large font",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "multi_line descriptive text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "dual_category encoding",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "numeric age scale",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 6,
+        "attr": "red colored year label",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "red colored year label",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 8,
+        "attr": "red colored year label",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 9,
+        "attr": "red colored year label",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 14,
+        "attr": "open circle filled white",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 15,
+        "attr": "filled black circle",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 16,
+        "attr": "open circle filled white",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 17,
+        "attr": "filled black circle",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 18,
+        "attr": "open circle filled white",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 19,
+        "attr": "filled black circle",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 20,
+        "attr": "open circle filled white",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 21,
+        "attr": "missing data noted",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 22,
+        "attr": "dashed vertical lines",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 23,
+        "attr": "alternating shaded rows",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 26,
+        "attr": "black filled symbol",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 27,
+        "attr": "white open symbol",
+        "sentiment": "-"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 3,
+        "pred": "explains",
+        "obj": 26,
+        "sentiment": "-"
+      },
+      {
+        "subj": 3,
+        "pred": "explains",
+        "obj": 27,
+        "sentiment": "-"
+      },
+      {
+        "subj": 14,
+        "pred": "encodes_via",
+        "obj": 4,
+        "sentiment": "-"
+      },
+      {
+        "subj": 15,
+        "pred": "encodes_via",
+        "obj": 4,
+        "sentiment": "-"
+      },
+      {
+        "subj": 21,
+        "pred": "clutters",
+        "obj": 6,
+        "sentiment": "+"
+      },
+      {
+        "subj": 22,
+        "pred": "aligns_with",
+        "obj": 4,
+        "sentiment": "-"
+      },
+      {
+        "subj": 23,
+        "pred": "separates",
+        "obj": 6,
+        "sentiment": "-"
+      },
+      {
+        "subj": 23,
+        "pred": "separates",
+        "obj": 7,
+        "sentiment": "-"
+      },
+      {
+        "subj": 6,
+        "pred": "labels",
+        "obj": 10,
+        "sentiment": "-"
+      },
+      {
+        "subj": 7,
+        "pred": "labels",
+        "obj": 11,
+        "sentiment": "-"
+      },
+      {
+        "subj": 8,
+        "pred": "labels",
+        "obj": 12,
+        "sentiment": "-"
+      },
+      {
+        "subj": 9,
+        "pred": "labels",
+        "obj": 13,
+        "sentiment": "-"
+      },
+      {
+        "subj": 19,
+        "pred": "positioned_left_of",
+        "obj": 17,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "provides_context_for",
+        "obj": 1,
+        "sentiment": "-"
+      }
+    ]
+  },
+  "InfoVisC.157.1.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "title",
+        "region": "title"
+      },
+      {
+        "id": 2,
+        "name": "splom_grid",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "diagonal_label_sex",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "diagonal_label_length",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "diagonal_label_diameter",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "diagonal_label_height",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "diagonal_label_whole_wt",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "diagonal_label_shucked_wt",
+        "region": "data_area"
+      },
+      {
+        "id": 9,
+        "name": "diagonal_label_viscera_wt",
+        "region": "data_area"
+      },
+      {
+        "id": 10,
+        "name": "diagonal_label_shell_wt",
+        "region": "data_area"
+      },
+      {
+        "id": 11,
+        "name": "diagonal_label_rings",
+        "region": "data_area"
+      },
+      {
+        "id": 12,
+        "name": "scatter_cell_length_diameter",
+        "region": "data_area"
+      },
+      {
+        "id": 13,
+        "name": "scatter_cell_length_height",
+        "region": "data_area"
+      },
+      {
+        "id": 14,
+        "name": "scatter_cell_length_whole_wt",
+        "region": "data_area"
+      },
+      {
+        "id": 15,
+        "name": "scatter_cell_length_shucked_wt",
+        "region": "data_area"
+      },
+      {
+        "id": 16,
+        "name": "scatter_cell_length_viscera_wt",
+        "region": "data_area"
+      },
+      {
+        "id": 17,
+        "name": "scatter_cell_length_shell_wt",
+        "region": "data_area"
+      },
+      {
+        "id": 18,
+        "name": "scatter_cell_length_rings",
+        "region": "data_area"
+      },
+      {
+        "id": 19,
+        "name": "scatter_cell_diameter_height",
+        "region": "data_area"
+      },
+      {
+        "id": 20,
+        "name": "scatter_cell_diameter_whole_wt",
+        "region": "data_area"
+      },
+      {
+        "id": 21,
+        "name": "scatter_cell_diameter_shucked_wt",
+        "region": "data_area"
+      },
+      {
+        "id": 22,
+        "name": "scatter_cell_diameter_viscera_wt",
+        "region": "data_area"
+      },
+      {
+        "id": 23,
+        "name": "scatter_cell_diameter_shell_wt",
+        "region": "data_area"
+      },
+      {
+        "id": 24,
+        "name": "scatter_cell_diameter_rings",
+        "region": "data_area"
+      },
+      {
+        "id": 25,
+        "name": "scatter_cell_height_whole_wt",
+        "region": "data_area"
+      },
+      {
+        "id": 26,
+        "name": "scatter_cell_height_shucked_wt",
+        "region": "data_area"
+      },
+      {
+        "id": 27,
+        "name": "scatter_cell_height_viscera_wt",
+        "region": "data_area"
+      },
+      {
+        "id": 28,
+        "name": "scatter_cell_height_shell_wt",
+        "region": "data_area"
+      },
+      {
+        "id": 29,
+        "name": "scatter_cell_height_rings",
+        "region": "data_area"
+      },
+      {
+        "id": 30,
+        "name": "scatter_cell_whole_shucked",
+        "region": "data_area"
+      },
+      {
+        "id": 31,
+        "name": "scatter_cell_whole_viscera",
+        "region": "data_area"
+      },
+      {
+        "id": 32,
+        "name": "scatter_cell_whole_shell",
+        "region": "data_area"
+      },
+      {
+        "id": 33,
+        "name": "scatter_cell_whole_rings",
+        "region": "data_area"
+      },
+      {
+        "id": 34,
+        "name": "scatter_cell_shucked_viscera",
+        "region": "data_area"
+      },
+      {
+        "id": 35,
+        "name": "scatter_cell_shucked_shell",
+        "region": "data_area"
+      },
+      {
+        "id": 36,
+        "name": "scatter_cell_shucked_rings",
+        "region": "data_area"
+      },
+      {
+        "id": 37,
+        "name": "scatter_cell_viscera_shell",
+        "region": "data_area"
+      },
+      {
+        "id": 38,
+        "name": "scatter_cell_viscera_rings",
+        "region": "data_area"
+      },
+      {
+        "id": 39,
+        "name": "scatter_cell_shell_rings",
+        "region": "data_area"
+      },
+      {
+        "id": 40,
+        "name": "sex_bar_cells",
+        "region": "data_area"
+      },
+      {
+        "id": 41,
+        "name": "data_points",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "short_title_text",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "nine_by_nine_matrix",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "lower_triangular_layout",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "many_variable_pairs",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 41,
+        "attr": "high_point_density",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 41,
+        "attr": "overlapping_points",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 41,
+        "attr": "black_filled_points",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 18,
+        "attr": "fan_shaped_pattern",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 29,
+        "attr": "fan_shaped_pattern",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 40,
+        "attr": "categorical_bar_encoding",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "categorical_variable",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 11,
+        "attr": "discrete_variable_label",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "contains",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 2,
+        "pred": "contains",
+        "obj": 4,
+        "sentiment": "-"
+      },
+      {
+        "subj": 2,
+        "pred": "contains",
+        "obj": 5,
+        "sentiment": "-"
+      },
+      {
+        "subj": 2,
+        "pred": "contains",
+        "obj": 6,
+        "sentiment": "-"
+      },
+      {
+        "subj": 2,
+        "pred": "contains",
+        "obj": 7,
+        "sentiment": "-"
+      },
+      {
+        "subj": 2,
+        "pred": "contains",
+        "obj": 8,
+        "sentiment": "-"
+      },
+      {
+        "subj": 2,
+        "pred": "contains",
+        "obj": 9,
+        "sentiment": "-"
+      },
+      {
+        "subj": 2,
+        "pred": "contains",
+        "obj": 10,
+        "sentiment": "-"
+      },
+      {
+        "subj": 2,
+        "pred": "contains",
+        "obj": 11,
+        "sentiment": "-"
+      },
+      {
+        "subj": 41,
+        "pred": "clutters",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 41,
+        "pred": "encodes_via",
+        "obj": 12,
+        "sentiment": "-"
+      },
+      {
+        "subj": 40,
+        "pred": "differs_from",
+        "obj": 41,
+        "sentiment": "+"
+      },
+      {
+        "subj": 18,
+        "pred": "shows_spread_pattern",
+        "obj": 41,
+        "sentiment": "+"
+      },
+      {
+        "subj": 36,
+        "pred": "shows_spread_pattern",
+        "obj": 41,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "increases_visual_load",
+        "obj": 1,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "wsj28.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "title",
+        "region": "title"
+      },
+      {
+        "id": 2,
+        "name": "subtitle_text",
+        "region": "title"
+      },
+      {
+        "id": 3,
+        "name": "bar_segment_close_loopholes",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "bar_segment_oil_gas_coal",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "bar_segment_financial_reform",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "bar_segment_intl_tax",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "bar_segment_estate_gift",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "bar_segment_charitable_breaks",
+        "region": "data_area"
+      },
+      {
+        "id": 9,
+        "name": "bar_segment_capital_gains",
+        "region": "data_area"
+      },
+      {
+        "id": 10,
+        "name": "bar_segment_dividends",
+        "region": "data_area"
+      },
+      {
+        "id": 11,
+        "name": "bar_segment_tax_rates",
+        "region": "data_area"
+      },
+      {
+        "id": 12,
+        "name": "bar_segment_exemption_phaseout",
+        "region": "data_area"
+      },
+      {
+        "id": 13,
+        "name": "bar_segment_itemized_deductions",
+        "region": "data_area"
+      },
+      {
+        "id": 14,
+        "name": "category_label_close_loopholes",
+        "region": "annotation"
+      },
+      {
+        "id": 15,
+        "name": "category_label_oil_gas",
+        "region": "annotation"
+      },
+      {
+        "id": 16,
+        "name": "category_label_financial_reform",
+        "region": "annotation"
+      },
+      {
+        "id": 17,
+        "name": "category_label_intl_tax",
+        "region": "annotation"
+      },
+      {
+        "id": 18,
+        "name": "category_label_estate_gift",
+        "region": "annotation"
+      },
+      {
+        "id": 19,
+        "name": "category_label_charitable",
+        "region": "annotation"
+      },
+      {
+        "id": 20,
+        "name": "category_label_capital_gains",
+        "region": "annotation"
+      },
+      {
+        "id": 21,
+        "name": "category_label_dividends",
+        "region": "annotation"
+      },
+      {
+        "id": 22,
+        "name": "category_label_tax_rates",
+        "region": "annotation"
+      },
+      {
+        "id": 23,
+        "name": "category_label_exemption",
+        "region": "annotation"
+      },
+      {
+        "id": 24,
+        "name": "category_label_itemized",
+        "region": "annotation"
+      },
+      {
+        "id": 25,
+        "name": "value_label_153_7",
+        "region": "annotation"
+      },
+      {
+        "id": 26,
+        "name": "value_label_29_6",
+        "region": "annotation"
+      },
+      {
+        "id": 27,
+        "name": "value_label_19_2",
+        "region": "annotation"
+      },
+      {
+        "id": 28,
+        "name": "value_label_147_5",
+        "region": "annotation"
+      },
+      {
+        "id": 29,
+        "name": "value_label_143_3",
+        "region": "annotation"
+      },
+      {
+        "id": 30,
+        "name": "value_label_584_2",
+        "region": "annotation"
+      },
+      {
+        "id": 31,
+        "name": "value_label_36_0",
+        "region": "annotation"
+      },
+      {
+        "id": 32,
+        "name": "value_label_206_4",
+        "region": "annotation"
+      },
+      {
+        "id": 33,
+        "name": "value_label_441_6",
+        "region": "annotation"
+      },
+      {
+        "id": 34,
+        "name": "value_label_41_9",
+        "region": "annotation"
+      },
+      {
+        "id": 35,
+        "name": "value_label_123_0",
+        "region": "annotation"
+      },
+      {
+        "id": 36,
+        "name": "upper_income_bracket_label",
+        "region": "annotation"
+      },
+      {
+        "id": 37,
+        "name": "bracket_848_9",
+        "region": "annotation"
+      },
+      {
+        "id": 38,
+        "name": "source_label",
+        "region": "annotation"
+      },
+      {
+        "id": 39,
+        "name": "color_dark_red_segment",
+        "region": "data_area"
+      },
+      {
+        "id": 40,
+        "name": "connector_lines",
+        "region": "annotation"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "bold_prominent_title",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "long_explanatory_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 8,
+        "attr": "largest_segment_dominant",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 39,
+        "attr": "dark_red_high_contrast",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 36,
+        "attr": "grouped_annotation_header",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 37,
+        "attr": "aggregate_value_labeled",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 40,
+        "attr": "multiple_connector_lines",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "light_pink_color",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 14,
+        "attr": "dense_label_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 19,
+        "attr": "long_description_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 30,
+        "attr": "bold_dollar_value",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 36,
+        "attr": "curly_brace_grouping",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "small_narrow_segment",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 9,
+        "attr": "small_narrow_segment",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 38,
+        "attr": "small_source_text",
+        "sentiment": "-"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 36,
+        "pred": "groups_together",
+        "obj": 37,
+        "sentiment": "+"
+      },
+      {
+        "subj": 8,
+        "pred": "visually_dominates",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 40,
+        "pred": "connects_labels_to",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 14,
+        "pred": "annotates",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 19,
+        "pred": "annotates",
+        "obj": 8,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "provides_context_for",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 30,
+        "pred": "labels",
+        "obj": 8,
+        "sentiment": "-"
+      },
+      {
+        "subj": 37,
+        "pred": "spans_over",
+        "obj": 36,
+        "sentiment": "+"
+      },
+      {
+        "subj": 39,
+        "pred": "contrasts_with",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 40,
+        "pred": "clutters",
+        "obj": "annotation",
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "overlaps_visually_with",
+        "obj": 5,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "InfoVisJ.2639.8.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "color_strip_top",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "color_strip_bottom",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "table_section",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "bar_chart",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "bar_tree_exploration",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "bar_querying",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "bar_detail_panel",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "bar_overview_subset",
+        "region": "data_area"
+      },
+      {
+        "id": 9,
+        "name": "bar_annotation",
+        "region": "data_area"
+      },
+      {
+        "id": 10,
+        "name": "bar_interactive_legend",
+        "region": "data_area"
+      },
+      {
+        "id": 11,
+        "name": "bar_text_display",
+        "region": "data_area"
+      },
+      {
+        "id": 12,
+        "name": "bar_dataset_management",
+        "region": "data_area"
+      },
+      {
+        "id": 13,
+        "name": "category_label_dataset_management",
+        "region": "axes"
+      },
+      {
+        "id": 14,
+        "name": "category_label_overview",
+        "region": "axes"
+      },
+      {
+        "id": 15,
+        "name": "category_label_detail_panel",
+        "region": "axes"
+      },
+      {
+        "id": 16,
+        "name": "category_label_tree_exploration",
+        "region": "axes"
+      },
+      {
+        "id": 17,
+        "name": "category_label_text_display",
+        "region": "axes"
+      },
+      {
+        "id": 18,
+        "name": "category_label_annotation",
+        "region": "axes"
+      },
+      {
+        "id": 19,
+        "name": "category_label_querying",
+        "region": "axes"
+      },
+      {
+        "id": 20,
+        "name": "category_label_interactive_legend",
+        "region": "axes"
+      },
+      {
+        "id": 21,
+        "name": "percentage_label_dataset_management",
+        "region": "annotation"
+      },
+      {
+        "id": 22,
+        "name": "percentage_label_overview",
+        "region": "annotation"
+      },
+      {
+        "id": 23,
+        "name": "percentage_label_detail_panel",
+        "region": "annotation"
+      },
+      {
+        "id": 24,
+        "name": "percentage_label_tree_exploration",
+        "region": "annotation"
+      },
+      {
+        "id": 25,
+        "name": "percentage_label_text_display",
+        "region": "annotation"
+      },
+      {
+        "id": 26,
+        "name": "percentage_label_annotation",
+        "region": "annotation"
+      },
+      {
+        "id": 27,
+        "name": "percentage_label_querying",
+        "region": "annotation"
+      },
+      {
+        "id": 28,
+        "name": "percentage_label_interactive_legend",
+        "region": "annotation"
+      },
+      {
+        "id": 29,
+        "name": "section_label_a",
+        "region": "annotation"
+      },
+      {
+        "id": 30,
+        "name": "section_label_b",
+        "region": "annotation"
+      },
+      {
+        "id": 31,
+        "name": "section_label_c",
+        "region": "annotation"
+      },
+      {
+        "id": 32,
+        "name": "table_row_dataset_management",
+        "region": "data_area"
+      },
+      {
+        "id": 33,
+        "name": "table_row_overview",
+        "region": "data_area"
+      },
+      {
+        "id": 34,
+        "name": "table_row_detail_panel",
+        "region": "data_area"
+      },
+      {
+        "id": 35,
+        "name": "table_row_tree_exploration",
+        "region": "data_area"
+      },
+      {
+        "id": 36,
+        "name": "table_row_text_display",
+        "region": "data_area"
+      },
+      {
+        "id": 37,
+        "name": "table_row_annotation",
+        "region": "data_area"
+      },
+      {
+        "id": 38,
+        "name": "table_row_querying",
+        "region": "data_area"
+      },
+      {
+        "id": 39,
+        "name": "table_row_interactive_legend",
+        "region": "data_area"
+      },
+      {
+        "id": 40,
+        "name": "highlight_box",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "multi_color_dense_segments",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "multi_color_dense_segments",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "many_color_categories",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "many_color_categories",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "dense_text_content",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "multi_row_multi_column",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "horizontal_bar_orientation",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 4,
+        "attr": "eight_distinct_bars",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "varied_bar_colors",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "dominant_bar_length",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 5,
+        "attr": "yellow_color_highlighted",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 40,
+        "attr": "yellow_highlight_box",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 29,
+        "attr": "section_identifier_label",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 30,
+        "attr": "section_identifier_label",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 31,
+        "attr": "section_identifier_label",
+        "sentiment": "-"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "visually_mirrors",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "dominates",
+        "obj": 4,
+        "sentiment": "-"
+      },
+      {
+        "subj": 40,
+        "pred": "highlights",
+        "obj": 5,
+        "sentiment": "-"
+      },
+      {
+        "subj": 3,
+        "pred": "corresponds_to",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "color_encodes",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "encodes_via",
+        "obj": 20,
+        "sentiment": "+"
+      },
+      {
+        "subj": 3,
+        "pred": "clutters",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 1,
+        "pred": "spans_above",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 13,
+        "pred": "labels",
+        "obj": 12,
+        "sentiment": "-"
+      },
+      {
+        "subj": 16,
+        "pred": "labels",
+        "obj": 5,
+        "sentiment": "-"
+      },
+      {
+        "subj": 21,
+        "pred": "annotates",
+        "obj": 12,
+        "sentiment": "+"
+      },
+      {
+        "subj": 24,
+        "pred": "annotates",
+        "obj": 5,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "InfoVisJ.691.6(3).png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "word_bipartite",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "word_superpixels",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "word_hypergraph",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "word_adaptation",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "word_descriptors",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "word_lattice",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "word_epitome",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "word_signature",
+        "region": "data_area"
+      },
+      {
+        "id": 9,
+        "name": "word_hierarchy",
+        "region": "data_area"
+      },
+      {
+        "id": 10,
+        "name": "word_wavelets",
+        "region": "data_area"
+      },
+      {
+        "id": 11,
+        "name": "word_vessels",
+        "region": "data_area"
+      },
+      {
+        "id": 12,
+        "name": "word_genuine",
+        "region": "data_area"
+      },
+      {
+        "id": 13,
+        "name": "word_layout",
+        "region": "data_area"
+      },
+      {
+        "id": 14,
+        "name": "word_supplementary",
+        "region": "data_area"
+      },
+      {
+        "id": 15,
+        "name": "word_incremental",
+        "region": "data_area"
+      },
+      {
+        "id": 16,
+        "name": "word_atlas",
+        "region": "data_area"
+      },
+      {
+        "id": 17,
+        "name": "word_scale",
+        "region": "data_area"
+      },
+      {
+        "id": 18,
+        "name": "word_index",
+        "region": "data_area"
+      },
+      {
+        "id": 19,
+        "name": "word_survey",
+        "region": "data_area"
+      },
+      {
+        "id": 20,
+        "name": "word_transfer",
+        "region": "data_area"
+      },
+      {
+        "id": 21,
+        "name": "word_context",
+        "region": "data_area"
+      },
+      {
+        "id": 22,
+        "name": "word_handling",
+        "region": "data_area"
+      },
+      {
+        "id": 23,
+        "name": "word_pieces",
+        "region": "data_area"
+      },
+      {
+        "id": 24,
+        "name": "word_cube",
+        "region": "data_area"
+      },
+      {
+        "id": 25,
+        "name": "word_sampling",
+        "region": "data_area"
+      },
+      {
+        "id": 26,
+        "name": "word_volumetric",
+        "region": "data_area"
+      },
+      {
+        "id": 27,
+        "name": "word_ting",
+        "region": "data_area"
+      },
+      {
+        "id": 28,
+        "name": "word_rted",
+        "region": "data_area"
+      },
+      {
+        "id": 29,
+        "name": "background",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "large_bold_font",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "dark_navy_color",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "large_bold_font",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "dark_navy_color",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "medium_font_size",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "teal_green_color",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "large_bold_font",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "dark_navy_color",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "large_bold_font",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "dark_navy_color",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "medium_bold_font",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "dark_navy_color",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "medium_bold_font",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "dark_navy_color",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 8,
+        "attr": "medium_bold_font",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 8,
+        "attr": "dark_navy_color",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 9,
+        "attr": "medium_bold_font",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 9,
+        "attr": "dark_navy_color",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 10,
+        "attr": "medium_font_size",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 10,
+        "attr": "teal_green_color",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 11,
+        "attr": "medium_bold_font",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 11,
+        "attr": "dark_navy_color",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 14,
+        "attr": "small_font_size",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 14,
+        "attr": "teal_green_color",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 15,
+        "attr": "small_font_size",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 15,
+        "attr": "teal_green_color",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 29,
+        "attr": "plain_white_background",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 17,
+        "attr": "medium_font_size",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 20,
+        "attr": "medium_font_size",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 20,
+        "attr": "teal_green_color",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 18,
+        "attr": "small_medium_font",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 19,
+        "attr": "medium_bold_font",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 22,
+        "attr": "medium_bold_font",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 23,
+        "attr": "medium_font_size",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 26,
+        "attr": "large_bold_font",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 26,
+        "attr": "teal_green_color",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 16,
+        "attr": "medium_bold_font",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 12,
+        "attr": "medium_bold_font",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 13,
+        "attr": "medium_bold_font",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "overlaps_with",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "overlaps_with",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "overlaps_with",
+        "obj": 8,
+        "sentiment": "+"
+      },
+      {
+        "subj": 8,
+        "pred": "overlaps_with",
+        "obj": 7,
+        "sentiment": "+"
+      },
+      {
+        "subj": 14,
+        "pred": "overlaps_with",
+        "obj": 15,
+        "sentiment": "+"
+      },
+      {
+        "subj": 10,
+        "pred": "overlaps_with",
+        "obj": 9,
+        "sentiment": "+"
+      },
+      {
+        "subj": 26,
+        "pred": "partially_cropped_by",
+        "obj": 29,
+        "sentiment": "+"
+      },
+      {
+        "subj": 27,
+        "pred": "partially_cropped_by",
+        "obj": 29,
+        "sentiment": "+"
+      },
+      {
+        "subj": 28,
+        "pred": "partially_cropped_by",
+        "obj": 29,
+        "sentiment": "+"
+      },
+      {
+        "subj": 9,
+        "pred": "partially_cropped_by",
+        "obj": 29,
+        "sentiment": "+"
+      },
+      {
+        "subj": 1,
+        "pred": "size_contrasts_with",
+        "obj": 18,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "size_contrasts_with",
+        "obj": 23,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "dominates",
+        "obj": 14,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "dominates",
+        "obj": 24,
+        "sentiment": "+"
+      },
+      {
+        "subj": 11,
+        "pred": "clutters",
+        "obj": 12,
+        "sentiment": "+"
+      },
+      {
+        "subj": 19,
+        "pred": "overlaps_with",
+        "obj": 20,
+        "sentiment": "+"
+      }
+    ]
+  },
+  "v483_n7390_1_f2.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "line_curve_i",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "line_curve_ii",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "line_curve_iii",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "dashed_line_left",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "dashed_line_right",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "annotation_surface_resonance",
+        "region": "annotation"
+      },
+      {
+        "id": 7,
+        "name": "annotation_bulk_resonance",
+        "region": "annotation"
+      },
+      {
+        "id": 8,
+        "name": "arrow_surface",
+        "region": "annotation"
+      },
+      {
+        "id": 9,
+        "name": "arrow_bulk",
+        "region": "annotation"
+      },
+      {
+        "id": 10,
+        "name": "x_axis_label",
+        "region": "axes"
+      },
+      {
+        "id": 11,
+        "name": "y_axis_label",
+        "region": "axes"
+      },
+      {
+        "id": 12,
+        "name": "x_axis_ticks",
+        "region": "axes"
+      },
+      {
+        "id": 13,
+        "name": "curve_label_i",
+        "region": "data_area"
+      },
+      {
+        "id": 14,
+        "name": "curve_label_ii",
+        "region": "data_area"
+      },
+      {
+        "id": 15,
+        "name": "curve_label_iii",
+        "region": "data_area"
+      },
+      {
+        "id": 16,
+        "name": "plot_border",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "noisy_irregular_profile",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "noisy_irregular_profile",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "noisy_irregular_profile",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 1,
+        "attr": "multiple_peaks_visible",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "multiple_peaks_visible",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "multiple_peaks_visible",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "red_dashed_vertical",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "red_dashed_vertical",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "text_label_present",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 7,
+        "attr": "text_label_present",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 8,
+        "attr": "directional_arrow",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 9,
+        "attr": "directional_arrow",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 10,
+        "attr": "clear_axis_label",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 11,
+        "attr": "rotated_axis_label",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 13,
+        "attr": "roman_numeral_label",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 14,
+        "attr": "roman_numeral_label",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 15,
+        "attr": "roman_numeral_label",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 1,
+        "attr": "vertically_offset_stacked",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "vertically_offset_stacked",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "vertically_offset_stacked",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "overlaps_with",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 2,
+        "pred": "overlaps_with",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "intersects",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "intersects",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "intersects",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "intersects",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "intersects",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "intersects",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 8,
+        "pred": "points_to",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 9,
+        "pred": "points_to",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 6,
+        "pred": "labels",
+        "obj": 4,
+        "sentiment": "-"
+      },
+      {
+        "subj": 7,
+        "pred": "labels",
+        "obj": 5,
+        "sentiment": "-"
+      },
+      {
+        "subj": 4,
+        "pred": "aligns_with",
+        "obj": 5,
+        "sentiment": "-"
+      },
+      {
+        "subj": 1,
+        "pred": "stacked_above",
+        "obj": 2,
+        "sentiment": "-"
+      },
+      {
+        "subj": 2,
+        "pred": "stacked_above",
+        "obj": 3,
+        "sentiment": "-"
+      }
+    ]
+  },
+  "VisC.433.1.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "heatmap",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "color_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "x_axis",
+        "region": "axes"
+      },
+      {
+        "id": 4,
+        "name": "y_axis",
+        "region": "axes"
+      },
+      {
+        "id": 5,
+        "name": "x_axis_label",
+        "region": "axes"
+      },
+      {
+        "id": 6,
+        "name": "y_axis_label",
+        "region": "axes"
+      },
+      {
+        "id": 7,
+        "name": "x_tick_label",
+        "region": "axes"
+      },
+      {
+        "id": 8,
+        "name": "y_tick_label",
+        "region": "axes"
+      },
+      {
+        "id": 9,
+        "name": "colorbar",
+        "region": "legend"
+      },
+      {
+        "id": 10,
+        "name": "colorbar_label",
+        "region": "legend"
+      },
+      {
+        "id": 11,
+        "name": "colorbar_tick",
+        "region": "legend"
+      },
+      {
+        "id": 12,
+        "name": "diagonal_band",
+        "region": "data_area"
+      },
+      {
+        "id": 13,
+        "name": "hotspot_cluster",
+        "region": "data_area"
+      },
+      {
+        "id": 14,
+        "name": "color_gradient",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "continuous_color_encoding",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "high_spatial_variation",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "multicolor_range_used",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "numeric_tick_labels",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 4,
+        "attr": "alphabetic_tick_labels",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 7,
+        "attr": "sparse_labels",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 8,
+        "attr": "ten_discrete_labels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 9,
+        "attr": "wide_value_range",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 9,
+        "attr": "dark_to_red_gradient",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 10,
+        "attr": "rotated_label_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 11,
+        "attr": "six_tick_marks",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 12,
+        "attr": "diagonal_stripe_pattern",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 13,
+        "attr": "multiple_scattered_hotspots",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 14,
+        "attr": "smooth_color_transitions",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "fills",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 12,
+        "pred": "clutters",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 13,
+        "pred": "increases_density_of",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 14,
+        "pred": "encodes_via",
+        "obj": 9,
+        "sentiment": "+"
+      },
+      {
+        "subj": 9,
+        "pred": "maps_values_in",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 3,
+        "pred": "bounds",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 4,
+        "pred": "bounds",
+        "obj": 1,
+        "sentiment": "-"
+      },
+      {
+        "subj": 5,
+        "pred": "labels",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 6,
+        "pred": "labels",
+        "obj": 4,
+        "sentiment": "-"
+      },
+      {
+        "subj": 12,
+        "pred": "overlaps",
+        "obj": 13,
+        "sentiment": "+"
+      },
+      {
+        "subj": 10,
+        "pred": "annotates",
+        "obj": 9,
+        "sentiment": "-"
+      }
+    ]
+  },
+  "SciVisJ.259.7.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "main_map",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "color_pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "contour_overlay",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "highlight_circle_left",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "highlight_circle_top",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "inset_zoom_circle",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "dashed_connector_line",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "annotation_arrow",
+        "region": "annotation"
+      },
+      {
+        "id": 9,
+        "name": "annotation_label",
+        "region": "annotation"
+      },
+      {
+        "id": 10,
+        "name": "colorbar",
+        "region": "legend"
+      },
+      {
+        "id": 11,
+        "name": "colorbar_tick_labels",
+        "region": "legend"
+      },
+      {
+        "id": 12,
+        "name": "colorbar_scale",
+        "region": "legend"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "dark_background_dominant",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "multi_hue_gradient_complex",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 2,
+        "attr": "spatially_irregular_pattern",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "irregular_contour_lines",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 3,
+        "attr": "high_line_density",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "large_circular_overlay",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "large_circular_overlay",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "magnified_inset_detail",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 7,
+        "attr": "dashed_visual_connector",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 8,
+        "attr": "curved_annotation_arrow",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 9,
+        "attr": "bold_text_label",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 10,
+        "attr": "continuous_color_spectrum",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 11,
+        "attr": "multiple_tick_labels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 12,
+        "attr": "km_unit_scale",
+        "sentiment": "-"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 3,
+        "pred": "overlays",
+        "obj": 2,
+        "sentiment": "+"
+      },
+      {
+        "subj": 4,
+        "pred": "highlights_region_of",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "highlights_region_of",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "connects",
+        "obj": 6,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "magnifies",
+        "obj": 5,
+        "sentiment": "+"
+      },
+      {
+        "subj": 8,
+        "pred": "points_to",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 9,
+        "pred": "labels",
+        "obj": 4,
+        "sentiment": "-"
+      },
+      {
+        "subj": 4,
+        "pred": "clutters",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "clutters",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "overlaps",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 10,
+        "pred": "encodes_via",
+        "obj": 2,
+        "sentiment": "-"
+      },
+      {
+        "subj": 11,
+        "pred": "annotates",
+        "obj": 10,
+        "sentiment": "-"
+      }
+    ]
+  },
+  "InfoVisC.8.7.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "title",
+        "region": "title"
+      },
+      {
+        "id": 2,
+        "name": "subtitle",
+        "region": "title"
+      },
+      {
+        "id": 3,
+        "name": "polar_grid",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "radial_lines",
+        "region": "data_area"
+      },
+      {
+        "id": 5,
+        "name": "concentric_circles",
+        "region": "data_area"
+      },
+      {
+        "id": 6,
+        "name": "orange_circle",
+        "region": "data_area"
+      },
+      {
+        "id": 7,
+        "name": "red_curve",
+        "region": "data_area"
+      },
+      {
+        "id": 8,
+        "name": "blue_curve",
+        "region": "data_area"
+      },
+      {
+        "id": 9,
+        "name": "green_curve",
+        "region": "data_area"
+      },
+      {
+        "id": 10,
+        "name": "dotted_curve",
+        "region": "data_area"
+      },
+      {
+        "id": 11,
+        "name": "black_curves",
+        "region": "data_area"
+      },
+      {
+        "id": 12,
+        "name": "north_label",
+        "region": "axes"
+      },
+      {
+        "id": 13,
+        "name": "south_label",
+        "region": "axes"
+      },
+      {
+        "id": 14,
+        "name": "east_label",
+        "region": "axes"
+      },
+      {
+        "id": 15,
+        "name": "west_label",
+        "region": "axes"
+      },
+      {
+        "id": 16,
+        "name": "azimuth_tick_labels",
+        "region": "axes"
+      },
+      {
+        "id": 17,
+        "name": "star_label_rigel",
+        "region": "annotation"
+      },
+      {
+        "id": 18,
+        "name": "star_label_sirius",
+        "region": "annotation"
+      },
+      {
+        "id": 19,
+        "name": "star_label_acnux",
+        "region": "annotation"
+      },
+      {
+        "id": 20,
+        "name": "star_label_rigil_k",
+        "region": "annotation"
+      },
+      {
+        "id": 21,
+        "name": "star_label_betelgeuse",
+        "region": "annotation"
+      },
+      {
+        "id": 22,
+        "name": "star_label_aldebaran",
+        "region": "annotation"
+      },
+      {
+        "id": 23,
+        "name": "star_label_alcyone",
+        "region": "annotation"
+      },
+      {
+        "id": 24,
+        "name": "star_label_procyon",
+        "region": "annotation"
+      },
+      {
+        "id": 25,
+        "name": "star_label_antares",
+        "region": "annotation"
+      },
+      {
+        "id": 26,
+        "name": "star_label_capella",
+        "region": "annotation"
+      },
+      {
+        "id": 27,
+        "name": "star_label_pollux",
+        "region": "annotation"
+      },
+      {
+        "id": 28,
+        "name": "star_label_altair",
+        "region": "annotation"
+      },
+      {
+        "id": 29,
+        "name": "star_label_regulus",
+        "region": "annotation"
+      },
+      {
+        "id": 30,
+        "name": "star_label_spica",
+        "region": "annotation"
+      },
+      {
+        "id": 31,
+        "name": "star_label_deneb",
+        "region": "annotation"
+      },
+      {
+        "id": 32,
+        "name": "star_label_vega",
+        "region": "annotation"
+      },
+      {
+        "id": 33,
+        "name": "star_label_arcturus",
+        "region": "annotation"
+      },
+      {
+        "id": 34,
+        "name": "annotation_text_block",
+        "region": "annotation"
+      },
+      {
+        "id": 35,
+        "name": "crosshair_axes",
+        "region": "axes"
+      },
+      {
+        "id": 36,
+        "name": "rise_set_labels",
+        "region": "annotation"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "large_bold_text",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 2,
+        "attr": "small_descriptive_text",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 3,
+        "attr": "dense_polar_grid",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 4,
+        "attr": "many_radial_spokes",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 5,
+        "attr": "multiple_concentric_rings",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 6,
+        "attr": "outermost_bounding_circle",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 7,
+        "attr": "bold_red_distinct_color",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 8,
+        "attr": "bold_blue_distinct_color",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 9,
+        "attr": "light_green_subtle_color",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 10,
+        "attr": "dotted_line_style",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 11,
+        "attr": "multiple_overlapping_curves",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 16,
+        "attr": "dense_numeric_labels",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 17,
+        "attr": "small_overlapping_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 18,
+        "attr": "small_overlapping_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 19,
+        "attr": "small_overlapping_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 20,
+        "attr": "small_overlapping_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 21,
+        "attr": "small_overlapping_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 22,
+        "attr": "small_overlapping_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 23,
+        "attr": "small_overlapping_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 24,
+        "attr": "small_overlapping_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 25,
+        "attr": "small_overlapping_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 34,
+        "attr": "multi_line_annotation_block",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 35,
+        "attr": "cardinal_direction_axes",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 36,
+        "attr": "small_rise_set_labels",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 4,
+        "pred": "clutters",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 5,
+        "pred": "overlaps_with",
+        "obj": 4,
+        "sentiment": "+"
+      },
+      {
+        "subj": 7,
+        "pred": "overlaps_with",
+        "obj": 8,
+        "sentiment": "+"
+      },
+      {
+        "subj": 8,
+        "pred": "overlaps_with",
+        "obj": 9,
+        "sentiment": "+"
+      },
+      {
+        "subj": 10,
+        "pred": "overlaps_with",
+        "obj": 7,
+        "sentiment": "+"
+      },
+      {
+        "subj": 11,
+        "pred": "overlaps_with",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 11,
+        "pred": "obscures",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 17,
+        "pred": "clutters",
+        "obj": 18,
+        "sentiment": "+"
+      },
+      {
+        "subj": 18,
+        "pred": "clutters",
+        "obj": 19,
+        "sentiment": "+"
+      },
+      {
+        "subj": 19,
+        "pred": "clutters",
+        "obj": 20,
+        "sentiment": "+"
+      },
+      {
+        "subj": 21,
+        "pred": "clutters",
+        "obj": 22,
+        "sentiment": "+"
+      },
+      {
+        "subj": 26,
+        "pred": "clutters",
+        "obj": 27,
+        "sentiment": "+"
+      },
+      {
+        "subj": 27,
+        "pred": "clutters",
+        "obj": 28,
+        "sentiment": "+"
+      },
+      {
+        "subj": 29,
+        "pred": "clutters",
+        "obj": 30,
+        "sentiment": "+"
+      },
+      {
+        "subj": 16,
+        "pred": "encircles",
+        "obj": 3,
+        "sentiment": "+"
+      },
+      {
+        "subj": 6,
+        "pred": "bounds",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 35,
+        "pred": "organizes",
+        "obj": 3,
+        "sentiment": "-"
+      },
+      {
+        "subj": 34,
+        "pred": "occupies",
+        "obj": "annotation",
+        "sentiment": "+"
+      }
+    ]
+  },
+  "VASTC.51.10.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "timeline_axis",
+        "region": "axes"
+      },
+      {
+        "id": 2,
+        "name": "time_label_week40",
+        "region": "axes"
+      },
+      {
+        "id": 3,
+        "name": "time_label_1012",
+        "region": "axes"
+      },
+      {
+        "id": 4,
+        "name": "time_label_1014",
+        "region": "axes"
+      },
+      {
+        "id": 5,
+        "name": "time_label_1016",
+        "region": "axes"
+      },
+      {
+        "id": 6,
+        "name": "time_label_1018",
+        "region": "axes"
+      },
+      {
+        "id": 7,
+        "name": "time_label_1020",
+        "region": "axes"
+      },
+      {
+        "id": 8,
+        "name": "time_label_1022",
+        "region": "axes"
+      },
+      {
+        "id": 9,
+        "name": "time_label_1024",
+        "region": "axes"
+      },
+      {
+        "id": 10,
+        "name": "time_label_1025",
+        "region": "axes"
+      },
+      {
+        "id": 11,
+        "name": "time_label_week44",
+        "region": "axes"
+      },
+      {
+        "id": 12,
+        "name": "cluster_N",
+        "region": "data_area"
+      },
+      {
+        "id": 13,
+        "name": "cluster_O",
+        "region": "data_area"
+      },
+      {
+        "id": 14,
+        "name": "cluster_P",
+        "region": "data_area"
+      },
+      {
+        "id": 15,
+        "name": "dotted_boundary_N",
+        "region": "data_area"
+      },
+      {
+        "id": 16,
+        "name": "dotted_boundary_O",
+        "region": "data_area"
+      },
+      {
+        "id": 17,
+        "name": "dotted_boundary_P",
+        "region": "data_area"
+      },
+      {
+        "id": 18,
+        "name": "background_word_america",
+        "region": "data_area"
+      },
+      {
+        "id": 19,
+        "name": "background_word_africa",
+        "region": "data_area"
+      },
+      {
+        "id": 20,
+        "name": "background_word_australia",
+        "region": "data_area"
+      },
+      {
+        "id": 21,
+        "name": "background_word_europe",
+        "region": "data_area"
+      },
+      {
+        "id": 22,
+        "name": "background_word_asia",
+        "region": "data_area"
+      },
+      {
+        "id": 23,
+        "name": "keyword_node_worker",
+        "region": "data_area"
+      },
+      {
+        "id": 24,
+        "name": "keyword_node_health",
+        "region": "data_area"
+      },
+      {
+        "id": 25,
+        "name": "keyword_node_patient",
+        "region": "data_area"
+      },
+      {
+        "id": 26,
+        "name": "keyword_node_city",
+        "region": "data_area"
+      },
+      {
+        "id": 27,
+        "name": "keyword_node_africa",
+        "region": "data_area"
+      },
+      {
+        "id": 28,
+        "name": "keyword_node_hits",
+        "region": "data_area"
+      },
+      {
+        "id": 29,
+        "name": "keyword_node_eric",
+        "region": "data_area"
+      },
+      {
+        "id": 30,
+        "name": "keyword_node_protective",
+        "region": "data_area"
+      },
+      {
+        "id": 31,
+        "name": "keyword_node_hospital",
+        "region": "data_area"
+      },
+      {
+        "id": 32,
+        "name": "keyword_node_west",
+        "region": "data_area"
+      },
+      {
+        "id": 33,
+        "name": "keyword_node_pham",
+        "region": "data_area"
+      },
+      {
+        "id": 34,
+        "name": "keyword_node_positive",
+        "region": "data_area"
+      },
+      {
+        "id": 35,
+        "name": "keyword_node_texas",
+        "region": "data_area"
+      },
+      {
+        "id": 36,
+        "name": "keyword_node_live",
+        "region": "data_area"
+      },
+      {
+        "id": 37,
+        "name": "keyword_node_dallas",
+        "region": "data_area"
+      },
+      {
+        "id": 38,
+        "name": "keyword_node_mistakes",
+        "region": "data_area"
+      },
+      {
+        "id": 39,
+        "name": "keyword_node_hospital2",
+        "region": "data_area"
+      },
+      {
+        "id": 40,
+        "name": "keyword_node_cruise",
+        "region": "data_area"
+      },
+      {
+        "id": 41,
+        "name": "keyword_node_ship",
+        "region": "data_area"
+      },
+      {
+        "id": 42,
+        "name": "keyword_node_abc",
+        "region": "data_area"
+      },
+      {
+        "id": 43,
+        "name": "keyword_node_worker2",
+        "region": "data_area"
+      },
+      {
+        "id": 44,
+        "name": "keyword_node_crisis",
+        "region": "data_area"
+      },
+      {
+        "id": 45,
+        "name": "keyword_node_carrying",
+        "region": "data_area"
+      },
+      {
+        "id": 46,
+        "name": "keyword_node_ship2",
+        "region": "data_area"
+      },
+      {
+        "id": 47,
+        "name": "keyword_node_africa2",
+        "region": "data_area"
+      },
+      {
+        "id": 48,
+        "name": "keyword_node_hazmat",
+        "region": "data_area"
+      },
+      {
+        "id": 49,
+        "name": "keyword_node_city2",
+        "region": "data_area"
+      },
+      {
+        "id": 50,
+        "name": "keyword_node_outbreak",
+        "region": "data_area"
+      },
+      {
+        "id": 51,
+        "name": "keyword_node_fight",
+        "region": "data_area"
+      },
+      {
+        "id": 52,
+        "name": "keyword_node_duncan",
+        "region": "data_area"
+      },
+      {
+        "id": 53,
+        "name": "keyword_node_thomas",
+        "region": "data_area"
+      },
+      {
+        "id": 54,
+        "name": "keyword_node_fair",
+        "region": "data_area"
+      },
+      {
+        "id": 55,
+        "name": "keyword_node_nina",
+        "region": "data_area"
+      },
+      {
+        "id": 56,
+        "name": "keyword_node_nurse",
+        "region": "data_area"
+      },
+      {
+        "id": 57,
+        "name": "keyword_node_patient2",
+        "region": "data_area"
+      },
+      {
+        "id": 58,
+        "name": "keyword_node_york",
+        "region": "data_area"
+      },
+      {
+        "id": 59,
+        "name": "keyword_node_virus",
+        "region": "data_area"
+      },
+      {
+        "id": 60,
+        "name": "keyword_node_dallas2",
+        "region": "data_area"
+      },
+      {
+        "id": 61,
+        "name": "keyword_node_doctor",
+        "region": "data_area"
+      },
+      {
+        "id": 62,
+        "name": "keyword_node_positive2",
+        "region": "data_area"
+      },
+      {
+        "id": 63,
+        "name": "keyword_node_tests",
+        "region": "data_area"
+      },
+      {
+        "id": 64,
+        "name": "keyword_node_spencer",
+        "region": "data_area"
+      },
+      {
+        "id": 65,
+        "name": "keyword_node_quarantine",
+        "region": "data_area"
+      },
+      {
+        "id": 66,
+        "name": "keyword_node_declining",
+        "region": "data_area"
+      },
+      {
+        "id": 67,
+        "name": "keyword_node_west2",
+        "region": "data_area"
+      },
+      {
+        "id": 68,
+        "name": "flow_lines",
+        "region": "data_area"
+      },
+      {
+        "id": 69,
+        "name": "annotation_australia_arrow",
+        "region": "annotation"
+      },
+      {
+        "id": 70,
+        "name": "annotation_europe_arrow",
+        "region": "annotation"
+      },
+      {
+        "id": 71,
+        "name": "annotation_asia_arrow",
+        "region": "annotation"
+      },
+      {
+        "id": 72,
+        "name": "annotation_label_australia",
+        "region": "annotation"
+      },
+      {
+        "id": 73,
+        "name": "annotation_label_europe",
+        "region": "annotation"
+      },
+      {
+        "id": 74,
+        "name": "annotation_label_asia",
+        "region": "annotation"
+      },
+      {
+        "id": 75,
+        "name": "background_wave_shapes",
+        "region": "data_area"
+      },
+      {
+        "id": 76,
+        "name": "vertical_gridlines",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "spans_full_width",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 12,
+        "attr": "dense_node_cluster",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 13,
+        "attr": "dense_node_cluster",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 14,
+        "attr": "dense_node_cluster",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 15,
+        "attr": "dotted_border_boundary",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 16,
+        "attr": "dotted_border_boundary",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 17,
+        "attr": "dotted_border_boundary",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 18,
+        "attr": "large_watermark_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 19,
+        "attr": "large_watermark_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 20,
+        "attr": "faint_background_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 21,
+        "attr": "faint_background_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 22,
+        "attr": "faint_background_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 68,
+        "attr": "multiple_crossing_lines",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 68,
+        "attr": "multi_color_encoded",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 68,
+        "attr": "curved_flowing_paths",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 75,
+        "attr": "layered_wave_shapes",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 75,
+        "attr": "low_contrast_gray",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 76,
+        "attr": "regular_intervals",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 69,
+        "attr": "arrow_annotation_pointer",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 70,
+        "attr": "arrow_annotation_pointer",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 71,
+        "attr": "arrow_annotation_pointer",
+        "sentiment": "-"
+      },
+      {
+        "object_id": 12,
+        "attr": "heavily_overlapping_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 13,
+        "attr": "heavily_overlapping_text",
+        "sentiment": "+"
+      },
+      {
+        "object_id": 14,
+        "attr": "heavily_overlapping_text",
+        "sentiment": "+"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 68,
+        "pred": "connects",
+        "obj": 12,
+        "sentiment": "+"
+      },
+      {
+        "subj": 68,
+        "pred": "connects",
+        "obj": 13,
+        "sentiment": "+"
+      },
+      {
+        "subj": 68,
+        "pred": "connects",
+        "obj": 14,
+        "sentiment": "+"
+      },
+      {
+        "subj": 18,
+        "pred": "obscures",
+        "obj": 68,
+        "sentiment": "+"
+      },
+      {
+        "subj": 19,
+        "pred": "obscures",
+        "obj": 68,
+        "sentiment": "+"
+      },
+      {
+        "subj": 15,
+        "pred": "groups",
+        "obj": 12,
+        "sentiment": "-"
+      },
+      {
+        "subj": 16,
+        "pred": "groups",
+        "obj": 13,
+        "sentiment": "-"
+      },
+      {
+        "subj": 17,
+        "pred": "groups",
+        "obj": 14,
+        "sentiment": "-"
+      },
+      {
+        "subj": 69,
+        "pred": "points_to",
+        "obj": 20,
+        "sentiment": "-"
+      },
+      {
+        "subj": 70,
+        "pred": "points_to",
+        "obj": 21,
+        "sentiment": "-"
+      },
+      {
+        "subj": 71,
+        "pred": "points_to",
+        "obj": 22,
+        "sentiment": "-"
+      },
+      {
+        "subj": 68,
+        "pred": "clutters",
+        "obj": 12,
+        "sentiment": "+"
+      },
+      {
+        "subj": 68,
+        "pred": "clutters",
+        "obj": 13,
+        "sentiment": "+"
+      },
+      {
+        "subj": 75,
+        "pred": "encodes_via",
+        "obj": 1,
+        "sentiment": "+"
+      },
+      {
+        "subj": 12,
+        "pred": "overlaps",
+        "obj": 13,
+        "sentiment": "+"
+      },
+      {
+        "subj": 76,
+        "pred": "aligns_with",
+        "obj": 1,
+        "sentiment": "-"
+      }
+    ]
+  }
+}
