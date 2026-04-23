@@ -23,7 +23,7 @@ from dotenv import load_dotenv
 # ── Config ──────────────────────────────────────────────────────────────────
 load_dotenv(dotenv_path=Path(__file__).parent.parent.parent / '.env')
 
-MODEL          = 'claude-opus-4-6'
+MODEL          = 'claude-sonnet-4-6'
 MAX_TOKENS     = 2000
 SLEEP_BETWEEN  = 0.5        # seconds between API calls
 

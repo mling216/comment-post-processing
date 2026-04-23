@@ -18,8 +18,10 @@ from dotenv import load_dotenv
 # ── Config ──────────────────────────────────────────────────────────────────
 load_dotenv(dotenv_path=Path(__file__).parent.parent.parent / '.env')
 
-MODEL          = 'claude-opus-4-6'
+MODEL          = 'claude-sonnet-4-6'
 MAX_TOKENS     = 800
+THINKING_BUDGET = 4000     # extended thinking budget (used with --thinking flag)
+USE_THINKING   = False     # set at runtime by --thinking flag
 SLEEP_BETWEEN  = 0.5
 
 MAPPING_CSV    = Path(__file__).parent.parent / 'phrase_reduction_v2' / 'image_phrase_word_mapping.csv'
@@ -129,13 +131,15 @@ async def _score_one_async(aclient, sem, idx, total, img_name, img_url,
         ]
 
         try:
-            response = await aclient.messages.create(
-                model=MODEL,
-                max_tokens=MAX_TOKENS,
-                system=[{"type": "text", "text": SYSTEM_PROMPT}],
-                messages=messages
-            )
-            raw = response.content[0].text
+            api_kwargs = dict(model=MODEL, messages=messages,
+                              max_tokens=MAX_TOKENS + THINKING_BUDGET if USE_THINKING else MAX_TOKENS,
+                              system=[{"type": "text", "text": SYSTEM_PROMPT}])
+            if USE_THINKING:
+                api_kwargs['thinking'] = {"type": "adaptive"}
+            else:
+                api_kwargs['temperature'] = 0
+            response = await aclient.messages.create(**api_kwargs)
+            raw = next(b.text for b in response.content if b.type == 'text')
             result = parse_response(raw)
 
             with _csv_lock:
@@ -199,13 +203,15 @@ def _run_sequential(client, to_process, scores_csv, expl_csv):
                 }
             ]
 
-            response = client.messages.create(
-                model=MODEL,
-                max_tokens=MAX_TOKENS,
-                system=[{"type": "text", "text": SYSTEM_PROMPT}],
-                messages=messages
-            )
-            raw = response.content[0].text
+            api_kwargs = dict(model=MODEL, messages=messages,
+                              max_tokens=MAX_TOKENS + THINKING_BUDGET if USE_THINKING else MAX_TOKENS,
+                              system=[{"type": "text", "text": SYSTEM_PROMPT}])
+            if USE_THINKING:
+                api_kwargs['thinking'] = {"type": "adaptive"}
+            else:
+                api_kwargs['temperature'] = 0
+            response = client.messages.create(**api_kwargs)
+            raw = next(b.text for b in response.content if b.type == 'text')
             result = parse_response(raw)
 
             append_scores_row(scores_csv, img_name, result)
@@ -238,7 +244,15 @@ def main():
     parser.add_argument('--input-csv', type=str, default=None,
                         help='CSV with imageName column')
     parser.add_argument('--concurrency', type=int, default=1)
+    parser.add_argument('--thinking', action='store_true',
+                        help='Enable extended thinking (budget_tokens=16000, temperature=1)')
+    parser.add_argument('--model', type=str, default=None,
+                        help='Override model (e.g. claude-opus-4-6 or claude-sonnet-4-6)')
     args = parser.parse_args()
+    global USE_THINKING, MODEL
+    USE_THINKING = args.thinking
+    if args.model:
+        MODEL = args.model
 
     api_key = os.environ.get('ANTHROPIC_API_KEY')
     if not api_key:

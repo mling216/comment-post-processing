@@ -97,3 +97,28 @@ Comparison of two LLM-based topic extraction methods against human-annotated Top
 ## Conclusion
 
 The simpler v0 prompt (Sonnet, no few-shot) performs comparably or slightly better than the scoring_v4 pipeline (Opus, few-shot anchors) when measured against human ground truth. The additional cost and complexity of the scoring pipeline does not translate to improved topic agreement. Both methods share a systematic bias toward over-predicting Schema and under-predicting topics that humans associate with surface-level visual features. The high inter-method agreement (Macro κ = +0.417) despite low human agreement suggests that LLM-based topic extraction captures a consistent but distinct perspective from crowdsourced human judgments.
+
+## Per-VisType Agreement (Pooled κ)
+
+With only 3 images per VisType, per-topic kappa within each group would be unreliable. Instead, we pool all 7 topic decisions within each VisType (3 images × 7 topics = 21 binary decisions) to compute a single pooled κ per group.
+
+| VisType | v0↔H F1 | v4↔H F1 | v0↔H κ | v4↔H κ | v0↔v4 κ |
+|------------------|--------:|--------:|-------:|-------:|--------:|
+| Area             |   0.517 |   0.406 | +0.000 | −0.182 |  +0.806 |
+| Bar              |   0.267 |   0.400 | −0.116 | +0.087 |  +0.222 |
+| Cont.-ColorPatn  |   0.356 |   0.378 | +0.087 | +0.087 |  +0.417 |
+| Glyph            |   0.524 |   0.524 | +0.137 | +0.137 |  +0.806 |
+| Grid             |   0.633 |   0.544 | +0.493 | +0.290 |  +0.222 |
+| Line             |   0.300 |   0.300 | +0.060 | +0.060 |  +0.222 |
+| Node-link        |   0.362 |   0.590 | −0.085 | +0.310 |  +0.222 |
+| Point            |   0.522 |   0.356 | +0.290 | +0.087 |  +0.222 |
+| Text             |   0.324 |   0.457 | −0.085 | +0.113 |  +0.611 |
+| **ALL**          | **0.423** | **0.440** | **+0.085** | **+0.107** | **+0.417** |
+
+### Observations
+
+1. **Grid** has the best v0↔Human agreement (κ = +0.493), likely because grid-based charts present unambiguous visual complexity cues (cell density, color variation) that both humans and LLMs identify consistently.
+2. **Glyph and Area show very high inter-method agreement** (κ = +0.806) — the two LLMs converge on the same topics despite modest alignment with humans, reinforcing the shared-LLM-bias finding.
+3. **Node-link is the one VisType where v4 clearly outperforms v0** (κ = +0.310 vs −0.085). The scoring pipeline's dimensional structure may better capture the structural complexity of network visualizations.
+4. **Bar charts are hardest for v0** (κ = −0.116), while v4 achieves slight positive agreement (+0.087). Both methods struggle with this common chart type, suggesting bar chart complexity is perceived differently by humans vs LLMs.
+5. **Caveat**: n = 3 per VisType means these values are indicative, not conclusive. A larger sample would be needed to confirm these patterns.

@@ -1,0 +1,47 @@
+filename,data_density,visual_encoding,text_annotation,domain_schema,color_symbol,aesthetic_order,cognitive_load,vc_score,user_topics
+visMost97.png,0.2,0.25,0.3,0.15,0.35,0.15,0.15,0.22,"Color, Symbol, and Texture Details; Immediacy / Cognitive Load"
+wsj135.png,0.4,0.35,0.45,0.25,0.3,0.25,0.3,0.33,"Semantics / Text Legibility; Color, Symbol, and Texture Details"
+economist_daily_chart_165.png,0.55,0.4,0.5,0.25,0.3,0.4,0.35,0.4,Data Density / Image Clutter; Semantics / Text Legibility
+whoO06_2.png,0.6,0.45,0.6,0.5,0.4,0.35,0.5,0.5,Data Density / Image Clutter; Semantics / Text Legibility
+SciVisJ.1025.11.png,0.4,0.35,0.5,0.4,0.4,0.35,0.4,0.4,"Semantics / Text Legibility; Color, Symbol, and Texture Details"
+InfoVisC.133.5(3).png,0.4,0.55,0.3,0.5,0.4,0.45,0.5,0.46,Visual Encoding Clarity; Immediacy / Cognitive Load
+whoQ44_4.png,0.5,0.45,0.45,0.35,0.5,0.4,0.45,0.45,"Color, Symbol, and Texture Details; Data Density / Image Clutter"
+InfoVisJ.1558.11(3).png,0.45,0.35,0.05,0.35,0.4,0.35,0.3,0.35,"Color, Symbol, and Texture Details; Data Density / Image Clutter"
+InfoVisJ.619.17.png,0.55,0.6,0.45,0.6,0.5,0.5,0.6,0.56,"Schema; Immediacy / Cognitive Load; Color, Symbol, and Texture Details"
+wsj603.png,0.5,0.45,0.55,0.45,0.4,0.35,0.45,0.45,"Semantics / Text Legibility; Color, Symbol, and Texture Details"
+VisJ.1515.12.png,0.3,0.35,0.0,0.55,0.4,0.35,0.5,0.38,"Schema; Color, Symbol, and Texture Details"
+VisJ.1499.8.png,0.5,0.6,0.15,0.75,0.55,0.4,0.6,0.57,"Schema; Color, Symbol, and Texture Details; Immediacy / Cognitive Load"
+v483_n7391_8_f5.png,0.65,0.65,0.4,0.8,0.6,0.5,0.7,0.65,"Schema; Immediacy / Cognitive Load; Color, Symbol, and Texture Details"
+v487_n7406_7_f3.png,0.75,0.75,0.3,0.7,0.75,0.65,0.7,0.7,"Color, Symbol, and Texture Details; Data Density / Image Clutter; Schema"
+SciVisJ.1236.10.png,0.85,0.75,0.35,0.8,0.6,0.7,0.85,0.78,Data Density / Image Clutter; Schema; Immediacy / Cognitive Load
+SciVisJ.2926.1.png,0.85,0.8,0.05,0.85,0.8,0.75,0.8,0.8,"Data Density / Image Clutter; Color, Symbol, and Texture Details; Schema"
+InfoVisJ.2699.12.png,0.85,0.7,0.15,0.7,0.35,0.8,0.8,0.75,Data Density / Image Clutter; Aesthetics Uncertainty; Immediacy / Cognitive Load
+VisJ.1197.5(3).png,0.85,0.75,0.0,0.7,0.3,0.9,0.8,0.78,Data Density / Image Clutter; Aesthetics Uncertainty; Immediacy / Cognitive Load
+SciVisJ.980.12(2).png,0.75,0.85,0.05,0.9,0.75,0.7,0.85,0.8,"Schema; Color, Symbol, and Texture Details; Immediacy / Cognitive Load"
+InfoVisJ.2402.12(1).png,0.92,0.8,0.3,0.85,0.55,0.9,0.9,0.85,Data Density / Image Clutter; Schema; Immediacy / Cognitive Load
+VisC.503.6.png,0.12,0.15,0.2,0.25,0.15,0.1,0.15,0.16,Visual Encoding Clarity; Immediacy / Cognitive Load
+whoQ50_2.png,0.4,0.3,0.45,0.25,0.15,0.25,0.3,0.32,Semantics / Text Legibility; Data Density / Image Clutter
+InfoVisC.211.18.png,0.3,0.2,0.2,0.15,0.05,0.15,0.15,0.2,Visual Encoding Clarity; Immediacy / Cognitive Load
+whoJ44.png,0.25,0.2,0.4,0.3,0.2,0.15,0.2,0.25,Immediacy / Cognitive Load
+wsj340.png,0.2,0.25,0.45,0.15,0.35,0.15,0.15,0.22,"Semantics / Text Legibility; Color, Symbol, and Texture Details"
+InfoVisC.73.6.png,0.2,0.3,0.55,0.35,0.2,0.3,0.35,0.3,Semantics / Text Legibility; Visual Encoding Clarity
+VisC.167.11.png,0.55,0.4,0.35,0.4,0.35,0.35,0.4,0.42,"Data Density / Image Clutter; Color, Symbol, and Texture Details"
+economist_daily_chart_153.png,0.45,0.4,0.35,0.25,0.35,0.3,0.35,0.37,"Visual Encoding Clarity; Color, Symbol, and Texture Details"
+VASTJ.2908.2.png,0.7,0.5,0.65,0.7,0.4,0.45,0.65,0.6,Data Density / Image Clutter; Schema; Immediacy / Cognitive Load
+InfoVisJ.1236.13.png,0.65,0.7,0.4,0.6,0.75,0.6,0.65,0.65,"Color, Symbol, and Texture Details; Visual Encoding Clarity; Data Density / Image Clutter"
+VisJ.1949.18(3).png,0.7,0.7,0.0,0.8,0.6,0.65,0.75,0.68,Schema; Data Density / Image Clutter; Immediacy / Cognitive Load
+InfoVisJ.1558.9.png,0.55,0.7,0.2,0.75,0.55,0.5,0.7,0.62,Schema; Visual Encoding Clarity; Immediacy / Cognitive Load
+SciVisJ.822.18.png,0.4,0.35,0.2,0.4,0.45,0.3,0.4,0.38,"Color, Symbol, and Texture Details; Schema"
+InfoVisJ.349.1.png,0.7,0.65,0.05,0.75,0.3,0.7,0.75,0.68,Data Density / Image Clutter; Schema; Immediacy / Cognitive Load
+VASTJ.422.7.png,0.6,0.55,0.45,0.5,0.6,0.45,0.55,0.55,"Color, Symbol, and Texture Details; Data Density / Image Clutter"
+VASTJ.2012.9(2).png,0.78,0.75,0.85,0.7,0.65,0.72,0.78,0.75,Semantics / Text Legibility; Data Density / Image Clutter; Immediacy / Cognitive Load
+v488_n7409_12_f4.png,0.55,0.6,0.7,0.75,0.4,0.45,0.65,0.6,Schema; Semantics / Text Legibility; Immediacy / Cognitive Load
+v488_n7412_9_f1.png,0.75,0.78,0.65,0.8,0.75,0.7,0.75,0.75,"Data Density / Image Clutter; Color, Symbol, and Texture Details; Schema"
+v488_n7409_19_f1.png,0.88,0.82,0.75,0.92,0.8,0.75,0.88,0.85,Data Density / Image Clutter; Schema; Immediacy / Cognitive Load
+visMost573.png,0.75,0.8,0.65,0.7,0.85,0.7,0.75,0.76,"Color, Symbol, and Texture Details; Data Density / Image Clutter; Schema"
+VisJ.1541.1(2).png,0.85,0.7,0.1,0.75,0.55,0.75,0.7,0.72,"Data Density / Image Clutter; Schema; Color, Symbol, and Texture Details"
+VASTJ.1.7.png,0.85,0.8,0.05,0.85,0.65,0.7,0.8,0.78,Data Density / Image Clutter; Schema; Immediacy / Cognitive Load
+vis734.png,0.92,0.75,0.85,0.55,0.7,0.85,0.85,0.82,Data Density / Image Clutter; Semantics / Text Legibility; Immediacy / Cognitive Load
+InfoVisC.65.5(2).png,0.85,0.75,0.05,0.8,0.15,0.85,0.88,0.78,Data Density / Image Clutter; Immediacy / Cognitive Load; Schema
+VASTC.13.9.png,0.82,0.8,0.85,0.8,0.75,0.78,0.82,0.8,Data Density / Image Clutter; Semantics / Text Legibility; Immediacy / Cognitive Load
+InfoVisJ.1149.6(1).png,0.9,0.85,0.8,0.92,0.72,0.85,0.93,0.89,Data Density / Image Clutter; Immediacy / Cognitive Load; Schema
