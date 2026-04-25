@@ -101,14 +101,14 @@ The unseen split shows Pearson r = 0.851 with a slight negative bias (-0.067), i
 | File | Description |
 |------|-------------|
 | `scripts/_vc_score_api_v3.py` | Main API scoring script (V3 prompt, async, caching) |
-| `vc_api_scores/vc_scores.csv` | Production scores (520 rows, 7 dims + vc_score) |
-| `vc_api_scores/vc_explanations.csv` | Per-dimension explanations + summary |
+| `results/vc_api_scores/vc_scores.csv` | Production scores (520 rows, 7 dims + vc_score) |
+| `results/vc_api_scores/vc_explanations.csv` | Per-dimension explanations + summary |
 | `Claude_vc_prediction/gt_all_46.csv` | 46 calibration GT images |
 | `Claude_vc_prediction/VC_520_Analysis.ipynb` | Production analysis notebook |
 | `Claude_vc_prediction/VC_API_Calibration.ipynb` | V1/V2/V3 calibration diagnostics |
-| `vc_api_46gt_v1/` | V1 calibration run output |
-| `vc_api_46gt_v2/` | V2 calibration run output |
-| `vc_api_46gt_v3/` | V3 calibration run output |
+| `results/vc_api_46gt_v1/` | V1 calibration run output |
+| `results/vc_api_46gt_v2/` | V2 calibration run output |
+| `results/vc_api_46gt_v3/` | V3 calibration run output |
 
 ---
 ---

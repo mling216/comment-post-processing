@@ -11,8 +11,8 @@ so the vc_score reflects a weighted holistic judgment rather than a simple avera
 Same output format as the V0 family (vc_score + explanation only).
 
 Usage:
-    python _vc_score_api_v0_tca_weighted.py --input-csv ../Claude_vc_prediction/gt_all_46.csv --outdir ../vc_api_46gt_v0_tcaw --concurrency 5
-    python _vc_score_api_v0_tca_weighted.py --input-csv ../Claude_vc_prediction/gt_all_46.csv --outdir ../vc_api_46gt_v0_tcaw_r3 --concurrency 5 --thinking --model claude-opus-4-6
+    python _vc_score_api_v0_tca_weighted.py --input-csv ../Claude_vc_prediction/gt_all_46.csv --outdir ../results/vc_api_46gt_v0_tcaw --concurrency 5
+    python _vc_score_api_v0_tca_weighted.py --input-csv ../Claude_vc_prediction/gt_all_46.csv --outdir ../results/vc_api_46gt_v0_tcaw_r3 --concurrency 5 --thinking --model claude-opus-4-6
 """
 
 import os, sys, json, time, argparse, base64, csv, asyncio, threading
@@ -30,7 +30,7 @@ USE_THINKING   = False
 SLEEP_BETWEEN  = 0.5
 
 MAPPING_CSV    = Path(__file__).parent.parent / 'phrase_reduction_v2' / 'image_phrase_word_mapping.csv'
-DEFAULT_OUTDIR = Path(__file__).parent.parent / 'vc_api_46gt_v0_tcaw'
+DEFAULT_OUTDIR = Path(__file__).parent.parent / 'results' / 'vc_api_46gt_v0_tcaw'
 
 # ── Anchors (vc_score only — consistent with output format) ───────────────
 ANCHORS = [

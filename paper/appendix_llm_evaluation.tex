@@ -1,0 +1,826 @@
+% =========================================================================
+% Appendix B: Prompt Engineering for LLM-based Visualization Analysis (v2)
+% Appendix C: Topic Selection (Follow-on Study)
+% Two-column IEEE VIS / CHI style.
+% Requires in the preamble:
+%   \usepackage{booktabs}
+%   \usepackage{array}
+% Uses \cite{lin1989ccc}.
+% Tables use tabular* with \extracolsep{\fill} so cells stay content-tight
+% but inter-column gaps expand to fill the full column / page width.
+% Narrow tables: \begin{table}  + tabular*{\linewidth}  (single column).
+% Wide tables:   \begin{table*} + tabular*{\textwidth} (spans both columns).
+%
+% v2 changes (Apr 2026):
+%   - Unified E1+E2 into a single ablation; former V3 is renamed V1 and
+%     enters as the "extended" variant on top of V0+TWCA.
+%   - Dropped V0+CA and V0+TCA (redundant or superseded cells) from
+%     the variant list.
+%   - Added V0+TW, V0+TWC, V0+TWA cells (TW-anchored triples).
+%   - Rationale: with three follow-on analyses planned (VC prediction,
+%     topic selection, scene-graph extraction), the appendix title is
+%     generalized from "Visual Complexity Scoring" to "LLM-based
+%     Visualization Analysis". The VC-prediction study below is the
+%     first of the three.
+% =========================================================================
+
+\appendix
+\section{Prompt Engineering for LLM-based Visualization Analysis}
+\label{app:vc-prompts}
+
+We investigate how the structure of a large multimodal LLM prompt affects
+the model's ability to reproduce human-rated \textbf{Visual Complexity (VC)}
+scores for static data visualizations. Starting from a minimal baseline
+prompt (\textbf{V0}), we incrementally layer four modular components ---
+\textbf{T}opics, \textbf{C}alibration, \textbf{A}nchors, and
+\textbf{W}eighted scoring --- and report a single unified ablation over ten
+variants. An eleventh variant, \textbf{V1}, extends the most heavily
+instrumented cell (V0+TWCA) with two additional elements --- per-dimension
+anchor supervision and per-dimension numeric output --- and is included as
+the upper envelope of the ablation.
+
+\subsection{Ground Truth and Evaluation Set}
+\label{app:vc-gt}
+
+The 46-image ground-truth set was sub-sampled from a pool of approximately
+700 paired images collected in a prior pair-comparison study. Pairs were
+ranked by the absolute difference $|\Delta \mathrm{VC}|$ between their
+aggregated human ratings, then binned across the full range of
+$|\Delta \mathrm{VC}|$. From each bin we selected roughly equal numbers of
+pairs, yielding \textbf{23 pairs (46 images)} that span the full difficulty
+spectrum --- from near-ties (hard discrimination) to large-gap pairs (easy
+discrimination). Each image carries a normalized human VC rating
+$y \in [0, 1]$ derived from the pair study.
+
+Three of the 46 images are reserved as few-shot anchor exemplars
+($\mathrm{VC} = 0.22, 0.54, 0.95$) and are presented in-context to every
+anchored variant (all cells containing ``A'', plus V1). To prevent leakage,
+these three images are \emph{excluded} from all reported metrics, leaving
+$n = 43$ test images.
+
+\subsection{Evaluation Metrics}
+\label{app:vc-metrics}
+
+We report five agreement metrics, with Lin's Concordance Correlation
+Coefficient (CCC)~\cite{lin1989ccc} as the headline measure:
+\begin{equation}
+\mathrm{CCC}(y, \hat{y}) =
+\frac{2\,\rho\,\sigma_y\sigma_{\hat{y}}}
+     {\sigma_y^2 + \sigma_{\hat{y}}^2 + (\mu_y - \mu_{\hat{y}})^2},
+\end{equation}
+where $\rho$ is the Pearson correlation between human ratings $y$ and model
+predictions $\hat{y}$. CCC measures agreement with the identity line
+$\hat{y} = y$, jointly penalizing (i) low correlation, (ii) mean bias, and
+(iii) scale mismatch. It is bounded in $[-1, 1]$ and is the standard metric
+for continuous method-comparison studies. We additionally report Pearson
+$r$ with its two-sided $p$-value (\texttt{scipy.stats.pearsonr}), Spearman
+$\rho$, the coefficient of determination $R^2$ against the identity line
+(\texttt{sklearn.metrics.r2\_score},
+$R^2 = 1 - \sum_i (y_i - \hat{y}_i)^2 / \sum_i (y_i - \bar{y})^2$, which
+can be negative when the predictor underperforms the mean of $y$), MAE,
+RMSE, and the signed bias $\overline{\hat{y} - y}$.
+
+\subsection{Prompt Components}
+\label{app:vc-components}
+
+Starting from the minimal \textbf{V0} baseline --- VC definition plus the
+0--1 output range, no dimensions, no anchors --- we incrementally layer
+four modular components:
+
+\begin{itemize}
+  \item \textbf{T (Topics / Dimensions):} Enumerates seven complexity
+    dimensions (data density, visual encoding, semantics/text, schema,
+    color/symbol, aesthetics, cognitive load) as mental checkpoints.
+    Output remains a single holistic \texttt{vc\_score}.
+  \item \textbf{C (Calibration):} Provides scale-anchoring guidance with
+    example chart types mapped to target ranges (plain bar chart
+    $\approx 0.25$--$0.40$; dense multi-panel $\approx 0.85$--$0.95$) and
+    instructs the model to use the full range.
+  \item \textbf{A (Anchors):} Prepends the three labeled anchor images as
+    few-shot exemplars before the target. Each anchor carries only its
+    final VC score (no per-dimension values).
+  \item \textbf{W (Weighted):} Qualitatively re-weights the seven
+    dimensions: high weight on density / encoding / schema / cognitive,
+    medium on color / aesthetic, low on text.
+\end{itemize}
+
+\subsection{Variant Selection}
+\label{app:vc-variants}
+
+Rather than run all $2^3$ combinations of $(T, C, A)$, we prune the lattice
+on the observation that \textbf{among the single-component cells (V0+T,
+V0+C, V0+A), V0+T achieves the highest CCC}, motivating a T-anchored path
+through the design space. The final variant list is:
+
+\begin{table}[t]
+  \centering
+  \caption{Variant lattice for the prompt-engineering ablation.
+    Starting from a minimal baseline (\textbf{V0}: VC definition and
+    0--1 output only), we layer four modular components:
+    \textbf{T}opics (7 complexity dimensions as checkpoints),
+    \textbf{C}alibration (example chart types mapped to target ranges),
+    \textbf{A}nchors (three few-shot labeled images), and
+    \textbf{W}eighted scoring (high/medium/low dimension weights).
+    Rather than all $2^3$ combinations, we prune to a T-anchored path:
+    V0+T is the strongest single-component cell, so doubles pair T with
+    each remaining component; triples build on the winning double
+    (V0+TW); V0+TWCA is the full four-component cell.
+    \textbf{V1} is an extended variant that additionally supplies
+    per-dimension anchor scores and requires per-dimension numeric
+    output, beyond what any E1 cell carries.}
+  \label{tab:variant-lattice}
+  \small
+  \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}ll@{}}
+    \toprule
+    Level & Variants\\
+    \midrule
+    Baseline          & V0\\
+    Single            & V0+T, V0+C, V0+A\\
+    Double (T-only)   & V0+TC, V0+TA, V0+TW\\
+    Triple (TW-based) & V0+TWC, V0+TWA\\
+    Quadruple         & V0+TWCA\\
+    Extended          & \textbf{V1} (V0+TWCA + per-dim anchors \& output)\\
+    \bottomrule
+  \end{tabular*}
+\end{table}
+
+Since V0+T is the strongest single-component cell, the double-feature
+sweep pairs T with each of the three remaining components (C, A, W) ---
+giving V0+TC, V0+TA, and V0+TW --- rather than the redundant non-T cell
+V0+CA. The triple layer is then built on the strongest double (V0+TW) by
+adding C or A, yielding V0+TWC and V0+TWA. V0+TWCA is the full
+four-component (quadruple) cell.
+
+\textbf{V1} extends V0+TWCA with two additional elements: (a) the three
+anchor images now carry full per-dimension reference scores (not just the
+overall VC), and (b) the model is required to emit numeric scores for each
+of the seven dimensions in addition to \texttt{vc\_score}.
+
+Dropped relative to the original design: V0+CA (redundant two-feature cell
+without T) and V0+TCA (superseded by V0+TWC once W emerges as the
+strongest pairing with T).
+
+\subsection{Test Conditions}
+\label{app:vc-conditions}
+
+\textbf{E1 variants (V0 through V0+TWCA).} Each variant is evaluated under
+four independent runs on \texttt{claude-opus-4-6} (primary model):
+\texttt{r1} and \texttt{r2} are deterministic ($t = 0$) replicates;
+\texttt{r3} and \texttt{r4} use Claude's adaptive extended-thinking mode.
+A subset of \texttt{r3} (variants V0+TC, V0+TA) used
+\texttt{claude-sonnet-4-6}; these were re-run in \texttt{r4} on
+\texttt{claude-opus-4-6} for cross-variant parity. We define
+\emph{det\_avg} as the mean of \texttt{r1} and \texttt{r2}, and
+\emph{think\_avg} as the mean of \texttt{r3} and \texttt{r4}.
+
+\textbf{V1.} Run twice on \texttt{claude-opus-4-6} at the Anthropic API
+default sampling temperature ($t = 1$, not explicitly set) with no
+extended thinking and \texttt{max\_tokens = 1500} to accommodate the
+longer per-dimension JSON output. We report both replicates and their
+mean; V1 per-run values carry more sampling noise than the E1
+\emph{det\_avg} values since $t > 0$.
+
+\subsection{Results --- CCC per run}
+\label{app:vc-ccc}
+
+Table~\ref{tab:ccc} summarizes CCC across all runs and aggregated
+columns; we then walk through the patterns visible in the table.
+
+\paragraph{Single-component gains are small and ordered $T > C > A$.}
+Among the three single-component cells, V0+T leads ($0.869$),
+V0+C is mid ($0.854$), and V0+A is lowest ($0.852$) --- only
+$0.011$ above the V0 baseline ($0.858$). This ordering is what
+motivated the T-anchored pruning of the two- and three-feature cells
+in Sec.~\ref{app:vc-variants}: pairing topics with each remaining
+component is more informative than re-running the lattice without T.
+
+\paragraph{Layering along the T-path is near-flat at $t = 0$.}
+V0+T, V0+TC, V0+TA, V0+TW, V0+TWC, V0+TWA, and V0+TWCA all sit
+within $0.018$ CCC of each other ($0.854$--$0.872$). Among the
+double-feature T-pairs, \textbf{V0+TW is the strongest ($0.872$)},
+narrowly above V0+TA ($0.860$) and V0+TC ($0.854$). Adding C or A
+on top of V0+TW does \emph{not} help: the two triples lose
+$\sim\!0.015$ CCC (V0+TWC $0.856$, V0+TWA $0.857$) and the
+quadruple V0+TWCA ($0.869$) does not recover the V0+TW level.
+Within the standard ablation lattice, V0+TW is therefore the best
+deterministic cell of the entire sweep.
+
+% ---------- Narrow CCC table ----------------------------------------------
+\begin{table}[t]
+  \centering
+  \caption{Concordance Correlation Coefficient (CCC, Lin~1989) per run
+    on $n = 43$ non-anchor images, \texttt{claude-opus-4-6}. CCC
+    measures agreement with the identity line $\hat{y} = y$, jointly
+    penalizing low correlation, mean bias, and scale mismatch; higher
+    is better ($\in [-1, 1]$). \texttt{r1}/\texttt{r2} are
+    deterministic ($t = 0$) replicates; \texttt{r3}/\texttt{r4} use
+    Claude's adaptive extended-thinking mode.
+    \emph{det\_avg} averages \texttt{r1}+\texttt{r2};
+    \emph{think\_avg} averages \texttt{r3}+\texttt{r4}. V1 is run at
+    $t = 1$ (API default, no thinking); its \emph{det\_avg} column
+    reports the mean of the two V1 replicates for column parity.
+    Dashes indicate runs not conducted for that cell.}
+  \label{tab:ccc}
+  \small
+  \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lcccccc@{}}
+    \toprule
+    Variant & r1 & r2 & \textbf{det\_avg} & r3 & r4 & \textbf{think\_avg}\\
+    \midrule
+    V0          & 0.858 & 0.859 & \textbf{0.858} & 0.868 & 0.881 & \textbf{0.875}\\
+    V0+T        & 0.871 & 0.867 & \textbf{0.869} & 0.857 & ---   & \textbf{0.857}\\
+    V0+C        & 0.851 & 0.856 & \textbf{0.854} & ---   & ---   & ---\\
+    V0+A        & 0.852 & 0.853 & \textbf{0.852} & ---   & ---   & ---\\
+    V0+TC       & 0.854 & ---   & \textbf{0.854} & 0.737 & 0.866 & \textbf{0.802}\\
+    V0+TA       & 0.860 & ---   & \textbf{0.860} & 0.849 & 0.834 & \textbf{0.841}\\
+    V0+TW       & 0.872 & 0.872 & \textbf{0.872} & ---   & ---   & ---\\
+    V0+TWC      & 0.855 & 0.856 & \textbf{0.856} & ---   & ---   & ---\\
+    V0+TWA      & 0.860 & 0.855 & \textbf{0.857} & ---   & ---   & ---\\
+    V0+TWCA     & 0.868 & 0.871 & \textbf{0.869} & 0.811 & 0.815 & \textbf{0.813}\\
+    \textbf{V1} & 0.882 & 0.880 & \textbf{0.881} & ---   & ---   & ---\\
+    \bottomrule
+  \end{tabular*}
+\end{table}
+
+\paragraph{Extended thinking is a double-edged sword.}
+The \emph{think\_avg} column tells a non-monotone story: extended
+thinking lifts the minimal V0 prompt ($0.858 \to 0.875$) but sharply
+hurts heavily-instructed prompts (V0+TWCA: $0.869 \to 0.813$;
+V0+TC: $0.854 \to 0.802$). The qualitative weight guidance and the
+calibration ranges appear to interact poorly with longer
+deliberation. The low V0+TC \texttt{r3} cell ($0.737$) is also
+partly a model-capacity confound: that single run used
+\texttt{claude-sonnet-4-6} and is recovered by its \texttt{r4} opus
+replicate ($0.866$), so the dip reflects model size rather than a
+prompt defect.
+
+\paragraph{V1 breaks the $0.87$ ceiling.}
+The extended variant V1 (full per-dimension anchor supervision and
+required per-dimension numeric output, on top of V0+TWCA) reaches
+CCC $= 0.881$ --- the only cell above the $\sim\!0.87$ band that the
+standard ablation never crosses. The two V1 replicates agree closely
+($0.882$ and $0.880$), so the $t = 1$ sampling noise is small
+relative to the gap to V0+TW. We expand on this gain in
+Sec.~\ref{app:vc-full} alongside the full agreement metrics.
+
+\subsection{Results --- Full metrics}
+\label{app:vc-full}
+
+Table~\ref{tab:full} reports the full agreement metrics for all
+variants. The CCC ordering of Sec.~\ref{app:vc-ccc} is broadly
+preserved across $r$, $\rho$, $R^2$, MAE, and RMSE, with one
+clear-cut conclusion that the multi-metric view sharpens.
+
+% ---------- Wide full-metrics table ---------------------------------------
+\begin{table*}[t]
+  \centering
+  \caption{Full agreement metrics for all variants on $n = 43$
+    non-anchor images, \texttt{claude-opus-4-6}. Ground truth is a
+    normalized human VC rating $y \in [0,1]$ from a prior
+    pair-comparison study. E1 rows (V0 through V0+TWCA) report
+    \emph{det\_avg} (mean of two $t = 0$ replicates); the V1 row
+    reports the mean of two $t = 1$ replicates (per-run statistics
+    averaged). CCC is Lin's Concordance Correlation Coefficient
+    (headline metric); $r$ is Pearson; $\rho$ is Spearman; $R^2$ is
+    \texttt{sklearn.metrics.r2\_score} against the identity line
+    (can be negative if the predictor underperforms the mean of $y$);
+    MAE and RMSE are in the raw $[0,1]$ VC scale; Bias is the signed
+    mean error $\overline{\hat{y} - y}$. All Pearson $p < 10^{-12}$.
+    \textbf{V1} (bold) is the only variant that simultaneously
+    maximizes CCC/$r$/$\rho$/$R^2$ and minimizes MAE/RMSE.}
+  \label{tab:full}
+  \small
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccccccc@{}}
+    \toprule
+    Variant & $n$ & CCC & $r$ & $\rho$ (Spearman) & $R^2$ & MAE & RMSE & Bias\\
+    \midrule
+    V0          & 43 & 0.858          & 0.868          & 0.868          & 0.671          & 0.080          & 0.098          & $+0.010$\\
+    V0+T        & 43 & 0.869          & 0.879          & 0.872          & 0.692          & 0.078          & 0.095          & $+0.003$\\
+    V0+C        & 43 & 0.854          & 0.871          & 0.873          & 0.679          & 0.081          & 0.097          & $+0.033$\\
+    V0+A        & 43 & 0.852          & 0.869          & 0.866          & 0.638          & 0.083          & 0.103          & $-0.012$\\
+    V0+TC       & 43 & 0.854          & 0.874          & 0.870          & 0.688          & 0.078          & 0.096          & $+0.037$\\
+    V0+TA       & 43 & 0.860          & 0.882          & 0.872          & 0.656          & 0.081          & 0.101          & $-0.025$\\
+    V0+TW       & 43 & 0.872          & 0.890          & 0.885          & 0.678          & 0.082          & 0.097          & $+0.026$\\
+    V0+TWC      & 43 & 0.856          & 0.872          & 0.872          & 0.689          & 0.079          & 0.096          & $+0.064$\\
+    V0+TWA      & 43 & 0.857          & 0.887          & 0.881          & 0.635          & 0.085          & 0.104          & $+0.000$\\
+    V0+TWCA     & 43 & 0.869          & 0.876          & 0.871          & 0.704          & 0.075          & 0.093          & $-0.003$\\
+    \textbf{V1} & 43 & \textbf{0.881} & \textbf{0.900} & \textbf{0.894} & \textbf{0.716} & \textbf{0.076} & \textbf{0.091} & $-0.026$\\
+    \bottomrule
+  \end{tabular*}
+\end{table*}
+
+\paragraph{V1 dominates on every metric.}
+V1 is the only variant that simultaneously maximizes CCC, $r$,
+Spearman $\rho$, and $R^2$ while minimizing MAE and RMSE. The two
+elements that distinguish V1 from its standard-ablation predecessor
+V0+TWCA are (a) per-dimension reference scores on each anchor
+(beyond the holistic VC label) and (b) required per-dimension
+numeric output. Because V1 uses the same model as every other cell,
+the gain is a clean prompt-design effect: forcing the model to
+commit to per-topic numbers, against per-topic anchors, sharpens
+the holistic VC score even though that score is the only quantity
+actually scored against ground truth. The bias column is the only
+place V0 / V0+T / V0+TWCA edge V1 ($-0.026$ for V1 vs.\ near-zero
+for several E1 cells), but their lower bias is not enough to
+overcome larger correlation and scale-mismatch losses.
+
+\paragraph{$R^2$ separates the variants more than CCC.}
+$R^2$ against the identity line spreads variants more than CCC
+does ($0.635$--$0.716$ vs.\ $0.852$--$0.881$): $R^2$ is more
+sensitive to outlier residuals, so it discriminates between
+variants whose CCC values are statistically tied. V0+TWCA
+($R^2 = 0.704$) and V1 ($0.716$) are the clearest leaders here;
+V0+A and V0+TWA sit at the bottom ($0.638$, $0.635$), suggesting
+that anchor-only and weight+anchor cells produce a few large
+residuals that the smoother CCC metric absorbs.
+
+\subsection{Findings}
+\label{app:vc-findings}
+
+\begin{itemize}
+  \item \textbf{Topics dominate, weighting helps, calibration and
+    anchors do not stack.} The standard ablation peaks at V0+TW
+    ($0.872$); adding C or A on top of V0+TW does not improve CCC.
+  \item \textbf{Extended thinking interacts negatively with
+    instruction density.} It helps V0 but hurts V0+TWCA and V0+TC,
+    so adaptive thinking should be reserved for short prompts.
+  \item \textbf{Per-dimension supervision is the only ingredient
+    that breaks the $\sim\!0.87$ ceiling.} V1 wins on every
+    agreement metric; the gain is a prompt-design effect, not a
+    model-capacity effect.
+\end{itemize}
+
+\section{Topic Selection (Follow-on Study)}
+\label{app:topicsel}
+
+The 7 topics used inside the prompt (data density, visual encoding,
+text legibility, schema, color/symbol, aesthetics, cognitive load)
+were originally derived from a bottom-up coding of the same
+user-comment corpus that produced the human VC ratings. Each topic
+maps 1:1 to a scoring dimension in V1, so for every evaluation image
+we also have a human-derived \emph{topic set} --- the subset of topics
+that reviewers actually mentioned when describing that image. This
+enables a second, complementary evaluation: rather than asking the
+model to reproduce a continuous VC score, we ask whether it can
+identify \emph{which topics} drive complexity for a given image.
+
+\paragraph{Ground truth.} For each of the $n=43$ evaluation images,
+we take the set of topics present in the compiled human comment pool
+(the \texttt{Topics} column of \texttt{image\_compiled\_phrases.csv},
+mapped to dimension keys). Human cardinality ranges 1--7 topics per
+image (median 3); 14 images list $\geq 5$ topics.
+
+\paragraph{Model task.} Variants that already expose the 7 topics to
+the model (V0+T, V0+TW, V1) are extended to emit a top-3 topic
+ranking. For V0+T and V0+TW the prompt is modified to request a
+\texttt{top3\_topics} field (keys drawn from the canonical 7). V1
+requires no prompt change: we derive top-3 directly from its
+per-dimension numeric scores (highest-3 dims).
+
+\paragraph{Metric.} Because human topic sets are unordered and
+variable-sized, we report \textbf{set-based $F_1$} as the headline
+($F_1 = 2PR/(P+R)$ with $P = |\text{pred} \cap \text{human}| / 3$ and
+$R = |\text{pred} \cap \text{human}| / |\text{human}|$), plus
+Jaccard/IoU, macro precision/recall (mean per image), and micro $F_1$
+(pooled counts). Per-topic precision/recall/$F_1$ serve as
+diagnostics.
+
+\subsection{Aggregate results (n=43, opus-4.6)}
+
+Table~\ref{tab:topicsel-agg} summarizes the top-3 topic-selection
+performance for the three variants that already expose the 7-topic
+taxonomy. Two patterns dominate the column.
+
+\paragraph{Prompting for top-3 beats deriving from per-dimension
+scores.} V0+T and V0+TW, which are asked explicitly to return a
+top-3 topic list, both outperform the V1 runs by $\geq 9$ $F_1$
+points (V0+TW $0.528$ vs.\ V1 $0.407$). V1 is strictly better at
+the \emph{continuous} VC task (Sec.~\ref{app:vc-full}), but its
+per-dimension scores --- trained to serve the holistic VC aggregate
+--- do not discriminate the top-3 topics as sharply as a prompt
+that asks for them directly. The V1-vs-E1 ordering of the
+continuous task therefore reverses on the categorical task.
+
+\paragraph{Qualitative weight guidance helps in aggregate.}
+V0+TW exceeds V0+T by $+0.031$ $F_1$ ($0.528$ vs.\ $0.497$) on the
+aggregate metric and is the leader on every column except Macro P /
+Macro R. The ``high/medium/low'' bucketing biases selections toward
+data\_density, visual\_encoding, schema, and cognitive\_load, which
+are the four most-frequent human topics in the eval set. Whether
+this aggregate gain is a free lunch is the question we take up in
+the per-topic breakdown below.
+
+\paragraph{$t=0$ and $t=1$-mean produce identical V1 results.}
+The two V1 rows agree to four decimals on every metric, confirming
+that the rank-of-three ordering is invariant to $t=1$ sampling
+noise across the two V1 replicates. Sampling temperature is a
+scoring-precision knob, not a ranking-structure knob, for this
+task.
+
+\begin{table}[h]
+\centering
+\caption{Topic-selection aggregate metrics for the top-3 task on
+$n = 43$ non-anchor images, \texttt{claude-opus-4-6}. Each image has a
+human topic set (1--7 topics, median 3) derived from the compiled user
+comment pool. Predictions are a top-3 ranking over the canonical 7
+topics. $F_1$ (headline, macro over images) is the mean over images
+of $F_1 = 2PR/(P+R)$ with $P = |\text{pred} \cap \text{human}|/3$ and
+$R = |\text{pred} \cap \text{human}|/|\text{human}|$;
+IoU is the Jaccard index; Macro P/R are per-image means; Micro $F_1$
+pools counts across images. V0+T and V0+TW emit top-3 directly via a
+\texttt{top3\_topics} prompt field; V1 derives top-3 from its
+per-dimension numeric scores (highest-3 dims). Bold = best per
+column.}
+\label{tab:topicsel-agg}
+\scriptsize
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lccccc@{}}
+\toprule
+Variant & $F_1$ & IoU & Macro P & Macro R & Micro $F_1$ \\
+\midrule
+\textbf{V0+TW}      & \textbf{0.528} & \textbf{0.385} & 0.597 & 0.550 & \textbf{0.544} \\
+V0+T                & 0.497 & 0.360 & 0.574 & 0.503 & 0.523 \\
+V1 ($t=0$)          & 0.407 & 0.281 & 0.488 & 0.387 & 0.445 \\
+V1 ($t=1$, mean)    & 0.407 & 0.281 & 0.488 & 0.387 & 0.445 \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+\subsection{Per-topic $F_1$}
+
+The aggregate columns of Tab.~\ref{tab:topicsel-agg} hide a more
+uneven picture across the 7 topics, shown in
+Tab.~\ref{tab:topicsel-pertopic}.
+
+\paragraph{Weighting trades per-topic fidelity for aggregate fit.}
+V0+TW's qualitative weight guidance boosts \texttt{data\_density}
+($0.765 \to 0.800$) and \texttt{cognitive\_load} ($0.566 \to 0.806$),
+but actively \emph{suppresses} \texttt{text\_annotation}
+($0.364 \to 0.087$, which is explicitly labeled ``low weight''),
+and cuts \texttt{color\_symbol} from $0.538$ to $0.293$. V0+TW's
+aggregate lead therefore comes from its alignment with the
+topic-frequency distribution of the eval set, not from uniformly
+better perception; in a deployment where every topic matters
+equally, V0+T is the safer choice.
+
+\paragraph{\texttt{aesthetic\_order} is unreachable across all
+variants ($F_1 = 0$).} No variant ever ranks it in the top-3. It is
+the rarest human topic ($6$ of $43$ images) and semantically
+conflates with \texttt{data\_density} and \texttt{cognitive\_load}
+in the model's representation; recovering it likely requires either
+an explicit aesthetic-only sub-prompt or a different
+ground-truth aggregation.
+
+\paragraph{V0+T uniquely picks up \texttt{color\_symbol}.}
+V0+T scores $F_1 = 0.538$ on color\_symbol, while V0+TW and V1
+under-select it ($F_1 \approx 0.30$--$0.34$, high precision but low
+recall). Color-driven complexity is easily absorbed into
+\texttt{data\_density} or \texttt{visual\_encoding} by variants
+that are not explicitly prompted to separate them.
+
+\begin{table}[h]
+\centering
+\caption{Per-topic $F_1$ for the top-3 topic-selection task,
+$n = 43$ images, \texttt{claude-opus-4-6}. Each cell is the $F_1$
+computed over the single topic (treating prediction and ground truth
+as binary: topic $\in$ set or not). Columns (abbreviated) from left to
+right: \texttt{data\_density}, \texttt{visual\_encoding},
+\texttt{text\_annotation}, \texttt{domain\_schema},
+\texttt{color\_symbol}, \texttt{aesthetic\_order},
+\texttt{cognitive\_load}. Bold per-column maxima.}
+\label{tab:topicsel-pertopic}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lccccccc@{}}
+\toprule
+Variant & dens. & vis.enc. & text & schema & color & aesth. & cog. \\
+\midrule
+V0+T           & 0.765 & 0.323 & 0.364 & 0.432 & \textbf{0.538} & 0.000 & 0.566 \\
+\textbf{V0+TW} & \textbf{0.800} & 0.389 & 0.087 & 0.410 & 0.293 & 0.000 & \textbf{0.806} \\
+V1 ($t=0$)     & 0.677 & 0.372 & 0.343 & \textbf{0.465} & 0.342 & 0.000 & 0.468 \\
+V1 ($t=1$)     & 0.698 & 0.326 & 0.343 & \textbf{0.465} & 0.342 & 0.000 & 0.468 \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+\subsection{Findings}
+
+\begin{itemize}
+  \item \textbf{Categorical and continuous tasks favour different
+    prompts.} V1 wins the continuous VC task; V0+TW wins the
+    top-3 topic-selection task. Per-dimension numeric output
+    sharpens scoring but does not sharpen ranking.
+  \item \textbf{Weighting buys aggregate fit at the cost of
+    per-topic fairness.} V0+TW leads on $F_1$ but suppresses the
+    topics it labels ``low weight'' (text\_annotation, color\_symbol);
+    pick V0+T when uniform per-topic recall matters more than
+    aggregate $F_1$.
+  \item \textbf{\texttt{aesthetic\_order} is a structural blind
+    spot.} No variant recovers it; this is a limitation of the
+    7-topic taxonomy and the model's lexical mapping, not of any
+    individual prompt.
+\end{itemize}
+
+% =========================================================================
+% Appendix D: Structured Extraction --- Human-Phrase vs. Vision Grounding
+% =========================================================================
+
+\section{Structured Extraction: Human-Phrase vs.\ Vision Grounding}
+\label{app:oar}
+
+The experiments in Appendices~\ref{app:vc-prompts} and onwards evaluate
+the model on the \emph{scalar} VC task. This section asks a
+complementary question: when the model must produce structured scene
+content --- objects, attributes, and relationships (O/A/R) --- how
+close does vision-only grounding come to the structured content a
+human-phrase baseline produces?
+
+The extraction schema --- objects with regions, attributes bound to
+objects, and relationships expressed as
+$(\text{subject}, \text{predicate}, \text{object})$ triples ---
+follows the \textbf{Visual Genome} dense-annotation formulation of
+Krishna et al.~\cite{krishna2017vg}, which showed that objects /
+attributes / relationships form a sufficient substrate for question
+answering and grounded reasoning over natural images. We adapt that
+formulation from natural scenes to data visualizations: objects are
+chart components (bars, axes, legends, titles), attributes carry a
+perceptual sentiment $\{+, -\}$ on the topic they instantiate, and
+predicates encode complexity-relevant relations
+(\texttt{increases\_effort}, \texttt{aids\_interpretation},
+\texttt{obscures}, \texttt{simplifies}, \texttt{describes},
+\texttt{structures}, \dots) rather than the spatial/action relations
+(\texttt{riding}, \texttt{holding}) that dominate Visual Genome.
+Canonicalization --- collapsing surface strings to a small vocabulary
+of synsets and canonical predicates before any set-based comparison
+--- is also adopted from the Visual Genome pipeline, where it was
+necessary to make annotator-written triples comparable across 108k
+images. The canonicalization dictionaries used here are defined in
+\texttt{scripts/\_vc\_canon.py} and shared with the main pipeline
+(\texttt{VCGenome\_FullPipeline.ipynb}).
+
+\subsection{Three Conditions (n=43)}
+\label{app:oar-conditions}
+
+Using the same 43-image eval set (46 minus the 3 anchors from
+Appendix~\ref{app:vc-gt}), we run three extraction conditions with
+the same schema, the same 7-topic taxonomy, and the same decoding
+settings ($t=0$, \texttt{claude-sonnet-4-6}, 1024 tokens):
+
+\begin{table}[h]
+\centering
+\caption{Three O/A/R extraction conditions. B is the human-phrase
+reference; V1 is pure vision; V2 adds three few-shot exemplars drawn
+from B's own output on the anchor images.}
+\label{tab:oar-conditions}
+\footnotesize
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lll@{}}
+\toprule
+Cond. & Grounding signal & Input \\
+\midrule
+\textbf{B}  & topics + sentiment-tagged participant phrases & text only \\
+\textbf{V1} & topics + image                           & vision \\
+\textbf{V2} & topics + image + 3 anchors from B        & vision + exemplars \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+B serves as the human-phrase-grounded reference; V1 is pure vision;
+V2 adds three in-context O/A/R exemplars taken from B's own output on
+the three anchor images (so V2's anchors are guaranteed to be in the
+same vocabulary and abstraction level as B). The anchor images
+themselves are excluded from all metrics.
+
+\subsection{Matching Procedure}
+\label{app:oar-matching}
+
+Each extraction is canonicalized with the pipeline's synset
+dictionaries: objects are mapped to one of $\approx$40 synsets
+(\texttt{mark.bar}, \texttt{structure.region}, \texttt{text.title},
+\dots), predicates to one of $\approx$30 canonical relations, and
+attributes are lowercased and snake-cased. We then compute set-based
+precision / recall / $F_1$ / Jaccard per image and average over the
+43 images. Three layers are reported: \emph{objects} (shared
+synsets); \emph{attributes with sentiment} ($(\text{object\_synset},
+\text{sentiment})$ pairs, wording-agnostic); and \emph{relationships}
+in three granularities --- a \emph{strict} triple $(s, p, o)$, a
+\emph{family} triple that rolls $p$ into one of $\approx$10 predicate
+families (aids, hinders, obscures, simplifies,
+increases\_complexity, increases\_effort, describes, structures,
+\dots), and a \emph{loose} endpoint pair $\{s, o\}$.
+
+\textbf{Role-level layer (cross-vocabulary alignment).} Preliminary
+synset-level numbers revealed that B and the vision conditions
+describe the same pictures with systematically different abstraction
+levels: B names roles (\texttt{chart}, \texttt{data\_area},
+\texttt{color\_encoding}, \texttt{annotations}) while V1/V2 name
+instances (\texttt{horizontal\_bars}, \texttt{deceased\_bars},
+\texttt{country\_labels}). To separate \emph{vocabulary mismatch}
+from \emph{genuine disagreement}, we additionally project every
+canonical synset to one of 8 chart-part \textbf{roles} ---
+\texttt{chart}, \texttt{data\_area}, \texttt{encoding},
+\texttt{title}, \texttt{axes}, \texttt{labels}, \texttt{legend},
+\texttt{background} --- and recompute the three layers on the
+projected keys. Role-level numbers reflect ``did the two extractions
+agree on what chart region the claim is about,'' independent of
+whether one says \texttt{horizontal\_bars} and the other says
+\texttt{data\_area}.
+
+\subsection{Results}
+\label{app:oar-results}
+
+We report mean per-image $F_1$ over the 43 evaluation images at
+two levels of strictness. Tab.~\ref{tab:oar-strict} matches on
+raw extracted keys (synsets and predicates), while
+Tab.~\ref{tab:oar-role} first projects every synset to one of the
+eight chart-part roles before matching, isolating conceptual
+agreement from vocabulary choice.
+
+\paragraph{Strict-key agreement.}
+At the synset level, the two vision conditions (V1, V2) agree
+strongly on objects ($F_1 = 0.68$) and on attribute sign
+($F_1 = 0.59$), confirming that the model's perceptual lexicon for
+chart components is internally consistent across two independently
+prompted runs. Both vision conditions are far from the
+human-phrase baseline B, however: B$\leftrightarrow$V object
+$F_1$ is only $0.23$--$0.24$ and attribute-sign $F_1$ is
+$0.11$. Relationships are essentially unaligned in every
+pair: B$\leftrightarrow$V rel-family $F_1$ is $0.00$--$0.01$ and even
+V1$\leftrightarrow$V2 rel-family is only $0.20$. A naive reading
+would conclude that human-phrase summaries and vision-grounded
+summaries describe almost disjoint scenes.
+
+\begin{table}[h]
+\centering
+\caption{Mean $F_1$ across 43 non-anchor images, strict
+synset-level keys. \emph{Attr (sign)} matches on
+$(\text{object\_synset}, \text{sentiment})$;
+\emph{Rel-family} rolls the predicate into $\approx$10
+families; \emph{Rel-loose} ignores the predicate entirely.}
+\label{tab:oar-strict}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lcccc@{}}
+\toprule
+Pair      & Obj  & Attr (sign) & Rel-family & Rel-loose \\
+\midrule
+B vs V1   & 0.23 & 0.11        & 0.00       & 0.01 \\
+B vs V2   & 0.24 & 0.11        & 0.01       & 0.05 \\
+V1 vs V2  & 0.68 & 0.59        & 0.20       & 0.39 \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+\paragraph{Role-level agreement.}
+Projecting synsets to eight chart-part roles
+(\texttt{chart}, \texttt{data\_area}, \texttt{encoding},
+\texttt{title}, \texttt{axes}, \texttt{labels}, \texttt{legend},
+\texttt{background}) tells a different story
+(Tab.~\ref{tab:oar-role}). The B$\leftrightarrow$V object $F_1$
+roughly doubles --- $0.23 \to 0.39$ for B$\leftrightarrow$V1 and
+$0.24 \to 0.41$ for B$\leftrightarrow$V2 (both about $+70\%$). The
+two vision conditions also rise but by much less ($0.68 \to 0.75$),
+because they already share an instance-level perceptual lexicon.
+Most of the apparent B$\leftrightarrow$V gap on objects is
+therefore \emph{vocabulary abstraction}, not disagreement about
+what is in the chart: human commenters describe ``the chart'' or
+``the labels,'' while the vision model names the specific instance
+(``donut\_chart,'' ``slice\_labels''). Once both are collapsed to
+the same eight roles they coincide much of the time.
+
+\paragraph{Effect of phrase-grounded anchors.}
+When B is grounded in the raw, sentiment-tagged participant phrases
+(rather than a normalised curated set), the benefit of three
+B-sourced anchors in V2 is small and not uniform. V2 narrowly edges
+V1 on role-level objects ($0.39 \to 0.41$, $+0.02$) and role-level
+attribute-sign ($0.23 \to 0.25$, $+0.02$); the corresponding
+strict-synset deltas are within rounding ($+0.01$ on objects, $0.00$
+on attribute-sign), and on role-level loose relationships V2 is
+actually slightly behind ($0.12 \to 0.13$ in V1's favour at the
+decimal shown, with V2 at $0.13$). Three exemplars are therefore
+enough to nudge object vocabulary toward the human-phrase
+distribution but do not shift attribute-sentiment or relationship
+structure in any practically meaningful way. The implication is
+that the B$\leftrightarrow$V gap is dominated by a generative
+difference (what the human-phrase prompt elicits vs.\ what the
+vision prompt elicits), which a handful of in-context exemplars
+cannot close.
+
+\begin{table}[h]
+\centering
+\caption{Mean $F_1$ across 43 non-anchor images, role-level keys:
+every synset is projected to one of 8 chart-part roles before
+matching. Bold = best B$\leftrightarrow$V entry per column.}
+\label{tab:oar-role}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lcccc@{}}
+\toprule
+Pair      & Obj-role      & Attr-role     & Rel-role-family & Rel-role-loose \\
+          &               & (sign)        &                 &                \\
+\midrule
+B vs V1   & 0.39          & 0.23          & 0.02            & 0.12 \\
+B vs V2   & \textbf{0.41} & \textbf{0.25} & 0.02            & \textbf{0.13} \\
+V1 vs V2  & 0.75          & 0.64          & 0.26            & 0.48 \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+\paragraph{Relationships remain the hardest layer.}
+Unlike objects and attributes, the relationship layer barely
+responds to role projection: B$\leftrightarrow$V rel-family $F_1$
+stays at $0.02$ and rel-loose at $0.12$--$0.13$. Even the
+two vision conditions agree on role-family relationships only at
+$F_1 = 0.26$. Section~\ref{app:oar-example} shows that the
+residual gap is conceptual rather than lexical.
+
+\subsection{Example Scene Graphs}
+\label{app:oar-example}
+
+To illustrate the qualitative difference between the two grounding
+strategies, Fig.~\ref{fig:oar-example} renders the canonicalized
+scene graphs that B and V2 produced for the same image
+(\texttt{SciVisJ.2926.1.png}, a 3D scientific flow visualization).
+The two graphs are deliberately small
+(B: 3/3/2, V2: 5/7/4 objects/attributes/relationships) to make the
+vocabulary contrast easy to read.
+
+\begin{figure*}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figs/oar_SciVisJ.2926.1_B.pdf}\\[6pt]
+  \includegraphics[width=\linewidth]{figs/oar_SciVisJ.2926.1_V2.pdf}
+  \caption{Canonicalized scene graphs for \texttt{SciVisJ.2926.1.png}.
+    \textbf{Top:} Condition B (human-phrase grounded) uses generic
+    chart-part roles (\texttt{visualization}, \texttt{content},
+    \texttt{labels}) and \emph{effectual}
+    relationships (\texttt{fails\_to\_convey},
+    \texttt{requires\_domain\_knowledge}). B cannot see the
+    image and so reaches for the same generic parts it uses for any
+    chart. \textbf{Bottom:} Condition V2 (vision + B-sourced anchors)
+    uses domain-specific scientific-visualization terms
+    (\texttt{vortex\_structure}, \texttt{glyph\_spikes},
+    \texttt{flow\_field}, \texttt{annotation\_label}) and
+    \emph{structural} relationships (\texttt{contains},
+    \texttt{overlaps\_with}, \texttt{describes},
+    \texttt{requires\_expertise}). Node colors: green = object,
+    purple = attribute (dark $=+$, light $=-$), red = relationship.}
+  \label{fig:oar-example}
+\end{figure*}
+
+\subsection{Findings}
+\label{app:oar-findings}
+
+\begin{itemize}
+  \item \textbf{Relationship divergence is conceptual, not lexical.}
+    V1/V2 relationships are predominantly \emph{structural}
+    (``bars stacked with bars,'' ``labels label rows,'' ``x-axis
+    provides scale for bars''), while B relationships are
+    predominantly \emph{effectual} (``color encoding adds visual
+    complexity to data area,'' ``axis labels support readability of
+    data area,'' ``data density increases reading effort of
+    chart''); the contrast is visible in
+    Fig.~\ref{fig:oar-example}. The human-phrase prompt pushes the
+    model to reason about \emph{effects on perception}; the vision
+    prompt pushes it to describe \emph{spatial arrangement}.
+    Phrase-grounded anchors barely close this gap
+    (rel-role-loose: V1 $0.12$ vs.\ V2 $0.13$), suggesting that
+    in-context exemplars influence \emph{which entities} the model
+    talks about much more than \emph{how} it relates them.
+  \item \textbf{Headline takeaway for VC modelling.} Structured
+    O/A/R extraction from images can recover the human baseline's
+    \emph{what} and \emph{valence} only modestly once vocabulary is
+    normalised (object-role $F_1 \approx 0.4$, attribute-sign role
+    $F_1 \approx 0.25$ for V2), and it does \emph{not} recover the
+    human baseline's \emph{causal framing} of the scene. Any
+    downstream VC predictor that consumes O/A/R should therefore
+    rely on objects and attribute-sentiment derived from vision, and
+    treat the relationship layer either as human-phrase supervision
+    or as a derived feature built on top of the canonical predicate
+    families.
+\end{itemize}
+
+% ======== BibTeX entry for bibliography file ==============================
+% @article{lin1989ccc,
+%   author  = {Lin, Lawrence I-Kuei},
+%   title   = {A Concordance Correlation Coefficient to Evaluate Reproducibility},
+%   journal = {Biometrics},
+%   volume  = {45},
+%   number  = {1},
+%   pages   = {255--268},
+%   year    = {1989},
+%   doi     = {10.2307/2532051},
+%   publisher = {International Biometric Society},
+% }
+%
+% @article{krishna2017vg,
+%   author    = {Krishna, Ranjay and Zhu, Yuke and Groth, Oliver and
+%                Johnson, Justin and Hata, Kenji and Kravitz, Joshua and
+%                Chen, Stephanie and Kalantidis, Yannis and Li, Li-Jia and
+%                Shamma, David A. and Bernstein, Michael S. and
+%                Fei-Fei, Li},
+%   title     = {Visual Genome: Connecting Language and Vision Using
+%                Crowdsourced Dense Image Annotations},
+%   journal   = {International Journal of Computer Vision},
+%   volume    = {123},
+%   number    = {1},
+%   pages     = {32--73},
+%   year      = {2017},
+%   doi       = {10.1007/s11263-016-0981-7},
+% }

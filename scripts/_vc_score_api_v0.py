@@ -6,8 +6,8 @@ No dimension descriptions, no calibration guidance, no anchors.
 The model returns a single vc_score plus a brief explanation.
 
 Usage:
-    python _vc_score_api_v0.py --input-csv ../Claude_vc_prediction/gt_all_46.csv --outdir ../vc_api_46gt_v0
-    python _vc_score_api_v0.py --input-csv ../Claude_vc_prediction/gt_all_46.csv --outdir ../vc_api_46gt_v0 --concurrency 5
+    python _vc_score_api_v0.py --input-csv ../Claude_vc_prediction/gt_all_46.csv --outdir ../results/vc_api_46gt_v0
+    python _vc_score_api_v0.py --input-csv ../Claude_vc_prediction/gt_all_46.csv --outdir ../results/vc_api_46gt_v0 --concurrency 5
 """
 
 import os, sys, json, time, argparse, base64, csv, asyncio, threading
@@ -25,7 +25,7 @@ USE_THINKING   = False     # set at runtime by --thinking flag
 SLEEP_BETWEEN  = 0.5
 
 MAPPING_CSV    = Path(__file__).parent.parent / 'phrase_reduction_v2' / 'image_phrase_word_mapping.csv'
-DEFAULT_OUTDIR = Path(__file__).parent.parent / 'vc_api_46gt_v0'
+DEFAULT_OUTDIR = Path(__file__).parent.parent / 'results' / 'vc_api_46gt_v0'
 
 # ── V0 System Prompt — Definition Only ─────────────────────────────────────
 SYSTEM_PROMPT = """You are a visual complexity (VC) scoring expert for data visualizations.

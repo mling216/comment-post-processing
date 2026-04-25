@@ -13,20 +13,20 @@ echo ============================================================
 echo.
 
 echo [1/3] V0+Topic+Calibration (r4, thinking, opus)
-python _vc_score_api_v0_topic_calib.py --input-csv %INPUT% --outdir ..\vc_api_46gt_v0_tc_r4 --concurrency %CONCURRENCY% --thinking --model %MODEL%
+python _vc_score_api_v0_topic_calib.py --input-csv %INPUT% --outdir ..\results\vc_api_46gt_v0_tc_r4 --concurrency %CONCURRENCY% --thinking --model %MODEL%
 if errorlevel 1 ( echo ERROR on V0+TC & exit /b 1 )
 echo.
 
 echo [2/3] V0+Topic+Anchors (r4, thinking, opus)
-python _vc_score_api_v0_topic_anchor.py --input-csv %INPUT% --outdir ..\vc_api_46gt_v0_ta_r4 --concurrency %CONCURRENCY% --thinking --model %MODEL%
+python _vc_score_api_v0_topic_anchor.py --input-csv %INPUT% --outdir ..\results\vc_api_46gt_v0_ta_r4 --concurrency %CONCURRENCY% --thinking --model %MODEL%
 if errorlevel 1 ( echo ERROR on V0+TA & exit /b 1 )
 echo.
 
 echo [3/3] V0+Calibration+Anchors (r4, thinking, opus)
-python _vc_score_api_v0_calib_anchor.py --input-csv %INPUT% --outdir ..\vc_api_46gt_v0_ca_r4 --concurrency %CONCURRENCY% --thinking --model %MODEL%
+python _vc_score_api_v0_calib_anchor.py --input-csv %INPUT% --outdir ..\results\vc_api_46gt_v0_ca_r4 --concurrency %CONCURRENCY% --thinking --model %MODEL%
 if errorlevel 1 ( echo ERROR on V0+CA & exit /b 1 )
 echo.
 
 echo ============================================================
-echo  Run 4 (opus thinking) complete. Results in vc_api_46gt_v0_tc/ta/ca_r4/
+echo  Run 4 (opus thinking) complete. Results in results/vc_api_46gt_v0_tc/ta/ca_r4/
 echo ============================================================

@@ -27,11 +27,12 @@ load_dotenv(dotenv_path=Path(__file__).parent.parent.parent / '.env')
 
 MODEL          = 'claude-sonnet-4-6'
 MAX_TOKENS     = 1500
+TEMPERATURE    = None   # None = use API default (t=1); set via --temperature CLI flag
 SLEEP_BETWEEN  = 0.5        # seconds between API calls
 
 MAPPING_CSV    = Path(__file__).parent.parent / 'phrase_reduction_v2' / 'image_phrase_word_mapping.csv'
 LOCAL_IMG_DIR  = Path(__file__).parent.parent / 'Claude_vc_prediction' / 'images'
-DEFAULT_OUTDIR = Path(__file__).parent.parent / 'vc_api_scores'
+DEFAULT_OUTDIR = Path(__file__).parent.parent / 'results' / 'vc_api_scores'
 
 DIMENSIONS = [
     'data_density', 'visual_encoding', 'text_annotation',
@@ -338,7 +339,8 @@ def _score_one(client, img_name, img_url, source, anchor_messages, scores_csv, e
         model=MODEL,
         max_tokens=MAX_TOKENS,
         system=[{"type": "text", "text": SYSTEM_PROMPT, "cache_control": {"type": "ephemeral"}}],
-        messages=messages
+        messages=messages,
+        **({} if TEMPERATURE is None else {'temperature': TEMPERATURE}),
     )
 
     raw = response.content[0].text
@@ -412,7 +414,8 @@ async def _score_one_async(aclient, sem, idx, total, img_name, img_url, source,
                 model=MODEL,
                 max_tokens=MAX_TOKENS,
                 system=[{"type": "text", "text": SYSTEM_PROMPT, "cache_control": {"type": "ephemeral"}}],
-                messages=messages
+                messages=messages,
+                **({} if TEMPERATURE is None else {'temperature': TEMPERATURE}),
             )
             raw = response.content[0].text
             result = parse_response(raw)
@@ -473,7 +476,17 @@ def main():
                         help='CSV with imageName column (and optional imageURL) to use instead of default mapping')
     parser.add_argument('--concurrency', type=int, default=1,
                         help='Number of concurrent API calls (default: 1 = sequential)')
+    parser.add_argument('--model', type=str, default=None,
+                        help='Override model name (default: script MODEL constant)')
+    parser.add_argument('--temperature', type=float, default=None,
+                        help='Override sampling temperature (default: API default = 1.0)')
     args = parser.parse_args()
+
+    global MODEL, TEMPERATURE
+    if args.model:
+        MODEL = args.model
+    if args.temperature is not None:
+        TEMPERATURE = args.temperature
 
     api_key = os.environ.get('ANTHROPIC_API_KEY')
     if not api_key:

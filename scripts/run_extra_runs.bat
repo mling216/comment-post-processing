@@ -13,27 +13,27 @@ echo ============================================================
 echo.
 
 echo [1/4] V0 (run 2)
-python _vc_score_api_v0.py --input-csv %INPUT% --outdir ..\vc_api_46gt_v0_r2 --concurrency %CONCURRENCY%
+python _vc_score_api_v0.py --input-csv %INPUT% --outdir ..\results\vc_api_46gt_v0_r2 --concurrency %CONCURRENCY%
 if errorlevel 1 ( echo ERROR on V0 & exit /b 1 )
 echo.
 
 echo [2/4] V0+Topic (run 2)
-python _vc_score_api_v0_topic.py --input-csv %INPUT% --outdir ..\vc_api_46gt_v0_topic_r2 --concurrency %CONCURRENCY%
+python _vc_score_api_v0_topic.py --input-csv %INPUT% --outdir ..\results\vc_api_46gt_v0_topic_r2 --concurrency %CONCURRENCY%
 if errorlevel 1 ( echo ERROR on V0+Topic & exit /b 1 )
 echo.
 
 echo [3/4] V0+Calibration (run 2)
-python _vc_score_api_v0_calibration.py --input-csv %INPUT% --outdir ..\vc_api_46gt_v0_calibration_r2 --concurrency %CONCURRENCY%
+python _vc_score_api_v0_calibration.py --input-csv %INPUT% --outdir ..\results\vc_api_46gt_v0_calibration_r2 --concurrency %CONCURRENCY%
 if errorlevel 1 ( echo ERROR on V0+Calibration & exit /b 1 )
 echo.
 
 echo [4/4] V0+Anchors (run 2)
-python _vc_score_api_v0_anchors.py --input-csv %INPUT% --outdir ..\vc_api_46gt_v0_anchors_r2 --concurrency %CONCURRENCY%
+python _vc_score_api_v0_anchors.py --input-csv %INPUT% --outdir ..\results\vc_api_46gt_v0_anchors_r2 --concurrency %CONCURRENCY%
 if errorlevel 1 ( echo ERROR on V0+Anchors & exit /b 1 )
 echo.
 
 echo [5/5] V0+Topic+Calibration+Anchors (run 2)
-python _vc_score_api_v0_topic_calib_anchor.py --input-csv %INPUT% --outdir ..\vc_api_46gt_v0_tca_r2 --concurrency %CONCURRENCY%
+python _vc_score_api_v0_topic_calib_anchor.py --input-csv %INPUT% --outdir ..\results\vc_api_46gt_v0_tca_r2 --concurrency %CONCURRENCY%
 if errorlevel 1 ( echo ERROR on V0+TCA & exit /b 1 )
 echo.
 

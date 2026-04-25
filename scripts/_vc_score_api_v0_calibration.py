@@ -6,8 +6,8 @@ instruction). No topics, no dimensions, no anchors. Output schema remains
 V0-style (single vc_score + explanation).
 
 Usage:
-    python _vc_score_api_v0_calibration.py --input-csv ../Claude_vc_prediction/gt_all_46.csv --outdir ../vc_api_46gt_v0_calibration
-    python _vc_score_api_v0_calibration.py --input-csv ../Claude_vc_prediction/gt_all_46.csv --outdir ../vc_api_46gt_v0_calibration --concurrency 5
+    python _vc_score_api_v0_calibration.py --input-csv ../Claude_vc_prediction/gt_all_46.csv --outdir ../results/vc_api_46gt_v0_calibration
+    python _vc_score_api_v0_calibration.py --input-csv ../Claude_vc_prediction/gt_all_46.csv --outdir ../results/vc_api_46gt_v0_calibration --concurrency 5
 """
 
 import os, sys, json, time, argparse, base64, csv, asyncio, threading
@@ -25,7 +25,7 @@ USE_THINKING   = False     # set at runtime by --thinking flag
 SLEEP_BETWEEN  = 0.5
 
 MAPPING_CSV    = Path(__file__).parent.parent / 'phrase_reduction_v2' / 'image_phrase_word_mapping.csv'
-DEFAULT_OUTDIR = Path(__file__).parent.parent / 'vc_api_46gt_v0_calibration'
+DEFAULT_OUTDIR = Path(__file__).parent.parent / 'results' / 'vc_api_46gt_v0_calibration'
 
 # ── V0+Calibration System Prompt ─ definition + V3 calibration guidance only ─
 SYSTEM_PROMPT = """You are a visual complexity (VC) scoring expert for data visualizations.

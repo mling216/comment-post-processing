@@ -13,15 +13,15 @@ echo ============================================================
 echo.
 
 echo [1/2] V0+TCA+Weighted r1 (temperature=0)
-python _vc_score_api_v0_tca_weighted.py --input-csv %INPUT% --outdir ..\vc_api_46gt_v0_tcaw --concurrency %CONCURRENCY% --model %MODEL%
+python _vc_score_api_v0_tca_weighted.py --input-csv %INPUT% --outdir ..\results\vc_api_46gt_v0_tcaw --concurrency %CONCURRENCY% --model %MODEL%
 if errorlevel 1 ( echo ERROR on V0+TCA+W r1 & exit /b 1 )
 echo.
 
 echo [2/2] V0+TCA+Weighted r3 (adaptive thinking)
-python _vc_score_api_v0_tca_weighted.py --input-csv %INPUT% --outdir ..\vc_api_46gt_v0_tcaw_r3 --concurrency %CONCURRENCY% --thinking --model %MODEL%
+python _vc_score_api_v0_tca_weighted.py --input-csv %INPUT% --outdir ..\results\vc_api_46gt_v0_tcaw_r3 --concurrency %CONCURRENCY% --thinking --model %MODEL%
 if errorlevel 1 ( echo ERROR on V0+TCA+W r3 & exit /b 1 )
 echo.
 
 echo ============================================================
-echo  Done. Results in vc_api_46gt_v0_tcaw/ and vc_api_46gt_v0_tcaw_r3/
+echo  Done. Results in results/vc_api_46gt_v0_tcaw/ and results/vc_api_46gt_v0_tcaw_r3/
 echo ============================================================

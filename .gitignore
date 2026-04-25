@@ -7,8 +7,11 @@ __pycache__/
 # Large reference PDFs in paper/
 paper/*.pdf
 
-# Local paper drafting outputs
-/paper/
+# Regeneratable large data dirs
+vc_genome_output_full/three_conditions/
+vc_genome_output_full/match/
+results/
+topic_selection/
 
 # Deprecated notebooks
 deprecated/

@@ -7,7 +7,7 @@ Full ablation combining all three additions on top of the V0 baseline:
   - 3 anchor images with vc_score only (from V0+Anchors)
 
 Usage:
-    python _vc_score_api_v0_topic_calib_anchor.py --input-csv ../Claude_vc_prediction/gt_all_46.csv --outdir ../vc_api_46gt_v0_tca --concurrency 5
+    python _vc_score_api_v0_topic_calib_anchor.py --input-csv ../Claude_vc_prediction/gt_all_46.csv --outdir ../results/vc_api_46gt_v0_tca --concurrency 5
 """
 
 import os, sys, json, time, argparse, base64, csv, asyncio, threading
@@ -25,7 +25,7 @@ USE_THINKING   = False     # set at runtime by --thinking flag
 SLEEP_BETWEEN  = 0.5
 
 MAPPING_CSV    = Path(__file__).parent.parent / 'phrase_reduction_v2' / 'image_phrase_word_mapping.csv'
-DEFAULT_OUTDIR = Path(__file__).parent.parent / 'vc_api_46gt_v0_tca'
+DEFAULT_OUTDIR = Path(__file__).parent.parent / 'results' / 'vc_api_46gt_v0_tca'
 
 # ── Anchors (vc_score only) ────────────────────────────────────────────────
 ANCHORS = [

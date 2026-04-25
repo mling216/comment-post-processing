@@ -34,7 +34,7 @@ SLEEP_BETWEEN  = 0.5        # seconds between API calls
 
 MAPPING_CSV    = Path(__file__).parent.parent / 'phrase_reduction_v2' / 'image_phrase_word_mapping.csv'
 LOCAL_IMG_DIR  = Path(__file__).parent.parent / 'Claude_vc_prediction' / 'images'
-DEFAULT_OUTDIR = Path(__file__).parent.parent / 'vc_api_scores_v5'
+DEFAULT_OUTDIR = Path(__file__).parent.parent / 'results' / 'vc_api_scores_v5'
 
 DIMENSIONS = [
     'data_density', 'visual_encoding', 'text_annotation',
