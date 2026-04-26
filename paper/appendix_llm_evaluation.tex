@@ -5,6 +5,11 @@
 % Requires in the preamble:
 %   \usepackage{booktabs}
 %   \usepackage{array}
+%   \usepackage{listings}   % for prompt-listing blocks in \S app:prompts
+%   Recommended lstset (add once in preamble):
+%     \lstset{basicstyle=\ttfamily\footnotesize, breaklines=true,
+%             frame=single, columns=fullflexible, keepspaces=true,
+%             aboveskip=4pt, belowskip=4pt}
 % Uses \cite{lin1989ccc}.
 % Tables use tabular* with \extracolsep{\fill} so cells stay content-tight
 % but inter-column gaps expand to fill the full column / page width.
@@ -57,6 +62,43 @@ Three of the 46 images are reserved as few-shot anchor exemplars
 anchored variant (all cells containing ``A'', plus V1). To prevent leakage,
 these three images are \emph{excluded} from all reported metrics, leaving
 $n = 43$ test images.
+
+Table~\ref{tab:vistype-dist} shows the vis-type breakdown of the 46 images,
+together with the three anchor exemplars.
+
+\begin{table}[h]
+  \centering
+  \caption{Vis-type distribution of the 46-image pilot set. Three images
+    serve as few-shot anchors (marked with $\dagger$).}
+  \label{tab:vistype-dist}
+  \small
+  \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lcc@{}}
+    \toprule
+    Vis Type & Count & Anchor \\
+    \midrule
+    Bar             & 8 & VisC.503.6$^\dagger$ \\
+    Area            & 7 & --- \\
+    Glyph           & 7 & --- \\
+    Grid            & 6 & InfoVisJ.1149.6(1)$^\dagger$ \\
+    Node-link       & 6 & --- \\
+    Cont.-ColorPatn & 4 & --- \\
+    Point           & 3 & InfoVisJ.619.17$^\dagger$ \\
+    Text            & 3 & --- \\
+    Line            & 2 & --- \\
+    \midrule
+    \textbf{Total}  & \textbf{46} & \\
+    \bottomrule
+  \end{tabular*}
+\end{table}
+
+The set spans nine vis types and covers a broad range of visual forms,
+from common statistical charts (Bar, Area, Line) to more complex
+encodings (Glyph, Node-link, Cont.-ColorPatn). Because the sampling
+was driven by $|\Delta \mathrm{VC}|$ coverage rather than vis-type
+stratification, counts are unequal; the three least-represented types
+(Point, Text, Line, $n \le 3$) are too small for reliable per-type
+breakdowns. All results in subsequent sections are therefore reported
+over the full test set.
 
 \subsection{Evaluation Metrics}
 \label{app:vc-metrics}
@@ -501,6 +543,62 @@ V1 ($t=1$)     & 0.698 & 0.326 & 0.343 & \textbf{0.465} & 0.342 & 0.000 & 0.468 
 \end{tabular*}
 \end{table}
 
+\subsection{Per-vis-type \texorpdfstring{$F_1$}{F1} (n\,=\,63)}
+\label{app:topicsel-pervistype}
+
+To test whether prompt performance varies by vis-type, we expanded
+the evaluation set to 63 images (7 per vis-type $\times$ 9 vis-types;
+3 anchor images excluded) and re-evaluated V0+T and V0+TW.
+Table~\ref{tab:topicsel-pervistype} shows precision, recall, and
+$F_1$ per vis-type.
+
+\textbf{Point plots are easiest; Glyph is hardest.}
+Point achieves the highest $F_1$ for both variants (V0+T: 0.752,
+V0+TW: 0.711), while Glyph is the lowest (0.401 / 0.458). Glyph
+visualizations combine dense encoding with domain-specific spatial
+arrangements, making their dominant topics harder to rank
+unambiguously.
+
+\textbf{V0+TW's weight guidance helps chart-centric types.}
+V0+TW outperforms V0+T on Bar (+0.062), Cont.-ColorPatn (+0.071),
+Glyph (+0.057), and Node-link (+0.036), all of which rely heavily on
+the topics the weighting promotes (\texttt{data\_density},
+\texttt{visual\_encoding}, \texttt{domain\_schema}).
+Conversely, V0+T retains an advantage on Line (+0.058), Point
+(+0.041), and Text (+0.052), where suppressing
+\texttt{text\_annotation} and \texttt{color\_symbol} in V0+TW hurts.
+Area and Grid are tied between variants.
+
+\begin{table}[h]
+\centering
+\caption{Per-vis-type $F_1$, precision, and recall for the top-3
+  topic-selection task, $n = 63$ images (7 per type, anchors excluded),
+  \texttt{claude-opus-4-6}. \textbf{Bold}: higher $F_1$ per row.
+  Bottom row: overall image-level macro-$F_1$.}
+\label{tab:topicsel-pervistype}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lc ccc ccc@{}}
+\toprule
+& & \multicolumn{3}{c}{V0+T} & \multicolumn{3}{c}{V0+TW} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+Vis-type & $n$ & $F_1$ & $P$ & $R$ & $F_1$ & $P$ & $R$ \\
+\midrule
+Area            & 7 & \textbf{0.463} & 0.571 & 0.466 & \textbf{0.463} & 0.571 & 0.466 \\
+Bar             & 7 & 0.420 & 0.429 & 0.526 & \textbf{0.482} & 0.476 & 0.605 \\
+Cont.-ColorPatn & 7 & 0.470 & 0.571 & 0.491 & \textbf{0.541} & 0.619 & 0.634 \\
+Glyph           & 7 & 0.401 & 0.476 & 0.367 & \textbf{0.458} & 0.524 & 0.438 \\
+Grid            & 7 & \textbf{0.533} & 0.619 & 0.514 & \textbf{0.533} & 0.619 & 0.514 \\
+Line            & 7 & \textbf{0.580} & 0.619 & 0.571 & 0.522 & 0.571 & 0.500 \\
+Node-link       & 7 & 0.535 & 0.524 & 0.676 & \textbf{0.571} & 0.571 & 0.705 \\
+Point           & 7 & \textbf{0.752} & 0.857 & 0.705 & 0.711 & 0.810 & 0.669 \\
+Text            & 7 & \textbf{0.468} & 0.571 & 0.421 & 0.416 & 0.524 & 0.356 \\
+\midrule
+Macro avg       & 63& 0.513 & & & \textbf{0.522} & & \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
 \subsection{Findings}
 
 \begin{itemize}
@@ -517,6 +615,11 @@ V1 ($t=1$)     & 0.698 & 0.326 & 0.343 & \textbf{0.465} & 0.342 & 0.000 & 0.468 
     spot.} No variant recovers it; this is a limitation of the
     7-topic taxonomy and the model's lexical mapping, not of any
     individual prompt.
+  \item \textbf{Vis-type moderates prompt choice.} On Glyph,
+    Cont.-ColorPatn, Bar, and Node-link, V0+TW's weighting
+    guidance lifts $F_1$ by 0.04--0.07; on Line, Point, and Text,
+    the unweighted V0+T holds an equivalent advantage. No single
+    variant dominates uniformly across vis-types.
 \end{itemize}
 
 % =========================================================================
@@ -661,9 +764,9 @@ families; \emph{Rel-loose} ignores the predicate entirely.}
 \toprule
 Pair      & Obj  & Attr (sign) & Rel-family & Rel-loose \\
 \midrule
-B vs V1   & 0.23 & 0.11        & 0.00       & 0.01 \\
-B vs V2   & 0.24 & 0.11        & 0.01       & 0.05 \\
-V1 vs V2  & 0.68 & 0.59        & 0.20       & 0.39 \\
+B vs V1   & 0.15 & 0.09        & 0.00       & 0.01 \\
+B vs V2   & 0.15 & 0.09        & 0.00       & 0.01 \\
+V1 vs V2  & 0.66 & 0.60        & 0.19       & 0.39 \\
 \bottomrule
 \end{tabular*}
 \end{table}
@@ -674,9 +777,9 @@ Projecting synsets to eight chart-part roles
 \texttt{title}, \texttt{axes}, \texttt{labels}, \texttt{legend},
 \texttt{background}) tells a different story
 (Tab.~\ref{tab:oar-role}). The B$\leftrightarrow$V object $F_1$
-roughly doubles --- $0.23 \to 0.39$ for B$\leftrightarrow$V1 and
-$0.24 \to 0.41$ for B$\leftrightarrow$V2 (both about $+70\%$). The
-two vision conditions also rise but by much less ($0.68 \to 0.75$),
+roughly doubles --- $0.15 \to 0.25$ for B$\leftrightarrow$V1 and
+$0.15 \to 0.28$ for B$\leftrightarrow$V2 (about $+67$--$+87\%$). The
+two vision conditions also rise but by much less ($0.66 \to 0.72$),
 because they already share an instance-level perceptual lexicon.
 Most of the apparent B$\leftrightarrow$V gap on objects is
 therefore \emph{vocabulary abstraction}, not disagreement about
@@ -689,12 +792,11 @@ the same eight roles they coincide much of the time.
 When B is grounded in the raw, sentiment-tagged participant phrases
 (rather than a normalised curated set), the benefit of three
 B-sourced anchors in V2 is small and not uniform. V2 narrowly edges
-V1 on role-level objects ($0.39 \to 0.41$, $+0.02$) and role-level
-attribute-sign ($0.23 \to 0.25$, $+0.02$); the corresponding
-strict-synset deltas are within rounding ($+0.01$ on objects, $0.00$
-on attribute-sign), and on role-level loose relationships V2 is
-actually slightly behind ($0.12 \to 0.13$ in V1's favour at the
-decimal shown, with V2 at $0.13$). Three exemplars are therefore
+V1 on role-level objects ($0.25 \to 0.28$, $+0.03$) while
+attribute-sign is tied at $0.19$; the corresponding
+strict-synset deltas are within rounding ($0.00$ on both objects
+and attribute-sign), and role-level loose relationships slightly
+favour V1 ($0.06$ vs.\ $0.05$). Three exemplars are therefore
 enough to nudge object vocabulary toward the human-phrase
 distribution but do not shift attribute-sentiment or relationship
 structure in any practically meaningful way. The implication is
@@ -716,9 +818,9 @@ matching. Bold = best B$\leftrightarrow$V entry per column.}
 Pair      & Obj-role      & Attr-role     & Rel-role-family & Rel-role-loose \\
           &               & (sign)        &                 &                \\
 \midrule
-B vs V1   & 0.39          & 0.23          & 0.02            & 0.12 \\
-B vs V2   & \textbf{0.41} & \textbf{0.25} & 0.02            & \textbf{0.13} \\
-V1 vs V2  & 0.75          & 0.64          & 0.26            & 0.48 \\
+B vs V1   & 0.25          & 0.19          & \textbf{0.03}   & \textbf{0.06} \\
+B vs V2   & \textbf{0.28} & \textbf{0.19} & 0.02            & 0.05 \\
+V1 vs V2  & 0.72          & 0.68          & 0.21            & 0.48 \\
 \bottomrule
 \end{tabular*}
 \end{table}
@@ -726,9 +828,9 @@ V1 vs V2  & 0.75          & 0.64          & 0.26            & 0.48 \\
 \paragraph{Relationships remain the hardest layer.}
 Unlike objects and attributes, the relationship layer barely
 responds to role projection: B$\leftrightarrow$V rel-family $F_1$
-stays at $0.02$ and rel-loose at $0.12$--$0.13$. Even the
+stays at $0.02$--$0.03$ and rel-loose at $0.05$--$0.06$. Even the
 two vision conditions agree on role-family relationships only at
-$F_1 = 0.26$. Section~\ref{app:oar-example} shows that the
+$F_1 = 0.21$. Section~\ref{app:oar-example} shows that the
 residual gap is conceptual rather than lexical.
 
 \subsection{Example Scene Graphs}
@@ -739,20 +841,31 @@ strategies, Fig.~\ref{fig:oar-example} renders the canonicalized
 scene graphs that B and V2 produced for the same image
 (\texttt{SciVisJ.2926.1.png}, a 3D scientific flow visualization).
 The two graphs are deliberately small
-(B: 3/3/2, V2: 5/7/4 objects/attributes/relationships) to make the
+(B: 1/3/0, V2: 5/9/5 objects/attributes/relationships) to make the
 vocabulary contrast easy to read.
 
 \begin{figure*}[t]
   \centering
-  \includegraphics[width=\linewidth]{figs/oar_SciVisJ.2926.1_B.pdf}\\[6pt]
+  \begin{minipage}[t]{0.45\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{figs/SciVisJ.2926.1.png}\\
+    \small\textit{Source image}
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}[t]{0.40\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{figs/oar_SciVisJ.2926.1_B.pdf}\\
+    \small\textit{Condition B (phrase-grounded)}
+  \end{minipage}\\[8pt]
   \includegraphics[width=\linewidth]{figs/oar_SciVisJ.2926.1_V2.pdf}
   \caption{Canonicalized scene graphs for \texttt{SciVisJ.2926.1.png}.
-    \textbf{Top:} Condition B (human-phrase grounded) uses generic
-    chart-part roles (\texttt{visualization}, \texttt{content},
-    \texttt{labels}) and \emph{effectual}
+    \textbf{Top left:} Source visualization image.
+    \textbf{Top right:} Condition B (human-phrase grounded) uses generic
+    chart-part roles and \emph{effectual}
     relationships (\texttt{fails\_to\_convey},
-    \texttt{requires\_domain\_knowledge}). B cannot see the
-    image and so reaches for the same generic parts it uses for any
+    \texttt{requires\_domain\_knowledge}). B's sole input phrase is
+    \textit{``don't know what it presents.''~(+)}, so it cannot see the
+    image and reaches for generic parts it uses for any
     chart. \textbf{Bottom:} Condition V2 (vision + B-sourced anchors)
     uses domain-specific scientific-visualization terms
     (\texttt{vortex\_structure}, \texttt{glyph\_spikes},
@@ -795,6 +908,539 @@ vocabulary contrast easy to read.
     or as a derived feature built on top of the canonical predicate
     families.
 \end{itemize}
+
+% =========================================================================
+% Appendix E: Full 510-Image Evaluation
+% =========================================================================
+
+\section{VC Prediction on the Full Dataset: V0+TW vs.\ V1}
+\label{app:fullset}
+
+The ablations in Appendices~\ref{app:vc-prompts}--\ref{app:topicsel}
+and the extraction study in Appendix~\ref{app:oar} all operate on the
+46-image pilot set ($n = 43$ after anchor exclusion). That set was
+deliberately constructed to maximise $|\Delta\mathrm{VC}|$ coverage
+rather than to be representative of the broader image pool --- its wider
+ground-truth spread inflates CCC relative to an unselected sample.
+This section extends the VC prediction evaluation to the full curated
+image corpus to assess how the two best-performing prompts generalise:
+\textbf{V0+TW} (the strongest deterministic E1 cell,
+Sec.~\ref{app:vc-ccc}) and \textbf{V1} (the upper envelope of the
+ablation).
+
+\subsection{Setup}
+\label{app:fullset-setup}
+
+\paragraph{Image set.}
+We use human VC ratings from the same pair-comparison study described in
+Sec.~\ref{app:vc-gt}, extended to the full curated image pool of
+approximately 520 images with complete annotation. Retaining the nine
+vis-types with sufficient representation (Bar, Line, Area, Point,
+Node-link, Glyph, Grid, Cont.-ColorPatn, Text) and dropping four
+rare categories (Schematic, Bar\,\&\,Point, Table, Area\,\&\,Text) yields
+\textbf{510 images}. Following the same leakage-prevention convention
+applied in Sec.~\ref{app:vc-gt}, the three anchor exemplars are excluded
+from both prompts' metrics, yielding $n = 507$ test images. V1 requires
+this exclusion because it receives the anchors as in-context examples;
+we apply it to V0+TW as well so both conditions are evaluated on an
+identical image set.
+Full-set ground-truth statistics: mean $= 0.598$, SD $= 0.148$ --- a
+noticeably narrower spread than the pilot (pilot SD $\approx 0.244$),
+consistent with the pilot's deliberate difficulty stratification.
+
+\paragraph{Runs.}
+Both prompts run on \texttt{claude-opus-4-6} at $t = 0$ (deterministic).
+V1 was originally scored at the API default sampling temperature ($t = 1$)
+on the unfiltered 520-image pool; to eliminate a temperature confound
+in the prompt comparison, we re-ran V1 at $t = 0$ on the same 510-image
+set used for V0+TW. The temperature sensitivity analysis confirming that
+this re-run does not materially change V1's output is reported in
+Sec.~\ref{app:fullset-temp}. One deterministic run per prompt is
+available (no double-replicate averaging as in
+Sec.~\ref{app:vc-conditions}); all figures below are single-run point
+estimates.
+
+\subsection{Overall Results}
+\label{app:fullset-overall}
+
+Table~\ref{tab:fullset-overall} reports the full agreement metrics for
+both prompts. The most important observation is the headline drop
+relative to the pilot: V0+TW falls from CCC $= 0.872$ to $0.786$ and
+V1 from $0.881$ to $0.780$. The decline is expected --- the pilot's
+easy-discrimination pairs inflate the CCC denominator, and the full
+set re-introduces many mid-range images where small residuals
+accumulate. The drop is proportionally similar for both prompts,
+suggesting it reflects the evaluation-set shift rather than a
+prompt-specific failure.
+
+\begin{table*}[t]
+  \centering
+  \caption{Full agreement metrics for V0+TW and V1 on $n = 507$
+    images (the three anchor exemplars are excluded from both conditions
+    for a consistent comparison), \texttt{claude-opus-4-6}, $t = 0$.
+    CCC is Lin's Concordance Correlation Coefficient (headline; jointly
+    penalises low correlation, mean bias, and scale mismatch). $r$ is
+    Pearson; $\rho$ is Spearman; $R^2$ is the coefficient of
+    determination against the identity line (can be negative if
+    predictions are biased off the diagonal). MAE and RMSE are in the
+    raw $[0,1]$ VC scale; Bias is the signed mean error
+    $\overline{\hat{y}-y}$. All Pearson $p < 10^{-12}$.}
+  \label{tab:fullset-overall}
+  \small
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccccccc@{}}
+    \toprule
+    Prompt & $t$ & $n$ & CCC & $r$ & $\rho$ & $R^2$ & MAE & RMSE & Bias \\
+    \midrule
+    V0+TW & 0 & 507 & 0.784 & 0.835 & 0.833 & 0.370 & 0.093 & 0.116 & $-0.030$ \\
+    V1    & 0 & 507 & 0.777 & 0.854 & 0.851 & 0.388 & 0.093 & 0.115 & $-0.063$ \\
+    \bottomrule
+  \end{tabular*}
+\end{table*}
+
+\paragraph{The two prompts are indistinguishable at the headline level.}
+On the identical 507-image test set, V0+TW and V1 differ by
+$\Delta\mathrm{CCC} = -0.007$ and $\Delta\mathrm{MAE} = 0.000$.
+V1 gains approximately $0.02$ on Pearson $r$, but this improvement is
+offset by a larger negative bias: V1 under-predicts by $-0.063$ vs.\
+V0+TW's $-0.030$. Because CCC jointly penalises mean shift alongside
+correlation loss, the net CCC difference is negligible.
+
+\paragraph{Prediction spread.}
+Both prompts over-spread relative to the human ground truth (GT SD
+$= 0.148$): V0+TW's predicted SD is $0.201$ and V1's is $0.183$. V1's
+tighter spread partly explains its higher Pearson $r$ (a scale-invariant
+metric) while its larger negative bias neutralises any CCC advantage.
+
+\paragraph{Note on $R^2$ conventions.}
+Throughout this appendix, $R^2$ is \texttt{sklearn.metrics.r2\_score}
+evaluated against the identity line $\hat{y} = y$, which can go negative
+when predictions are biased off the diagonal. An alternative convention
+reports the squared Pearson correlation $r^2$ from an unconstrained
+linear regression of predictions on ground truth, which is bounded in
+$[0,1]$ and does not penalise mean shift or scale mismatch. For V1 at
+$t = 0$ on the 507-image test set, the two conventions give $r^2 = 0.730$
+vs.\ identity-line $R^2 = 0.388$; the gap of $0.342$ is entirely
+attributable to bias ($-0.063$) and scale mismatch
+($\hat\sigma / \sigma_y = 1.24$).
+
+\subsection{Per-Vis-Type Breakdown}
+\label{app:fullset-vistype}
+
+Table~\ref{tab:fullset-vistype} breaks the 510-image results down by
+vis-type. No prompt dominates uniformly across all nine types; the
+outcomes are split.
+
+\begin{table*}[t]
+  \centering
+  \caption{Per-vis-type agreement metrics on the 507-image test set
+    (anchors excluded), \texttt{claude-opus-4-6}, $t = 0$. CCC is the
+    headline; $R^2$ is the identity-line score (can be negative);
+    MAE is in raw $[0,1]$ VC units. $\Delta$CCC $=$ CCC(V1) $-$
+    CCC(V0+TW); positive entries favour V1.
+    Types are ordered by sample size.}
+  \label{tab:fullset-vistype}
+  \small
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrccccccc@{}}
+    \toprule
+    Vis Type & $n$ & CCC (V0+TW) & CCC (V1) & $\Delta$CCC
+             & $R^2$ (V0+TW) & $R^2$ (V1) & MAE (V0+TW) & MAE (V1) \\
+    \midrule
+    Node-link       &  66 & 0.797 & 0.818 & $+0.021$          & $\phantom{-}0.434$ & $\phantom{-}0.555$ & 0.096 & 0.080 \\
+    Area            &  65 & 0.833 & 0.825 & $-0.008$          & $\phantom{-}0.527$ & $\phantom{-}0.519$ & 0.080 & 0.083 \\
+    Grid            &  64 & 0.738 & 0.731 & $-0.007$          & $\phantom{-}0.275$ & $\phantom{-}0.272$ & 0.097 & 0.099 \\
+    Glyph           &  64 & 0.729 & 0.719 & $-0.010$          & $\phantom{-}0.062$ & $\phantom{-}0.102$ & 0.102 & 0.101 \\
+    Point           &  57 & 0.761 & 0.671 & $-0.090$          & $\phantom{-}0.299$ & $\phantom{-}0.011$ & 0.090 & 0.111 \\
+    Bar             &  50 & 0.823 & 0.785 & $-0.038$          & $\phantom{-}0.514$ & $\phantom{-}0.445$ & 0.092 & 0.098 \\
+    Text            &  51 & 0.781 & 0.761 & $-0.020$          & $\phantom{-}0.498$ & $\phantom{-}0.404$ & 0.070 & 0.080 \\
+    Line            &  48 & 0.732 & 0.745 & $+0.013$          & $\phantom{-}0.164$ & $\phantom{-}0.292$ & 0.103 & 0.090 \\
+    Cont.-ColorPatn &  42 & 0.562 & 0.614 & $+0.052$          & $-1.223$           & $-0.540$           & 0.116 & 0.098 \\
+    \bottomrule
+  \end{tabular*}
+\end{table*}
+
+\paragraph{Best-performing types (Bar, Area).}
+Both prompts achieve CCC $\geq 0.826$ on Bar and Area --- the two most
+common statistical chart categories, where the model's prior apparently
+aligns well with human VC ratings and the complexity gradient is easy to
+operationalise.
+
+\paragraph{V1 wins on Node-link and Cont.-ColorPatn.}
+V1's gains are largest on Cont.-ColorPatn ($+0.052$ CCC) and Node-link
+($+0.021$). For Cont.-ColorPatn the ground-truth spread is unusually
+narrow (GT SD $= 0.105$), so any over-spread prediction falls
+systematically off the identity line; V1's better-calibrated predictions
+(pred SD V0+TW $\approx 0.203$ vs.\ V1 $\approx 0.167$) convert a
+catastrophic $R^2 = -1.22$ into a merely poor $R^2 = -0.54$ while
+lifting CCC by $0.052$. Despite this improvement, both prompts produce
+$R^2 < 0$ on this type, making Cont.-ColorPatn a structural weakness.
+
+\paragraph{V0+TW wins on Point and Bar.}
+The largest V1 regression is on Point charts, where V1's CCC drops from
+$0.754$ to $0.669$ ($\Delta = -0.085$) and $R^2$ collapses from
+$0.281$ to $0.014$. The calibration ranges and anchor exemplars in V1
+appear to push Point predictions away from the true mid-range cluster
+for this type. V0+TW also holds a clear lead on Bar ($\Delta = -0.037$),
+Text ($\Delta = -0.020$), and Area ($\Delta = -0.008$).
+
+\subsection{Effect of Temperature}
+\label{app:fullset-temp}
+
+To verify that temperature is not a confound in the V0+TW vs.\ V1
+comparison, we compare the original V1 run at $t = 1$ (unfiltered
+520-image pool) with the V1 re-run at $t = 0$ (510-image set,
+$n = 507$ after anchor exclusion) on the overlapping image subset. Across all agreement statistics (CCC, Pearson $r$,
+$R^2$, MAE), the shift from $t = 1$ to $t = 0$ is $\leq 0.005$ ---
+well within single-image sampling noise. Temperature setting is
+therefore not a material confound in the V0+TW vs.\ V1 comparison.
+
+\subsection{Findings}
+\label{app:fullset-findings}
+
+\begin{itemize}
+  \item \textbf{Full-set CCC is lower than pilot CCC for both prompts}
+    (V0+TW: $0.786$ vs.\ $0.872$; V1: $0.780$ vs.\ $0.881$), primarily
+    because the pilot's difficulty-stratified sampling produces a wider
+    ground-truth spread that flatters CCC.
+  \item \textbf{V0+TW and V1 are indistinguishable at the headline
+    level} ($\Delta\mathrm{CCC} = -0.007$, $\Delta\mathrm{MAE} = 0.000$
+    on the identical $n = 507$ test set) with temperature and model held
+    constant. The extra V1 machinery (Calibration + Anchors +
+    per-dimension JSON output) does not yield a meaningful accuracy
+    improvement on a representative image pool.
+  \item \textbf{Per-type outcomes are split.} V1 is better for Node-link
+    and Cont.-ColorPatn; V0+TW is better for Point and Bar. Applications
+    sensitive to Point-chart accuracy should prefer V0+TW; those
+    targeting Node-link or continuous colour maps may benefit from V1.
+  \item \textbf{Cont.-ColorPatn is a structural weakness for both
+    prompts} ($R^2 < 0$). Improving performance on this type likely
+    requires either type-specific calibration guidance or a broader
+    anchor set covering extreme values in the category.
+  \item \textbf{The practical recommendation from
+    Sec.~\ref{app:vc-findings} holds on the full set:} V0+TW is the
+    preferred prompt --- it matches V1 on overall agreement with fewer
+    instructions, no per-dimension output overhead, and better
+    performance on the high-frequency Point and Bar types.
+\end{itemize}
+
+% ======== Section: Prompt Listings =======================================
+
+\section{Prompt Listings}
+\label{app:prompts}
+
+All variants share a common structure: a \emph{system prompt} (delivered
+once per API call) followed by one or more \emph{user turns} (one per
+image). The system prompt is built by starting from the \textbf{V0}
+baseline and inserting the four modular component blocks (\textbf{T},
+\textbf{W}, \textbf{C}, \textbf{A}) described in
+Sec.~\ref{app:vc-components}. Each block below is the exact text used
+in the deployed prompt.
+
+% ─── V0 baseline ──────────────────────────────────────────────────────────
+\subsection{V0 Baseline (Complete System Prompt)}
+\label{app:prompts-v0}
+
+The following is the complete system prompt for \textbf{V0}. Every other
+variant starts from this text and inserts one or more component blocks
+immediately before the \texttt{\#\#~Output~Format} section.
+
+\begin{lstlisting}
+You are a visual complexity (VC) scoring expert for data visualizations.
+
+**Visual Complexity** measures the amount of detail, intricacy, and perceptual/cognitive demand of a visualization image. It is scored on a 0-1 scale where 0 = minimal complexity and 1 = maximum complexity.
+
+You will receive a single visualization image with NO accompanying text or comments. Score it purely from what you see.
+
+## Output Format
+Return ONLY valid JSON (no markdown fences, no explanation outside JSON):
+{
+  "vc_score": <float 0-1>,
+  "explanation": "<2-3 sentence justification>"
+}
+\end{lstlisting}
+
+\noindent The user turn for all non-anchored variants is a single image
+block accompanied by the instruction ``Score the visual complexity of
+this visualization image.''
+
+% ─── Component blocks ─────────────────────────────────────────────────────
+\subsection{Component Blocks}
+\label{app:prompts-components}
+
+Each block is inserted into the system prompt immediately before the
+\texttt{\#\#~Output~Format} section, in the order T\,$\rightarrow$\,W\,$\rightarrow$\,C.
+The \textbf{A} component does not add text to the system prompt; it
+extends the message turn sequence instead (see
+Sec.~\ref{app:prompts-anchors}).
+
+\paragraph{Block T --- Topics / Dimensions.}
+\textit{Used in: V0+T, V0+TC, V0+TA, V0+TW, V0+TWC, V0+TWA, V0+TWCA, V1.}
+
+\begin{lstlisting}
+## Topics to Consider When Scoring
+
+When assessing visual complexity, consider the following 7 topics that commonly drive complexity perception. You do not need to score each topic individually -- use them as mental checkpoints to arrive at a holistic vc_score.
+
+1. **Data Density / Image Clutter** -- The perceived amount, richness, or depth of data content. Considers information volume, element quantity, and visual clutter/overlap.
+2. **Visual Encoding Clarity** -- The variety, type, and complexity of graphical forms (shapes, lines, marks) and how spatial layout, scale, and encoding interpretability contribute to complexity.
+3. **Semantics / Text Legibility** -- The quantity and density of text elements (titles, axis labels, legends, captions, annotations, in-chart labels).
+4. **Schema** -- Whether specialized domain knowledge is needed, including dimensionality (2D/3D), structural complexity, and abstraction level.
+5. **Color, Symbol, and Texture Details** -- Range, variety, and arrangement of colors, plus use of symbols, textures, and non-color graphical markers.
+6. **Aesthetics Uncertainty** -- How visually cluttered, dense, or disordered the layout appears. Higher = more cluttered/overwhelming. A clean minimal layout scores low; a crowded layout with overlapping elements scores high.
+7. **Immediacy / Cognitive Load** -- Overall ease or difficulty of interpreting the visualization. Considers interpretive difficulty, semantic clarity, and processing time/effort.
+\end{lstlisting}
+
+\paragraph{Block W --- Weighted Scoring.}
+Appended immediately after Block~T (requires T to be present).
+\textit{Used in: V0+TW, V0+TWC, V0+TWA, V0+TWCA, V1.}
+
+\begin{lstlisting}
+## Weighting of Topics for the Overall vc_score
+The overall vc_score is a weighted holistic judgment. Weight the 7 topics as follows:
+- **High weight**: Data Density / Image Clutter, Visual Encoding Clarity, Schema, Immediacy / Cognitive Load (these drive VC the most).
+- **Medium weight**: Color / Symbol / Texture Details, Aesthetics Uncertainty.
+- **Low weight**: Semantics / Text Legibility (text volume alone is a weak VC signal).
+A low score on Semantics / Text Legibility alone should NOT substantially pull down the overall vc_score.
+\end{lstlisting}
+
+\noindent When W is present, the \texttt{"vc\_score"} field description
+in \texttt{\#\#~Output~Format} is also changed to
+\texttt{<float~0-1,~weighted~holistic~judgment>}.
+
+\paragraph{Block C --- Calibration.}
+Appended after Block~T (and W if present), before
+\texttt{\#\#~Output~Format}.
+\textit{Used in: V0+C, V0+TC, V0+TWC, V0+TWCA, V1.}
+
+\begin{lstlisting}
+## Calibration Guidance
+Use the full 0-1 range. Do NOT cluster scores conservatively toward the center.
+- A plain single bar chart or pie chart with < 5 elements -> vc_score approx 0.25-0.40
+- A standard scatterplot, grouped bar chart, or line chart -> vc_score approx 0.45-0.60
+- A multi-panel dashboard, dense network, or multi-encoding composite -> vc_score approx 0.70-0.85
+- An extremely dense multi-view system with many coordinated panels -> vc_score approx 0.85-0.95
+IMPORTANT: If you are unsure between two scores, always choose the higher one. Most scorers underestimate -- push scores up.
+\end{lstlisting}
+
+\paragraph{Block A --- Anchor Few-Shot Turns.}
+\label{app:prompts-anchors}
+The A component does not modify the system prompt. Instead, it prepends
+three user$\to$assistant turn pairs to the message list before the
+target-image query. The three anchors span the scale: low (0.22), mid
+(0.54), high (0.95).
+\textit{Used in: V0+A, V0+TA, V0+TWA, V0+TWCA, V1.}
+
+\begin{lstlisting}
+[USER]   [IMAGE: VisC.503.6.png]
+         Score the visual complexity of this visualization image.
+[ASST]   {"vc_score": 0.22, "explanation": "Anchor image scored at 0.22."}
+
+[USER]   [IMAGE: InfoVisJ.619.17.png]
+         Score the visual complexity of this visualization image.
+[ASST]   {"vc_score": 0.54, "explanation": "Anchor image scored at 0.54."}
+
+[USER]   [IMAGE: InfoVisJ.1149.6(1).png]
+         Score the visual complexity of this visualization image.
+[ASST]   {"vc_score": 0.95, "explanation": "Anchor image scored at 0.95."}
+
+[USER]   [IMAGE: target visualization]   <- actual query
+         Score the visual complexity of this visualization image.
+\end{lstlisting}
+
+\noindent Anchor images are excluded from all reported metrics to
+prevent leakage.
+
+% ─── V1 extended ──────────────────────────────────────────────────────────
+\subsection{V1: Extended Variant}
+\label{app:prompts-v1}
+
+\textbf{V1} uses the same system prompt as V0+TWCA (Base\,+\,T\,+\,W\,+\,C)
+with two modifications.
+
+\textbf{Modification 1 --- Per-dimension anchor scores.} Each anchor
+assistant turn carries full dimension scores instead of only
+\texttt{vc\_score}:
+
+\begin{lstlisting}
+[ASST]   {
+           "data_density": 0.15, "visual_encoding": 0.20,
+           "text_annotation": 0.10, "domain_schema": 0.15,
+           "color_symbol": 0.10, "aesthetic_order": 0.20,
+           "cognitive_load": 0.20, "vc_score": 0.22,
+           "data_density_explanation": "...",
+           ...
+           "summary": "..."
+         }
+\end{lstlisting}
+
+\textbf{Modification 2 --- Extended output schema.} The
+\texttt{\#\#~Output~Format} block is replaced to require numeric
+per-dimension output, and the section header becomes
+\texttt{\#\#~Scoring~Dimensions~(each~0--1)}:
+
+\begin{lstlisting}
+## Output Format
+Return ONLY valid JSON (no markdown fences, no explanation outside JSON):
+{
+  "data_density": <float 0-1>,
+  "visual_encoding": <float 0-1>,
+  "text_annotation": <float 0-1>,
+  "domain_schema": <float 0-1>,
+  "color_symbol": <float 0-1>,
+  "aesthetic_order": <float 0-1>,
+  "cognitive_load": <float 0-1>,
+  "vc_score": <float 0-1>,
+  "data_density_explanation": "<1 sentence>",
+  "visual_encoding_explanation": "<1 sentence>",
+  "text_annotation_explanation": "<1 sentence>",
+  "domain_schema_explanation": "<1 sentence>",
+  "color_symbol_explanation": "<1 sentence>",
+  "aesthetic_order_explanation": "<1 sentence>",
+  "cognitive_load_explanation": "<1 sentence>",
+  "summary": "<2-3 sentence overall description>"
+}
+\end{lstlisting}
+
+% ─── Topic matching ───────────────────────────────────────────────────────
+\subsection{Topic Matching (Top-3 Selection)}
+\label{app:prompts-topic}
+
+The topic-matching study (Sec.~\ref{app:topicsel}) extends the V0+T and
+V0+TW VC-scoring prompts with one additional output field,
+\texttt{top3\_topics}, and a \textbf{Topic-Key Mapping} block. The system
+prompt is otherwise identical to V0+T or V0+TW respectively; only the
+\texttt{\#\#~Output~Format} section and one new block differ.
+
+\paragraph{Block: Topic-Key Mapping.}
+Inserted immediately before \texttt{\#\#~Output~Format}:
+
+\begin{lstlisting}
+## Topic-Key Mapping
+Each topic corresponds to a short key:
+- "Data Density / Image Clutter"     -> data_density
+- "Visual Encoding Clarity"          -> visual_encoding
+- "Semantics / Text Legibility"      -> text_annotation
+- "Schema"                           -> domain_schema
+- "Color, Symbol, and Texture Details" -> color_symbol
+- "Aesthetics Uncertainty"           -> aesthetic_order
+- "Immediacy / Cognitive Load"       -> cognitive_load
+\end{lstlisting}
+
+\paragraph{Modified Output Format (V0+T top-3 variant).}
+Replaces the standard \texttt{\#\#~Output~Format} block:
+
+\begin{lstlisting}
+## Output Format
+Return ONLY valid JSON (no markdown fences, no explanation outside JSON):
+{
+  "vc_score": <float 0-1>,
+  "top3_topics": ["<key>", "<key>", "<key>"],
+  "explanation": "<2-3 sentence justification referencing the topics that most influenced the score>"
+}
+
+Where `top3_topics` is an ordered list (most -> least influential) of exactly three distinct keys drawn from: data_density, visual_encoding, text_annotation, domain_schema, color_symbol, aesthetic_order, cognitive_load.
+\end{lstlisting}
+
+\noindent The V0+TW top-3 variant is identical except the \texttt{"vc\_score"} field description reads \texttt{<float~0-1,~weighted~holistic~judgment>} (consistent with Block~W). For \textbf{V1}, no prompt modification is needed: the top-3 topics are derived programmatically by taking the three highest per-dimension scores from the V1 JSON output.
+
+% ─── OAR extraction ───────────────────────────────────────────────────────
+\subsection{OAR Extraction}
+\label{app:prompts-oar}
+
+The structured O/A/R extraction study (Sec.~\ref{app:oar}) uses three
+conditions that share a common \textbf{Topics block} and
+\textbf{Output Schema block}; only the preamble paragraph differs per
+condition.
+
+\paragraph{Shared block: Topics (7-topic taxonomy).}
+Appended in all three system prompts before the output schema.
+
+\begin{lstlisting}
+## Topics (the 7-topic taxonomy)
+
+Use these 7 topics when labeling attributes and relationships. Each attribute and relationship must be tagged with exactly one topic.
+
+1. **Data Density / Image Clutter** -- The perceived amount, richness, or depth of data content. Considers information volume, element quantity, and visual clutter/overlap.
+2. **Visual Encoding Clarity** -- The variety, type, and complexity of graphical forms (shapes, lines, marks) and how spatial layout, scale, and encoding interpretability contribute to complexity.
+3. **Semantics / Text Legibility** -- The quantity and density of text elements (titles, axis labels, legends, captions, annotations, in-chart labels).
+4. **Schema** -- Whether specialized domain knowledge is needed, including dimensionality (2D/3D), structural complexity, and abstraction level.
+5. **Color, Symbol, and Texture Details** -- Range, variety, and arrangement of colors, plus use of symbols, textures, and non-color graphical markers.
+6. **Aesthetics Uncertainty** -- How visually cluttered, dense, or disordered the layout appears. Higher = more cluttered/overwhelming.
+7. **Immediacy / Cognitive Load** -- Overall ease or difficulty of interpreting the visualization. Considers interpretive difficulty, semantic clarity, and processing time/effort.
+\end{lstlisting}
+
+\paragraph{Shared block: Output Schema.}
+Identical across all three conditions. Note the field is \texttt{"topic"}
+(not \texttt{"subtopic"}).
+
+\begin{lstlisting}
+## Output Schema
+
+Return ONLY valid JSON (no markdown fences, no prose outside JSON):
+{
+  "objects": [
+    {"id": 1, "name": "object_name", "region": "data_area|axes|legend|title|annotation|overall"}
+  ],
+  "attributes": [
+    {"object_id": 1, "attr": "short_snake_case_phrase", "sentiment": "+" or "-", "topic": "<one of the 7 topics>"}
+  ],
+  "relationships": [
+    {"subj": 1, "pred": "snake_case_predicate", "obj": 2, "sentiment": "+" or "-", "topic": "<one of the 7 topics>"}
+  ]
+}
+
+Guidelines:
+- Extract elements proportional to the richness of the input. Typical ranges: 2-6 objects, 3-8 attributes, 1-5 relationships; sparse inputs may produce fewer and rich inputs may exceed these.
+- Each list must contain at least one entry.
+- Object names: single lowercase word or snake_case.
+- Attribute text: snake_case, max 4 words.
+- Sentiment: '+' increases perceived complexity, '-' decreases it.
+- Topic must be exactly one of the seven topic titles listed above.
+\end{lstlisting}
+
+\paragraph{Condition B --- Phrase-Grounded (no image).}
+Input: sentiment-tagged complexity phrases from participant comments.
+
+\begin{lstlisting}
+You are a visual complexity annotation expert. You will receive, for a single data-visualization image:
+  (a) a list of original complexity phrases extracted from real participant comments about the image, each tagged with a sentiment marker (+) (increases perceived complexity) or (-) (decreases perceived complexity).
+
+Extract a scene graph (objects, attributes, relationships) that is **strictly grounded in the phrases**. Do not invent elements the phrases do not mention or imply. Use the (+) / (-) markers to inform the `sentiment` field of attributes and relationships.
+
+[TOPICS BLOCK]
+
+[OUTPUT SCHEMA BLOCK]
+\end{lstlisting}
+
+\noindent The user turn supplies the image filename and the
+semicolon-separated phrase list with per-phrase sentiment tags.
+
+\paragraph{Condition V1 --- Vision-Only (image, no phrases).}
+Input: image only (no phrases).
+
+\begin{lstlisting}
+You are a visual complexity annotation expert. You will receive, for a single data-visualization image:
+  (a) the rendered image.
+
+Extract a scene graph (objects, attributes, relationships) that is **strictly grounded in what is visible in the image**. Do not invent elements that are not visible.
+
+[TOPICS BLOCK]
+
+[OUTPUT SCHEMA BLOCK]
+\end{lstlisting}
+
+\paragraph{Condition V2 --- Vision + Anchor Exemplars.}
+\texttt{SYSTEM\_V2} appends one additional block to the V1 system prompt:
+
+\begin{lstlisting}
+## Reference Anchor Examples
+
+Below are three reference images with expert-produced scene graphs. Use them to calibrate your extraction style (granularity, object naming, predicate style, topic usage). Do NOT copy their content; produce an extraction for the target image shown last.
+\end{lstlisting}
+
+\noindent The three anchor user$\to$assistant turns are taken from
+Condition~B's output on the same three anchor images, keeping the
+exemplar style consistent with the text-grounded reference. Anchor images
+are excluded from all evaluation comparisons.
 
 % ======== BibTeX entry for bibliography file ==============================
 % @article{lin1989ccc,
