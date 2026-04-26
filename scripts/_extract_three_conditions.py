@@ -40,7 +40,7 @@ ROOT = Path(__file__).parent.parent
 load_dotenv(dotenv_path=ROOT.parent / '.env')
 
 MODEL       = 'claude-sonnet-4-6'
-MAX_TOKENS  = 1024
+MAX_TOKENS  = 2048  # raised from 1024; complex images can exceed 1024-token output
 TEMPERATURE = 0.0
 CONCURRENCY = 5
 IMAGE_BASE_URL = 'https://raw.githubusercontent.com/c109363/ExperimentImage/main/AllDataResize/'
@@ -87,7 +87,8 @@ Return ONLY valid JSON (no markdown fences, no prose outside JSON):
 }
 
 Guidelines:
-- Extract 3–7 objects, 3–8 attributes, 2–5 relationships.
+- Extract elements proportional to the richness of the input. Typical ranges: 2–6 objects, 3–8 attributes, 1–5 relationships; sparse inputs may produce fewer and rich inputs may exceed these.
+- Each list must contain at least one entry.
 - Object names: single lowercase word or snake_case.
 - Attribute text: snake_case, max 4 words.
 - Sentiment: '+' increases perceived complexity, '-' decreases it.
