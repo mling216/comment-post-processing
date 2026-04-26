@@ -4,8 +4,10 @@ __pycache__/
 *.pyo
 .ipynb_checkpoints/
 
-# Large reference PDFs in paper/
-paper/*.pdf
+# Paper draft folder — ignore everything except the figures subfolder
+paper/*
+!paper/figures/
+!paper/figures/**
 
 # Regeneratable large data dirs
 vc_genome_output_full/three_conditions/
