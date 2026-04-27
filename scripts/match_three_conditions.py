@@ -1,12 +1,12 @@
 """
-Three-condition O/A/R pairwise comparison on the 43 eval images.
+Three-condition O/A/R pairwise comparison on the 63 eval images.
 
 Reads:
     vc_genome_output_full/three_conditions/oar_B.json   (baseline: topics+phrases)
     vc_genome_output_full/three_conditions/oar_V1.json  (topics+image)
     vc_genome_output_full/three_conditions/oar_V2.json  (topics+image+anchors)
 
-B is compared against V1 and V2 on the 43 non-anchor images.
+B is compared against V1 and V2 on the 63 non-anchor images.
 V1 vs V2 is also reported.
 
 Reports STRICT keys (same as match_api_vs_vision.py), RELAXED keys
@@ -233,7 +233,7 @@ def main():
     headline = pd.DataFrame(headline_rows)
     headline.to_csv(OUT_DIR / 'headline.csv', index=False)
 
-    print('\n── Mean F1 (reference ↔ prediction) on 43 eval images ──')
+    print('\n── Mean F1 (reference ↔ prediction) on 63 eval images ──')
     print('Strict (synset):')
     print(headline[['pair', 'obj_f1', 'attr_strict_f1', 'attr_sign_f1',
                     'rel_strict_f1', 'rel_family_f1', 'rel_loose_f1']]

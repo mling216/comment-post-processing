@@ -170,43 +170,64 @@ if __name__ == '__main__':
     gt63 = build_human_gt_63(gt66)
     print(f'GT63: {len(gt63)} images, vistypes: {sorted(gt63["vistype"].unique())}')
 
-    # Step 3: Load results
-    vot  = load_topicsel('vc_api_topicsel_v0_t')
-    votw = load_topicsel('vc_api_topicsel_v0_tw')
-    print(f'V0+T  results loaded: {len(vot)} images')
-    print(f'V0+TW results loaded: {len(votw)} images')
+    # Step 3: Load results (check which variants are available)
+    VARIANTS = {
+        'V0+T':     'vc_api_topicsel_v0_t',
+        'V0+TW':    'vc_api_topicsel_v0_tw',
+        'V0+T+VT':  'vc_api_topicsel_v0_t_vt',
+        'V0+TW+VT': 'vc_api_topicsel_v0_tw_vt',
+    }
+    loaded = {}
+    for label, dirname in VARIANTS.items():
+        p = ROOT / 'results' / dirname / 'vc_scores.csv'
+        if p.exists():
+            loaded[label] = load_topicsel(dirname)
+            print(f'{label:12s} results loaded: {len(loaded[label])} images')
+        else:
+            print(f'{label:12s} NOT found — skipping ({p})')
 
-    # Check if all 63 non-anchor images are scored
-    missing_t  = [img for img in gt63['filename'] if img not in vot['filename'].values]
-    missing_tw = [img for img in gt63['filename'] if img not in votw['filename'].values]
-    print(f'V0+T  missing: {missing_t}')
-    print(f'V0+TW missing: {missing_tw}')
+    # Warn about missing images in loaded variants
+    for label, df in loaded.items():
+        missing = [img for img in gt63['filename'] if img not in df['filename'].values]
+        if missing:
+            print(f'{label} missing {len(missing)} images: {missing[:5]}{" ..." if len(missing)>5 else ""}')
 
-    if missing_t or missing_tw:
-        print('\nNOTE: Run the scoring scripts on gt_all_66.csv first, then re-run this script.')
+    if not loaded:
+        print('\nNo variant results found. Run scoring scripts first.')
         sys.exit(0)
 
-    # Step 4: Compute per-vistype F1
-    vt_t  = compute_per_vistype(vot,  gt63)
-    vt_tw = compute_per_vistype(votw, gt63)
-
-    print('\nPer-vistype F1 — V0+T:')
-    print(vt_t.to_string(index=False))
-    print(f'  Overall macro-F1 (image-level): {compute_overall(vot, gt63)}')
-
-    print('\nPer-vistype F1 — V0+TW:')
-    print(vt_tw.to_string(index=False))
-    print(f'  Overall macro-F1 (image-level): {compute_overall(votw, gt63)}')
-
-    # Step 5: Save outputs
+    # Step 4: Compute per-vistype F1 for each loaded variant
     OUT_DIR = ROOT / 'topic_selection'
     OUT_DIR.mkdir(exist_ok=True)
-    vt_t.to_csv(OUT_DIR / 'topicsel_63_per_vistype_vot.csv',  index=False)
-    vt_tw.to_csv(OUT_DIR / 'topicsel_63_per_vistype_votw.csv', index=False)
 
-    summary = vt_t.rename(columns={'F1': 'F1_V0T', 'P': 'P_V0T', 'R': 'R_V0T'}).merge(
-        vt_tw.rename(columns={'F1': 'F1_V0TW', 'P': 'P_V0TW', 'R': 'R_V0TW'}),
-        on=['vistype', 'n']
-    )
+    FILE_SUFFIX = {
+        'V0+T':     'vot',
+        'V0+TW':    'votw',
+        'V0+T+VT':  'vot_vt',
+        'V0+TW+VT': 'votw_vt',
+    }
+
+    vt_dfs = {}
+    for label, df in loaded.items():
+        vt_df = compute_per_vistype(df, gt63)
+        macro = compute_overall(df, gt63)
+        vt_dfs[label] = vt_df
+        print(f'\nPer-vistype F1 — {label}:')
+        print(vt_df.to_string(index=False))
+        print(f'  Overall macro-F1: {macro}')
+        suffix = FILE_SUFFIX[label]
+        vt_df.to_csv(OUT_DIR / f'topicsel_63_per_vistype_{suffix}.csv', index=False)
+
+    # Step 5: Build combined summary (all available variants side-by-side)
+    summary = None
+    for label, vt_df in vt_dfs.items():
+        suffix = label.replace('+', '').replace('-', '').replace(' ', '')
+        renamed = vt_df.rename(columns={'F1': f'F1_{suffix}',
+                                         'P':  f'P_{suffix}',
+                                         'R':  f'R_{suffix}'})
+        if summary is None:
+            summary = renamed
+        else:
+            summary = summary.merge(renamed.drop(columns='n'), on='vistype')
     summary.to_csv(OUT_DIR / 'topicsel_63_vistype_summary.csv', index=False)
     print(f'\nSaved outputs to {OUT_DIR}')

@@ -1,2 +1,0 @@
-let's give an overhaul of this prompt strategy. 
-I sitll want to use the 7 scoring topics as the basis, but do not need to favor anything. We should first select the most relevant topics and start from there. I can provide a number of images each with the relevant user-based topics that they thing make the difference in visual complexity, together with a VC score, as groundtruth. We can run these as multiple anchors. 

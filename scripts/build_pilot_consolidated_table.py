@@ -41,7 +41,7 @@ TOPIC_KEYS = [
 def load_compiled() -> pd.DataFrame:
     p = ROOT / "phrase_reduction_v2" / "image_compiled_phrases.csv"
     df = pd.read_csv(p)
-    gt = pd.read_csv(ROOT / "Claude_vc_prediction" / "gt_all_46.csv")
+    gt = pd.read_csv(ROOT / "Claude_vc_prediction" / "gt_all_66.csv")
     pilot = set(gt["imageName"])
     df = df[df["imageName"].isin(pilot)].copy()
     return df[["imageName", "imageURL", "VisType", "NormalizedVC", "originalPhrases"]]

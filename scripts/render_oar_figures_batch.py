@@ -48,14 +48,20 @@ def main() -> None:
     all_images = sorted(set().union(*(d.keys() for d in conds.values())))
     print(f"Rendering {len(all_images)} images x 3 conditions -> {OUT_DIR}")
     counts = {"B": 0, "V1": 0, "V2": 0}
+    skipped = 0
     for img in all_images:
         for cond, data in conds.items():
             if img not in data:
                 continue
+            safe = img.removesuffix(".png")
+            out_path = OUT_DIR / f"oar_{safe}_{cond}.png"
+            if out_path.exists():
+                skipped += 1
+                continue
             o, a, r = render_one(img, cond, data[img])
             counts[cond] += 1
         print(f"  {img}  done")
-    print(f"Done. PNGs written: B={counts['B']}  V1={counts['V1']}  V2={counts['V2']}")
+    print(f"Done. PNGs written: B={counts['B']}  V1={counts['V1']}  V2={counts['V2']}  skipped={skipped}")
 
 
 if __name__ == "__main__":

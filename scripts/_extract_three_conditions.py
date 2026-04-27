@@ -1,5 +1,5 @@
 """
-Three-condition O/A/R extraction for the paper's 43-image evaluation set.
+Three-condition O/A/R extraction for the paper's 63-image evaluation set.
 =========================================================================
 Shared:
   - Taxonomy: the 7 topics (NOT 21 subtopics).
@@ -11,9 +11,9 @@ Shared:
   - No VisType, no NormalizedVC in any prompt.
 
 Conditions:
-  B  — topics + human-curated phrases (no image)            [baseline, 46 imgs]
-  V1 — topics + image (no phrases)                          [vision-only, 43 imgs]
-  V2 — topics + image + 3 anchor exemplars                  [vision + anchors, 43 imgs]
+  B  — topics + human-curated phrases (no image)            [baseline, 66 imgs]
+  V1 — topics + image (no phrases)                          [vision-only, 63 imgs]
+  V2 — topics + image + 3 anchor exemplars                  [vision + anchors, 63 imgs]
 
 For V2, the 3 anchor few-shot assistant turns are taken directly from the
 B output (`oar_B.json`) for the three anchor images. This keeps the anchor
@@ -46,7 +46,7 @@ CONCURRENCY = 5
 IMAGE_BASE_URL = 'https://raw.githubusercontent.com/c109363/ExperimentImage/main/AllDataResize/'
 
 DATA_CSV    = ROOT / 'phrase_reduction_v2' / 'image_compiled_phrases.csv'
-EVAL_CSV    = ROOT / 'Claude_vc_prediction' / 'gt_all_46.csv'
+EVAL_CSV    = ROOT / 'Claude_vc_prediction' / 'gt_all_66.csv'
 OUT_DIR     = ROOT / 'vc_genome_output_full' / 'three_conditions'
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -132,10 +132,10 @@ async def fetch_image_base64(session, image_name):
 
 def load_eval_rows(include_anchors: bool):
     eval_df = pd.read_csv(EVAL_CSV)
-    assert len(eval_df) == 46
+    assert len(eval_df) == 66
     if not include_anchors:
         eval_df = eval_df[~eval_df['imageName'].isin(ANCHOR_NAMES)].copy()
-        assert len(eval_df) == 43, f'expected 43, got {len(eval_df)}'
+        assert len(eval_df) == 63, f'expected 63, got {len(eval_df)}'
     data_df = pd.read_csv(DATA_CSV)
     keep = ['imageName', 'originalPhrases', 'originalSentiments']
     merged = eval_df.merge(data_df[keep], on='imageName', how='left')
