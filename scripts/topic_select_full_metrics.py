@@ -46,6 +46,11 @@ if __name__ == '__main__':
     p = ROOT / 'results' / 'vc_api_topicsel_v0_tw' / 'vc_scores.csv'
     runs['V0+TW'] = load_v0_top3(p)
 
+    # V0+TW-dyn (prompted top-3, dynamic self-assigned weights)
+    p = ROOT / 'results' / 'vc_api_topicsel_v0_tw_dyn' / 'vc_scores.csv'
+    if p.exists():
+        runs['V0+TW-dyn'] = load_v0_top3(p)
+
     # V1 runs (derived from per-dim scores)
     runs['V1 (t=1, r1)'] = derive_v1_top3(ROOT / 'results' / 'vc_api_46gt_v3' / 'vc_scores.csv')
     runs['V1 (t=1, r2)'] = derive_v1_top3(ROOT / 'results' / 'vc_api_46gt_v1_r2' / 'vc_scores.csv')
