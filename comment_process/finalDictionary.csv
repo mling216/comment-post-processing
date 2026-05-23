@@ -1,0 +1,690 @@
+stem,source,POS,totalImages,Data Density / Image Clutter,Visual Encoding Clarity,Semantics / Text Legibility,Schema,"Color, Symbol, and Texture Details",Aesthetics Uncertainty,Immediacy / Cognitive Load
+color,user comment,"ADJ, NOUN, PROPN, VERB",193,96,86,88,56,190,30,84
+understand,user comment,"ADJ, NOUN, VERB",106,48,41,41,27,46,15,101
+information,user comment,NOUN,79,60,33,37,17,40,14,49
+shape,user comment,"NOUN, PROPN, VERB",66,40,56,30,20,50,7,30
+line,user comment,NOUN,63,41,48,33,20,33,13,38
+differ,user comment,"ADJ, ADV, NOUN, VERB",62,42,40,35,17,43,13,40
+lot,user comment,NOUN,55,49,23,30,18,35,9,30
+hard,user comment,"ADJ, ADV",51,28,27,22,15,30,18,46
+detail,user comment,"ADJ, NOUN, PROPN",48,43,27,19,16,30,7,31
+datum,user comment,NOUN,48,37,21,24,11,25,9,28
+easy,user comment,ADJ,48,24,22,27,20,25,8,44
+number,user comment,NOUN,47,31,26,33,15,31,8,24
+point,user comment,"NOUN, PROPN, VERB",45,30,26,21,13,24,8,27
+read,user comment,"NOUN, VERB",44,18,23,24,12,19,13,37
+word,user comment,"NOUN, VERB",44,21,14,44,12,20,7,18
+clear,user comment,"ADJ, ADV",43,15,29,22,17,23,11,27
+difficult,user comment,ADJ,41,20,19,18,12,21,9,41
+text,user comment,"NOUN, VERB",41,26,22,39,12,28,9,22
+image,user comment,"NOUN, PROPN, VERB",33,19,14,11,8,15,5,27
+axis,user comment,"ADJ, NOUN",30,15,17,29,10,18,4,13
+element,user comment,NOUN,30,27,20,17,10,18,4,16
+visual,user comment,"ADJ, ADV, NOUN, VERB",29,17,18,16,13,19,8,21
+graph,user comment,NOUN,27,12,8,12,19,9,8,15
+small,user comment,"ADJ, PROPN",26,20,14,19,10,18,5,16
+size,user comment,"NOUN, PROPN, VERB",26,16,21,14,6,17,3,10
+label,user comment,"NOUN, PROPN, VERB",25,13,9,25,15,13,5,14
+contrast,user comment,"NOUN, VERB",22,19,10,11,5,20,7,9
+complex,user comment,"ADJ, NOUN, PROPN",21,8,12,8,5,16,2,13
+legend,user comment,"NOUN, VERB",21,11,9,21,9,12,2,10
+dot,user comment,"ADJ, NOUN",21,14,14,8,9,14,2,11
+time,user comment,NOUN,20,13,7,6,4,8,4,20
+confuse,user comment,"ADJ, VERB",19,13,13,12,9,15,10,17
+process,user comment,"NOUN, VERB",18,12,10,10,8,11,3,16
+know,user comment,VERB,18,7,11,9,4,8,6,16
+familiar,user comment,"ADJ, NOUN, VERB",18,4,5,9,18,9,2,10
+pattern,user comment,NOUN,18,4,9,5,14,11,3,10
+chart,user comment,"NOUN, PROPN, VERB",18,11,8,10,11,10,4,14
+map,user comment,"NOUN, PROPN",17,7,6,12,17,12,2,10
+multiple,user comment,ADJ,17,13,10,11,6,11,4,11
+mean,user comment,"NOUN, VERB",17,6,6,9,7,12,3,9
+simple,user comment,ADJ,17,8,10,8,8,9,5,15
+easily,user comment,ADV,16,4,7,11,8,6,3,13
+look,user comment,VERB,16,8,5,8,8,12,6,13
+interpret,user comment,"ADJ, NOUN, VERB",16,5,6,7,4,6,2,15
+graphic,user comment,"ADJ, ADV, NOUN, PROPN",15,6,8,7,5,8,1,8
+data,user comment,"NOUN, PROPN",15,13,8,8,6,9,4,13
+circle,user comment,"NOUN, PROPN",14,8,10,5,8,10,3,6
+item,user comment,NOUN,14,13,7,5,2,9,1,9
+key,user comment,"NOUN, PROPN",13,7,4,10,4,8,3,9
+shade,user comment,"NOUN, VERB",13,7,7,9,4,13,1,6
+represent,user comment,VERB,13,5,8,5,5,11,2,8
+sense,user comment,NOUN,13,6,9,7,8,5,3,12
+title,user comment,NOUN,13,6,2,13,5,6,1,6
+write,user comment,"NOUN, VERB",13,9,6,13,5,8,6,11
+need,user comment,"NOUN, VERB",12,8,3,5,3,6,5,12
+bar,user comment,NOUN,12,6,7,5,5,5,2,9
+variable,user comment,NOUN,12,9,7,9,3,10,3,6
+go,user comment,VERB,12,9,5,6,4,4,3,8
+long,user comment,"ADJ, ADV",11,7,8,7,3,7,1,11
+box,user comment,"NOUN, PROPN",11,9,10,6,5,11,2,6
+scale,user comment,"NOUN, VERB",11,6,8,6,2,7,2,2
+show,user comment,VERB,11,3,6,7,3,3,0,7
+font,user comment,"ADJ, NOUN",11,8,6,11,2,9,4,9
+glance,user comment,NOUN,11,4,6,6,5,6,3,10
+discern,user comment,"ADJ, VERB",11,9,8,6,8,8,3,8
+separate,user comment,"ADJ, ADV, NOUN, VERB",10,4,3,4,3,6,3,7
+black,user comment,ADJ,10,6,4,2,1,10,4,4
+readable,user comment,"ADJ, NOUN",10,3,4,10,3,6,2,5
+lack,user comment,"NOUN, VERB",10,4,4,5,4,8,2,8
+white,user comment,ADJ,10,7,6,1,1,10,0,1
+similar,user comment,"ADJ, NOUN",10,7,7,6,6,9,4,10
+follow,user comment,VERB,10,5,8,6,5,7,2,10
+context,user comment,NOUN,10,6,8,7,4,5,1,9
+like,user comment,ADP,10,4,5,3,6,5,1,5
+picture,user comment,NOUN,9,4,2,4,3,4,3,5
+variety,user comment,NOUN,9,6,5,5,5,8,0,4
+value,user comment,NOUN,9,3,5,7,1,3,2,2
+variation,user comment,NOUN,9,5,7,5,4,9,2,5
+eye,user comment,NOUN,9,2,2,2,4,6,6,7
+high,user comment,ADJ,8,8,2,3,1,3,3,4
+figure,user comment,"NOUN, VERB",8,6,3,2,3,3,2,7
+idea,user comment,NOUN,8,3,4,5,4,4,1,8
+design,user comment,NOUN,8,4,4,4,4,6,3,4
+overlap,user comment,"ADJ, NOUN, VERB",8,8,5,5,3,5,2,6
+little,user comment,ADJ,8,8,4,3,3,5,1,4
+mix,user comment,"NOUN, VERB",8,4,4,5,1,7,3,5
+way,user comment,NOUN,7,3,5,3,2,4,1,6
+present,user comment,VERB,7,1,2,4,0,1,0,6
+spread,user comment,VERB,7,6,3,4,2,3,1,4
+space,user comment,NOUN,7,6,3,3,1,7,2,2
+intuitive,user comment,"ADJ, ADV",7,4,3,4,1,4,4,7
+code,user comment,"NOUN, PROPN",7,6,4,6,6,6,2,6
+country,user comment,NOUN,7,4,5,5,6,4,1,5
+structure,user comment,"ADJ, NOUN, VERB",7,6,6,5,5,6,3,3
+thing,user comment,NOUN,7,4,4,4,4,5,0,4
+layout,user comment,NOUN,7,4,5,4,2,6,2,5
+clutter,user comment,"ADJ, NOUN, PROPN",7,7,3,4,3,4,3,6
+info,user comment,NOUN,7,7,5,4,4,6,4,6
+measure,user comment,"NOUN, VERB",7,3,4,6,3,5,2,3
+use,user comment,"ADJ, NOUN",7,5,2,4,3,6,3,5
+letter,user comment,NOUN,7,4,4,7,1,3,2,3
+make,user comment,VERB,7,2,3,2,2,2,0,7
+complicated,user comment,ADJ,7,3,6,6,5,5,2,6
+comprehend,user comment,VERB,7,2,0,1,1,2,1,7
+recognizable,user comment,ADJ,7,1,2,6,7,3,0,2
+description,user comment,NOUN,7,3,3,7,4,5,1,5
+scheme,user comment,NOUN,7,3,3,2,4,6,1,3
+focus,user comment,"NOUN, VERB",6,5,2,4,3,3,1,6
+intersect,user comment,"NOUN, VERB",6,6,5,2,0,2,1,4
+area,user comment,NOUN,6,5,5,3,4,5,1,3
+unfamiliar,user comment,ADJ,6,6,4,2,6,3,2,5
+choice,user comment,NOUN,6,3,3,5,1,6,4,5
+square,user comment,NOUN,6,4,5,4,3,5,1,4
+connect,user comment,"NOUN, VERB",6,2,4,2,2,2,1,5
+sure,user comment,ADJ,6,1,2,4,2,5,0,3
+straight,user comment,"ADJ, ADV",6,4,4,2,1,4,2,4
+identify,user comment,VERB,6,3,2,4,3,4,1,6
+dark,user comment,"ADJ, ADV, PROPN",6,3,4,2,2,6,2,3
+organic,user comment,"ADJ, NOUN, VERB",6,6,4,5,4,5,1,5
+order,user comment,"NOUN, VERB",6,2,5,4,1,3,1,4
+grid,user comment,"NOUN, PROPN",5,1,2,3,4,4,0,2
+explanation,user comment,NOUN,5,3,2,5,1,3,2,4
+abstract,user comment,"ADJ, NOUN",5,3,3,2,5,3,1,1
+large,user comment,ADJ,5,5,2,5,2,4,2,3
+world,user comment,NOUN,5,3,3,5,5,4,1,5
+vary,user comment,"ADJ, VERB",5,5,4,3,1,4,2,1
+quick,user comment,"ADJ, ADV",5,3,3,4,2,3,0,5
+green,user comment,"ADJ, PROPN",5,5,3,3,2,5,2,3
+distribute,user comment,"NOUN, VERB",5,3,5,2,1,4,0,1
+describe,user comment,VERB,5,4,3,4,1,4,1,5
+distinguish,user comment,VERB,5,2,3,1,1,3,2,4
+require,user comment,VERB,5,4,4,4,1,3,1,5
+random,user comment,ADJ,5,4,5,3,0,4,2,3
+relate,user comment,"ADV, NOUN, VERB",5,3,4,3,4,2,3,3
+object,user comment,NOUN,5,5,3,3,3,3,2,3
+density,user comment,NOUN,5,3,1,5,1,3,2,3
+convey,user comment,VERB,5,1,2,1,2,4,3,3
+straightforward,user comment,"ADJ, ADV",5,3,4,4,4,3,1,5
+cross,user comment,VERB,5,5,4,3,0,2,1,4
+symbol,user comment,NOUN,5,0,2,2,2,3,0,1
+individual,user comment,ADJ,5,5,3,3,3,3,1,3
+logic,user comment,"ADJ, NOUN",5,0,2,1,0,1,0,3
+indicate,user comment,NOUN,5,3,4,2,2,4,1,3
+take,user comment,VERB,5,4,2,2,1,4,1,4
+tell,user comment,VERB,5,3,3,3,1,3,1,5
+bit,user comment,NOUN,5,3,2,4,1,2,1,4
+blue,user comment,"ADJ, PROPN",5,1,2,2,2,5,0,3
+busy,user comment,ADJ,5,5,3,4,1,5,2,3
+unclear,user comment,"ADJ, PROPN",5,3,1,3,0,3,2,2
+unique,user comment,ADJ,5,3,2,2,1,3,2,2
+messy,user comment,"ADJ, NOUN",5,3,3,3,1,4,3,4
+decipher,user comment,"ADV, NOUN, VERB",5,4,3,2,2,3,2,5
+name,user comment,NOUN,5,2,4,5,1,5,1,4
+distinct,user comment,"ADJ, NOUN",5,4,3,3,1,5,0,4
+close,user comment,"ADJ, ADV, VERB",4,2,3,2,2,2,0,2
+scatter,user comment,"ADJ, PROPN, VERB",4,4,2,2,2,2,1,4
+dimension,user comment,NOUN,4,1,2,0,2,3,0,2
+curve,user comment,"NOUN, VERB",4,3,4,4,3,3,2,4
+range,user comment,NOUN,4,2,2,1,3,4,0,1
+volume,user comment,NOUN,4,3,2,1,0,1,0,3
+big,user comment,ADJ,4,3,2,4,2,3,0,1
+change,user comment,"NOUN, VERB",4,2,2,2,0,3,0,1
+challenge,user comment,"NOUN, VERB",4,2,2,2,1,1,1,4
+metric,user comment,"ADJ, NOUN",4,1,2,4,2,1,1,4
+table,user comment,NOUN,4,2,1,2,4,1,0,2
+type,user comment,NOUN,4,2,1,2,2,2,2,2
+involve,user comment,"ADJ, VERB",4,3,3,2,0,3,0,3
+analyze,user comment,VERB,4,1,2,0,0,0,1,4
+layer,user comment,"NOUN, VERB",4,3,4,2,3,3,2,4
+draw,user comment,"NOUN, VERB",4,3,1,1,2,3,0,1
+fine,user comment,ADJ,4,4,3,1,3,2,1,4
+dense,user comment,"ADJ, ADV",4,4,2,4,0,3,2,2
+differentiate,user comment,VERB,4,1,2,3,0,3,2,4
+red,user comment,"ADJ, PROPN",4,4,3,2,1,4,1,1
+recognize,user comment,VERB,4,2,3,3,3,3,1,2
+not,user comment,PART,4,3,3,2,2,3,1,2
+3d,user comment,"ADJ, NOUN",4,2,3,0,2,3,0,2
+stuff,user comment,NOUN,3,3,1,1,0,2,1,2
+content,user comment,NOUN,3,2,1,1,1,2,0,2
+intricate,user comment,ADJ,3,3,3,1,1,1,1,3
+compare,user comment,"NOUN, VERB",3,1,0,1,1,1,0,3
+collection,user comment,NOUN,3,0,1,0,0,3,1,1
+clarity,user comment,NOUN,3,2,1,2,1,3,3,3
+clean,user comment,ADJ,3,1,2,1,1,1,1,1
+aspect,user comment,NOUN,3,3,2,1,0,0,0,1
+link,user comment,"NOUN, VERB",3,3,2,3,2,2,1,2
+level,user comment,NOUN,3,1,1,3,1,2,0,1
+linear,user comment,ADJ,3,1,2,2,0,2,0,3
+arbitrary,user comment,ADJ,3,1,3,1,2,2,2,3
+interest,user comment,NOUN,3,1,2,2,3,2,0,2
+intense,user comment,"ADJ, NOUN",3,3,2,2,3,2,1,2
+interact,user comment,"NOUN, VERB",3,2,2,1,0,0,0,2
+think,user comment,VERB,3,1,2,0,1,2,1,2
+attractive,user comment,ADJ,3,1,0,0,0,1,1,2
+arrow,user comment,NOUN,3,2,2,1,0,0,0,3
+ascertain,user comment,VERB,3,2,1,1,1,2,1,3
+bad,user comment,ADJ,3,1,1,1,0,3,3,3
+unsure,user comment,"NOUN, VERB",3,2,0,2,2,3,0,2
+certain,user comment,ADJ,3,1,2,0,1,2,0,2
+term,user comment,NOUN,3,3,3,3,2,3,3,3
+comprehension,user comment,"ADJ, NOUN",3,2,2,2,2,1,1,3
+give,user comment,VERB,3,2,2,3,3,2,2,3
+numerous,user comment,"ADJ, PROPN",3,1,3,3,0,2,0,2
+orange,user comment,"NOUN, PROPN",3,2,2,3,3,3,1,3
+region,user comment,NOUN,3,1,3,2,2,2,0,2
+darker,user comment,PROPN,3,2,1,1,2,3,0,1
+multitude,user comment,NOUN,3,3,2,1,1,2,0,2
+network,user comment,NOUN,3,2,2,2,2,1,0,1
+see,user comment,VERB,3,2,2,2,3,1,1,3
+significant,user comment,"ADJ, ADV",3,3,2,1,1,2,1,2
+set,user comment,"NOUN, VERB",3,2,3,2,0,3,0,2
+noise,user comment,NOUN,3,1,1,1,0,1,0,3
+ease,user comment,NOUN,3,0,0,1,0,0,0,3
+explanatory,user comment,"ADJ, VERB",3,0,1,2,1,2,0,2
+evaluate,user comment,VERB,3,1,2,1,2,1,0,3
+exact,user comment,ADJ,3,1,3,3,1,1,1,2
+overall,user comment,ADJ,3,2,3,1,1,2,1,2
+pack,user comment,"ADJ, VERB",3,3,1,3,1,2,2,1
+quantity,user comment,NOUN,3,3,3,0,1,3,0,1
+gradient,user comment,NOUN,3,1,1,0,2,3,2,1
+purpose,user comment,NOUN,3,0,1,2,2,0,0,1
+precise,user comment,"ADJ, NOUN",3,2,3,1,1,1,0,2
+fast,user comment,"ADJ, ADV",3,0,0,2,0,0,0,2
+feel,user comment,VERB,3,1,2,0,1,2,2,2
+extra,user comment,ADJ,3,2,2,1,1,1,2,3
+pixel,user comment,"ADJ, NOUN",3,1,0,0,0,3,1,2
+plot,user comment,"NOUN, VERB",3,2,1,2,1,1,0,1
+position,user comment,NOUN,3,2,3,3,1,2,0,0
+weird,user comment,ADJ,3,2,1,2,2,2,2,2
+background,user comment,NOUN,3,3,1,2,2,3,1,1
+visible,user comment,ADJ,3,1,2,1,0,2,0,1
+able,user comment,ADJ,3,1,1,1,1,1,1,2
+2D,user comment,PROPN,2,2,2,2,1,2,0,2
+vertical,user comment,ADJ,2,1,1,1,1,2,1,2
+vast,user comment,ADJ,2,2,1,1,0,1,0,2
+learn,user comment,VERB,2,0,0,0,0,0,0,2
+jumble,user comment,"NOUN, VERB",2,2,1,0,0,1,0,0
+work,user comment,VERB,2,0,0,0,2,0,0,0
+visualise,user comment,VERB,2,0,0,1,0,0,0,2
+pleasing,user comment,ADJ,2,2,1,0,1,1,1,2
+place,user comment,NOUN,2,2,1,0,0,1,0,0
+pie,user comment,"NOUN, PROPN",2,1,0,0,2,0,0,1
+physical,user comment,ADJ,2,1,0,0,2,2,0,0
+frequency,user comment,NOUN,2,0,0,2,1,1,0,1
+formula,user comment,NOUN,2,1,1,2,0,1,0,1
+format,user comment,NOUN,2,1,2,2,1,2,0,1
+form,user comment,NOUN,2,1,2,1,2,2,0,1
+flow,user comment,NOUN,2,1,1,1,1,0,0,1
+find,user comment,VERB,2,2,1,2,2,2,1,1
+path,user comment,NOUN,2,2,2,2,1,1,0,2
+parameter,user comment,NOUN,2,1,1,1,0,2,1,1
+painting,user comment,NOUN,2,1,1,1,2,1,1,1
+glean,user comment,VERB,2,1,1,1,1,2,2,2
+proximity,user comment,NOUN,2,2,1,1,0,2,0,1
+pretty,user comment,ADV,2,0,1,1,1,2,1,2
+few,user comment,ADJ,2,2,0,2,1,0,0,1
+feature,user comment,NOUN,2,2,2,2,2,2,2,2
+far,user comment,ADV,2,1,1,2,0,1,0,1
+factor,user comment,NOUN,2,2,1,2,1,2,1,2
+fact,user comment,NOUN,2,2,1,1,1,2,1,2
+education,user comment,NOUN,2,2,1,2,2,1,1,2
+earthquake,user comment,NOUN,2,1,0,1,2,1,0,0
+earth,user comment,"NOUN, PROPN",2,2,1,1,2,0,0,1
+excessive,user comment,"ADV, PROPN",2,2,0,2,1,2,1,2
+entry,user comment,NOUN,2,2,0,0,0,0,0,1
+geometric,user comment,ADJ,2,2,2,2,2,2,1,2
+geography,user comment,NOUN,2,2,0,0,2,1,0,0
+geographic,user comment,ADJ,2,0,1,1,2,1,0,2
+num,user comment,NOUN,2,2,1,2,1,1,0,0
+nuance,user comment,NOUN,2,2,2,1,0,1,0,1
+non,user comment,"ADJ, PROPN",2,1,2,1,1,2,0,2
+digest,user comment,NOUN,2,1,1,1,0,2,2,2
+dificult,user comment,NOUN,2,1,0,1,0,1,0,2
+remember,user comment,VERB,2,2,1,2,2,2,0,2
+rank,user comment,VERB,2,1,1,0,1,0,0,1
+depth,user comment,NOUN,2,1,2,0,1,1,1,1
+heat,user comment,NOUN,2,2,2,2,2,2,1,1
+grow,user comment,VERB,2,2,2,1,1,2,0,0
+group,user comment,NOUN,2,1,1,1,2,2,0,1
+nice,user comment,ADJ,2,0,1,1,0,1,1,1
+illusion,user comment,NOUN,2,1,1,0,1,2,0,0
+icon,user comment,NOUN,2,1,2,2,1,2,1,2
+datapoint,user comment,NOUN,2,2,1,1,0,2,0,2
+sentence,user comment,NOUN,2,1,1,2,1,2,0,2
+self,user comment,NOUN,2,0,1,1,0,1,0,2
+select,user comment,VERB,2,1,1,2,1,1,0,1
+seismic,user comment,ADJ,2,1,1,2,2,1,1,1
+segment,user comment,NOUN,2,0,0,2,2,2,0,1
+second,user comment,"ADJ, NOUN",2,0,1,1,2,1,0,2
+screen,user comment,NOUN,2,2,1,1,1,1,0,1
+sound,user comment,"NOUN, VERB",2,2,2,2,2,2,2,2
+soft,user comment,ADJ,2,0,1,0,1,2,1,1
+simplistic,user comment,ADJ,2,1,1,0,0,1,0,0
+define,user comment,VERB,2,1,0,1,2,2,0,0
+hurt,user comment,VERB,2,0,0,0,1,0,2,2
+horizontal,user comment,"ADJ, ADV",2,1,2,0,0,1,0,1
+highlight,user comment,VERB,2,0,0,2,1,1,0,1
+movement,user comment,NOUN,2,1,2,2,0,2,0,1
+move,user comment,VERB,2,1,2,1,0,0,0,1
+monochrome,user comment,NOUN,2,1,1,2,0,2,0,2
+impossible,user comment,ADJ,2,2,1,0,1,2,1,2
+immediately,user comment,ADV,2,0,0,2,2,0,0,0
+component,user comment,NOUN,2,2,1,1,0,1,1,1
+stimulate,user comment,VERB,2,2,2,0,1,2,0,1
+statistic,user comment,NOUN,2,1,1,1,1,2,1,2
+state,user comment,VERB,2,1,1,1,1,1,1,1
+crowded,user comment,ADJ,2,2,0,2,1,2,1,2
+continent,user comment,NOUN,2,2,1,2,2,2,0,2
+suppose,user comment,VERB,2,0,0,0,1,1,0,1
+style,user comment,NOUN,2,2,0,0,0,2,0,0
+consider,user comment,VERB,2,2,1,2,1,2,1,2
+concise,user comment,"ADJ, VERB",2,1,0,2,0,1,1,1
+chemical,user comment,NOUN,2,0,1,2,2,1,0,1
+common,user comment,ADJ,2,1,0,0,2,1,0,2
+column,user comment,NOUN,2,1,1,2,1,1,0,1
+matrix,user comment,NOUN,2,1,0,0,2,2,0,2
+irregular,user comment,"ADJ, NOUN",2,0,2,0,0,0,1,2
+tough,user comment,ADJ,2,2,0,1,1,2,0,1
+tiny,user comment,ADJ,2,2,0,1,1,2,0,2
+thick,user comment,"ADJ, NOUN",2,1,2,0,1,0,0,1
+talk,user comment,VERB,2,0,0,1,0,2,0,2
+cluster,user comment,"NOUN, VERB",2,2,1,2,2,1,0,1
+clue,user comment,NOUN,2,0,1,0,0,0,1,2
+unlabeled,user comment,PROPN,2,1,1,2,1,1,0,1
+uniform,user comment,ADJ,2,0,2,1,0,2,0,0
+undefined,user comment,ADJ,2,1,2,0,1,1,0,1
+bright,user comment,ADJ,2,0,0,2,1,2,0,0
+attention,user comment,NOUN,2,1,1,2,1,2,2,1
+arrangement,user comment,NOUN,2,2,1,1,0,2,1,1
+bold,user comment,"ADJ, NOUN",2,1,0,0,1,2,1,1
+blurry,user comment,ADJ,2,0,0,0,1,2,2,1
+blur,user comment,VERB,2,1,2,1,2,2,0,1
+blank,user comment,ADJ,2,2,0,1,0,1,1,1
+instantly,user comment,ADV,2,1,1,1,1,1,1,2
+limited,user comment,ADJ,2,1,1,1,1,1,0,1
+length,user comment,NOUN,2,1,2,0,0,0,1,0
+left,user comment,ADJ,2,2,2,1,1,1,1,2
+apparent,user comment,ADJ,2,1,1,1,1,0,0,1
+annotation,user comment,"NOUN, PROPN",2,2,0,2,1,2,1,2
+year,user comment,NOUN,2,1,2,1,1,1,1,1
+analysis,user comment,NOUN,2,0,0,0,0,1,0,2
+ambiguous,user comment,ADJ,2,2,2,2,1,1,1,2
+allow,user comment,VERB,2,0,1,1,0,0,0,2
+add,user comment,VERB,2,1,2,1,0,1,1,2
+yellow,user comment,ADJ,1,1,0,0,0,1,1,0
+accurate,user comment,ADJ,1,0,0,0,0,0,0,1
+additional,user comment,ADJ,1,0,0,1,0,0,0,0
+africa,user comment,PROPN,1,1,1,1,1,1,0,1
+application,user comment,NOUN,1,0,1,1,1,1,1,1
+appleale,user comment,VERB,1,0,1,0,1,1,0,0
+bore,user comment,VERB,1,1,1,1,1,1,1,1
+blend,user comment,VERB,1,0,0,0,1,1,1,1
+biology,user comment,NOUN,1,0,0,0,1,0,0,1
+begin,user comment,VERB,1,1,0,0,0,1,0,0
+basic,user comment,ADJ,1,1,0,0,1,0,0,0
+upwards,user comment,ADJ,1,1,1,0,1,1,0,0
+unrelated,user comment,ADJ,1,1,1,1,0,1,1,1
+unreadable,user comment,ADJ,1,0,0,1,0,0,0,0
+unlikely,user comment,ADV,1,1,0,1,0,0,0,1
+unknown,user comment,ADJ,1,1,1,0,0,0,1,0
+uneven,user comment,ADJ,1,1,1,1,0,1,0,0
+undersant,user comment,ADJ,1,1,1,1,1,1,0,1
+center,user comment,NOUN,1,1,1,0,0,1,0,0
+category,user comment,NOUN,1,1,1,1,1,1,0,1
+longitudinal,user comment,ADJ,1,1,1,1,1,1,1,1
+isolate,user comment,VERB,1,1,1,1,0,1,1,1
+intermingle,user comment,VERB,1,1,0,0,0,0,0,1
+interconnect,user comment,VERB,1,1,1,1,0,1,0,0
+intently,user comment,ADV,1,1,1,1,1,1,0,1
+instance,user comment,NOUN,1,1,1,1,1,1,1,1
+location,user comment,NOUN,1,0,1,0,0,1,0,0
+lineage,user comment,NOUN,1,1,0,0,1,0,0,0
+light,user comment,ADJ,1,0,0,0,0,1,1,0
+legible,user comment,ADJ,1,0,0,1,0,0,0,0
+leave,user comment,VERB,1,1,0,1,0,0,1,0
+layman,user comment,NOUN,1,1,0,0,0,1,0,1
+knowledge,user comment,NOUN,1,1,0,0,1,1,0,1
+kind,user comment,NOUN,1,0,1,0,1,1,0,1
+kid,user comment,NOUN,1,0,0,0,1,0,0,0
+join,user comment,VERB,1,1,0,0,0,0,0,1
+meeting,user comment,NOUN,1,1,1,0,1,1,0,1
+inscription,user comment,NOUN,1,1,1,1,0,1,0,0
+ink,user comment,NOUN,1,1,0,1,1,1,0,1
+ineligible,user comment,ADJ,1,1,1,1,0,1,1,1
+incredibly,user comment,ADV,1,0,0,0,1,0,0,1
+increase,user comment,NOUN,1,0,1,0,0,1,0,1
+important,user comment,ADJ,1,0,0,0,1,0,0,1
+imply,user comment,VERB,1,0,1,0,1,1,0,1
+immense,user comment,ADJ,1,1,0,0,0,1,0,1
+imagery,user comment,NOUN,1,1,1,1,0,1,0,0
+mathematical,user comment,ADJ,1,1,0,1,0,1,0,1
+match,user comment,VERB,1,0,1,0,1,1,0,0
+main,user comment,ADJ,1,0,1,1,0,1,0,0
+magnification,user comment,NOUN,1,1,1,1,1,1,1,1
+low,user comment,ADJ,1,1,1,1,1,1,1,1
+lotd,user comment,NOUN,1,1,1,1,1,1,0,1
+identificate,user comment,VERB,1,0,1,1,0,0,0,1
+identical,user comment,ADJ,1,1,1,1,1,1,1,1
+hue,user comment,NOUN,1,1,1,1,0,1,0,1
+horizon,user comment,NOUN,1,0,1,0,1,1,0,0
+holisitic,user comment,ADJ,1,1,1,0,1,0,0,1
+hole,user comment,NOUN,1,1,1,1,1,1,1,1
+histogram,user comment,PROPN,1,1,0,1,1,1,0,1
+money,user comment,NOUN,1,1,1,1,1,1,0,1
+moment,user comment,NOUN,1,0,0,0,0,1,0,1
+model,user comment,VERB,1,1,0,0,1,1,0,1
+misunderstanding,user comment,NOUN,1,0,1,1,0,1,0,1
+middle,user comment,ADJ,1,1,1,1,0,1,1,1
+method,user comment,NOUN,1,1,0,1,1,0,0,0
+message,user comment,NOUN,1,0,0,0,1,1,0,1
+mess,user comment,NOUN,1,1,0,1,0,0,1,0
+mentally,user comment,ADV,1,1,0,1,0,0,1,1
+half,user comment,ADV,1,0,0,0,0,1,0,1
+guide,user comment,NOUN,1,0,1,1,0,1,0,1
+growth,user comment,NOUN,1,1,1,0,1,1,1,1
+great,user comment,ADJ,1,1,0,1,1,1,0,1
+grasp,user comment,VERB,1,0,1,0,0,1,0,1
+node,user comment,NOUN,1,0,1,0,0,0,0,0
+new,user comment,ADJ,1,0,0,0,1,0,0,1
+negative,user comment,ADJ,1,1,0,0,0,1,0,0
+necessary,user comment,ADJ,1,0,1,1,0,1,0,1
+nature,user comment,NOUN,1,1,1,0,1,1,0,1
+nasa,user comment,PROPN,1,0,0,0,1,0,1,1
+mute,user comment,VERB,1,0,1,0,0,1,0,1
+multivariate,user comment,NOUN,1,0,1,0,0,0,0,0
+multipe,user comment,NOUN,1,1,1,1,1,1,0,0
+multicolore,user comment,VERB,1,0,1,0,0,1,1,0
+illogical,user comment,ADJ,1,0,0,1,0,0,0,1
+granularly,user comment,ADJ,1,1,1,0,0,0,1,1
+grab,user comment,VERB,1,0,0,1,0,1,1,0
+good,user comment,ADJ,1,0,0,1,0,1,0,0
+geometry,user comment,NOUN,1,0,1,1,0,1,0,0
+geo,user comment,PROPN,1,1,1,1,1,1,0,1
+gauge,user comment,VERB,1,1,1,1,1,1,1,1
+odd,user comment,ADJ,1,0,1,0,0,1,0,1
+ocean,user comment,PROPN,1,0,0,1,1,0,0,0
+observation,user comment,NOUN,1,1,1,0,1,1,0,0
+novel,user comment,ADJ,1,0,0,0,1,0,0,0
+noisy,user comment,ADJ,1,1,0,0,0,1,0,0
+hierarchy,user comment,NOUN,1,1,1,1,1,0,0,1
+hierarchical,user comment,ADJ,1,1,0,1,0,0,1,1
+hide,user comment,VERB,1,0,1,0,0,1,0,1
+heatmap,user comment,VERB,1,0,0,1,1,0,0,0
+harsh,user comment,ADJ,1,1,0,0,1,1,0,0
+gather,user comment,VERB,1,0,0,0,1,0,0,1
+frightening,user comment,ADJ,1,0,0,0,0,1,1,0
+frame,user comment,NOUN,1,0,0,1,0,0,0,0
+forward,user comment,ADV,1,0,0,0,0,0,0,1
+forbe,user comment,NOUN,1,1,1,1,1,1,0,0
+football,user comment,NOUN,1,0,0,1,1,0,0,1
+part,user comment,NOUN,1,1,1,1,0,0,0,1
+parse,user comment,VERB,1,0,0,0,0,0,0,1
+palette,user comment,PROPN,1,1,0,1,1,1,0,0
+page,user comment,NOUN,1,1,0,1,1,1,0,1
+pacific,user comment,PROPN,1,0,0,1,1,0,0,0
+overwhelming,user comment,ADJ,1,1,0,1,0,0,1,1
+overly,user comment,ADV,1,0,1,0,1,1,0,1
+overlay,user comment,NOUN,1,0,1,0,1,1,0,0
+oval,user comment,NOUN,1,0,1,0,1,1,0,1
+orient,user comment,VERB,1,1,0,1,0,0,1,0
+prominent,user comment,ADJ,1,0,0,1,0,1,0,0
+programming,user comment,NOUN,1,0,0,1,1,0,0,1
+produce,user comment,VERB,1,0,1,0,0,0,0,0
+possible,user comment,ADJ,1,1,1,1,1,1,1,1
+fill,user comment,VERB,1,1,1,1,0,1,0,0
+field,user comment,NOUN,1,0,1,0,0,1,0,0
+fall,user comment,NOUN,1,0,1,0,1,0,0,0
+fairly,user comment,ADV,1,1,1,0,0,1,0,1
+factual,user comment,ADJ,1,1,1,1,0,1,1,1
+extract,user comment,VERB,1,1,1,0,0,1,0,1
+portray,user comment,VERB,1,1,1,1,0,1,0,1
+poor,user comment,ADJ,1,1,0,1,0,1,1,1
+plethora,user comment,NOUN,1,1,0,0,0,1,0,1
+pleasant,user comment,ADJ,1,0,0,0,0,1,1,1
+phylogenetic,user comment,ADJ,1,1,0,0,1,0,0,0
+pellet,user comment,NOUN,1,1,1,1,1,1,0,1
+edge,user comment,NOUN,1,1,1,1,1,1,1,1
+easly,user comment,ADV,1,1,1,1,1,1,0,1
+dull,user comment,ADJ,1,0,0,0,1,1,1,1
+extend,user comment,VERB,1,1,1,0,0,0,0,1
+example,user comment,NOUN,1,0,1,1,1,1,1,1
+examination,user comment,NOUN,1,1,1,1,0,0,0,1
+evolutionary,user comment,ADJ,1,1,0,0,1,0,0,0
+evne,user comment,ADV,1,0,1,0,0,0,0,1
+everybody,user comment,PRON,1,1,1,1,1,1,1,1
+evenly,user comment,ADV,1,0,1,0,0,0,0,0
+error,user comment,NOUN,1,0,1,1,0,0,0,0
+equally,user comment,ADV,1,0,1,0,0,0,0,1
+quantitative,user comment,ADJ,1,1,1,1,1,1,1,1
+purple,user comment,ADJ,1,1,1,1,1,1,0,1
+provoke,user comment,NOUN,1,0,1,1,0,0,0,1
+proportion,user comment,NOUN,1,0,1,0,1,1,0,0
+representation,user comment,NOUN,1,1,0,1,1,1,0,1
+report,user comment,VERB,1,1,1,1,1,1,1,1
+repeat,user comment,VERB,1,0,0,1,0,0,0,1
+relationship,user comment,NOUN,1,0,1,0,1,1,0,0
+regularity,user comment,NOUN,1,0,1,1,1,1,1,1
+register,user comment,VERB,1,0,0,0,1,1,0,0
+regard,user comment,NOUN,1,1,1,1,0,1,1,1
+reduce,user comment,VERB,1,1,0,1,1,1,0,1
+rectangular,user comment,ADJ,1,0,1,0,0,1,0,0
+receede,user comment,VERB,1,0,1,0,1,1,0,0
+realize,user comment,VERB,1,1,1,1,0,1,1,1
+ratio,user comment,NOUN,1,1,1,1,0,1,0,1
+end,user comment,VERB,1,1,0,0,0,1,0,0
+effort,user comment,NOUN,1,1,0,1,1,1,0,1
+efffort,user comment,NOUN,1,1,0,0,0,1,1,1
+effect,user comment,NOUN,1,1,1,1,1,1,1,1
+division,user comment,NOUN,1,1,0,1,0,0,0,0
+diverge,user comment,VERB,1,1,1,1,0,0,0,1
+distract,user comment,VERB,1,0,0,0,0,1,1,1
+disposition,user comment,NOUN,1,1,1,1,1,1,1,1
+discordant,user comment,ADJ,1,0,0,1,0,1,1,0
+directiopns,user comment,NOUN,1,0,1,0,0,0,0,1
+direction,user comment,NOUN,1,1,1,1,0,0,0,1
+dimensional,user comment,ADJ,1,1,1,1,1,1,0,0
+diffuse,user comment,ADJ,1,1,1,0,1,1,0,1
+saturation,user comment,NOUN,1,0,0,0,0,1,0,0
+row,user comment,NOUN,1,1,1,1,1,1,0,1
+route,user comment,NOUN,1,1,1,1,0,0,0,1
+round,user comment,ADJ,1,0,0,0,1,0,0,0
+rotation,user comment,NOUN,1,0,0,1,0,1,0,1
+result,user comment,NOUN,1,1,0,0,0,0,0,0
+resemble,user comment,VERB,1,1,1,1,1,1,1,1
+decode,user comment,VERB,1,1,1,1,0,0,0,1
+decipherable,user comment,ADJ,1,1,1,0,0,0,0,1
+date,user comment,NOUN,1,1,1,1,1,1,1,1
+dataset,user comment,NOUN,1,1,0,1,0,1,0,0
+dash,user comment,VERB,1,1,1,1,1,1,1,1
+cut,user comment,VERB,1,0,1,1,1,1,1,1
+section,user comment,NOUN,1,1,1,1,0,1,0,0
+sec,user comment,PROPN,1,0,0,0,0,1,0,1
+scientific,user comment,ADJ,1,1,0,1,1,0,0,0
+school,user comment,NOUN,1,1,0,1,1,0,0,1
+difficulty,user comment,NOUN,1,0,0,0,0,0,0,1
+differnent,user comment,NOUN,1,1,1,0,1,1,0,0
+diagram,user comment,NOUN,1,1,0,1,0,1,0,1
+depict,user comment,VERB,1,1,1,0,0,0,1,1
+denser,user comment,PROPN,1,0,1,0,1,1,0,0
+delineate,user comment,VERB,1,0,1,1,1,0,0,0
+squint,user comment,VERB,1,0,0,0,1,1,1,1
+squeeze,user comment,VERB,1,0,0,1,1,0,0,1
+spot,user comment,NOUN,1,0,1,0,0,0,1,1
+sport,user comment,NOUN,1,1,1,1,1,1,0,0
+spiral,user comment,NOUN,1,1,0,0,0,0,0,0
+specie,user comment,NOUN,1,1,0,0,1,0,0,0
+specialized,user comment,ADJ,1,1,1,1,1,1,1,1
+spatial,user comment,ADJ,1,1,1,1,1,1,0,1
+sparse,user comment,ADJ,1,1,0,1,1,1,0,1
+sort,user comment,VERB,1,0,1,0,0,1,0,1
+solve,user comment,VERB,1,1,1,1,1,1,1,1
+smooth,user comment,ADJ,1,0,1,0,0,0,0,0
+single,user comment,ADJ,1,1,0,0,0,1,0,0
+short,user comment,ADJ,1,0,1,1,0,0,0,1
+deduce,user comment,VERB,1,0,0,0,0,0,0,1
+decrease,user comment,NOUN,1,0,1,0,0,1,0,1
+stick,user comment,NOUN,1,1,1,1,0,1,0,1
+start,user comment,VERB,1,1,0,1,1,1,0,1
+star,user comment,VERB,1,1,1,1,1,1,1,1
+stand,user comment,VERB,1,0,0,1,1,1,0,0
+cue,user comment,NOUN,1,1,1,0,0,1,0,0
+cube,user comment,NOUN,1,1,1,0,1,1,0,1
+cryptic,user comment,ADJ,1,0,1,1,0,0,0,1
+crop,user comment,VERB,1,0,1,0,0,0,0,0
+criterion,user comment,NOUN,1,1,1,0,0,0,0,1
+create,user comment,VERB,1,1,1,1,0,0,0,1
+cramp,user comment,VERB,1,1,0,1,0,1,1,1
+countriesr,user comment,NOUN,1,0,0,1,1,1,0,1
+copy,user comment,NOUN,1,1,1,0,0,1,0,0
+cool,user comment,ADJ,1,1,0,1,0,1,1,1
+stage,user comment,NOUN,1,1,1,0,1,1,1,1
+stack,user comment,VERB,1,1,1,1,1,1,1,1
+subjetc,user comment,NOUN,1,0,0,1,1,0,0,1
+subject,user comment,NOUN,1,0,0,1,0,0,0,0
+study,user comment,VERB,1,1,1,1,1,1,0,1
+contain,user comment,VERB,1,1,1,1,0,1,0,1
+consume,user comment,VERB,1,0,0,0,0,0,0,1
+consistent,user comment,ADJ,1,1,1,1,0,0,1,1
+concept,user comment,NOUN,1,1,1,1,0,1,1,1
+computer,user comment,NOUN,1,1,0,0,1,0,0,0
+compound,user comment,NOUN,1,0,1,1,1,0,0,1
+composition,user comment,NOUN,1,1,1,1,0,1,1,1
+struggle,user comment,VERB,1,0,1,0,0,0,1,1
+strip,user comment,VERB,1,0,1,1,0,1,0,0
+stretch,user comment,VERB,1,0,1,0,1,1,0,1
+strange,user comment,ADJ,1,1,1,0,0,0,1,1
+story,user comment,NOUN,1,1,1,0,1,0,0,1
+stimulus,user comment,NOUN,1,1,1,0,0,0,0,0
+circular,user comment,ADJ,1,0,1,0,0,1,0,0
+chaotic,user comment,ADJ,1,1,0,0,0,0,1,0
+completely,user comment,ADV,1,1,1,0,0,1,0,0
+company,user comment,NOUN,1,1,1,1,1,1,0,0
+comfortable,user comment,ADJ,1,0,0,0,0,0,0,1
+cohesive,user comment,ADJ,1,1,1,1,1,1,1,1
+coefficients,user comment,PROPN,1,1,1,0,1,1,1,1
+cod,user comment,VERB,1,1,1,1,1,1,1,1
+cluter,user comment,NOUN,1,1,1,1,0,1,0,1
+system,user comment,NOUN,1,1,1,0,0,0,0,1
+surroundingsfeel,user comment,NOUN,1,1,1,0,1,1,1,1
+surface,user comment,NOUN,1,1,1,1,1,1,1,1
+superposition,user comment,NOUN,1,1,1,1,1,1,1,1
+summarize,user comment,VERB,1,0,0,1,1,1,0,1
+subset,user comment,NOUN,1,1,1,1,0,1,0,1
+subplot,user comment,NOUN,1,1,0,1,0,0,0,1
+tree,user comment,NOUN,1,1,0,0,1,0,0,0
+transport,user comment,VERB,1,1,1,1,0,1,0,0
+train,user comment,VERB,1,1,0,0,1,1,0,1
+traditional,user comment,ADJ,1,1,1,1,1,1,1,1
+totally,user comment,ADV,1,0,1,1,1,1,1,1
+timeline,user comment,NOUN,1,1,1,1,0,1,1,1
+tidy,user comment,VERB,1,0,0,0,0,0,1,0
+tidier,user comment,NOUN,1,1,0,0,0,1,0,1
+thought,user comment,NOUN,1,0,1,1,0,0,0,1
+texture,user comment,NOUN,1,1,1,0,1,1,0,1
+textual,user comment,ADJ,1,1,0,1,0,0,1,1
+technical,user comment,ADJ,1,0,1,0,0,0,0,0
+team,user comment,NOUN,1,1,1,1,1,1,0,0
+tax,user comment,VERB,1,1,0,1,0,0,1,1
+clueless,user comment,ADJ,1,1,1,1,1,1,1,1
+cleaner,user comment,ADV,1,1,0,0,0,1,0,1
+categorize,user comment,VERB,1,0,1,0,0,1,0,1
+catch,user comment,VERB,1,0,1,1,0,1,0,0
+carry,user comment,VERB,1,1,0,1,0,1,0,0
+careful,user comment,ADJ,1,1,1,1,0,0,0,1
+caption,user comment,NOUN,1,0,1,1,0,1,0,1
+capable,user comment,ADJ,1,0,1,0,0,0,0,1
+calligraphy,user comment,NOUN,1,0,0,1,0,1,1,0
+bunch,user comment,NOUN,1,0,0,1,0,1,0,1
+brighter,user comment,ADV,1,0,1,0,1,1,0,1
+break,user comment,VERB,1,1,0,1,1,0,0,1
+brand,user comment,NOUN,1,0,1,0,1,1,0,0
+uncertainty,user comment,NOUN,1,1,0,0,0,1,1,0
+unable,user comment,ADJ,1,0,1,0,0,1,0,1
+ugly,user comment,ADJ,1,0,0,1,0,1,1,0
+try,user comment,VERB,1,1,0,0,0,1,0,1
+trend,user comment,NOUN,1,1,1,0,1,1,0,0
+alphabetical,user comment,PROPN,1,0,1,1,0,1,0,0
+abundance,user comment,NOUN,1,1,1,0,1,1,1,1
+writting,user comment,NOUN,1,1,1,1,0,1,1,1
+accessible,user comment,ADJ,1,1,1,1,1,1,1,1
+account,user comment,NOUN,1,1,1,1,0,1,1,1
+vision,user comment,NOUN,1,0,0,0,1,0,1,1
+virtually,user comment,ADV,1,1,0,0,0,1,0,1
+vibrant,user comment,ADJ,1,1,1,1,0,1,1,1
+versus,user comment,ADP,1,0,1,0,0,1,0,1
+varation,user comment,PROPN,1,0,1,1,0,1,0,1
+vale,user comment,NOUN,1,0,1,1,0,0,0,0
+vague,user comment,ADJ,1,0,0,1,0,0,0,0
+axes,user comment,PROPN,1,0,0,1,0,0,0,0
+available,user comment,ADJ,1,1,1,0,1,0,0,1
+assortment,user comment,NOUN,1,1,1,1,0,1,0,0
+assimulate,user comment,VERB,1,0,1,0,0,0,0,1
+job,user comment,NOUN,1,1,0,1,1,1,0,1
+jerusalem,user comment,PROPN,1,1,1,1,1,1,1,1
+wise,user comment,ADJ,1,1,1,1,0,1,1,1
+wind,user comment,NOUN,1,0,0,0,1,0,0,0
+wide,user comment,ADJ,1,0,1,0,1,1,0,0
+weight,user comment,NOUN,1,0,0,1,1,0,0,0
+weather,user comment,NOUN,1,0,0,1,1,0,0,0
+wavy,user comment,ADJ,1,0,1,1,0,0,0,1
+wavelet,user comment,PROPN,1,1,1,0,1,1,1,1
+water,user comment,NOUN,1,0,1,0,1,0,0,0
+want,user comment,VERB,1,1,0,1,1,1,0,0
+apart,user comment,ADP,1,1,1,1,1,1,0,1
+animal,user comment,NOUN,1,1,1,1,1,1,0,0
+analyse,user comment,PROPN,1,1,0,0,0,1,0,0
+amount,user comment,VERB,1,0,1,0,0,0,0,1
+ammount,user comment,NOUN,1,1,0,0,0,1,0,0
+co-occurrence-matrix,literature,,,,,,,,,
+cognitive,literature,,,,,,,,,
+coherence,literature,,,,,,,,,
+compactness,literature,,,,,,,,,
+compression,literature,,,,,,,,,
+congestion,literature,,,,,,,,,
+congestion,literature,,,,,,,,,
+diversity,literature,,,,,,,,,
+entropy,literature,,,,,,,,,
+harmony,literature,,,,,,,,,
+heterogeneity,literature,,,,,,,,,
+luminance,literature,,,,,,,,,
+material,literature,,,,,,,,,
+meaningfulness,literature,,,,,,,,,
+perceivability,literature,,,,,,,,,
+prototypicality,literature,,,,,,,,,
+skeleton,literature,,,,,,,,,
+strength,literature,,,,,,,,,
+symmetry,literature,,,,,,,,,
+turn,literature,,,,,,,,,
+cognitive-load,literature,,,,,,,,,
