@@ -1,0 +1,237 @@
+stem,POS,source,totalImages
+datum,NOUN,user comment,48.0
+confuse,"ADJ, VERB",user comment,19.0
+know,VERB,user comment,18.0
+mean,"NOUN, VERB",user comment,17.0
+write,"NOUN, VERB",user comment,13.0
+need,"NOUN, VERB",user comment,12.0
+go,VERB,user comment,12.0
+show,VERB,user comment,11.0
+idea,NOUN,user comment,8.0
+mix,"NOUN, VERB",user comment,8.0
+thing,NOUN,user comment,7.0
+sure,ADJ,user comment,6.0
+distribute,"NOUN, VERB",user comment,5.0
+require,VERB,user comment,5.0
+relate,"ADV, NOUN, VERB",user comment,5.0
+indicate,NOUN,user comment,5.0
+take,VERB,user comment,5.0
+bit,NOUN,user comment,5.0
+name,NOUN,user comment,5.0
+big,ADJ,user comment,4.0
+involve,"ADJ, VERB",user comment,4.0
+layer,"NOUN, VERB",user comment,4.0
+recognize,VERB,user comment,4.0
+not,PART,user comment,4.0
+stuff,NOUN,user comment,3.0
+think,VERB,user comment,3.0
+arrow,NOUN,user comment,3.0
+certain,ADJ,user comment,3.0
+term,NOUN,user comment,3.0
+give,VERB,user comment,3.0
+ease,NOUN,user comment,3.0
+pack,"ADJ, VERB",user comment,3.0
+able,ADJ,user comment,3.0
+learn,VERB,user comment,2.0
+jumble,"NOUN, VERB",user comment,2.0
+work,VERB,user comment,2.0
+place,NOUN,user comment,2.0
+parameter,NOUN,user comment,2.0
+glean,VERB,user comment,2.0
+feature,NOUN,user comment,2.0
+far,ADV,user comment,2.0
+fact,NOUN,user comment,2.0
+num,NOUN,user comment,2.0
+non,"ADJ, PROPN",user comment,2.0
+dificult,NOUN,user comment,2.0
+rank,VERB,user comment,2.0
+grow,VERB,user comment,2.0
+group,NOUN,user comment,2.0
+nice,ADJ,user comment,2.0
+icon,NOUN,user comment,2.0
+datapoint,NOUN,user comment,2.0
+sentence,NOUN,user comment,2.0
+select,VERB,user comment,2.0
+segment,NOUN,user comment,2.0
+second,"ADJ, NOUN",user comment,2.0
+sound,"NOUN, VERB",user comment,2.0
+define,VERB,user comment,2.0
+hurt,VERB,user comment,2.0
+highlight,VERB,user comment,2.0
+move,VERB,user comment,2.0
+component,NOUN,user comment,2.0
+stimulate,VERB,user comment,2.0
+statistic,NOUN,user comment,2.0
+state,VERB,user comment,2.0
+suppose,VERB,user comment,2.0
+column,NOUN,user comment,2.0
+thick,"ADJ, NOUN",user comment,2.0
+talk,VERB,user comment,2.0
+clue,NOUN,user comment,2.0
+allow,VERB,user comment,2.0
+add,VERB,user comment,2.0
+appleale,VERB,user comment,1.0
+bore,VERB,user comment,1.0
+blend,VERB,user comment,1.0
+begin,VERB,user comment,1.0
+undersant,ADJ,user comment,1.0
+category,NOUN,user comment,1.0
+isolate,VERB,user comment,1.0
+intermingle,VERB,user comment,1.0
+interconnect,VERB,user comment,1.0
+intently,ADV,user comment,1.0
+instance,NOUN,user comment,1.0
+lineage,NOUN,user comment,1.0
+leave,VERB,user comment,1.0
+layman,NOUN,user comment,1.0
+kind,NOUN,user comment,1.0
+kid,NOUN,user comment,1.0
+join,VERB,user comment,1.0
+inscription,NOUN,user comment,1.0
+ineligible,ADJ,user comment,1.0
+incredibly,ADV,user comment,1.0
+imply,VERB,user comment,1.0
+match,VERB,user comment,1.0
+lotd,NOUN,user comment,1.0
+identificate,VERB,user comment,1.0
+hue,NOUN,user comment,1.0
+holisitic,ADJ,user comment,1.0
+hole,NOUN,user comment,1.0
+moment,NOUN,user comment,1.0
+misunderstanding,NOUN,user comment,1.0
+method,NOUN,user comment,1.0
+mess,NOUN,user comment,1.0
+great,ADJ,user comment,1.0
+new,ADJ,user comment,1.0
+nature,NOUN,user comment,1.0
+mute,VERB,user comment,1.0
+multipe,NOUN,user comment,1.0
+multicolore,VERB,user comment,1.0
+granularly,ADJ,user comment,1.0
+grab,VERB,user comment,1.0
+gauge,VERB,user comment,1.0
+observation,NOUN,user comment,1.0
+hide,VERB,user comment,1.0
+gather,VERB,user comment,1.0
+frightening,ADJ,user comment,1.0
+forward,ADV,user comment,1.0
+forbe,NOUN,user comment,1.0
+orient,VERB,user comment,1.0
+produce,VERB,user comment,1.0
+fall,NOUN,user comment,1.0
+portray,VERB,user comment,1.0
+easly,ADV,user comment,1.0
+extend,VERB,user comment,1.0
+example,NOUN,user comment,1.0
+evne,ADV,user comment,1.0
+everybody,PRON,user comment,1.0
+provoke,NOUN,user comment,1.0
+proportion,NOUN,user comment,1.0
+report,VERB,user comment,1.0
+repeat,VERB,user comment,1.0
+relationship,NOUN,user comment,1.0
+register,VERB,user comment,1.0
+regard,NOUN,user comment,1.0
+reduce,VERB,user comment,1.0
+receede,VERB,user comment,1.0
+realize,VERB,user comment,1.0
+end,VERB,user comment,1.0
+efffort,NOUN,user comment,1.0
+division,NOUN,user comment,1.0
+distract,VERB,user comment,1.0
+disposition,NOUN,user comment,1.0
+directiopns,NOUN,user comment,1.0
+direction,NOUN,user comment,1.0
+row,NOUN,user comment,1.0
+route,NOUN,user comment,1.0
+rotation,NOUN,user comment,1.0
+result,NOUN,user comment,1.0
+resemble,VERB,user comment,1.0
+dash,VERB,user comment,1.0
+cut,VERB,user comment,1.0
+section,NOUN,user comment,1.0
+sec,PROPN,user comment,1.0
+differnent,NOUN,user comment,1.0
+depict,VERB,user comment,1.0
+delineate,VERB,user comment,1.0
+squint,VERB,user comment,1.0
+squeeze,VERB,user comment,1.0
+spot,NOUN,user comment,1.0
+sport,NOUN,user comment,1.0
+spiral,NOUN,user comment,1.0
+specie,NOUN,user comment,1.0
+solve,VERB,user comment,1.0
+deduce,VERB,user comment,1.0
+star,VERB,user comment,1.0
+stand,VERB,user comment,1.0
+cue,NOUN,user comment,1.0
+cube,NOUN,user comment,1.0
+criterion,NOUN,user comment,1.0
+create,VERB,user comment,1.0
+cramp,VERB,user comment,1.0
+countriesr,NOUN,user comment,1.0
+copy,NOUN,user comment,1.0
+cool,ADJ,user comment,1.0
+stage,NOUN,user comment,1.0
+stack,VERB,user comment,1.0
+subjetc,NOUN,user comment,1.0
+contain,VERB,user comment,1.0
+consume,VERB,user comment,1.0
+consistent,ADJ,user comment,1.0
+struggle,VERB,user comment,1.0
+strip,VERB,user comment,1.0
+stretch,VERB,user comment,1.0
+completely,ADV,user comment,1.0
+company,NOUN,user comment,1.0
+cod,VERB,user comment,1.0
+cluter,NOUN,user comment,1.0
+surroundingsfeel,NOUN,user comment,1.0
+summarize,VERB,user comment,1.0
+subset,NOUN,user comment,1.0
+transport,VERB,user comment,1.0
+train,VERB,user comment,1.0
+tidier,NOUN,user comment,1.0
+textual,ADJ,user comment,1.0
+tax,VERB,user comment,1.0
+clueless,ADJ,user comment,1.0
+cleaner,ADV,user comment,1.0
+categorize,VERB,user comment,1.0
+catch,VERB,user comment,1.0
+caption,NOUN,user comment,1.0
+capable,ADJ,user comment,1.0
+bunch,NOUN,user comment,1.0
+break,VERB,user comment,1.0
+try,VERB,user comment,1.0
+alphabetical,PROPN,user comment,1.0
+writting,NOUN,user comment,1.0
+accessible,ADJ,user comment,1.0
+account,NOUN,user comment,1.0
+versus,ADP,user comment,1.0
+varation,PROPN,user comment,1.0
+vale,NOUN,user comment,1.0
+assimulate,VERB,user comment,1.0
+job,NOUN,user comment,1.0
+jerusalem,PROPN,user comment,1.0
+water,NOUN,user comment,1.0
+want,VERB,user comment,1.0
+analyse,PROPN,user comment,1.0
+ammount,NOUN,user comment,1.0
+co-occurrence-matrix,,literature,
+coherence,,literature,
+compactness,,literature,
+compression,,literature,
+congestion,,literature,
+congestion,,literature,
+entropy,,literature,
+harmony,,literature,
+heterogeneity,,literature,
+luminance,,literature,
+material,,literature,
+meaningfulness,,literature,
+perceivability,,literature,
+prototypicality,,literature,
+skeleton,,literature,
+strength,,literature,
+symmetry,,literature,
+turn,,literature,
+cognitive-load,,literature,

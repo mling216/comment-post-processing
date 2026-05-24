@@ -1,0 +1,7 @@
+topic,phrase,sentiment,num_images
+"Color, Symbol, and Texture Details",more pixels,(+),1
+Data Density / Image Clutter,disposition,(+),1
+Semantics / Text Legibility,dates,(+),1
+Visual Encoding Clarity,misaligned,(+),1
+Visual Encoding Clarity,no interaction,(-),1
+Visual Encoding Clarity,nonlinearity,(+),2

@@ -1,0 +1,1511 @@
+oar_term,n_phrase_match,matched_phrases
+unclear_color_value_meaning,55,axis meaning | black color | black-to-white/color gradient | blue color | clear color uses
+unclear_color_representation,54,black color | black-to-white/color gradient | blue color | clear color uses | color details
+unclear_color_meaning,52,axis meaning | black color | black-to-white/color gradient | blue color | clear color uses
+color_meaning_unclear,52,axis meaning | black color | black-to-white/color gradient | blue color | clear color uses
+many_lines_of_text,47,amount of / too many colors | bars as individual lines | clear text arrangement/density | clear text/scale/information | code/text
+unclear_color_differentiation,46,black color | black-to-white/color gradient | blue color | clear color uses | color details
+colors_unclear_meaning,45,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | axis meaning
+clear_color_difference,44,black color | black-to-white/color gradient | blue color | clear and concise | clear color uses
+no_clear_color_scheme,43,black color | black-to-white/color gradient | blue color | clear and concise | clear color uses
+hard_to_read_shape,43,colored shape | dense/cluttered shape | description easy to read | easier to interpret/read/understand | easier to read
+clear_color_differentiation,43,black color | black-to-white/color gradient | blue color | clear and concise | clear color uses
+many_different_colors,41,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+color_meaning_undefined,41,axis meaning | black color | black-to-white/color gradient | blue color | clear color uses
+poorly_defined_color_legend,40,black color | black-to-white/color gradient | blue color | clear color uses | color details
+many_text_elements,40,amount of / too many colors | clear text arrangement/density | clear text/scale/information | code/text | context/text/description
+unclear_shape_meaning,40,axis meaning | colored shape | dense/cluttered shape | different word meaning | distracting/confusing/unclear
+no_easy_color_distinction,39,black color | black-to-white/color gradient | blue color | clear color uses | color details
+too_many_similar_colors,38,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+many_shapes_present,38,abstract shapes or colors | amount of / too many colors | categorized shapes | clear colors/shapes | curves and shapes
+too_many_shapes,38,abstract shapes or colors | amount of / too many colors | categorized shapes | clear colors/shapes | curves and shapes
+many_unique_colors,38,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+not_simple_color_wise,37,black color | black-to-white/color gradient | blue color | clear color uses | color details
+multiple_color_codes,37,black color | black-to-white/color gradient | blue color | clear color uses | color details
+multiple_color_keys_present,37,black color | black-to-white/color gradient | blue color | clear color uses | color details
+multiple_color_schemes,37,black color | black-to-white/color gradient | blue color | clear color uses | color details
+colors_hard_to_distinguish,37,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+multiple_color_variations,37,black color | black-to-white/color gradient | blue color | clear color uses | color details
+multiple_color_shades,37,black color | black-to-white/color gradient | blue color | clear color uses | color details
+multiple_color_differences,37,black color | black-to-white/color gradient | blue color | clear color uses | color details
+color_variation_present,36,black color | black-to-white/color gradient | blue color | clear color uses | color details
+many_distinct_colors,36,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+variation_in_color_shades,36,black color | black-to-white/color gradient | blue color | clear color uses | color details
+many_colors_used,36,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+many_colors_present,36,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+too_many_colors,36,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+confusing_color_variety,36,ambiguous/confusing colors | black color | black-to-white/color gradient | blue color | clear color uses
+high_color_variation,36,black color | black-to-white/color gradient | blue color | clear color uses | color details
+hard_to_identify_colors,36,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+multiple_different_shapes,35,abstract shapes or colors | categorized shapes | clear colors/shapes | curves and shapes | dense points/lines/shapes/elements
+mixed_color_variety,35,black color | black-to-white/color gradient | blue color | clear color uses | color details
+colors_carry_no_meaning,35,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | axis meaning
+multiple_different_colors,35,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+colors_carry_meaning,35,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | axis meaning
+colors_convey_meaning,35,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | axis meaning
+too_much_color,34,black color | black-to-white/color gradient | blue color | clear color uses | color details
+clear_and_easy_to_read,34,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+similar_color_palette,34,black color | black-to-white/color gradient | blue color | clear color uses | color details
+color_scale_encoding,34,black color | black-to-white/color gradient | blue color | clear color uses | clear text/scale/information
+clear_recognizable_shape,34,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+low_color_contrast,34,black color | black-to-white/color gradient | blue color | clear color uses | color details
+random_color_usage,34,black color | black-to-white/color gradient | blue color | clear color uses | color details
+nonlinear_color_scale,34,black color | black-to-white/color gradient | blue color | clear color uses | clear text/scale/information
+complex_color_arrangement,34,black color | black-to-white/color gradient | blue color | clear color uses | clear text arrangement/density
+varying_size_of_shapes,33,abstract shapes or colors | categorized shapes | clear colors/shapes | curves and shapes | dense points/lines/shapes/elements
+multiple_colors_mixed,33,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+single_color_used,33,black color | black-to-white/color gradient | blue color | clear color uses | color details
+use_of_color_aids_clarity,33,black color | black-to-white/color gradient | blue color | clear color uses | color details
+too_many_lines,33,amount of / too many colors | bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines
+varied_color_distribution,33,black color | black-to-white/color gradient | blue color | clear color uses | color details
+values_separated_by_color,33,black color | black-to-white/color gradient | blue color | clear color uses | color details
+many_data_points_present,33,amount of / too many colors | clustered data/info | data intersection | data trend | dense points/lines/shapes/elements
+many_lines_present,33,amount of / too many colors | bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines
+too_many_data_points,33,amount of / too many colors | clustered data/info | data intersection | data trend | dense points/lines/shapes/elements
+high_color_contrast,33,black color | black-to-white/color gradient | blue color | clear color uses | color details
+bad_contrast_color_choice,33,black color | black-to-white/color gradient | blue color | clear color uses | color details
+segmented_color_regions,33,black color | black-to-white/color gradient | blue color | clear color uses | color details
+weird_color_contrast,33,black color | black-to-white/color gradient | blue color | clear color uses | color details
+different_shapes_and_sizes,33,abstract shapes or colors | categorized shapes | clear colors/shapes | curves and shapes | dense points/lines/shapes/elements
+single_color_only,33,black color | black-to-white/color gradient | blue color | clear color uses | color details
+many_data_points,33,amount of / too many colors | clustered data/info | data intersection | data trend | dense points/lines/shapes/elements
+appealing_color_choices,33,appealing colors | black color | black-to-white/color gradient | blue color | clear color uses
+overlapping_color_superposition,33,black color | black-to-white/color gradient | blue color | clear color uses | color details
+strong_color_contrast,33,black color | black-to-white/color gradient | blue color | clear color uses | color details
+uneven_color_distribution,33,black color | black-to-white/color gradient | blue color | clear color uses | color details
+easy_to_read_axis,33,axis meaning | axis numbers | axis scales | clear title/axis/label | description easy to read
+separate_color_scale,33,black color | black-to-white/color gradient | blue color | clear color uses | clear text/scale/information
+increased_color_variety,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+different_colors_confusing,32,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+many_different_elements,32,amount of / too many colors | dense points/lines/shapes/elements | different clarity | different font/word sizes/structure | different labels
+totally_arbitrary_color_application,32,arbitrary imaging | black color | black-to-white/color gradient | blue color | clear color uses
+background_color_adds_complexity,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+varied_color_formats,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+color_encoding_used,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+black_background_color,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+gradient_color_encoding,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+soft_color_tones,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+complex_color_scheme,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+multiple_unique_colors,32,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+monochrome_color_used,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+no_color_difference,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+two_color_dimensions,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+high_color_variety,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+varied_color_usage,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+black_color_present,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+distinct_color_variety,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+low_color_diversity,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+limited_color_variety,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+same_color_used,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+only_black_color,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+color_choice_complex,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+low_color_distinguishability,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+bold_color_usage,32,black color | black-to-white/color gradient | blue color | bold colors | clear color uses
+less_color_variety,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+varied_color_wording,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+insufficient_color_variety,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+orange_color_complex,32,black color | black-to-white/color gradient | blue color | clear color uses | color details
+different_colors_distinguishable,32,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+distinct_color_separation,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+good_color_choices,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+color_shades_vary,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+poor_color_choices,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+no_color_guide_present,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+green_color_present,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+yellow_color_present,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+color_adds_factor_to_consider,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+boring_color_choice,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+various_color_shades,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+limited_color_range,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+high_color_saturation,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+color_adds_complexity,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+excessive_color_count,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+color_coded_separation,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+weird_color_palette,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+high_color_variability,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+color_coding_present,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+limited_color_count,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+very_weird_color,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+contrasting_color_scheme,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+poor_color_choice,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+undefined_color,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+gradient_color_transition,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+discordant_color_choice,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+dark_green_color,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+harsh_red_color,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+distinct_color_hues,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+wide_color_range,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+notable_color_differences,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+high_color_intensity,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+grouped_by_color,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+dark_green_color_used,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+limited_color_segments,31,black color | black-to-white/color gradient | blue color | clear color uses | color details
+multiple_unique_shapes,31,abstract shapes or colors | categorized shapes | clear colors/shapes | curves and shapes | dense points/lines/shapes/elements
+multiple_colors_used,30,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+layered_shapes_and_details,30,abstract shapes or colors | categorized shapes | clear colors/shapes | color details | curves and shapes
+cluttered_data_elements,30,clustered data/info | cluttered labels/annotations | data intersection | data trend | dense points/lines/shapes/elements
+multiple_colors_distributed,30,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+complex_arrangement_of_shapes,30,abstract shapes or colors | categorized shapes | clear colors/shapes | clear text arrangement/density | color variety/arrangement/distribution
+varied_number_of_shapes,30,abstract shapes or colors | categorized shapes | clear colors/shapes | curves and shapes | dense points/lines/shapes/elements
+multiple_colors_present,30,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+multiple_distinct_colors,30,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+high_number_of_shapes,30,abstract shapes or colors | categorized shapes | clear colors/shapes | curves and shapes | dense points/lines/shapes/elements
+multiple_colors_same_area,30,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+readable_text_elements,30,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | dense points/lines/shapes/elements
+different_colors_used,29,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+number_of_colors,29,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+many_data_aspects_present,29,amount of / too many colors | clustered data/info | data intersection | data trend | dense/cluttered data/info
+orange_colored_shapes,29,abstract shapes or colors | categorized shapes | clear colored bars/charts | clear colors/shapes | colored bars/charts
+different_colors_present,29,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+all_colors_very_different,29,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+number_of_colors_manageable,29,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+high_number_of_colors,29,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+multiple_distinct_shapes,29,abstract shapes or colors | categorized shapes | clear colors/shapes | curves and shapes | dense points/lines/shapes/elements
+many_data_items,29,amount of / too many colors | clustered data/info | data intersection | data trend | dense/cluttered data/info
+many_text_boxes_present,29,amount of / too many colors | clear text arrangement/density | clear text/scale/information | code/text | context/text/description
+unclear_data_message,29,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+overlapping_data_elements,29,clustered data/info | data intersection | data trend | dense points/lines/shapes/elements | dense/cluttered data/info
+multiple_shapes_present,29,abstract shapes or colors | categorized shapes | clear colors/shapes | curves and shapes | dense points/lines/shapes/elements
+multiple_scale_lines,28,bars as individual lines | clear text/scale/information | color scale/scheme | curved lines | dense points/lines/shapes/elements
+large_amount_of_shapes,28,abstract shapes or colors | amount of / too many colors | amount of words/context/numbers | categorized shapes | clear colors/shapes
+many_visual_elements,28,amount of / too many colors | dense points/lines/shapes/elements | few points/lines/shapes/elements | intense/too many colors | less organized elements
+random_like_shapes,28,abstract shapes or colors | categorized shapes | clear colors/shapes | curves and shapes | dense points/lines/shapes/elements
+variety_of_shapes,28,abstract shapes or colors | categorized shapes | clear colors/shapes | color variety/arrangement/distribution | curves and shapes
+range_and_contrast_of_colors,28,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+higher_contrast_colors,28,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+information_over_many_years,28,amount of / too many colors | change over time | clear text/scale/information | diverse information | factual information
+numerous_text_elements,27,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | dense points/lines/shapes/elements
+many_elements_same_area,27,amount of / too many colors | dense points/lines/shapes/elements | few points/lines/shapes/elements | intense/too many colors | less organized elements
+curve_lines_simple,27,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+few_colors_used,27,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+variety_of_bright_colors,27,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+many_box_elements,27,amount of / too many colors | dense points/lines/shapes/elements | few points/lines/shapes/elements | intense/too many colors | less organized elements
+wide_variety_of_colors,27,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+visually_confusing_lines,27,ambiguous/confusing colors | bars as individual lines | confusing connection | curved lines | dense points/lines/shapes/elements
+sparse_data_elements,27,clustered data/info | data intersection | data trend | dense points/lines/shapes/elements | dense/cluttered data/info
+variety_of_colors,27,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+absent_text_elements,27,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | dense points/lines/shapes/elements
+more_unrelated_data_elements,27,clustered data/info | data intersection | data trend | dense points/lines/shapes/elements | dense/cluttered data/info
+shapes_aid_interpretation,27,abstract shapes or colors | categorized shapes | clear colors/shapes | curves and shapes | dense points/lines/shapes/elements
+many_individual_elements,27,amount of / too many colors | bars as individual lines | dense points/lines/shapes/elements | few points/lines/shapes/elements | intense/too many colors
+country_shapes_familiar,26,abstract shapes or colors | categorized shapes | clear colors/shapes | curves and shapes | dense points/lines/shapes/elements
+multiple_data_points,26,clustered data/info | data intersection | data trend | dense points/lines/shapes/elements | dense/cluttered data/info
+similar_colors,26,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+similar_colors_used,26,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+too_many_elements,26,amount of / too many colors | dense points/lines/shapes/elements | few points/lines/shapes/elements | intense/too many colors | less organized elements
+information_shown_in_text,26,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | crop production shown
+odd_irregular_shapes,26,abstract shapes or colors | categorized shapes | clear colors/shapes | curves and shapes | dense points/lines/shapes/elements
+multiple_shape_types,26,colored shape | dense/cluttered shape | hard to read shape | multiple aspects | multiple features/elements/graphs
+complex_geographic_shapes,26,abstract shapes or colors | categorized shapes | clear colors/shapes | complex design | curves and shapes
+colors_aid_interpretation,26,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+less_uniform_shapes,26,abstract shapes or colors | categorized shapes | clear colors/shapes | curves and shapes | dense points/lines/shapes/elements
+distinct_recognizable_shapes,26,abstract shapes or colors | categorized shapes | clear colors/shapes | curves and shapes | dense points/lines/shapes/elements
+axis_data_present,26,axis meaning | axis numbers | axis scales | clear title/axis/label | clustered data/info
+unknown_data_meaning,26,axis meaning | clustered data/info | data intersection | data trend | dense/cluttered data/info
+information_hard_to_extract,26,clear text/scale/information | diverse information | easy to identify/extract/find features | factual information | field information
+complex_geometric_shapes,26,abstract shapes or colors | categorized shapes | clear colors/shapes | complex design | curves and shapes
+many_elements_present,26,amount of / too many colors | dense points/lines/shapes/elements | few points/lines/shapes/elements | intense/too many colors | less organized elements
+multiple_horizontal_lines,26,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+colors_harder_to_look_at,26,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+metric_meaning_unclear,26,axis meaning | different word meaning | distracting/confusing/unclear | easy to derive meaning | label meaning
+colors_too_similar,26,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+many_elements_intermingled,26,amount of / too many colors | dense points/lines/shapes/elements | few points/lines/shapes/elements | intense/too many colors | less organized elements
+similar_looking_colors,26,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+recognizable_country_shapes,26,abstract shapes or colors | categorized shapes | clear colors/shapes | curves and shapes | dense points/lines/shapes/elements
+high_quantity_of_shapes,26,abstract shapes or colors | categorized shapes | clear colors/shapes | curves and shapes | dense points/lines/shapes/elements
+provides_more_data_information,26,clear text/scale/information | clustered data/info | data intersection | data trend | dense/cluttered data/info
+shapes_more_complex,26,abstract shapes or colors | categorized shapes | clear colors/shapes | complex design | curves and shapes
+multiple_overlapping_lines,26,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+visually_harsh_colors,26,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+multiple_lines_present,25,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+difficult_to_read_words,25,amount of words/context/numbers | description easy to read | easier to interpret/read/understand | easier to read | easy to interpret/read/understand
+multiple_interconnecting_lines,25,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+colors_draw_attention,25,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | attention/squinting to understand
+multiple_lines_intersecting,25,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+mixes_several_colors,25,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+various_geometrical_shapes,25,abstract shapes or colors | categorized shapes | clear colors/shapes | curves and shapes | dense points/lines/shapes/elements
+clear_text,25,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+axis_measurements_clear,25,axis meaning | axis numbers | axis scales | clear and concise | clear color uses
+colors_densely_clustered,25,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+varied_colors_present,25,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+colors_more_appealing,25,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+colors_represent_groups,25,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+varied_shapes_present,25,abstract shapes or colors | categorized shapes | clear colors/shapes | curves and shapes | dense points/lines/shapes/elements
+soft_appealing_colors,25,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+varied_dot_colors,25,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+multiple_crossing_lines,25,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+ambiguous_colors_used,25,abstract shapes or colors | ambiguous numbers | ambiguous/confusing colors | amount of / too many colors | appealing colors
+varied_vibrant_colors,25,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+clearer_distinct_colors,25,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+numbers_lack_meaning,25,ambiguous numbers | amount of words/context/numbers | axis meaning | axis numbers | different word meaning
+shapes_represent_subsets,25,abstract shapes or colors | categorized shapes | clear colors/shapes | curves and shapes | dense points/lines/shapes/elements
+more_colors_used,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+two_distinct_colors,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+brighter_colors,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+strongly_contrasting_colors,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+numerous_colors_used,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+colors_involved,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+unclear_representation,24,distracting/confusing/unclear | familiar representation | infomration representation | line quantity representation | metric representation
+hard_to_read,24,description easy to read | easier to interpret/read/understand | easier to read | easy to interpret/read/understand | easy to read
+only_two_colors_used,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+prominent_colors_present,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+unlabeled_legend_data,24,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+various_colors_present,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+dull_and_blended_colors,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+poorly_contrasting_colors,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+muted_colors_used,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+less_clear_information,24,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+more_colors_present,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+identical_colors_both_sides,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+clear_information_presentation,24,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+range_of_colors_present,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+no_colors_used,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+multiple_information_points,24,clear text/scale/information | dense points/lines/shapes/elements | diverse information | factual information | few points/lines/shapes/elements
+many_different_labels,24,amount of / too many colors | cluttered labels/annotations | different clarity | different font/word sizes/structure | different labels
+colors_aid_recognition,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+bright_vivid_colors,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+description_easy_to_read,24,context/text/description | description | description easy to read | easier to interpret/read/understand | easier to read
+intense_colors,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+small_text_size,24,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+same_shade_colors,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+distinct_colors_used,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+no_more_than_three_colors,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+hard_to_ascertain_meaning,24,axis meaning | different word meaning | easy to derive meaning | hard to compare/discern/distinguish | hard to describe
+bold_colors_used,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+only_two_main_colors,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+shape_variety_aids_reading,24,color variety/arrangement/distribution | colored shape | dense/cluttered shape | distinguishable color variety/arrangement/distribution | hard to read shape
+distinguished_distinctive_colors,24,abstract shapes or colors | ambiguous/confusing colors | amount of / too many colors | appealing colors | blended colors
+no_clear_visual_cutoff_points,23,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+dense_information_small_space,23,clear text/scale/information | dense points/lines/shapes/elements | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape
+overlapping_data_points,23,clustered data/info | data intersection | data trend | dense points/lines/shapes/elements | dense/cluttered data/info
+colored_within_shape,23,clear colored bars/charts | colored bars/charts | colored shape | colored surface | dense/cluttered shape
+complex_shape_variety,23,color variety/arrangement/distribution | colored shape | complex design | dense/cluttered shape | distinguishable color variety/arrangement/distribution
+few_data_points,23,clustered data/info | data intersection | data trend | dense points/lines/shapes/elements | dense/cluttered data/info
+two_separate_lines,23,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+text_and_numbers_present,23,ambiguous numbers | amount of words/context/numbers | axis numbers | clear text arrangement/density | clear text/scale/information
+very_few_data_points,23,clustered data/info | data intersection | data trend | dense points/lines/shapes/elements | dense/cluttered data/info
+multivariate_data_representation,23,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+ambiguous_shape_encoding,23,ambiguous numbers | ambiguous/confusing colors | colored shape | dense/cluttered shape | hard to read shape
+unclear_content_meaning,23,axis meaning | different word meaning | distracting/confusing/unclear | easy to derive meaning | label meaning
+unclear_inter_word_relations,23,different font/word sizes/structure | different word meaning | distracting/confusing/unclear | unclear color meaning | unclear coloring
+few_or_no_data_points,23,clustered data/info | data intersection | data trend | dense points/lines/shapes/elements | dense/cluttered data/info
+many_legend_categories,23,amount of / too many colors | explanatory legend | intense/too many colors | lack of legend | lack of/not enough axis labels/legend/annotations/context
+too_many_numbers,23,ambiguous numbers | amount of / too many colors | amount of words/context/numbers | axis numbers | intense/too many colors
+easy_to_identify_elements,22,dense points/lines/shapes/elements | description easy to read | easy to derive meaning | easy to focus/follow | easy to identify/extract/find features
+overlapping_shape_complexity,22,colored shape | dense/cluttered shape | hard to read shape | overall shape | overlapping shapes/colors/lines
+complex_irregular_shape,22,colored shape | complex design | dense/cluttered shape | hard to read shape | irregular
+unclear_semantic_meaning,22,axis meaning | different word meaning | distracting/confusing/unclear | easy to derive meaning | label meaning
+high_shape_variety,22,color variety/arrangement/distribution | colored shape | dense/cluttered shape | distinguishable color variety/arrangement/distribution | hard to read shape
+red_green_meaning_unclear,22,axis meaning | different word meaning | distracting/confusing/unclear | easy to derive meaning | label meaning
+excessive_shape_variety,22,color variety/arrangement/distribution | colored shape | dense/cluttered shape | distinguishable color variety/arrangement/distribution | hard to read shape
+hard_to_distinguish_points,22,dense points/lines/shapes/elements | easier to compare/discern/distinguish | few points/lines/shapes/elements | hard to compare/discern/distinguish | hard to describe
+legend_adds_elements,22,dense points/lines/shapes/elements | explanatory legend | few points/lines/shapes/elements | lack of legend | lack of/not enough axis labels/legend/annotations/context
+single_shape_type,22,colored shape | dense/cluttered shape | hard to read shape | overall shape | shape
+unclear_meaning,22,axis meaning | different word meaning | distracting/confusing/unclear | easy to derive meaning | label meaning
+meaning_unclear,22,axis meaning | different word meaning | distracting/confusing/unclear | easy to derive meaning | label meaning
+meaning_unclear_to_viewer,22,axis meaning | different word meaning | distracting/confusing/unclear | easy to derive meaning | label meaning
+fewer_data_points,22,clustered data/info | data intersection | data trend | dense points/lines/shapes/elements | dense/cluttered data/info
+hard_to_understand,22,attention/squinting to understand | easier to interpret/read/understand | easy to interpret/read/understand | easy to understand | hard to compare/discern/distinguish
+hard_to_quickly_understand,22,attention/squinting to understand | easier to interpret/read/understand | easy to interpret/read/understand | easy to understand | hard to compare/discern/distinguish
+lines_cross_each_other,21,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+overlapping_lines_present,21,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+varied_shape_types,21,colored shape | dense/cluttered shape | hard to read shape | overall shape | shape
+complex_overall_shape,21,colored shape | complex design | dense/cluttered shape | hard to read shape | overall shape
+easy_to_read,21,description easy to read | easier to interpret/read/understand | easier to read | easy to derive meaning | easy to focus/follow
+uneven_irregular_shape,21,colored shape | dense/cluttered shape | hard to read shape | irregular | overall shape
+wavy_irregular_shape,21,colored shape | dense/cluttered shape | hard to read shape | irregular | overall shape
+visual_elements_relatively_simple,21,dense points/lines/shapes/elements | few points/lines/shapes/elements | less organized elements | less simple | many points/lines/shapes/elements
+familiar_geographic_shape,21,colored shape | dense/cluttered shape | familiar representation | hard to read shape | overall shape
+absent_grid_lines,21,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+high_shape_quantity,21,colored shape | dense/cluttered shape | hard to read shape | line quantity representation | overall shape
+only_four_data_points,21,clustered data/info | data intersection | data trend | dense points/lines/shapes/elements | dense/cluttered data/info
+many_words_present,21,amount of / too many colors | amount of words/context/numbers | highlighted words | intense/too many colors | many legend categories
+numerous_data_points,21,clustered data/info | data intersection | data trend | dense points/lines/shapes/elements | dense/cluttered data/info
+easy_to_read_glance,21,description easy to read | easier to interpret/read/understand | easier to read | easy to derive meaning | easy to focus/follow
+axis_numbers_present,21,ambiguous numbers | amount of words/context/numbers | axis meaning | axis numbers | axis scales
+two_lines_present,21,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+overlapping_lines,21,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+few_lines_joined,21,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+excessive_data_points,21,clustered data/info | data intersection | data trend | dense points/lines/shapes/elements | dense/cluttered data/info
+many_words_selected,21,amount of / too many colors | amount of words/context/numbers | highlighted words | intense/too many colors | many legend categories
+data_points_closely_spaced,21,clustered data/info | data intersection | data trend | dense points/lines/shapes/elements | dense/cluttered data/info
+many_different_species,21,amount of / too many colors | different clarity | different font/word sizes/structure | different labels | different movement
+few_lines_present,21,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+many_small_details,21,amount of / too many colors | color details | fine/layered details | intense/too many colors | many legend categories
+varied_shape_marks,21,colored shape | dense/cluttered shape | hard to read shape | overall shape | shape
+data_easier_to_see,21,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+words_easier_to_understand,21,amount of words/context/numbers | attention/squinting to understand | easier to compare/discern/distinguish | easier to interpret/read/understand | easier to process/visualize
+lines_crossing_each_other,21,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+various_data_points,21,clustered data/info | data intersection | data trend | dense points/lines/shapes/elements | dense/cluttered data/info
+more_data_points,21,clustered data/info | data intersection | data trend | dense points/lines/shapes/elements | dense/cluttered data/info
+fairly_easy_to_read,21,description easy to read | easier to interpret/read/understand | easier to read | easy to derive meaning | easy to focus/follow
+many_more_words,21,amount of / too many colors | amount of words/context/numbers | highlighted words | intense/too many colors | many legend categories
+easy_information_intake,20,clear text/scale/information | description easy to read | diverse information | easy to derive meaning | easy to focus/follow
+unclear_focal_point,20,distracting/confusing/unclear | harder to view data point | shape increase/decrease point | shape point of interest | unclear color meaning
+numerous_lines_present,20,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+round_shape,20,colored shape | dense/cluttered shape | hard to read shape | overall shape | shape
+data_in_different_format,20,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+text_word_present,20,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | different font/word sizes/structure
+word_elements_present,20,dense points/lines/shapes/elements | different font/word sizes/structure | different word meaning | few points/lines/shapes/elements | less organized elements
+too_dense_to_read,20,dense points/lines/shapes/elements | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape | description easy to read
+visually_unclear_encoding,20,distracting/confusing/unclear | technical encoding | unclear color meaning | unclear coloring | unclear colormaps
+hard_to_extract_info,20,clustered data/info | dense/cluttered data/info | easy to identify/extract/find features | hard to compare/discern/distinguish | hard to describe
+multiple_data_series,20,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+branching_nested_lines,20,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+difficult_data_interpretation,20,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+mixed_text_sizes,20,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | different font/word sizes/structure
+undefined_shape,20,colored shape | dense/cluttered shape | hard to read shape | overall shape | shape
+multiple_interacting_data_bits,20,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+unclear_visual_content,20,distracting/confusing/unclear | simple visual elements | unclear color meaning | unclear coloring | unclear colormaps
+lines_not_straightforward,20,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+harder_to_interpret_axis,20,axis meaning | axis numbers | axis scales | clear title/axis/label | easier to interpret/read/understand
+rendered_as_individual_lines,20,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+straightforward_shape,20,colored shape | dense/cluttered shape | hard to read shape | overall shape | shape
+not_simple_data,20,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+clean_lines,20,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+reading_data_more_difficult,20,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+numerous_vertical_lines,20,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+harder_to_read_discern,20,description easy to read | easier to compare/discern/distinguish | easier to interpret/read/understand | easier to read | easy to interpret/read/understand
+various_shape_types,20,colored shape | dense/cluttered shape | hard to read shape | overall shape | shape
+numerous_connecting_lines,20,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+intersecting_lines_present,20,bars as individual lines | curved lines | dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements
+distinct_defined_shape,20,colored shape | dense/cluttered shape | hard to read shape | overall shape | shape
+visual_image_elements_present,19,dense points/lines/shapes/elements | few points/lines/shapes/elements | image layout | image location | image portrayal
+unclear_visual_presentation,19,distracting/confusing/unclear | simple visual elements | unclear color meaning | unclear coloring | unclear colormaps
+many_numeric_labels,19,amount of / too many colors | cluttered labels/annotations | different labels | intense/too many colors | lack of/not enough axis labels/legend/annotations/context
+high_data_variation,19,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+few_data_items,19,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+unclear_design_purpose,19,complex design | design-data relationship | distracting/confusing/unclear | more uniform design | unclear color meaning
+unclear_overall_interpretation,19,distracting/confusing/unclear | more reading/interpretation/understanding | multiple interpretation | overall shape | unclear color meaning
+unclear_visual_purpose,19,distracting/confusing/unclear | simple visual elements | unclear color meaning | unclear coloring | unclear colormaps
+boundaries_visually_unclear,19,distracting/confusing/unclear | unclear color meaning | unclear coloring | unclear colormaps | unclear colors/contrast
+unclear_defining_values,19,distracting/confusing/unclear | frame with values | separate values by color to show differences | unclear color meaning | unclear coloring
+names_too_small_to_read,19,description easy to read | easier to interpret/read/understand | easier to read | easy to interpret/read/understand | easy to read
+difficult_to_read,19,description easy to read | easier to interpret/read/understand | easier to read | easy to interpret/read/understand | easy to read
+confusing_data_encoding,19,ambiguous/confusing colors | clustered data/info | confusing connection | data intersection | data trend
+easier_to_read,19,description easy to read | easier to compare/discern/distinguish | easier to interpret/read/understand | easier to process/visualize | easier to read
+variable_hard_to_interpret,19,easier to interpret/read/understand | easy to interpret/read/understand | hard to compare/discern/distinguish | hard to describe | hard to distinguish colors
+visually_clear_layout,19,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+easier_to_read_than_chart,19,description easy to read | easier to compare/discern/distinguish | easier to interpret/read/understand | easier to process/visualize | easier to read
+simple_information,18,clear text/scale/information | diverse information | factual information | field information | graphical information
+many_visual_components,18,amount of / too many colors | intense/too many colors | many legend categories | many measurements | many numbers
+hard_to_interpret,18,easier to interpret/read/understand | easy to interpret/read/understand | hard to compare/discern/distinguish | hard to describe | hard to distinguish colors
+dense_bottom_text,18,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | dense points/lines/shapes/elements
+different_axis_types,18,axis meaning | axis numbers | axis scales | clear title/axis/label | different clarity
+absent_text_labels,18,clear text arrangement/density | clear text/scale/information | cluttered labels/annotations | code/text | context/text/description
+multiple_information_types,18,clear text/scale/information | diverse information | factual information | field information | graphical information
+dense_data_encoding,18,clustered data/info | data intersection | data trend | dense points/lines/shapes/elements | dense/cluttered data/info
+text_arrangement_complex,18,clear text arrangement/density | clear text/scale/information | code/text | color variety/arrangement/distribution | complex design
+inconsistent_text_arrangement,18,clear text arrangement/density | clear text/scale/information | code/text | color variety/arrangement/distribution | context/text/description
+high_number_of_elements,18,dense points/lines/shapes/elements | few points/lines/shapes/elements | less organized elements | many points/lines/shapes/elements | messy/mixed up/noisy/intermingled elements
+many_similar_instances,18,amount of / too many colors | intense/too many colors | many legend categories | many measurements | many numbers
+no_text_labels,18,clear text arrangement/density | clear text/scale/information | cluttered labels/annotations | code/text | context/text/description
+many_parameters_on_axes,18,amount of / too many colors | fewer axes | intense/too many colors | many legend categories | many measurements
+many_small_writings,18,amount of / too many colors | intense/too many colors | many legend categories | many measurements | many numbers
+subject_domain_unclear,18,"a specific domain | distracting/confusing/unclear | domain-specific concepts (e.g., chemical, biology, map) | unclear color meaning | unclear coloring"
+multiple_different_bars,18,bars as individual lines | clear colored bars/charts | colored bars/charts | different clarity | different font/word sizes/structure
+multiple_visual_elements,18,dense points/lines/shapes/elements | few points/lines/shapes/elements | less organized elements | many points/lines/shapes/elements | messy/mixed up/noisy/intermingled elements
+labels_are_clear,17,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+differences_unclear,17,distracting/confusing/unclear | separate values by color to show differences | unclear color meaning | unclear coloring | unclear colormaps
+information_spread_across_image,17,clear text/scale/information | diverse information | factual information | field information | graphical information
+variety_of_data_within,17,clustered data/info | color variety/arrangement/distribution | data intersection | data trend | dense/cluttered data/info
+dense_data_set,17,clustered data/info | data intersection | data trend | dense points/lines/shapes/elements | dense/cluttered data/info
+many_individual_dots,17,amount of / too many colors | bars as individual lines | intense/too many colors | many legend categories | many measurements
+simple_to_understand,17,attention/squinting to understand | easier to interpret/read/understand | easy to interpret/read/understand | easy to understand | hard to interpret/read/understand
+text_is_too_small,17,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+unclear_visualization_purpose,17,distracting/confusing/unclear | unclear color meaning | unclear coloring | unclear colormaps | unclear colors/contrast
+harder_to_read,17,description easy to read | easier to interpret/read/understand | easier to read | easy to interpret/read/understand | easy to read
+unknown_how_to_read,17,description easy to read | easier to interpret/read/understand | easier to read | easy to interpret/read/understand | easy to read
+unique_data_point_present,17,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+few_or_no_data,17,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+mixed_text_and_imagery,17,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+unclear_encoding,17,distracting/confusing/unclear | technical encoding | unclear color meaning | unclear coloring | unclear colormaps
+multiple_graphic_elements,17,dense points/lines/shapes/elements | few points/lines/shapes/elements | less organized elements | many points/lines/shapes/elements | messy/mixed up/noisy/intermingled elements
+categorized_in_unclear_way,17,categorized shapes | distracting/confusing/unclear | unclear color meaning | unclear coloring | unclear colormaps
+small_detail_elements,17,dense points/lines/shapes/elements | few points/lines/shapes/elements | less organized elements | many points/lines/shapes/elements | messy/mixed up/noisy/intermingled elements
+provides_clear_labels,17,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+large_amount_of_text,17,amount of / too many colors | amount of words/context/numbers | clear text arrangement/density | clear text/scale/information | code/text
+multiple_box_elements,17,dense points/lines/shapes/elements | few points/lines/shapes/elements | less organized elements | many points/lines/shapes/elements | messy/mixed up/noisy/intermingled elements
+dense_information_content,17,clear text/scale/information | dense points/lines/shapes/elements | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape
+mixed_text_orientations,17,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+readable_text,17,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+no_data_explanation,16,almost no explanation | clustered data/info | data intersection | data trend | dense/cluttered data/info
+geometry_set_unclear,16,distracting/confusing/unclear | unclear color meaning | unclear coloring | unclear colormaps | unclear colors/contrast
+unclear_subject_matter,16,distracting/confusing/unclear | unclear color meaning | unclear coloring | unclear colormaps | unclear colors/contrast
+easily_understandable_information,16,clear text/scale/information | diverse information | factual information | field information | graphical information
+easy_to_understand,16,attention/squinting to understand | description easy to read | easier to interpret/read/understand | easy to derive meaning | easy to focus/follow
+written_information_dense,16,clear text/scale/information | dense points/lines/shapes/elements | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape
+unclear_what_displayed,16,distracting/confusing/unclear | unclear color meaning | unclear coloring | unclear colormaps | unclear colors/contrast
+relatively_clear_layout,16,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+vague_and_unclear,16,distracting/confusing/unclear | unclear color meaning | unclear coloring | unclear colormaps | unclear colors/contrast
+lacks_clear_form_structure,16,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+clear_and_concise_layout,16,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+aids_data_interpretation,16,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+dense_field_information,16,clear text/scale/information | dense points/lines/shapes/elements | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape
+content_hard_to_see,16,easier to see/tell/visualize | hard to compare/discern/distinguish | hard to describe | hard to distinguish colors | hard to focus/follow
+clear_path_to_follow,16,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+clear_and_clean_layout,16,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+unclear_resemblance,16,distracting/confusing/unclear | unclear color meaning | unclear coloring | unclear colormaps | unclear colors/contrast
+ambiguous_label_meaning,16,ambiguous numbers | ambiguous/confusing colors | axis meaning | clear title/axis/label | different word meaning
+dense_cluster_of_elements,16,dense points/lines/shapes/elements | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape | few points/lines/shapes/elements
+purpose_unclear,16,distracting/confusing/unclear | unclear color meaning | unclear coloring | unclear colormaps | unclear colors/contrast
+too_many_variables,16,amount of / too many colors | intense/too many colors | many legend categories | many measurements | many numbers
+data_clearly_visible,16,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+unclear_portrayed_subject,16,distracting/confusing/unclear | unclear color meaning | unclear coloring | unclear colormaps | unclear colors/contrast
+multiple_stick_elements,16,dense points/lines/shapes/elements | few points/lines/shapes/elements | less organized elements | many points/lines/shapes/elements | messy/mixed up/noisy/intermingled elements
+unclear_purpose,16,distracting/confusing/unclear | unclear color meaning | unclear coloring | unclear colormaps | unclear colors/contrast
+many_nodes_present,16,amount of / too many colors | intense/too many colors | many legend categories | many measurements | many numbers
+amount_of_descriptive_text,16,amount of / too many colors | amount of words/context/numbers | clear text arrangement/density | clear text/scale/information | code/text
+unclear_message,16,distracting/confusing/unclear | unclear color meaning | unclear coloring | unclear colormaps | unclear colors/contrast
+overlapping_text,16,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+overall_easier_to_understand,16,attention/squinting to understand | easier to compare/discern/distinguish | easier to interpret/read/understand | easier to process/visualize | easier to read
+extra_challenge_to_read,16,description easy to read | easier to interpret/read/understand | easier to read | easy to interpret/read/understand | easy to read
+ambiguous_data_intersection,16,ambiguous numbers | ambiguous/confusing colors | clustered data/info | data intersection | data trend
+few_square_elements,16,dense points/lines/shapes/elements | few lines | few points/lines/shapes/elements | inadequate/few coloring | less organized elements
+high_data_point_count,16,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+clear_layout,16,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+too_tiny_to_read,16,description easy to read | easier to interpret/read/understand | easier to read | easy to interpret/read/understand | easy to read
+unclear_purpose_or_use,16,distracting/confusing/unclear | unclear color meaning | unclear coloring | unclear colormaps | unclear colors/contrast
+unclear_conveyed_message,16,distracting/confusing/unclear | unclear color meaning | unclear coloring | unclear colormaps | unclear colors/contrast
+logical_to_read,16,description easy to read | easier to interpret/read/understand | easier to read | easy to interpret/read/understand | easy to read
+text_aids_interpretation,16,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+unclear_semantic_purpose,16,distracting/confusing/unclear | unclear color meaning | unclear coloring | unclear colormaps | unclear colors/contrast
+many_graphs_present,16,amount of / too many colors | intense/too many colors | many legend categories | many measurements | many numbers
+large_word_size,15,different font/word sizes/structure | different word meaning | image size | large dataset | mixed size
+clear_informative_title,15,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+too_many_spirals,15,amount of / too many colors | intense/too many colors | many legend categories | many measurements | many numbers
+several_visual_elements,15,dense points/lines/shapes/elements | few points/lines/shapes/elements | less organized elements | many points/lines/shapes/elements | messy/mixed up/noisy/intermingled elements
+much_more_data,15,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+unreadable_text,15,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+signal_noise_separation_hard,15,good color contrast/separation/segmentation | hard to compare/discern/distinguish | hard to describe | hard to distinguish colors | hard to focus/follow
+easier_to_understand,15,attention/squinting to understand | easier to compare/discern/distinguish | easier to interpret/read/understand | easier to process/visualize | easier to read
+no_information_about_squares,15,clear text/scale/information | diverse information | factual information | field information | graphical information
+supports_data_analysis,15,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+unable_to_sort_elements,15,dense points/lines/shapes/elements | few points/lines/shapes/elements | less organized elements | many points/lines/shapes/elements | messy/mixed up/noisy/intermingled elements
+too_many_sections,15,amount of / too many colors | intense/too many colors | many legend categories | many measurements | many numbers
+illegible_unreadable_text,15,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+no_axis_labels,15,axis meaning | axis numbers | axis scales | clear title/axis/label | cluttered labels/annotations
+too_many_moving_parts,15,amount of / too many colors | intense/too many colors | many legend categories | many measurements | many numbers
+high_text_quantity,15,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+too_many_divisions,15,amount of / too many colors | intense/too many colors | many legend categories | many measurements | many numbers
+hard_to_discern_individually,15,easier to compare/discern/distinguish | hard to compare/discern/distinguish | hard to describe | hard to distinguish colors | hard to focus/follow
+too_many_letters,15,amount of / too many colors | intense/too many colors | many legend categories | many measurements | many numbers
+hard_to_distinguish,15,easier to compare/discern/distinguish | hard to compare/discern/distinguish | hard to describe | hard to distinguish colors | hard to focus/follow
+crowded_overlapping_elements,15,dense points/lines/shapes/elements | few points/lines/shapes/elements | less organized elements | many points/lines/shapes/elements | messy/mixed up/noisy/intermingled elements
+no_clear_indication_of_content,15,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+many_results_displayed,15,amount of / too many colors | intense/too many colors | many legend categories | many measurements | many numbers
+too_much_data,15,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+more_visual_elements,15,dense points/lines/shapes/elements | few points/lines/shapes/elements | less organized elements | many points/lines/shapes/elements | messy/mixed up/noisy/intermingled elements
+large_data_volume,15,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+low_information_density,15,clear text arrangement/density | clear text/scale/information | diverse information | factual information | field information
+hard_to_see_story,15,easier to see/tell/visualize | hard to compare/discern/distinguish | hard to describe | hard to distinguish colors | hard to focus/follow
+too_many_circles,15,amount of / too many colors | intense/too many colors | many legend categories | many measurements | many numbers
+hard_to_discern,15,easier to compare/discern/distinguish | hard to compare/discern/distinguish | hard to describe | hard to distinguish colors | hard to focus/follow
+hierarchical_text_organization,15,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+too_much_information,15,clear text/scale/information | diverse information | factual information | field information | graphical information
+hard_to_focus_eyes,15,easy to focus/follow | hard to compare/discern/distinguish | hard to describe | hard to distinguish colors | hard to focus/follow
+hard_to_find_features,15,easy to identify/extract/find features | hard to compare/discern/distinguish | hard to describe | hard to distinguish colors | hard to focus/follow
+nuanced_data_content,15,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+high_volume_of_text,14,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+no_descriptive_text,14,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+moderate_text_density,14,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+high_depth_of_data,14,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+multiple_different_axes,14,different clarity | different font/word sizes/structure | different labels | different movement | different word meaning
+hard_to_differentiate,14,hard to compare/discern/distinguish | hard to describe | hard to distinguish colors | hard to focus/follow | hard to identify/extract/find features
+low_number_of_points,14,dense points/lines/shapes/elements | few points/lines/shapes/elements | low color contrast/separation/segmentation | low readability | many points/lines/shapes/elements
+multiple_different_sizes,14,different clarity | different font/word sizes/structure | different labels | different movement | different word meaning
+clear_organization,14,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+text_overlaid_on_geography,14,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+lacks_clear_organization,14,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+no_data_present,14,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+measure_not_clear,14,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+only_two_elements,14,dense points/lines/shapes/elements | few points/lines/shapes/elements | less organized elements | many points/lines/shapes/elements | messy/mixed up/noisy/intermingled elements
+more_difficult_to_understand,14,attention/squinting to understand | easier to interpret/read/understand | easy to interpret/read/understand | easy to understand | hard to interpret/read/understand
+understand_easily_what_about,14,attention/squinting to understand | easier to interpret/read/understand | easy to interpret/read/understand | easy to understand | hard to interpret/read/understand
+high_text_volume,14,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+explanatory_and_clear,14,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+obscured_underlying_data,14,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+conveys_more_data,14,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+abundant_text_present,14,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+less_elements_overall,14,dense points/lines/shapes/elements | few points/lines/shapes/elements | less organized elements | many points/lines/shapes/elements | messy/mixed up/noisy/intermingled elements
+clearly_links_to_data,14,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+some_text_present,14,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+clear_and_legible,14,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+limited_data_volume,14,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+excessive_data_volume,14,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+high_text_density,14,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+positioned_close_to_data,14,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+just_text_present,14,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+primarily_text_based,14,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+more_text_present,14,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+text_present,14,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+sparse_text_present,14,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+text_requires_processing,14,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+easy_to_interpret,14,description easy to read | easier to interpret/read/understand | easy to derive meaning | easy to focus/follow | easy to identify/extract/find features
+high_data_volume,14,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+insufficient_text_present,14,clear text arrangement/density | clear text/scale/information | code/text | context/text/description | explanation text
+encodes_data_collection,14,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+different_size_circles,14,different clarity | different font/word sizes/structure | different labels | different movement | different word meaning
+difficult_to_understand,14,attention/squinting to understand | easier to interpret/read/understand | easy to interpret/read/understand | easy to understand | hard to interpret/read/understand
+no_complex_elements,14,complex design | dense points/lines/shapes/elements | few points/lines/shapes/elements | less organized elements | many points/lines/shapes/elements
+missing_data_key,14,clustered data/info | data intersection | data trend | dense/cluttered data/info | design-data relationship
+small_font_size,13,different font/word sizes/structure | font | image size | mixed size | shape size
+complex_axis_labeling,13,axis meaning | axis numbers | axis scales | clear title/axis/label | complex design
+spread_of_information,13,clear text/scale/information | diverse information | factual information | field information | graphical information
+clear_indications_present,13,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+clear_at_a_glance,13,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+meaning_not_interpretable,13,axis meaning | different word meaning | easy to derive meaning | label meaning | lack of meaning
+hard_to_visualise,13,hard to compare/discern/distinguish | hard to describe | hard to distinguish colors | hard to focus/follow | hard to identify/extract/find features
+small_numbers_present,13,ambiguous numbers | amount of words/context/numbers | axis numbers | involves numbers | little/less text/numbers/context
+few_legend_items,13,explanatory legend | few lines | few points/lines/shapes/elements | inadequate/few coloring | lack of legend
+high_information_processing_effort,13,clear text/scale/information | diverse information | factual information | field information | graphical information
+words_difficult_to_see,13,amount of words/context/numbers | easier to see/tell/visualize | hard to see/tell/visualize | highlighted words | more difficult
+ratio_information_present,13,clear text/scale/information | diverse information | factual information | field information | graphical information
+well_spread_information,13,clear text/scale/information | diverse information | factual information | field information | graphical information
+more_information_labeled,13,clear text/scale/information | diverse information | factual information | field information | graphical information
+high_information_density,13,clear text arrangement/density | clear text/scale/information | diverse information | factual information | field information
+missing_axis_label,13,axis meaning | axis numbers | axis scales | clear title/axis/label | label meaning
+more_elements_present,13,dense points/lines/shapes/elements | few points/lines/shapes/elements | less organized elements | many points/lines/shapes/elements | messy/mixed up/noisy/intermingled elements
+less_clear_writing,13,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+hierarchy_hard_to_parse,13,hard to compare/discern/distinguish | hard to describe | hard to distinguish colors | hard to focus/follow | hard to identify/extract/find features
+overall_more_complex_to_understand,13,attention/squinting to understand | complex design | easier to interpret/read/understand | easy to interpret/read/understand | easy to understand
+clear_labeling,13,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+clear_interpretive_message,13,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+hard_to_intuitively_ascertain,13,hard to compare/discern/distinguish | hard to describe | hard to distinguish colors | hard to focus/follow | hard to identify/extract/find features
+large_information_volume,13,clear text/scale/information | diverse information | factual information | field information | graphical information
+unidentifiable_elements,13,dense points/lines/shapes/elements | few points/lines/shapes/elements | less organized elements | many points/lines/shapes/elements | messy/mixed up/noisy/intermingled elements
+multiple_points_of_interest,13,dense points/lines/shapes/elements | few points/lines/shapes/elements | many points/lines/shapes/elements | more charts/points/lines/shapes/elements | multiple aspects
+less_clear_at_glance,13,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+hard_to_make_sense,13,hard to compare/discern/distinguish | hard to describe | hard to distinguish colors | hard to focus/follow | hard to identify/extract/find features
+small_visual_size,13,image size | mixed size | shape size | shape size variation | simple visual elements
+no_clear_pattern,13,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+elements_do_not_make_sense,13,dense points/lines/shapes/elements | few points/lines/shapes/elements | less organized elements | many points/lines/shapes/elements | messy/mixed up/noisy/intermingled elements
+clear_and_concise_key,13,clear and concise | clear color uses | clear colored bars/charts | clear colors/shapes | clear connection
+randomly_placed_elements,13,dense points/lines/shapes/elements | few points/lines/shapes/elements | less organized elements | many points/lines/shapes/elements | messy/mixed up/noisy/intermingled elements
+less_information_present,12,clear text/scale/information | diverse information | factual information | field information | graphical information
+harder_to_understand,12,attention/squinting to understand | easier to interpret/read/understand | easy to interpret/read/understand | easy to understand | hard to interpret/read/understand
+granular_information_depth,12,clear text/scale/information | diverse information | factual information | field information | graphical information
+contains_more_information,12,clear text/scale/information | diverse information | factual information | field information | graphical information
+requires_time_to_understand,12,attention/squinting to understand | change over time | easier to interpret/read/understand | easy to interpret/read/understand | easy to understand
+x_and_y_axis_present,12,axis meaning | axis numbers | axis scales | clear title/axis/label | labeled axis
+dense_word_content,12,dense points/lines/shapes/elements | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape | different font/word sizes/structure
+cannot_understand_encoding,12,attention/squinting to understand | easier to interpret/read/understand | easy to interpret/read/understand | easy to understand | hard to interpret/read/understand
+excessive_information_volume,12,clear text/scale/information | diverse information | factual information | field information | graphical information
+high_volume_of_information,12,clear text/scale/information | diverse information | factual information | field information | graphical information
+axis_present,12,axis meaning | axis numbers | axis scales | clear title/axis/label | labeled axis
+contains_factual_information,12,clear text/scale/information | diverse information | factual information | field information | graphical information
+lacks_contextual_information,12,clear text/scale/information | diverse information | factual information | field information | graphical information
+gives_no_further_information,12,clear text/scale/information | diverse information | factual information | field information | graphical information
+axis_absent,12,axis meaning | axis numbers | axis scales | clear title/axis/label | labeled axis
+lots_of_information,12,clear text/scale/information | diverse information | factual information | field information | graphical information
+more_information_present,12,clear text/scale/information | diverse information | factual information | field information | graphical information
+multiple_words_present,12,amount of words/context/numbers | highlighted words | more texts/words | multiple aspects | multiple features/elements/graphs
+dual_axis_present,12,axis meaning | axis numbers | axis scales | clear title/axis/label | labeled axis
+multitude_of_differing_information,12,clear text/scale/information | diverse information | factual information | field information | graphical information
+densely_packed_information,12,clear text/scale/information | diverse information | factual information | field information | graphical information
+lacks_describing_information,12,clear text/scale/information | diverse information | factual information | field information | graphical information
+large_image_size,12,image layout | image location | image portrayal | image size | large dataset
+additional_information_added,12,clear text/scale/information | diverse information | factual information | field information | graphical information
+precise_axis_naming,12,axis meaning | axis numbers | axis scales | clear title/axis/label | labeled axis
+axis_aids_orientation,12,axis meaning | axis numbers | axis scales | clear title/axis/label | labeled axis
+took_longer_to_understand,12,attention/squinting to understand | easier to interpret/read/understand | easy to interpret/read/understand | easy to understand | hard to interpret/read/understand
+rich_information_presented,12,clear text/scale/information | diverse information | factual information | field information | graphical information
+straightforward_x_axis,12,axis meaning | axis numbers | axis scales | clear title/axis/label | labeled axis
+takes_more_time_to_understand,12,attention/squinting to understand | change over time | easier to interpret/read/understand | easy to interpret/read/understand | easy to understand
+manageable_information_volume,12,clear text/scale/information | diverse information | factual information | field information | graphical information
+few_readable_words,12,amount of words/context/numbers | few lines | few points/lines/shapes/elements | highlighted words | inadequate/few coloring
+takes_longer_to_understand,12,attention/squinting to understand | easier to interpret/read/understand | easy to interpret/read/understand | easy to understand | hard to interpret/read/understand
+provides_contextual_information,12,clear text/scale/information | diverse information | factual information | field information | graphical information
+no_written_information,12,clear text/scale/information | diverse information | factual information | field information | graphical information
+longer_to_understand,12,attention/squinting to understand | easier to interpret/read/understand | easy to interpret/read/understand | easy to understand | hard to interpret/read/understand
+high_information_volume,12,clear text/scale/information | diverse information | factual information | field information | graphical information
+standard_axis_present,12,axis meaning | axis numbers | axis scales | clear title/axis/label | labeled axis
+more_time_to_understand,12,attention/squinting to understand | change over time | easier to interpret/read/understand | easy to interpret/read/understand | easy to understand
+multiple_info_types,12,clustered data/info | dense/cluttered data/info | little data/info | many/more data/info | much/more data/info/info spread
+size_varies_small_to_large,11,image size | large dataset | mixed size | shape size | shape size variation
+simple_overall_design,11,complex design | design-data relationship | less simple | more uniform design | not intuitive/simple data
+no_semantic_meaning,11,axis meaning | different word meaning | easy to derive meaning | label meaning | lack of meaning
+unfamiliar_numbers_displayed,11,ambiguous numbers | amount of words/context/numbers | axis numbers | involves numbers | little/less text/numbers/context
+little_to_no_numbers,11,ambiguous numbers | amount of words/context/numbers | axis numbers | involves numbers | little data/info
+size_mismatches_values,11,frame with values | image size | mixed size | separate values by color to show differences | shape size
+easy_to_compare,11,description easy to read | easier to compare/discern/distinguish | easy to derive meaning | easy to focus/follow | easy to identify/extract/find features
+simple_straight_line,11,less simple | line movement | line quantity representation | line thickness variation | not intuitive/simple data
+non_intuitive_representation,11,familiar representation | infomration representation | intuitive | less intuitive | line quantity representation
+meaning_not_apparent,11,axis meaning | different word meaning | easy to derive meaning | label meaning | lack of meaning
+different_font_sizes,11,different clarity | different font/word sizes/structure | different labels | different movement | different word meaning
+multiple_separate_charts,11,clear colored bars/charts | colored bars/charts | more charts/points/lines/shapes/elements | multiple aspects | multiple features/elements/graphs
+imaginable_meaning,11,axis meaning | different word meaning | easy to derive meaning | label meaning | lack of meaning
+understand_at_a_glance,11,attention/squinting to understand | easier to interpret/read/understand | easy to interpret/read/understand | easy to understand | hard to interpret/read/understand
+more_to_understand,11,attention/squinting to understand | easier to interpret/read/understand | easy to interpret/read/understand | easy to understand | hard to interpret/read/understand
+simple_overall_structure,11,different font/word sizes/structure | less simple | looks random/messy/lack structure | not intuitive/simple data | not simple color-wise
+dense_word_mixture,11,dense points/lines/shapes/elements | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape | different font/word sizes/structure
+simple_point_markers,11,harder to view data point | less simple | not intuitive/simple data | not simple color-wise | shape increase/decrease point
+simple_point_marks,11,harder to view data point | less simple | not intuitive/simple data | not simple color-wise | shape increase/decrease point
+difficult_to_interpret_content,11,easier to interpret/read/understand | easy to interpret/read/understand | hard to interpret/read/understand | hard to interpret/read/understand/differentiate | more difficult
+numbers_increase_complexity,11,ambiguous numbers | amount of words/context/numbers | axis numbers | involves numbers | little/less text/numbers/context
+requires_squinting_to_understand,11,attention/squinting to understand | easier to interpret/read/understand | easy to interpret/read/understand | easy to understand | hard to interpret/read/understand
+quickly_interpreted_meaning,11,axis meaning | different word meaning | easy to derive meaning | label meaning | lack of meaning
+large_numbers_present,11,ambiguous numbers | amount of words/context/numbers | axis numbers | involves numbers | large dataset
+small_size,10,image size | mixed size | shape size | shape size variation | size
+involves_numbers,10,ambiguous numbers | amount of words/context/numbers | axis numbers | involves numbers | little/less text/numbers/context
+simple_symbol_variety,10,color variety/arrangement/distribution | distinguishable color variety/arrangement/distribution | less simple | not intuitive/simple data | not simple color-wise
+basic_simple_structure,10,different font/word sizes/structure | less simple | looks random/messy/lack structure | not intuitive/simple data | not simple color-wise
+codes_and_numbers_present,10,ambiguous numbers | amount of words/context/numbers | axis numbers | involves numbers | little/less text/numbers/context
+difficult_to_interpret,10,easier to interpret/read/understand | easy to interpret/read/understand | hard to interpret/read/understand | hard to interpret/read/understand/differentiate | more difficult
+more_numbers_present,10,ambiguous numbers | amount of words/context/numbers | axis numbers | involves numbers | little/less text/numbers/context
+small_table_size,10,image size | mixed size | shape size | shape size variation | size
+easy_to_follow,10,description easy to read | easy to derive meaning | easy to focus/follow | easy to identify/extract/find features | easy to interpret/read/understand
+visually_confusing_layout,10,ambiguous/confusing colors | confusing connection | dense/cluttered layout | distracting/confusing/unclear | grid layout
+contains_letters_and_numbers,10,ambiguous numbers | amount of words/context/numbers | axis numbers | involves numbers | little/less text/numbers/context
+illegible_at_small_size,10,image size | mixed size | shape size | shape size variation | size
+simple_measurement_indicator,10,less simple | no measurement/metric | no measurement/metric/axis | nonlinear measurement/metric/axis | not intuitive/simple data
+lots_of_numbers,10,ambiguous numbers | amount of words/context/numbers | axis numbers | involves numbers | little/less text/numbers/context
+contains_numbers,10,ambiguous numbers | amount of words/context/numbers | axis numbers | involves numbers | little/less text/numbers/context
+multiple_image_panels,10,image layout | image location | image portrayal | image size | multiple aspects
+lack_of_labels_explanation,10,almost no explanation | cluttered labels/annotations | different labels | explanation text | lack of color contrast / hard to distinguish colors
+simple_map_structure,10,different font/word sizes/structure | less simple | looks random/messy/lack structure | not intuitive/simple data | not simple color-wise
+familiar_domain_context,10,"a specific domain | amount of words/context/numbers | context | context/text/description | domain-specific concepts (e.g., chemical, biology, map)"
+simple_design,10,complex design | design-data relationship | less simple | more uniform design | not intuitive/simple data
+scaled_by_numbers,10,ambiguous numbers | amount of words/context/numbers | axis numbers | involves numbers | little/less text/numbers/context
+unlabeled_legend_entries,10,explanatory legend | lack of legend | lack of/not enough axis labels/legend/annotations/context | legend easy to understand | legend on the top
+earthquake_measurement_context,10,amount of words/context/numbers | context | context/text/description | lack of/not enough axis labels/legend/annotations/context | little/less text/numbers/context
+large_element_size,10,element sizes | image size | large dataset | mixed size | shape size
+large_graphic_size,10,image size | large dataset | mixed size | shape size | shape size variation
+simple_coloring,10,clearer coloring | inadequate/few coloring | less simple | not intuitive/simple data | not simple color-wise
+size_grows_small,10,image size | mixed size | shape size | shape size variation | size
+large_overall_size,10,image size | large dataset | mixed size | overall shape | shape size
+varied_word_sizes,10,different font/word sizes/structure | different word meaning | element sizes | shapes varied | similar box sizes
+no_numbers_present,10,ambiguous numbers | amount of words/context/numbers | axis numbers | involves numbers | little/less text/numbers/context
+numbers_on_entities,10,ambiguous numbers | amount of words/context/numbers | axis numbers | involves numbers | little/less text/numbers/context
+not_intuitive_to_interpret,10,easier to interpret/read/understand | easy to interpret/read/understand | hard to interpret/read/understand | hard to interpret/read/understand/differentiate | intuitive
+numbers_do_not_make_sense,10,ambiguous numbers | amount of words/context/numbers | axis numbers | involves numbers | little/less text/numbers/context
+graphic_legend_missing,10,explanatory legend | lack of legend | lack of/not enough axis labels/legend/annotations/context | legend easy to understand | legend on the top
+words_aid_readability,9,amount of words/context/numbers | fast readability | highlighted words | low readability | more texts/words
+multiple_visual_cues_present,9,multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation | multiple points/lines/shapes/elements
+multiple_charts_present,9,clear colored bars/charts | colored bars/charts | more charts/points/lines/shapes/elements | multiple aspects | multiple features/elements/graphs
+no_legend_provided,9,explanatory legend | lack of legend | lack of/not enough axis labels/legend/annotations/context | legend easy to understand | legend on the top
+abstract_representation,9,abstract shapes or colors | familiar representation | infomration representation | line quantity representation | metric representation
+different_sizes_and_figures,9,different clarity | different font/word sizes/structure | different labels | different movement | different word meaning
+legend_adds_complexity,9,explanatory legend | lack of legend | lack of/not enough axis labels/legend/annotations/context | legend easy to understand | legend on the top
+high_contrast_coloring,9,clearer coloring | distinguishable/full/highly contrast color uses | good color contrast/separation/segmentation | inadequate/few coloring | lack of color contrast / hard to distinguish colors
+larger_size_encodes_higher_frequency,9,image size | mixed size | shape size | shape size variation | size
+variable_letter_size,9,image size | mixed size | shape size | shape size variation | single variable
+legend_absent,9,explanatory legend | lack of legend | lack of/not enough axis labels/legend/annotations/context | legend easy to understand | legend on the top
+multiple_unique_contrasts,9,multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation | multiple points/lines/shapes/elements
+few_words_present,9,amount of words/context/numbers | few lines | few points/lines/shapes/elements | highlighted words | inadequate/few coloring
+varying_word_sizes,9,different font/word sizes/structure | different word meaning | element sizes | similar box sizes | word frequency
+legend_present,9,explanatory legend | lack of legend | lack of/not enough axis labels/legend/annotations/context | legend easy to understand | legend on the top
+complex_domain_info,9,"a specific domain | clustered data/info | complex design | dense/cluttered data/info | domain-specific concepts (e.g., chemical, biology, map)"
+ambiguous_without_context,9,ambiguous numbers | ambiguous/confusing colors | amount of words/context/numbers | context | context/text/description
+geographic_domain_context,9,"a specific domain | amount of words/context/numbers | context | context/text/description | domain-specific concepts (e.g., chemical, biology, map)"
+smaller_size_encodes_lower_frequency,9,image size | mixed size | shape size | shape size variation | size
+larger_dataset_size,9,image size | large dataset | mixed size | shape size | shape size variation
+high_visual_contrast,9,distinguishable/full/highly contrast color uses | good color contrast/separation/segmentation | lack of color contrast / hard to distinguish colors | low color contrast/separation/segmentation | more contrast
+high_number_of_details,9,color details | fine/layered details | mismatched number-circle proportion | number distribution | number of legend items
+easy_to_evaluate,8,description easy to read | easy to derive meaning | easy to focus/follow | easy to identify/extract/find features | easy to interpret/read/understand
+multiple_crop_categories,8,crop production shown | many legend categories | multiple aspects | multiple features/elements/graphs | multiple interacting elements
+familiar_representation,8,familiar representation | infomration representation | line quantity representation | metric representation | network representation
+small_font_sizes,8,different font/word sizes/structure | element sizes | font | similar box sizes | single font
+messy_visual_layout,8,dense/cluttered layout | grid layout | image layout | looks random/messy/lack structure | messy/mixed up/noisy/intermingled elements
+blue_colored_squares,8,blue color | clear colored bars/charts | colored bars/charts | colored shape | colored surface
+multiple_axes_four_or_five,8,fewer axes | more axes | multiple aspects | multiple features/elements/graphs | multiple interacting elements
+different_sizes,8,different clarity | different font/word sizes/structure | different labels | different movement | different word meaning
+limited_to_two_points,8,dense points/lines/shapes/elements | few points/lines/shapes/elements | many points/lines/shapes/elements | more charts/points/lines/shapes/elements | multiple points/lines/shapes/elements
+visually_messy_layout,8,dense/cluttered layout | grid layout | image layout | looks random/messy/lack structure | messy/mixed up/noisy/intermingled elements
+visually_dense_overall,8,dense points/lines/shapes/elements | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape | overall shape
+visible_line_movement,8,different movement | line movement | line quantity representation | line thickness variation | nothing visible
+confusing_movement_pattern,8,ambiguous/confusing colors | confusing connection | different movement | distracting/confusing/unclear | line movement
+familiar_display_context,8,amount of words/context/numbers | context | context/text/description | familiar representation | lack of/not enough axis labels/legend/annotations/context
+words_clearly_visible,8,amount of words/context/numbers | highlighted words | more texts/words | nothing visible | order of words
+size_variations_present,8,image size | mixed size | shape size | shape size variation | size
+increase_decrease_points,8,dense points/lines/shapes/elements | few points/lines/shapes/elements | many points/lines/shapes/elements | more charts/points/lines/shapes/elements | multiple points/lines/shapes/elements
+multiple_axes_present,8,fewer axes | more axes | multiple aspects | multiple features/elements/graphs | multiple interacting elements
+easy_to_decipher,8,description easy to read | easy to derive meaning | easy to focus/follow | easy to identify/extract/find features | easy to interpret/read/understand
+links_between_points,8,dense points/lines/shapes/elements | few points/lines/shapes/elements | many points/lines/shapes/elements | more charts/points/lines/shapes/elements | multiple points/lines/shapes/elements
+overall_confusing_layout,8,ambiguous/confusing colors | confusing connection | dense/cluttered layout | distracting/confusing/unclear | grid layout
+high_quantity_of_points,8,dense points/lines/shapes/elements | few points/lines/shapes/elements | line quantity representation | many points/lines/shapes/elements | more charts/points/lines/shapes/elements
+less_simple_overall,8,less simple | not intuitive/simple data | not simple color-wise | overall shape | simple information
+familiar_recognizable_words,8,amount of words/context/numbers | familiar representation | highlighted words | more texts/words | order of words
+words_visible,8,amount of words/context/numbers | highlighted words | more texts/words | nothing visible | order of words
+multiple_features_present,8,easy to identify/extract/find features | hard to identify/extract/find features | multiple aspects | multiple features/elements/graphs | multiple interacting elements
+words_aid_reading,8,amount of words/context/numbers | highlighted words | more effort/reading/detailed analysis | more reading/interpretation/understanding | more texts/words
+simple_repeating_patterns,8,less simple | not intuitive/simple data | not simple color-wise | simple information | simple to interpret/read/understand
+multiple_axes,8,fewer axes | more axes | multiple aspects | multiple features/elements/graphs | multiple interacting elements
+easy_to_comprehend,8,description easy to read | easy to derive meaning | easy to focus/follow | easy to identify/extract/find features | easy to interpret/read/understand
+requires_analysis_to_interpret,8,easier to interpret/read/understand | easy to interpret/read/understand | hard to interpret/read/understand | hard to interpret/read/understand/differentiate | more difficult to interpret/read/understand/differentiate
+non_linear_word_order,8,different font/word sizes/structure | different word meaning | order of words | word frequency | word misoriented
+multiple_countries_regions,8,more regions/space | multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation
+dense_numerical_labels,8,cluttered labels/annotations | dense points/lines/shapes/elements | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape
+bigger_key_size,8,image size | mixed size | shape size | shape size variation | size
+visually_more_details,7,color details | fine/layered details | texture details | too many details/divisions | visually overwhelming
+high_word_and_letter_count,7,different font/word sizes/structure | different word meaning | word frequency | word misoriented | word rotation/small font size
+visually_cluttered_marks,7,cluttered labels/annotations | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape | visually overwhelming
+readable_labels_present,7,cluttered labels/annotations | different labels | lack of/not enough axis labels/legend/annotations/context | more interpretable/readable/understandable | more labels/context
+multiple_figures_present,7,multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation | multiple points/lines/shapes/elements
+multiple_variables,7,more parameters/variables | multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation
+country_related_context,7,amount of words/context/numbers | context | context/text/description | lack of/not enough axis labels/legend/annotations/context | little/less text/numbers/context
+provides_necessary_context,7,amount of words/context/numbers | context | context/text/description | lack of/not enough axis labels/legend/annotations/context | little/less text/numbers/context
+intricate_visual_structure,7,different font/word sizes/structure | looks random/messy/lack structure | more intricate | simple visual elements | unclear structure
+multiple_countries_shown,7,crop production shown | multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation
+sports_team_context,7,amount of words/context/numbers | context | context/text/description | lack of/not enough axis labels/legend/annotations/context | little/less text/numbers/context
+forbes_companies_context,7,amount of words/context/numbers | context | context/text/description | lack of/not enough axis labels/legend/annotations/context | little/less text/numbers/context
+much_more_detailed,7,detailed inscription | less detailed/things | more detailed/things | more effort/reading/detailed analysis | much/more data/info/info spread
+provides_context,7,amount of words/context/numbers | context | context/text/description | lack of/not enough axis labels/legend/annotations/context | little/less text/numbers/context
+multiple_areas_of_interest,7,multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation | multiple points/lines/shapes/elements
+mentally_taxing_to_interpret,7,easier to interpret/read/understand | easy to interpret/read/understand | hard to interpret/read/understand | hard to interpret/read/understand/differentiate | more difficult to interpret/read/understand/differentiate
+confusing_layout,7,ambiguous/confusing colors | confusing connection | dense/cluttered layout | distracting/confusing/unclear | grid layout
+simple_chart_type,7,less simple | not intuitive/simple data | not simple color-wise | simple information | simple to interpret/read/understand
+little_shade_variation,7,length variation | line thickness variation | little data/info | little/less text/numbers/context | shape size variation
+multiple_images_present,7,blurry colors/images | multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation
+visually_cluttered_overlap,7,cluttered labels/annotations | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape | visually overwhelming
+difficult_to_tell_apart,7,easier to see/tell/visualize | hard to see/tell/visualize | more difficult | more difficult to compare/discern/distinguish | more difficult to focus/follow
+small_fine_details,7,color details | fine/layered details | small | small and simple | texture details
+provides_interpretive_context,7,amount of words/context/numbers | context | context/text/description | lack of/not enough axis labels/legend/annotations/context | little/less text/numbers/context
+straightforward_to_interpret,7,easier to interpret/read/understand | easy to interpret/read/understand | hard to interpret/read/understand | hard to interpret/read/understand/differentiate | more difficult to interpret/read/understand/differentiate
+rich_visual_details,7,color details | fine/layered details | simple visual elements | texture details | too many details/divisions
+cluttered_labels,7,cluttered labels/annotations | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape | different labels
+multiple_plots_present,7,multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation | multiple points/lines/shapes/elements
+more_points_present,7,dense points/lines/shapes/elements | few points/lines/shapes/elements | many points/lines/shapes/elements | more charts/points/lines/shapes/elements | multiple points/lines/shapes/elements
+shows_word_frequency,7,different font/word sizes/structure | different word meaning | word frequency | word misoriented | word rotation/small font size
+mixed_up_arrangement,7,clear text arrangement/density | color variety/arrangement/distribution | distinguishable color variety/arrangement/distribution | messy/mixed up/noisy/intermingled elements | mixed size
+multiple_continents_shown,7,crop production shown | multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation
+familiar_domain_labels,7,"a specific domain | cluttered labels/annotations | different labels | domain-specific concepts (e.g., chemical, biology, map) | familiar representation"
+simple_to_grasp,7,less simple | not intuitive/simple data | not simple color-wise | simple information | simple to interpret/read/understand
+large_number_of_items,7,large dataset | mismatched number-circle proportion | number distribution | number of legend items | number of levels
+lacks_interpretive_context,7,amount of words/context/numbers | context | context/text/description | lack of/not enough axis labels/legend/annotations/context | little/less text/numbers/context
+involves_words_sentences,7,amount of words/context/numbers | highlighted words | involves numbers | more texts/words | order of words
+unlikely_to_interpret,7,easier to interpret/read/understand | easy to interpret/read/understand | hard to interpret/read/understand | hard to interpret/read/understand/differentiate | more difficult to interpret/read/understand/differentiate
+high_word_count,7,different font/word sizes/structure | different word meaning | word frequency | word misoriented | word rotation/small font size
+random_like_movement,7,different movement | line movement | looks random/messy/lack structure | random-like movement | random-like shapes
+impossible_to_interpret,7,easier to interpret/read/understand | easy to interpret/read/understand | hard to interpret/read/understand | hard to interpret/read/understand/differentiate | more difficult to interpret/read/understand/differentiate
+dark_and_black_coloring,7,black color | black-to-white/color gradient | clearer coloring | inadequate/few coloring | unclear coloring
+rotated_word_orientations,7,different font/word sizes/structure | different word meaning | word frequency | word misoriented | word rotation/small font size
+provides_no_context,7,amount of words/context/numbers | context | context/text/description | lack of/not enough axis labels/legend/annotations/context | little/less text/numbers/context
+difficult_to_visualize,7,easier to process/visualize | easier to see/tell/visualize | hard to see/tell/visualize | more difficult | more difficult to compare/discern/distinguish
+simple_node_markers,7,less simple | not intuitive/simple data | not simple color-wise | simple information | simple to interpret/read/understand
+requires_prior_context,7,amount of words/context/numbers | context | context/text/description | lack of/not enough axis labels/legend/annotations/context | little/less text/numbers/context
+reduced_white_space,7,black-to-white/color gradient | less empty space | less negative space | more regions/space | negative space
+excessive_white_space,7,black-to-white/color gradient | less empty space | less negative space | more regions/space | negative space
+multiple_countries_labeled,7,labeled axis | multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation
+high_school_education_context,7,amount of words/context/numbers | context | context/text/description | lack of/not enough axis labels/legend/annotations/context | little/less text/numbers/context
+uniform_visual_design,7,complex design | design-data relationship | less uniform shapes | more uniform design | simple visual elements
+simple_to_digest,7,less simple | not intuitive/simple data | not simple color-wise | simple information | simple to interpret/read/understand
+multiple_variables_present,7,more parameters/variables | multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation
+random_letter_labels,7,cluttered labels/annotations | different labels | lack of/not enough axis labels/legend/annotations/context | looks random/messy/lack structure | more labels/context
+multiple_icons_present,7,icons | multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation
+each_box_significantly_different,7,different clarity | different font/word sizes/structure | different labels | different movement | different word meaning
+simple_dot_marks,7,less simple | not intuitive/simple data | not simple color-wise | simple information | simple to interpret/read/understand
+multiple_blue_shades,7,blue color | multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation
+multiple_boxes_present,7,more text boxes | multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation
+easier_to_compare,7,easier to compare/discern/distinguish | easier to interpret/read/understand | easier to process/visualize | easier to read | easier to see/tell/visualize
+no_white_space,7,black-to-white/color gradient | less empty space | less negative space | more regions/space | negative space
+easier_to_discern,7,easier to compare/discern/distinguish | easier to interpret/read/understand | easier to process/visualize | easier to read | easier to see/tell/visualize
+visually_cluttered,7,cluttered labels/annotations | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape | visually overwhelming
+complex_layout_structure,7,complex design | dense/cluttered layout | different font/word sizes/structure | grid layout | image layout
+jumbled_visual_arrangement,7,clear text arrangement/density | color variety/arrangement/distribution | distinguishable color variety/arrangement/distribution | shape arrangement | simple visual elements
+no_context_provided,7,amount of words/context/numbers | context | context/text/description | lack of/not enough axis labels/legend/annotations/context | little/less text/numbers/context
+simple_mark_type,7,less simple | not intuitive/simple data | not simple color-wise | simple information | simple to interpret/read/understand
+simple_circular_form,7,less simple | not intuitive/simple data | not simple color-wise | simple information | simple to interpret/read/understand
+multiple_parameters_present,7,more parameters/variables | multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation
+encodes_word_frequency,7,different font/word sizes/structure | different word meaning | word frequency | word misoriented | word rotation/small font size
+differing_word_meanings,7,different font/word sizes/structure | different word meaning | word frequency | word misoriented | word rotation/small font size
+intuitive_graph_understanding,6,graph | intuitive | less intuitive | more reading/interpretation/understanding | not intuitive/simple data
+words_sentences_present,6,amount of words/context/numbers | highlighted words | more texts/words | order of words | unclear relation between words
+multiple_links_present,6,multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation | multiple points/lines/shapes/elements
+difficult_to_analyze,6,more difficult | more difficult to compare/discern/distinguish | more difficult to focus/follow | more difficult to interpret/read/understand/differentiate | more to read/analyze/understand
+fewer_visual_items,6,fewer axes | number of legend items | read/analyze many figures/items | simple visual elements | visual clarity/appealing
+messy_and_confusing,6,ambiguous/confusing colors | confusing connection | distracting/confusing/unclear | looks random/messy/lack structure | messy/mixed up/noisy/intermingled elements
+different_volume_encodings,6,different clarity | different font/word sizes/structure | different labels | different movement | different word meaning
+pointing_in_different_directions,6,different clarity | different font/word sizes/structure | different labels | different movement | different word meaning
+blue_colored_box,6,blue color | clear colored bars/charts | colored bars/charts | colored shape | colored surface
+different_shades_used,6,different clarity | different font/word sizes/structure | different labels | different movement | different word meaning
+visually_clean_layout,6,dense/cluttered layout | grid layout | image layout | visually overwhelming | visually stimulating  texture/colors
+messy_overall_layout,6,dense/cluttered layout | grid layout | image layout | looks random/messy/lack structure | messy/mixed up/noisy/intermingled elements
+crossing_multiple_times,6,multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation | multiple points/lines/shapes/elements
+multiple_entity_types,6,multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation | multiple points/lines/shapes/elements
+difficult_to_focus_on,6,easy to focus/follow | hard to focus/follow | more difficult | more difficult to compare/discern/distinguish | more difficult to focus/follow
+dense_date_annotations,6,cluttered labels/annotations | dense points/lines/shapes/elements | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape
+cluttered_screen_layout,6,cluttered labels/annotations | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape | grid layout
+multiple_statistics_present,6,multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation | multiple points/lines/shapes/elements
+harder_to_distinguish,6,easier to compare/discern/distinguish | hard to compare/discern/distinguish | hard to distinguish colors | harder to view data point | lack of color contrast / hard to distinguish colors
+histogram_like_structure,6,different font/word sizes/structure | looks random/messy/lack structure | random-like movement | random-like shapes | unclear structure
+multiple_directions,6,multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation | multiple points/lines/shapes/elements
+tiny_image_layout,6,dense/cluttered layout | grid layout | image layout | image location | image portrayal
+light_and_dark_contrast,6,distinguishable/full/highly contrast color uses | good color contrast/separation/segmentation | lack of color contrast / hard to distinguish colors | low color contrast/separation/segmentation | more contrast
+high_contrast_level,6,distinguishable/full/highly contrast color uses | good color contrast/separation/segmentation | lack of color contrast / hard to distinguish colors | low color contrast/separation/segmentation | more contrast
+difficult_to_extract_takeaway,6,easy to identify/extract/find features | hard to identify/extract/find features | more difficult | more difficult to compare/discern/distinguish | more difficult to focus/follow
+multiple_lineages_present,6,multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation | multiple points/lines/shapes/elements
+exact_values_unreadable,6,exact feature | exact value | frame with values | separate values by color to show differences | unreadable
+contains_words,6,amount of words/context/numbers | highlighted words | more texts/words | order of words | unclear relation between words
+multiple_facts_conveyed,6,multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation | multiple points/lines/shapes/elements
+differing_font_sizes,6,different font/word sizes/structure | element sizes | font | similar box sizes | single font
+different_fonts_used,6,different clarity | different font/word sizes/structure | different labels | different movement | different word meaning
+easier_to_process,6,complicated to process | easier to compare/discern/distinguish | easier to interpret/read/understand | easier to process/visualize | easier to read
+multiple_circles_present,6,multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation | multiple points/lines/shapes/elements
+more_cluttered_layout,6,cluttered labels/annotations | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape | grid layout
+quicker_easier_to_process,6,complicated to process | easier to compare/discern/distinguish | easier to interpret/read/understand | easier to process/visualize | easier to read
+different_shades_of_orange,6,different clarity | different font/word sizes/structure | different labels | different movement | different word meaning
+labels_aid_reading,6,cluttered labels/annotations | different labels | lack of/not enough axis labels/legend/annotations/context | more effort/reading/detailed analysis | more labels/context
+detailed_annotations,6,cluttered labels/annotations | detailed inscription | lack of/not enough axis labels/legend/annotations/context | less detailed/things | more detailed/things
+random_collection_layout,6,dense/cluttered layout | grid layout | image layout | looks random/messy/lack structure | random-like movement
+nuanced_visual_features,6,easy to identify/extract/find features | hard to identify/extract/find features | multiple features/elements/graphs | simple visual elements | visual clarity/appealing
+ambiguous_visual_encoding,6,ambiguous numbers | ambiguous/confusing colors | simple visual elements | technical encoding | visual clarity/appealing
+visually_busy_layout,6,dense/cluttered layout | grid layout | image layout | visually overwhelming | visually stimulating  texture/colors
+numerous_words_present,6,amount of words/context/numbers | highlighted words | more texts/words | order of words | unclear relation between words
+highly_confusing_content,6,ambiguous/confusing colors | confusing connection | distinguishable/full/highly contrast color uses | distracting/confusing/unclear | unclear meaning/confusing
+messy_arrangement,6,clear text arrangement/density | color variety/arrangement/distribution | distinguishable color variety/arrangement/distribution | looks random/messy/lack structure | messy/mixed up/noisy/intermingled elements
+represent_different_quantities,6,different clarity | different font/word sizes/structure | different labels | different movement | different word meaning
+bidirectional_error_bars,6,bars as individual lines | clear colored bars/charts | colored bars/charts | error bars | horizontal bars
+multiple_copies_present,6,multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation | multiple points/lines/shapes/elements
+insufficient_contrast,6,distinguishable/full/highly contrast color uses | good color contrast/separation/segmentation | lack of color contrast / hard to distinguish colors | low color contrast/separation/segmentation | more contrast
+high_number_density,6,clear text arrangement/density | mismatched number-circle proportion | number distribution | number of legend items | number of levels
+words_present,6,amount of words/context/numbers | highlighted words | more texts/words | order of words | unclear relation between words
+difficult_to_discern,6,easier to compare/discern/distinguish | hard to compare/discern/distinguish | more difficult | more difficult to compare/discern/distinguish | more difficult to focus/follow
+mixed_with_charts,6,clear colored bars/charts | colored bars/charts | messy/mixed up/noisy/intermingled elements | mixed size | mixed timeline
+objects_spread_across_space,6,less empty space | less negative space | more regions/space | much/more data/info/info spread | negative space
+multiple_graphs_present,6,multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation | multiple points/lines/shapes/elements
+single_visual_element,6,element sizes | simple visual elements | single font | single variable | visual clarity/appealing
+high_amount_of_details,6,amount of / too many colors | amount of words/context/numbers | color details | fine/layered details | texture details
+multiple_distinct_components,6,multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation | multiple points/lines/shapes/elements
+labels_aid_understanding,6,cluttered labels/annotations | different labels | lack of/not enough axis labels/legend/annotations/context | more labels/context | more reading/interpretation/understanding
+multiple_precise_components,6,multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation | multiple points/lines/shapes/elements
+poor_visual_design,6,complex design | design-data relationship | more uniform design | simple visual elements | visual clarity/appealing
+visually_overwhelming_layout,6,dense/cluttered layout | grid layout | image layout | visually overwhelming | visually stimulating  texture/colors
+number_of_items_manageable,6,mismatched number-circle proportion | number distribution | number of legend items | number of levels | number of vertical lines
+lots_of_words,6,amount of words/context/numbers | highlighted words | more texts/words | order of words | unclear relation between words
+multiple_connecting_edges,6,multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation | multiple points/lines/shapes/elements
+difficult_to_focus_long,6,easy to focus/follow | hard to focus/follow | more difficult | more difficult to compare/discern/distinguish | more difficult to focus/follow
+varying_font_sizes,6,different font/word sizes/structure | element sizes | font | similar box sizes | single font
+difficult_signal_noise_separation,6,good color contrast/separation/segmentation | low color contrast/separation/segmentation | more difficult | more difficult to compare/discern/distinguish | more difficult to focus/follow
+high_contrast_marks,6,distinguishable/full/highly contrast color uses | good color contrast/separation/segmentation | lack of color contrast / hard to distinguish colors | low color contrast/separation/segmentation | more contrast
+complex_spatial_arrangement,6,clear text arrangement/density | color variety/arrangement/distribution | complex design | distinguishable color variety/arrangement/distribution | shape arrangement
+understandable_visual,6,less understandable | more interpretable/readable/understandable | not interpretable/readable/understandable | simple visual elements | visual clarity/appealing
+repeated_multiple_times,6,multiple aspects | multiple features/elements/graphs | multiple interacting elements | multiple interpretation | multiple points/lines/shapes/elements
+difficult_to_follow,6,easy to focus/follow | hard to focus/follow | more difficult | more difficult to compare/discern/distinguish | more difficult to focus/follow
+single_font_used,5,different font/word sizes/structure | font | single font | single variable | word rotation/small font size
+dense_element_clutter,5,dense points/lines/shapes/elements | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape | element sizes
+difficult_to_differentiate,5,hard to interpret/read/understand/differentiate | more difficult | more difficult to compare/discern/distinguish | more difficult to focus/follow | more difficult to interpret/read/understand/differentiate
+spread_of_values_shown,5,crop production shown | frame with values | much/more data/info/info spread | separate values by color to show differences | values in the middle
+nothing_clearly_readable,5,more interpretable/readable/understandable | not interpretable/readable/understandable | nothing clear | nothing visible | readable/distinguishable colors
+sequential_process_structure,5,complicated to process | different font/word sizes/structure | easier to process/visualize | looks random/messy/lack structure | unclear structure
+easier_to_figure_out,5,easier to compare/discern/distinguish | easier to interpret/read/understand | easier to process/visualize | easier to read | easier to see/tell/visualize
+low_visual_activity,5,low color contrast/separation/segmentation | low readability | simple visual elements | visual clarity/appealing | visual cues
+unfamiliar_label_names,5,clear title/axis/label | label meaning | more title/axis/label | title/axis/label/descriptions | unfamiliar concepts/patterns
+overall_confusing,5,ambiguous/confusing colors | confusing connection | distracting/confusing/unclear | overall shape | unclear meaning/confusing
+no_font_differentiation,5,color differentiation | different font/word sizes/structure | font | single font | word rotation/small font size
+difficult_cross_element_comparison,5,element sizes | more difficult | more difficult to compare/discern/distinguish | more difficult to focus/follow | more difficult to interpret/read/understand/differentiate
+not_straight_to_point,5,harder to view data point | shape increase/decrease point | shape point of interest | straight lines | unique data point
+ordered_arrangement,5,clear text arrangement/density | color variety/arrangement/distribution | distinguishable color variety/arrangement/distribution | ordered | shape arrangement
+abstract_visual_forms,5,abstract shapes or colors | more forms | simple visual elements | visual clarity/appealing | visual cues
+varying_circle_sizes,5,"a specific technique, e.g., bar, pie, circle | different font/word sizes/structure | element sizes | mismatched number-circle proportion | similar box sizes"
+exact_values_displayed,5,exact feature | exact value | frame with values | separate values by color to show differences | values in the middle
+high_point_density,5,clear text arrangement/density | harder to view data point | shape increase/decrease point | shape point of interest | unique data point
+tidy_organized_layout,5,dense/cluttered layout | grid layout | image layout | less organized elements | organized/structured
+unique_visual_form,5,simple visual elements | unique | unique data point | visual clarity/appealing | visual cues
+familiar_domain_knowledge,5,"a specific domain | domain-specific concepts (e.g., chemical, biology, map) | familiar representation | not enough knowledge to tell | require specialized knowledge"
+less_visually_appealing,5,appealing colors | visual clarity/appealing | visually overwhelming | visually stimulating  texture/colors | visually striking
+explanatory_description_present,5,context/text/description | description | description easy to read | explanatory legend | eye-catching description
+human_interpretable_layout,5,dense/cluttered layout | grid layout | image layout | more interpretable/readable/understandable | not interpretable/readable/understandable
+blue_colored,5,blue color | clear colored bars/charts | colored bars/charts | colored shape | colored surface
+visually_complex_overall,5,complex design | overall shape | visually overwhelming | visually stimulating  texture/colors | visually striking
+small_box_indicators,5,shape indicators | similar box sizes | small | small and simple | word rotation/small font size
+easily_recognizable_symbols,5,indicating symbols | not easily understood | recognizable objects | symbols | symbols and shading
+similar_box_sizes,5,different font/word sizes/structure | element sizes | similar box sizes | similar colors | similar shapes
+unknown_details,5,color details | fine/layered details | texture details | too many details/divisions | unknown hidden content
+missing_explanatory_labels,5,cluttered labels/annotations | different labels | explanatory legend | lack of/not enough axis labels/legend/annotations/context | more labels/context
+organized_structure,5,different font/word sizes/structure | less organized elements | looks random/messy/lack structure | organized/structured | unclear structure
+ambiguous_numeric_values,5,ambiguous numbers | ambiguous/confusing colors | frame with values | separate values by color to show differences | values in the middle
+image_is_blurry,5,blurry colors/images | image layout | image location | image portrayal | image size
+difficult_to_model,5,hard to measure/model | more difficult | more difficult to compare/discern/distinguish | more difficult to focus/follow | more difficult to interpret/read/understand/differentiate
+organized_structured_layout,5,dense/cluttered layout | grid layout | image layout | less organized elements | organized/structured
+visually_stimulating_texture,5,striped texture | texture details | visually overwhelming | visually stimulating  texture/colors | visually striking
+straight_line_encoding,5,line movement | line quantity representation | line thickness variation | straight lines | technical encoding
+finer_intricate_details,5,color details | fine/layered details | more intricate | texture details | too many details/divisions
+visually_ambiguous_marks,5,ambiguous numbers | ambiguous/confusing colors | visually overwhelming | visually stimulating  texture/colors | visually striking
+high_label_density,5,clear text arrangement/density | clear title/axis/label | label meaning | more title/axis/label | title/axis/label/descriptions
+complex_network_structure,5,complex design | different font/word sizes/structure | looks random/messy/lack structure | network representation | unclear structure
+unfamiliar_graphic_design,5,complex design | design-data relationship | more uniform design | unfamiliar concepts/patterns | value and graphic alignment
+easily_readable_content,5,more interpretable/readable/understandable | not easily understood | not interpretable/readable/understandable | readable/distinguishable colors | unknown hidden content
+unfamiliar_domain_knowledge_required,5,"a specific domain | domain-specific concepts (e.g., chemical, biology, map) | not enough knowledge to tell | require specialized knowledge | unfamiliar concepts/patterns"
+complex_grid_structure,5,complex design | different font/word sizes/structure | grid layout | looks random/messy/lack structure | unclear structure
+needs_much_reading,5,more effort/reading/detailed analysis | more reading/interpretation/understanding | much/more data/info/info spread | too much data/info | too much legend
+visually_appealing,5,appealing colors | visual clarity/appealing | visually overwhelming | visually stimulating  texture/colors | visually striking
+red_colored_boxes,5,clear colored bars/charts | colored bars/charts | colored shape | colored surface | more text boxes
+organized_layout,5,dense/cluttered layout | grid layout | image layout | less organized elements | organized/structured
+challenging_to_distinguish,5,easier to compare/discern/distinguish | hard to compare/discern/distinguish | hard to distinguish colors | lack of color contrast / hard to distinguish colors | more difficult to compare/discern/distinguish
+visually_intricate_network,5,more intricate | network representation | visually overwhelming | visually stimulating  texture/colors | visually striking
+low_visual_demand,5,low color contrast/separation/segmentation | low readability | simple visual elements | visual clarity/appealing | visual cues
+colored_graphic_chart,5,clear colored bars/charts | colored bars/charts | colored shape | colored surface | value and graphic alignment
+arranged_in_single_line,5,line movement | line quantity representation | line thickness variation | single font | single variable
+low_visual_clutter,5,low color contrast/separation/segmentation | low readability | simple visual elements | visual clarity/appealing | visual cues
+messy_disorganized_layout,5,dense/cluttered layout | grid layout | image layout | looks random/messy/lack structure | messy/mixed up/noisy/intermingled elements
+layered_structure,5,different font/word sizes/structure | fine/layered details | looks random/messy/lack structure | soft/layered/overlapping colors | unclear structure
+varied_point_positions,5,harder to view data point | shape increase/decrease point | shape point of interest | shapes varied | unique data point
+confusing_and_complex,5,ambiguous/confusing colors | complex design | confusing connection | distracting/confusing/unclear | unclear meaning/confusing
+striped_background_texture,5,striped texture | texture details | visually stimulating  texture/colors | white color on black background | white/black background / other background
+difficult_to_describe,5,hard to describe | more difficult | more difficult to compare/discern/distinguish | more difficult to focus/follow | more difficult to interpret/read/understand/differentiate
+complicated_formulas_symbols,5,complicated to process | indicating symbols | more complicated | symbols | symbols and shading
+varied_visual_encoding,5,shapes varied | simple visual elements | technical encoding | visual clarity/appealing | visual cues
+x_and_y_scales_present,5,axis scales | lines and scales | separate color scales | x-axis unlabeled | y-axis meaning unclear
+confusing_overall_understandability,5,ambiguous/confusing colors | confusing connection | distracting/confusing/unclear | overall shape | unclear meaning/confusing
+not_easily_readable,4,more interpretable/readable/understandable | not easily understood | not interpretable/readable/understandable | readable/distinguishable colors
+frequency_directly_readable,4,more interpretable/readable/understandable | not interpretable/readable/understandable | readable/distinguishable colors | word frequency
+black_to_white_transition,4,black color | black-to-white/color gradient | white color on black background | white/black background / other background
+jumbled_arrangement,4,clear text arrangement/density | color variety/arrangement/distribution | distinguishable color variety/arrangement/distribution | shape arrangement
+difficult_to_ascertain,4,more difficult | more difficult to compare/discern/distinguish | more difficult to focus/follow | more difficult to interpret/read/understand/differentiate
+nothing_clearly_interpretable,4,more interpretable/readable/understandable | not interpretable/readable/understandable | nothing clear | nothing visible
+less_details_present,4,color details | fine/layered details | texture details | too many details/divisions
+harder_to_discern,4,easier to compare/discern/distinguish | hard to compare/discern/distinguish | harder to view data point | more difficult to compare/discern/distinguish
+domain_specific_chemicals,4,"a specific domain | a specific technique | a specific technique, e.g., bar, pie, circle | domain-specific concepts (e.g., chemical, biology, map)"
+lacks_visual_clarity,4,different clarity | simple visual elements | visual clarity/appealing | visual cues
+overlapping_annotations,4,cluttered labels/annotations | lack of/not enough axis labels/legend/annotations/context | overlapping shapes/colors/lines | soft/layered/overlapping colors
+straight_line_paths,4,line movement | line quantity representation | line thickness variation | straight lines
+grabs_visual_attention,4,attention/squinting to understand | simple visual elements | visual clarity/appealing | visual cues
+provides_value_reference,4,exact value | no context or reference | value and graphic alignment | value representation
+complex_letter_structure,4,complex design | different font/word sizes/structure | looks random/messy/lack structure | unclear structure
+initially_visually_attractive,4,less attractive | visually overwhelming | visually stimulating  texture/colors | visually striking
+recognizable_pattern_structure,4,different font/word sizes/structure | looks random/messy/lack structure | recognizable objects | unclear structure
+graphic_like_appearance,4,random-like movement | random-like shapes | value and graphic alignment | waterfall-like
+precise_line_intensity,4,color intensity | line movement | line quantity representation | line thickness variation
+too_much_to_remember,4,much/more data/info/info spread | too much data/info | too much legend | unable to remember
+domain_knowledge_required,4,"a specific domain | domain-specific concepts (e.g., chemical, biology, map) | not enough knowledge to tell | require specialized knowledge"
+line_graph_format,4,graph | line movement | line quantity representation | line thickness variation
+spatially_complex_layout,4,complex design | dense/cluttered layout | grid layout | image layout
+difficult_to_capture,4,more difficult | more difficult to compare/discern/distinguish | more difficult to focus/follow | more difficult to interpret/read/understand/differentiate
+linear_arrangement,4,clear text arrangement/density | color variety/arrangement/distribution | distinguishable color variety/arrangement/distribution | shape arrangement
+short_cryptic_labels,4,cluttered labels/annotations | different labels | lack of/not enough axis labels/legend/annotations/context | more labels/context
+font_adds_complexity,4,different font/word sizes/structure | font | single font | word rotation/small font size
+less_blank_space,4,less empty space | less negative space | more regions/space | negative space
+excessively_detailed,4,detailed inscription | less detailed/things | more detailed/things | more effort/reading/detailed analysis
+dense_writing,4,dense points/lines/shapes/elements | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape
+uncertain_image_selection,4,image layout | image location | image portrayal | image size
+ambiguous_spatial_location,4,ambiguous numbers | ambiguous/confusing colors | image location | spatial organization
+unrecognizable_visual_encoding,4,simple visual elements | technical encoding | visual clarity/appealing | visual cues
+disordered_arrangement,4,clear text arrangement/density | color variety/arrangement/distribution | distinguishable color variety/arrangement/distribution | shape arrangement
+differences_easily_visible,4,not easily understood | nothing visible | separate values by color to show differences | stimulus less visible
+dense_chart_wording,4,dense points/lines/shapes/elements | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape
+domain_specific_biology,4,"a specific domain | a specific technique | a specific technique, e.g., bar, pie, circle | domain-specific concepts (e.g., chemical, biology, map)"
+complex_visual_designs,4,complex design | simple visual elements | visual clarity/appealing | visual cues
+difficult_to_trace_paths,4,more difficult | more difficult to compare/discern/distinguish | more difficult to focus/follow | more difficult to interpret/read/understand/differentiate
+very_confusing_appearance,4,ambiguous/confusing colors | confusing connection | distracting/confusing/unclear | unclear meaning/confusing
+more_labels_present,4,cluttered labels/annotations | different labels | lack of/not enough axis labels/legend/annotations/context | more labels/context
+high_point_count,4,harder to view data point | shape increase/decrease point | shape point of interest | unique data point
+curved_line_marks,4,curved lines | line movement | line quantity representation | line thickness variation
+domain_specific_terminology,4,"a specific domain | a specific technique | a specific technique, e.g., bar, pie, circle | domain-specific concepts (e.g., chemical, biology, map)"
+unfamiliar_design,4,complex design | design-data relationship | more uniform design | unfamiliar concepts/patterns
+unfamiliar_visual_form,4,simple visual elements | unfamiliar concepts/patterns | visual clarity/appealing | visual cues
+excessively_crowded_labels,4,cluttered labels/annotations | different labels | lack of/not enough axis labels/legend/annotations/context | more labels/context
+non_familiar_layout,4,dense/cluttered layout | familiar representation | grid layout | image layout
+lots_of_details,4,color details | fine/layered details | texture details | too many details/divisions
+easily_understandable,4,less understandable | more interpretable/readable/understandable | not easily understood | not interpretable/readable/understandable
+black_and_white_only,4,black color | black-to-white/color gradient | white color on black background | white/black background / other background
+low_readability,4,fast readability | low color contrast/separation/segmentation | low readability | readability
+numerous_small_boxes,4,more text boxes | small | small and simple | word rotation/small font size
+densely_packed_arrangement,4,clear text arrangement/density | color variety/arrangement/distribution | distinguishable color variety/arrangement/distribution | shape arrangement
+high_image_count,4,image layout | image location | image portrayal | image size
+longitudinal_graph_structure,4,different font/word sizes/structure | graph | looks random/messy/lack structure | unclear structure
+two_dimensional_structure,4,different font/word sizes/structure | looks random/messy/lack structure | two colors | unclear structure
+overlapping_circle_areas,4,"a specific technique, e.g., bar, pie, circle | mismatched number-circle proportion | overlapping shapes/colors/lines | soft/layered/overlapping colors"
+visually_painful_to_view,4,harder to view data point | visually overwhelming | visually stimulating  texture/colors | visually striking
+visually_striking_surface,4,colored surface | visually overwhelming | visually stimulating  texture/colors | visually striking
+receding_perspective_point,4,harder to view data point | shape increase/decrease point | shape point of interest | unique data point
+grid_adds_visual_clutter,4,grid layout | simple visual elements | visual clarity/appealing | visual cues
+difficult_to_comprehend,4,more difficult | more difficult to compare/discern/distinguish | more difficult to focus/follow | more difficult to interpret/read/understand/differentiate
+complex_graph_design,4,complex design | design-data relationship | graph | more uniform design
+structured_layout,4,dense/cluttered layout | grid layout | image layout | organized/structured
+no_numeric_labels,4,cluttered labels/annotations | different labels | lack of/not enough axis labels/legend/annotations/context | more labels/context
+spread_out_distribution,4,color variety/arrangement/distribution | distinguishable color variety/arrangement/distribution | much/more data/info/info spread | number distribution
+requires_detailed_analysis,4,detailed inscription | less detailed/things | more detailed/things | more effort/reading/detailed analysis
+requires_domain_understanding,4,"a specific domain | domain-specific concepts (e.g., chemical, biology, map) | more reading/interpretation/understanding | provokes thought and understanding"
+unusual_shading_technique,4,"a specific technique | a specific technique, e.g., bar, pie, circle | color shading | symbols and shading"
+harder_to_see,4,easier to see/tell/visualize | hard to see/tell/visualize | harder to view data point | unclear where to look/what to see
+high_visual_detail,4,no detail | simple visual elements | visual clarity/appealing | visual cues
+numerical_details_present,4,color details | fine/layered details | texture details | too many details/divisions
+varied_element_sizes,4,different font/word sizes/structure | element sizes | shapes varied | similar box sizes
+less_intuitive_overall,4,intuitive | less intuitive | not intuitive/simple data | overall shape
+high_amount_of_items,4,amount of / too many colors | amount of words/context/numbers | number of legend items | read/analyze many figures/items
+high_quantity_of_squares,4,"line quantity representation | more squares than shapes | scattered shapes (e.g., dots, squares, pictures) | squares"
+difficult_to_parse,4,more difficult | more difficult to compare/discern/distinguish | more difficult to focus/follow | more difficult to interpret/read/understand/differentiate
+recognizable_visual_schema,4,recognizable objects | simple visual elements | visual clarity/appealing | visual cues
+logically_structured_values,4,frame with values | organized/structured | separate values by color to show differences | values in the middle
+squeezed_dense_writing,4,dense points/lines/shapes/elements | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape
+equally_difficult_to_parse,4,more difficult | more difficult to compare/discern/distinguish | more difficult to focus/follow | more difficult to interpret/read/understand/differentiate
+visually_noisy,4,messy/mixed up/noisy/intermingled elements | visually overwhelming | visually stimulating  texture/colors | visually striking
+familiar_structure,4,different font/word sizes/structure | familiar representation | looks random/messy/lack structure | unclear structure
+large_numeric_values,4,frame with values | large dataset | separate values by color to show differences | values in the middle
+x_and_y_axes_present,4,fewer axes | more axes | x-axis unlabeled | y-axis meaning unclear
+key_present_in_image,4,image layout | image location | image portrayal | image size
+understandable_content,4,less understandable | more interpretable/readable/understandable | not interpretable/readable/understandable | unknown hidden content
+self_explanatory_layout,4,dense/cluttered layout | explanatory legend | grid layout | image layout
+title_clarifies_content,4,clear title/axis/label | more title/axis/label | title/axis/label/descriptions | unknown hidden content
+excessive_point_count,4,harder to view data point | shape increase/decrease point | shape point of interest | unique data point
+scattered_distribution,4,"color variety/arrangement/distribution | distinguishable color variety/arrangement/distribution | number distribution | scattered shapes (e.g., dots, squares, pictures)"
+complex_grid_layout,4,complex design | dense/cluttered layout | grid layout | image layout
+more_details_included,4,color details | fine/layered details | texture details | too many details/divisions
+requires_domain_knowledge,4,"a specific domain | domain-specific concepts (e.g., chemical, biology, map) | not enough knowledge to tell | require specialized knowledge"
+distributed_numeric_labels,4,cluttered labels/annotations | different labels | lack of/not enough axis labels/legend/annotations/context | more labels/context
+can_be_confusing,4,ambiguous/confusing colors | confusing connection | distracting/confusing/unclear | unclear meaning/confusing
+low_detail_overall,4,low color contrast/separation/segmentation | low readability | no detail | overall shape
+small_collection_three_dots,4,"scattered shapes (e.g., dots, squares, pictures) | small | small and simple | word rotation/small font size"
+cluttered_appearance,4,cluttered labels/annotations | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape
+significant_scale_difference,4,clear text/scale/information | color scale/scheme | no color difference | scale difference
+high_volume_of_details,4,color details | fine/layered details | texture details | too many details/divisions
+network_structure_present,4,different font/word sizes/structure | looks random/messy/lack structure | network representation | unclear structure
+two_dimensional_layout,4,dense/cluttered layout | grid layout | image layout | two colors
+generally_complex_layout,4,complex design | dense/cluttered layout | grid layout | image layout
+common_knowledge_domain,4,"a specific domain | domain-specific concepts (e.g., chemical, biology, map) | not enough knowledge to tell | require specialized knowledge"
+time_scale_present,4,change over time | clear text/scale/information | color scale/scheme | scale difference
+numeric_labels_present,4,cluttered labels/annotations | different labels | lack of/not enough axis labels/legend/annotations/context | more labels/context
+non_linear_arrangement,4,clear text arrangement/density | color variety/arrangement/distribution | distinguishable color variety/arrangement/distribution | shape arrangement
+cluttered_and_disordered,4,cluttered labels/annotations | dense/cluttered data/info | dense/cluttered layout | dense/cluttered shape
+lot_of_details,4,color details | fine/layered details | texture details | too many details/divisions
+more_details_present,4,color details | fine/layered details | texture details | too many details/divisions
+simplifies_structure,3,different font/word sizes/structure | looks random/messy/lack structure | unclear structure
+simplistic_design,3,complex design | design-data relationship | more uniform design
+high_visual_impact,3,simple visual elements | visual clarity/appealing | visual cues
+asymmetrical_layout,3,dense/cluttered layout | grid layout | image layout
+alignment_ambiguous,3,ambiguous numbers | ambiguous/confusing colors | value and graphic alignment
+several_measurements_shown,3,crop production shown | many measurements | several elements
+low_detail_count,3,low color contrast/separation/segmentation | low readability | no detail
+quickly_interpretable_content,3,more interpretable/readable/understandable | not interpretable/readable/understandable | unknown hidden content
+no_ordering_structure,3,different font/word sizes/structure | looks random/messy/lack structure | unclear structure
+requires_extended_interpretation_time,3,change over time | more reading/interpretation/understanding | multiple interpretation
+very_small_writing,3,small | small and simple | word rotation/small font size
+illegible_small_writing,3,small | small and simple | word rotation/small font size
+diffuse_distribution,3,color variety/arrangement/distribution | distinguishable color variety/arrangement/distribution | number distribution
+high_line_quantity,3,line movement | line quantity representation | line thickness variation
+uncluttered_layout,3,dense/cluttered layout | grid layout | image layout
+nasa_like_complexity,3,random-like movement | random-like shapes | waterfall-like
+high_visual_clutter,3,simple visual elements | visual clarity/appealing | visual cues
+small_and_sparse,3,small | small and simple | word rotation/small font size
+high_visual_noise,3,simple visual elements | visual clarity/appealing | visual cues
+non_linear_scale,3,clear text/scale/information | color scale/scheme | scale difference
+low_cognitive_effort,3,low color contrast/separation/segmentation | low readability | more effort/reading/detailed analysis
+not_intuitive,3,intuitive | less intuitive | not intuitive/simple data
+one_year_change_shown,3,change over time | crop production shown | multi-year information
+poor_readability,3,fast readability | low readability | readability
+aids_readability,3,fast readability | low readability | readability
+high_line_count,3,line movement | line quantity representation | line thickness variation
+varying_line_thickness,3,line movement | line quantity representation | line thickness variation
+nothing_visible,3,nothing clear | nothing visible | stimulus less visible
+title_present,3,clear title/axis/label | more title/axis/label | title/axis/label/descriptions
+chaotic_visual_appearance,3,simple visual elements | visual clarity/appealing | visual cues
+distinct_regions_shown,3,crop production shown | more regions/space | regions
+cascading_visual_flow,3,simple visual elements | visual clarity/appealing | visual cues
+high_visual_strain,3,simple visual elements | visual clarity/appealing | visual cues
+requires_individual_reading,3,bars as individual lines | more effort/reading/detailed analysis | more reading/interpretation/understanding
+fifteen_separate_figures,3,read/analyze many figures/items | separate color scales | separate values by color to show differences
+x_position_encoding,3,shape position | technical encoding | x-axis unlabeled
+wording_too_small,3,small | small and simple | word rotation/small font size
+visually_busy,3,visually overwhelming | visually stimulating  texture/colors | visually striking
+labeled_axes_present,3,fewer axes | labeled axis | more axes
+busier_layout,3,dense/cluttered layout | grid layout | image layout
+very_complex_to_process,3,complex design | complicated to process | easier to process/visualize
+two_axes_only,3,fewer axes | more axes | two colors
+complex_design_and_concept,3,complex design | design-data relationship | more uniform design
+very_busy_layout,3,dense/cluttered layout | grid layout | image layout
+comfortable_visual_appearance,3,simple visual elements | visual clarity/appealing | visual cues
+excessive_line_count,3,line movement | line quantity representation | line thickness variation
+y_position_encoding,3,shape position | technical encoding | y-axis meaning unclear
+adds_visual_complexity,3,simple visual elements | visual clarity/appealing | visual cues
+easily_interpretable,3,more interpretable/readable/understandable | not easily understood | not interpretable/readable/understandable
+two_axes_present,3,fewer axes | more axes | two colors
+tabular_structure,3,different font/word sizes/structure | looks random/messy/lack structure | unclear structure
+dark_coloring,3,clearer coloring | inadequate/few coloring | unclear coloring
+dotted_line_marks,3,line movement | line quantity representation | line thickness variation
+varying_sizes,3,different font/word sizes/structure | element sizes | similar box sizes
+complicated_to_look_at,3,complicated to process | more complicated | unclear where to look/what to see
+requires_long_interpretation_time,3,change over time | more reading/interpretation/understanding | multiple interpretation
+causes_visual_blur,3,simple visual elements | visual clarity/appealing | visual cues
+more_visually_pleasing,3,visually overwhelming | visually stimulating  texture/colors | visually striking
+clean_visual_appearance,3,simple visual elements | visual clarity/appealing | visual cues
+values_placed_in_middle,3,frame with values | separate values by color to show differences | values in the middle
+circles_of_various_sizes,3,different font/word sizes/structure | element sizes | similar box sizes
+more_complicated_overall,3,complicated to process | more complicated | overall shape
+requires_longer_interpretation,3,more reading/interpretation/understanding | multiple interpretation | take longer to interpret
+reduced_readability,3,fast readability | low readability | readability
+numerous_numeric_values,3,frame with values | separate values by color to show differences | values in the middle
+requires_interpretation_effort,3,more effort/reading/detailed analysis | more reading/interpretation/understanding | multiple interpretation
+ambiguous_encoding,3,ambiguous numbers | ambiguous/confusing colors | technical encoding
+three_dimensional_structure,3,different font/word sizes/structure | looks random/messy/lack structure | unclear structure
+four_labeled_axes,3,fewer axes | labeled axis | more axes
+white_background_present,3,black-to-white/color gradient | white color on black background | white/black background / other background
+enables_visual_processing,3,simple visual elements | visual clarity/appealing | visual cues
+introduces_visual_uncertainty,3,simple visual elements | visual clarity/appealing | visual cues
+high_visual_activity,3,simple visual elements | visual clarity/appealing | visual cues
+no_regularity_in_design,3,complex design | design-data relationship | more uniform design
+visually_pleasant_appearance,3,visually overwhelming | visually stimulating  texture/colors | visually striking
+not_understandable_at_all,3,less understandable | more interpretable/readable/understandable | not interpretable/readable/understandable
+high_visual_busyness,3,simple visual elements | visual clarity/appealing | visual cues
+prominent_red_coloring,3,clearer coloring | inadequate/few coloring | unclear coloring
+upwards_trend_visible,3,data trend | nothing visible | stimulus less visible
+disorganised_layout,3,dense/cluttered layout | grid layout | image layout
+straightforward_line_paths,3,line movement | line quantity representation | line thickness variation
+visually_stimulating,3,visually overwhelming | visually stimulating  texture/colors | visually striking
+cannot_identify_categories,3,easy to identify/extract/find features | hard to identify/extract/find features | many legend categories
+scale_adds_complexity,3,clear text/scale/information | color scale/scheme | scale difference
+fast_readability,3,fast readability | low readability | readability
+readable_relationships,3,more interpretable/readable/understandable | not interpretable/readable/understandable | readable/distinguishable colors
+unfamiliar_domain_terms,3,"a specific domain | domain-specific concepts (e.g., chemical, biology, map) | unfamiliar concepts/patterns"
+evolutionary_tree_structure,3,different font/word sizes/structure | looks random/messy/lack structure | unclear structure
+novel_visual_pattern,3,simple visual elements | visual clarity/appealing | visual cues
+precise_line_thickness,3,line movement | line quantity representation | line thickness variation
+evenly_distributed_layout,3,dense/cluttered layout | grid layout | image layout
+increases_visual_complexity,3,simple visual elements | visual clarity/appealing | visual cues
+untidy_disorganized_layout,3,dense/cluttered layout | grid layout | image layout
+nothing_is_understood,3,not easily understood | nothing clear | nothing visible
+pattern_not_understandable,3,less understandable | more interpretable/readable/understandable | not interpretable/readable/understandable
+missing_title,3,clear title/axis/label | more title/axis/label | title/axis/label/descriptions
+dashed_line_present,3,line movement | line quantity representation | line thickness variation
+objects_spread_over_area,3,change over time | much/more data/info/info spread | recognizable objects
+overall_more_complicated,3,complicated to process | more complicated | overall shape
+incomprehensible_numeric_values,3,frame with values | separate values by color to show differences | values in the middle
+generally_understandable,3,less understandable | more interpretable/readable/understandable | not interpretable/readable/understandable
+aids_quick_interpretation,2,more reading/interpretation/understanding | multiple interpretation
+low_legibility,2,low color contrast/separation/segmentation | low readability
+clearly_visible_at_glance,2,nothing visible | stimulus less visible
+low_object_count,2,low color contrast/separation/segmentation | low readability
+indistinguishable_from_each_other,2,indistinguishable/unintuitive lines | white/black background / other background
+requires_geographic_knowledge,2,not enough knowledge to tell | require specialized knowledge
+complex_element_positioning,2,complex design | element sizes
+large_quantity_of_cubes,2,large dataset | line quantity representation
+very_low_complexity,2,low color contrast/separation/segmentation | low readability
+more_axes_present,2,fewer axes | more axes
+visible_repeating_pattern,2,nothing visible | stimulus less visible
+present_axes_titles,2,fewer axes | more axes
+2d_geometric_forms,2,2D/3D | more forms
+smooth_continuous_curves,2,curves and shapes | smooth lines
+fewer_axes_present,2,fewer axes | more axes
+structured_and_labeled,2,labeled axis | organized/structured
+high_element_quantity,2,element sizes | line quantity representation
+low_cognitive_load,2,low color contrast/separation/segmentation | low readability
+unfamiliar_chart_forms,2,more forms | unfamiliar concepts/patterns
+high_reading_demand,2,more effort/reading/detailed analysis | more reading/interpretation/understanding
+more_graphic_content,2,unknown hidden content | value and graphic alignment
+shading_present,2,color shading | symbols and shading
+non_organic_geometric_forms,2,less organic shapes | more forms
+single_link_present,2,single font | single variable
+requires_reading_each_item,2,more effort/reading/detailed analysis | more reading/interpretation/understanding
+close_proximity_of_items,2,number of legend items | read/analyze many figures/items
+scattered_all_over,2,"change over time | scattered shapes (e.g., dots, squares, pictures)"
+eye_catching_descriptions,2,eye-catching description | title/axis/label/descriptions
+irregular_empty_spaces,2,irregular | less empty space
+poor_element_organization,2,element sizes | spatial organization
+rapidly_interpretable_message,2,more interpretable/readable/understandable | not interpretable/readable/understandable
+axes_absent,2,fewer axes | more axes
+technical_presentation_style,2,drawing style | technical encoding
+familiar_waveform_encoding,2,familiar representation | technical encoding
+requires_reading_effort,2,more effort/reading/detailed analysis | more reading/interpretation/understanding
+full_map_coverage,2,distinguishable/full color uses | distinguishable/full/highly contrast color uses
+tough_to_identify,2,easy to identify/extract/find features | hard to identify/extract/find features
+four_axes_present,2,fewer axes | more axes
+four_separate_components,2,separate color scales | separate values by color to show differences
+easily_recognizable,2,not easily understood | recognizable objects
+easily_recognizable_form,2,not easily understood | recognizable objects
+complex_graphical_form,2,complex design | graphical information
+highly_involved_composition,2,convoluted composition | distinguishable/full/highly contrast color uses
+high_detail_content,2,no detail | unknown hidden content
+lots_of_regions,2,more regions/space | regions
+spatial_organization_complex,2,complex design | spatial organization
+familiar_spatial_form,2,familiar representation | spatial organization
+instantly_interpretable,2,more interpretable/readable/understandable | not interpretable/readable/understandable
+high_quantity_boxes,2,line quantity representation | more text boxes
+additional_y_dimension,2,color dimension | y-axis meaning unclear
+quickly_interpretable,2,more interpretable/readable/understandable | not interpretable/readable/understandable
+high_detail_density,2,clear text arrangement/density | no detail
+unfamiliar_visualization_type,2,unfamiliar concepts/patterns | visualization meaning
+arbitrary_irregular_links,2,arbitrary imaging | irregular
+aids_interpretation,2,more reading/interpretation/understanding | multiple interpretation
+strange_unfamiliar_form,2,feeling strange | unfamiliar concepts/patterns
+high_connection_count,2,clear connection | confusing connection
+descriptive_annotations_present,2,cluttered labels/annotations | lack of/not enough axis labels/legend/annotations/context
+easily_deducible_content,2,not easily understood | unknown hidden content
+requires_reading,2,more effort/reading/detailed analysis | more reading/interpretation/understanding
+requires_extended_reading,2,more effort/reading/detailed analysis | more reading/interpretation/understanding
+slow_to_process,2,complicated to process | easier to process/visualize
+requires_external_knowledge,2,not enough knowledge to tell | require specialized knowledge
+straightforward_to_process,2,complicated to process | easier to process/visualize
+accurate_interpretation_challenging,2,more reading/interpretation/understanding | multiple interpretation
+almost_no_explanation,2,almost no explanation | explanation text
+low_perceived_complexity,2,low color contrast/separation/segmentation | low readability
+excessive_annotations,2,cluttered labels/annotations | lack of/not enough axis labels/legend/annotations/context
+resembles_picture_not_chart,2,pixeled picture | text on picture
+complex_draw_style,2,complex design | drawing style
+challenging_to_identify,2,easy to identify/extract/find features | hard to identify/extract/find features
+large_quantity_of_circles,2,large dataset | line quantity representation
+needs_interpretation,2,more reading/interpretation/understanding | multiple interpretation
+seemed_more_complicated,2,complicated to process | more complicated
+straightforward_spatial_encoding,2,spatial organization | technical encoding
+provokes_thought_and_understanding,2,more reading/interpretation/understanding | provokes thought and understanding
+requires_more_interpretation,2,more reading/interpretation/understanding | multiple interpretation
+vary_in_length,2,length | length variation
+requires_focused_interpretation,2,more reading/interpretation/understanding | multiple interpretation
+shading_increases_complexity,2,color shading | symbols and shading
+pattern_interpretation_uncertain,2,more reading/interpretation/understanding | multiple interpretation
+large_spatial_footprint,2,large dataset | spatial organization
+requires_specialized_knowledge,2,not enough knowledge to tell | require specialized knowledge
+clearly_delineated_regions,2,more regions/space | regions
+items_in_close_proximity,2,number of legend items | read/analyze many figures/items
+not_overly_complicated,2,complicated to process | more complicated
+ambiguous_complexity_level,2,ambiguous numbers | ambiguous/confusing colors
+not_immediately_interpretable,2,more interpretable/readable/understandable | not interpretable/readable/understandable
+clearly_visible,2,nothing visible | stimulus less visible
+low_discernibility,2,low color contrast/separation/segmentation | low readability
+fast_content_comprehension,2,fast readability | unknown hidden content
+familiar_visualization_type,2,familiar representation | visualization meaning
+unfamiliar_concepts,2,"domain-specific concepts (e.g., chemical, biology, map) | unfamiliar concepts/patterns"
+fine_detail_present,2,fine/layered details | no detail
+requires_extra_cognitive_effort,1,more effort/reading/detailed analysis
+contrasting_patterns,1,unfamiliar concepts/patterns
+more_variability_shown,1,crop production shown
+familiar_chart_format,1,familiar representation
+seismic_graph_type,1,graph
+complex_pattern,1,complex design
+lacks_detail,1,no detail
+graph_adds_complexity,1,graph
+resembles_abstract_painting,1,abstract shapes or colors
+abstract_painting_appearance,1,abstract shapes or colors
+more_variables_represented,1,more parameters/variables
+large_key_present,1,large dataset
+smaller_icons_present,1,icons
+country_names_labeled,1,labeled axis
+three_aspects_present,1,multiple aspects
+clarifies_content,1,unknown hidden content
+immense_detail_present,1,no detail
+varied_symbol_types,1,shapes varied
+requires_extra_processing_time,1,change over time
+requires_extended_processing_time,1,change over time
+requires_extra_effort,1,more effort/reading/detailed analysis
+not_easily_understood,1,not easily understood
+more_groups_present,1,color represents groups
+high_ink_density,1,clear text arrangement/density
+blank_content,1,unknown hidden content
+densely_packed_content,1,unknown hidden content
+less_attractive_appearance,1,less attractive
+high_density_writing,1,clear text arrangement/density
+familiar_earthquake_topic,1,familiar representation
+clustered_together,1,clustered data/info
+too_close_to_visualization,1,visualization meaning
+requires_longer_processing,1,take longer to interpret
+outnumber_dots,1,"scattered shapes (e.g., dots, squares, pictures)"
+numeric_content_only,1,unknown hidden content
+high_numeric_density,1,clear text arrangement/density
+high_cognitive_effort_required,1,more effort/reading/detailed analysis
+unfamiliar_to_viewer,1,unfamiliar concepts/patterns
+pretty_self_explanatory,1,explanatory legend
+not_recognizable_form,1,recognizable objects
+all_dots_interconnected,1,"scattered shapes (e.g., dots, squares, pictures)"
+no_graph_metrics_present,1,graph
+captions_aid_comprehension,1,captions
+lacks_informational_detail,1,no detail
+arranged_in_grid,1,grid layout
+easily_understood,1,not easily understood
+not_easily_decipherable,1,not easily understood
+eye_straining_palette,1,eye-catching description
+less_time_consuming,1,change over time
+requires_focused_attention,1,attention/squinting to understand
+insufficient_contextual_cues,1,visual cues
+vertical_orientation,1,number of vertical lines
+ugly_irregular_calligraphy,1,irregular
+football_theme_recognizable,1,recognizable objects
+unfamiliar_chart_form,1,unfamiliar concepts/patterns
+unfamiliar_chart_type,1,unfamiliar concepts/patterns
+high_overlap_density,1,clear text arrangement/density
+high_item_quantity,1,line quantity representation
+requires_specialized_education,1,require specialized knowledge
+monochrome_palette,1,monochrome
+illogical_organization,1,spatial organization
+spatial_complexity,1,spatial organization
+imaging_seems_arbitrary,1,arbitrary imaging
+familiar_chart_type,1,familiar representation
+high_detail_volume,1,no detail
+four_dimension_matrix,1,color dimension
+irregular_form,1,irregular
+requires_longer_assimilation,1,take longer to interpret
+recognizable_wind_map,1,recognizable objects
+overall_pleasing_pattern,1,overall shape
+more_legible,1,more legible
+composition_more_convoluted,1,convoluted composition
+straightforward_encoding,1,technical encoding
+no_discernible_patterns,1,unfamiliar concepts/patterns
+high_pixel_density,1,clear text arrangement/density
+illusion_of_depth_3d,1,2D/3D
+no_measurements_present,1,many measurements
+familiar_circular_form,1,familiar representation
+familiar_map_format,1,familiar representation
+reduces_comprehension_effort,1,more effort/reading/detailed analysis
+physical_dimension_present,1,color dimension
+extra_peripheral_detail,1,no detail
+familiar_format,1,familiar representation
+not_familiar_to_some,1,familiar representation
+key_positioned_at_top,1,legend on the top
+high_detail_level,1,no detail
+recognizable_pattern_present,1,recognizable objects
+dashed_box_present,1,similar box sizes
+alphabetically_ordered,1,ordered
+only_dots_present,1,"scattered shapes (e.g., dots, squares, pictures)"
+complex_branching_pattern,1,complex design
+high_dot_quantity,1,line quantity representation
+only_four_highlighted,1,highlighted words
+present_and_complex,1,complex design
+high_element_count,1,element sizes
+unsure_where_to_start,1,unclear where to look/what to see
+requires_more_processing_time,1,change over time
+complex_presentation_logic,1,complex design
+invites_deeper_analysis,1,more effort/reading/detailed analysis
+multicolored_encoding,1,technical encoding
+unfamiliar_brand_names,1,unfamiliar concepts/patterns
+unfamiliar_geographic_schema,1,unfamiliar concepts/patterns
+pictorial_world_element,1,element sizes
+dots_scattered_widely,1,"scattered shapes (e.g., dots, squares, pictures)"
+no_graph_metrics_given,1,graph
+straightforward_and_concise,1,clear and concise
+high_physical_content,1,unknown hidden content
+overwhelming_first_impression,1,visually overwhelming
+high_bar_count,1,"a specific technique, e.g., bar, pie, circle"
+concentrated_in_one_third,1,concentrated
+one_of_two_panels,1,two colors
+precise_aspect_labeling,1,precision of aspect
+requires_extended_analysis,1,more effort/reading/detailed analysis
+familiar_geographic_region,1,familiar representation
+universally_familiar_format,1,familiar representation
+requires_graphical_inference,1,graphical information
+less_structural_organization,1,spatial organization
+minimal_attention_needed,1,attention/squinting to understand
+lots_of_variables,1,more parameters/variables
+requires_more_thinking,1,more thinking
+spread_around,1,much/more data/info/info spread
+scattered_everywhere,1,"scattered shapes (e.g., dots, squares, pictures)"
+stacked_on_each_other,1,white/black background / other background
+curve_seems_complex,1,complex design
+immediately_recognizable_form,1,recognizable objects
+numerous_figures_present,1,read/analyze many figures/items
+dots_present,1,"scattered shapes (e.g., dots, squares, pictures)"
+purple_and_green_hues,1,color hues
+more_forms_present,1,more forms
+needs_intense_study,1,intense/too many colors
+numerous_hierarchy_levels,1,number of levels
+clearer_presentation,1,clearer coloring
+intersecting_and_crossing,1,intersecting lines
+assortment_of_bigger_boxes,1,more text boxes
+paths_diverge_and_overlap,0,—
+less_writing_present,0,—
+vast_interpretations_possible,0,—
+overly_colorful,0,—
+titles_present,0,—
+high_dot_count,0,—
+high_interpretive_difficulty,0,—
+too_dark,0,—
+variations_of_shade,0,—
+requires_concentration,0,—
+traditional_statistics_reporting,0,—
+cohesive_whole,0,—
+purpose_clearly_communicated,0,—
+circular_chart_form,0,—
+non_linear_pattern,0,—
+never_seen_before,0,—
+no_metrics_present,0,—
+continent_with_countries,0,—
+geo_map_format,0,—
+africa_map_recognized,0,—
+animal_shaped_marks,0,—
+increased_cognitive_load,0,—
+more_distinct_areas,0,—
+appears_less_important,0,—
+high_entity_count,0,—
+temporal_comparison_required,0,—
+high_object_count,0,—
+extends_horizontally,0,—
+high_cognitive_load,0,—
+has_internal_logic,0,—
+circular_mark_present,0,—
+unrecognized_countries,0,—
+summarizes_at_glance,0,—
+varying_amounts,0,—
+high_letter_count,0,—
+high_item_count,0,—
+high_volume_of_writing,0,—
+arranged_side_by_side,0,—
+numerous_names_present,0,—
+requires_extended_decoding,0,—
+excessive_subplot_count,0,—
+blurring_applied,0,—
+extra_arrows_present,0,—
+colorful_appearance,0,—
+high_cognitive_strain,0,—
+tiny_writing,0,—
+interpretive_uncertainty_present,0,—
+magnification_effect_present,0,—
+circular_marks_present,0,—
+quantitative_relations_encoded,0,—
+cross_at_bottom,0,—
+undefinable_criteria,0,—
+transitioning_to_rectangular,0,—
+high_abstraction_level,0,—
+meaningless_presentation,0,—
+only_for_trained_eyes,0,—
+high_cognitive_load_to_decode,0,—
+zoomed_in_region,0,—
+no_discernible_pattern,0,—
+too_cramped,0,—
+explanations_provided,0,—
+high_initial_cognitive_load,0,—
+requires_contextual_evaluation,0,—
+fully_saturated_palette,0,—
+oval_shaped_form,0,—
+stretched_differently,0,—
+unexplained_animation_behavior,0,—
+no_apparent_directional_flow,0,—
+minimal_interactions,0,—
+instantly_increases_complexity,0,—
+apparent_flow_present,0,—
+holistic_comprehension_available,0,—
+crude_informal_appearance,0,—
+darker_tone,0,—
+absent_or_insufficient,0,—
+four_distinct_centers,0,—
+increased_processing_demand,0,—
+beyond_comprehension,0,—
+causes_confusion,0,—
+lot_of_terms,0,—
+requires_extended_viewing,0,—
+limited_node_count,0,—
+virtually_impossible_to_decipher,0,—
+vast_colorization_use,0,—
+present_in_chart,0,—
+causes_viewer_confusion,0,—
+manageable_object_count,0,—
+more_writing_on_page,0,—
+more_factors_to_consider,0,—
+high_interpretive_demand,0,—
+not_clearly_stated,0,—
+numerous_isolated_marks,0,—
+numerous_intersections,0,—
+pellet_money_appearance,0,—
+changing_fonts_present,0,—
+generally_comprehensible,0,—
+pattern_search_required,0,—
+absence_aids_simplicity,0,—
+creates_depth_illusion,0,—
+contributes_to_complexity,0,—
+excessively_dark,0,—
+high_subject_count,0,—
+ranked_ordering_present,0,—
+strains_vision,0,—
+mathematical_formulae_present,0,—
+growth_pattern_implied,0,—
+plethora_of_datapoints,0,—
+very_high_entry_count,0,—
+additional_key_required,0,—
+pixelated_appearance,0,—
+sparse_dot_count,0,—
+discernible_pattern,0,—
+darker_denser_area,0,—
+multitude_of_observations,0,—
+blurred_appearance,0,—
+multitude_of_routes,0,—
+purpose_clearly_stated,0,—
+increases_interpretive_difficulty,0,—
+programming_syntax_present,0,—
+increases_perceived_complexity,0,—
+lots_of_inscriptions,0,—
