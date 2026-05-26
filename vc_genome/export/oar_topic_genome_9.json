@@ -1,0 +1,254 @@
+{
+  "VisJ.1431.7.png": {
+    "objects": [
+      {
+        "id": 0,
+        "name": "visualization",
+        "region": "overall"
+      },
+      {
+        "id": 1,
+        "name": "point",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 0,
+        "attr": "unclear_meaning"
+      },
+      {
+        "object_id": 0,
+        "attr": "no_context"
+      },
+      {
+        "object_id": 1,
+        "attr": "arranged_in_line"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "confuse",
+        "obj": 0
+      }
+    ]
+  },
+  "whoQ48_6.png": {
+    "objects": [
+      {
+        "id": 0,
+        "name": "visualization",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 0,
+        "attr": "self_explanatory"
+      },
+      {
+        "object_id": 0,
+        "attr": "low_cognitive_load"
+      },
+      {
+        "object_id": 0,
+        "attr": "easy_to_understand"
+      }
+    ],
+    "relationships": []
+  },
+  "InfoVisC.65.3(2).png": {
+    "objects": [
+      {
+        "id": 0,
+        "name": "visualization",
+        "region": "overall"
+      },
+      {
+        "id": 1,
+        "name": "text",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 0,
+        "attr": "composed_of_numbers"
+      },
+      {
+        "object_id": 1,
+        "attr": "numeric_content"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "represent",
+        "obj": 0
+      }
+    ]
+  },
+  "InfoVisJ.1161.5.png": {
+    "objects": [
+      {
+        "id": 0,
+        "name": "visualization",
+        "region": "overall"
+      },
+      {
+        "id": 1,
+        "name": "dot",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "collection_of_three"
+      }
+    ],
+    "relationships": []
+  },
+  "InfoVisJ.2556.10(2).png": {
+    "objects": [
+      {
+        "id": 0,
+        "name": "visualization",
+        "region": "overall"
+      },
+      {
+        "id": 1,
+        "name": "text",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 0,
+        "attr": "illogical_structure"
+      },
+      {
+        "object_id": 0,
+        "attr": "hard_to_understand"
+      },
+      {
+        "id_not_used": "placeholder"
+      },
+      {
+        "object_id": 1,
+        "attr": "high_density"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "confuse",
+        "obj": 0
+      }
+    ]
+  },
+  "whoQ30_1.png": {
+    "objects": [
+      {
+        "id": 0,
+        "name": "visualization",
+        "region": "overall"
+      },
+      {
+        "id": 1,
+        "name": "point",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "high_quantity_lot"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "scatter",
+        "obj": 0
+      }
+    ]
+  },
+  "v485_n7397_5_f1.png": {
+    "objects": [
+      {
+        "id": 0,
+        "name": "visualization",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 0,
+        "attr": "not_as_clear"
+      },
+      {
+        "object_id": 0,
+        "attr": "no_discernible_pattern"
+      },
+      {
+        "object_id": 0,
+        "attr": "small_size"
+      }
+    ],
+    "relationships": []
+  },
+  "InfoVisC.65.6(2).png": {
+    "objects": [
+      {
+        "id": 0,
+        "name": "visualization",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 0,
+        "attr": "high_data_density"
+      },
+      {
+        "object_id": 0,
+        "attr": "multiple_interacting_data"
+      },
+      {
+        "object_id": 0,
+        "attr": "harder_to_understand"
+      }
+    ],
+    "relationships": []
+  },
+  "vis567.png": {
+    "objects": [
+      {
+        "id": 0,
+        "name": "visualization",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 0,
+        "attr": "unfamiliar_chart_type"
+      },
+      {
+        "object_id": 0,
+        "attr": "not_intuitive"
+      },
+      {
+        "object_id": 0,
+        "attr": "difficult_to_understand"
+      },
+      {
+        "object_id": 0,
+        "attr": "high_cognitive_load"
+      }
+    ],
+    "relationships": []
+  }
+}
