@@ -114,23 +114,30 @@ def build_system_prompt(genome_dict: dict) -> str:
         'Return ONLY valid JSON (no markdown fences, no prose outside JSON):\n'
         '{\n'
         '  "objects": [\n'
+        '    {"id": 0, "name": "visualization", "region": "overall"},\n'
         '    {"id": 1, "name": "object_name",\n'
         '     "region": "data_area|x_axis|y_axis|legend|title|annotation|colorbar|background|overall"}\n'
         '  ],\n'
         '  "attributes": [\n'
-        '    {"object_id": 1, "attr": "short_snake_case_phrase"}\n'
+        '    {"object_id": 0, "attr": "short_snake_case_phrase"}\n'
         '  ],\n'
         '  "relationships": [\n'
-        '    {"subj": 1, "pred": "snake_case_predicate", "obj": 2}\n'
+        '    {"subj": 1, "pred": "snake_case_predicate", "obj": 0}\n'
         '  ]\n'
         '}\n\n'
         'Guidelines:\n'
-        '- Object names: prefer terms from the vocabulary above; use snake_case.\n'
+        '- Object id=0 ("visualization", region="overall") is a **mandatory anchor** '
+        'that must always be the first entry in "objects". It represents the whole '
+        'image and is the default attachment point for attributes that describe the '
+        'visualization as a whole.\n'
+        '- Only add objects with id>=1 for specific visual elements explicitly '
+        'mentioned or clearly implied by the phrases. Do not invent objects to fill '
+        'space — if the phrases name no specific element, use only id=0.\n'
+        '- Object names (id>=1): prefer terms from the vocabulary above; use snake_case.\n'
         '- Attribute text: snake_case, max 4 words.\n'
         '- Relationship predicates: prefer verbs from the vocabulary above.\n'
-        '- Extract elements proportional to phrase richness.\n'
-        '  Typical ranges: 2–6 objects, 3–8 attributes, 1–5 relationships.\n'
-        '- Each list must contain at least one entry.\n'
+        '- "attributes" and "relationships" may be empty lists if the phrases do not '
+        'warrant them, but "objects" must always contain at least id=0.\n'
         '- region must be exactly one of the nine values listed above.'
     )
 
@@ -149,8 +156,7 @@ def format_user_message(row: dict) -> str:
     phrase_block = ('\n'.join(f'- {p}' for p in phrases)
                     if phrases else '(no phrases available)')
     return (
-        f"Image: {row['imageName']}  (VisType: {row['VisType']}, "
-        f"NormalizedVC: {row['NormalizedVC']:.2f})\n\n"
+        f"Image: {row['imageName']}\n\n"
         f"Complexity phrases from participant comments:\n"
         f"{phrase_block}\n\n"
         f"Extract the scene graph grounded in these phrases."
