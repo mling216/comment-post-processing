@@ -27,45 +27,27 @@
 <!-- visualization -->
 <g id="node1" class="node">
 <title>visualization</title>
-<path fill="#b8e6b8" stroke="#2c3e50" stroke-width="1.8" d="M348.88,-36C348.88,-36 302.88,-36 302.88,-36 296.88,-36 290.88,-30 290.88,-24 290.88,-24 290.88,-12 290.88,-12 290.88,-6 296.88,0 302.88,0 302.88,0 348.88,0 348.88,0 354.88,0 360.88,-6 360.88,-12 360.88,-12 360.88,-24 360.88,-24 360.88,-30 354.88,-36 348.88,-36"/>
-<text xml:space="preserve" text-anchor="middle" x="325.88" y="-14.5" font-family="Arial" font-size="10.00" fill="#1a1a1a">visualization</text>
+<path fill="#b8e6b8" stroke="#2c3e50" stroke-width="1.8" d="M148.25,-36C148.25,-36 102.25,-36 102.25,-36 96.25,-36 90.25,-30 90.25,-24 90.25,-24 90.25,-12 90.25,-12 90.25,-6 96.25,0 102.25,0 102.25,0 148.25,0 148.25,0 154.25,0 160.25,-6 160.25,-12 160.25,-12 160.25,-24 160.25,-24 160.25,-30 154.25,-36 148.25,-36"/>
+<text xml:space="preserve" text-anchor="middle" x="125.25" y="-14.5" font-family="Arial" font-size="10.00" fill="#1a1a1a">visualization</text>
 </g>
 <!-- dot -->
 <g id="node2" class="node">
 <title>dot</title>
-<path fill="#b8e6b8" stroke="#2c3e50" stroke-width="1.8" d="M85.62,-68C85.62,-68 44.88,-68 44.88,-68 38.88,-68 32.88,-62 32.88,-56 32.88,-56 32.88,-44 32.88,-44 32.88,-38 38.88,-32 44.88,-32 44.88,-32 85.62,-32 85.62,-32 91.62,-32 97.62,-38 97.62,-44 97.62,-44 97.62,-56 97.62,-56 97.62,-62 91.62,-68 85.62,-68"/>
-<text xml:space="preserve" text-anchor="middle" x="65.25" y="-52.5" font-family="Arial" font-size="10.00" fill="#1a1a1a">dot</text>
-<text xml:space="preserve" text-anchor="middle" x="65.25" y="-40.5" font-family="Arial" font-size="10.00" fill="#1a1a1a">(data_area)</text>
+<path fill="#b8e6b8" stroke="#2c3e50" stroke-width="1.8" d="M145.62,-101C145.62,-101 104.88,-101 104.88,-101 98.88,-101 92.88,-95 92.88,-89 92.88,-89 92.88,-77 92.88,-77 92.88,-71 98.88,-65 104.88,-65 104.88,-65 145.62,-65 145.62,-65 151.62,-65 157.62,-71 157.62,-77 157.62,-77 157.62,-89 157.62,-89 157.62,-95 151.62,-101 145.62,-101"/>
+<text xml:space="preserve" text-anchor="middle" x="125.25" y="-85.5" font-family="Arial" font-size="10.00" fill="#1a1a1a">dot</text>
+<text xml:space="preserve" text-anchor="middle" x="125.25" y="-73.5" font-family="Arial" font-size="10.00" fill="#1a1a1a">(data_area)</text>
 </g>
 <!-- attr_0 -->
 <g id="node3" class="node">
 <title>attr_0</title>
-<path fill="#b8d4f0" stroke="#5a7fa0" stroke-width="1.2" d="M228.88,-101C228.88,-101 159.62,-101 159.62,-101 153.62,-101 147.62,-95 147.62,-89 147.62,-89 147.62,-77 147.62,-77 147.62,-71 153.62,-65 159.62,-65 159.62,-65 228.88,-65 228.88,-65 234.88,-65 240.88,-71 240.88,-77 240.88,-77 240.88,-89 240.88,-89 240.88,-95 234.88,-101 228.88,-101"/>
-<text xml:space="preserve" text-anchor="middle" x="194.25" y="-79.5" font-family="Arial" font-size="10.00" fill="#1a1a1a">collection of three</text>
+<path fill="#b8d4f0" stroke="#5a7fa0" stroke-width="1.2" d="M291.5,-101C291.5,-101 222.25,-101 222.25,-101 216.25,-101 210.25,-95 210.25,-89 210.25,-89 210.25,-77 210.25,-77 210.25,-71 216.25,-65 222.25,-65 222.25,-65 291.5,-65 291.5,-65 297.5,-65 303.5,-71 303.5,-77 303.5,-77 303.5,-89 303.5,-89 303.5,-95 297.5,-101 291.5,-101"/>
+<text xml:space="preserve" text-anchor="middle" x="256.88" y="-79.5" font-family="Arial" font-size="10.00" fill="#1a1a1a">collection of three</text>
 </g>
 <!-- dot&#45;&gt;attr_0 -->
 <g id="edge1" class="edge">
 <title>dot&#45;&gt;attr_0</title>
-<path fill="none" stroke="#aaaaaa" d="M98.3,-58.33C110.71,-61.55 125.26,-65.33 139.19,-68.95"/>
-<polygon fill="#aaaaaa" stroke="#aaaaaa" points="138.44,-71.29 145.83,-70.68 139.68,-66.55 138.44,-71.29"/>
-</g>
-<!-- rel_0 -->
-<g id="node4" class="node">
-<title>rel_0</title>
-<path fill="#f5b8b8" stroke="#d46a6a" stroke-width="1.2" d="M209.25,-36C209.25,-36 179.25,-36 179.25,-36 173.25,-36 167.25,-30 167.25,-24 167.25,-24 167.25,-12 167.25,-12 167.25,-6 173.25,0 179.25,0 179.25,0 209.25,0 209.25,0 215.25,0 221.25,-6 221.25,-12 221.25,-12 221.25,-24 221.25,-24 221.25,-30 215.25,-36 209.25,-36"/>
-<text xml:space="preserve" text-anchor="middle" x="194.25" y="-14.5" font-family="Arial" font-size="10.00" fill="#8b0000">scatter</text>
-</g>
-<!-- dot&#45;&gt;rel_0 -->
-<g id="edge2" class="edge">
-<title>dot&#45;&gt;rel_0</title>
-<path fill="none" stroke="#d46a6a" stroke-width="1.5" d="M98.3,-41.93C116.15,-37.43 138.45,-31.81 156.95,-27.15"/>
-<polygon fill="#d46a6a" stroke="#d46a6a" stroke-width="1.5" points="157.51,-29.89 164.58,-25.22 156.14,-24.46 157.51,-29.89"/>
-</g>
-<!-- rel_0&#45;&gt;visualization -->
-<g id="edge3" class="edge">
-<title>rel_0&#45;&gt;visualization</title>
-<path fill="none" stroke="#d46a6a" stroke-width="1.5" d="M221.79,-18C237.96,-18 259.07,-18 277.97,-18"/>
-<polygon fill="#d46a6a" stroke="#d46a6a" stroke-width="1.5" points="277.73,-21.5 287.73,-18 277.73,-14.5 277.73,-21.5"/>
+<path fill="none" stroke="#aaaaaa" d="M158.29,-83C171.45,-83 187.05,-83 201.88,-83"/>
+<polygon fill="#aaaaaa" stroke="#aaaaaa" points="201.5,-85.45 208.5,-83 201.5,-80.55 201.5,-85.45"/>
 </g>
 </g>
 </svg>

@@ -23,21 +23,10 @@
       },
       {
         "object_id": 1,
-        "attr": "arranged_in_line"
+        "attr": "linear_arrangement"
       }
     ],
-    "relationships": [
-      {
-        "subj": 1,
-        "pred": "confuse",
-        "obj": 0
-      },
-      {
-        "subj": 0,
-        "pred": "lack",
-        "obj": 1
-      }
-    ]
+    "relationships": []
   },
   "whoQ48_6.png": {
     "objects": [
@@ -55,10 +44,6 @@
       {
         "object_id": 0,
         "attr": "easy_to_understand"
-      },
-      {
-        "object_id": 0,
-        "attr": "clear"
       }
     ],
     "relationships": []
@@ -72,34 +57,24 @@
       },
       {
         "id": 1,
-        "name": "image",
-        "region": "overall"
-      },
-      {
-        "id": 2,
         "name": "number",
         "region": "data_area"
       }
     ],
     "attributes": [
       {
-        "object_id": 1,
-        "attr": "pictorial"
+        "object_id": 0,
+        "attr": "picture_of_numbers"
       },
       {
-        "object_id": 2,
-        "attr": "numerically_represented"
+        "object_id": 1,
+        "attr": "multiple_numbers_present"
       }
     ],
     "relationships": [
       {
         "subj": 1,
-        "pred": "show",
-        "obj": 2
-      },
-      {
-        "subj": 2,
-        "pred": "represent",
+        "pred": "present_in",
         "obj": 0
       }
     ]
@@ -123,13 +98,7 @@
         "attr": "collection_of_three"
       }
     ],
-    "relationships": [
-      {
-        "subj": 1,
-        "pred": "scatter",
-        "obj": 0
-      }
-    ]
+    "relationships": []
   },
   "InfoVisJ.2556.10(2).png": {
     "objects": [
@@ -147,24 +116,18 @@
     "attributes": [
       {
         "object_id": 0,
-        "attr": "hard_to_understand"
+        "attr": "illogical"
       },
       {
         "object_id": 0,
-        "attr": "illogical"
+        "attr": "hard_to_understand"
       },
       {
         "object_id": 1,
         "attr": "high_density"
       }
     ],
-    "relationships": [
-      {
-        "subj": 1,
-        "pred": "confuse",
-        "obj": 0
-      }
-    ]
+    "relationships": []
   },
   "whoQ30_1.png": {
     "objects": [
@@ -182,16 +145,10 @@
     "attributes": [
       {
         "object_id": 1,
-        "attr": "lot"
+        "attr": "high_quantity"
       }
     ],
-    "relationships": [
-      {
-        "subj": 1,
-        "pred": "scatter",
-        "obj": 0
-      }
-    ]
+    "relationships": []
   },
   "v485_n7397_5_f1.png": {
     "objects": [
@@ -208,11 +165,11 @@
       },
       {
         "object_id": 0,
-        "attr": "unclear_readability"
+        "attr": "unclear"
       },
       {
         "object_id": 0,
-        "attr": "no_discernible_pattern"
+        "attr": "no_pattern"
       }
     ],
     "relationships": []
@@ -223,34 +180,23 @@
         "id": 0,
         "name": "visualization",
         "region": "overall"
-      },
-      {
-        "id": 1,
-        "name": "data",
-        "region": "data_area"
       }
     ],
     "attributes": [
       {
         "object_id": 0,
-        "attr": "hard_to_understand"
+        "attr": "lot_of_different_data"
       },
       {
-        "object_id": 1,
-        "attr": "a_lot_of_different"
+        "object_id": 0,
+        "attr": "data_interacting"
       },
       {
-        "object_id": 1,
-        "attr": "interacting"
+        "object_id": 0,
+        "attr": "harder_to_understand"
       }
     ],
-    "relationships": [
-      {
-        "subj": 1,
-        "pred": "confuse",
-        "obj": 0
-      }
-    ]
+    "relationships": []
   },
   "vis567.png": {
     "objects": [
@@ -275,7 +221,7 @@
       },
       {
         "object_id": 0,
-        "attr": "difficult_to_understand"
+        "attr": "no_context"
       }
     ],
     "relationships": []
