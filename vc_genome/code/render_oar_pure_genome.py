@@ -28,8 +28,8 @@ SCRIPT_DIR = Path(__file__).parent
 ROOT       = SCRIPT_DIR.parent.parent   # comment_post_processing/
 
 DEFAULT_IN  = ROOT / 'vc_genome' / 'export' / 'oar_pure_genome_9.json'
-OUT_SVG     = ROOT / 'vc_genome' / 'scene_graphs' / 'svg' / 'pure_genome'
-OUT_PNG     = ROOT / 'vc_genome' / 'scene_graphs' / 'png' / 'pure_genome'
+OUT_SVG     = ROOT / 'vc_genome' / 'scene_graphs' / 'svg' / 'pure_genome_1'
+OUT_PNG     = ROOT / 'vc_genome' / 'scene_graphs' / 'png' / 'pure_genome_1'
 DATA_CSV    = ROOT / 'comment_process' / 'ResultsStepByStep_4.0.imageDataCompiled.csv'
 
 # ── Style (same palette as all other condition renderers) ─────────────────
@@ -69,11 +69,20 @@ def build_graph(entry: dict, image_name: str,
     for obj in objects:
         name_count[obj['name']] += 1
 
+    # Object IDs that are referenced by at least one attribute or relationship
+    referenced_obj_ids = {a['object_id'] for a in entry.get('attributes', [])}
+    for rel in entry.get('relationships', []):
+        referenced_obj_ids.add(rel['subj'])
+        referenced_obj_ids.add(rel['obj'])
+
     id_to_node: dict[int, str] = {}
     for obj in objects:
         n       = obj['name']
         node_id = f"{n}_{obj['id']}" if name_count[n] > 1 else n
         id_to_node[obj['id']] = node_id
+        # Skip id=0 anchor if nothing connects to it (isolated node)
+        if obj['id'] == 0 and 0 not in referenced_obj_ids:
+            continue
         region = obj.get('region', '')
         region_str = f'\n({region})' if region and region != 'overall' else ''
         dot.node(
