@@ -28,8 +28,8 @@ SCRIPT_DIR = Path(__file__).parent
 ROOT       = SCRIPT_DIR.parent.parent   # comment_post_processing/
 
 DEFAULT_IN  = ROOT / 'vc_genome' / 'export' / 'oar_pure_genome_9.json'
-OUT_SVG     = ROOT / 'vc_genome' / 'scene_graphs' / 'svg' / 'pure_genome_1'
-OUT_PNG     = ROOT / 'vc_genome' / 'scene_graphs' / 'png' / 'pure_genome_1'
+OUT_SVG     = ROOT / 'vc_genome' / 'scene_graphs' / 'svg' / 'pure_genome_0'
+OUT_PNG     = ROOT / 'vc_genome' / 'scene_graphs' / 'png' / 'pure_genome_0'
 DATA_CSV    = ROOT / 'comment_process' / 'ResultsStepByStep_4.0.imageDataCompiled.csv'
 
 # ── Style (same palette as all other condition renderers) ─────────────────
