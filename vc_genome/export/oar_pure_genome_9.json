@@ -1,0 +1,424 @@
+{
+  "VisJ.1431.7.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "line",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "point",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "label",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "simple_linear_structure"
+      },
+      {
+        "object_id": 2,
+        "attr": "arranged_in_line"
+      },
+      {
+        "object_id": 3,
+        "attr": "no_context_provided"
+      },
+      {
+        "object_id": 3,
+        "attr": "unclear_meaning"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "compose",
+        "obj": 1
+      },
+      {
+        "subj": 3,
+        "pred": "confuse",
+        "obj": 1
+      }
+    ]
+  },
+  "whoQ48_6.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "graph",
+        "region": "overall"
+      },
+      {
+        "id": 2,
+        "name": "label",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "simple_straightforward"
+      },
+      {
+        "object_id": 2,
+        "attr": "clear_readable"
+      },
+      {
+        "object_id": 1,
+        "attr": "easy_to_understand"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "convey",
+        "obj": 1
+      }
+    ]
+  },
+  "InfoVisC.65.3(2).png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "graph",
+        "region": "overall"
+      },
+      {
+        "id": 2,
+        "name": "number",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "visual_picture"
+      },
+      {
+        "object_id": 2,
+        "attr": "numeric_content"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "present",
+        "obj": 2
+      }
+    ]
+  },
+  "InfoVisJ.1161.5.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "dot",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "collection",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "small_count_three"
+      },
+      {
+        "object_id": 2,
+        "attr": "simple_straightforward"
+      },
+      {
+        "object_id": 2,
+        "attr": "low_quantity"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "arrange",
+        "obj": 2
+      }
+    ]
+  },
+  "InfoVisJ.2556.10(2).png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "text",
+        "region": "overall"
+      },
+      {
+        "id": 2,
+        "name": "layout",
+        "region": "overall"
+      },
+      {
+        "id": 3,
+        "name": "information",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "high_density"
+      },
+      {
+        "object_id": 1,
+        "attr": "hard_to_read"
+      },
+      {
+        "object_id": 2,
+        "attr": "illogical_structure"
+      },
+      {
+        "object_id": 2,
+        "attr": "complex_arrangement"
+      },
+      {
+        "object_id": 3,
+        "attr": "confusing"
+      },
+      {
+        "object_id": 3,
+        "attr": "difficult_to_understand"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "confuse",
+        "obj": 3
+      },
+      {
+        "subj": 2,
+        "pred": "challenge",
+        "obj": 3
+      },
+      {
+        "subj": 1,
+        "pred": "require",
+        "obj": 3
+      }
+    ]
+  },
+  "whoQ30_1.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "point",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "chart",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "high_quantity"
+      },
+      {
+        "object_id": 1,
+        "attr": "dense"
+      },
+      {
+        "object_id": 2,
+        "attr": "high_complexity"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "scatter",
+        "obj": 2
+      }
+    ]
+  },
+  "v485_n7397_5_f1.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "point",
+        "region": "data_area"
+      },
+      {
+        "id": 2,
+        "name": "pattern",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "label",
+        "region": "overall"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "small_size"
+      },
+      {
+        "object_id": 2,
+        "attr": "no_discernible_pattern"
+      },
+      {
+        "object_id": 3,
+        "attr": "unclear_readable"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "scatter",
+        "obj": 2
+      },
+      {
+        "subj": 2,
+        "pred": "confuse",
+        "obj": 3
+      }
+    ]
+  },
+  "InfoVisC.65.6(2).png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "graph",
+        "region": "overall"
+      },
+      {
+        "id": 2,
+        "name": "data",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "node",
+        "region": "data_area"
+      },
+      {
+        "id": 4,
+        "name": "line",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "hard_to_understand"
+      },
+      {
+        "object_id": 2,
+        "attr": "a_lot_of_different"
+      },
+      {
+        "object_id": 2,
+        "attr": "high_variety"
+      },
+      {
+        "object_id": 3,
+        "attr": "multiple_interacting"
+      },
+      {
+        "object_id": 4,
+        "attr": "complex_connections"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "connect",
+        "obj": 3
+      },
+      {
+        "subj": 3,
+        "pred": "interact_with",
+        "obj": 4
+      },
+      {
+        "subj": 2,
+        "pred": "confuse",
+        "obj": 1
+      }
+    ]
+  },
+  "vis567.png": {
+    "objects": [
+      {
+        "id": 1,
+        "name": "graph",
+        "region": "overall"
+      },
+      {
+        "id": 2,
+        "name": "network",
+        "region": "data_area"
+      },
+      {
+        "id": 3,
+        "name": "label",
+        "region": "annotation"
+      },
+      {
+        "id": 4,
+        "name": "legend",
+        "region": "legend"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 1,
+        "attr": "unfamiliar_to_viewer"
+      },
+      {
+        "object_id": 1,
+        "attr": "not_intuitive"
+      },
+      {
+        "object_id": 2,
+        "attr": "abstract_structure"
+      },
+      {
+        "object_id": 3,
+        "attr": "unclear_meaning"
+      },
+      {
+        "object_id": 4,
+        "attr": "ambiguous_context"
+      },
+      {
+        "object_id": 2,
+        "attr": "high_complexity"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 2,
+        "pred": "confuse",
+        "obj": 1
+      },
+      {
+        "subj": 3,
+        "pred": "lack",
+        "obj": 4
+      },
+      {
+        "subj": 1,
+        "pred": "challenge",
+        "obj": 4
+      }
+    ]
+  }
+}

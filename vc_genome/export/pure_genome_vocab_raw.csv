@@ -1,0 +1,1296 @@
+term,pos_type,count,freq_pct,n_images,example_images
+hard,adj,58,11.7,47,InfoVisC.65.4.png; InfoVisC.65.5(2).png; InfoVisC.65.6(2).png
+different,adj,54,10.9,48,InfoVisC.115.3.png; InfoVisC.65.6(2).png; InfoVisJ.1009.9.png
+easy,adj,51,10.3,42,InfoVisC.103.4.png; InfoVisJ.1063.13.png; InfoVisJ.1137.1.png
+difficult,adj,42,8.5,36,InfoVisC.103.9.png; InfoVisC.24.3(2).png; InfoVisC.65.5(2).png
+clear,adj,39,7.8,35,InfoVisC.157.1.png; InfoVisC.65.5(2).png; InfoVisC.65.8.png
+small,adj,29,5.8,24,InfoVisC.157.1.png; InfoVisC.65.4.png; InfoVisJ.1149.6(1).png
+multiple,adj,21,4.2,17,InfoVisJ.485.9.png; SciVisC.49.5.png; SciVisJ.700.11.png
+simple,adj,18,3.6,15,InfoVisC.211.18.png; InfoVisC.65.8.png; InfoVisJ.1022.6.png
+easily,adj,16,3.2,15,InfoVisJ.2546.10.png; InfoVisJ.2556.10.png; InfoVisJ.2556.8.png
+familiar,adj,15,3.0,13,InfoVisC.211.8.png; InfoVisJ.1229.6.png; InfoVisJ.2402.12(1).png
+complex,adj,14,2.8,14,InfoVisC.65.8.png; InfoVisJ.449.8.png; InfoVisJ.599.4.png
+confusing,adj,13,2.6,12,InfoVisJ.1009.9.png; InfoVisJ.2556.10.png; InfoVisJ.349.1.png
+black,adj,11,2.2,10,InfoVisJ.1063.13.png; InfoVisJ.349.1(2).png; SciVisJ.728.4(2).png
+visually,adj,11,2.2,11,InfoVisJ.1149.6(1).png; InfoVisJ.1229.6.png; InfoVisJ.339.10.png
+long,adj,10,2.0,10,InfoVisJ.2639.8.png; InfoVisJ.339.3.png; VASTC.41.5.png
+white,adj,9,1.8,9,InfoVisJ.2699.12.png; InfoVisJ.349.1(2).png; SciVisJ.635.6.png
+sure,adj,8,1.6,6,InfoVisC.57.4.png; InfoVisC.73.6.png; InfoVisJ.349.8.png
+visual,adj,8,1.6,7,InfoVisJ.2181.9.png; InfoVisJ.2556.10.png; SciVisJ.728.14.png
+recognizable,adj,7,1.4,7,InfoVisJ.2556.9.png; InfoVisJ.2576.2.png; SciVisJ.259.14.png
+complicated,adj,7,1.4,7,InfoVisC.65.3.png; InfoVisJ.1558.5.png; InfoVisJ.485.9.png
+random,adj,7,1.4,5,InfoVisJ.349.1.png; SciVisJ.995.10(3).png; VisC.559.6.png
+detailed,adj,7,1.4,6,SciVisJ.801.15.png; VASTJ.1.10.png; economist_daily_chart_124.png
+similar,adj,7,1.4,7,SciVisJ.1236.10.png; SciVisJ.728.14.png; VASTC.3.3.png
+high,adj,7,1.4,7,InfoVisC.8.7.png; InfoVisJ.1149.6(1).png; InfoVisJ.2102.16.png
+straight,adj,6,1.2,6,InfoVisJ.2699.12.png; VASTJ.432.7.png; economist_daily_chart_393.png
+understandable,adj,6,1.2,6,InfoVisJ.339.3.png; SciVisJ.744.13.png; VASTJ.432.6.png
+intuitive,adj,6,1.2,6,InfoVisJ.978.3.png; SciVisJ.728.14.png; VASTJ.51.7.png
+cognitive,adj,6,1.2,2,VASTJ.51.7.png; vis673.png
+clearly,adj,6,1.2,6,InfoVisJ.2412.16(2).png; InfoVisJ.2576.2.png; VASTC.24.5.png
+little,adj,6,1.2,6,InfoVisC.173.9.png; VASTJ.1720.12.png; economist_daily_chart_152.png
+unfamiliar,adj,6,1.2,6,SciVisJ.561.7.png; SciVisJ.867.6.png; VASTC.123.3.png
+unclear,adj,6,1.2,5,InfoVisJ.2102.16.png; InfoVisJ.522.15.png; InfoVisJ.631.1(2).png
+unique,adj,5,1.0,5,InfoVisJ.1084.2.png; SciVisJ.1005.12.png; economist_daily_chart_372.png
+busy,adj,5,1.0,5,SciVisJ.857.9.png; VASTJ.2012.9(2).png; v488_n7410_15_f3.png
+straightforward,adj,4,0.8,4,VisC.389.1(3).png; treasuryG07_2.png; v483_n7391_8_f5.png
+colored,adj,4,0.8,4,InfoVisJ.1247.10.png; VASTC.1.7.png; v483_n7391_8_f5.png
+key,adj,4,0.8,2,VASTJ.51.7.png; vis673.png
+dark,adj,4,0.8,4,SciVisJ.1005.1.png; SciVisJ.1819.4(5).png; SciVisJ.728.4(2).png
+red,adj,4,0.8,4,InfoVisJ.2699.12.png; economist_daily_chart_110.png; economist_daily_chart_393.png
+separate,adj,4,0.8,4,InfoVisJ.2181.9.png; InfoVisJ.485.9.png; VisC.87.8.png
+individual,adj,4,0.8,4,SciVisJ.1043.12(4).png; VASTC.1.7.png; np_21.png
+graphic,adj,4,0.8,4,InfoVisJ.1247.10.png; SciVisJ.797.13(4).png; VASTJ.320.11.png
+large,adj,4,0.8,4,InfoVisJ.1149.6(1).png; VASTJ.422.7.png; visMost573.png
+quickly,adj,4,0.8,4,InfoVisJ.2546.10.png; SciVisJ.867.7.png; VASTJ.2012.9(2).png
+exact,adj,4,0.8,3,VisC.599.6.png; VisJ.1243.3.png; VisJ.1515.12.png
+big,adj,4,0.8,4,InfoVisJ.339.3.png; MorphableWordClouds5.png; VASTJ.422.7.png
+abstract,adj,4,0.8,4,VASTC.121.5.png; VisJ.1949.11(2).png; v487_n7406_13_f2.png
+fine,adj,4,0.8,4,InfoVisJ.2082.3.png; VASTC.1.7.png; VisC.248.3.png
+discernible,adj,3,0.6,3,InfoVisJ.651.7.png; SciVisJ.801.15.png; VASTJ.1139.3(2).png
+green,adj,3,0.6,3,SciVisJ.1236.10.png; VisC.73.8(2).png; economist_daily_chart_393.png
+distinct,adj,3,0.6,3,InfoVisJ.349.1.png; SciVisJ.980.12(2).png; economist_daily_chart_165.png
+fast,adj,3,0.6,3,InfoVisJ.1569.6.png; InfoVisJ.647.13(2).png; SciVisJ.645.3.png
+font,adj,3,0.6,2,vis3.png; vis652.png
+bad,adj,3,0.6,3,VisC.263.7.png; vis652.png; whoQ42_6.png
+arbitrary,adj,3,0.6,3,InfoVisJ.2556.10.png; VASTC.1.7.png; VisC.61.10.png
+linear,adj,3,0.6,3,InfoVisC.115.3.png; MorphableWordClouds7.png; VisC.375.2.png
+cluttered,adj,3,0.6,3,economist_daily_chart_124.png; v490_n7419_13_f3.png; wsj294.png
+visible,adj,3,0.6,3,InfoVisJ.2412.16(2).png; SciVisJ.1005.1.png; SciVisJ.801.15.png
+weird,adj,3,0.6,3,SciVisJ.857.9.png; VisC.295.3.png; VisJ.1515.12.png
+clean,adj,3,0.6,3,InfoVisJ.2072.7.png; VisJ.1499.2.png; vis278.png
+overall,adj,3,0.6,3,VASTC.24.5.png; VisC.248.3.png; VisJ.1949.18.png
+overlapping,adj,3,0.6,3,InfoVisJ.485.9.png; visMost573.png; wsj294.png
+ambiguous,adj,3,0.6,2,v488_n7413_12_f2.png; visMost573.png
+tiny,adj,3,0.6,2,InfoVisJ.1149.8(2).png; visMost325.png
+extra,adj,3,0.6,3,InfoVisJ.1558.9(2).png; InfoVisJ.2181.9.png; VASTJ.2012.4.png
+intricate,adj,3,0.6,3,VASTC.1.7.png; VisC.11.12(2).png; v485_n7396_14_f4.png
+varied,adj,3,0.6,3,InfoVisJ.2402.12.png; VASTC.13.9.png; vis678.png
+limited,adj,2,0.4,2,VASTC.81.3(2).png; whoI19.png
+initial,adj,2,0.4,2,VASTJ.51.7.png; vis673.png
+actually,adj,2,0.4,2,VASTJ.51.7.png; vis673.png
+common,adj,2,0.4,2,vis567.png; visMost97.png
+bright,adj,2,0.4,2,InfoVisC.211.8.png; vis630.png
+pretty,adj,2,0.4,2,VASTC.19.8.png; wsj371.png
+explanatory,adj,2,0.4,2,InfoVisC.211.8.png; wsj371.png
+blue,adj,2,0.4,2,SciVisJ.700.11.png; whoB32_1.png
+seismic,adj,2,0.4,2,v482_n7386_10_f2.png; v483_n7391_8_f5.png
+wise,adj,2,0.4,1,vis652.png
+few,adj,2,0.4,2,VASTJ.1332.5.png; whoI19.png
+blank,adj,2,0.4,2,InfoVisJ.935.9.png; SciVisJ.728.14.png
+uniform,adj,2,0.4,2,VASTJ.170.6.png; VASTJ.1763.8(2).png
+readable,adj,2,0.4,2,InfoVisJ.2556.10.png; wsj108.png
+messy,adj,2,0.4,2,InfoVisJ.2556.10.png; VASTJ.160.2.png
+concise,adj,2,0.4,2,SciVisJ.728.14.png; wsj533.png
+close,adj,2,0.4,2,SciVisJ.796.18.png; SciVisJ.867.6.png
+apparent,adj,2,0.4,2,InfoVisJ.349.1(3).png; VisC.559.6.png
+soft,adj,2,0.4,2,economist_daily_chart_153.png; economist_daily_chart_267.png
+colorful,adj,2,0.4,2,v490_n7418_1_f2.png; visMost76.png
+immediately,adj,2,0.4,2,InfoVisJ.2556.9.png; economist_daily_chart_406.png
+blurry,adj,2,0.4,2,VASTC.107.8.png; VASTC.19.8.png
+excessively,adj,2,0.4,2,InfoVisJ.485.9.png; wsj294.png
+crowded,adj,2,0.4,2,InfoVisJ.485.9.png; wsj294.png
+appealing,adj,2,0.4,2,v488_n7409_19_f1.png; wsj294.png
+densely,adj,2,0.4,2,InfoVisJ.631.1(2).png; VASTJ.1160.6.png
+physical,adj,2,0.4,2,economist_daily_chart_110.png; visMost777.png
+dense,adj,2,0.4,2,VisC.375.2.png; vis678.png
+far,adj,2,0.4,2,SciVisJ.797.11(3).png; VisJ.1541.1(2).png
+pleasing,adj,2,0.4,2,InfoVisJ.1063.13.png; VisC.248.3.png
+axis,adj,2,0.4,2,SciVisJ.765.11.png; VASTJ.111.8.png
+instantly,adj,2,0.4,2,VASTJ.1448.5(2).png; visMost573.png
+vertical,adj,2,0.4,2,VASTC.1.7.png; VASTJ.1612.1(4).png
+impossible,adj,2,0.4,2,InfoVisJ.1149.8(2).png; VASTC.1.7.png
+able,adj,2,0.4,2,InfoVisC.157.1.png; SciVisJ.2664.2.png
+ineligible,adj,2,0.4,1,v488_n7409_19_f1.png
+undefined,adj,2,0.4,1,VisJ.1329.5(3).png
+vast,adj,2,0.4,2,InfoVisJ.1149.8(2).png; VisC.11.12(2).png
+color,noun,247,49.7,175,CiteRivers5(1).png; InfoVisC.115.3.png; InfoVisC.115.4.png
+information,noun,95,19.1,74,InfoVisC.157.1.png; InfoVisC.73.6.png; InfoVisJ.1054.3.png
+line,noun,76,15.3,60,InfoVisC.65.3.png; InfoVisC.65.5(2).png; InfoVisC.73.6.png
+shape,noun,68,13.7,61,InfoVisC.133.5(3).png; InfoVisC.219.8.png; InfoVisJ.1558.9(2).png
+number,noun,58,11.7,44,InfoVisC.115.4.png; InfoVisC.133.5(3).png; InfoVisC.219.8.png
+text,noun,55,11.1,41,InfoVisC.211.8.png; InfoVisC.24.3(2).png; InfoVisC.73.6.png
+word,noun,54,10.9,41,InfoVisC.24.8(1).png; InfoVisC.73.6.png; InfoVisJ.1137.1.png
+datum,noun,53,10.7,47,InfoVisC.24.8.png; InfoVisC.65.6(2).png; InfoVisC.8.7.png
+point,noun,47,9.5,43,InfoVisC.65.5(2).png; InfoVisJ.1032.5.png; InfoVisJ.2556.10.png
+detail,noun,46,9.3,42,InfoVisC.133.5(3).png; InfoVisC.219.8.png; InfoVisJ.1149.8(2).png
+axis,noun,29,5.8,25,InfoVisC.115.3.png; InfoVisJ.1032.5.png; InfoVisJ.1247.14.png
+size,noun,29,5.8,25,InfoVisC.133.5(3).png; InfoVisC.219.8.png; InfoVisJ.1169.1.png
+element,noun,26,5.2,24,InfoVisJ.1247.10.png; InfoVisJ.2082.3.png; InfoVisJ.401.12.png
+time,noun,24,4.8,19,InfoVisJ.339.10.png; InfoVisJ.659.6.png; InfoVisJ.946.6.png
+label,noun,23,4.6,19,InfoVisJ.1149.6(1).png; InfoVisJ.2082.3.png; InfoVisJ.2556.9.png
+dot,noun,21,4.2,17,InfoVisC.65.4(2).png; InfoVisC.65.8.png; InfoVisJ.1161.5.png
+legend,noun,20,4.0,16,InfoVisC.211.8.png; InfoVisJ.1063.13(3).png; InfoVisJ.369.3.png
+pattern,noun,18,3.6,17,InfoVisC.115.3.png; InfoVisJ.1558.5.png; InfoVisJ.2251.1(2).png
+map,noun,18,3.6,11,InfoVisC.211.8.png; InfoVisJ.2556.8.png; InfoVisJ.599.4.png
+circle,noun,17,3.4,10,InfoVisC.57.4.png; InfoVisC.8.7.png; SciVisJ.867.6.png
+contrast,noun,16,3.2,15,InfoVisC.133.5(3).png; InfoVisC.219.8.png; InfoVisJ.2102.16.png
+sense,noun,14,2.8,12,InfoVisC.65.3.png; InfoVisJ.1032.5.png; SciVisJ.1236.10.png
+item,noun,14,2.8,14,InfoVisJ.1149.8(2).png; InfoVisJ.2181.9.png; InfoVisJ.2412.17(2).png
+title,noun,13,2.6,13,InfoVisJ.2556.9.png; InfoVisJ.339.3.png; InfoVisJ.485.9.png
+data,noun,12,2.4,11,InfoVisJ.349.8(4).png; InfoVisJ.485.9.png; VASTJ.2908.2.png
+key,noun,12,2.4,11,InfoVisJ.1009.9.png; InfoVisJ.1247.14.png; InfoVisJ.924.5.png
+difference,noun,12,2.4,11,InfoVisJ.1190.8.png; InfoVisJ.2402.12.png; InfoVisJ.522.15.png
+writing,noun,12,2.4,10,InfoVisJ.1149.6(1).png; InfoVisJ.2082.3.png; InfoVisJ.2556.8.png
+bar,noun,11,2.2,10,InfoVisC.211.18.png; InfoVisJ.2102.16.png; VASTC.24.5.png
+value,noun,10,2.0,9,InfoVisC.24.8(1).png; InfoVisJ.1236.13.png; InfoVisJ.631.1(2).png
+design,noun,10,2.0,8,InfoVisJ.2556.10.png; SciVisJ.561.7.png; SciVisJ.635.6.png
+box,noun,10,2.0,8,InfoVisJ.2072.16.png; InfoVisJ.339.10.png; SciVisJ.1236.10.png
+meaning,noun,9,1.8,6,SciVisJ.1236.10.png; SciVisJ.2664.2.png; VASTC.51.6.png
+glance,noun,9,1.8,9,InfoVisC.173.9(1).png; InfoVisJ.2412.16(2).png; InfoVisJ.2556.7(2).png
+eye,noun,9,1.8,9,InfoVisC.103.4.png; InfoVisJ.1933.13.png; SciVisJ.744.13.png
+context,noun,9,1.8,9,InfoVisC.65.3.png; InfoVisJ.1558.11(3).png; VisJ.1197.5(3).png
+variable,noun,9,1.8,9,InfoVisJ.1032.5.png; InfoVisJ.2082.3.png; InfoVisJ.349.10.png
+country,noun,9,1.8,6,VASTC.107.7.png; economist_daily_chart_124.png; economist_daily_chart_317.png
+graphic,noun,9,1.8,9,InfoVisC.24.8(1).png; InfoVisJ.485.9.png; SciVisJ.980.13.png
+variety,noun,9,1.8,9,InfoVisC.173.9.png; InfoVisC.211.8.png; InfoVisJ.449.8.png
+idea,noun,8,1.6,8,InfoVisC.65.8.png; InfoVisJ.1634.1.png; SciVisJ.1236.10.png
+scale,noun,8,1.6,8,InfoVisJ.1236.13.png; InfoVisJ.2402.12.png; InfoVisJ.681.1.png
+font,noun,8,1.6,8,InfoVisC.157.1.png; InfoVisC.73.6.png; InfoVisJ.1190.8.png
+square,noun,8,1.6,5,SciVisJ.1236.10.png; SciVisJ.807.5(2).png; SciVisJ.807.5.png
+object,noun,7,1.4,5,InfoVisJ.1204.7.png; VASTC.1.7.png; VASTJ.1448.5.png
+shade,noun,7,1.4,7,InfoVisJ.1009.9.png; InfoVisJ.2251.1(3).png; SciVisJ.635.6.png
+letter,noun,7,1.4,6,InfoVisJ.2546.1.png; VASTC.24.5.png; VASTC.91.5(1).png
+lack,noun,7,1.4,6,InfoVisC.157.1.png; InfoVisJ.349.1.png; SciVisJ.1043.12(5).png
+description,noun,6,1.2,6,InfoVisJ.1634.1.png; InfoVisJ.339.3.png; InfoVisJ.924.5.png
+load,noun,6,1.2,2,VASTJ.51.7.png; vis673.png
+readability,noun,6,1.2,6,InfoVisJ.1054.3.png; InfoVisJ.1569.6.png; InfoVisJ.2402.12.png
+bit,noun,6,1.2,5,InfoVisC.65.3.png; InfoVisC.65.6(2).png; InfoVisJ.1137.1.png
+scheme,noun,6,1.2,6,MorphableWordClouds7.png; SciVisJ.1043.12(4).png; VASTC.91.5(1).png
+variation,noun,6,1.2,6,SciVisJ.1819.4.png; VASTC.1.7.png; VASTJ.220.1(2).png
+info,noun,6,1.2,6,InfoVisC.65.5(2).png; InfoVisJ.2709.1.png; SciVisJ.744.13.png
+layout,noun,6,1.2,6,InfoVisC.27.6.png; InfoVisJ.1032.5.png; InfoVisJ.1149.8(2).png
+space,noun,6,1.2,6,InfoVisJ.2556.10.png; InfoVisJ.2699.12.png; SciVisJ.728.14.png
+interpretation,noun,6,1.2,5,SciVisJ.728.14.png; VisC.11.12(2).png; economist_daily_chart_349.png
+area,noun,6,1.2,5,InfoVisC.115.4.png; VASTC.107.7.png; VisC.383.7.png
+connection,noun,5,1.0,5,InfoVisJ.339.3.png; VASTC.1.7.png; VASTJ.1448.5(2).png
+noise,noun,5,1.0,3,VASTJ.51.7.png; VisJ.1541.1(2).png; vis673.png
+choice,noun,5,1.0,5,VisC.263.7.png; vis652.png; wsj108.png
+explanation,noun,5,1.0,5,InfoVisJ.349.1.png; SciVisJ.728.14.png; VASTJ.320.11.png
+complexity,noun,5,1.0,5,InfoVisJ.599.10(2).png; SciVisJ.1819.4.png; SciVisJ.975.7.png
+symbol,noun,4,0.8,4,InfoVisJ.2576.2.png; SciVisJ.980.9.png; VisC.147.8(2).png
+grid,noun,4,0.8,4,InfoVisJ.1032.5.png; VASTJ.111.8.png; VASTJ.1139.3(2).png
+world,noun,4,0.8,3,economist_daily_chart_317.png; np_21.png; whoQ26.png
+logic,noun,4,0.8,4,InfoVisC.24.8(1).png; VASTJ.1763.9.png; VASTJ.51.7.png
+arrow,noun,4,0.8,3,InfoVisC.65.4.png; InfoVisJ.2181.9.png; VisC.559.6.png
+volume,noun,4,0.8,4,InfoVisC.73.6.png; SciVisC.49.5.png; VASTJ.31.12(3).png
+name,noun,4,0.8,4,InfoVisJ.953.10.png; VASTJ.200.8.png; economist_daily_chart_393.png
+structure,noun,4,0.8,4,InfoVisJ.651.7.png; VASTC.91.5(1).png; VASTJ.1407.9.png
+position,noun,4,0.8,3,InfoVisJ.1032.5.png; VASTC.91.5(1).png; VASTJ.51.8.png
+colour,noun,4,0.8,4,InfoVisJ.599.10(2).png; MorphableWordClouds7.png; SciVisJ.2664.2.png
+understanding,noun,4,0.8,4,SciVisJ.728.14.png; SciVisJ.797.13(3).png; VisC.248.3.png
+density,noun,4,0.8,4,InfoVisJ.1149.6(1).png; InfoVisJ.2556.10(2).png; InfoVisJ.369.3.png
+distribution,noun,4,0.8,4,InfoVisJ.2402.12(1).png; InfoVisJ.2402.12.png; InfoVisJ.339.10.png
+table,noun,4,0.8,4,InfoVisJ.1022.6.png; v487_n7407_7_f2.png; visMost325.png
+feature,noun,4,0.8,2,VisJ.1515.12.png; visMost573.png
+code,noun,4,0.8,4,InfoVisC.24.3(2).png; InfoVisJ.485.9.png; SciVisJ.1236.10.png
+range,noun,3,0.6,3,VASTC.81.3(2).png; economist_daily_chart_110.png; economist_daily_chart_124.png
+process,noun,3,0.6,3,InfoVisJ.339.3.png; VASTC.1.7.png; VASTJ.1139.3(2).png
+set,noun,3,0.6,3,InfoVisJ.2251.1(3).png; VisC.375.2.png; wsj135.png
+measurement,noun,3,0.6,3,SciVisJ.1025.11.png; SciVisJ.796.5(1).png; VisJ.1949.11.png
+interest,noun,3,0.6,3,SciVisJ.797.13(4).png; np_11.png; whoQ26.png
+region,noun,3,0.6,3,economist_daily_chart_124.png; whoQ26.png; wsj226.png
+ease,noun,3,0.6,3,MorphableWordClouds12.png; VASTJ.870.4.png; treasuryL11_2.png
+entity,noun,3,0.6,2,InfoVisJ.1054.3.png; economist_daily_chart_372.png
+spread,noun,3,0.6,3,InfoVisC.73.6.png; VASTJ.31.12(3).png; wsj200.png
+content,noun,3,0.6,3,InfoVisJ.647.13(2).png; economist_daily_chart_110.png; economist_daily_chart_165.png
+clarity,noun,3,0.6,3,SciVisJ.728.14.png; VASTC.19.8.png; vis652.png
+collection,noun,3,0.6,3,InfoVisJ.1161.5.png; SciVisJ.625.5.png; vis639.png
+arrangement,noun,3,0.6,2,SciVisJ.728.14.png; SciVisJ.995.10(3).png
+frequency,noun,3,0.6,2,InfoVisJ.2412.16(2).png; MorphableWordClouds5.png
+path,noun,3,0.6,2,InfoVisJ.339.3.png; VisC.11.12(2).png
+aspect,noun,3,0.6,3,VASTJ.51.8.png; v485_n7396_14_f4.png; visMost460.png
+order,noun,3,0.6,3,MorphableWordClouds12.png; VASTJ.1683.4(3).png; VASTJ.200.8.png
+dimension,noun,3,0.6,3,InfoVisJ.1161.6.png; SciVisJ.744.13.png; visMost777.png
+term,noun,3,0.6,3,VisJ.1515.12.png; VisJ.1595.6(2).png; v488_n7409_19_f1.png
+gradient,noun,3,0.6,3,InfoVisJ.651.7.png; VASTC.19.8.png; VisC.73.8(2).png
+intersection,noun,3,0.6,3,InfoVisC.8.7.png; InfoVisJ.349.1.png; VisC.255.4.png
+quantity,noun,3,0.6,3,SciVisJ.259.7.png; VisC.255.4.png; VisJ.1197.5(3).png
+purpose,noun,3,0.6,3,InfoVisJ.2556.9.png; InfoVisJ.459.8.png; economist_daily_chart_406.png
+annotation,noun,3,0.6,2,InfoVisJ.485.9.png; wsj294.png
+multitude,noun,3,0.6,3,InfoVisJ.2402.12(1).png; VisC.11.12(2).png; v484_n7395_11_f2.png
+network,noun,3,0.6,3,InfoVisJ.2486.8.png; InfoVisJ.401.12.png; VisC.11.12(2).png
+stuff,noun,3,0.6,3,InfoVisJ.1073.1.png; InfoVisJ.449.8.png; v488_n7409_19_f1.png
+parameter,noun,3,0.6,2,InfoVisJ.599.10(2).png; v488_n7409_19_f1.png
+digest,noun,2,0.4,2,economist_daily_chart_393.png; whoJ40_2.png
+self,noun,2,0.4,2,whoQ48_6.png; wsj371.png
+matrix,noun,2,0.4,2,SciVisJ.744.13.png; SciVisJ.980.9.png
+link,noun,2,0.4,2,InfoVisJ.339.3.png; InfoVisJ.621.2.png
+curve,noun,2,0.4,2,VASTJ.1139.3(2).png; v483_n7391_8_f5.png
+inscription,noun,2,0.4,1,SciVisJ.1025.11.png
+nuance,noun,2,0.4,2,SciVisC.25.4.png; SciVisJ.1025.11.png
+attractiveness,noun,2,0.4,2,VASTJ.51.7.png; vis673.png
+presentation,noun,2,0.4,2,VASTJ.51.7.png; vis673.png
+takeaway,noun,2,0.4,2,VASTJ.51.7.png; vis673.png
+majority,noun,2,0.4,2,VASTJ.51.7.png; vis673.png
+earth,noun,2,0.4,2,np_21.png; v486_n7401_7_f1.png
+geography,noun,2,0.4,2,economist_daily_chart_110.png; v486_n7401_7_f1.png
+screen,noun,2,0.4,2,InfoVisC.73.6.png; SciVisJ.891.13.png
+variability,noun,2,0.4,2,SciVisJ.891.2.png; wsj371.png
+sentence,noun,2,0.4,2,InfoVisJ.485.9.png; wsj371.png
+reading,noun,2,0.4,2,SciVisJ.728.14.png; economist_daily_chart_165.png
+earthquake,noun,2,0.4,2,InfoVisC.173.9.png; v482_n7386_10_f2.png
+attention,noun,2,0.4,2,VASTJ.31.2.png; economist_daily_chart_317.png
+shading,noun,2,0.4,2,VASTJ.1764.2.png; wsj536.png
+metric,noun,2,0.4,2,VisC.171.4.png; v488_n7410_20_f4.png
+entry,noun,2,0.4,2,InfoVisJ.349.8(4).png; VASTC.1.10.png
+indication,noun,2,0.4,2,InfoVisJ.953.10.png; VisJ.1413.7.png
+focus,noun,2,0.4,2,InfoVisJ.459.2.png; economist_daily_chart_5.png
+regularity,noun,2,0.4,1,InfoVisJ.2556.10.png
+continent,noun,2,0.4,2,economist_daily_chart_124.png; visMost325.png
+organization,noun,2,0.4,2,VASTJ.2012.9(2).png; economist_daily_chart_124.png
+pie,noun,2,0.4,2,treasuryL03_2.png; whoK16_3.png
+group,noun,2,0.4,2,VisC.167.11.png; np_11.png
+flow,noun,2,0.4,2,InfoVisJ.349.1(3).png; VisC.559.6.png
+plot,noun,2,0.4,2,InfoVisJ.485.9.png; VisJ.1243.3.png
+analysis,noun,2,0.4,2,SciVisJ.625.5.png; economist_daily_chart_4.png
+pixel,noun,2,0.4,2,SciVisJ.625.5.png; VisC.433.1.png
+painting,noun,2,0.4,2,VASTC.121.5.png; visMost573.png
+illusion,noun,2,0.4,2,InfoVisJ.651.7.png; VASTC.123.1.png
+depth,noun,2,0.4,2,InfoVisJ.651.7.png; VASTJ.1698.5(4).png
+processing,noun,2,0.4,2,InfoVisJ.1569.6.png; VisJ.1515.12.png
+fact,noun,2,0.4,2,VisJ.1515.12.png; v483_n7387_5_f1.png
+measure,noun,2,0.4,1,VisJ.1515.12.png
+movement,noun,2,0.4,2,InfoVisJ.349.1.png; v490_n7420_13_f4.png
+icon,noun,2,0.4,2,visMost573.png; visMost92.png
+level,noun,2,0.4,2,vis216.png; visMost92.png
+style,noun,2,0.4,2,VASTC.107.10.png; economist_daily_chart_493.png
+change,noun,2,0.4,2,InfoVisJ.1009.9.png; VisC.233.3(2).png
+component,noun,2,0.4,2,v488_n7409_19_f1.png; vis393.png
+num,noun,2,0.4,2,VASTJ.1448.5.png; np_11.png
+column,noun,2,0.4,2,InfoVisJ.621.3.png; SciVisJ.1236.10.png
+spot,noun,2,0.4,1,InfoVisJ.1558.9(2).png
+datapoint,noun,2,0.4,2,InfoVisJ.349.1.png; v483_n7387_5_f1.png
+proximity,noun,2,0.4,2,InfoVisJ.349.1.png; VisJ.1197.5.png
+preciseness,noun,2,0.4,2,VisC.248.3.png; v485_n7396_14_f4.png
+place,noun,2,0.4,2,InfoVisJ.1073.1.png; SciVisJ.995.10(3).png
+length,noun,2,0.4,2,SciVisJ.603.12.png; VASTJ.1763.9.png
+tree,noun,2,0.4,1,v483_n7390_14_f3.png
+relation,noun,2,0.4,2,InfoVisJ.631.1(2).png; VASTJ.2012.4.png
+factor,noun,2,0.4,2,InfoVisJ.2082.3.png; v488_n7409_19_f1.png
+background,noun,2,0.4,2,vis734.png; visMost573.png
+overlap,noun,2,0.4,1,visMost573.png
+mix,noun,2,0.4,2,InfoVisC.173.9(1).png; vis216.png
+mess,noun,2,0.4,1,InfoVisJ.2709.1.png
+color,noun_phrase,84,16.9,64,InfoVisC.115.4.png; InfoVisC.173.9(1).png; InfoVisC.173.9.png
+information,noun_phrase,48,9.7,34,InfoVisC.157.1.png; InfoVisC.73.6.png; InfoVisJ.1169.1.png
+number,noun_phrase,45,9.1,34,InfoVisC.115.4.png; InfoVisC.133.5(3).png; InfoVisC.219.8.png
+a lot,noun_phrase,42,8.5,35,InfoVisC.65.5(2).png; InfoVisC.65.6(2).png; InfoVisJ.1063.13(3).png
+word,noun_phrase,36,7.2,29,InfoVisC.24.8(1).png; InfoVisJ.1137.1.png; InfoVisJ.1169.5(2).png
+line,noun_phrase,35,7.0,34,InfoVisC.65.3.png; InfoVisC.65.5(2).png; InfoVisC.73.6.png
+shape,noun_phrase,33,6.6,30,InfoVisC.133.5(3).png; InfoVisC.219.8.png; InfoVisJ.2402.12.png
+more color,noun_phrase,32,6.4,31,InfoVisC.115.3.png; InfoVisJ.1032.5.png; InfoVisJ.2072.12.png
+text,noun_phrase,31,6.2,27,InfoVisC.211.8.png; InfoVisC.73.6.png; InfoVisJ.1149.17.png
+lot,noun_phrase,24,4.8,21,InfoVisC.57.4.png; InfoVisC.65.5(2).png; InfoVisJ.2072.16.png
+the image,noun_phrase,20,4.0,16,InfoVisC.27.6.png; InfoVisJ.1257.5.png; InfoVisJ.2072.7.png
+different color,noun_phrase,17,3.4,15,InfoVisJ.1009.9.png; InfoVisJ.2402.12(1).png; InfoVisJ.2402.12.png
+more information,noun_phrase,16,3.2,16,InfoVisJ.1257.5.png; InfoVisJ.339.10.png; InfoVisJ.946.6.png
+dot,noun_phrase,16,3.2,13,InfoVisC.65.8.png; InfoVisJ.1558.11(6).png; InfoVisJ.2486.8.png
+label,noun_phrase,15,3.0,13,InfoVisJ.2082.3.png; InfoVisJ.2556.9.png; InfoVisJ.349.1.png
+detail,noun_phrase,15,3.0,14,InfoVisC.133.5(3).png; InfoVisC.219.8.png; InfoVisJ.1149.8(2).png
+datum,noun_phrase,12,2.4,12,InfoVisC.8.7.png; SciVisJ.1236.10.png; SciVisJ.625.5.png
+circle,noun_phrase,12,2.4,7,InfoVisJ.629.8.png; SciVisJ.867.6.png; VASTC.107.7.png
+sense,noun_phrase,11,2.2,9,InfoVisC.65.3.png; InfoVisJ.1032.5.png; SciVisJ.1236.10.png
+the color,noun_phrase,11,2.2,11,InfoVisJ.2072.7.png; SciVisJ.1236.10.png; SciVisJ.1290.8.png
+title,noun_phrase,10,2.0,10,InfoVisJ.2556.9.png; InfoVisJ.339.3.png; InfoVisJ.485.9.png
+more detail,noun_phrase,10,2.0,10,SciVisC.25.4.png; SciVisJ.797.13(3).png; VASTC.13.9.png
+size,noun_phrase,10,2.0,10,InfoVisJ.2402.12(1).png; InfoVisJ.2402.12.png; MorphableWordClouds13.png
+map,noun_phrase,9,1.8,6,InfoVisC.211.8.png; SciVisJ.857.8(3).png; VASTC.107.7.png
+contrast,noun_phrase,9,1.8,9,InfoVisC.133.5(3).png; InfoVisC.219.8.png; VASTJ.1160.6.png
+legend,noun_phrase,9,1.8,9,SciVisJ.1043.12(5).png; SciVisJ.728.14.png; VASTC.107.7.png
+more datum,noun_phrase,8,1.6,8,InfoVisC.24.8.png; InfoVisJ.1204.7.png; InfoVisJ.881.15.png
+point,noun_phrase,7,1.4,7,InfoVisJ.2556.10.png; VisJ.1431.7.png; VisJ.1499.8.png
+axis,noun_phrase,7,1.4,7,SciVisJ.259.14.png; SciVisJ.807.5(2).png; SciVisJ.995.5.png
+chart,noun_phrase,7,1.4,7,MorphableWordClouds5.png; VASTJ.1407.9.png; economist_daily_chart_118.png
+more time,noun_phrase,7,1.4,7,InfoVisJ.339.10.png; InfoVisJ.659.6.png; InfoVisJ.946.6.png
+no idea,noun_phrase,7,1.4,7,InfoVisJ.1634.1.png; SciVisJ.1236.10.png; SciVisJ.821.4.png
+image,noun_phrase,7,1.4,6,InfoVisJ.1149.8(2).png; InfoVisJ.963.7.png; SciVisJ.797.13(3).png
+lack,noun_phrase,7,1.4,6,InfoVisC.157.1.png; InfoVisJ.349.1.png; SciVisJ.1043.12(5).png
+more word,noun_phrase,6,1.2,6,SciVisJ.1005.12.png; VASTJ.250.13.png; economist_daily_chart_124.png
+picture,noun_phrase,6,1.2,5,InfoVisC.65.3(2).png; VASTJ.1.7.png; VisC.263.7.png
+item,noun_phrase,6,1.2,6,InfoVisJ.349.1.png; InfoVisJ.369.3.png; VASTJ.2012.9(2).png
+the information,noun_phrase,5,1.0,3,InfoVisJ.2546.10.png; SciVisJ.867.7.png; whoJ40_2.png
+graph,noun_phrase,5,1.0,5,InfoVisJ.1073.1.png; SciVisJ.728.14.png; VisJ.1243.3.png
+element,noun_phrase,5,1.0,5,InfoVisJ.599.10(2).png; VASTJ.1139.3(2).png; VASTJ.2012.9(2).png
+description,noun_phrase,5,1.0,5,InfoVisJ.339.3.png; InfoVisJ.924.5.png; v490_n7420_13_f4.png
+a glance,noun_phrase,5,1.0,5,InfoVisJ.2412.16(2).png; economist_daily_chart_124.png; v483_n7391_8_f5.png
+time,noun_phrase,5,1.0,3,VASTJ.51.7.png; vis673.png; wsj200.png
+more text,noun_phrase,5,1.0,5,MorphableWordClouds21.png; SciVisJ.728.14.png; np_21.png
+country,noun_phrase,5,1.0,4,economist_daily_chart_124.png; economist_daily_chart_317.png; whoI19.png
+more element,noun_phrase,5,1.0,5,InfoVisJ.1247.10.png; InfoVisJ.401.12.png; whoB09_1.png
+square,noun_phrase,5,1.0,3,SciVisJ.1236.10.png; SciVisJ.807.5.png; v488_n7409_19_f1.png
+variety,noun_phrase,5,1.0,5,InfoVisC.173.9.png; InfoVisC.211.8.png; InfoVisJ.449.8.png
+symbol,noun_phrase,4,0.8,4,InfoVisJ.2576.2.png; SciVisJ.980.9.png; VisC.147.8(2).png
+no legend,noun_phrase,4,0.8,4,InfoVisJ.1063.13(3).png; VisC.163.2.png; VisJ.1421.5(2).png
+key,noun_phrase,4,0.8,4,InfoVisJ.924.5.png; v488_n7409_19_f1.png; visMost573.png
+cognitive load,noun_phrase,4,0.8,2,VASTJ.51.7.png; vis673.png
+noise,noun_phrase,4,0.8,2,VASTJ.51.7.png; vis673.png
+readability,noun_phrase,4,0.8,4,InfoVisJ.1054.3.png; InfoVisJ.2402.12.png; MorphableWordClouds13.png
+pattern,noun_phrase,4,0.8,4,InfoVisJ.1558.5.png; InfoVisJ.349.1(3).png; VASTC.1.7.png
+difference,noun_phrase,4,0.8,4,VASTJ.220.1(2).png; VisJ.1515.12.png; vis652.png
+more variable,noun_phrase,4,0.8,4,InfoVisJ.2082.3.png; InfoVisJ.881.15.png; economist_daily_chart_393.png
+small detail,noun_phrase,4,0.8,4,InfoVisJ.485.9.png; InfoVisJ.647.8(2).png; SciVisJ.1005.12.png
+info,noun_phrase,4,0.8,4,InfoVisJ.2709.1.png; SciVisJ.744.13.png; VisC.233.1.png
+use,noun_phrase,4,0.8,4,SciVisJ.728.14.png; economist_daily_chart_124.png; visMost573.png
+box,noun_phrase,4,0.8,4,InfoVisJ.2072.16.png; InfoVisJ.339.10.png; VASTC.1.8.png
+value,noun_phrase,4,0.8,3,InfoVisC.24.8(1).png; InfoVisJ.1236.13.png; VASTJ.1763.9.png
+scale,noun_phrase,4,0.8,4,InfoVisJ.1236.13.png; InfoVisJ.2402.12.png; VASTJ.1407.9.png
+complexity,noun_phrase,4,0.8,4,SciVisJ.1819.4.png; SciVisJ.975.7.png; VisC.375.2.png
+more line,noun_phrase,4,0.8,4,SciVisJ.1005.12.png; VASTJ.1407.9.png; VisJ.1515.12.png
+the line,noun_phrase,4,0.8,4,InfoVisJ.1569.6.png; VASTJ.200.8.png; VisC.11.12(2).png
+too many color,noun_phrase,4,0.8,4,InfoVisJ.349.10.png; SciVisJ.896.3.png; VASTJ.2012.4.png
+my eye,noun_phrase,4,0.8,4,InfoVisJ.1933.13.png; VASTC.19.8.png; VisC.295.3.png
+datum point,noun_phrase,4,0.8,4,InfoVisJ.522.15.png; SciVisJ.867.6.png; VisC.73.8(2).png
+different shape,noun_phrase,4,0.8,4,InfoVisJ.1558.9(2).png; SciVisJ.1236.10.png; VisJ.1431.19.png
+first glance,noun_phrase,4,0.8,4,InfoVisC.173.9(1).png; InfoVisJ.2556.7(2).png; InfoVisJ.349.8.png
+different size,noun_phrase,4,0.8,4,InfoVisJ.2546.1.png; InfoVisJ.451.5.png; np_11.png
+meaning,noun_phrase,4,0.8,3,SciVisJ.1236.10.png; SciVisJ.2664.2.png; visMost777.png
+many element,noun_phrase,4,0.8,4,InfoVisJ.2082.3.png; InfoVisJ.681.1.png; VASTJ.1612.1(3).png
+bar graph,noun_phrase,3,0.6,3,InfoVisC.211.18.png; VisC.167.11.png; VisC.503.6.png
+the point,noun_phrase,3,0.6,3,VASTJ.91.6.png; visMost573.png; whoQ58_4.png
+less information,noun_phrase,3,0.6,2,VASTJ.1139.3(2).png; whoJ44.png
+different point,noun_phrase,3,0.6,3,VASTJ.1139.3(2).png; VASTJ.1448.5(2).png; VisC.11.12(2).png
+color contrast,noun_phrase,3,0.6,3,SciVisJ.1025.11.png; VASTJ.270.11.png; VisJ.1515.12.png
+world map,noun_phrase,3,0.6,2,economist_daily_chart_317.png; whoQ26.png
+interest,noun_phrase,3,0.6,3,SciVisJ.797.13(4).png; np_11.png; whoQ26.png
+ease,noun_phrase,3,0.6,3,MorphableWordClouds12.png; VASTJ.870.4.png; treasuryL11_2.png
+entity,noun_phrase,3,0.6,2,InfoVisJ.1054.3.png; economist_daily_chart_372.png
+spread,noun_phrase,3,0.6,3,InfoVisC.73.6.png; VASTJ.31.12(3).png; wsj200.png
+volume,noun_phrase,3,0.6,3,InfoVisC.73.6.png; VASTJ.31.12(3).png; wsj200.png
+color scheme,noun_phrase,3,0.6,3,InfoVisJ.2486.8.png; VASTC.91.5(1).png; v484_n7393_1_f6.png
+the datum,noun_phrase,3,0.6,3,InfoVisJ.1009.9.png; wsj124.png; wsj21.png
+straight line,noun_phrase,3,0.6,3,InfoVisJ.2699.12.png; economist_daily_chart_393.png; v490_n7418_1_f2.png
+two axis,noun_phrase,3,0.6,3,VASTJ.1332.5.png; VisJ.1243.3.png; v482_n7386_10_f2.png
+more item,noun_phrase,3,0.6,3,InfoVisJ.1149.8(2).png; economist_daily_chart_152.png; whoQ14_2.png
+connection,noun_phrase,3,0.6,3,VASTC.1.7.png; VASTJ.1448.5(2).png; VisC.61.10.png
+name,noun_phrase,3,0.6,3,InfoVisJ.953.10.png; VASTJ.200.8.png; visMost533.png
+writing,noun_phrase,3,0.6,3,InfoVisJ.2556.8.png; MorphableWordClouds8.png; wsj28.png
+layout,noun_phrase,3,0.6,3,InfoVisC.27.6.png; InfoVisJ.1032.5.png; InfoVisJ.1257.5.png
+design,noun_phrase,3,0.6,2,InfoVisJ.2556.10.png; vis678.png
+range,noun_phrase,3,0.6,3,SciVisJ.2664.2.png; economist_daily_chart_110.png; economist_daily_chart_124.png
+the legend,noun_phrase,3,0.6,3,InfoVisJ.369.3.png; economist_daily_chart_124.png; visMost573.png
+frequency,noun_phrase,3,0.6,2,InfoVisJ.2412.16(2).png; MorphableWordClouds5.png
+density,noun_phrase,3,0.6,3,InfoVisJ.2556.10(2).png; InfoVisJ.369.3.png; visMost573.png
+small text,noun_phrase,3,0.6,3,InfoVisJ.339.3.png; np_21.png; v485_n7400_14_f2.png
+the circle,noun_phrase,3,0.6,3,InfoVisC.57.4.png; InfoVisC.8.7.png; economist_daily_chart_267.png
+object,noun_phrase,3,0.6,3,VASTJ.1448.5.png; VisJ.1595.6(2).png; np_11.png
+term,noun_phrase,3,0.6,3,VisJ.1515.12.png; VisJ.1595.6(2).png; v488_n7409_19_f1.png
+no detail,noun_phrase,3,0.6,3,InfoVisJ.967.6.png; VASTC.1.7.png; VisC.163.2.png
+no context,noun_phrase,3,0.6,3,InfoVisJ.1558.11(3).png; VisJ.1197.5(3).png; VisJ.1515.12.png
+the graphic,noun_phrase,3,0.6,3,VASTC.51.10.png; VASTJ.1612.1(4).png; whoK22.png
+the graph,noun_phrase,3,0.6,2,vis796.png; whoQ42_6.png
+annotation,noun_phrase,3,0.6,2,InfoVisJ.485.9.png; wsj294.png
+too much datum,noun_phrase,3,0.6,3,InfoVisJ.2102.16.png; InfoVisJ.485.9.png; wsj294.png
+more datum point,noun_phrase,3,0.6,3,InfoVisJ.669.4.png; SciVisJ.765.11.png; v483_n7391_8_f5.png
+color difference,noun_phrase,3,0.6,3,VASTJ.111.8.png; VASTJ.220.1(2).png; vis678.png
+too many line,noun_phrase,3,0.6,3,InfoVisJ.1169.5(2).png; VASTJ.1407.9.png; vis796.png
+color distribution,noun_phrase,3,0.6,3,InfoVisJ.2402.12(1).png; InfoVisJ.2402.12.png; VisJ.1949.18.png
+context,noun_phrase,3,0.6,3,VisJ.1541.1(2).png; visMost533.png; wsj200.png
+graphic,noun_phrase,3,0.6,3,InfoVisC.24.8(1).png; VASTJ.1763.9.png; VisJ.1413.7.png
+no way,noun_phrase,2,0.4,2,VisC.599.6.png; VisJ.1431.7.png
+circle graph,noun_phrase,2,0.4,2,VASTJ.151.12.png; VisC.503.6.png
+digest,noun_phrase,2,0.4,2,economist_daily_chart_393.png; whoJ40_2.png
+bar,noun_phrase,2,0.4,2,economist_daily_chart_75.png; whoQ14_2.png
+a grid,noun_phrase,2,0.4,2,VASTJ.1139.3(2).png; VASTJ.2908.2.png
+a few line,noun_phrase,2,0.4,2,InfoVisJ.2251.3(3).png; VASTJ.1139.3(2).png
+no meaning,noun_phrase,2,0.4,1,VASTC.51.6.png
+two color,noun_phrase,2,0.4,2,InfoVisJ.953.10.png; VASTJ.412.3.png
+inscription,noun_phrase,2,0.4,1,SciVisJ.1025.11.png
+thing,noun_phrase,2,0.4,2,InfoVisC.115.4.png; whoQ26.png
+region,noun_phrase,2,0.4,2,economist_daily_chart_124.png; whoQ26.png
+initial (intuitive) attractiveness,noun_phrase,2,0.4,2,VASTJ.51.7.png; vis673.png
+the logic,noun_phrase,2,0.4,2,VASTJ.51.7.png; vis673.png
+presentation,noun_phrase,2,0.4,2,VASTJ.51.7.png; vis673.png
+the key takeaway,noun_phrase,2,0.4,2,VASTJ.51.7.png; vis673.png
+the majority,noun_phrase,2,0.4,2,VASTJ.51.7.png; vis673.png
+bright color,noun_phrase,2,0.4,2,InfoVisC.211.8.png; vis630.png
+geography,noun_phrase,2,0.4,2,economist_daily_chart_110.png; v486_n7401_7_f1.png
+dark green,noun_phrase,2,0.4,2,InfoVisC.73.6.png; economist_daily_chart_110.png
+the word,noun_phrase,2,0.4,2,InfoVisC.73.6.png; VASTJ.1612.1(4).png
+eye,noun_phrase,2,0.4,2,VASTC.107.8.png; v484_n7393_1_f6.png
+data point,noun_phrase,2,0.4,2,v484_n7393_1_f6.png; whoQ32_2.png
+word/sentence,noun_phrase,2,0.4,2,InfoVisJ.485.9.png; wsj371.png
+different shade,noun_phrase,2,0.4,2,InfoVisJ.2251.1(3).png; SciVisJ.635.6.png
+several color,noun_phrase,2,0.4,2,InfoVisC.27.6.png; economist_daily_chart_165.png
+reading,noun_phrase,2,0.4,2,SciVisJ.728.14.png; economist_daily_chart_165.png
+the content,noun_phrase,2,0.4,2,InfoVisJ.647.13(2).png; economist_daily_chart_165.png
+clear text,noun_phrase,2,0.4,2,SciVisJ.980.12(2).png; economist_daily_chart_165.png
+distinct color,noun_phrase,2,0.4,2,SciVisJ.980.12(2).png; economist_daily_chart_165.png
+decipher,noun_phrase,2,0.4,2,economist_daily_chart_167.png; visMost573.png
+many data point,noun_phrase,2,0.4,2,economist_daily_chart_520.png; v488_n7413_12_f2.png
+seismic graph,noun_phrase,2,0.4,2,v482_n7386_10_f2.png; v483_n7391_8_f5.png
+clarity,noun_phrase,2,0.4,2,VASTC.19.8.png; vis652.png
+a map,noun_phrase,2,0.4,2,economist_daily_chart_124.png; economist_daily_chart_317.png
+the map,noun_phrase,2,0.4,2,economist_daily_chart_124.png; economist_daily_chart_317.png
+no number,noun_phrase,2,0.4,2,VisJ.1261.4.png; economist_daily_chart_317.png
+no measurement,noun_phrase,2,0.4,2,SciVisJ.796.5(1).png; VisJ.1949.11.png
+line graph,noun_phrase,2,0.4,2,InfoVisJ.1558.7.png; VisC.29.16.png
+the picture,noun_phrase,2,0.4,2,VASTJ.1160.7.png; economist_daily_chart_372.png
+no or few datum,noun_phrase,2,0.4,2,VASTJ.828.7.png; VisJ.1595.9(2).png
+not a lot,noun_phrase,2,0.4,2,InfoVisJ.459.15.png; VASTJ.828.7.png
+no axis,noun_phrase,2,0.4,2,VASTJ.160.2.png; VASTJ.320.11.png
+element size,noun_phrase,2,0.4,2,InfoVisC.133.5(3).png; InfoVisC.219.8.png
+focus,noun_phrase,2,0.4,2,InfoVisJ.459.2.png; economist_daily_chart_5.png
+different axis,noun_phrase,2,0.4,2,InfoVisC.115.3.png; whoB09_1.png
+no regularity,noun_phrase,2,0.4,1,InfoVisJ.2556.10.png
+a key,noun_phrase,2,0.4,2,economist_daily_chart_124.png; v487_n7407_7_f2.png
+variation,noun_phrase,2,0.4,2,VASTC.1.7.png; economist_daily_chart_124.png
+country shape,noun_phrase,2,0.4,2,VASTC.107.7.png; economist_daily_chart_124.png
+pie chart,noun_phrase,2,0.4,2,treasuryL03_2.png; whoK16_3.png
+the visualization,noun_phrase,2,0.4,2,VisC.167.11.png; economist_daily_chart_406.png
+explanation,noun_phrase,2,0.4,2,InfoVisJ.349.1.png; SciVisJ.728.14.png
+too much information,noun_phrase,2,0.4,2,MorphableWordClouds8.png; v484_n7392_1_f4.png
+visualization,noun_phrase,2,0.4,2,SciVisJ.796.18.png; VisJ.1431.19.png
+messy,noun_phrase,2,0.4,2,VASTJ.1139.4.png; VisC.559.6.png
+multiple element,noun_phrase,2,0.4,2,VisC.559.6.png; np_11.png
+a process,noun_phrase,2,0.4,2,InfoVisJ.339.3.png; VASTC.1.7.png
+more type,noun_phrase,2,0.4,2,InfoVisJ.2709.1.png; InfoVisJ.339.3.png
+the number,noun_phrase,2,0.4,2,VisC.599.6.png; economist_daily_chart_267.png
+figure,noun_phrase,2,0.4,2,InfoVisJ.2082.3.png; wsj99.png
+multiple shape,noun_phrase,2,0.4,2,VASTC.115.5.png; VisJ.1197.3.png
+grid,noun_phrase,2,0.4,2,SciVisJ.807.5.png; VASTJ.111.8.png
+color variation,noun_phrase,2,0.4,2,SciVisJ.1819.4.png; v490_n7418_12_f3.png
+multiple datum point,noun_phrase,2,0.4,2,SciVisJ.857.9.png; v483_n7391_8_f5.png
+more number,noun_phrase,2,0.4,2,SciVisJ.857.9.png; v483_n7391_8_f5.png
+the chart,noun_phrase,2,0.4,2,VASTJ.111.5.png; VASTJ.2012.9(2).png
+order,noun_phrase,2,0.4,2,MorphableWordClouds12.png; VASTJ.1683.4(3).png
+more shape,noun_phrase,2,0.4,2,InfoVisJ.451.5.png; VisJ.1595.6(2).png
+more writing,noun_phrase,2,0.4,2,InfoVisJ.2082.3.png; VisJ.1595.6(2).png
+multiple color,noun_phrase,2,0.4,2,VisJ.1595.6(2).png; v483_n7387_5_f1.png
+less color,noun_phrase,2,0.4,2,InfoVisJ.2082.3.png; VASTC.123.3.png
+color scale,noun_phrase,2,0.4,2,InfoVisJ.681.1.png; VASTJ.120.3(6).png
+abstract painting,noun_phrase,2,0.4,2,VASTC.121.5.png; visMost573.png
+multiple figure,noun_phrase,2,0.4,2,SciVisC.49.5.png; visMost573.png
+letter,noun_phrase,2,0.4,2,InfoVisJ.2546.1.png; VASTC.24.5.png
+curve line,noun_phrase,2,0.4,2,VisC.163.2.png; v483_n7391_8_f5.png
+illusion,noun_phrase,2,0.4,2,InfoVisJ.651.7.png; VASTC.123.1.png
+depth,noun_phrase,2,0.4,2,InfoVisJ.651.7.png; VASTJ.1698.5(4).png
+structure,noun_phrase,2,0.4,2,InfoVisJ.651.7.png; VASTC.91.5(1).png
+intersection,noun_phrase,2,0.4,2,InfoVisC.8.7.png; VisC.255.4.png
+fast readability,noun_phrase,2,0.4,2,InfoVisJ.1569.6.png; SciVisJ.645.3.png
+too many shape,noun_phrase,2,0.4,2,InfoVisJ.349.10.png; v485_n7400_14_f2.png
+exact feature,noun_phrase,2,0.4,1,VisJ.1515.12.png
+the difference,noun_phrase,2,0.4,2,InfoVisJ.522.15.png; InfoVisJ.957.25.png
+style,noun_phrase,2,0.4,2,VASTC.107.10.png; economist_daily_chart_493.png
+purpose,noun_phrase,2,0.4,2,InfoVisJ.2556.9.png; economist_daily_chart_406.png
+many line,noun_phrase,2,0.4,2,InfoVisJ.1063.13.png; SciVisJ.867.6.png
+too many data point,noun_phrase,2,0.4,2,InfoVisJ.485.9.png; wsj294.png
+num,noun_phrase,2,0.4,2,VASTJ.1448.5.png; np_11.png
+object/word,noun_phrase,2,0.4,2,VASTJ.1448.5.png; np_11.png
+column,noun_phrase,2,0.4,2,InfoVisJ.621.3.png; SciVisJ.1236.10.png
+the size,noun_phrase,2,0.4,2,InfoVisJ.1169.1.png; InfoVisJ.621.3.png
+high contrast,noun_phrase,2,0.4,2,InfoVisJ.2102.16.png; VASTJ.1139.4.png
+datapoint,noun_phrase,2,0.4,2,InfoVisJ.349.1.png; v483_n7387_5_f1.png
+proximity,noun_phrase,2,0.4,2,InfoVisJ.349.1.png; VisJ.1197.5.png
+fine detail,noun_phrase,2,0.4,2,InfoVisJ.2082.3.png; v485_n7396_14_f4.png
+preciseness,noun_phrase,2,0.4,2,VisC.248.3.png; v485_n7396_14_f4.png
+the shape,noun_phrase,2,0.4,2,VisJ.1329.1(4).png; v487_n7407_14_f4.png
+arrangement,noun_phrase,2,0.4,1,SciVisJ.995.10(3).png
+length,noun_phrase,2,0.4,2,SciVisJ.603.12.png; VASTJ.1763.9.png
+more variety,noun_phrase,2,0.4,2,VASTJ.2012.9(2).png; np_21.png
+multitude,noun_phrase,2,0.4,2,VisC.11.12(2).png; v484_n7395_11_f2.png
+network,noun_phrase,2,0.4,2,InfoVisJ.2486.8.png; InfoVisJ.401.12.png
+the same area,noun_phrase,2,0.4,1,InfoVisC.115.4.png
+stuff,noun_phrase,2,0.4,2,InfoVisJ.1073.1.png; InfoVisJ.449.8.png
+parameter,noun_phrase,2,0.4,2,InfoVisJ.599.10(2).png; v488_n7409_19_f1.png
+colour,noun_phrase,2,0.4,2,InfoVisJ.599.10(2).png; SciVisJ.2664.2.png
+logic,noun_phrase,2,0.4,2,InfoVisC.24.8(1).png; VASTJ.1763.9.png
+quantity,noun_phrase,2,0.4,2,SciVisJ.259.7.png; VisJ.1197.5(3).png
+more factor,noun_phrase,2,0.4,2,InfoVisJ.2082.3.png; v488_n7409_19_f1.png
+small font,noun_phrase,2,0.4,2,InfoVisC.157.1.png; v488_n7409_19_f1.png
+small writing,noun_phrase,2,0.4,1,v488_n7409_19_f1.png
+no title,noun_phrase,2,0.4,2,VASTJ.1683.4(2).png; VisC.27.5.png
+overlap,noun_phrase,2,0.4,1,visMost573.png
+many color,noun_phrase,2,0.4,1,visMost573.png
+ambiguous color,noun_phrase,2,0.4,1,visMost573.png
+mix,noun_phrase,2,0.4,2,InfoVisC.173.9(1).png; vis216.png
+way more information,noun_phrase,2,0.4,2,InfoVisJ.2082.3.png; InfoVisJ.449.8.png
+a mess,noun_phrase,2,0.4,1,InfoVisJ.2709.1.png
+intersect line,noun_phrase,2,0.4,2,VASTJ.1698.5(4).png; VisC.11.12(2).png
+path,noun_phrase,2,0.4,1,VisC.11.12(2).png
+a line,noun_phrase,1,0.2,1,VisJ.1431.7.png
+numerical value,noun_phrase,1,0.2,1,SciVisJ.995.5.png
+information presenting,noun_phrase,1,0.2,1,SciVisJ.995.5.png
+provoke,noun_phrase,1,0.2,1,SciVisJ.995.5.png
+more bar,noun_phrase,1,0.2,1,economist_daily_chart_75.png
+a limited color range,noun_phrase,1,0.2,1,VASTC.81.3(2).png
+simple bar graph,noun_phrase,1,0.2,1,VASTJ.1720.4.png
+few item,noun_phrase,1,0.2,1,VisC.527.1.png
+more or less a line,noun_phrase,1,0.2,1,VisC.527.1.png
+self,noun_phrase,1,0.2,1,whoQ48_6.png
+clear color,noun_phrase,1,0.2,1,InfoVisC.65.8.png
+the idea,noun_phrase,1,0.2,1,InfoVisC.65.8.png
+color dimension,noun_phrase,1,0.2,1,InfoVisC.65.8.png
+multiple copy,noun_phrase,1,0.2,1,VisC.297.4.png
+the same axis,noun_phrase,1,0.2,1,VisC.297.4.png
+one shape,noun_phrase,1,0.2,1,VisC.297.4.png
+straightforward line,noun_phrase,1,0.2,1,treasuryG07_2.png
+matrix pattern,noun_phrase,1,0.2,1,SciVisJ.980.9.png
+2. link,noun_phrase,1,0.2,1,InfoVisJ.621.2.png
+process,noun_phrase,1,0.2,1,VASTJ.1139.3(2).png
+2d geometric shape,noun_phrase,1,0.2,1,VASTJ.1139.3(2).png
+curve,noun_phrase,1,0.2,1,VASTJ.1139.3(2).png
+a discernible pattern,noun_phrase,1,0.2,1,VASTJ.1139.3(2).png
+less element,noun_phrase,1,0.2,1,VASTJ.1139.3(2).png
+clear connection,noun_phrase,1,0.2,1,VisC.375.9(3).png
+alignment,noun_phrase,1,0.2,1,wsj135.png
+time scale,noun_phrase,1,0.2,1,wsj135.png
+2 data set,noun_phrase,1,0.2,1,wsj135.png
+colored segment,noun_phrase,1,0.2,1,wsj340.png
+several measurement,noun_phrase,1,0.2,1,SciVisJ.1025.11.png
+nuance,noun_phrase,1,0.2,1,SciVisJ.1025.11.png
+less text,noun_phrase,1,0.2,1,SciVisJ.1025.11.png
+familiar geographic shape,noun_phrase,1,0.2,1,whoQ26.png
+no more than three color,noun_phrase,1,0.2,1,whoQ26.png
+chart map,noun_phrase,1,0.2,1,whoQ26.png
+common knowledge,noun_phrase,1,0.2,1,visMost97.png
+distinguish/distinctive color,noun_phrase,1,0.2,1,visMost97.png
+simple information,noun_phrase,1,0.2,1,visMost97.png
+short cryptic label,noun_phrase,1,0.2,1,whoK27_2.png
+small arrow,noun_phrase,1,0.2,1,InfoVisC.65.4.png
+information density,noun_phrase,1,0.2,1,InfoVisJ.1054.3.png
+the eye,noun_phrase,1,0.2,1,InfoVisC.103.4.png
+two or three datum point,noun_phrase,1,0.2,1,v486_n7401_7_f1.png
+basic graph. earth,noun_phrase,1,0.2,1,v486_n7401_7_f1.png
+cluter,noun_phrase,1,0.2,1,InfoVisC.73.6.png
+screen,noun_phrase,1,0.2,1,InfoVisC.73.6.png
+change font,noun_phrase,1,0.2,1,InfoVisC.73.6.png
+two different axis,noun_phrase,1,0.2,1,InfoVisJ.1247.14.png
+an additional key,noun_phrase,1,0.2,1,InfoVisJ.1247.14.png
+the context,noun_phrase,1,0.2,1,InfoVisC.65.3.png
+the 2 point,noun_phrase,1,0.2,1,VisC.375.9(2).png
+each element,noun_phrase,1,0.2,1,VisC.375.9(2).png
+some kind,noun_phrase,1,0.2,1,InfoVisJ.1558.5.png
+blue box,noun_phrase,1,0.2,1,InfoVisJ.1558.5.png
+size variation,noun_phrase,1,0.2,1,wsj371.png
+choice,noun_phrase,1,0.2,1,wsj371.png
+2 line,noun_phrase,1,0.2,1,wsj371.png
+more variability,noun_phrase,1,0.2,1,wsj371.png
+caption,noun_phrase,1,0.2,1,wsj371.png
+necessary context,noun_phrase,1,0.2,1,wsj371.png
+more object,noun_phrase,1,0.2,1,InfoVisJ.1204.7.png
+a different color,noun_phrase,1,0.2,1,whoB32_1.png
+blue color,noun_phrase,1,0.2,1,whoB32_1.png
+more complex design,noun_phrase,1,0.2,1,SciVisJ.635.6.png
+few datum,noun_phrase,1,0.2,1,economist_daily_chart_393.png
+just a few line,noun_phrase,1,0.2,1,economist_daily_chart_393.png
+more contrast,noun_phrase,1,0.2,1,economist_daily_chart_393.png
+random name,noun_phrase,1,0.2,1,economist_daily_chart_393.png
+what red and green indicate,noun_phrase,1,0.2,1,economist_daily_chart_393.png
+factual information,noun_phrase,1,0.2,1,economist_daily_chart_393.png
+concentration,noun_phrase,1,0.2,1,economist_daily_chart_165.png
+understandable visual,noun_phrase,1,0.2,1,economist_daily_chart_165.png
+two separate line,noun_phrase,1,0.2,1,VisC.87.8.png
+numerical detail,noun_phrase,1,0.2,1,VisC.87.8.png
+precise naming,noun_phrase,1,0.2,1,VisC.87.8.png
+x and y scales,noun_phrase,1,0.2,1,VisC.87.8.png
+the label,noun_phrase,1,0.2,1,SciVisJ.1290.8.png
+chemical,noun_phrase,1,0.2,1,SciVisJ.1290.8.png
+individual item,noun_phrase,1,0.2,1,SciVisJ.1043.12(4).png
+one point,noun_phrase,1,0.2,1,SciVisJ.1043.12(4).png
+single-color scheme,noun_phrase,1,0.2,1,SciVisJ.1043.12(4).png
+an earthquake,noun_phrase,1,0.2,1,v482_n7386_10_f2.png
+one more bit,noun_phrase,1,0.2,1,vis652.png
+4 datum point,noun_phrase,1,0.2,1,vis652.png
+simple color,noun_phrase,1,0.2,1,vis652.png
+different font size,noun_phrase,1,0.2,1,vis652.png
+small font size,noun_phrase,1,0.2,1,vis652.png
+bad color choice,noun_phrase,1,0.2,1,vis652.png
+regard,noun_phrase,1,0.2,1,vis652.png
+less clear writing,noun_phrase,1,0.2,1,vis652.png
+not simple datum,noun_phrase,1,0.2,1,vis652.png
+composition,noun_phrase,1,0.2,1,vis652.png
+busy layout,noun_phrase,1,0.2,1,vis652.png
+more unrelated data element,noun_phrase,1,0.2,1,vis652.png
+less structure,noun_phrase,1,0.2,1,economist_daily_chart_317.png
+everybody,noun_phrase,1,0.2,1,economist_daily_chart_317.png
+a chart,noun_phrase,1,0.2,1,economist_daily_chart_317.png
+similar instance,noun_phrase,1,0.2,1,economist_daily_chart_317.png
+the axis,noun_phrase,1,0.2,1,economist_daily_chart_317.png
+much attention,noun_phrase,1,0.2,1,economist_daily_chart_317.png
+some info,noun_phrase,1,0.2,1,economist_daily_chart_317.png
+few datum point,noun_phrase,1,0.2,1,VASTJ.1332.5.png
+the shading,noun_phrase,1,0.2,1,wsj536.png
+no clear pattern,noun_phrase,1,0.2,1,VisJ.1949.11.png
+all dot,noun_phrase,1,0.2,1,InfoVisC.65.4(2).png
+a water fall,noun_phrase,1,0.2,1,InfoVisC.65.4(2).png
+individual line,noun_phrase,1,0.2,1,whoQ14_2.png
+more different label,noun_phrase,1,0.2,1,whoQ14_2.png
+little information,noun_phrase,1,0.2,1,VASTJ.1720.12.png
+the subjetc,noun_phrase,1,0.2,1,VisC.171.4.png
+no graph metric,noun_phrase,1,0.2,1,VisC.171.4.png
+entry,noun_phrase,1,0.2,1,VASTC.1.10.png
+how many type,noun_phrase,1,0.2,1,economist_daily_chart_372.png
+unique shape,noun_phrase,1,0.2,1,economist_daily_chart_372.png
+almost no explanation,noun_phrase,1,0.2,1,VASTJ.320.11.png
+no graphic legend,noun_phrase,1,0.2,1,VASTJ.320.11.png
+what color,noun_phrase,1,0.2,1,SciVisJ.796.5(1).png
+biology,noun_phrase,1,0.2,1,InfoVisJ.1073.3.png
+diagram,noun_phrase,1,0.2,1,InfoVisJ.1247.10.png
+mathematical formulae,noun_phrase,1,0.2,1,InfoVisJ.1247.10.png
+colored graphic chart,noun_phrase,1,0.2,1,InfoVisJ.1247.10.png
+indication,noun_phrase,1,0.2,1,InfoVisJ.953.10.png
+the countriesr,noun_phrase,1,0.2,1,InfoVisJ.953.10.png
+only two main color,noun_phrase,1,0.2,1,VASTJ.1763.8(2).png
+one font,noun_phrase,1,0.2,1,VASTJ.1763.8(2).png
+more uniform design,noun_phrase,1,0.2,1,VASTJ.1763.8(2).png
+prominent color,noun_phrase,1,0.2,1,wsj28.png
+smooth line,noun_phrase,1,0.2,1,whoO03.png
+collection,noun_phrase,1,0.2,1,InfoVisJ.1161.5.png
+3 dot,noun_phrase,1,0.2,1,InfoVisJ.1161.5.png
+the grid,noun_phrase,1,0.2,1,InfoVisJ.1032.5.png
+point position,noun_phrase,1,0.2,1,InfoVisJ.1032.5.png
+y-axis variable,noun_phrase,1,0.2,1,InfoVisJ.1032.5.png
+more complex colour scheme,noun_phrase,1,0.2,1,MorphableWordClouds7.png
+more letter,noun_phrase,1,0.2,1,wsj360.png
+any meaning,noun_phrase,1,0.2,1,whoB09_1.png
+variable,noun_phrase,1,0.2,1,whoB09_1.png
+large number,noun_phrase,1,0.2,1,whoB09_1.png
+limited number,noun_phrase,1,0.2,1,whoI19.png
+few axis,noun_phrase,1,0.2,1,whoI19.png
+high school education,noun_phrase,1,0.2,1,whoI19.png
+(empty space,noun_phrase,1,0.2,1,InfoVisJ.2556.10.png
+example,noun_phrase,1,0.2,1,InfoVisJ.2556.10.png
+totally arbitrary color application,noun_phrase,1,0.2,1,InfoVisJ.2556.10.png
+color coding,noun_phrase,1,0.2,1,economist_daily_chart_124.png
+nonlinearity,noun_phrase,1,0.2,1,economist_daily_chart_124.png
+geo-map,noun_phrase,1,0.2,1,economist_daily_chart_124.png
+a legend,noun_phrase,1,0.2,1,economist_daily_chart_124.png
+a continent,noun_phrase,1,0.2,1,economist_daily_chart_124.png
+few detail,noun_phrase,1,0.2,1,economist_daily_chart_124.png
+easy to understand. map,noun_phrase,1,0.2,1,economist_daily_chart_124.png
+africa,noun_phrase,1,0.2,1,economist_daily_chart_124.png
+lotd,noun_phrase,1,0.2,1,economist_daily_chart_124.png
+many category,noun_phrase,1,0.2,1,economist_daily_chart_124.png
+spatial organization,noun_phrase,1,0.2,1,economist_daily_chart_124.png
+group,noun_phrase,1,0.2,1,VisC.167.11.png
+the message,noun_phrase,1,0.2,1,VisC.167.11.png
+1-2 second,noun_phrase,1,0.2,1,VisC.167.11.png
+clear and concise key,noun_phrase,1,0.2,1,SciVisJ.728.14.png
+visual clarity,noun_phrase,1,0.2,1,SciVisJ.728.14.png
+less blank space,noun_phrase,1,0.2,1,SciVisJ.728.14.png
+the font,noun_phrase,1,0.2,1,SciVisJ.728.14.png
+the arrangement,noun_phrase,1,0.2,1,SciVisJ.728.14.png
+the text,noun_phrase,1,0.2,1,SciVisJ.728.14.png
+need interpretation,noun_phrase,1,0.2,1,SciVisJ.728.14.png
+intuitive understanding,noun_phrase,1,0.2,1,SciVisJ.728.14.png
+this type,noun_phrase,1,0.2,1,economist_daily_chart_118.png
+more variation,noun_phrase,1,0.2,1,v483_n7390_1_f2.png
+each word,noun_phrase,1,0.2,1,InfoVisJ.2412.16(2).png
+monochrome,noun_phrase,1,0.2,1,InfoVisJ.2412.16(2).png
+only one thing,noun_phrase,1,0.2,1,InfoVisJ.678.17.png
+unlabeled legend/datum,noun_phrase,1,0.2,1,SciVisJ.796.18.png
+arrow,noun_phrase,1,0.2,1,VisC.559.6.png
+different direction,noun_phrase,1,0.2,1,VisC.559.6.png
+any number,noun_phrase,1,0.2,1,VisC.559.6.png
+too many move part,noun_phrase,1,0.2,1,VisC.559.6.png
+no apparent directional flow,noun_phrase,1,0.2,1,VisC.559.6.png
+the arrow,noun_phrase,1,0.2,1,VisC.559.6.png
+random letter,noun_phrase,1,0.2,1,VisC.559.6.png
+kid drawing,noun_phrase,1,0.2,1,VisJ.1949.7(2).png
+exact value,noun_phrase,1,0.2,1,VisJ.1243.3.png
+plot,noun_phrase,1,0.2,1,VisJ.1243.3.png
+complicated formula,noun_phrase,1,0.2,1,VisJ.1243.3.png
+more connection,noun_phrase,1,0.2,1,InfoVisJ.339.3.png
+big text,noun_phrase,1,0.2,1,InfoVisJ.339.3.png
+clear path,noun_phrase,1,0.2,1,InfoVisJ.339.3.png
+more link,noun_phrase,1,0.2,1,InfoVisJ.339.3.png
+write information,noun_phrase,1,0.2,1,InfoVisJ.339.3.png
+stick,noun_phrase,1,0.2,1,InfoVisJ.339.10.png
+the distribution,noun_phrase,1,0.2,1,InfoVisJ.339.10.png
+the ratio,noun_phrase,1,0.2,1,InfoVisJ.339.10.png
+visually more detail,noun_phrase,1,0.2,1,InfoVisJ.339.10.png
+ammount,noun_phrase,1,0.2,1,InfoVisJ.479.13.png
+proportion,noun_phrase,1,0.2,1,economist_daily_chart_267.png
+brand,noun_phrase,1,0.2,1,economist_daily_chart_267.png
+soft color,noun_phrase,1,0.2,1,economist_daily_chart_267.png
+/compare/interpret,noun_phrase,1,0.2,1,wsj72.png
+multivariate,noun_phrase,1,0.2,1,InfoVisJ.1634.6.png
+horizontal line,noun_phrase,1,0.2,1,v487_n7408_15_f3.png
+the visualisation,noun_phrase,1,0.2,1,whoB17_1.png
+a graphic,noun_phrase,1,0.2,1,SciVisJ.980.13.png
+similar look color,noun_phrase,1,0.2,1,VASTJ.2908.2.png
+the data point,noun_phrase,1,0.2,1,VASTJ.2908.2.png
+4 or 5 axis,noun_phrase,1,0.2,1,InfoVisJ.629.8.png
+x. y. color,noun_phrase,1,0.2,1,InfoVisJ.629.8.png
+frame,noun_phrase,1,0.2,1,InfoVisJ.1236.13.png
+round table,noun_phrase,1,0.2,1,whoO10_2.png
+exact point,noun_phrase,1,0.2,1,VisC.599.6.png
+two letter,noun_phrase,1,0.2,1,VisC.599.6.png
+field information,noun_phrase,1,0.2,1,SciVisJ.1819.4.png
+this graphic design,noun_phrase,1,0.2,1,SciVisJ.797.13(4).png
+the design,noun_phrase,1,0.2,1,SciVisJ.797.13(4).png
+various shape,noun_phrase,1,0.2,1,VisJ.1949.2.png
+weird color palette,noun_phrase,1,0.2,1,SciVisJ.857.9.png
+color saturation,noun_phrase,1,0.2,1,SciVisJ.891.2.png
+color variability,noun_phrase,1,0.2,1,SciVisJ.891.2.png
+3 aspect,noun_phrase,1,0.2,1,VASTJ.51.8.png
+too much variable,noun_phrase,1,0.2,1,VASTJ.51.8.png
+x-position,noun_phrase,1,0.2,1,VASTJ.51.8.png
+y-position,noun_phrase,1,0.2,1,VASTJ.51.8.png
+my vision,noun_phrase,1,0.2,1,economist_daily_chart_521.png
+nasa graph,noun_phrase,1,0.2,1,economist_daily_chart_521.png
+axes title,noun_phrase,1,0.2,1,v489_n7414_25_f2.png
+information point,noun_phrase,1,0.2,1,VASTJ.111.5.png
+accurate interpretation,noun_phrase,1,0.2,1,economist_daily_chart_349.png
+the big the word,noun_phrase,1,0.2,1,MorphableWordClouds5.png
+the use,noun_phrase,1,0.2,1,MorphableWordClouds5.png
+weight graph,noun_phrase,1,0.2,1,MorphableWordClouds20.png
+more impact,noun_phrase,1,0.2,1,MorphableWordClouds11.png
+3d visualization,noun_phrase,1,0.2,1,SciVisJ.744.13.png
+4 dimension matrix,noun_phrase,1,0.2,1,SciVisJ.744.13.png
+train eye,noun_phrase,1,0.2,1,SciVisJ.744.13.png
+less detail,noun_phrase,1,0.2,1,SciVisJ.744.13.png
+analysis,noun_phrase,1,0.2,1,SciVisJ.625.5.png
+every pixel,noun_phrase,1,0.2,1,SciVisJ.625.5.png
+a collection,noun_phrase,1,0.2,1,SciVisJ.625.5.png
+dash box,noun_phrase,1,0.2,1,VisJ.1595.6(2).png
+dash line,noun_phrase,1,0.2,1,VisJ.1595.6(2).png
+a lot more image,noun_phrase,1,0.2,1,VASTC.123.3.png
+unfamiliar chart,noun_phrase,1,0.2,1,VASTC.123.3.png
+a few square,noun_phrase,1,0.2,1,SciVisJ.807.5(2).png
+few color,noun_phrase,1,0.2,1,SciVisJ.807.5(2).png
+detailed analysis,noun_phrase,1,0.2,1,economist_daily_chart_4.png
+more label,noun_phrase,1,0.2,1,InfoVisJ.2576.2.png
+different volume,noun_phrase,1,0.2,1,SciVisC.49.5.png
+too many number,noun_phrase,1,0.2,1,VASTC.24.5.png
+confusing number,noun_phrase,1,0.2,1,VASTC.24.5.png
+too many letter,noun_phrase,1,0.2,1,VASTC.24.5.png
+overall understandability,noun_phrase,1,0.2,1,VASTC.24.5.png
+different bar,noun_phrase,1,0.2,1,VASTC.24.5.png
+some value,noun_phrase,1,0.2,1,VASTC.24.5.png
+the middle,noun_phrase,1,0.2,1,VASTC.24.5.png
+table,noun_phrase,1,0.2,1,InfoVisJ.1022.6.png
+good color choice,noun_phrase,1,0.2,1,wsj108.png
+non familiar layout,noun_phrase,1,0.2,1,visMost76.png
+brighter,noun_phrase,1,0.2,1,visMost76.png
+little more time,noun_phrase,1,0.2,1,economist_daily_chart_152.png
+more dot,noun_phrase,1,0.2,1,economist_daily_chart_152.png
+long time,noun_phrase,1,0.2,1,treasuryL03_2.png
+what datum,noun_phrase,1,0.2,1,SciVisJ.2305.5.png
+a clear form,noun_phrase,1,0.2,1,InfoVisJ.651.7.png
+blur and color overlay,noun_phrase,1,0.2,1,InfoVisJ.651.7.png
+wide variety,noun_phrase,1,0.2,1,InfoVisJ.651.7.png
+gradient,noun_phrase,1,0.2,1,InfoVisJ.651.7.png
+no discernible pattern,noun_phrase,1,0.2,1,InfoVisJ.651.7.png
+novel pattern,noun_phrase,1,0.2,1,InfoVisJ.2251.1(2).png
+various line,noun_phrase,1,0.2,1,VisC.255.4.png
+different quantity,noun_phrase,1,0.2,1,VisC.255.4.png
+vary size,noun_phrase,1,0.2,1,VisC.255.4.png
+increase,noun_phrase,1,0.2,1,wsj359.png
+decrease,noun_phrase,1,0.2,1,wsj359.png
+processing,noun_phrase,1,0.2,1,InfoVisJ.1569.6.png
+clear shape,noun_phrase,1,0.2,1,v485_n7399_9_f5.png
+chemical compound,noun_phrase,1,0.2,1,v485_n7399_9_f5.png
+unique datum point,noun_phrase,1,0.2,1,whoQ32_2.png
+some time,noun_phrase,1,0.2,1,whoQ32_2.png
+too many variable,noun_phrase,1,0.2,1,InfoVisJ.349.10.png
+no description,noun_phrase,1,0.2,1,InfoVisJ.1634.1.png
+more interpretation,noun_phrase,1,0.2,1,v483_n7388_11_f2.png
+no easy distinction,noun_phrase,1,0.2,1,VisC.233.1.png
+many shape,noun_phrase,1,0.2,1,VisC.233.1.png
+image size,noun_phrase,1,0.2,1,VisC.233.1.png
+y axis,noun_phrase,1,0.2,1,v484_n7392_13_f1(1).png
+set,noun_phrase,1,0.2,1,InfoVisJ.2251.1(3).png
+geometry,noun_phrase,1,0.2,1,InfoVisJ.2251.1(3).png
+what visualization,noun_phrase,1,0.2,1,InfoVisJ.2251.1(3).png
+few more moment,noun_phrase,1,0.2,1,InfoVisJ.2072.12.png
+technical way,noun_phrase,1,0.2,1,InfoVisJ.2023.3.png
+comprehensibility,noun_phrase,1,0.2,1,SciVisJ.822.18.png
+many small detail,noun_phrase,1,0.2,1,wsj603.png
+much more information,noun_phrase,1,0.2,1,wsj603.png
+bad choice,noun_phrase,1,0.2,1,VisC.263.7.png
+. picture,noun_phrase,1,0.2,1,v488_n7412_8_f1.png
+pacific ocean,noun_phrase,1,0.2,1,v488_n7412_8_f1.png
+a lot more aspect,noun_phrase,1,0.2,1,visMost460.png
+geographical map,noun_phrase,1,0.2,1,InfoVisJ.599.4.png
+one year,noun_phrase,1,0.2,1,wsj226.png
+each country/region,noun_phrase,1,0.2,1,wsj226.png
+processing information,noun_phrase,1,0.2,1,VisJ.1515.12.png
+fact,noun_phrase,1,0.2,1,VisJ.1515.12.png
+no further information,noun_phrase,1,0.2,1,VisJ.1515.12.png
+measure,noun_phrase,1,0.2,1,VisJ.1515.12.png
+hard measure,noun_phrase,1,0.2,1,VisJ.1515.12.png
+line movement,noun_phrase,1,0.2,1,v490_n7420_13_f4.png
+color format,noun_phrase,1,0.2,1,v490_n7420_13_f4.png
+familiarity,noun_phrase,1,0.2,1,SciVisJ.1025.10.png
+rank thing,noun_phrase,1,0.2,1,SciVisJ.1025.10.png
+icon,noun_phrase,1,0.2,1,visMost92.png
+misunderstanding,noun_phrase,1,0.2,1,visMost92.png
+level,noun_phrase,1,0.2,1,visMost92.png
+no data entry,noun_phrase,1,0.2,1,InfoVisJ.349.8(4).png
+tidier,noun_phrase,1,0.2,1,InfoVisJ.2072.7.png
+different directiopns,noun_phrase,1,0.2,1,whoK22.png
+the sense,noun_phrase,1,0.2,1,whoK22.png
+more complex shape,noun_phrase,1,0.2,1,MorphableWordClouds21.png
+light,noun_phrase,1,0.2,1,SciVisJ.1819.4(5).png
+many circle,noun_phrase,1,0.2,1,VisC.233.3(2).png
+black change,noun_phrase,1,0.2,1,VisC.233.3(2).png
+very weird color,noun_phrase,1,0.2,1,VisC.295.3.png
+color diversity,noun_phrase,1,0.2,1,whoQ42_6.png
+bad design,noun_phrase,1,0.2,1,whoQ42_6.png
+messiness,noun_phrase,1,0.2,1,whoQ42_6.png
+hard time,noun_phrase,1,0.2,1,whoQ42_6.png
+useful information,noun_phrase,1,0.2,1,whoQ42_6.png
+cluttered label,noun_phrase,1,0.2,1,wsj294.png
+excessive data point,noun_phrase,1,0.2,1,wsj294.png
+poor color choice,noun_phrase,1,0.2,1,wsj294.png
+poorly contrast color,noun_phrase,1,0.2,1,wsj294.png
+hard to discern information,noun_phrase,1,0.2,1,wsj294.png
+ambiguous number,noun_phrase,1,0.2,1,v488_n7413_12_f2.png
+label axis,noun_phrase,1,0.2,1,InfoVisJ.669.4.png
+separate value,noun_phrase,1,0.2,1,VisC.495.10(1).png
+not much interaction,noun_phrase,1,0.2,1,InfoVisJ.1558.11(6).png
+multiple component,noun_phrase,1,0.2,1,vis393.png
+any text,noun_phrase,1,0.2,1,InfoVisJ.349.8.png
+the dot,noun_phrase,1,0.2,1,InfoVisJ.349.8.png
+same image,noun_phrase,1,0.2,1,InfoVisJ.349.8.png
+football,noun_phrase,1,0.2,1,InfoVisJ.621.8.png
+those word,noun_phrase,1,0.2,1,InfoVisJ.621.3.png
+darker,noun_phrase,1,0.2,1,visMost325.png
+great detail,noun_phrase,1,0.2,1,visMost325.png
+small table,noun_phrase,1,0.2,1,visMost325.png
+tiny writing,noun_phrase,1,0.2,1,visMost325.png
+continent,noun_phrase,1,0.2,1,visMost325.png
+spot,noun_phrase,1,0.2,1,InfoVisJ.1558.9(2).png
+irregularity,noun_phrase,1,0.2,1,InfoVisJ.1558.9(2).png
+the spot,noun_phrase,1,0.2,1,InfoVisJ.1558.9(2).png
+extra challenge,noun_phrase,1,0.2,1,InfoVisJ.1558.9(2).png
+half-shading,noun_phrase,1,0.2,1,VASTJ.1764.2.png
+every item,noun_phrase,1,0.2,1,InfoVisJ.2412.17(2).png
+many writing,noun_phrase,1,0.2,1,InfoVisJ.2556.8.png
+simple map,noun_phrase,1,0.2,1,InfoVisJ.2556.8.png
+letter size variation,noun_phrase,1,0.2,1,VASTJ.220.1(2).png
+ugly calligraphy,noun_phrase,1,0.2,1,VASTJ.220.1(2).png
+more detailed graphic,noun_phrase,1,0.2,1,wsj299.png
+more statistic,noun_phrase,1,0.2,1,wsj299.png
+more colour,noun_phrase,1,0.2,1,wsj299.png
+one variable,noun_phrase,1,0.2,1,v483_n7391_8_f5.png
+heat map,noun_phrase,1,0.2,1,v483_n7391_8_f5.png
+colored surface,noun_phrase,1,0.2,1,v483_n7391_8_f5.png
+more axis,noun_phrase,1,0.2,1,v483_n7391_8_f5.png
+specialized education,noun_phrase,1,0.2,1,v483_n7391_8_f5.png
+four label axis,noun_phrase,1,0.2,1,v483_n7391_8_f5.png
+separate color scale,noun_phrase,1,0.2,1,v483_n7391_8_f5.png
+bar chart,noun_phrase,1,0.2,1,v483_n7391_8_f5.png
+four axis,noun_phrase,1,0.2,1,v483_n7391_8_f5.png
+clueless,noun_phrase,1,0.2,1,v483_n7391_8_f5.png
+too many similar color,noun_phrase,1,0.2,1,v483_n7391_8_f5.png
+much more datum,noun_phrase,1,0.2,1,v483_n7391_8_f5.png
+a certain way,noun_phrase,1,0.2,1,VisJ.1595.7.png
+densely pack shape,noun_phrase,1,0.2,1,VASTJ.1160.6.png
+all the text,noun_phrase,1,0.2,1,VASTJ.1160.6.png
+5 sec,noun_phrase,1,0.2,1,InfoVisJ.459.15.png
+every line,noun_phrase,1,0.2,1,InfoVisJ.1169.5(2).png
+color separation,noun_phrase,1,0.2,1,CiteRivers5(1).png
+different visual element,noun_phrase,1,0.2,1,wsj21.png
+explanatory legend,noun_phrase,1,0.2,1,InfoVisC.211.8.png
+segmentation,noun_phrase,1,0.2,1,InfoVisC.211.8.png
+more space,noun_phrase,1,0.2,1,VisC.433.1.png
+more pixel,noun_phrase,1,0.2,1,VisC.433.1.png
+location,noun_phrase,1,0.2,1,VisJ.1949.18.png
+overall shape,noun_phrase,1,0.2,1,VisJ.1949.18.png
+distinct shape,noun_phrase,1,0.2,1,InfoVisJ.349.1.png
+easy line,noun_phrase,1,0.2,1,InfoVisJ.349.1.png
+numerous intersection,noun_phrase,1,0.2,1,InfoVisJ.349.1.png
+movement,noun_phrase,1,0.2,1,InfoVisJ.349.1.png
+monochrome color,noun_phrase,1,0.2,1,InfoVisJ.349.1.png
+too many section,noun_phrase,1,0.2,1,VASTJ.1407.9.png
+various shade,noun_phrase,1,0.2,1,VASTJ.1407.9.png
+simple structure,noun_phrase,1,0.2,1,VASTJ.1407.9.png
+random collection,noun_phrase,1,0.2,1,vis639.png
+various aspect,noun_phrase,1,0.2,1,v485_n7396_14_f4.png
+too many division,noun_phrase,1,0.2,1,InfoVisJ.2546.1.png
+font,noun_phrase,1,0.2,1,InfoVisJ.2546.1.png
+physical dimension,noun_phrase,1,0.2,1,visMost777.png
+multiple time,noun_phrase,1,0.2,1,VASTJ.91.6.png
+too many spiral,noun_phrase,1,0.2,1,VisC.249.6.png
+more difficulty,noun_phrase,1,0.2,1,VASTC.115.3.png
+apparent flow,noun_phrase,1,0.2,1,InfoVisJ.349.1(3).png
+large dataset,noun_phrase,1,0.2,1,VASTJ.422.7.png
+so more thing,noun_phrase,1,0.2,1,VASTJ.422.7.png
+big key,noun_phrase,1,0.2,1,VASTJ.422.7.png
+two graph,noun_phrase,1,0.2,1,v490_n7419_7_f3.png
+4 axis,noun_phrase,1,0.2,1,v490_n7419_7_f3.png
+bunch,noun_phrase,1,0.2,1,InfoVisJ.1190.8.png
+no font,noun_phrase,1,0.2,1,InfoVisJ.1190.8.png
+no color difference,noun_phrase,1,0.2,1,InfoVisJ.1190.8.png
+different word size,noun_phrase,1,0.2,1,InfoVisJ.1190.8.png
+rotation,noun_phrase,1,0.2,1,InfoVisJ.1190.8.png
+a lot more time,noun_phrase,1,0.2,1,visMost457.png
+more physical content,noun_phrase,1,0.2,1,economist_daily_chart_110.png
+text shape,noun_phrase,1,0.2,1,economist_daily_chart_110.png
+a harsh color,noun_phrase,1,0.2,1,economist_daily_chart_110.png
+dense clutter,noun_phrase,1,0.2,1,vis678.png
+varied and vibrant color,noun_phrase,1,0.2,1,vis678.png
+concept,noun_phrase,1,0.2,1,vis678.png
+a timeline,noun_phrase,1,0.2,1,vis678.png
+some text,noun_phrase,1,0.2,1,vis678.png
+extra arrow,noun_phrase,1,0.2,1,InfoVisJ.2181.9.png
+four separate visual item,noun_phrase,1,0.2,1,InfoVisJ.2181.9.png
+black color,noun_phrase,1,0.2,1,VASTJ.31.2.png
+attention,noun_phrase,1,0.2,1,VASTJ.31.2.png
+need,noun_phrase,1,0.2,1,InfoVisJ.459.2.png
+company,noun_phrase,1,0.2,1,np_11.png
+sport team,noun_phrase,1,0.2,1,np_11.png
+too many thing,noun_phrase,1,0.2,1,np_11.png
+more group,noun_phrase,1,0.2,1,np_11.png
+multipe area,noun_phrase,1,0.2,1,np_11.png
+other line,noun_phrase,1,0.2,1,v488_n7410_15_f3.png
+a small space,noun_phrase,1,0.2,1,v488_n7410_15_f3.png
+color variety,noun_phrase,1,0.2,1,VASTJ.1763.6.png
+little box,noun_phrase,1,0.2,1,v490_n7418_1_f2.png
+more confusing color,noun_phrase,1,0.2,1,v490_n7418_1_f2.png
+just pattern,noun_phrase,1,0.2,1,SciVisJ.2926.3.png
+stimulus,noun_phrase,1,0.2,1,SciVisJ.801.15.png
+rectangular,noun_phrase,1,0.2,1,VASTJ.170.6.png
+less uniform shape,noun_phrase,1,0.2,1,VASTJ.170.6.png
+rank system,noun_phrase,1,0.2,1,SciVisJ.797.13(3).png
+understanding,noun_phrase,1,0.2,1,SciVisJ.797.13(3).png
+less visual item,noun_phrase,1,0.2,1,SciVisJ.995.10(3).png
+visual cue,noun_phrase,1,0.2,1,SciVisJ.995.10(3).png
+random place,noun_phrase,1,0.2,1,SciVisJ.995.10(3).png
+random color,noun_phrase,1,0.2,1,SciVisJ.995.10(3).png
+no metric,noun_phrase,1,0.2,1,v488_n7410_20_f4.png
+more image,noun_phrase,1,0.2,1,v488_n7412_9_f1.png
+many graph,noun_phrase,1,0.2,1,SciVisJ.603.12.png
+unknown detail,noun_phrase,1,0.2,1,SciVisJ.603.12.png
+odd shape,noun_phrase,1,0.2,1,SciVisJ.980.7.png
+more fine detail,noun_phrase,1,0.2,1,VisC.248.3.png
+thickness,noun_phrase,1,0.2,1,VisC.248.3.png
+intensity,noun_phrase,1,0.2,1,VisC.248.3.png
+overall pleasing pattern,noun_phrase,1,0.2,1,VisC.248.3.png
+holisitic understanding,noun_phrase,1,0.2,1,VisC.248.3.png
+comprehension,noun_phrase,1,0.2,1,VisC.248.3.png
+many result,noun_phrase,1,0.2,1,v484_n7392_9_f3.png
+many number,noun_phrase,1,0.2,1,v484_n7392_9_f3.png
+unsure,noun_phrase,1,0.2,1,InfoVisJ.485.9.png
+multiple graphic,noun_phrase,1,0.2,1,InfoVisJ.485.9.png
+separate chart,noun_phrase,1,0.2,1,InfoVisJ.485.9.png
+code,noun_phrase,1,0.2,1,InfoVisJ.485.9.png
+scatter plot,noun_phrase,1,0.2,1,InfoVisJ.485.9.png
+many different element,noun_phrase,1,0.2,1,VASTJ.2012.9(2).png
+less organization,noun_phrase,1,0.2,1,VASTJ.2012.9(2).png
+color gradient,noun_phrase,1,0.2,1,VASTC.19.8.png
+wind map,noun_phrase,1,0.2,1,SciVisJ.877.8(2).png
+15 figure,noun_phrase,1,0.2,1,InfoVisJ.1933.13.png
+axis labeling,noun_phrase,1,0.2,1,VASTJ.111.8.png
+assortment,noun_phrase,1,0.2,1,vis666.png
+big red box,noun_phrase,1,0.2,1,vis666.png
+many text box,noun_phrase,1,0.2,1,vis666.png
+the inclusion,noun_phrase,1,0.2,1,VASTJ.1448.5(2).png
+more area,noun_phrase,1,0.2,1,VASTC.107.7.png
+no text,noun_phrase,1,0.2,1,VASTC.107.7.png
+x and y axes. country,noun_phrase,1,0.2,1,VASTC.107.7.png
+abstraction,noun_phrase,1,0.2,1,InfoVisJ.681.1.png
+small box indicator,noun_phrase,1,0.2,1,InfoVisJ.681.1.png
+upwards trend,noun_phrase,1,0.2,1,InfoVisJ.681.1.png
+full map,noun_phrase,1,0.2,1,wsj91.png
+less sense,noun_phrase,1,0.2,1,wsj91.png
+jumble,noun_phrase,1,0.2,1,VASTJ.1.5.png
+4 different center point,noun_phrase,1,0.2,1,VASTJ.1.5.png
+four highlight word,noun_phrase,1,0.2,1,VASTC.159.2.png
+differ information,noun_phrase,1,0.2,1,v484_n7395_11_f2.png
+color key,noun_phrase,1,0.2,1,v484_n7395_11_f2.png
+shape varation,noun_phrase,1,0.2,1,vis3.png
+multiple color scheme,noun_phrase,1,0.2,1,vis3.png
+differ font size,noun_phrase,1,0.2,1,vis3.png
+not a linear pattern,noun_phrase,1,0.2,1,InfoVisC.115.3.png
+not enough color,noun_phrase,1,0.2,1,VisJ.1329.1.png
+a gradient,noun_phrase,1,0.2,1,VisC.73.8(2).png
+uncertainty,noun_phrase,1,0.2,1,VisC.73.8(2).png
+more unique contrast,noun_phrase,1,0.2,1,SciVisJ.1005.12.png
+subject,noun_phrase,1,0.2,1,InfoVisJ.464.11.png
+surroundingsfeel,noun_phrase,1,0.2,1,VASTC.1.7.png
+abundance,noun_phrase,1,0.2,1,VASTC.1.7.png
+individual object,noun_phrase,1,0.2,1,VASTC.1.7.png
+vertical line,noun_phrase,1,0.2,1,VASTC.1.7.png
+imaging,noun_phrase,1,0.2,1,VASTC.1.7.png
+clear color difference,noun_phrase,1,0.2,1,VASTC.1.7.png
+wavelet coefficient,noun_phrase,1,0.2,1,VASTC.1.7.png
+colored dot,noun_phrase,1,0.2,1,VASTC.1.7.png
+color code,noun_phrase,1,0.2,1,VASTC.1.7.png
+growth pattern,noun_phrase,1,0.2,1,VASTC.1.7.png
+each box,noun_phrase,1,0.2,1,VASTC.1.7.png
+stage,noun_phrase,1,0.2,1,VASTC.1.7.png
+a cluster,noun_phrase,1,0.2,1,InfoVisJ.401.12.png
+scientific method,noun_phrase,1,0.2,1,InfoVisJ.401.12.png
+different specie,noun_phrase,1,0.2,1,v483_n7390_14_f3.png
+evolutionary tree,noun_phrase,1,0.2,1,v483_n7390_14_f3.png
+lineage,noun_phrase,1,0.2,1,v483_n7390_14_f3.png
+phylogenetic tree,noun_phrase,1,0.2,1,v483_n7390_14_f3.png
+contrast color,noun_phrase,1,0.2,1,visMost634.png
+code/text,noun_phrase,1,0.2,1,InfoVisC.24.3(2).png
+just text,noun_phrase,1,0.2,1,InfoVisC.24.3(2).png
+programming,noun_phrase,1,0.2,1,InfoVisC.24.3(2).png
+color bar,noun_phrase,1,0.2,1,InfoVisJ.2639.8.png
+white space,noun_phrase,1,0.2,1,VisJ.1595.9(2).png
+similar size,noun_phrase,1,0.2,1,VASTC.3.3.png
+the box,noun_phrase,1,0.2,1,VASTC.3.3.png
+mute color,noun_phrase,1,0.2,1,VASTC.3.3.png
+thinness,noun_phrase,1,0.2,1,InfoVisJ.451.5.png
+multiple fact,noun_phrase,1,0.2,1,v483_n7387_5_f1.png
+a plethora,noun_phrase,1,0.2,1,v483_n7387_5_f1.png
+the same shade,noun_phrase,1,0.2,1,vis737.png
+no label,noun_phrase,1,0.2,1,vis737.png
+blur purple and green box,noun_phrase,1,0.2,1,SciVisJ.1236.10.png
+the code,noun_phrase,1,0.2,1,SciVisJ.1236.10.png
+what image,noun_phrase,1,0.2,1,SciVisJ.1236.10.png
+row,noun_phrase,1,0.2,1,SciVisJ.1236.10.png
+so many detail,noun_phrase,1,0.2,1,VASTJ.1160.7.png
+multiple shade,noun_phrase,1,0.2,1,SciVisJ.700.11.png
+high amount,noun_phrase,1,0.2,1,InfoVisC.8.7.png
+relationship,noun_phrase,1,0.2,1,InfoVisJ.2486.8.png
+datum visualization,noun_phrase,1,0.2,1,InfoVisJ.2486.8.png
+no clear scheme,noun_phrase,1,0.2,1,VisC.501.7(2).png
+no key,noun_phrase,1,0.2,1,InfoVisJ.1009.9.png
+shade,noun_phrase,1,0.2,1,InfoVisJ.1009.9.png
+color change,noun_phrase,1,0.2,1,InfoVisJ.1009.9.png
+the place,noun_phrase,1,0.2,1,InfoVisJ.1073.1.png
+2 dimension,noun_phrase,1,0.2,1,InfoVisJ.1161.6.png
+general complexity,noun_phrase,1,0.2,1,InfoVisJ.599.10(2).png
+datum interpretation,noun_phrase,1,0.2,1,wsj200.png
+densely pack information,noun_phrase,1,0.2,1,InfoVisJ.631.1(2).png
+relation,noun_phrase,1,0.2,1,InfoVisJ.631.1(2).png
+color value,noun_phrase,1,0.2,1,InfoVisJ.631.1(2).png
+complex shape,noun_phrase,1,0.2,1,VASTJ.101.1.png
+no explanation,noun_phrase,1,0.2,1,VisC.647.8.png
+more dificult,noun_phrase,1,0.2,1,VisC.647.8.png
+human interpretability,noun_phrase,1,0.2,1,SciVisJ.2664.2.png
+a meaning,noun_phrase,1,0.2,1,SciVisJ.2664.2.png
+no clue,noun_phrase,1,0.2,1,VisC.375.5.png
+less clear information,noun_phrase,1,0.2,1,VASTJ.160.2.png
+each axis,noun_phrase,1,0.2,1,v487_n7407_14_f4.png
+3 dimensional element,noun_phrase,1,0.2,1,v487_n7406_13_f2.png
+abstract shape,noun_phrase,1,0.2,1,v487_n7406_13_f2.png
+animal,noun_phrase,1,0.2,1,v487_n7406_13_f2.png
+the letter,noun_phrase,1,0.2,1,VASTC.91.5(1).png
+wording,noun_phrase,1,0.2,1,VASTC.91.5(1).png
+heat graph. map graph,noun_phrase,1,0.2,1,VASTC.91.5(1).png
+position,noun_phrase,1,0.2,1,VASTC.91.5(1).png
+various color,noun_phrase,1,0.2,1,VisJ.1413.7.png
+no clear indication,noun_phrase,1,0.2,1,VisJ.1413.7.png
+weather map,noun_phrase,1,0.2,1,SciVisJ.259.14.png
+several element,noun_phrase,1,0.2,1,SciVisJ.259.7.png
+more square,noun_phrase,1,0.2,1,v488_n7409_19_f1.png
+multiple axis,noun_phrase,1,0.2,1,v488_n7409_19_f1.png
+more point,noun_phrase,1,0.2,1,v488_n7409_19_f1.png
+stuff writting,noun_phrase,1,0.2,1,v488_n7409_19_f1.png
+isolated square,noun_phrase,1,0.2,1,v488_n7409_19_f1.png
+more unique color,noun_phrase,1,0.2,1,v488_n7409_19_f1.png
+a lot more parameter,noun_phrase,1,0.2,1,v488_n7409_19_f1.png
+account,noun_phrase,1,0.2,1,v488_n7409_19_f1.png
+many more different visual component,noun_phrase,1,0.2,1,v488_n7409_19_f1.png
+no pattern,noun_phrase,1,0.2,1,v485_n7397_5_f1.png
+undefined shape,noun_phrase,1,0.2,1,VisJ.1329.5(3).png
+the pattern,noun_phrase,1,0.2,1,VisJ.1329.5(3).png
+undefined color,noun_phrase,1,0.2,1,VisJ.1329.5(3).png
+so many cube,noun_phrase,1,0.2,1,VisJ.1197.5(3).png
+layer,noun_phrase,1,0.2,1,VisJ.1197.5(3).png
+shape/detail,noun_phrase,1,0.2,1,VisJ.1197.5(3).png
+texture,noun_phrase,1,0.2,1,VisJ.1197.5(3).png
+immense amount,noun_phrase,1,0.2,1,InfoVisJ.1149.8(2).png
+tiny layout,noun_phrase,1,0.2,1,InfoVisJ.1149.8(2).png
+vast use,noun_phrase,1,0.2,1,InfoVisJ.1149.8(2).png
+colorization,noun_phrase,1,0.2,1,InfoVisJ.1149.8(2).png
+layman,noun_phrase,1,0.2,1,InfoVisJ.1149.8(2).png
+less white space,noun_phrase,1,0.2,1,InfoVisJ.2699.12.png
+red color,noun_phrase,1,0.2,1,InfoVisJ.2699.12.png
+dense datum set,noun_phrase,1,0.2,1,VisC.375.2.png
+many point,noun_phrase,1,0.2,1,VisC.375.2.png
+data subset,noun_phrase,1,0.2,1,VisC.375.2.png
+y-axis,noun_phrase,1,0.2,1,VisC.375.2.png
+image legend,noun_phrase,1,0.2,1,visMost573.png
+intense color,noun_phrase,1,0.2,1,visMost573.png
+small icon,noun_phrase,1,0.2,1,visMost573.png
+background color,noun_phrase,1,0.2,1,visMost573.png
+more overlapping color,noun_phrase,1,0.2,1,visMost573.png
+explanation text,noun_phrase,1,0.2,1,visMost573.png
+too many circle,noun_phrase,1,0.2,1,visMost573.png
+multiple feature,noun_phrase,1,0.2,1,visMost573.png
+feature,noun_phrase,1,0.2,1,visMost573.png
+large key,noun_phrase,1,0.2,1,visMost573.png
+several more color,noun_phrase,1,0.2,1,visMost573.png
+image layout,noun_phrase,1,0.2,1,visMost573.png
+black hole,noun_phrase,1,0.2,1,visMost573.png
+circle area,noun_phrase,1,0.2,1,visMost573.png
+disposition,noun_phrase,1,0.2,1,visMost573.png
+color superposition,noun_phrase,1,0.2,1,visMost573.png
+various size,noun_phrase,1,0.2,1,visMost573.png
+visual element,noun_phrase,1,0.2,1,visMost573.png
+text label,noun_phrase,1,0.2,1,visMost573.png
+sound,noun_phrase,1,0.2,1,visMost573.png
+jerusalem,noun_phrase,1,0.2,1,visMost573.png
+the purpose,noun_phrase,1,0.2,1,InfoVisJ.459.8.png
+far more noise,noun_phrase,1,0.2,1,VisJ.1541.1(2).png
+color hue,noun_phrase,1,0.2,1,VisJ.1541.1(2).png
+blue,noun_phrase,1,0.2,1,SciVisJ.822.12.png
+unclear fill bar,noun_phrase,1,0.2,1,InfoVisJ.2102.16.png
+less organic shape,noun_phrase,1,0.2,1,InfoVisJ.2102.16.png
+uneven shape,noun_phrase,1,0.2,1,InfoVisJ.2102.16.png
+imagery,noun_phrase,1,0.2,1,InfoVisJ.2102.16.png
+more nuance,noun_phrase,1,0.2,1,SciVisC.25.4.png
+too many subplot,noun_phrase,1,0.2,1,InfoVisC.157.1.png
+word amount,noun_phrase,1,0.2,1,VASTJ.2012.4.png
+extra detail,noun_phrase,1,0.2,1,VASTJ.2012.4.png
+the edge,noun_phrase,1,0.2,1,VASTJ.2012.4.png
+magnification effect,noun_phrase,1,0.2,1,VASTJ.2012.4.png
+various geometrical shape,noun_phrase,1,0.2,1,VASTJ.2012.4.png
+quantitative relation,noun_phrase,1,0.2,1,VASTJ.2012.4.png
+different font,noun_phrase,1,0.2,1,VASTJ.2012.4.png
+longitudinal graph,noun_phrase,1,0.2,1,VASTJ.2012.4.png
+histogram,noun_phrase,1,0.2,1,InfoVisJ.2082.3.png
+more ink,noun_phrase,1,0.2,1,InfoVisJ.2082.3.png
+the page,noun_phrase,1,0.2,1,InfoVisJ.2082.3.png
+no color,noun_phrase,1,0.2,1,InfoVisJ.2082.3.png
+plot point,noun_phrase,1,0.2,1,v484_n7392_1_f4.png
+no color guide,noun_phrase,1,0.2,1,VASTJ.200.8.png
+no order,noun_phrase,1,0.2,1,VASTJ.200.8.png
+the level,noun_phrase,1,0.2,1,vis216.png
+less writing,noun_phrase,1,0.2,1,VisC.11.12(2).png
+vast interpretation,noun_phrase,1,0.2,1,VisC.11.12(2).png
+overlapping,noun_phrase,1,0.2,1,VisC.11.12(2).png
+route,noun_phrase,1,0.2,1,VisC.11.12(2).png
+a visually intricate network,noun_phrase,1,0.2,1,VisC.11.12(2).png
+careful examination,noun_phrase,1,0.2,1,VisC.11.12(2).png
+interpretation,noun_phrase,1,0.2,1,VisC.11.12(2).png
+earth,noun_phrase,1,0.2,1,np_21.png
+more individual element,noun_phrase,1,0.2,1,np_21.png
+hierarchy,noun_phrase,1,0.2,1,np_21.png
+world,noun_phrase,1,0.2,1,np_21.png
+more context,noun_phrase,1,0.2,1,np_21.png
+cluttered,noun_phrase,1,0.2,1,SciVisJ.561.7.png
+unfamiliar design,noun_phrase,1,0.2,1,SciVisJ.561.7.png
+error bar,noun_phrase,1,0.2,1,v487_n7405_7_f1.png
+story,noun_phrase,1,0.2,1,VisJ.1431.19.png
+no information,noun_phrase,1,0.2,1,VisJ.1949.16(2).png
+the square,noun_phrase,1,0.2,1,VisJ.1949.16(2).png
+same color,noun_phrase,1,0.2,1,VisJ.1949.16(2).png
+a negative space,noun_phrase,1,0.2,1,VASTC.123.1.png
+white color,noun_phrase,1,0.2,1,VASTC.123.1.png
+similar color,noun_phrase,1,0.2,1,vis796.png
+the meaning,noun_phrase,1,0.2,1,VASTJ.1612.1(4).png
+axis datum,noun_phrase,1,0.2,1,SciVisJ.765.11.png
+various point,noun_phrase,1,0.2,1,VASTC.115.2.png
+different color code,noun_phrase,1,0.2,1,VASTC.115.2.png
+too many element,noun_phrase,1,0.2,1,v485_n7400_14_f2.png
+/detail,noun_phrase,1,0.2,1,InfoVisJ.2402.12.png
+significant difference,noun_phrase,1,0.2,1,InfoVisJ.2402.12.png
+a long time,noun_phrase,1,0.2,1,VASTC.41.5.png
+too many point,noun_phrase,1,0.2,1,vis734.png
+black background,noun_phrase,1,0.2,1,vis734.png
+no write information,noun_phrase,1,0.2,1,VisC.389.7.png
+a table,noun_phrase,1,0.2,1,v487_n7407_7_f2.png
+clean line,noun_phrase,1,0.2,1,vis278.png
+no datum,noun_phrase,1,0.2,1,SciVisJ.1005.1.png
+a multitude,noun_phrase,1,0.2,1,InfoVisJ.2402.12(1).png
+observation,noun_phrase,1,0.2,1,InfoVisJ.2402.12(1).png
+differnent size/figure,noun_phrase,1,0.2,1,InfoVisJ.2402.12(1).png
+what value,noun_phrase,1,0.2,1,VASTC.13.9.png
+varied color,noun_phrase,1,0.2,1,VASTC.13.9.png
+complex graph design,noun_phrase,1,0.2,1,VASTC.13.9.png
+different bit,noun_phrase,1,0.2,1,InfoVisC.65.6(2).png
+computer screen,noun_phrase,1,0.2,1,SciVisJ.891.13.png
+boldness,noun_phrase,1,0.2,1,InfoVisC.173.9.png
+earthquake,noun_phrase,1,0.2,1,InfoVisC.173.9.png
+multiple image,noun_phrase,1,0.2,1,VASTC.115.5.png
+more understanding,noun_phrase,1,0.2,1,visMost533.png
+nature,noun_phrase,1,0.2,1,InfoVisC.65.5(2).png
+this info,noun_phrase,1,0.2,1,InfoVisC.65.5(2).png
+only one color,noun_phrase,1,0.2,1,InfoVisC.65.5(2).png
+meeting point,noun_phrase,1,0.2,1,InfoVisC.65.5(2).png
+darker/denser area,noun_phrase,1,0.2,1,VisC.383.7.png
+receede horizon point,noun_phrase,1,0.2,1,VisC.383.7.png
+not common sense,noun_phrase,1,0.2,1,vis567.png
+two different color,noun_phrase,1,0.2,1,VASTJ.1612.1.png
+vale,noun_phrase,1,0.2,1,InfoVisC.24.8(1).png
+high information density,noun_phrase,1,0.2,1,InfoVisJ.1149.6(1).png
+large amount,noun_phrase,1,0.2,1,InfoVisJ.1149.6(1).png
+textual datum,noun_phrase,1,0.2,1,InfoVisJ.1149.6(1).png
+different label,noun_phrase,1,0.2,1,InfoVisJ.1149.6(1).png
+hierarchical text,noun_phrase,1,0.2,1,InfoVisJ.1149.6(1).png
+many small writing,noun_phrase,1,0.2,1,InfoVisJ.1149.6(1).png
+understand,verb,112,22.5,94,InfoVisC.103.4.png; InfoVisC.115.3.png; InfoVisC.173.7(1).png
+read,verb,46,9.3,40,InfoVisC.65.4.png; InfoVisJ.1190.8.png; InfoVisJ.1558.9(2).png
+know,verb,16,3.2,16,InfoVisC.65.3.png; SciVisJ.1246.8.png; SciVisJ.2305.5.png
+represent,verb,13,2.6,13,InfoVisC.57.4.png; SciVisJ.1246.8.png; SciVisJ.1290.8.png
+need,verb,11,2.2,10,InfoVisJ.1933.13.png; InfoVisJ.2181.9.png; InfoVisJ.946.6.png
+show,verb,10,2.0,10,InfoVisJ.2251.1(3).png; InfoVisJ.2546.10.png; InfoVisJ.339.10.png
+mean,verb,10,2.0,10,InfoVisC.73.6.png; SciVisJ.1290.8.png; SciVisJ.821.4.png
+process,verb,10,2.0,10,InfoVisJ.2072.12.png; InfoVisJ.678.17.png; InfoVisJ.953.10.png
+follow,verb,9,1.8,9,InfoVisC.103.9.png; InfoVisJ.339.3.png; InfoVisJ.349.1.png
+overlap,verb,9,1.8,6,InfoVisJ.2699.12.png; InfoVisJ.485.9.png; VisC.11.12(2).png
+discern,verb,8,1.6,8,InfoVisC.65.5(2).png; InfoVisJ.485.9.png; SciVisJ.1043.12(4).png
+interpret,verb,7,1.4,7,InfoVisC.157.1.png; InfoVisJ.2639.8.png; VASTC.1.7.png
+expect,verb,6,1.2,2,VASTJ.51.7.png; vis673.png
+separate,verb,6,1.2,4,VASTJ.51.7.png; VisC.495.10(1).png; VisJ.1515.12.png
+comprehend,verb,6,1.2,6,InfoVisJ.1204.7.png; InfoVisJ.1677.10.png; InfoVisJ.2556.7(2).png
+mix,verb,6,1.2,6,InfoVisC.27.6.png; InfoVisJ.1190.8.png; economist_daily_chart_165.png
+require,verb,6,1.2,5,VisC.11.12(2).png; economist_daily_chart_165.png; v483_n7388_11_f2.png
+convey,verb,5,1.0,5,SciVisJ.2305.5.png; SciVisJ.2664.2.png; v483_n7391_8_f5.png
+label,verb,5,1.0,5,InfoVisJ.669.4.png; InfoVisJ.989.8.png; SciVisJ.259.14.png
+distinguish,verb,5,1.0,5,VASTC.107.8.png; VASTC.3.3.png; VisC.11.12(2).png
+describe,verb,5,1.0,5,InfoVisC.157.1.png; InfoVisJ.1149.8(2).png; economist_daily_chart_124.png
+involve,verb,5,1.0,3,InfoVisJ.349.1.png; VisJ.1197.5.png; wsj371.png
+think,verb,4,0.8,4,InfoVisJ.1558.5.png; SciVisJ.995.5.png; VisJ.1499.8.png
+analyze,verb,4,0.8,4,VASTJ.1698.5(4).png; VASTJ.51.7.png; vis673.png
+lack,verb,4,0.8,4,InfoVisJ.651.7.png; VASTC.19.8.png; visMost533.png
+recognize,verb,4,0.8,4,VASTC.183.14(1).png; economist_daily_chart_124.png; economist_daily_chart_267.png
+confuse,verb,4,0.8,4,InfoVisJ.1073.3.png; VASTC.24.5.png; VisC.163.2.png
+cross,verb,4,0.8,4,InfoVisJ.1247.10.png; VASTJ.1407.9.png; VASTJ.1698.5(4).png
+contrast,verb,4,0.8,4,InfoVisJ.339.3.png; VASTC.1.7.png; visMost634.png
+make,verb,4,0.8,4,VASTJ.1448.5(2).png; VASTJ.2908.2.png; VisC.163.2.png
+tell,verb,4,0.8,4,VASTC.24.5.png; VisC.599.6.png; VisJ.1197.5(4).png
+identify,verb,4,0.8,4,InfoVisJ.485.9.png; VisJ.1261.4.png; VisJ.1515.12.png
+take,verb,4,0.8,4,VASTC.41.5.png; VASTJ.1.7.png; VisC.433.1.png
+present,verb,4,0.8,4,InfoVisJ.2402.12.png; InfoVisJ.2546.10.png; SciVisJ.2926.1.png
+scatter,verb,4,0.8,3,VASTJ.1.7.png; VisJ.1431.19.png; v488_n7409_19_f1.png
+shape,verb,3,0.6,3,InfoVisJ.1558.5.png; MorphableWordClouds8.png; v487_n7406_13_f2.png
+differentiate,verb,3,0.6,3,VisJ.1949.11.png; vis652.png; vis737.png
+see,verb,3,0.6,3,VisC.171.4.png; VisJ.1431.19.png; visMost573.png
+feel,verb,3,0.6,3,VASTC.1.7.png; VASTC.107.8.png; VisC.61.10.png
+legend,verb,3,0.6,3,SciVisJ.796.18.png; SciVisJ.797.11(3).png; visMost573.png
+write,verb,3,0.6,3,InfoVisJ.339.3.png; VisC.389.7.png; vis853.png
+challenge,verb,3,0.6,3,InfoVisJ.485.9.png; VisC.11.12(2).png; economist_daily_chart_349.png
+spread,verb,3,0.6,3,VASTJ.1448.5.png; VisJ.1595.6(2).png; np_11.png
+focus,verb,3,0.6,3,InfoVisJ.485.9.png; VisC.11.12(2).png; VisJ.1515.12.png
+organize,verb,3,0.6,3,InfoVisJ.2082.3.png; v483_n7391_8_f5.png; v487_n7407_7_f2.png
+ascertain,verb,3,0.6,3,VASTJ.2012.4.png; VisC.73.8.png; v484_n7395_11_f2.png
+visualize,verb,3,0.6,3,SciVisJ.1236.10.png; VisJ.1197.5(3).png; visMost573.png
+structure,verb,2,0.4,2,VASTJ.1139.3(2).png; v483_n7391_8_f5.png
+color,verb,2,0.4,2,SciVisJ.822.12.png; VASTJ.1139.3(2).png
+delve,verb,2,0.4,2,VASTJ.51.7.png; vis673.png
+of/,verb,2,0.4,2,VASTJ.51.7.png; vis673.png
+suggest,verb,2,0.4,2,VASTJ.51.7.png; vis673.png
+change,verb,2,0.4,2,InfoVisC.73.6.png; wsj226.png
+measure,verb,2,0.4,2,v482_n7386_10_f2.png; v487_n7407_14_f4.png
+relate,verb,2,0.4,2,InfoVisC.65.4(2).png; wsj270.png
+evaluate,verb,2,0.4,2,wsj200.png; wsj270.png
+give,verb,2,0.4,2,VisC.171.4.png; VisJ.1515.12.png
+remember,verb,2,0.4,2,InfoVisJ.485.9.png; economist_daily_chart_124.png
+familiarize,verb,2,0.4,2,SciVisJ.797.13.png; economist_daily_chart_118.png
+move,verb,2,0.4,2,VisC.559.6.png; VisJ.1329.1(4).png
+interact,verb,2,0.4,2,InfoVisC.65.6(2).png; VisC.559.6.png
+compare,verb,2,0.4,2,InfoVisJ.485.9.png; economist_daily_chart_106.png
+hurt,verb,2,0.4,2,InfoVisJ.1933.13.png; economist_daily_chart_521.png
+dash,verb,2,0.4,1,VisJ.1595.6(2).png
+blur,verb,2,0.4,2,InfoVisJ.651.7.png; SciVisJ.1236.10.png
+vary,verb,2,0.4,2,SciVisJ.603.12.png; VisC.255.4.png
+allow,verb,2,0.4,2,InfoVisJ.1569.6.png; wsj21.png
+order,verb,2,0.4,2,InfoVisJ.2251.1(3).png; v483_n7391_8_f5.png
+rank,verb,2,0.4,2,SciVisJ.1025.10.png; SciVisJ.797.13(3).png
+draw,verb,2,0.4,2,VASTC.107.10.png; economist_daily_chart_493.png
+glean,verb,2,0.4,2,visMost573.png; whoQ42_6.png
+select,verb,2,0.4,2,InfoVisJ.349.8.png; VASTC.91.5(1).png
+add,verb,2,0.4,2,InfoVisJ.1558.9(2).png; VisC.375.2.png
+pack,verb,2,0.4,2,InfoVisJ.631.1(2).png; VASTJ.1160.6.png
+talk,verb,2,0.4,2,InfoVisJ.459.15.png; vis737.png
+word,verb,2,0.4,2,VASTC.59.11(2).png; VASTJ.1407.9.png
+learn,verb,2,0.4,2,InfoVisJ.609.8.png; SciVisJ.980.7(2).png
+differ,verb,2,0.4,2,v484_n7395_11_f2.png; vis3.png
+suppose,verb,2,0.4,2,SciVisJ.821.4.png; VisC.623.5.png
+consider,verb,2,0.4,2,InfoVisJ.2082.3.png; v488_n7409_19_f1.png
+realise,verb,2,0.4,2,InfoVisJ.2546.10.png; SciVisJ.867.7.png
+decipher,verb,2,0.4,2,InfoVisJ.1149.8(2).png; visMost573.png
+intersect,verb,2,0.4,2,VASTJ.1698.5(4).png; VisC.11.12(2).png
+grow,verb,2,0.4,2,InfoVisJ.2402.12(1).png; InfoVisJ.2402.12.png
