@@ -1,0 +1,60 @@
+{
+  "SciVisJ.995.5.png": {
+    "objects": [
+      {
+        "id": 0,
+        "name": "visualization",
+        "region": "overall"
+      },
+      {
+        "id": 1,
+        "name": "axis",
+        "region": "x_axis"
+      },
+      {
+        "id": 2,
+        "name": "axis",
+        "region": "y_axis"
+      },
+      {
+        "id": 3,
+        "name": "value",
+        "region": "data_area"
+      }
+    ],
+    "attributes": [
+      {
+        "object_id": 0,
+        "attr": "provokes_thought_understanding"
+      },
+      {
+        "object_id": 0,
+        "attr": "requires_interpretation"
+      },
+      {
+        "object_id": 3,
+        "attr": "numerical_values_present"
+      },
+      {
+        "object_id": 1,
+        "attr": "information_presenting"
+      },
+      {
+        "object_id": 2,
+        "attr": "information_presenting"
+      }
+    ],
+    "relationships": [
+      {
+        "subj": 1,
+        "pred": "represent",
+        "obj": 3
+      },
+      {
+        "subj": 2,
+        "pred": "represent",
+        "obj": 3
+      }
+    ]
+  }
+}

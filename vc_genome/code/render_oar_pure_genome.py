@@ -174,6 +174,8 @@ def main():
     ap = argparse.ArgumentParser(description='Render scene graphs — pure-genome condition')
     ap.add_argument('--input', type=str, default=None,
                     help=f'Input JSON (default: {DEFAULT_IN.name})')
+    ap.add_argument('--image', type=str, default=None,
+                    help='Optional: only render this image name (e.g., SciVisJ.995.5.png)')
     args = ap.parse_args()
 
     in_path = Path(args.input) if args.input else DEFAULT_IN
@@ -185,6 +187,15 @@ def main():
     OUT_PNG.mkdir(parents=True, exist_ok=True)
 
     data = json.loads(in_path.read_text(encoding='utf-8'))
+    
+    # Filter to single image if --image specified
+    if args.image:
+        if args.image in data:
+            data = {args.image: data[args.image]}
+        else:
+            print(f'ERROR: image not found: {args.image}', file=sys.stderr)
+            sys.exit(1)
+    
     print(f'Loaded {len(data)} images from {in_path.name}')
 
     # Load metadata

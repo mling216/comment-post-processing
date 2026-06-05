@@ -56,7 +56,7 @@ MAX_TOKENS  = 2048
 TEMPERATURE = 0.0
 CONCURRENCY = 5
 
-INPUT_CSV   = ROOT / 'comment_process' / 'ResultsStepByStep_4.0.imageDataCompiled.csv'
+INPUT_CSV   = ROOT / 'comment_process' / 'ResultsStepByStep - 4.0.imageDataCompiled.csv'
 EXPORT_DIR  = ROOT / 'vc_genome' / 'export'
 DICT_JSON   = EXPORT_DIR / 'pure_genome_dict.json'
 
@@ -337,6 +337,8 @@ def main():
                     help='sample=same 9 images as curate_dict pilot; full=all images')
     ap.add_argument('--limit',   type=int, default=None,
                     help='Process only first N images (smoke test)')
+    ap.add_argument('--image',   type=str, default=None,
+                    help='Process only this specific image name (e.g. SciVisJ.995.5.png)')
     ap.add_argument('--dry-run', action='store_true',
                     help='Print prompts without calling API')
     ap.add_argument('--out',     type=str, default=None,
@@ -364,6 +366,9 @@ def main():
         rows_df     = get_full_rows(df)
         default_out = EXPORT_DIR / 'oar_topic_genome_full.json'
 
+    if args.image:
+        rows_df = rows_df[rows_df['imageName'] == args.image]
+        print(f'  (filtered to image: {args.image})')
     if args.limit:
         rows_df = rows_df.head(args.limit)
         print(f'  (limited to first {args.limit} images)')

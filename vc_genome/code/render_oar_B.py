@@ -1,20 +1,16 @@
 """
-render_oar_topic_genome.py
-==========================
-Render scene graphs for the topic-genome condition.
+render_oar_B.py
+===============
+Render scene graphs for the B (human expert) condition.
 
-Input:  vc_genome/export/oar_topic_genome_9.json  (or --input for any file)
-Output: vc_genome/scene_graphs/svg/topic_genome/<image>.svg
-        vc_genome/scene_graphs/png/topic_genome/<image>.png
-
-Differences from pure-genome renderer:
-  - Input defaults to oar_topic_genome_9.json
-  - Output folder: topic_genome/
-  - Title line reads "topic-genome"
+Input:  vc_genome_output_full/three_conditions/oar_B_510.json  (or --input for any file)
+Output: vc_genome/scene_graphs/svg/B/<image>.svg
+        vc_genome/scene_graphs/png/B/<image>.png
 
 Usage:
-  python code/render_oar_topic_genome.py
-  python code/render_oar_topic_genome.py --input vc_genome/export/oar_topic_genome_full.json
+  python code/render_oar_B.py
+  python code/render_oar_B.py --input vc_genome_output_full/three_conditions/oar_B_510.json
+  python code/render_oar_B.py --image SciVisJ.995.5.png
 """
 from __future__ import annotations
 import json, os, sys, argparse
@@ -27,9 +23,9 @@ import pandas as pd
 SCRIPT_DIR = Path(__file__).parent
 ROOT       = SCRIPT_DIR.parent.parent   # comment_post_processing/
 
-DEFAULT_IN  = ROOT / 'vc_genome' / 'export' / 'oar_topic_genome_9.json'
-OUT_SVG     = ROOT / 'vc_genome' / 'scene_graphs' / 'svg' / 'topic_genome'
-OUT_PNG     = ROOT / 'vc_genome' / 'scene_graphs' / 'png' / 'topic_genome'
+DEFAULT_IN  = ROOT / 'vc_genome_output_full' / 'three_conditions' / 'oar_B_510.json'
+OUT_SVG     = ROOT / 'vc_genome' / 'scene_graphs' / 'svg' / 'B'
+OUT_PNG     = ROOT / 'vc_genome' / 'scene_graphs' / 'png' / 'B'
 DATA_CSV    = ROOT / 'comment_process' / 'ResultsStepByStep - 4.0.imageDataCompiled.csv'
 
 # ── Style (same palette as all other condition renderers) ─────────────────
@@ -44,10 +40,10 @@ UNDIRECTED_PREDS = {'co_occurs_with', 'overlaps_with'}
 def build_graph(entry: dict, image_name: str,
                 vis_type: str = '', norm_vc: float | None = None) -> graphviz.Digraph:
     vc_str     = f'  VC={norm_vc:.2f}' if norm_vc is not None else ''
-    title_line = f'{image_name} — topic-genome  [{vis_type}{vc_str}]'
+    title_line = f'{image_name} — B (human expert)  [{vis_type}{vc_str}]'
 
     dot = graphviz.Digraph(
-        name=f'{image_name}_topic_genome', format='svg',
+        name=f'{image_name}_B', format='svg',
         graph_attr={
             'rankdir':  'LR',
             'fontsize': '10',
@@ -63,20 +59,31 @@ def build_graph(entry: dict, image_name: str,
         edge_attr={'fontname': 'Arial', 'fontsize': '9', 'color': '#888888'},
     )
 
+    # Title comment
+    dot.attr(label=title_line, labelloc='t', labelfontsize='11')
+
     # Object nodes — id → node_id, disambiguate duplicate names
     objects = entry.get('objects', [])
     name_count: dict[str, int] = defaultdict(int)
     for obj in objects:
         name_count[obj['name']] += 1
 
-    # Object IDs that are referenced by at least one attribute or relationship
-    valid_attrs = [a for a in entry.get('attributes', []) if 'object_id' in a and 'attr' in a]
-    referenced_obj_ids = {a['object_id'] for a in valid_attrs}
-    for rel in entry.get('relationships', []):
-        referenced_obj_ids.add(rel['subj'])
-        referenced_obj_ids.add(rel['obj'])
-
     id_to_node: dict[int, str] = {}
+    referenced_obj_ids = set()
+    for rel in entry.get('relationships', []):
+        referenced_obj_ids.add(rel.get('subj'))
+        referenced_obj_ids.add(rel.get('obj'))
+
+    # Collect valid attributes (with required 'attr' key)
+    valid_attrs = []
+    for attr in entry.get('attributes', []):
+        # Fallback: use 'name' if 'attr' doesn't exist
+        if 'attr' in attr:
+            valid_attrs.append(attr)
+        elif 'name' in attr:
+            attr['attr'] = attr['name']
+            valid_attrs.append(attr)
+
     for obj in objects:
         n       = obj['name']
         node_id = f"{n}_{obj['id']}" if name_count[n] > 1 else n
@@ -118,24 +125,9 @@ def build_graph(entry: dict, image_name: str,
         dot.edge(subj_node, pred_id,
                  color='#d46a6a', penwidth='1.5', arrowsize='0.8')
         style     = 'dashed' if pred in UNDIRECTED_PREDS else 'solid'
-        arrowhead = 'none'   if pred in UNDIRECTED_PREDS else 'normal'
         dot.edge(pred_id, obj_node,
-                 color='#d46a6a', penwidth='1.5',
-                 style=style, arrowhead=arrowhead)
+                 color='#d46a6a', penwidth='1.5', arrowsize='0.8', style=style)
 
-    # Legend + title
-    title_html = f'''<
-    <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="2">
-    <TR><TD COLSPAN="6" ALIGN="CENTER">
-      <B><FONT POINT-SIZE="13">{title_line}</FONT></B>
-    </TD></TR>
-    <TR>
-      <TD BGCOLOR="{COLOR_OBJECT}"   BORDER="1" STYLE="rounded" WIDTH="20"> </TD><TD>Object (region)</TD>
-      <TD BGCOLOR="{COLOR_ATTR}"     BORDER="1" STYLE="rounded" WIDTH="20"> </TD><TD>Attribute</TD>
-      <TD BGCOLOR="{COLOR_RELATION}" BORDER="1" STYLE="rounded" WIDTH="20"> </TD><TD>Relationship</TD>
-    </TR>
-    </TABLE>>'''
-    dot.attr(label=title_html, labelloc='t', labeljust='c')
     return dot
 
 
@@ -172,7 +164,7 @@ def render_image(image_name: str, entry: dict,
 # ── Main ──────────────────────────────────────────────────────────────────
 
 def main():
-    ap = argparse.ArgumentParser(description='Render scene graphs — topic-genome condition')
+    ap = argparse.ArgumentParser(description='Render scene graphs — B (human expert) condition')
     ap.add_argument('--input', type=str, default=None,
                     help=f'Input JSON (default: {DEFAULT_IN.name})')
     ap.add_argument('--image', type=str, default=None,
@@ -209,7 +201,7 @@ def main():
                 'NormalizedVC': float(row.get('NormalizedVC', 0)),
             }
 
-    print(f'\nRendering {len(data)} images...')
+    print(f'\nRendering {len(data)} image(s)...')
     print(f'  SVG → {OUT_SVG.relative_to(ROOT)}')
     print(f'  PNG → {OUT_PNG.relative_to(ROOT)}\n')
 
@@ -219,7 +211,7 @@ def main():
         norm_vc  = m.get('NormalizedVC', None)
         render_image(image_name, entry, vis_type=vis_type, norm_vc=norm_vc)
 
-    print(f'\nDone — {len(data)} PNGs in {OUT_PNG.relative_to(ROOT)}')
+    print(f'\nDone — {len(data)} image(s) rendered')
 
 
 if __name__ == '__main__':
