@@ -51,7 +51,7 @@ MAX_TOKENS  = 2048
 TEMPERATURE = 0.0
 CONCURRENCY = 5
 
-INPUT_CSV   = ROOT / 'comment_process' / 'ResultsStepByStep_4.0.imageDataCompiled.csv'
+INPUT_CSV   = ROOT / 'comment_process' / 'ResultsStepByStep - 4.0.imageDataCompiled.csv'
 EXPORT_DIR  = ROOT / 'vc_genome' / 'export'
 DICT_JSON   = EXPORT_DIR / 'pure_genome_dict.json'
 

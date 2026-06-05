@@ -27,10 +27,10 @@ import pandas as pd
 SCRIPT_DIR = Path(__file__).parent
 ROOT       = SCRIPT_DIR.parent.parent   # comment_post_processing/
 
-DEFAULT_IN  = ROOT / 'vc_genome' / 'export' / 'oar_pure_genome_9.json'
-OUT_SVG     = ROOT / 'vc_genome' / 'scene_graphs' / 'svg' / 'pure_genome_0'
-OUT_PNG     = ROOT / 'vc_genome' / 'scene_graphs' / 'png' / 'pure_genome_0'
-DATA_CSV    = ROOT / 'comment_process' / 'ResultsStepByStep_4.0.imageDataCompiled.csv'
+DEFAULT_IN  = ROOT / 'vc_genome' / 'export' / 'oar_pure_genome_full.json'
+OUT_SVG     = ROOT / 'vc_genome' / 'scene_graphs' / 'svg' / 'pure_genome'
+OUT_PNG     = ROOT / 'vc_genome' / 'scene_graphs' / 'png' / 'pure_genome'
+DATA_CSV    = ROOT / 'comment_process' / 'ResultsStepByStep - 4.0.imageDataCompiled.csv'
 
 # ── Style (same palette as all other condition renderers) ─────────────────
 COLOR_OBJECT   = '#b8e6b8'   # green
@@ -99,7 +99,10 @@ def build_graph(entry: dict, image_name: str,
 
     for obj in objects:
         for attr_id, attr in attrs_by_obj.get(obj['id'], []):
-            attr_text = attr['attr'].replace('_', ' ')[:35]
+            raw_text = attr.get('attr') or attr.get('name') or ''
+            if not raw_text:
+                continue
+            attr_text = raw_text.replace('_', ' ')[:35]
             dot.node(attr_id, label=attr_text,
                      fillcolor=COLOR_ATTR, color='#5a7fa0', fontcolor='#1a1a1a')
             dot.edge(id_to_node[obj['id']], attr_id,
@@ -198,13 +201,21 @@ def main():
     print(f'  SVG → {OUT_SVG.relative_to(ROOT)}')
     print(f'  PNG → {OUT_PNG.relative_to(ROOT)}\n')
 
+    rendered = 0
+    skipped  = 0
     for image_name, entry in data.items():
+        safe = image_name.removesuffix('.png').removesuffix('.jpg')
+        if (OUT_PNG / f'{safe}.png').exists():
+            skipped += 1
+            continue
         m        = meta.get(image_name, {})
         vis_type = m.get('VisType', '')
         norm_vc  = m.get('NormalizedVC', None)
         render_image(image_name, entry, vis_type=vis_type, norm_vc=norm_vc)
+        rendered += 1
 
-    print(f'\nDone — {len(data)} PNGs in {OUT_PNG.relative_to(ROOT)}')
+    print(f'\nDone — {rendered} rendered, {skipped} skipped (already existed)'
+          f'  →  {OUT_PNG.relative_to(ROOT)}')
 
 
 if __name__ == '__main__':

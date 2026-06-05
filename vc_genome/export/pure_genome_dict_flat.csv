@@ -1,0 +1,1343 @@
+section,subcategory,term,n_images
+visual_objects,mark,line,34
+visual_objects,mark,dot,13
+visual_objects,mark,circle,7
+visual_objects,mark,bar,2
+visual_objects,mark,square,3
+visual_objects,mark,point,7
+visual_objects,mark,arrow,1
+visual_objects,mark,path,1
+visual_objects,mark,gradient,1
+visual_objects,mark,shape,3
+visual_objects,chart_component,axis,7
+visual_objects,chart_component,legend,3
+visual_objects,chart_component,label,5
+visual_objects,chart_component,title,10
+visual_objects,chart_component,grid,2
+visual_objects,chart_component,scale,4
+visual_objects,chart_component,key,4
+visual_objects,chart_component,annotation,2
+visual_objects,chart_component,box,4
+visual_objects,chart_component,table,1
+visual_objects,chart_type,map,6
+visual_objects,chart_type,graph,5
+visual_objects,chart_type,bar graph,3
+visual_objects,chart_type,world map,2
+visual_objects,chart_type,network,2
+visual_objects,chart_type,chart,7
+visual_objects,chart_type,image,6
+visual_objects,chart_type,picture,5
+visual_objects,chart_type,graphic,3
+visual_objects,data_element,datum,12
+visual_objects,data_element,data,11
+visual_objects,data_element,datum point,4
+visual_objects,data_element,value,3
+visual_objects,data_element,variable,1
+visual_objects,data_element,measurement,3
+visual_objects,data_element,quantity,2
+visual_objects,data_element,frequency,2
+visual_objects,data_element,distribution,4
+visual_objects,data_element,range,3
+visual_objects,data_element,spread,3
+visual_objects,data_element,density,3
+visual_objects,data_element,parameter,2
+visual_objects,data_element,entity,2
+visual_objects,annotation,annotation,2
+visual_objects,annotation,description,5
+visual_objects,annotation,explanation,2
+visual_objects,annotation,symbol,4
+visual_objects,annotation,code,1
+visual_objects,annotation,term,3
+visual_objects,annotation,name,3
+visual_objects,annotation,writing,3
+visual_objects,annotation,text,27
+visual_objects,annotation,word,2
+visual_objects,annotation,letter,2
+visual_objects,annotation,font,1
+visual_objects,domain_object,country,4
+visual_objects,domain_object,region,2
+visual_objects,domain_object,world,1
+visual_objects,domain_object,object,3
+visual_objects,domain_object,feature,1
+visual_objects,domain_object,element,5
+visual_objects,domain_object,item,6
+visual_objects,domain_object,collection,1
+visual_objects,domain_object,set,1
+visual_objects,layout_component,layout,3
+visual_objects,layout_component,space,6
+visual_objects,layout_component,area,5
+visual_objects,layout_component,position,1
+visual_objects,layout_component,arrangement,1
+visual_objects,layout_component,structure,2
+visual_objects,layout_component,dimension,3
+visual_objects,layout_component,intersection,2
+visual_objects,layout_component,pattern,4
+visual_objects,layout_component,grid,2
+visual_objects,perceptual_element,color,2
+visual_objects,perceptual_element,color,2
+visual_objects,perceptual_element,shade,1
+visual_objects,perceptual_element,contrast,4
+visual_objects,perceptual_element,size,10
+visual_objects,perceptual_element,shape,3
+visual_objects,perceptual_element,color scheme,3
+visual_objects,perceptual_element,color contrast,3
+visual_objects,perceptual_element,color difference,3
+visual_objects,perceptual_element,color distribution,3
+visual_objects,cognitive_element,information,34
+visual_objects,cognitive_element,info,4
+visual_objects,cognitive_element,detail,14
+visual_objects,cognitive_element,meaning,3
+visual_objects,cognitive_element,context,3
+visual_objects,cognitive_element,idea,8
+visual_objects,cognitive_element,sense,9
+visual_objects,cognitive_element,purpose,2
+visual_objects,cognitive_element,logic,2
+visual_objects,cognitive_element,understanding,1
+visual_objects,cognitive_element,interpretation,1
+visual_objects,cognitive_element,content,3
+visual_objects,cognitive_element,aspect,3
+visual_objects,quantity_reference,number,34
+visual_objects,quantity_reference,a lot,35
+visual_objects,quantity_reference,lot,21
+visual_objects,quantity_reference,multitude,2
+visual_objects,quantity_reference,volume,3
+visual_objects,quantity_reference,variety,5
+visual_objects,quantity_reference,amount,0
+visual_objects,quantity_reference,bit,5
+visual_objects,quantity_reference,stuff,2
+visual_objects,quantity_reference,more color,31
+visual_objects,quantity_reference,more information,16
+visual_objects,quantity_reference,more detail,10
+visual_objects,quantity_reference,more datum,8
+visual_objects,quantity_reference,more word,6
+visual_objects,quantity_reference,more text,5
+visual_objects,quantity_reference,more element,5
+visual_objects,quantity_reference,more variable,4
+visual_objects,quantity_reference,more line,4
+visual_objects,quantity_reference,more item,3
+visual_objects,quantity_reference,more time,7
+visual_objects,quantity_reference,more datum point,3
+visual_objects,quantity_reference,too many color,4
+visual_objects,quantity_reference,too many line,3
+visual_objects,quantity_reference,too much datum,3
+visual_objects,quantity_reference,many element,4
+visual_objects,quantity_reference,less information,2
+visual_objects,quantity_reference,no idea,7
+visual_objects,quantity_reference,no legend,4
+visual_objects,quantity_reference,no detail,3
+visual_objects,quantity_reference,no context,3
+visual_objects,quantity_reference,small detail,4
+visual_objects,quantity_reference,small text,3
+visual_objects,quantity_reference,different color,15
+visual_objects,quantity_reference,different shape,4
+visual_objects,quantity_reference,different size,4
+visual_objects,quantity_reference,different point,3
+visual_objects,quantity_reference,two axis,3
+visual_objects,quantity_reference,cognitive load,2
+visual_objects,quantity_reference,color scheme,3
+visual_objects,quantity_reference,straight line,3
+visual_objects,quantity_reference,datum point,4
+visual_objects,quantity_reference,first glance,4
+visual_objects,quantity_reference,a glance,5
+visual_objects,quantity_reference,the image,16
+visual_objects,quantity_reference,the color,11
+visual_objects,quantity_reference,the information,3
+visual_objects,quantity_reference,the line,4
+visual_objects,quantity_reference,the legend,3
+visual_objects,quantity_reference,the datum,3
+visual_objects,quantity_reference,the circle,3
+visual_objects,quantity_reference,the point,3
+visual_objects,quantity_reference,the graph,2
+visual_objects,quantity_reference,the graphic,3
+visual_objects,quantity_reference,noise,2
+visual_objects,quantity_reference,load,2
+visual_objects,quantity_reference,use,4
+visual_objects,quantity_reference,interest,3
+visual_objects,quantity_reference,ease,3
+visual_objects,quantity_reference,connection,3
+visual_objects,quantity_reference,spread,3
+visual_objects,quantity_reference,entity,2
+visual_objects,quantity_reference,range,3
+visual_objects,quantity_reference,frequency,2
+visual_objects,quantity_reference,density,3
+visual_objects,quantity_reference,design,2
+visual_objects,quantity_reference,layout,3
+visual_objects,quantity_reference,writing,3
+visual_objects,quantity_reference,name,3
+visual_objects,quantity_reference,term,3
+visual_objects,quantity_reference,context,3
+visual_objects,quantity_reference,graphic,3
+visual_objects,quantity_reference,annotation,2
+visual_objects,quantity_reference,volume,3
+visual_objects,quantity_reference,readability,4
+visual_objects,quantity_reference,complexity,4
+visual_objects,quantity_reference,difference,4
+visual_objects,quantity_reference,pattern,4
+visual_objects,quantity_reference,symbol,4
+visual_objects,quantity_reference,key,4
+visual_objects,quantity_reference,value,3
+visual_objects,quantity_reference,scale,4
+visual_objects,quantity_reference,box,4
+visual_objects,quantity_reference,info,4
+visual_objects,quantity_reference,item,6
+visual_objects,quantity_reference,variety,5
+visual_objects,quantity_reference,description,5
+visual_objects,quantity_reference,choice,1
+visual_objects,quantity_reference,process,10
+visual_objects,quantity_reference,order,2
+visual_objects,quantity_reference,set,1
+visual_objects,quantity_reference,collection,1
+visual_objects,quantity_reference,arrangement,1
+visual_objects,quantity_reference,path,1
+visual_objects,quantity_reference,aspect,3
+visual_objects,quantity_reference,dimension,3
+visual_objects,quantity_reference,intersection,2
+visual_objects,quantity_reference,quantity,2
+visual_objects,quantity_reference,parameter,2
+visual_objects,quantity_reference,multitude,2
+visual_objects,quantity_reference,network,2
+visual_objects,quantity_reference,stuff,2
+visual_attributes,complexity,complex,14
+visual_attributes,complexity,complicated,7
+visual_attributes,complexity,intricate,3
+visual_attributes,complexity,simple,15
+visual_attributes,complexity,straightforward,4
+visual_attributes,complexity,busy,5
+visual_attributes,complexity,cluttered,1
+visual_attributes,complexity,clean,3
+visual_attributes,complexity,extra,3
+visual_attributes,complexity,abstract,4
+visual_attributes,complexity,cognitive load,2
+visual_attributes,complexity,high complexity,0
+visual_attributes,complexity,overall complexity,0
+visual_attributes,complexity,simplistic,0
+visual_attributes,complexity,simplicity,0
+visual_attributes,readability,hard,47
+visual_attributes,readability,difficult,36
+visual_attributes,readability,easy,42
+visual_attributes,readability,clear,35
+visual_attributes,readability,unclear,5
+visual_attributes,readability,understandable,6
+visual_attributes,readability,confusing,12
+visual_attributes,readability,ambiguous,2
+visual_attributes,readability,readable,2
+visual_attributes,readability,readability,4
+visual_attributes,readability,discernible,3
+visual_attributes,readability,visible,3
+visual_attributes,readability,fast,3
+visual_attributes,readability,quickly,4
+visual_attributes,readability,easily,15
+visual_attributes,readability,clearly,6
+visual_attributes,color,black,10
+visual_attributes,color,white,9
+visual_attributes,color,red,4
+visual_attributes,color,green,3
+visual_attributes,color,dark,4
+visual_attributes,color,colored,4
+visual_attributes,color,more color,31
+visual_attributes,color,different color,15
+visual_attributes,color,too many color,4
+visual_attributes,color,color contrast,3
+visual_attributes,color,color difference,3
+visual_attributes,color,color distribution,3
+visual_attributes,color,color scheme,3
+visual_attributes,color,varied color,1
+visual_attributes,size_density,small,24
+visual_attributes,size_density,large,4
+visual_attributes,size_density,big,4
+visual_attributes,size_density,tiny,2
+visual_attributes,size_density,little,6
+visual_attributes,size_density,fine,4
+visual_attributes,size_density,high density,0
+visual_attributes,size_density,dense,2
+visual_attributes,size_density,small detail,4
+visual_attributes,size_density,small text,3
+visual_attributes,size_density,different size,4
+visual_attributes,familiarity,familiar,13
+visual_attributes,familiarity,unfamiliar,6
+visual_attributes,familiarity,recognizable,7
+visual_attributes,familiarity,intuitive,6
+visual_attributes,familiarity,weird,3
+visual_attributes,familiarity,arbitrary,3
+visual_attributes,familiarity,abstract,4
+visual_attributes,familiarity,unique,5
+visual_attributes,structure,linear,3
+visual_attributes,structure,straight,6
+visual_attributes,structure,random,5
+visual_attributes,structure,overlapping,1
+visual_attributes,structure,separate,4
+visual_attributes,structure,individual,4
+visual_attributes,structure,distinct,3
+visual_attributes,structure,varied,3
+visual_attributes,structure,different,48
+visual_attributes,structure,similar,7
+visual_attributes,structure,multiple,17
+visual_attributes,structure,intricate,3
+visual_attributes,structure,arrangement,1
+visual_attributes,structure,order,2
+visual_attributes,structure,dimension,3
+visual_attributes,structure,distinctive,0
+visual_attributes,aesthetics,visually appealing,0
+visual_attributes,aesthetics,bad,3
+visual_attributes,aesthetics,clean,3
+visual_attributes,aesthetics,busy,5
+visual_attributes,aesthetics,cluttered,1
+visual_attributes,aesthetics,detailed,6
+visual_attributes,aesthetics,graphic,3
+visual_attributes,aesthetics,visual,7
+visual_attributes,information_quality,detailed,6
+visual_attributes,information_quality,exact,3
+visual_attributes,information_quality,key,4
+visual_attributes,information_quality,extra,3
+visual_attributes,information_quality,overall,3
+visual_attributes,information_quality,discernible,3
+visual_attributes,information_quality,ambiguous,2
+visual_attributes,information_quality,unclear,5
+visual_attributes,information_quality,no detail,3
+visual_attributes,information_quality,no context,3
+visual_attributes,information_quality,less information,2
+visual_attributes,information_quality,more information,16
+visual_attributes,information_quality,no idea,7
+visual_attributes,cognitive,cognitive,2
+visual_attributes,cognitive,cognitive load,2
+visual_attributes,cognitive,sense,9
+visual_attributes,cognitive,understanding,1
+visual_attributes,cognitive,interpretation,1
+visual_attributes,cognitive,logic,2
+visual_attributes,cognitive,purpose,2
+visual_attributes,cognitive,meaning,3
+visual_attributes,temporal,long,10
+visual_attributes,temporal,more time,7
+visual_attributes,temporal,fast,3
+visual_attributes,temporal,quickly,4
+visual_attributes,temporal,time,3
+visual_attributes,quantity_descriptor,a lot,35
+visual_attributes,quantity_descriptor,lot,21
+visual_attributes,quantity_descriptor,many element,4
+visual_attributes,quantity_descriptor,multitude,2
+visual_attributes,quantity_descriptor,variety,5
+visual_attributes,quantity_descriptor,volume,3
+visual_attributes,quantity_descriptor,spread,3
+visual_attributes,quantity_descriptor,too many,0
+visual_attributes,quantity_descriptor,too much,0
+visual_attributes,quantity_descriptor,more,0
+visual_attributes,quantity_descriptor,less,0
+visual_attributes,quantity_descriptor,no,0
+visual_predicates,spatial,overlap,6
+visual_predicates,spatial,cross,4
+visual_predicates,spatial,separate,4
+visual_predicates,spatial,scatter,3
+visual_predicates,spatial,spread,3
+visual_predicates,spatial,intersect,2
+visual_predicates,spatial,position,1
+visual_predicates,spatial,arrange,0
+visual_predicates,spatial,distribute,0
+visual_predicates,spatial,scattered,0
+visual_predicates,semantic,represent,13
+visual_predicates,semantic,mean,10
+visual_predicates,semantic,convey,5
+visual_predicates,semantic,describe,5
+visual_predicates,semantic,label,5
+visual_predicates,semantic,annotate,0
+visual_predicates,semantic,show,10
+visual_predicates,semantic,present,4
+visual_predicates,semantic,identify,4
+visual_predicates,semantic,name,3
+visual_predicates,structural,organize,3
+visual_predicates,structural,structure,2
+visual_predicates,structural,connect,0
+visual_predicates,structural,mix,6
+visual_predicates,structural,combine,0
+visual_predicates,structural,differentiate,3
+visual_predicates,structural,distinguish,5
+visual_predicates,structural,separate,4
+visual_predicates,structural,contrast,4
+visual_predicates,structural,focus,3
+visual_predicates,perceptual,see,3
+visual_predicates,perceptual,discern,8
+visual_predicates,perceptual,recognize,4
+visual_predicates,perceptual,identify,4
+visual_predicates,perceptual,visualize,3
+visual_predicates,perceptual,feel,3
+visual_predicates,perceptual,follow,9
+visual_predicates,perceptual,focus,3
+visual_predicates,perceptual,ascertain,3
+visual_predicates,cognitive,understand,94
+visual_predicates,cognitive,read,40
+visual_predicates,cognitive,know,16
+visual_predicates,cognitive,interpret,7
+visual_predicates,cognitive,comprehend,6
+visual_predicates,cognitive,analyze,4
+visual_predicates,cognitive,think,4
+visual_predicates,cognitive,make sense,0
+visual_predicates,cognitive,confuse,4
+visual_predicates,cognitive,challenge,3
+visual_predicates,cognitive,thought,0
+visual_predicates,evaluative,require,5
+visual_predicates,evaluative,need,10
+visual_predicates,evaluative,involve,3
+visual_predicates,evaluative,take,4
+visual_predicates,evaluative,lack,4
+visual_predicates,evaluative,expect,2
+visual_predicates,evaluative,tell,4
+visual_predicates,evaluative,write,3
+visual_predicates,evaluative,legend,3
+visual_predicates,evaluative,shape,3
+unclustered,noun,analysis,1
+unclustered,noun,attention,1
+unclustered,noun,attractiveness,2
+unclustered,noun,background,2
+unclustered,noun,change,2
+unclustered,noun,column,2
+unclustered,noun,component,2
+unclustered,noun,continent,1
+unclustered,noun,curve,1
+unclustered,noun,datapoint,2
+unclustered,noun,depth,2
+unclustered,noun,digest,2
+unclustered,noun,earth,1
+unclustered,noun,earthquake,1
+unclustered,noun,entry,1
+unclustered,noun,fact,1
+unclustered,noun,factor,2
+unclustered,noun,flow,2
+unclustered,noun,focus,3
+unclustered,noun,geography,2
+unclustered,noun,group,1
+unclustered,noun,icon,1
+unclustered,noun,illusion,2
+unclustered,noun,indication,1
+unclustered,noun,inscription,1
+unclustered,noun,length,2
+unclustered,noun,level,1
+unclustered,noun,link,2
+unclustered,noun,majority,2
+unclustered,noun,matrix,2
+unclustered,noun,measure,2
+unclustered,noun,mess,1
+unclustered,noun,metric,2
+unclustered,noun,mix,6
+unclustered,noun,movement,1
+unclustered,noun,nuance,1
+unclustered,noun,num,2
+unclustered,noun,organization,2
+unclustered,noun,overlap,6
+unclustered,noun,painting,2
+unclustered,noun,pie,2
+unclustered,noun,pixel,2
+unclustered,noun,place,2
+unclustered,noun,plot,1
+unclustered,noun,preciseness,2
+unclustered,noun,presentation,2
+unclustered,noun,processing,1
+unclustered,noun,proximity,2
+unclustered,noun,reading,2
+unclustered,noun,regularity,1
+unclustered,noun,relation,1
+unclustered,noun,screen,1
+unclustered,noun,self,1
+unclustered,noun,sentence,2
+unclustered,noun,shading,2
+unclustered,noun,spot,1
+unclustered,noun,style,2
+unclustered,noun,takeaway,2
+unclustered,noun,tree,1
+unclustered,noun,variability,2
+unclustered,verb,add,2
+unclustered,verb,allow,2
+unclustered,verb,blur,2
+unclustered,verb,change,2
+unclustered,verb,color,2
+unclustered,verb,compare,2
+unclustered,verb,consider,2
+unclustered,verb,dash,1
+unclustered,verb,decipher,2
+unclustered,verb,delve,2
+unclustered,verb,differ,2
+unclustered,verb,draw,2
+unclustered,verb,evaluate,2
+unclustered,verb,familiarize,2
+unclustered,verb,give,2
+unclustered,verb,glean,2
+unclustered,verb,grow,2
+unclustered,verb,hurt,2
+unclustered,verb,interact,2
+unclustered,verb,intersect,2
+unclustered,verb,learn,2
+unclustered,verb,measure,2
+unclustered,verb,move,2
+unclustered,verb,of/,2
+unclustered,verb,order,2
+unclustered,verb,pack,2
+unclustered,verb,rank,2
+unclustered,verb,realize,2
+unclustered,verb,relate,2
+unclustered,verb,remember,2
+unclustered,verb,select,2
+unclustered,verb,structure,2
+unclustered,verb,suggest,2
+unclustered,verb,suppose,2
+unclustered,verb,talk,2
+unclustered,verb,vary,2
+unclustered,verb,word,2
+unclustered,adj,able,2
+unclustered,adj,actually,2
+unclustered,adj,apparent,2
+unclustered,adj,appealing,2
+unclustered,adj,axis,7
+unclustered,adj,blank,2
+unclustered,adj,blue,1
+unclustered,adj,blurry,2
+unclustered,adj,bright,2
+unclustered,adj,close,2
+unclustered,adj,colorful,2
+unclustered,adj,common,2
+unclustered,adj,concise,2
+unclustered,adj,crowded,2
+unclustered,adj,dense,2
+unclustered,adj,densely,2
+unclustered,adj,excessively,2
+unclustered,adj,explanatory,2
+unclustered,adj,far,2
+unclustered,adj,few,2
+unclustered,adj,immediately,2
+unclustered,adj,impossible,2
+unclustered,adj,ineligible,1
+unclustered,adj,initial,2
+unclustered,adj,instantly,2
+unclustered,adj,limited,2
+unclustered,adj,messy,2
+unclustered,adj,physical,2
+unclustered,adj,pleasing,2
+unclustered,adj,pretty,2
+unclustered,adj,readable,2
+unclustered,adj,seismic,2
+unclustered,adj,soft,2
+unclustered,adj,undefined,1
+unclustered,adj,uniform,2
+unclustered,adj,vast,2
+unclustered,adj,vertical,2
+unclustered,adj,wise,1
+unclustered,noun_phrase,(empty space,1
+unclustered,noun_phrase,. picture,1
+unclustered,noun_phrase,/compare/interpret,1
+unclustered,noun_phrase,/detail,1
+unclustered,noun_phrase,1-2 second,1
+unclustered,noun_phrase,15 figure,1
+unclustered,noun_phrase,2 data set,1
+unclustered,noun_phrase,2 dimension,1
+unclustered,noun_phrase,2 line,1
+unclustered,noun_phrase,2. link,1
+unclustered,noun_phrase,2d geometric shape,1
+unclustered,noun_phrase,3 aspect,1
+unclustered,noun_phrase,3 dimensional element,1
+unclustered,noun_phrase,3 dot,1
+unclustered,noun_phrase,3d visualization,1
+unclustered,noun_phrase,4 axis,1
+unclustered,noun_phrase,4 datum point,1
+unclustered,noun_phrase,4 different center point,1
+unclustered,noun_phrase,4 dimension matrix,1
+unclustered,noun_phrase,4 or 5 axis,1
+unclustered,noun_phrase,5 sec,1
+unclustered,noun_phrase,a certain way,1
+unclustered,noun_phrase,a chart,1
+unclustered,noun_phrase,a clear form,1
+unclustered,noun_phrase,a cluster,1
+unclustered,noun_phrase,a collection,1
+unclustered,noun_phrase,a continent,1
+unclustered,noun_phrase,a different color,1
+unclustered,noun_phrase,a discernible pattern,1
+unclustered,noun_phrase,a few line,2
+unclustered,noun_phrase,a few square,1
+unclustered,noun_phrase,a gradient,1
+unclustered,noun_phrase,a graphic,1
+unclustered,noun_phrase,a grid,2
+unclustered,noun_phrase,a harsh color,1
+unclustered,noun_phrase,a key,2
+unclustered,noun_phrase,a legend,1
+unclustered,noun_phrase,a limited color range,1
+unclustered,noun_phrase,a line,1
+unclustered,noun_phrase,a long time,1
+unclustered,noun_phrase,a lot more aspect,1
+unclustered,noun_phrase,a lot more image,1
+unclustered,noun_phrase,a lot more parameter,1
+unclustered,noun_phrase,a lot more time,1
+unclustered,noun_phrase,a map,2
+unclustered,noun_phrase,a meaning,1
+unclustered,noun_phrase,a mess,1
+unclustered,noun_phrase,a multitude,1
+unclustered,noun_phrase,a negative space,1
+unclustered,noun_phrase,a plethora,1
+unclustered,noun_phrase,a process,2
+unclustered,noun_phrase,a small space,1
+unclustered,noun_phrase,a table,1
+unclustered,noun_phrase,a timeline,1
+unclustered,noun_phrase,a visually intricate network,1
+unclustered,noun_phrase,a water fall,1
+unclustered,noun_phrase,abstract painting,2
+unclustered,noun_phrase,abstract shape,1
+unclustered,noun_phrase,abstraction,1
+unclustered,noun_phrase,abundance,1
+unclustered,noun_phrase,account,1
+unclustered,noun_phrase,accurate interpretation,1
+unclustered,noun_phrase,africa,1
+unclustered,noun_phrase,alignment,1
+unclustered,noun_phrase,all dot,1
+unclustered,noun_phrase,all the text,1
+unclustered,noun_phrase,almost no explanation,1
+unclustered,noun_phrase,ambiguous color,1
+unclustered,noun_phrase,ambiguous number,1
+unclustered,noun_phrase,ammount,1
+unclustered,noun_phrase,an additional key,1
+unclustered,noun_phrase,an earthquake,1
+unclustered,noun_phrase,analysis,1
+unclustered,noun_phrase,animal,1
+unclustered,noun_phrase,any meaning,1
+unclustered,noun_phrase,any number,1
+unclustered,noun_phrase,any text,1
+unclustered,noun_phrase,apparent flow,1
+unclustered,noun_phrase,arrangement,1
+unclustered,noun_phrase,arrow,1
+unclustered,noun_phrase,assortment,1
+unclustered,noun_phrase,attention,1
+unclustered,noun_phrase,axes title,1
+unclustered,noun_phrase,axis datum,1
+unclustered,noun_phrase,axis labeling,1
+unclustered,noun_phrase,background color,1
+unclustered,noun_phrase,bad choice,1
+unclustered,noun_phrase,bad color choice,1
+unclustered,noun_phrase,bad design,1
+unclustered,noun_phrase,bar,2
+unclustered,noun_phrase,bar chart,1
+unclustered,noun_phrase,basic graph. earth,1
+unclustered,noun_phrase,big key,1
+unclustered,noun_phrase,big red box,1
+unclustered,noun_phrase,big text,1
+unclustered,noun_phrase,biology,1
+unclustered,noun_phrase,black background,1
+unclustered,noun_phrase,black change,1
+unclustered,noun_phrase,black color,1
+unclustered,noun_phrase,black hole,1
+unclustered,noun_phrase,blue,1
+unclustered,noun_phrase,blue box,1
+unclustered,noun_phrase,blue color,1
+unclustered,noun_phrase,blur and color overlay,1
+unclustered,noun_phrase,blur purple and green box,1
+unclustered,noun_phrase,boldness,1
+unclustered,noun_phrase,brand,1
+unclustered,noun_phrase,bright color,2
+unclustered,noun_phrase,brighter,1
+unclustered,noun_phrase,bunch,1
+unclustered,noun_phrase,busy layout,1
+unclustered,noun_phrase,caption,1
+unclustered,noun_phrase,careful examination,1
+unclustered,noun_phrase,change font,1
+unclustered,noun_phrase,chart map,1
+unclustered,noun_phrase,chemical,1
+unclustered,noun_phrase,chemical compound,1
+unclustered,noun_phrase,choice,1
+unclustered,noun_phrase,circle area,1
+unclustered,noun_phrase,circle graph,2
+unclustered,noun_phrase,clarity,2
+unclustered,noun_phrase,clean line,1
+unclustered,noun_phrase,clear and concise key,1
+unclustered,noun_phrase,clear color,1
+unclustered,noun_phrase,clear color difference,1
+unclustered,noun_phrase,clear connection,1
+unclustered,noun_phrase,clear path,1
+unclustered,noun_phrase,clear shape,1
+unclustered,noun_phrase,clear text,2
+unclustered,noun_phrase,clueless,1
+unclustered,noun_phrase,cluter,1
+unclustered,noun_phrase,cluttered,1
+unclustered,noun_phrase,cluttered label,1
+unclustered,noun_phrase,code,1
+unclustered,noun_phrase,code/text,1
+unclustered,noun_phrase,collection,1
+unclustered,noun_phrase,color bar,1
+unclustered,noun_phrase,color change,1
+unclustered,noun_phrase,color code,1
+unclustered,noun_phrase,color coding,1
+unclustered,noun_phrase,color dimension,1
+unclustered,noun_phrase,color diversity,1
+unclustered,noun_phrase,color format,1
+unclustered,noun_phrase,color gradient,1
+unclustered,noun_phrase,color hue,1
+unclustered,noun_phrase,color key,1
+unclustered,noun_phrase,color saturation,1
+unclustered,noun_phrase,color scale,2
+unclustered,noun_phrase,color separation,1
+unclustered,noun_phrase,color superposition,1
+unclustered,noun_phrase,color value,1
+unclustered,noun_phrase,color variability,1
+unclustered,noun_phrase,color variation,2
+unclustered,noun_phrase,color variety,1
+unclustered,noun_phrase,colored dot,1
+unclustered,noun_phrase,colored graphic chart,1
+unclustered,noun_phrase,colored segment,1
+unclustered,noun_phrase,colored surface,1
+unclustered,noun_phrase,colorization,1
+unclustered,noun_phrase,color,2
+unclustered,noun_phrase,column,2
+unclustered,noun_phrase,common knowledge,1
+unclustered,noun_phrase,company,1
+unclustered,noun_phrase,complex graph design,1
+unclustered,noun_phrase,complex shape,1
+unclustered,noun_phrase,complicated formula,1
+unclustered,noun_phrase,composition,1
+unclustered,noun_phrase,comprehensibility,1
+unclustered,noun_phrase,comprehension,1
+unclustered,noun_phrase,computer screen,1
+unclustered,noun_phrase,concentration,1
+unclustered,noun_phrase,concept,1
+unclustered,noun_phrase,confusing number,1
+unclustered,noun_phrase,continent,1
+unclustered,noun_phrase,contrast color,1
+unclustered,noun_phrase,country shape,2
+unclustered,noun_phrase,curve,1
+unclustered,noun_phrase,curve line,2
+unclustered,noun_phrase,dark green,2
+unclustered,noun_phrase,darker,1
+unclustered,noun_phrase,darker/denser area,1
+unclustered,noun_phrase,dash box,1
+unclustered,noun_phrase,dash line,1
+unclustered,noun_phrase,data point,2
+unclustered,noun_phrase,data subset,1
+unclustered,noun_phrase,datapoint,2
+unclustered,noun_phrase,datum interpretation,1
+unclustered,noun_phrase,datum visualization,1
+unclustered,noun_phrase,decipher,2
+unclustered,noun_phrase,decrease,1
+unclustered,noun_phrase,dense clutter,1
+unclustered,noun_phrase,dense datum set,1
+unclustered,noun_phrase,densely pack information,1
+unclustered,noun_phrase,densely pack shape,1
+unclustered,noun_phrase,depth,2
+unclustered,noun_phrase,detailed analysis,1
+unclustered,noun_phrase,diagram,1
+unclustered,noun_phrase,differ font size,1
+unclustered,noun_phrase,differ information,1
+unclustered,noun_phrase,different axis,2
+unclustered,noun_phrase,different bar,1
+unclustered,noun_phrase,different bit,1
+unclustered,noun_phrase,different color code,1
+unclustered,noun_phrase,different direction,1
+unclustered,noun_phrase,different directiopns,1
+unclustered,noun_phrase,different font,1
+unclustered,noun_phrase,different font size,1
+unclustered,noun_phrase,different label,1
+unclustered,noun_phrase,different quantity,1
+unclustered,noun_phrase,different shade,2
+unclustered,noun_phrase,different specie,1
+unclustered,noun_phrase,different visual element,1
+unclustered,noun_phrase,different volume,1
+unclustered,noun_phrase,different word size,1
+unclustered,noun_phrase,differnent size/figure,1
+unclustered,noun_phrase,digest,2
+unclustered,noun_phrase,disposition,1
+unclustered,noun_phrase,distinct color,2
+unclustered,noun_phrase,distinct shape,1
+unclustered,noun_phrase,distinguish/distinctive color,1
+unclustered,noun_phrase,each axis,1
+unclustered,noun_phrase,each box,1
+unclustered,noun_phrase,each country/region,1
+unclustered,noun_phrase,each element,1
+unclustered,noun_phrase,each word,1
+unclustered,noun_phrase,earth,1
+unclustered,noun_phrase,earthquake,1
+unclustered,noun_phrase,easy line,1
+unclustered,noun_phrase,easy to understand. map,1
+unclustered,noun_phrase,element size,2
+unclustered,noun_phrase,entry,1
+unclustered,noun_phrase,error bar,1
+unclustered,noun_phrase,every item,1
+unclustered,noun_phrase,every line,1
+unclustered,noun_phrase,every pixel,1
+unclustered,noun_phrase,everybody,1
+unclustered,noun_phrase,evolutionary tree,1
+unclustered,noun_phrase,exact feature,1
+unclustered,noun_phrase,exact point,1
+unclustered,noun_phrase,exact value,1
+unclustered,noun_phrase,example,1
+unclustered,noun_phrase,excessive data point,1
+unclustered,noun_phrase,explanation,2
+unclustered,noun_phrase,explanation text,1
+unclustered,noun_phrase,explanatory legend,1
+unclustered,noun_phrase,extra arrow,1
+unclustered,noun_phrase,extra challenge,1
+unclustered,noun_phrase,extra detail,1
+unclustered,noun_phrase,eye,2
+unclustered,noun_phrase,fact,1
+unclustered,noun_phrase,factual information,1
+unclustered,noun_phrase,familiar geographic shape,1
+unclustered,noun_phrase,familiarity,1
+unclustered,noun_phrase,far more noise,1
+unclustered,noun_phrase,fast readability,2
+unclustered,noun_phrase,feature,1
+unclustered,noun_phrase,few axis,1
+unclustered,noun_phrase,few color,1
+unclustered,noun_phrase,few datum,1
+unclustered,noun_phrase,few datum point,1
+unclustered,noun_phrase,few detail,1
+unclustered,noun_phrase,few item,1
+unclustered,noun_phrase,few more moment,1
+unclustered,noun_phrase,field information,1
+unclustered,noun_phrase,figure,2
+unclustered,noun_phrase,fine detail,2
+unclustered,noun_phrase,focus,3
+unclustered,noun_phrase,font,1
+unclustered,noun_phrase,football,1
+unclustered,noun_phrase,four axis,1
+unclustered,noun_phrase,four highlight word,1
+unclustered,noun_phrase,four label axis,1
+unclustered,noun_phrase,four separate visual item,1
+unclustered,noun_phrase,frame,1
+unclustered,noun_phrase,full map,1
+unclustered,noun_phrase,general complexity,1
+unclustered,noun_phrase,geo-map,1
+unclustered,noun_phrase,geographical map,1
+unclustered,noun_phrase,geography,2
+unclustered,noun_phrase,geometry,1
+unclustered,noun_phrase,good color choice,1
+unclustered,noun_phrase,gradient,1
+unclustered,noun_phrase,great detail,1
+unclustered,noun_phrase,grid,2
+unclustered,noun_phrase,group,1
+unclustered,noun_phrase,growth pattern,1
+unclustered,noun_phrase,half-shading,1
+unclustered,noun_phrase,hard measure,1
+unclustered,noun_phrase,hard time,1
+unclustered,noun_phrase,hard to discern information,1
+unclustered,noun_phrase,heat graph. map graph,1
+unclustered,noun_phrase,heat map,1
+unclustered,noun_phrase,hierarchical text,1
+unclustered,noun_phrase,hierarchy,1
+unclustered,noun_phrase,high amount,1
+unclustered,noun_phrase,high contrast,2
+unclustered,noun_phrase,high information density,1
+unclustered,noun_phrase,high school education,1
+unclustered,noun_phrase,histogram,1
+unclustered,noun_phrase,holisitic understanding,1
+unclustered,noun_phrase,horizontal line,1
+unclustered,noun_phrase,how many type,1
+unclustered,noun_phrase,human interpretability,1
+unclustered,noun_phrase,icon,1
+unclustered,noun_phrase,illusion,2
+unclustered,noun_phrase,image layout,1
+unclustered,noun_phrase,image legend,1
+unclustered,noun_phrase,image size,1
+unclustered,noun_phrase,imagery,1
+unclustered,noun_phrase,imaging,1
+unclustered,noun_phrase,immense amount,1
+unclustered,noun_phrase,increase,1
+unclustered,noun_phrase,indication,1
+unclustered,noun_phrase,individual item,1
+unclustered,noun_phrase,individual line,1
+unclustered,noun_phrase,individual object,1
+unclustered,noun_phrase,information density,1
+unclustered,noun_phrase,information point,1
+unclustered,noun_phrase,information presenting,1
+unclustered,noun_phrase,initial (intuitive) attractiveness,2
+unclustered,noun_phrase,inscription,1
+unclustered,noun_phrase,intense color,1
+unclustered,noun_phrase,intensity,1
+unclustered,noun_phrase,interpretation,1
+unclustered,noun_phrase,intersect line,2
+unclustered,noun_phrase,intersection,2
+unclustered,noun_phrase,intuitive understanding,1
+unclustered,noun_phrase,irregularity,1
+unclustered,noun_phrase,isolated square,1
+unclustered,noun_phrase,jerusalem,1
+unclustered,noun_phrase,jumble,1
+unclustered,noun_phrase,just a few line,1
+unclustered,noun_phrase,just pattern,1
+unclustered,noun_phrase,just text,1
+unclustered,noun_phrase,kid drawing,1
+unclustered,noun_phrase,label axis,1
+unclustered,noun_phrase,large amount,1
+unclustered,noun_phrase,large dataset,1
+unclustered,noun_phrase,large key,1
+unclustered,noun_phrase,large number,1
+unclustered,noun_phrase,layer,1
+unclustered,noun_phrase,layman,1
+unclustered,noun_phrase,length,2
+unclustered,noun_phrase,less blank space,1
+unclustered,noun_phrase,less clear information,1
+unclustered,noun_phrase,less clear writing,1
+unclustered,noun_phrase,less color,2
+unclustered,noun_phrase,less detail,1
+unclustered,noun_phrase,less element,1
+unclustered,noun_phrase,less organic shape,1
+unclustered,noun_phrase,less organization,1
+unclustered,noun_phrase,less sense,1
+unclustered,noun_phrase,less structure,1
+unclustered,noun_phrase,less text,1
+unclustered,noun_phrase,less uniform shape,1
+unclustered,noun_phrase,less visual item,1
+unclustered,noun_phrase,less white space,1
+unclustered,noun_phrase,less writing,1
+unclustered,noun_phrase,letter,2
+unclustered,noun_phrase,letter size variation,1
+unclustered,noun_phrase,level,1
+unclustered,noun_phrase,light,1
+unclustered,noun_phrase,limited number,1
+unclustered,noun_phrase,line graph,2
+unclustered,noun_phrase,line movement,1
+unclustered,noun_phrase,lineage,1
+unclustered,noun_phrase,little box,1
+unclustered,noun_phrase,little information,1
+unclustered,noun_phrase,little more time,1
+unclustered,noun_phrase,location,1
+unclustered,noun_phrase,logic,2
+unclustered,noun_phrase,long time,1
+unclustered,noun_phrase,longitudinal graph,1
+unclustered,noun_phrase,lotd,1
+unclustered,noun_phrase,magnification effect,1
+unclustered,noun_phrase,many category,1
+unclustered,noun_phrase,many circle,1
+unclustered,noun_phrase,many color,1
+unclustered,noun_phrase,many data point,2
+unclustered,noun_phrase,many different element,1
+unclustered,noun_phrase,many graph,1
+unclustered,noun_phrase,many line,2
+unclustered,noun_phrase,many more different visual component,1
+unclustered,noun_phrase,many number,1
+unclustered,noun_phrase,many point,1
+unclustered,noun_phrase,many result,1
+unclustered,noun_phrase,many shape,1
+unclustered,noun_phrase,many small detail,1
+unclustered,noun_phrase,many small writing,1
+unclustered,noun_phrase,many text box,1
+unclustered,noun_phrase,many writing,1
+unclustered,noun_phrase,mathematical formulae,1
+unclustered,noun_phrase,matrix pattern,1
+unclustered,noun_phrase,measure,2
+unclustered,noun_phrase,meeting point,1
+unclustered,noun_phrase,messiness,1
+unclustered,noun_phrase,messy,2
+unclustered,noun_phrase,misunderstanding,1
+unclustered,noun_phrase,mix,6
+unclustered,noun_phrase,monochrome,1
+unclustered,noun_phrase,monochrome color,1
+unclustered,noun_phrase,more area,1
+unclustered,noun_phrase,more axis,1
+unclustered,noun_phrase,more bar,1
+unclustered,noun_phrase,more color,1
+unclustered,noun_phrase,more complex color scheme,1
+unclustered,noun_phrase,more complex design,1
+unclustered,noun_phrase,more complex shape,1
+unclustered,noun_phrase,more confusing color,1
+unclustered,noun_phrase,more connection,1
+unclustered,noun_phrase,more context,1
+unclustered,noun_phrase,more contrast,1
+unclustered,noun_phrase,more detailed graphic,1
+unclustered,noun_phrase,more different label,1
+unclustered,noun_phrase,more difficulty,1
+unclustered,noun_phrase,more dificult,1
+unclustered,noun_phrase,more dot,1
+unclustered,noun_phrase,more factor,2
+unclustered,noun_phrase,more fine detail,1
+unclustered,noun_phrase,more group,1
+unclustered,noun_phrase,more image,1
+unclustered,noun_phrase,more impact,1
+unclustered,noun_phrase,more individual element,1
+unclustered,noun_phrase,more ink,1
+unclustered,noun_phrase,more interpretation,1
+unclustered,noun_phrase,more label,1
+unclustered,noun_phrase,more letter,1
+unclustered,noun_phrase,more link,1
+unclustered,noun_phrase,more nuance,1
+unclustered,noun_phrase,more number,2
+unclustered,noun_phrase,more object,1
+unclustered,noun_phrase,more or less a line,1
+unclustered,noun_phrase,more overlapping color,1
+unclustered,noun_phrase,more physical content,1
+unclustered,noun_phrase,more pixel,1
+unclustered,noun_phrase,more point,1
+unclustered,noun_phrase,more shape,2
+unclustered,noun_phrase,more space,1
+unclustered,noun_phrase,more square,1
+unclustered,noun_phrase,more statistic,1
+unclustered,noun_phrase,more type,2
+unclustered,noun_phrase,more understanding,1
+unclustered,noun_phrase,more uniform design,1
+unclustered,noun_phrase,more unique color,1
+unclustered,noun_phrase,more unique contrast,1
+unclustered,noun_phrase,more unrelated data element,1
+unclustered,noun_phrase,more variability,1
+unclustered,noun_phrase,more variation,1
+unclustered,noun_phrase,more variety,2
+unclustered,noun_phrase,more writing,2
+unclustered,noun_phrase,movement,1
+unclustered,noun_phrase,much attention,1
+unclustered,noun_phrase,much more datum,1
+unclustered,noun_phrase,much more information,1
+unclustered,noun_phrase,multipe area,1
+unclustered,noun_phrase,multiple axis,1
+unclustered,noun_phrase,multiple color,2
+unclustered,noun_phrase,multiple color scheme,1
+unclustered,noun_phrase,multiple component,1
+unclustered,noun_phrase,multiple copy,1
+unclustered,noun_phrase,multiple datum point,2
+unclustered,noun_phrase,multiple element,2
+unclustered,noun_phrase,multiple fact,1
+unclustered,noun_phrase,multiple feature,1
+unclustered,noun_phrase,multiple figure,2
+unclustered,noun_phrase,multiple graphic,1
+unclustered,noun_phrase,multiple image,1
+unclustered,noun_phrase,multiple shade,1
+unclustered,noun_phrase,multiple shape,2
+unclustered,noun_phrase,multiple time,1
+unclustered,noun_phrase,multitude,2
+unclustered,noun_phrase,multivariate,1
+unclustered,noun_phrase,mute color,1
+unclustered,noun_phrase,my vision,1
+unclustered,noun_phrase,nasa graph,1
+unclustered,noun_phrase,nature,1
+unclustered,noun_phrase,necessary context,1
+unclustered,noun_phrase,need,10
+unclustered,noun_phrase,need interpretation,1
+unclustered,noun_phrase,network,2
+unclustered,noun_phrase,no apparent directional flow,1
+unclustered,noun_phrase,no axis,2
+unclustered,noun_phrase,no clear indication,1
+unclustered,noun_phrase,no clear pattern,1
+unclustered,noun_phrase,no clear scheme,1
+unclustered,noun_phrase,no clue,1
+unclustered,noun_phrase,no color,1
+unclustered,noun_phrase,no color difference,1
+unclustered,noun_phrase,no color guide,1
+unclustered,noun_phrase,no data entry,1
+unclustered,noun_phrase,no datum,1
+unclustered,noun_phrase,no description,1
+unclustered,noun_phrase,no discernible pattern,1
+unclustered,noun_phrase,no easy distinction,1
+unclustered,noun_phrase,no explanation,1
+unclustered,noun_phrase,no font,1
+unclustered,noun_phrase,no further information,1
+unclustered,noun_phrase,no graph metric,1
+unclustered,noun_phrase,no graphic legend,1
+unclustered,noun_phrase,no information,1
+unclustered,noun_phrase,no key,1
+unclustered,noun_phrase,no label,1
+unclustered,noun_phrase,no meaning,1
+unclustered,noun_phrase,no measurement,2
+unclustered,noun_phrase,no metric,1
+unclustered,noun_phrase,no more than three color,1
+unclustered,noun_phrase,no number,2
+unclustered,noun_phrase,no or few datum,2
+unclustered,noun_phrase,no order,1
+unclustered,noun_phrase,no pattern,1
+unclustered,noun_phrase,no regularity,1
+unclustered,noun_phrase,no text,1
+unclustered,noun_phrase,no title,2
+unclustered,noun_phrase,no way,2
+unclustered,noun_phrase,no write information,1
+unclustered,noun_phrase,non familiar layout,1
+unclustered,noun_phrase,nonlinearity,1
+unclustered,noun_phrase,not a linear pattern,1
+unclustered,noun_phrase,not a lot,2
+unclustered,noun_phrase,not common sense,1
+unclustered,noun_phrase,not enough color,1
+unclustered,noun_phrase,not much interaction,1
+unclustered,noun_phrase,not simple datum,1
+unclustered,noun_phrase,novel pattern,1
+unclustered,noun_phrase,nuance,1
+unclustered,noun_phrase,num,2
+unclustered,noun_phrase,numerical detail,1
+unclustered,noun_phrase,numerical value,1
+unclustered,noun_phrase,numerous intersection,1
+unclustered,noun_phrase,object/word,2
+unclustered,noun_phrase,observation,1
+unclustered,noun_phrase,odd shape,1
+unclustered,noun_phrase,one font,1
+unclustered,noun_phrase,one more bit,1
+unclustered,noun_phrase,one point,1
+unclustered,noun_phrase,one shape,1
+unclustered,noun_phrase,one variable,1
+unclustered,noun_phrase,one year,1
+unclustered,noun_phrase,only one color,1
+unclustered,noun_phrase,only one thing,1
+unclustered,noun_phrase,only two main color,1
+unclustered,noun_phrase,order,2
+unclustered,noun_phrase,other line,1
+unclustered,noun_phrase,overall pleasing pattern,1
+unclustered,noun_phrase,overall shape,1
+unclustered,noun_phrase,overall understandability,1
+unclustered,noun_phrase,overlap,6
+unclustered,noun_phrase,overlapping,1
+unclustered,noun_phrase,pacific ocean,1
+unclustered,noun_phrase,parameter,2
+unclustered,noun_phrase,path,1
+unclustered,noun_phrase,phylogenetic tree,1
+unclustered,noun_phrase,physical dimension,1
+unclustered,noun_phrase,pie chart,2
+unclustered,noun_phrase,plot,1
+unclustered,noun_phrase,plot point,1
+unclustered,noun_phrase,point position,1
+unclustered,noun_phrase,poor color choice,1
+unclustered,noun_phrase,poorly contrast color,1
+unclustered,noun_phrase,position,1
+unclustered,noun_phrase,precise naming,1
+unclustered,noun_phrase,preciseness,2
+unclustered,noun_phrase,presentation,2
+unclustered,noun_phrase,process,10
+unclustered,noun_phrase,processing,1
+unclustered,noun_phrase,processing information,1
+unclustered,noun_phrase,programming,1
+unclustered,noun_phrase,prominent color,1
+unclustered,noun_phrase,proportion,1
+unclustered,noun_phrase,provoke,1
+unclustered,noun_phrase,proximity,2
+unclustered,noun_phrase,purpose,2
+unclustered,noun_phrase,quantitative relation,1
+unclustered,noun_phrase,quantity,2
+unclustered,noun_phrase,random collection,1
+unclustered,noun_phrase,random color,1
+unclustered,noun_phrase,random letter,1
+unclustered,noun_phrase,random name,1
+unclustered,noun_phrase,random place,1
+unclustered,noun_phrase,rank system,1
+unclustered,noun_phrase,rank thing,1
+unclustered,noun_phrase,reading,2
+unclustered,noun_phrase,receede horizon point,1
+unclustered,noun_phrase,rectangular,1
+unclustered,noun_phrase,red color,1
+unclustered,noun_phrase,regard,1
+unclustered,noun_phrase,region,2
+unclustered,noun_phrase,relation,1
+unclustered,noun_phrase,relationship,1
+unclustered,noun_phrase,rotation,1
+unclustered,noun_phrase,round table,1
+unclustered,noun_phrase,route,1
+unclustered,noun_phrase,row,1
+unclustered,noun_phrase,same color,1
+unclustered,noun_phrase,same image,1
+unclustered,noun_phrase,scatter plot,1
+unclustered,noun_phrase,scientific method,1
+unclustered,noun_phrase,screen,1
+unclustered,noun_phrase,segmentation,1
+unclustered,noun_phrase,seismic graph,2
+unclustered,noun_phrase,self,1
+unclustered,noun_phrase,separate chart,1
+unclustered,noun_phrase,separate color scale,1
+unclustered,noun_phrase,separate value,1
+unclustered,noun_phrase,set,1
+unclustered,noun_phrase,several color,2
+unclustered,noun_phrase,several element,1
+unclustered,noun_phrase,several measurement,1
+unclustered,noun_phrase,several more color,1
+unclustered,noun_phrase,shade,1
+unclustered,noun_phrase,shape varation,1
+unclustered,noun_phrase,shape/detail,1
+unclustered,noun_phrase,short cryptic label,1
+unclustered,noun_phrase,significant difference,1
+unclustered,noun_phrase,similar color,1
+unclustered,noun_phrase,similar instance,1
+unclustered,noun_phrase,similar look color,1
+unclustered,noun_phrase,similar size,1
+unclustered,noun_phrase,simple bar graph,1
+unclustered,noun_phrase,simple color,1
+unclustered,noun_phrase,simple information,1
+unclustered,noun_phrase,simple map,1
+unclustered,noun_phrase,simple structure,1
+unclustered,noun_phrase,single-color scheme,1
+unclustered,noun_phrase,size variation,1
+unclustered,noun_phrase,small arrow,1
+unclustered,noun_phrase,small box indicator,1
+unclustered,noun_phrase,small font,2
+unclustered,noun_phrase,small font size,1
+unclustered,noun_phrase,small icon,1
+unclustered,noun_phrase,small table,1
+unclustered,noun_phrase,small writing,1
+unclustered,noun_phrase,smooth line,1
+unclustered,noun_phrase,so many cube,1
+unclustered,noun_phrase,so many detail,1
+unclustered,noun_phrase,so more thing,1
+unclustered,noun_phrase,soft color,1
+unclustered,noun_phrase,some info,1
+unclustered,noun_phrase,some kind,1
+unclustered,noun_phrase,some text,1
+unclustered,noun_phrase,some time,1
+unclustered,noun_phrase,some value,1
+unclustered,noun_phrase,sound,1
+unclustered,noun_phrase,spatial organization,1
+unclustered,noun_phrase,specialized education,1
+unclustered,noun_phrase,sport team,1
+unclustered,noun_phrase,spot,1
+unclustered,noun_phrase,stage,1
+unclustered,noun_phrase,stick,1
+unclustered,noun_phrase,stimulus,1
+unclustered,noun_phrase,story,1
+unclustered,noun_phrase,straightforward line,1
+unclustered,noun_phrase,structure,2
+unclustered,noun_phrase,stuff,2
+unclustered,noun_phrase,stuff writting,1
+unclustered,noun_phrase,style,2
+unclustered,noun_phrase,subject,1
+unclustered,noun_phrase,surroundingsfeel,1
+unclustered,noun_phrase,table,1
+unclustered,noun_phrase,technical way,1
+unclustered,noun_phrase,text label,1
+unclustered,noun_phrase,text shape,1
+unclustered,noun_phrase,textual datum,1
+unclustered,noun_phrase,texture,1
+unclustered,noun_phrase,the 2 point,1
+unclustered,noun_phrase,the arrangement,1
+unclustered,noun_phrase,the arrow,1
+unclustered,noun_phrase,the axis,1
+unclustered,noun_phrase,the big the word,1
+unclustered,noun_phrase,the box,1
+unclustered,noun_phrase,the chart,2
+unclustered,noun_phrase,the code,1
+unclustered,noun_phrase,the content,2
+unclustered,noun_phrase,the context,1
+unclustered,noun_phrase,the countriesr,1
+unclustered,noun_phrase,the data point,1
+unclustered,noun_phrase,the design,1
+unclustered,noun_phrase,the difference,2
+unclustered,noun_phrase,the distribution,1
+unclustered,noun_phrase,the dot,1
+unclustered,noun_phrase,the edge,1
+unclustered,noun_phrase,the eye,1
+unclustered,noun_phrase,the font,1
+unclustered,noun_phrase,the grid,1
+unclustered,noun_phrase,the idea,1
+unclustered,noun_phrase,the inclusion,1
+unclustered,noun_phrase,the key takeaway,2
+unclustered,noun_phrase,the label,1
+unclustered,noun_phrase,the letter,1
+unclustered,noun_phrase,the level,1
+unclustered,noun_phrase,the logic,2
+unclustered,noun_phrase,the majority,2
+unclustered,noun_phrase,the map,2
+unclustered,noun_phrase,the meaning,1
+unclustered,noun_phrase,the message,1
+unclustered,noun_phrase,the middle,1
+unclustered,noun_phrase,the number,2
+unclustered,noun_phrase,the page,1
+unclustered,noun_phrase,the pattern,1
+unclustered,noun_phrase,the picture,2
+unclustered,noun_phrase,the place,1
+unclustered,noun_phrase,the purpose,1
+unclustered,noun_phrase,the ratio,1
+unclustered,noun_phrase,the same area,1
+unclustered,noun_phrase,the same axis,1
+unclustered,noun_phrase,the same shade,1
+unclustered,noun_phrase,the sense,1
+unclustered,noun_phrase,the shading,1
+unclustered,noun_phrase,the shape,2
+unclustered,noun_phrase,the size,2
+unclustered,noun_phrase,the spot,1
+unclustered,noun_phrase,the square,1
+unclustered,noun_phrase,the subjetc,1
+unclustered,noun_phrase,the text,1
+unclustered,noun_phrase,the use,1
+unclustered,noun_phrase,the visualisation,1
+unclustered,noun_phrase,the visualization,2
+unclustered,noun_phrase,the word,2
+unclustered,noun_phrase,thickness,1
+unclustered,noun_phrase,thing,2
+unclustered,noun_phrase,thinness,1
+unclustered,noun_phrase,this graphic design,1
+unclustered,noun_phrase,this info,1
+unclustered,noun_phrase,this type,1
+unclustered,noun_phrase,those word,1
+unclustered,noun_phrase,tidier,1
+unclustered,noun_phrase,time scale,1
+unclustered,noun_phrase,tiny layout,1
+unclustered,noun_phrase,tiny writing,1
+unclustered,noun_phrase,too many circle,1
+unclustered,noun_phrase,too many data point,2
+unclustered,noun_phrase,too many division,1
+unclustered,noun_phrase,too many element,1
+unclustered,noun_phrase,too many letter,1
+unclustered,noun_phrase,too many move part,1
+unclustered,noun_phrase,too many number,1
+unclustered,noun_phrase,too many point,1
+unclustered,noun_phrase,too many section,1
+unclustered,noun_phrase,too many shape,2
+unclustered,noun_phrase,too many similar color,1
+unclustered,noun_phrase,too many spiral,1
+unclustered,noun_phrase,too many subplot,1
+unclustered,noun_phrase,too many thing,1
+unclustered,noun_phrase,too many variable,1
+unclustered,noun_phrase,too much information,2
+unclustered,noun_phrase,too much variable,1
+unclustered,noun_phrase,totally arbitrary color application,1
+unclustered,noun_phrase,train eye,1
+unclustered,noun_phrase,two color,2
+unclustered,noun_phrase,two different axis,1
+unclustered,noun_phrase,two different color,1
+unclustered,noun_phrase,two graph,1
+unclustered,noun_phrase,two letter,1
+unclustered,noun_phrase,two or three datum point,1
+unclustered,noun_phrase,two separate line,1
+unclustered,noun_phrase,ugly calligraphy,1
+unclustered,noun_phrase,uncertainty,1
+unclustered,noun_phrase,unclear fill bar,1
+unclustered,noun_phrase,undefined color,1
+unclustered,noun_phrase,undefined shape,1
+unclustered,noun_phrase,understandable visual,1
+unclustered,noun_phrase,understanding,1
+unclustered,noun_phrase,uneven shape,1
+unclustered,noun_phrase,unfamiliar chart,1
+unclustered,noun_phrase,unfamiliar design,1
+unclustered,noun_phrase,unique datum point,1
+unclustered,noun_phrase,unique shape,1
+unclustered,noun_phrase,unknown detail,1
+unclustered,noun_phrase,unlabeled legend/datum,1
+unclustered,noun_phrase,unsure,1
+unclustered,noun_phrase,upwards trend,1
+unclustered,noun_phrase,useful information,1
+unclustered,noun_phrase,vale,1
+unclustered,noun_phrase,variable,1
+unclustered,noun_phrase,variation,2
+unclustered,noun_phrase,varied and vibrant color,1
+unclustered,noun_phrase,varied color,1
+unclustered,noun_phrase,various aspect,1
+unclustered,noun_phrase,various color,1
+unclustered,noun_phrase,various geometrical shape,1
+unclustered,noun_phrase,various line,1
+unclustered,noun_phrase,various point,1
+unclustered,noun_phrase,various shade,1
+unclustered,noun_phrase,various shape,1
+unclustered,noun_phrase,various size,1
+unclustered,noun_phrase,vary size,1
+unclustered,noun_phrase,vast interpretation,1
+unclustered,noun_phrase,vast use,1
+unclustered,noun_phrase,vertical line,1
+unclustered,noun_phrase,very weird color,1
+unclustered,noun_phrase,visual clarity,1
+unclustered,noun_phrase,visual cue,1
+unclustered,noun_phrase,visual element,1
+unclustered,noun_phrase,visualization,2
+unclustered,noun_phrase,visually more detail,1
+unclustered,noun_phrase,wavelet coefficient,1
+unclustered,noun_phrase,way more information,2
+unclustered,noun_phrase,weather map,1
+unclustered,noun_phrase,weight graph,1
+unclustered,noun_phrase,weird color palette,1
+unclustered,noun_phrase,what color,1
+unclustered,noun_phrase,what datum,1
+unclustered,noun_phrase,what image,1
+unclustered,noun_phrase,what red and green indicate,1
+unclustered,noun_phrase,what value,1
+unclustered,noun_phrase,what visualization,1
+unclustered,noun_phrase,white color,1
+unclustered,noun_phrase,white space,1
+unclustered,noun_phrase,wide variety,1
+unclustered,noun_phrase,wind map,1
+unclustered,noun_phrase,word amount,1
+unclustered,noun_phrase,word/sentence,2
+unclustered,noun_phrase,wording,1
+unclustered,noun_phrase,world,1
+unclustered,noun_phrase,write information,1
+unclustered,noun_phrase,x and y axes. country,1
+unclustered,noun_phrase,x and y scales,1
+unclustered,noun_phrase,x-position,1
+unclustered,noun_phrase,x. y. color,1
+unclustered,noun_phrase,y axis,1
+unclustered,noun_phrase,y-axis,1
+unclustered,noun_phrase,y-axis variable,1
+unclustered,noun_phrase,y-position,1

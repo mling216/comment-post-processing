@@ -90,7 +90,6 @@
     ],
     "perceptual_element": [
       "color",
-      "colour",
       "shade",
       "contrast",
       "size",
@@ -233,7 +232,9 @@
       "abstract",
       "cognitive load",
       "high complexity",
-      "overall complexity"
+      "overall complexity",
+      "simplistic",
+      "simplicity"
     ],
     "readability": [
       "hard",
@@ -307,7 +308,8 @@
       "intricate",
       "arrangement",
       "order",
-      "dimension"
+      "dimension",
+      "distinctive"
     ],
     "aesthetics": [
       "visually appealing",
@@ -376,7 +378,8 @@
       "intersect",
       "position",
       "arrange",
-      "distribute"
+      "distribute",
+      "scattered"
     ],
     "semantic": [
       "represent",
@@ -423,7 +426,8 @@
       "think",
       "make sense",
       "confuse",
-      "challenge"
+      "challenge",
+      "thought"
     ],
     "evaluative": [
       "require",
@@ -529,7 +533,7 @@
       "order",
       "pack",
       "rank",
-      "realise",
+      "realize",
       "relate",
       "remember",
       "select",
@@ -740,7 +744,7 @@
       "colored segment",
       "colored surface",
       "colorization",
-      "colour",
+      "color",
       "column",
       "common knowledge",
       "company",
@@ -985,8 +989,8 @@
       "more area",
       "more axis",
       "more bar",
-      "more colour",
-      "more complex colour scheme",
+      "more color",
+      "more complex color scheme",
       "more complex design",
       "more complex shape",
       "more confusing color",
