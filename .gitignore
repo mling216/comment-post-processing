@@ -14,6 +14,7 @@ vc_genome_output_full/three_conditions/
 vc_genome_output_full/match/
 results/
 topic_selection/
+phrase_reduction_v2/
 
 # Deprecated notebooks
 deprecated/
